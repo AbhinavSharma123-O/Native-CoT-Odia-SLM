@@ -1,0 +1,12 @@
+{
+    "id": "1",
+    "problem": "Apex Builders has a tight deadline of 22 days for a three-phase project.\n\nPhase 1: Site Preparation & Foundation.\n    A team of 4 general laborers can complete Phase 1 in 5 days. Apex Builders currently has 3 general laborers.\n\nPhase 2: Structural Framing.\n    A team of 5 skilled carpenters can complete Phase 2 in 8 days. Apex Builders currently has 3 skilled carpenters. Any general laborer (from Phase 1) can assist with framing at 0.8 times the efficiency of a skilled carpenter.\n\nPhase 3: Finishing & Roofing.\n    A team of 3 specialized finishers can complete Phase 3 in 7 days. Apex Builders currently has 2 specialized finishers.\n\nAfter completing Phase 1, the general laborers become available for other tasks. After completing Phase 2, the skilled carpenters become available. The company needs to decide which one additional worker to hire (either a General Laborer, a Skilled Carpenter, or a Specialized Finisher) to ensure the project is completed within the 22-day deadline, assuming all additional workers cost the same. Which type of worker should they hire?",
+    "reasoning_steps": [
+        "Step 1: Calculate the baseline project time with the current staff. Calculate work units for each phase (workers * days). Then, calculate the time for each phase with available staff, considering worker availability and efficiency. Finally, sum the phase times for the total baseline project duration.",
+        "Step 2: Evaluate the impact of hiring an additional General Laborer. Recalculate the time for Phase 1 (more laborers). Adjust Phase 2's effective carpenter count due to more laborers being available to assist, and recalculate Phase 2's time. Phase 3 time remains unchanged. Sum the new phase times.",
+        "Step 3: Evaluate the impact of hiring an additional Skilled Carpenter. Phase 1 time remains unchanged. Recalculate Phase 2's effective carpenter count (more carpenters, plus existing laborers) and recalculate Phase 2's time. Phase 3 time remains unchanged. Sum the new phase times.",
+        "Step 4: Evaluate the impact of hiring an additional Specialized Finisher. Phase 1 and Phase 2 times remain unchanged. Recalculate Phase 3's time with the additional finisher. Sum the new phase times.",
+        "Step 5: Compare the total project times from each hiring scenario against the 22-day deadline. Identify which hiring options meet the deadline and choose the option that results in the shortest overall project duration."
+    ],
+    "final_answer": "Specialized Finisher"
+}

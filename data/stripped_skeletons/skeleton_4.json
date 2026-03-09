@@ -1,0 +1,18 @@
+{
+    "id": "1",
+    "original_problem": "A charity event has an initial budget of $5000. They spend 1/4 of the initial budget on renting the venue. After paying for the venue, they allocate 40% of the *remaining* budget for catering. Following the catering expenses, they spend a fixed amount of $750 on decorations. The money left after all these expenses is used to purchase gifts for attendees, with each gift costing $15. How many gifts can the charity buy?",
+    "deconstructed_problem": "A charity event has an initial budget of $5000. They spend 1/4 of the initial budget on renting the venue. After paying for the venue, they allocate 40% of the *remaining* budget for catering. Following the catering expenses, they spend a fixed amount of $750 on decorations. The money left after all these expenses is used to purchase gifts for attendees, with each gift costing $15. How many gifts can the charity buy?",
+    "original_steps": [
+        "Step 1: Calculate the cost of the venue by taking 1/4 of the initial budget, then subtract this from the initial budget to find the first remaining budget.",
+        "Step 2: Calculate the cost of catering by taking 40% of the budget remaining after venue expenses, then subtract this from the current remaining budget to find the second remaining budget.",
+        "Step 3: Subtract the fixed cost of $750 for decorations from the second remaining budget to find the final amount of money available for gifts.",
+        "Step 4: Divide the final amount of money available by the cost per gift ($15) to determine the total number of gifts that can be purchased."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the cost of the venue by taking 1/4 of the initial budget, ତାହେଲେ (then) ବିୟୋଗ (subtract) this from the initial budget to find the first remaining budget.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the cost of catering by taking 40% of the budget remaining after venue expenses, ତାହେଲେ (then) ବିୟୋଗ (subtract) this from the current remaining budget to find the second remaining budget.",
+        "ପଦକ୍ଷେପ (step) 3: ବିୟୋଗ (subtract) the fixed cost of $750 for decorations from the second remaining budget to find the final amount of money available for gifts.",
+        "ପଦକ୍ଷେପ (step) 4: ହରଣ (divide) the final amount of money available by the cost per gift ($15) to determine the ମୋଟ (total) number of gifts that can be purchased."
+    ],
+    "final_answer": "100 gifts"
+}

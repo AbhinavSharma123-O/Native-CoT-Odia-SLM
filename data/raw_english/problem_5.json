@@ -1,0 +1,12 @@
+{
+    "id": "1",
+    "problem": "A factory aims to produce a final batch of exactly 1000 perfectly functional widgets. In their initial production run, 10% of the widgets are found to be defective. These defective widgets are then sent to a re-work department. The re-work department has its own success rate: 80% of the widgets sent for re-work become perfectly functional, while the remaining 20% are deemed irreparable and are scrapped. Assuming all initially defective widgets are sent to re-work, what is the minimum number of widgets the factory must initially produce to guarantee at least 1000 perfectly functional widgets after considering both initial good production and successful re-works?",
+    "reasoning_steps": [
+        "Step 1: Identify the two sources of perfectly functional widgets. They come from the initial production that passes inspection and from the defective widgets that are successfully re-worked.",
+        "Step 2: Calculate the effective percentage of good widgets from each source relative to the total initial production. If 'X' is the total initial production: 90% of X (0.90X) are good from initial production. The remaining 10% of X (0.10X) are defective and sent to re-work. Of these, 80% become good, so 0.80 * (0.10X) = 0.08X widgets become good from re-work.",
+        "Step 3: Determine the total effective percentage of perfectly functional widgets produced from the initial batch. This is the sum of good widgets from initial production and good widgets from re-work: 0.90X + 0.08X = 0.98X. This means 98% of the initial production ultimately results in perfectly functional widgets.",
+        "Step 4: Set up an equation to find the required initial production 'X' to meet the target of 1000 perfectly functional widgets. The equation is 0.98X = 1000. Solving for X, X = 1000 / 0.98.",
+        "Step 5: Calculate the value of X and round up to the nearest whole number. X ≈ 1020.40816. Since widgets cannot be produced in fractions and the target is 'at least' 1000, the initial production must be rounded up to the next whole widget."
+    ],
+    "final_answer": "1021"
+}

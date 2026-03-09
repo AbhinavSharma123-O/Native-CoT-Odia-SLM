@@ -1,0 +1,20 @@
+{
+    "id": "1",
+    "original_problem": "Alice can build a standard wall in 10 hours, Bob in 15 hours, and Carol in 12 hours. David, a new worker, can build a standard wall in 8 hours. A construction project requires a total of 10 standard walls. Alice, Bob, and Carol begin working together. After 2 hours, Alice has to leave. Bob and Carol continue working for another 3 hours. At this point, David joins them, and Bob, Carol, and David work together until the project is completed. What is the total number of hours it took to complete the entire project from start to finish?",
+    "deconstructed_problem": "Alice can build a standard wall in 10 hours, Bob in 15 hours, and Carol in 12 hours. David, a new worker, can build a standard wall in 8 hours. A construction project requires a ମୋଟ (total) of 10 standard walls. Alice, Bob, and Carol begin working together. After 2 hours, Alice has to leave. Bob and Carol continue working for another 3 hours. At this point, David joins them, and Bob, Carol, and David work together until the project is completed. What is the ମୋଟ (total) number of hours it took to complete the entire project from start to finish?",
+    "original_steps": [
+        "Step 1: Calculate the individual work rates for Alice (1/10 walls/hr), Bob (1/15 walls/hr), Carol (1/12 walls/hr), and David (1/8 walls/hr). Then, determine the combined work rate for the first phase (Alice, Bob, Carol) and the total work completed in the initial 2 hours.",
+        "Step 2: Calculate the combined work rate for the second phase (Bob and Carol) after Alice leaves. Determine the amount of work completed by Bob and Carol in the subsequent 3 hours and calculate the remaining work after these two phases.",
+        "Step 3: Calculate the combined work rate for the third phase, where Bob, Carol, and David work together until the project is completed.",
+        "Step 4: Determine the time required for the third phase by dividing the remaining work by the combined work rate of Bob, Carol, and David.",
+        "Step 5: Sum the durations of all three phases (2 hours + 3 hours + time from Step 4) to find the total time taken for the entire project."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the individual work rates for Alice (1/10 walls/hr), Bob (1/15 walls/hr), Carol (1/12 walls/hr), and David (1/8 walls/hr). ତାହେଲେ (then), determine the combined work rate for the first phase (Alice, Bob, Carol) and the ମୋଟ (total) work completed in the initial 2 hours.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the combined work rate for the second phase (Bob and Carol) after Alice leaves. Determine the amount of work completed by Bob and Carol in the subsequent 3 hours and calculate the remaining work after these two phases.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the combined work rate for the third phase, where Bob, Carol, and David work together until the project is completed.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the time required for the third phase by dividing the remaining work by the combined work rate of Bob, Carol, and David.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the durations of all three phases (2 hours + 3 hours + time from ପଦକ୍ଷେପ (step) 4) to find the ମୋଟ (total) time taken for the entire project."
+    ],
+    "final_answer": "417/11 hours"
+}

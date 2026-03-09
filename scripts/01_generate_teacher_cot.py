@@ -3,9 +3,15 @@ import json
 import time
 from google import genai
 from google.genai import types
+from dotenv import load_dotenv
+
+# Load the secret variables from the hidden .env file
+load_dotenv()
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyDFny7EAIUyXoSEH0OEsqw7gBPoSbhYt88" # <-- Paste your Gemini key here
+API_KEY = os.getenv("AIzaSyA3-h4ZXfyG1PZ3zIkIkafQ6sFLH-UimKQ")
+if not API_KEY:
+    raise ValueError("API Key not found! Please check your .env file.")
 
 # Initialize the NEW official client
 client = genai.Client(api_key=API_KEY)
@@ -62,6 +68,6 @@ def generate_reasoning_problem(index):
         print(f"Error on problem {index}: {e}")
 
 if __name__ == "__main__":
-    for i in range(1, 6):
+    for i in range(1, 1001):
         generate_reasoning_problem(i)
         time.sleep(3)

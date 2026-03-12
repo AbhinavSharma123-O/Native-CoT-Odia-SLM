@@ -1,0 +1,20 @@
+{
+    "id": "270",
+    "original_problem": "In a small town, there are three types of shops: grocery stores, clothing stores, and restaurants. The town has a total of 25 shops, with 5 more grocery stores than clothing stores, and 3 more restaurants than grocery stores. If the total number of employees in all the shops is 250, with grocery stores having 5 employees each, clothing stores having 3 employees each, and restaurants having 7 employees each, how many clothing stores are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: grocery stores, clothing stores, and restaurants. The town has a ମୋଟ (total) of 25 shops, with 5 more grocery stores than clothing stores, and 3 more restaurants than grocery stores. ଯଦି (if) the ମୋଟ (total) number of employees in all the shops is 250, with grocery stores having 5 employees each, clothing stores having 3 employees each, and restaurants having 7 employees each, how many clothing stores are there in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of store, letting G represent the number of grocery stores, C represent the number of clothing stores, and R represent the number of restaurants.",
+        "Step 2: Set up equations based on the given information: G = C + 5 and R = G + 3, and the total number of shops G + C + R = 25.",
+        "Step 3: Substitute G in the equation for R to express R in terms of C: R = (C + 5) + 3 = C + 8.",
+        "Step 4: Substitute the expressions for G and R into the total shops equation: (C + 5) + C + (C + 8) = 25, simplifying to 3C + 13 = 25.",
+        "Step 5: Solve the equation for C: 3C = 25 - 13, 3C = 12, C = 12 / 3, C = 4."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of store, letting G represent the number of grocery stores, C represent the number of clothing stores, and R represent the number of restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: G = C + 5 and R = G + 3, and the ମୋଟ (total) number of shops G + C + R = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute G in the ସମୀକରଣ (equation) for R to express R in terms of C: R = (C + 5) + 3 = C + 8.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for G and R into the ମୋଟ (total) shops ସମୀକରଣ (equation): (C + 5) + C + (C + 8) = 25, simplifying to 3C + 13 = 25.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) for C: 3C = 25 - 13, 3C = 12, C = 12 / 3, C = 4."
+    ],
+    "final_answer": "4"
+}

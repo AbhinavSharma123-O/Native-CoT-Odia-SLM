@@ -1,0 +1,12 @@
+{
+    "id": "757",
+    "problem": "In a small town, there are three water towers - A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. On a given day, Tower A starts with 100 liters, Tower B starts with 150 liters, and Tower C starts with 200 liters. The town's water needs require that the total amount of water in the towers must be at least 1000 liters at the end of each day. If the town uses 50 liters of water from the towers every hour, and each tower can hold a maximum of 500 liters, what is the minimum number of minutes the town needs to run the water filling system to meet the daily water requirement, assuming the system runs continuously without any breaks?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total initial amount of water in all three towers.",
+        "Step 2: Determine the maximum amount of water each tower can hold and the total maximum capacity of all towers.",
+        "Step 3: Calculate the net rate at which the water level in the towers increases after accounting for the town's water usage.",
+        "Step 4: Formulate an equation to represent the total amount of water in the towers as a function of time, considering both the filling rates and the usage rate.",
+        "Step 5: Solve the equation to find the minimum time required to reach the total amount of 1000 liters, ensuring that no tower exceeds its maximum capacity."
+    ],
+    "final_answer": "240"
+}

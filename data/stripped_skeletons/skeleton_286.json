@@ -1,0 +1,20 @@
+{
+    "id": "286",
+    "original_problem": "In a small town, there are three types of shops: cafes, restaurants, and bakeries. The town has a total of 25 shops. The number of cafes is 5 more than the number of restaurants, and the number of bakeries is 3 less than the number of cafes. If the total number of employees in all the shops is 150, and each cafe has 5 employees, each restaurant has 8 employees, and each bakery has 4 employees, how many restaurants are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: cafes, restaurants, and bakeries. The town has a ମୋଟ (total) of 25 shops. The number of cafes is 5 more than the number of restaurants, and the number of bakeries is 3 less than the number of cafes. ଯଦି (if) the ମୋଟ (total) number of employees in all the shops is 150, and each cafe has 5 employees, each restaurant has 8 employees, and each bakery has 4 employees, how many restaurants are there in the town?",
+    "original_steps": [
+        "Step 1: Define variables for the number of each type of shop: let C be the number of cafes, R be the number of restaurants, and B be the number of bakeries.",
+        "Step 2: Translate given information into equations: C = R + 5, B = C - 3, and C + R + B = 25.",
+        "Step 3: Use substitution to solve the system of equations for C, R, and B: substituting C and B in terms of R into the total shops equation gives (R + 5) + R + ((R + 5) - 3) = 25.",
+        "Step 4: Solve the equation from step 3 to find the value of R: simplifying yields 3R + 7 = 25, then 3R = 18, so R = 6.",
+        "Step 5: Verify the solution using the total number of employees: calculate the total number of employees using the found values of R and derived values of C and B, and check if it equals 150."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of each type of shop: let C be the number of cafes, R be the number of restaurants, and B be the number of bakeries.",
+        "ପଦକ୍ଷେପ (step) 2: Translate given information into equations: C = R + 5, B = C - 3, and C + R + B = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Use substitution to solve the system of equations for C, R, and B: substituting C and B in terms of R into the ମୋଟ (total) shops ସମୀକରଣ (equation) gives (R + 5) + R + ((R + 5) - 3) = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to find the value of R: simplifying yields 3R + 7 = 25, ତାହେଲେ (then) 3R = 18, so R = 6.",
+        "ପଦକ୍ଷେପ (step) 5: Verify the solution using the ମୋଟ (total) number of employees: calculate the ମୋଟ (total) number of employees using the found values of R and derived values of C and B, and check ଯଦି (if) it ସମାନ (equals) 150."
+    ],
+    "final_answer": "6"
+}

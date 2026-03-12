@@ -1,0 +1,20 @@
+{
+    "id": "866",
+    "original_problem": "In a small town, there are 5 buses (A, B, C, D, E) that operate on different schedules. Each bus has a distinct number of seats (15, 20, 25, 30, 35), and they run at different intervals (15, 30, 45, 60, 90 minutes). The buses also have different fuel efficiencies (5, 7, 9, 11, 13 miles per gallon). If bus A has 25 seats, runs every 45 minutes, and has a fuel efficiency of 9 miles per gallon, bus B has 30 seats and runs every 60 minutes, bus C has 15 seats and a fuel efficiency of 11 miles per gallon, bus D runs every 15 minutes with a fuel efficiency of 5 miles per gallon, and bus E has 35 seats and runs every 90 minutes with a fuel efficiency of 13 miles per gallon, how many gallons of fuel will be consumed by all the buses in a 24-hour period, assuming each bus travels 120 miles per hour and the buses only run for 18 hours a day?",
+    "deconstructed_problem": "In a small town, there are 5 buses (A, B, C, D, E) that operate on different schedules. Each bus has a distinct number of seats (15, 20, 25, 30, 35), and they run at different intervals (15, 30, 45, 60, 90 minutes). The buses also have different fuel efficiencies (5, 7, 9, 11, 13 miles per gallon). ଯଦି (if) bus A has 25 seats, runs every 45 minutes, and has a fuel efficiency of 9 miles per gallon, bus B has 30 seats and runs every 60 minutes, bus C has 15 seats and a fuel efficiency of 11 miles per gallon, bus D runs every 15 minutes with a fuel efficiency of 5 miles per gallon, and bus E has 35 seats and runs every 90 minutes with a fuel efficiency of 13 miles per gallon, how many gallons of fuel will be consumed by all the buses in a 24-hour period, assuming each bus travels 120 miles per hour and the buses only run for 18 hours a day?",
+    "original_steps": [
+        "Step 1: Determine the number of seats, interval, and fuel efficiency for each bus",
+        "Step 2: Calculate the total distance traveled by each bus in an 18-hour period",
+        "Step 3: Calculate the total time each bus spends running in an 18-hour period",
+        "Step 4: Calculate the total amount of fuel consumed by each bus in an 18-hour period using the formula: fuel consumption = total distance / fuel efficiency",
+        "Step 5: Sum the fuel consumption of all buses to find the total fuel consumption"
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of seats, interval, and fuel efficiency for each bus",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) distance traveled by each bus in an 18-hour period",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) time each bus spends running in an 18-hour period",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) amount of fuel consumed by each bus in an 18-hour period using the formula: fuel consumption = ମୋଟ (total) distance / fuel efficiency",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the fuel consumption of all buses to find the ମୋଟ (total) fuel consumption"
+    ],
+    "final_answer": "279.36"
+}

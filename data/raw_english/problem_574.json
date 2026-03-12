@@ -1,0 +1,14 @@
+{
+    "id": "574",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 200 units of flour per day, each cafe uses 150 units of flour per day, and each restaurant uses 300 units of flour per day. The town has a total of 25 shops. The total amount of flour used by all the shops in a day is 4800 units. Additionally, the number of cafes is 5 more than the number of bakeries, and the number of restaurants is 5 less than the number of bakeries. How many bakeries are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of shop: let B be the number of bakeries, C be the number of cafes, and R be the number of restaurants.",
+        "Step 2: Establish the relationships between the variables based on the given information: C = B + 5 and R = B - 5.",
+        "Step 3: Express the total number of shops in terms of B: B + C + R = 25, substituting C and R from step 2 gives B + (B + 5) + (B - 5) = 25.",
+        "Step 4: Simplify the equation from step 3 to find B: 3B = 25, therefore B = 25 / 3.",
+        "Step 5: However, step 4 simplification was incorrect; correctly simplifying the equation B + B + 5 + B - 5 = 25 leads to 3B = 25, which is also incorrect due to a mistake in simplification. The correct approach should involve using the total flour consumption to form another equation: 200B + 150C + 300R = 4800, and then substitute C and R with their expressions from step 2.",
+        "Step 6: Correctly simplify the equation from step 3: B + B + 5 + B - 5 = 25 simplifies to 3B = 25, which was a mistake in calculation. The correct step should involve solving the equation without the error: the correct formation of the equation based on the total number of shops is indeed B + (B + 5) + (B - 5) = 25, which simplifies correctly to 3B = 25. However, this step was misinterpreted. The actual mistake was in assuming the simplification directly led to a solution without considering the flour consumption equation properly.",
+        "Step 7: Correct the mistake by properly applying the relationships and the total flour consumption: Given that C = B + 5 and R = B - 5, and knowing the total flour consumption, we should set up the equation based on flour usage: 200B + 150(B + 5) + 300(B - 5) = 4800, and then solve for B correctly."
+    ],
+    "final_answer": "There are 5 bakeries in the town."
+}

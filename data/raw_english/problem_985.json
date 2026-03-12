@@ -1,0 +1,12 @@
+{
+    "id": "985",
+    "problem": "In the city of Azura, there are three types of coins: gold, silver, and copper. The gold coin weighs 10 grams, the silver coin weighs 5 grams, and the copper coin weighs 2 grams. A merchant has 30 coins in total, consisting of gold, silver, and copper coins. The total weight of the coins is 180 grams. If the number of copper coins is 5 more than the number of gold coins, and the number of silver coins is 2 less than the number of gold coins, how many gold coins does the merchant have?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of gold, silver, and copper coins. Let's denote the number of gold coins as G, the number of silver coins as S, and the number of copper coins as C.",
+        "Step 2: Set up equations based on the given information. We know that G + S + C = 30 (total number of coins), C = G + 5 (number of copper coins), and S = G - 2 (number of silver coins).",
+        "Step 3: Substitute the expressions for S and C into the equation for the total number of coins to find a relationship involving only G. This gives us G + (G - 2) + (G + 5) = 30.",
+        "Step 4: Simplify the equation from Step 3 to solve for G. This results in 3G + 3 = 30, which simplifies further to 3G = 27 after subtracting 3 from both sides.",
+        "Step 5: Solve for G by dividing both sides of the equation by 3. This gives us G = 9, which represents the number of gold coins the merchant has."
+    ],
+    "final_answer": "9"
+}

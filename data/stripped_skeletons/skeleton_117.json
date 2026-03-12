@@ -1,0 +1,20 @@
+{
+    "id": "117",
+    "original_problem": "In a factory, there are three types of machines: A, B, and C. Machine A produces 200 units per hour, Machine B produces 300 units per hour, and Machine C produces 400 units per hour. However, the production rates are affected by the number of workers assigned to each machine. For every worker added to Machine A, its production rate increases by 10 units per hour. For every worker added to Machine B, its production rate decreases by 20 units per hour. For every worker added to Machine C, its production rate increases by 15 units per hour. If there are 10 workers available and the objective is to maximize the total production rate, how many workers should be assigned to each machine to achieve this goal?",
+    "deconstructed_problem": "In a factory, there are three types of machines: A, B, and C. Machine A produces 200 units per hour, Machine B produces 300 units per hour, and Machine C produces 400 units per hour. However, the production rates are affected by the number of workers assigned to each machine. For every worker added to Machine A, its production rate increases by 10 units per hour. For every worker added to Machine B, its production rate decreases by 20 units per hour. For every worker added to Machine C, its production rate increases by 15 units per hour. ଯଦି (if) there are 10 workers available and the objective is to maximize the ମୋଟ (total) production rate, how many workers should be assigned to each machine to achieve this goal?",
+    "original_steps": [
+        "Step 1: Define the production rate functions for each machine based on the number of workers assigned, considering the increases and decreases in production rates.",
+        "Step 2: Formulate the total production rate as a function of the number of workers assigned to each machine, taking into account the production rates of Machines A, B, and C.",
+        "Step 3: Apply the constraint that the total number of workers assigned to all machines must equal 10, and express this as an equation.",
+        "Step 4: Use optimization techniques, such as linear programming or calculus, to find the values of workers assigned to each machine that maximize the total production rate, given the constraints.",
+        "Step 5: Calculate the maximum total production rate achievable with the optimal assignment of workers to each machine."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the production rate functions for each machine based on the number of workers assigned, considering the increases and decreases in production rates.",
+        "ପଦକ୍ଷେପ (step) 2: Formulate the ମୋଟ (total) production rate as a function of the number of workers assigned to each machine, taking into account the production rates of Machines A, B, and C.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the constraint that the ମୋଟ (total) number of workers assigned to all machines must ସମାନ (equal) 10, and express this as an ସମୀକରଣ (equation).",
+        "ପଦକ୍ଷେପ (step) 4: Use optimization techniques, such as linear programming or calculus, to find the values of workers assigned to each machine that maximize the ମୋଟ (total) production rate, given the constraints.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the maximum ମୋଟ (total) production rate achievable with the optimal assignment of workers to each machine."
+    ],
+    "final_answer": "Assign 5 workers to Machine A, 0 workers to Machine B, and 5 workers to Machine C, resulting in a maximum total production rate of 200 + (5*10) + 0 + 400 + (5*15) = 200 + 50 + 400 + 75 = 725 units per hour."
+}

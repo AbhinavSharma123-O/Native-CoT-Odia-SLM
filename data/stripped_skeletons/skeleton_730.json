@@ -1,0 +1,20 @@
+{
+    "id": "730",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed amount of bread per day, with the total amount being 250 loaves. The cafes sell a combination of bread and pastries, with each cafe selling 50 more pastries than loaves of bread. The restaurants sell only pastries, with each restaurant selling 200 pastries per day. If there are 5 bakeries, and the total number of pastries sold by all cafes and restaurants is 5000, and each cafe sells 20 loaves of bread, how many restaurants are there in total, given that the total number of shops is 15?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed amount of bread per day, with the ମୋଟ (total) amount being 250 loaves. The cafes sell a combination of bread and pastries, with each cafe selling 50 more pastries than loaves of bread. The restaurants sell only pastries, with each restaurant selling 200 pastries per day. ଯଦି (if) there are 5 bakeries, and the ମୋଟ (total) number of pastries sold by all cafes and restaurants is 5000, and each cafe sells 20 loaves of bread, how many restaurants are there in ମୋଟ (total), given that the ମୋଟ (total) number of shops is 15?",
+    "original_steps": [
+        "Step 1: Determine the total number of loaves of bread sold by all bakeries, which is 250 loaves per day, and since there are 5 bakeries, calculate the total number of loaves sold by all bakeries.",
+        "Step 2: Calculate the number of loaves of bread sold by all cafes, knowing each cafe sells 20 loaves, and use this information to find out how many cafes there are.",
+        "Step 3: Find the total number of pastries sold by all cafes, knowing each cafe sells 50 more pastries than loaves of bread, and use the number of cafes calculated in step 2.",
+        "Step 4: Subtract the total number of pastries sold by cafes from the total number of pastries sold by both cafes and restaurants to find the number of pastries sold by all restaurants.",
+        "Step 5: Calculate the number of restaurants by dividing the total number of pastries sold by restaurants by the number of pastries each restaurant sells per day, which is 200."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of loaves of bread sold by all bakeries, which is 250 loaves per day, and since there are 5 bakeries, calculate the ମୋଟ (total) number of loaves sold by all bakeries.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of loaves of bread sold by all cafes, knowing each cafe sells 20 loaves, and use this information to find out how many cafes there are.",
+        "ପଦକ୍ଷେପ (step) 3: Find the ମୋଟ (total) number of pastries sold by all cafes, knowing each cafe sells 50 more pastries than loaves of bread, and use the number of cafes calculated in ପଦକ୍ଷେପ (step) 2.",
+        "ପଦକ୍ଷେପ (step) 4: ବିୟୋଗ (subtract) the ମୋଟ (total) number of pastries sold by cafes from the ମୋଟ (total) number of pastries sold by both cafes and restaurants to find the number of pastries sold by all restaurants.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of restaurants by dividing the ମୋଟ (total) number of pastries sold by restaurants by the number of pastries each restaurant sells per day, which is 200."
+    ],
+    "final_answer": "5"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "50",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system is such that Tank A is filled at a rate of 200 gallons per hour, Tank B is filled at a rate of 150 gallons per hour, and Tank C is filled at a rate of 300 gallons per hour. However, due to leakage, Tank A loses 50 gallons per hour, Tank B loses 25 gallons per hour, and Tank C loses 75 gallons per hour. If all tanks are initially empty and the town's water supply system operates for 5 hours, how many gallons of water will be in Tank C after this period, given that Tank A overflows when full and any excess water goes to Tank B, and when Tank B is full, any excess water then goes to Tank C?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net fill rate for each tank by subtracting the leakage rate from the fill rate. For Tank A, the net fill rate is 200 - 50 = 150 gallons per hour. For Tank B, it's 150 - 25 = 125 gallons per hour. For Tank C, it's 300 - 75 = 225 gallons per hour.",
+        "Step 2: Determine how long it takes for each tank to fill up based on their capacities and net fill rates. Tank A fills up in 1200 / 150 = 8 hours, Tank B in 800 / 125 = 6.4 hours, and Tank C in 1500 / 225 = 6.67 hours.",
+        "Step 3: Since the system operates for 5 hours, which is less than the time it takes for any tank to fill up completely, we need to calculate how much water each tank will have after 5 hours based on their net fill rates. Tank A will have 150 * 5 = 750 gallons, Tank B will have 125 * 5 = 625 gallons, and Tank C will have 225 * 5 = 1125 gallons.",
+        "Step 4: Because Tank A does not overflow within the 5-hour period (it would need 8 hours to fill), we do not need to consider overflow to Tank B or subsequently to Tank C within this timeframe. Thus, the amount of water in Tank C after 5 hours remains as calculated.",
+        "Step 5: Consider any potential misinterpretation of the overflow conditions and confirm that since neither Tank A nor Tank B reaches capacity within the 5-hour window, there is no excess water transferred to Tank C beyond its normal fill rate."
+    ],
+    "final_answer": "1125"
+}

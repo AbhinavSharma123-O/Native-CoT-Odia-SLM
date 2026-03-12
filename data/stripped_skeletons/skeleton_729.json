@@ -1,0 +1,20 @@
+{
+    "id": "729",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water usage is as follows: the school uses 500 gallons per day, the hospital uses 750 gallons per day, and the residential area uses 1000 gallons per day. On a given day, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full. If 2000 gallons of water are added to Tower A, and then 1000 gallons are transferred from Tower A to Tower B, and finally, 500 gallons are transferred from Tower B to Tower C, how many gallons of water will be left in Tower C after the town's daily water usage?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water usage is as follows: the school uses 500 gallons per day, the hospital uses 750 gallons per day, and the residential area uses 1000 gallons per day. On a given day, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full. ଯଦି (if) 2000 gallons of water are added to Tower A, and ତାହେଲେ (then) 1000 gallons are transferred from Tower A to Tower B, and finally, 500 gallons are transferred from Tower B to Tower C, how many gallons of water will be left in Tower C after the town's daily water usage?",
+    "original_steps": [
+        "Step 1: Calculate the initial amount of water in each tower: Tower A = 2000 * (3/4) = 1500 gallons, Tower B = 3000 * (1/2) = 1500 gallons, Tower C = 4000 * (2/3) = 2666.67 gallons.",
+        "Step 2: Calculate the amount of water in Tower A after adding 2000 gallons: 1500 + 2000 = 3500 gallons.",
+        "Step 3: Calculate the amount of water in Tower A and Tower B after transferring 1000 gallons from Tower A to Tower B: Tower A = 3500 - 1000 = 2500 gallons, Tower B = 1500 + 1000 = 2500 gallons.",
+        "Step 4: Calculate the amount of water in Tower B and Tower C after transferring 500 gallons from Tower B to Tower C: Tower B = 2500 - 500 = 2000 gallons, Tower C = 2666.67 + 500 = 3166.67 gallons.",
+        "Step 5: Calculate the total daily water usage: 500 (school) + 750 (hospital) + 1000 (residential) = 2250 gallons."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial amount of water in each tower: Tower A = 2000 * (3/4) = 1500 gallons, Tower B = 3000 * (1/2) = 1500 gallons, Tower C = 4000 * (2/3) = 2666.67 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water in Tower A after adding 2000 gallons: 1500 + 2000 = 3500 gallons.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the amount of water in Tower A and Tower B after transferring 1000 gallons from Tower A to Tower B: Tower A = 3500 - 1000 = 2500 gallons, Tower B = 1500 + 1000 = 2500 gallons.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water in Tower B and Tower C after transferring 500 gallons from Tower B to Tower C: Tower B = 2500 - 500 = 2000 gallons, Tower C = 2666.67 + 500 = 3166.67 gallons.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) daily water usage: 500 (school) + 750 (hospital) + 1000 (residential) = 2250 gallons."
+    ],
+    "final_answer": "3166.67 - 2250 = 916.67"
+}

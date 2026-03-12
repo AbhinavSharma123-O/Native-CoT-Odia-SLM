@@ -1,0 +1,20 @@
+{
+    "id": "481",
+    "original_problem": "In a mystical forest, there are five temples, each with a distinct color: blue, green, red, white, and yellow. Each temple has a specific number of monks: 10, 15, 20, 25, and 30. Using the following clues, determine the color of the temple with 20 monks and the total number of monks in the temples with the two lightest colors. Clue 1: The green temple has 5 more monks than the blue temple. Clue 2: The red temple has 5 fewer monks than the yellow temple. Clue 3: The white temple has the most monks. Clue 4: The blue temple has 10 monks.",
+    "deconstructed_problem": "In a mystical forest, there are five temples, each with a distinct color: blue, green, red, white, and yellow. Each temple has a specific number of monks: 10, 15, 20, 25, and 30. Using the following clues, determine the color of the temple with 20 monks and the ମୋଟ (total) number of monks in the temples with the two lightest colors. Clue 1: The green temple has 5 more monks than the blue temple. Clue 2: The red temple has 5 fewer monks than the yellow temple. Clue 3: The white temple has the most monks. Clue 4: The blue temple has 10 monks.",
+    "original_steps": [
+        "Step 1: Analyze Clue 4 to establish the number of monks in the blue temple as 10, and use Clue 1 to determine the green temple has 15 monks.",
+        "Step 2: Apply Clue 3 to identify the white temple as having the most monks, which must be 30 since it's the largest number provided.",
+        "Step 3: Utilize Clue 2 to set up an equation for the red and yellow temples: let R be the number of monks in the red temple and Y be the number in the yellow temple, so R = Y - 5.",
+        "Step 4: Knowing the numbers of monks in the blue, green, and white temples (10, 15, and 30 respectively), and that the remaining numbers are 20 and 25, use the equation from Step 3 to solve for R and Y, considering the constraints that the red temple cannot have 30 monks (since the white temple does) and must fit the equation R = Y - 5.",
+        "Step 5: Determine the color of the temple with 20 monks by process of elimination and the constraints provided, then calculate the total number of monks in the two lightest-colored temples."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Analyze Clue 4 to establish the number of monks in the blue temple as 10, and use Clue 1 to determine the green temple has 15 monks.",
+        "ପଦକ୍ଷେପ (step) 2: Apply Clue 3 to identify the white temple as having the most monks, which must be 30 since it's the largest number provided.",
+        "ପଦକ୍ଷେପ (step) 3: Utilize Clue 2 to set up an ସମୀକରଣ (equation) for the red and yellow temples: let R be the number of monks in the red temple and Y be the number in the yellow temple, so R = Y - 5.",
+        "ପଦକ୍ଷେପ (step) 4: Knowing the numbers of monks in the blue, green, and white temples (10, 15, and 30 respectively), and that the remaining numbers are 20 and 25, use the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to solve for R and Y, considering the constraints that the red temple cannot have 30 monks (since the white temple does) and must fit the ସମୀକରଣ (equation) R = Y - 5.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the color of the temple with 20 monks by process of elimination and the constraints provided, ତାହେଲେ (then) calculate the ମୋଟ (total) number of monks in the two lightest-colored temples."
+    ],
+    "final_answer": "The temple with 20 monks is yellow, and the total number of monks in the two lightest colors (white and yellow) is 50."
+}

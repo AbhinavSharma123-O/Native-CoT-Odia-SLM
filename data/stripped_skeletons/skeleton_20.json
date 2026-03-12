@@ -1,0 +1,51 @@
+{
+    "id": "20",
+    "original_problem": "In a small town, there are three types of houses: blue, red, and green. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address, nationality, and favorite drink of each house: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the blue house. The person who owns the red house does not live next to the person who drinks coffee. The person who drinks tea lives in the house next to the British person. The person who owns the green house drinks soda. The American lives in the house next to the person who drinks water. The person who drinks coffee lives in the house next to the person who owns the red house. The Japanese person lives in the house next to the person who drinks tea.",
+    "deconstructed_problem": "In a small town, there are three types of houses: blue, red, and green. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address, nationality, and favorite drink of each house: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the blue house. The person who owns the red house does not live next to the person who drinks coffee. The person who drinks tea lives in the house next to the British person. The person who owns the green house drinks soda. The American lives in the house next to the person who drinks water. The person who drinks coffee lives in the house next to the person who owns the red house. The Japanese person lives in the house next to the person who drinks tea.",
+    "original_steps": [
+        "Step 1: Determine the possible addresses of each house based on the given clues about the Canadian and the colors of the houses.",
+        "Step 2: Use the clues about the favorite drinks to narrow down the possible nationalities and addresses of each house.",
+        "Step 3: Apply the clues about the British and Japanese persons to further restrict the possible combinations of nationality, address, and favorite drink.",
+        "Step 4: Utilize the clues about the American and the person who drinks water to make further deductions about the addresses and nationalities.",
+        "Step 5: Combine all the information to determine the unique address, nationality, and favorite drink of each house."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible addresses of each house based on the given clues about the Canadian and the colors of the houses.",
+        "ପଦକ୍ଷେପ (step) 2: Use the clues about the favorite drinks to narrow down the possible nationalities and addresses of each house.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the clues about the British and Japanese persons to further restrict the possible combinations of nationality, address, and favorite drink.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize the clues about the American and the person who drinks water to make further deductions about the addresses and nationalities.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all the information to determine the unique address, nationality, and favorite drink of each house."
+    ],
+    "final_answer": {
+        "house1": {
+            "address": "1",
+            "nationality": "Canadian",
+            "favorite_drink": "milk",
+            "color": "blue"
+        },
+        "house2": {
+            "address": "2",
+            "nationality": "British",
+            "favorite_drink": "tea",
+            "color": "red"
+        },
+        "house3": {
+            "address": "3",
+            "nationality": "Indian",
+            "favorite_drink": "coffee",
+            "color": "green"
+        },
+        "house4": {
+            "address": "4",
+            "nationality": "American",
+            "favorite_drink": "soda",
+            "color": "yellow"
+        },
+        "house5": {
+            "address": "5",
+            "nationality": "Japanese",
+            "favorite_drink": "water",
+            "color": "yellow"
+        }
+    }
+}

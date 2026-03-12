@@ -1,0 +1,12 @@
+{
+    "id": "681",
+    "problem": "In a small town, there are three types of currency: gold coins, silver coins, and copper coins. The town has a total of 1200 coins. The number of gold coins is 1/4 the number of silver coins, and the number of copper coins is 2/3 the number of gold coins. If 15% of the silver coins and 20% of the copper coins are counterfeit, what is the total number of genuine coins in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of gold, silver, and copper coins, and establish the relationships between them based on the given information.",
+        "Step 2: Express the number of gold coins in terms of the number of silver coins, and then find the number of copper coins in terms of the number of gold coins.",
+        "Step 3: Set up an equation using the fact that the total number of coins is 1200 to solve for the number of silver coins, then calculate the numbers of gold and copper coins.",
+        "Step 4: Calculate the number of counterfeit silver and copper coins based on the percentages given.",
+        "Step 5: Subtract the total number of counterfeit coins from the total number of coins to find the number of genuine coins."
+    ],
+    "final_answer": "956"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "719",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system can fill Tank A at a rate of 200 gallons per hour, Tank B at a rate of 150 gallons per hour, and Tank C at a rate of 300 gallons per hour. However, due to some leakages, Tank A loses water at a rate of 50 gallons per hour, Tank B loses water at a rate of 25 gallons per hour, and Tank C loses water at a rate of 75 gallons per hour. If all three tanks are currently empty and the town's water supply system starts filling them at the same time, how many hours will it take to fill all three tanks to their maximum capacities?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net filling rate for each tank by subtracting the leakage rate from the filling rate. For Tank A, the net filling rate is 200 - 50 = 150 gallons per hour. For Tank B, the net filling rate is 150 - 25 = 125 gallons per hour. For Tank C, the net filling rate is 300 - 75 = 225 gallons per hour.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net filling rate. For Tank A, the time to fill is 1200 / 150 = 8 hours. For Tank B, the time to fill is 800 / 125 = 6.4 hours. For Tank C, the time to fill is 1500 / 225 = 6.67 hours.",
+        "Step 3: Identify the tank that takes the longest to fill, as this will determine the total time required to fill all three tanks. In this case, Tank A takes the longest to fill at 8 hours.",
+        "Step 4: Since the question asks for the time to fill all three tanks to their maximum capacities, and they are being filled simultaneously, the time it takes to fill the tank that requires the longest time will be the answer. Therefore, no additional calculations are needed beyond identifying the tank with the longest fill time.",
+        "Step 5: Confirm that the calculation for the longest fill time is indeed the solution to the problem, ensuring that all tanks will be filled to their capacities within this timeframe, considering their respective fill rates and leakages."
+    ],
+    "final_answer": "8"
+}

@@ -1,0 +1,17 @@
+{
+    "id": "350",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop sells a different product. The town has a total of 240 shops. Type A shops sell 15 units of their product per day, Type B shops sell 20 units, and Type C shops sell 30 units. On a given day, a total of 3600 units were sold. Additionally, the town council has a rule that for every 4 Type A shops, there must be exactly 3 Type B shops and for every 2 Type C shops, there must be exactly 5 Type A shops. How many shops of each type are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of shop. Let's denote the number of Type A shops as A, Type B shops as B, and Type C shops as C.",
+        "Step 2: Establish the relationships between the types of shops based on the council's rules. From the first rule, we have B = (3/4)A. From the second rule, we have C = (2/5)A or A = (5/2)C.",
+        "Step 3: Express the total number of shops using the variables A, B, and C. We know that A + B + C = 240. Substituting the expressions for B and C from Step 2 gives us A + (3/4)A + (2/5)A = 240.",
+        "Step 4: Solve the equation from Step 3 to find the value of A. Combining like terms, we get (1 + 3/4 + 2/5)A = 240. Finding a common denominator and simplifying yields (20/20 + 15/20 + 8/20)A = 240, which simplifies to (43/20)A = 240. Solving for A gives A = 240 * (20/43).",
+        "Step 5: Calculate the values of B and C using the relationships found in Step 2. With A known, we can find B = (3/4)A and C = (2/5)A.",
+        "Step 6: Verify that the total sales from the shops match the given total of 3600 units. The total sales can be calculated as 15A + 20B + 30C. Substitute the expressions for A, B, and C into this equation and simplify to ensure it equals 3600 units."
+    ],
+    "final_answer": {
+        "A": 140,
+        "B": 105,
+        "C": 55
+    }
+}

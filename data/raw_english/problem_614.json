@@ -1,0 +1,12 @@
+{
+    "id": "614",
+    "problem": "In a small town, there are three water towers labeled A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A is currently 1/4 full, Tower B is 1/2 full, and Tower C is 3/4 full, and each tower has a capacity of 1200 liters, how many minutes will it take to fill all three towers if they are filled simultaneously, given that the filling process starts at the same time for all towers and that the rate of filling remains constant for each tower?",
+    "reasoning_steps": [
+        "Step 1: Calculate the remaining capacity for each tower by subtracting the current amount of water from the total capacity. For Tower A: 1200 - (1/4 * 1200), for Tower B: 1200 - (1/2 * 1200), and for Tower C: 1200 - (3/4 * 1200).",
+        "Step 2: Perform the calculations for the remaining capacity of each tower. Tower A: 1200 - 300 = 900 liters, Tower B: 1200 - 600 = 600 liters, Tower C: 1200 - 900 = 300 liters.",
+        "Step 3: Determine the time it would take to fill each tower individually by dividing the remaining capacity of each tower by its filling rate. For Tower A: 900 / 0.5, for Tower B: 600 / 0.75, and for Tower C: 300 / 1.",
+        "Step 4: Perform the calculations for the time to fill each tower. Tower A: 900 / 0.5 = 1800 minutes, Tower B: 600 / 0.75 = 800 minutes, Tower C: 300 / 1 = 300 minutes.",
+        "Step 5: Identify the tower that takes the longest to fill since all towers are filled simultaneously, and the process is complete only when the last tower is full."
+    ],
+    "final_answer": "1800"
+}

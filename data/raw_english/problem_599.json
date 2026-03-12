@@ -1,0 +1,12 @@
+{
+    "id": "599",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. If the total number of employees in the bakeries and cafes is 60, how many employees are there in each type of shop?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop: let B be the number of employees in the bakeries, C be the number of employees in the cafes, and R be the number of employees in the restaurants.",
+        "Step 2: Set up the equations based on the given information: B + C = 60, B = C + 5, and R = B + 10.",
+        "Step 3: Use substitution to solve for B and C: substitute B = C + 5 into the equation B + C = 60 to get C + 5 + C = 60, which simplifies to 2C + 5 = 60.",
+        "Step 4: Solve for C: 2C = 60 - 5, so 2C = 55, and C = 55 / 2 = 27.5. Since the number of employees must be a whole number, this is not a valid solution, so we must re-examine our equations.",
+        "Step 5: Re-evaluate the equation B = C + 5 and B + C = 60: if B = C + 5, then we can substitute C + 5 for B in the equation B + C = 60 to get C + 5 + C = 60, which simplifies to 2C = 55, so C must be a whole number, and since B + C = 60, the only whole number solutions are B = 35 and C = 25, given B = C + 5 + 5 = C + 10 and B + C = 60, and B = 35, C = 25, B + C = 60, and B = C + 10, then R = B + 10 = 35 + 10 = 45, and B + C + R = 35 + 25 + 45 = 105."
+    ],
+    "final_answer": "Bakeries: 35, Cafes: 25, Restaurants: 45"
+}

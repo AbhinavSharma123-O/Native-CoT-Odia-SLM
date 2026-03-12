@@ -1,0 +1,12 @@
+{
+    "id": "909",
+    "problem": "In the town of Ashwood, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a combination of three types of bread: white, whole wheat, and rye. The total number of white bread loaves sold by all bakeries is 250, the total number of whole wheat bread loaves is 300, and the total number of rye bread loaves is 200. If each bakery sells its white bread for $2, whole wheat for $2.50, and rye for $3, and the total revenue from all bakeries for these three types of bread is $1200, how many bakeries are in Ashwood if each bakery sells an equal number of each type of bread and the town has a 10% tax on all bakery sales which has already been factored into the total revenue?",
+    "reasoning_steps": [
+        "Step 1: Determine the total revenue per bakery for each type of bread by dividing the total number of each type of bread by the number of bakeries and then multiplying by the price per loaf.",
+        "Step 2: Calculate the total revenue per bakery for all three types of bread by adding the revenues from each type of bread.",
+        "Step 3: Divide the total revenue from all bakeries by the total revenue per bakery to find the number of bakeries, taking into account the 10% tax that has already been factored into the total revenue.",
+        "Step 4: Set up an equation using the given information to solve for the number of bakeries, considering that each bakery sells an equal number of each type of bread.",
+        "Step 5: Solve the equation from Step 4 to find the number of bakeries in Ashwood."
+    ],
+    "final_answer": "5"
+}

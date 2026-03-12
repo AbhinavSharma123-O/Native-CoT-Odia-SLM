@@ -1,0 +1,20 @@
+{
+    "id": "941",
+    "original_problem": "In a small town, there are three types of vehicles: cars, buses, and trucks. The town has a total of 250 vehicles. The number of cars is 50 more than the number of buses, and the number of trucks is 25 less than the number of buses. If the average speed of cars is 40 mph, buses is 30 mph, and trucks is 50 mph, and the total distance traveled by all vehicles in a day is 15000 miles, what is the number of buses in the town?",
+    "deconstructed_problem": "In a small town, there are three types of vehicles: cars, buses, and trucks. The town has a ମୋଟ (total) of 250 vehicles. The number of cars is 50 more than the number of buses, and the number of trucks is 25 less than the number of buses. ଯଦି (if) the average speed of cars is 40 mph, buses is 30 mph, and trucks is 50 mph, and the ମୋଟ (total) distance traveled by all vehicles in a day is 15000 miles, what is the number of buses in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the problem, where c = number of cars, b = number of buses, and t = number of trucks.",
+        "Step 2: Establish the equations based on the given information: c + b + t = 250, c = b + 50, and t = b - 25.",
+        "Step 3: Substitute c and t in terms of b into the total vehicle equation to find b: (b + 50) + b + (b - 25) = 250, which simplifies to 3b + 25 = 250.",
+        "Step 4: Solve for b: 3b = 225, so b = 75.",
+        "Step 5: With the number of buses determined, verify that the total number of vehicles adds up correctly and consider the average speeds and total distance to ensure the solution makes logical sense."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the problem, where c = number of cars, b = number of buses, and t = number of trucks.",
+        "ପଦକ୍ଷେପ (step) 2: Establish the equations based on the given information: c + b + t = 250, c = b + 50, and t = b - 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute c and t in terms of b into the ମୋଟ (total) vehicle ସମୀକରଣ (equation) to find b: (b + 50) + b + (b - 25) = 250, which simplifies to 3b + 25 = 250.",
+        "ପଦକ୍ଷେପ (step) 4: Solve for b: 3b = 225, so b = 75.",
+        "ପଦକ୍ଷେପ (step) 5: With the number of buses determined, verify that the ମୋଟ (total) number of vehicles adds up correctly and consider the average speeds and ମୋଟ (total) distance to ensure the solution makes logical sense."
+    ],
+    "final_answer": "75"
+}

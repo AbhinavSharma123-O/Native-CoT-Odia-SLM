@@ -1,0 +1,12 @@
+{
+    "id": "453",
+    "problem": "In a small town, there are three types of people: those who always tell the truth, those who always lie, and those who sometimes tell the truth and sometimes lie. Three residents, Alex, Ben, and Chris, are standing in a row. Alex says, 'Ben always lies.' Ben says, 'Chris sometimes tells the truth and sometimes lies.' Chris says, 'Alex always tells the truth.' If exactly one of the residents always tells the truth and exactly one always lies, who is the truth-teller, who is the liar, and who is the one who sometimes tells the truth and sometimes lies?",
+    "reasoning_steps": [
+        "Step 1: Analyze Alex's statement. If Alex always tells the truth, then Ben must always lie. However, if Alex sometimes lies, then Ben's lying status is uncertain.",
+        "Step 2: Examine Ben's statement. If Ben always lies, then Chris must always tell the truth, which contradicts the condition that exactly one person always tells the truth. Therefore, Ben cannot always lie.",
+        "Step 3: Evaluate Chris's statement. If Chris says Alex always tells the truth, and Chris is the truth-teller, then Alex must indeed always tell the truth. However, this creates a contradiction because Ben's statement would then be true, implying Chris sometimes lies, which cannot be the case if Chris is the truth-teller.",
+        "Step 4: Consider the implications of each person's possible role. If Alex is the truth-teller, then Ben lies, and Chris must be the one who sometimes tells the truth and sometimes lies. But Chris says Alex always tells the truth, which would mean Chris is telling the truth in this instance, fitting the role of sometimes telling the truth.",
+        "Step 5: Determine the roles based on logical consistency. Given that exactly one person always tells the truth, one always lies, and one sometimes does each, and considering the statements made, the only consistent scenario is that Alex is the truth-teller, Ben is the liar, and Chris sometimes tells the truth and sometimes lies."
+    ],
+    "final_answer": "Alex is the truth-teller, Ben is the liar, and Chris sometimes tells the truth and sometimes lies."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "916",
+    "original_problem": "In a small town, there are three water towers: Tower A, Tower B, and Tower C. Tower A can fill 1200 gallons per hour, Tower B can fill 800 gallons per hour, and Tower C can fill 1500 gallons per hour. On a given day, Tower A starts filling at 8:00 AM, Tower B starts filling at 9:00 AM, and Tower C starts filling at 10:00 AM. If Tower A stops filling at 12:00 PM, Tower B stops filling at 2:00 PM, and Tower C stops filling at 4:00 PM, and the total amount of water filled by all towers is 12600 gallons, what is the total amount of time Tower C was filling water, in hours?",
+    "deconstructed_problem": "In a small town, there are three water towers: Tower A, Tower B, and Tower C. Tower A can fill 1200 gallons per hour, Tower B can fill 800 gallons per hour, and Tower C can fill 1500 gallons per hour. On a given day, Tower A starts filling at 8:00 AM, Tower B starts filling at 9:00 AM, and Tower C starts filling at 10:00 AM. ଯଦି (if) Tower A stops filling at 12:00 PM, Tower B stops filling at 2:00 PM, and Tower C stops filling at 4:00 PM, and the ମୋଟ (total) amount of water filled by all towers is 12600 gallons, what is the ମୋଟ (total) amount of time Tower C was filling water, in hours?",
+    "original_steps": [
+        "Step 1: Determine the amount of water filled by Tower A from 8:00 AM to 12:00 PM. Tower A fills 1200 gallons per hour for 4 hours.",
+        "Step 2: Calculate the amount of water filled by Tower B from 9:00 AM to 2:00 PM, considering it started an hour after Tower A. Tower B fills 800 gallons per hour for 5 hours.",
+        "Step 3: Find out how much water Tower A and Tower B filled together, and subtract this amount from the total to find out how much Tower C filled. This will involve calculating the water filled by Tower A and Tower B during their operational hours.",
+        "Step 4: Use the information from the previous steps to determine the amount of time Tower C was filling water. Given Tower C fills 1500 gallons per hour, we can find the time it was operational by dividing the total amount of water it filled by its rate.",
+        "Step 5: After calculating the amount of water filled by Tower A and Tower B, subtract this from the total amount of water filled (12600 gallons) to find the amount filled by Tower C, then use Tower C's fill rate to find the total time it was filling"
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the amount of water filled by Tower A from 8:00 AM to 12:00 PM. Tower A fills 1200 gallons per hour for 4 hours.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water filled by Tower B from 9:00 AM to 2:00 PM, considering it started an hour after Tower A. Tower B fills 800 gallons per hour for 5 hours.",
+        "ପଦକ୍ଷେପ (step) 3: Find out how much water Tower A and Tower B filled together, and ବିୟୋଗ (subtract) this amount from the ମୋଟ (total) to find out how much Tower C filled. This will involve calculating the water filled by Tower A and Tower B during their operational hours.",
+        "ପଦକ୍ଷେପ (step) 4: Use the information from the previous steps to determine the amount of time Tower C was filling water. Given Tower C fills 1500 gallons per hour, we can find the time it was operational by dividing the ମୋଟ (total) amount of water it filled by its rate.",
+        "ପଦକ୍ଷେପ (step) 5: After calculating the amount of water filled by Tower A and Tower B, ବିୟୋଗ (subtract) this from the ମୋଟ (total) amount of water filled (12600 gallons) to find the amount filled by Tower C, ତାହେଲେ (then) use Tower C's fill rate to find the ମୋଟ (total) time it was filling"
+    ],
+    "final_answer": "6"
+}

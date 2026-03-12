@@ -1,0 +1,14 @@
+{
+    "id": "472",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, with each loaf costing $2.50. The village has 5 bakeries. Meanwhile, each cafe sells an average of 300 cups of coffee per day at $1.75 per cup, and there are 4 cafes. Restaurants, on the other hand, sell meals at an average price of $15 per meal, with each restaurant serving 200 meals per day. There are 3 restaurants. If the village also has a tax rate of 8% on all sales, and each bakery, cafe, and restaurant has to pay a daily fixed fee of $100, how much money does the village collect in taxes and fees from all these establishments in a single day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily revenue from all bakeries by multiplying the number of bakeries by the number of loaves each sells and then by the cost per loaf.",
+        "Step 2: Calculate the total daily revenue from all cafes by multiplying the number of cafes by the number of cups of coffee each sells and then by the cost per cup.",
+        "Step 3: Calculate the total daily revenue from all restaurants by multiplying the number of restaurants by the number of meals each serves and then by the cost per meal.",
+        "Step 4: Sum the revenues from bakeries, cafes, and restaurants to find the total daily revenue from all establishments.",
+        "Step 5: Calculate the total tax collected by applying the tax rate to the total daily revenue from all establishments.",
+        "Step 6: Calculate the total daily fixed fees collected from all establishments by multiplying the total number of establishments by the daily fixed fee per establishment.",
+        "Step 7: Add the total tax collected and the total daily fixed fees to find the total amount of money the village collects in a single day."
+    ],
+    "final_answer": "To find the final answer, perform the following calculations: Bakeries' revenue = 5 * 250 * $2.50 = $3125, Cafes' revenue = 4 * 300 * $1.75 = $2100, Restaurants' revenue = 3 * 200 * $15 = $9000. Total revenue = $3125 + $2100 + $9000 = $14125. Total tax = $14125 * 8% = $1129. Total fees = (5 + 4 + 3) * $100 = $1200. Total collection = $1129 + $1200 = $2329."
+}

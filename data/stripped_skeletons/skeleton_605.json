@@ -1,0 +1,20 @@
+{
+    "id": "605",
+    "original_problem": "In the town of Mathoria, there are five houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the green house. Clue 6: The person who owns the green house lives in the house next to the person who owns the white house.",
+    "deconstructed_problem": "In the town of Mathoria, there are five houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the green house. Clue 6: The person who owns the green house lives in the house next to the person who owns the white house.",
+    "original_steps": [
+        "Step 1: Start by using Clue 1 to establish the Canadian's position in the first house.",
+        "Step 2: Apply Clue 2 to determine the possible positions of the person who drinks milk and the yellow house, keeping in mind the Canadian's position.",
+        "Step 3: Utilize Clue 3 to narrow down the possible location of the red house in relation to the person who drinks coffee.",
+        "Step 4: With Clue 4, determine the American's house position relative to the person who drinks soda, considering the previous steps' deductions.",
+        "Step 5: Use Clue 5 to place the person who drinks tea in the green house and then apply Clue 6 to find the relationship between the green and white houses."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Start by using Clue 1 to establish the Canadian's position in the first house.",
+        "ପଦକ୍ଷେପ (step) 2: Apply Clue 2 to determine the possible positions of the person who drinks milk and the yellow house, keeping in mind the Canadian's position.",
+        "ପଦକ୍ଷେପ (step) 3: Utilize Clue 3 to narrow down the possible location of the red house in relation to the person who drinks coffee.",
+        "ପଦକ୍ଷେପ (step) 4: With Clue 4, determine the American's house position relative to the person who drinks soda, considering the previous steps' deductions.",
+        "ପଦକ୍ଷେପ (step) 5: Use Clue 5 to place the person who drinks tea in the green house and ତାହେଲେ (then) apply Clue 6 to find the relationship between the green and white houses."
+    ],
+    "final_answer": "The final answer will be a table or matrix showing each house color, its occupant's nationality, and their favorite drink, requiring the solver to systematically apply each clue to deduce the solution."
+}

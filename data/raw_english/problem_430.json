@@ -1,0 +1,38 @@
+{
+    "id": "430",
+    "problem": "In a small village, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the house next to the person who owns the green house. Clue 6: The person who owns the green house drinks water.",
+    "reasoning_steps": [
+        "Step 1: Determine the color of the first house using Clue 1 and the process of elimination based on the other clues.",
+        "Step 2: Use Clue 2 to establish the relationship between the person who drinks milk and the yellow house, considering the possible positions of these two elements.",
+        "Step 3: Apply Clue 3 to find a possible position for the red house, considering it cannot be next to the person who drinks coffee.",
+        "Step 4: Utilize Clue 4 to position the American and the person who drinks soda, ensuring they are in adjacent houses.",
+        "Step 5: Employ Clue 5 to position the person who drinks tea and the green house, knowing they must be adjacent."
+    ],
+    "final_answer": {
+        "House 1": {
+            "color": "yellow",
+            "nationality": "Canadian",
+            "drink": "milk"
+        },
+        "House 2": {
+            "color": "blue",
+            "nationality": "American",
+            "drink": "coffee"
+        },
+        "House 3": {
+            "color": "red",
+            "nationality": "British",
+            "drink": "soda"
+        },
+        "House 4": {
+            "color": "green",
+            "nationality": "Indian",
+            "drink": "water"
+        },
+        "House 5": {
+            "color": "white",
+            "nationality": "Japanese",
+            "drink": "tea"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "834",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and the town has 5 bakeries. Each cafe sells 120 pastries per day, and there are 8 cafes. The town also has 12 restaurants, with each restaurant selling 50 sandwiches and 30 salads per day. However, each bakery also supplies 50 loaves of bread to the cafes, and each cafe uses 20 loaves to make sandwiches, giving the rest to the restaurants. Each restaurant then uses 10 loaves of bread to make their sandwiches. If the total number of pastries, sandwiches, and salads sold in the town per day is denoted by P, S, and L respectively, and the total number of loaves of bread used by all shops is denoted by B, find the value of (P + S + L) / B.",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of loaves of bread sold by the bakeries per day, which is 5 bakeries * 250 loaves = 1250 loaves.",
+        "Step 2: Determine the total number of loaves of bread supplied to the cafes by the bakeries, which is 5 bakeries * 50 loaves = 250 loaves, and then calculate how many of these loaves are used by the cafes to make sandwiches, which is 8 cafes * 20 loaves = 160 loaves.",
+        "Step 3: Calculate the total number of loaves given to the restaurants by the cafes, which is 250 loaves supplied to cafes - 160 loaves used by cafes = 90 loaves, and then determine how many loaves are used by the restaurants, which is 12 restaurants * 10 loaves = 120 loaves.",
+        "Step 4: Find the total number of pastries (P), sandwiches (S), and salads (L) sold per day. The total pastries sold is 8 cafes * 120 pastries = 960 pastries. The total sandwiches sold by cafes and restaurants is (8 cafes * 20 loaves) + (12 restaurants * 50 sandwiches) = 160 + 600 = 760 sandwiches. The total salads sold is 12 restaurants * 30 salads = 360 salads.",
+        "Step 5: Calculate the total number of loaves of bread used by all shops, which includes the loaves used by bakeries (1250 - 250 supplied to cafes = 1000), the loaves used by cafes (160), and the loaves used by restaurants (120), totaling 1000 + 160 + 120 = 1280 loaves."
+    ],
+    "final_answer": "(960 + 760 + 360) / 1280 = 2080 / 1280 = 1.625"
+}

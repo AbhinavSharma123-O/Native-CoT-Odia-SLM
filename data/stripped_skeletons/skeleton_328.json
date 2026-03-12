@@ -1,0 +1,22 @@
+{
+    "id": "328",
+    "original_problem": "In a small town, there are three types of shops: clothing, electronics, and food. Each type of shop has a different number of employees. The total number of employees in all the shops is 240. The ratio of employees in clothing shops to electronics shops is 4:3, and the ratio of employees in electronics shops to food shops is 2:5. If the number of employees in clothing shops is 20 more than the number of employees in electronics shops, how many employees are there in each type of shop?",
+    "deconstructed_problem": "In a small town, there are three types of shops: clothing, electronics, and food. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 240. The ratio of employees in clothing shops to electronics shops is 4:3, and the ratio of employees in electronics shops to food shops is 2:5. ଯଦି (if) the number of employees in clothing shops is 20 more than the number of employees in electronics shops, how many employees are there in each type of shop?",
+    "original_steps": [
+        "Step 1: Let's represent the number of employees in clothing shops as C, the number of employees in electronics shops as E, and the number of employees in food shops as F.",
+        "Step 2: We know that C:E = 4:3, so we can express C in terms of E as C = (4/3)E. We also know that E:F = 2:5, so we can express F in terms of E as F = (5/2)E.",
+        "Step 3: We are given that C = E + 20. Substituting the expression for C from Step 2, we get (4/3)E = E + 20.",
+        "Step 4: Solving the equation from Step 3 for E, we multiply all terms by 3 to clear the fraction: 4E = 3E + 60. Then, subtracting 3E from both sides gives us E = 60.",
+        "Step 5: With E = 60, we can find C using C = E + 20, which gives C = 60 + 20 = 80. Then, using the ratios, we find F = (5/2)*60 = 150.",
+        "Step 6: Finally, we verify that the total number of employees is indeed 240 by adding C, E, and F: 80 (C) + 60 (E) + 150 (F) = 290, which does not match our given total of 240, indicating a mistake in the initial calculation or interpretation of the ratios and given conditions."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Let's represent the number of employees in clothing shops as C, the number of employees in electronics shops as E, and the number of employees in food shops as F.",
+        "ପଦକ୍ଷେପ (step) 2: We know that C:E = 4:3, so we can express C in terms of E as C = (4/3)E. We also know that E:F = 2:5, so we can express F in terms of E as F = (5/2)E.",
+        "ପଦକ୍ଷେପ (step) 3: We are given that C = E + 20. Substituting the expression for C from ପଦକ୍ଷେପ (step) 2, we get (4/3)E = E + 20.",
+        "ପଦକ୍ଷେପ (step) 4: Solving the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 for E, we ଗୁଣନ (multiply) all terms by 3 to clear the fraction: 4E = 3E + 60. ତାହେଲେ (then), subtracting 3E from both sides gives us E = 60.",
+        "ପଦକ୍ଷେପ (step) 5: With E = 60, we can find C using C = E + 20, which gives C = 60 + 20 = 80. ତାହେଲେ (then), using the ratios, we find F = (5/2)*60 = 150.",
+        "ପଦକ୍ଷେପ (step) 6: Finally, we verify that the ମୋଟ (total) number of employees is indeed 240 by adding C, E, and F: 80 (C) + 60 (E) + 150 (F) = 290, which does not match our given ମୋଟ (total) of 240, indicating a mistake in the initial calculation or interpretation of the ratios and given conditions."
+    ],
+    "final_answer": "The initial setup leads to a calculation error; revisiting the ratios and equations is necessary for an accurate solution."
+}

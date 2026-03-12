@@ -1,0 +1,20 @@
+{
+    "id": "369",
+    "original_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and candle makers. Each shop has a different number of employees: 5, 7, or 9. Using the following clues, determine how many employees each type of shop has and the total number of employees in the village. Clue 1: The total number of employees in the village is a multiple of 3. Clue 2: The bakeries have the fewest number of employees. Clue 3: The butcher shops have 2 more employees than the bakeries. Clue 4: The candle makers have the most employees and their number is a prime number.",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and candle makers. Each shop has a different number of employees: 5, 7, or 9. Using the following clues, determine how many employees each type of shop has and the ମୋଟ (total) number of employees in the village. Clue 1: The ମୋଟ (total) number of employees in the village is a multiple of 3. Clue 2: The bakeries have the fewest number of employees. Clue 3: The butcher shops have 2 more employees than the bakeries. Clue 4: The candle makers have the most employees and their number is a prime number.",
+    "original_steps": [
+        "Step 1: Start by analyzing Clue 4 to identify the prime number of employees for the candle makers, which is 7, as 9 is not a prime and 5 is the fewest.",
+        "Step 2: Apply Clue 2 and Clue 3 to determine the number of employees in the bakeries and butcher shops. Since the bakeries have the fewest, they must have 5 employees. The butcher shops then have 5 + 2 = 7 employees.",
+        "Step 3: With the number of employees for each type of shop (5 for bakeries, 7 for butcher shops, and 7 for candle makers), calculate the total number of employees in the village to verify it's a multiple of 3 as per Clue 1.",
+        "Step 4: Consider the possible combinations of shops that would result in a total number of employees that is a multiple of 3, taking into account that each type of shop must have a different number of employees.",
+        "Step 5: Given that the candle makers must have 7 employees (from Step 1) and this conflicts with the butcher shops also having 7, re-evaluate Clue 4 and consider 9 as a possible number for the candle makers since it's the only other prime isn't an option for them, and adjust the numbers for bakeries and butcher shops accordingly to meet all conditions."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Start by analyzing Clue 4 to identify the prime number of employees for the candle makers, which is 7, as 9 is not a prime and 5 is the fewest.",
+        "ପଦକ୍ଷେପ (step) 2: Apply Clue 2 and Clue 3 to determine the number of employees in the bakeries and butcher shops. Since the bakeries have the fewest, they must have 5 employees. The butcher shops ତାହେଲେ (then) have 5 + 2 = 7 employees.",
+        "ପଦକ୍ଷେପ (step) 3: With the number of employees for each type of shop (5 for bakeries, 7 for butcher shops, and 7 for candle makers), calculate the ମୋଟ (total) number of employees in the village to verify it's a multiple of 3 as per Clue 1.",
+        "ପଦକ୍ଷେପ (step) 4: Consider the possible combinations of shops that would result in a ମୋଟ (total) number of employees that is a multiple of 3, taking into account that each type of shop must have a different number of employees.",
+        "ପଦକ୍ଷେପ (step) 5: Given that the candle makers must have 7 employees (from ପଦକ୍ଷେପ (step) 1) and this conflicts with the butcher shops also having 7, re-evaluate Clue 4 and consider 9 as a possible number for the candle makers since it's the only other prime isn't an option for them, and adjust the numbers for bakeries and butcher shops accordingly to meet all conditions."
+    ],
+    "final_answer": "The bakeries have 5 employees, the butcher shops have 7 employees, and the candle makers have 9 employees, totaling 21 employees in the village."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "164",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. However, on every fifth day, the snail rests and does not climb or slip. Meanwhile, a bird is observing from above and decides to drop a worm to the snail every time the snail reaches a new height that is a multiple of 4 feet. If the bird drops a total of 4 worms before the snail reaches the top of the well, how many days will it take for the snail to reach the top, considering the bird's worm-dropping pattern does not affect the snail's climbing or slipping?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net progress of the snail per day, considering it climbs 3 feet up and slips 2 feet back, resulting in a net gain of 1 foot per day on non-rest days.",
+        "Step 2: Account for the rest days where the snail does not move, meaning every fifth day the snail's progress is effectively halted.",
+        "Step 3: Determine the pattern of the bird dropping worms every time the snail reaches a height that is a multiple of 4 feet, which happens every 4 days of climbing (since 3 feet/day * 4 days = 12 feet, but due to slipping back 2 feet each night, it effectively takes 4 days to climb 4 feet net).",
+        "Step 4: Recognize that since the bird drops a total of 4 worms, the snail must reach a new height that is a multiple of 4 feet four times before reaching the top, which implies the snail climbs to at least 16 feet (4 * 4 feet) before the final ascent.",
+        "Step 5: Calculate the total number of days required, accounting for the days the snail climbs, the days it slips back, the rest days, and ensuring it reaches or exceeds 20 feet to escape the well."
+    ],
+    "final_answer": "28"
+}

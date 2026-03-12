@@ -1,0 +1,20 @@
+{
+    "id": "61",
+    "original_problem": "In the town of Mathoria, there are three types of coins: gold, silver, and bronze, valued at $5, $2, and $1 respectively. A merchant has 25 coins in total, with twice as many bronze coins as silver coins. If the total value of all coins is $65, how many gold coins does the merchant have?",
+    "deconstructed_problem": "In the town of Mathoria, there are three types of coins: gold, silver, and bronze, valued at $5, $2, and $1 respectively. A merchant has 25 coins in ମୋଟ (total), with twice as many bronze coins as silver coins. ଯଦି (if) the ମୋଟ (total) value of all coins is $65, how many gold coins does the merchant have?",
+    "original_steps": [
+        "Step 1: Define the number of bronze coins as B, the number of silver coins as S, and the number of gold coins as G. We know that B + S + G = 25.",
+        "Step 2: Since there are twice as many bronze coins as silver coins, we can express B in terms of S as B = 2S.",
+        "Step 3: Substitute B = 2S into the equation from Step 1, yielding 2S + S + G = 25, simplifying to 3S + G = 25.",
+        "Step 4: Calculate the total value of the coins using their respective values: $1*B + $2*S + $5*G = $65. Substitute B = 2S into this equation to get $1*2S + $2*S + $5*G = $65, simplifying to $4S + $5*G = $65.",
+        "Step 5: Now we have a system of two equations: 3S + G = 25 and 4S + 5G = 65. Solve this system of equations for G to find the number of gold coins."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the number of bronze coins as B, the number of silver coins as S, and the number of gold coins as G. We know that B + S + G = 25.",
+        "ପଦକ୍ଷେପ (step) 2: Since there are twice as many bronze coins as silver coins, we can express B in terms of S as B = 2S.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute B = 2S into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 1, yielding 2S + S + G = 25, simplifying to 3S + G = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) value of the coins using their respective values: $1*B + $2*S + $5*G = $65. Substitute B = 2S into this ସମୀକରଣ (equation) to get $1*2S + $2*S + $5*G = $65, simplifying to $4S + $5*G = $65.",
+        "ପଦକ୍ଷେପ (step) 5: Now we have a system of two equations: 3S + G = 25 and 4S + 5G = 65. Solve this system of equations for G to find the number of gold coins."
+    ],
+    "final_answer": "G = 5"
+}

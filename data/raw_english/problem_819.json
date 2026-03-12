@@ -1,0 +1,12 @@
+{
+    "id": "819",
+    "problem": "In a small town, there are 5 factories that produce different products. Each factory has a different production rate and operates for a different number of hours per day. Factory A produces 200 units per hour and operates for 8 hours per day. Factory B produces 300 units per hour and operates for 10 hours per day. Factory C produces 250 units per hour and operates for 12 hours per day. Factory D produces 400 units per hour and operates for 6 hours per day. Factory E produces 150 units per hour and operates for 14 hours per day. If the town needs to produce exactly 12,000 units per day, and factories A, B, and C must operate at full capacity, how many hours per day must factories D and E operate to meet the production requirement?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily production of factories A, B, and C by multiplying their production rates by the number of hours they operate per day.",
+        "Step 2: Add the total daily production of factories A, B, and C to find their combined production.",
+        "Step 3: Subtract the combined production of factories A, B, and C from the total required production to find the remaining production needed from factories D and E.",
+        "Step 4: Set up an equation to represent the production of factories D and E, using the production rates and the variable number of hours they operate.",
+        "Step 5: Solve the equation for the number of hours factories D and E must operate to meet the remaining production requirement."
+    ],
+    "final_answer": "Factory D must operate for 3 hours and Factory E must operate for 4 hours."
+}

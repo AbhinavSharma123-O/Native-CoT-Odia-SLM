@@ -1,0 +1,14 @@
+{
+    "id": "456",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, with the first bakery selling 250 cakes, the second selling 300 cakes, and the third selling 200 cakes. Each cafe buys cakes from the bakeries at a rate of $2 per cake and sells them at $3 per cake. The town has a total of 15 cafes, with 5 cafes buying from the first bakery, 4 cafes buying from the second bakery, and 6 cafes buying from the third bakery. Each restaurant, on the other hand, buys cakes from the cafes at $2.50 per cake and sells them at $4 per cake. If there are 8 restaurants in the town, and each restaurant buys an equal number of cakes from the cafes, how much profit is made in total by all the cafes and restaurants in one day, given that the cost of producing a cake is $1.50 for the bakeries?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of cakes sold by each bakery per day and determine the total revenue for each bakery.",
+        "Step 2: Determine the total cost of producing cakes for each bakery and calculate their individual profits.",
+        "Step 3: Calculate the total number of cakes bought by each cafe from the bakeries, and then determine the total revenue and cost for each cafe.",
+        "Step 4: Find the total profit made by all the cafes by subtracting their total costs from their total revenues.",
+        "Step 5: Calculate the total number of cakes bought by all the restaurants from the cafes, and then find the total revenue and cost for all the restaurants combined.",
+        "Step 6: Determine the total profit made by all the restaurants by subtracting their total costs from their total revenues.",
+        "Step 7: Add the total profits made by the cafes and the restaurants to find the overall profit made in the town."
+    ],
+    "final_answer": "1750"
+}

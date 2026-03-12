@@ -1,0 +1,12 @@
+{
+    "id": "94",
+    "problem": "In a small town, there are three factories: A, B, and C. Each factory produces a different product: bicycles, toys, and furniture. Using the following clues, determine the production of each factory and the total number of items produced. Clues: Factory A produces 200 more items than Factory C. Factory B produces 150 fewer items than Factory A. The total production of all factories is 3000 items. Factory C produces toys.",
+    "reasoning_steps": [
+        "Step 1: Define the production of each factory with variables (A, B, C) and set up equations based on the given clues.",
+        "Step 2: Translate the clues into mathematical equations, such as A = C + 200 and B = A - 150, knowing that A + B + C = 3000.",
+        "Step 3: Substitute the equations to find the value of one variable. For example, substituting B in terms of A into the total equation gives A + (A - 150) + C = 3000.",
+        "Step 4: Since A = C + 200, substitute A in the equation from Step 3 to solve for C: (C + 200) + ((C + 200) - 150) + C = 3000, simplifying to 3C + 250 = 3000.",
+        "Step 5: Solve for C: 3C = 3000 - 250, 3C = 2750, C = 2750 / 3, and then use the value of C to find A and B."
+    ],
+    "final_answer": "C = 916.67, A = 1116.67, B = 966.67, Total = 3000"
+}

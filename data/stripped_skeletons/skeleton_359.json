@@ -1,0 +1,20 @@
+{
+    "id": "359",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of loaves of bread per day, with the first bakery selling 250 loaves, the second selling 300 loaves, and the third selling 200 loaves. The total number of loaves sold by all bakeries in a week is 5,000. There are also three cafes, each of which buys a certain number of loaves from the bakeries to resell. The first cafe buys 50 loaves per day from the first bakery, the second cafe buys 75 loaves per day from the second bakery, and the third cafe buys 30 loaves per day from the third bakery. If each cafe sells its loaves at a 50% markup and the total profit from all cafes is $1,875, with each loaf costing $1, determine the number of days the bakeries and cafes operate in a week.",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of loaves of bread per day, with the first bakery selling 250 loaves, the second selling 300 loaves, and the third selling 200 loaves. The ମୋଟ (total) number of loaves sold by all bakeries in a week is 5,000. There are also three cafes, each of which buys a certain number of loaves from the bakeries to resell. The first cafe buys 50 loaves per day from the first bakery, the second cafe buys 75 loaves per day from the second bakery, and the third cafe buys 30 loaves per day from the third bakery. ଯଦି (if) each cafe sells its loaves at a 50% markup and the ମୋଟ (total) profit from all cafes is $1,875, with each loaf costing $1, determine the number of days the bakeries and cafes operate in a week.",
+    "original_steps": [
+        "Step 1: Calculate the total number of loaves sold by each bakery in a week, given that the first bakery sells 250 loaves per day, the second sells 300 loaves per day, and the third sells 200 loaves per day.",
+        "Step 2: Determine the total number of loaves sold by all bakeries in a week, which is given as 5,000, to find the number of days they operate.",
+        "Step 3: For each cafe, calculate the daily profit from selling loaves, considering the markup and the cost per loaf.",
+        "Step 4: Calculate the total weekly profit from all cafes, which is given as $1,875, to find the number of days they operate, assuming they operate the same number of days as the bakeries.",
+        "Step 5: Equate the number of days calculated from the bakeries' sales and the cafes' profit to find a consistent solution for the number of operating days."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of loaves sold by each bakery in a week, given that the first bakery sells 250 loaves per day, the second sells 300 loaves per day, and the third sells 200 loaves per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) number of loaves sold by all bakeries in a week, which is given as 5,000, to find the number of days they operate.",
+        "ପଦକ୍ଷେପ (step) 3: For each cafe, calculate the daily profit from selling loaves, considering the markup and the cost per loaf.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) weekly profit from all cafes, which is given as $1,875, to find the number of days they operate, assuming they operate the same number of days as the bakeries.",
+        "ପଦକ୍ଷେପ (step) 5: Equate the number of days calculated from the bakeries' sales and the cafes' profit to find a consistent solution for the number of operating days."
+    ],
+    "final_answer": "7"
+}

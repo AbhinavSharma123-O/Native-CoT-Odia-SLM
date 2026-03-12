@@ -1,0 +1,12 @@
+{
+    "id": "407",
+    "problem": "In the town of Azura, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the light bulbs has a fuse that will burn out after being turned on for more than 5 minutes, and another light bulb is controlled by a switch that has a 10-minute delay before it actually turns on the bulb. Given these conditions, what is the minimum number of minutes you need to wait before entering the room to ensure you can solve the puzzle?",
+    "reasoning_steps": [
+        "Step 1: Identify the constraints and the goal. The goal is to determine which switch controls which light bulb with the given constraints of a single room entry and the specific bulb and switch limitations.",
+        "Step 2: Develop a strategy to handle the switch with the 10-minute delay. This involves turning one of the switches on for at least 10 minutes before starting the main puzzle-solving process to ensure that if this switch is the one with the delay, the corresponding bulb will be on when you enter the room.",
+        "Step 3: Create a sequence of switch flips to identify the bulbs. Given that one bulb burns out after being on for more than 5 minutes, and another has a delayed switch, the sequence must account for these conditions. Turn switch 1 to the 'on' position for 5 minutes, then turn it off. Immediately turn switch 2 to the 'on' position and enter the room.",
+        "Step 4: Analyze the bulbs' states upon entering the room. If a bulb is on, it could be controlled by switch 2 (considering the delay switch scenario) or the one that was left on for 5 minutes if it didn't burn out. A hot but off bulb indicates it was recently turned off (switch 1), and a cold off bulb could be controlled by the switch that was never turned on or is the one with the fuse that burned out.",
+        "Step 5: Determine the minimum waiting time based on the strategy. Considering the need to wait for the delayed switch to take effect and to not overload the fuse of the burn-out bulb, the sequence and waiting times must be carefully planned to ensure all possibilities are covered in the least amount of time."
+    ],
+    "final_answer": "15"
+}

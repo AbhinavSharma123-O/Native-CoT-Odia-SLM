@@ -1,0 +1,12 @@
+{
+    "id": "521",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system can fill Tank A at a rate of 200 gallons per hour and Tank B at a rate of 150 gallons per hour. However, Tank C can only be filled by transferring water from Tank A and Tank B. The transfer rate from Tank A to Tank C is 100 gallons per hour, and from Tank B to Tank C is 50 gallons per hour. If Tank A is filled first, then Tank B, and then the water is transferred to Tank C, how many hours will it take to fill all three tanks, given that the transfer of water to Tank C can only start once both Tank A and Tank B are completely filled?",
+    "reasoning_steps": [
+        "Step 1: Calculate the time it takes to fill Tank A completely, which is its capacity divided by its fill rate.",
+        "Step 2: Calculate the time it takes to fill Tank B completely, similar to Step 1.",
+        "Step 3: Determine the combined rate at which water can be transferred from Tank A and Tank B to Tank C once both are full.",
+        "Step 4: Calculate the time it takes to fill Tank C by dividing its capacity by the combined transfer rate from Tank A and Tank B.",
+        "Step 5: Add the times from Step 1, Step 2, and Step 4, considering that the filling of Tank A and Tank B happens sequentially, and the transfer to Tank C starts after both are full."
+    ],
+    "final_answer": "It will take 1200 / 200 + 800 / 150 + 1500 / (100 + 50) = 6 + 5.33 + 10 = 21.33 hours to fill all three tanks."
+}

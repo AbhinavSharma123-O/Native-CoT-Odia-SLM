@@ -1,0 +1,12 @@
+{
+    "id": "163",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a given day, due to a leak, 10% of the water from Tower A and 20% of the water from Tower B was lost before Tower C started filling. If Tower C was filled to 75% of its capacity and the total amount of water lost from all towers was 1200 gallons, how much water was initially supposed to be in Tower A and Tower B combined, before any leaks occurred?",
+    "reasoning_steps": [
+        "Step 1: Determine the amount of water in Tower C after it was filled to 75% of its capacity. Tower C's capacity is 4000 gallons, so at 75%, it contains 4000 * 0.75 = 3000 gallons.",
+        "Step 2: Calculate the amount of water lost from Tower C. Since Tower C was filled last and we know it was filled to 75% of its capacity, the water lost from Tower C can be calculated based on the total water lost and the losses from the other towers.",
+        "Step 3: Formulate equations representing the water losses from Tower A and Tower B. Let x be the initial amount of water in Tower A and y be the initial amount of water in Tower B. From the problem, 0.10x + 0.20y + (water lost from Tower C) = 1200 gallons.",
+        "Step 4: Determine the amount of water lost from Tower C. Given that Tower C was filled to 75% of its capacity (3000 gallons), and assuming no water was lost from Tower C during its filling (as it was filled last), we can proceed to calculate the losses from Tower A and Tower B.",
+        "Step 5: Solve the equation for the initial amounts of water in Tower A and Tower B combined, taking into account that Tower A and Tower B must have been filled to their capacities to start with, and the total water lost."
+    ],
+    "final_answer": "5000"
+}

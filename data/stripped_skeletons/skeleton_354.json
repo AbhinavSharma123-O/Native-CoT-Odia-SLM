@@ -1,0 +1,33 @@
+{
+    "id": "354",
+    "original_problem": "In a small town, there are three types of people: those who always tell the truth, those who always lie, and those who sometimes tell the truth and sometimes lie. Three friends, Alex, Ben, and Chris, are standing in a row, each wearing a hat with a number on it. The numbers on the hats are 1, 2, and 3, but not necessarily in that order. Using the following clues, determine the number on each person's hat and their type: Alex says, 'Ben's hat number is higher than mine.' Ben says, 'Chris's hat number is lower than mine.' Chris says, 'Alex's hat number is 3.' If one of the statements is false, which person is lying, what type are they, and what are the numbers on each of their hats?",
+    "deconstructed_problem": "In a small town, there are three types of people: those who always tell the truth, those who always lie, and those who sometimes tell the truth and sometimes lie. Three friends, Alex, Ben, and Chris, are standing in a row, each wearing a hat with a number on it. The numbers on the hats are 1, 2, and 3, but not necessarily in that order. Using the following clues, determine the number on each person's hat and their type: Alex says, 'Ben's hat number is higher than mine.' Ben says, 'Chris's hat number is lower than mine.' Chris says, 'Alex's hat number is 3.' ଯଦି (if) one of the statements is false, which person is lying, what type are they, and what are the numbers on each of their hats?",
+    "original_steps": [
+        "Step 1: Determine the possible combinations of hat numbers based on the given clues.",
+        "Step 2: Analyze Alex's statement to understand its implications on the possible hat number combinations.",
+        "Step 3: Examine Ben's statement to further narrow down the possibilities.",
+        "Step 4: Evaluate Chris's statement and its truthfulness based on the previous steps.",
+        "Step 5: Identify which statement must be false, and deduce the type of person who is lying and the numbers on each hat."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible combinations of hat numbers based on the given clues.",
+        "ପଦକ୍ଷେପ (step) 2: Analyze Alex's statement to understand its implications on the possible hat number combinations.",
+        "ପଦକ୍ଷେପ (step) 3: Examine Ben's statement to further narrow down the possibilities.",
+        "ପଦକ୍ଷେପ (step) 4: Evaluate Chris's statement and its truthfulness based on the previous steps.",
+        "ପଦକ୍ଷେପ (step) 5: Identify which statement must be false, and deduce the type of person who is lying and the numbers on each hat."
+    ],
+    "final_answer": {
+        "Alex": {
+            "hat_number": 1,
+            "type": "Truth-teller"
+        },
+        "Ben": {
+            "hat_number": 2,
+            "type": "Truth-teller"
+        },
+        "Chris": {
+            "hat_number": 3,
+            "type": "Liar"
+        }
+    }
+}

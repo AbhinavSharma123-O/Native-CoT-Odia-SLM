@@ -1,0 +1,20 @@
+{
+    "id": "791",
+    "original_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb?",
+    "deconstructed_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb?",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room and observe the light bulbs. The bulb that is on corresponds to switch 2.",
+        "Step 4: The bulb that is off, but warm, corresponds to switch 1. The remaining bulb corresponds to switch 3.",
+        "Step 5: By using the process of elimination and the observations from step 3 and step 4, determine which switch controls which light bulb."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "ପଦକ୍ଷେପ (step) 3: Immediately enter the room and observe the light bulbs. The bulb that is on corresponds to switch 2.",
+        "ପଦକ୍ଷେପ (step) 4: The bulb that is off, but warm, corresponds to switch 1. The remaining bulb corresponds to switch 3.",
+        "ପଦକ୍ଷେପ (step) 5: By using the process of elimination and the observations from ପଦକ୍ଷେପ (step) 3 and ପଦକ୍ଷେପ (step) 4, determine which switch controls which light bulb."
+    ],
+    "final_answer": "Switch 1 controls the warm bulb, switch 2 controls the bulb that is on, and switch 3 controls the remaining bulb."
+}

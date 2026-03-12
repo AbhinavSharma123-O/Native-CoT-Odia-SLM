@@ -1,0 +1,12 @@
+{
+    "id": "264",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than type B shops. Type C shops have 7 more employees than type A shops. The total number of employees in all shops is 270. If the ratio of type A shops to type B shops is 3:2 and there are 12 type C shops, how many type B shops are there?",
+    "reasoning_steps": [
+        "Step 1: Define the number of employees in type B shops as x. Then, the number of employees in type A shops is x + 5, and the number of employees in type C shops is x + 12.",
+        "Step 2: Express the total number of employees using the defined variables and given information. Let's denote the number of type A shops as 3y and the number of type B shops as 2y, based on the ratio given.",
+        "Step 3: Formulate the equation representing the total number of employees: (3y * (x + 5)) + (2y * x) + (12 * (x + 12)) = 270.",
+        "Step 4: Simplify the equation: 3yx + 15y + 2yx + 12x + 144 = 270. Combining like terms yields 5yx + 12x + 15y + 144 = 270.",
+        "Step 5: Rearrange the equation to solve for one variable in terms of the other: 5yx + 12x + 15y = 126. Factoring out common terms may help in solving the equation further."
+    ],
+    "final_answer": "There are 6 type B shops."
+}

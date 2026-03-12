@@ -1,0 +1,12 @@
+{
+    "id": "673",
+    "problem": "In a small town, there are three factories: A, B, and C. Each factory produces a different product: widgets, gadgets, and gizmos. The town has a limited number of trucks to transport these products to the market. Factory A produces 250 widgets per day, Factory B produces 300 gadgets per day, and Factory C produces 200 gizmos per day. The trucks can carry a maximum of 500 units of products per trip. The distance from Factory A to the market is 10 miles, from Factory B is 15 miles, and from Factory C is 20 miles. The trucks' fuel efficiency is 20 miles per gallon, and each gallon of fuel costs $2.50. If the town wants to transport all the products from the factories to the market in one day, and the trucks are available from 8 AM to 6 PM (10 hours), what is the minimum number of trucks needed to achieve this, assuming each truck can make multiple trips?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of products that need to be transported from all factories in one day.",
+        "Step 2: Determine the maximum number of products that can be carried by one truck in one trip.",
+        "Step 3: Calculate the total number of trips needed to transport all products, considering the capacity of the trucks.",
+        "Step 4: Calculate the total distance each truck needs to travel to transport all products, considering the location of each factory.",
+        "Step 5: Calculate the total amount of fuel needed for all trucks to make the necessary trips, considering the distance and fuel efficiency."
+    ],
+    "final_answer": "5"
+}

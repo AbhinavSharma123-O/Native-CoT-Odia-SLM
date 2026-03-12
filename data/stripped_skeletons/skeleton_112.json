@@ -1,0 +1,20 @@
+{
+    "id": "112",
+    "original_problem": "In a town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings. The number of commercial buildings is 15 more than the number of industrial buildings. The number of residential buildings is 20 less than twice the number of commercial buildings. What is the number of each type of building if the total number of buildings in the town is 240?",
+    "deconstructed_problem": "In a town, there are three types of buildings: residential, commercial, and industrial. The town has a ମୋଟ (total) of 240 buildings. The number of commercial buildings is 15 more than the number of industrial buildings. The number of residential buildings is 20 less than twice the number of commercial buildings. What is the number of each type of building ଯଦି (if) the ମୋଟ (total) number of buildings in the town is 240?",
+    "original_steps": [
+        "Step 1: Define the variables for each type of building: let R be the number of residential buildings, C be the number of commercial buildings, and I be the number of industrial buildings.",
+        "Step 2: Set up the equations based on the information given: C = I + 15 and R = 2C - 20.",
+        "Step 3: Since the total number of buildings is 240, we can write the equation R + C + I = 240.",
+        "Step 4: Substitute the expressions for R and C from Step 2 into the equation from Step 3 to get (2C - 20) + C + (C - 15) = 240, simplifying to 4C - 35 = 240.",
+        "Step 5: Solve the equation 4C - 35 = 240 for C: 4C = 240 + 35, 4C = 275, C = 275 / 4, C = 68.75. However, since the number of buildings must be an integer, we revisit our equations for a mistake in calculation or an oversight in the steps."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for each type of building: let R be the number of residential buildings, C be the number of commercial buildings, and I be the number of industrial buildings.",
+        "ପଦକ୍ଷେପ (step) 2: Set up the equations based on the information given: C = I + 15 and R = 2C - 20.",
+        "ପଦକ୍ଷେପ (step) 3: Since the ମୋଟ (total) number of buildings is 240, we can write the ସମୀକରଣ (equation) R + C + I = 240.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for R and C from ପଦକ୍ଷେପ (step) 2 into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to get (2C - 20) + C + (C - 15) = 240, simplifying to 4C - 35 = 240.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) 4C - 35 = 240 for C: 4C = 240 + 35, 4C = 275, C = 275 / 4, C = 68.75. However, since the number of buildings must be an integer, we revisit our equations for a mistake in calculation or an oversight in the steps."
+    ],
+    "final_answer": "Re-evaluating Step 4 with correct substitution and solving: Given that C = I + 15 and R = 2C - 20, substituting correctly into R + C + I = 240 gives us (2C - 20) + C + (C - 15) = 240. Simplifying correctly yields 4C - 35 = 240, then 4C = 275. This calculation was mistaken; correctly, it should be approached as 4C = 240 + 35, which indeed results in 4C = 275. This was a miscalculation since the number of buildings cannot be fractional. Correctly solving for C with proper attention to integer solutions requires recognizing the error in accepting a fractional number of buildings and ensuring all calculations and equations are correctly applied to find integer values for I, C, and R that satisfy all conditions given."
+}

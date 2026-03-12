@@ -1,0 +1,12 @@
+{
+    "id": "597",
+    "problem": "In a small town, there are 5 bakeries that sell a total of 250 loaves of bread per day. Each bakery has a different number of ovens, with a total of 15 ovens among them. The number of loaves each bakery sells is directly proportional to the number of ovens it has. The first bakery has 2 ovens and sells 30 loaves per day. The second bakery has 3 ovens, but its sales are 10 loaves less than the third bakery, which has 5 ovens. The fourth bakery sells 50 loaves per day and has 2 more ovens than the fifth bakery. If the fifth bakery has the fewest number of ovens and sells the fewest number of loaves, how many loaves of bread does the fifth bakery sell per day?",
+    "reasoning_steps": [
+        "Step 1: Determine the total number of loaves sold by all bakeries and the total number of ovens to establish a basis for calculations.",
+        "Step 2: Use the information about the first bakery to calculate the proportionality constant between the number of ovens and loaves sold.",
+        "Step 3: Apply the proportionality constant to find the sales of the second and third bakeries, using their oven numbers and the sales difference between them.",
+        "Step 4: Calculate the sales and oven numbers for the fourth bakery based on its relation to the fifth bakery.",
+        "Step 5: Solve for the number of ovens and loaves sold by the fifth bakery, ensuring all given conditions are met and the total sales and ovens add up correctly."
+    ],
+    "final_answer": "20"
+}

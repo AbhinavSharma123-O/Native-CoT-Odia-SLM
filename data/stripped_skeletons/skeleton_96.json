@@ -1,0 +1,22 @@
+{
+    "id": "96",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: 2000, 3000, and 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a particular day, due to a leak, 10% of the water from Tower A and 15% from Tower B was lost before Tower C started filling. Tower C was filled to 75% of its capacity. If Tower A was filled to 80% of its capacity before the leak, and Tower B was filled to 90% before its leak, how much water was in the system after all the filling and leaking was done?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: 2000, 3000, and 4000 gallons. The town's water supply system is such that Tower A is filled first, ତାହେଲେ (then) Tower B, and finally Tower C. On a particular day, due to a leak, 10% of the water from Tower A and 15% from Tower B was lost before Tower C started filling. Tower C was filled to 75% of its capacity. ଯଦି (if) Tower A was filled to 80% of its capacity before the leak, and Tower B was filled to 90% before its leak, how much water was in the system after all the filling and leaking was done?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water in Tower A before the leak, which is 80% of 2000 gallons.",
+        "Step 2: Calculate the amount of water lost from Tower A due to the leak, which is 10% of the water calculated in Step 1.",
+        "Step 3: Calculate the amount of water in Tower B before the leak, which is 90% of 3000 gallons.",
+        "Step 4: Calculate the amount of water lost from Tower B due to the leak, which is 15% of the water calculated in Step 3.",
+        "Step 5: Calculate the amount of water in Tower C after it was filled to 75% of its capacity, which is 75% of 4000 gallons.",
+        "Step 6: Calculate the total amount of water in the system after all the filling and leaking was done by adding the remaining water in Tower A, Tower B, and the water in Tower C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water in Tower A before the leak, which is 80% of 2000 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water lost from Tower A due to the leak, which is 10% of the water calculated in ପଦକ୍ଷେପ (step) 1.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the amount of water in Tower B before the leak, which is 90% of 3000 gallons.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water lost from Tower B due to the leak, which is 15% of the water calculated in ପଦକ୍ଷେପ (step) 3.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the amount of water in Tower C after it was filled to 75% of its capacity, which is 75% of 4000 gallons.",
+        "ପଦକ୍ଷେପ (step) 6: Calculate the ମୋଟ (total) amount of water in the system after all the filling and leaking was done by adding the remaining water in Tower A, Tower B, and the water in Tower C."
+    ],
+    "final_answer": "0.8*2000 - 0.1*(0.8*2000) + 0.9*3000 - 0.15*(0.9*3000) + 0.75*4000"
+}

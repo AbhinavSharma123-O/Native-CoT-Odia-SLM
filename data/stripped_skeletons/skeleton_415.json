@@ -1,0 +1,25 @@
+{
+    "id": "415",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a distinct number of employees. The total number of employees in all shops is 105. The number of employees in bakeries is 5 less than the number of employees in cafes, and the number of employees in restaurants is 10 more than the number of employees in cafes. Additionally, the village has a rule that the total number of employees in bakeries and cafes must be a multiple of 7. If the number of employees in cafes is a two-digit number, what is the number of employees in each type of shop?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a distinct number of employees. The ମୋଟ (total) number of employees in all shops is 105. The number of employees in bakeries is 5 less than the number of employees in cafes, and the number of employees in restaurants is 10 more than the number of employees in cafes. Additionally, the village has a rule that the ମୋଟ (total) number of employees in bakeries and cafes must be a multiple of 7. ଯଦି (if) the number of employees in cafes is a two-digit number, what is the number of employees in each type of shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants.",
+        "Step 2: Set up the equations based on the given information. We have B + C + R = 105, B = C - 5, and R = C + 10.",
+        "Step 3: Substitute the expressions for B and R into the total equation to get (C - 5) + C + (C + 10) = 105, which simplifies to 3C + 5 = 105.",
+        "Step 4: Solve for C to find the number of employees in cafes. 3C = 100, so C = 100 / 3, but since C must be a two-digit number and the total number of employees in bakeries and cafes must be a multiple of 7, we need to find a multiple of 3 that satisfies these conditions.",
+        "Step 5: Since C must be a two-digit number, the possible values for C are 33, 36, 39, etc. We need to check which of these values makes B + C a multiple of 7. Given B = C - 5, we can test these values to find the correct one."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Set up the equations based on the given information. We have B + C + R = 105, B = C - 5, and R = C + 10.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for B and R into the ମୋଟ (total) ସମୀକରଣ (equation) to get (C - 5) + C + (C + 10) = 105, which simplifies to 3C + 5 = 105.",
+        "ପଦକ୍ଷେପ (step) 4: Solve for C to find the number of employees in cafes. 3C = 100, so C = 100 / 3, but since C must be a two-digit number and the ମୋଟ (total) number of employees in bakeries and cafes must be a multiple of 7, we need to find a multiple of 3 that satisfies these conditions.",
+        "ପଦକ୍ଷେପ (step) 5: Since C must be a two-digit number, the possible values for C are 33, 36, 39, etc. We need to check which of these values makes B + C a multiple of 7. Given B = C - 5, we can test these values to find the correct one."
+    ],
+    "final_answer": {
+        "Bakeries": 24,
+        "Cafes": 29,
+        "Restaurants": 39,
+        "Total": 92
+    }
+}

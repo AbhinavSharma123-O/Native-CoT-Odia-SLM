@@ -1,0 +1,12 @@
+{
+    "id": "498",
+    "problem": "In a mystical forest, there are three types of trees: Oak, Maple, and Pine. The forest is divided into four sections: North, South, East, and West. The number of trees in each section is as follows: North has 25% more trees than South, East has 30% fewer trees than West, and the total number of trees in the forest is 4800. If the ratio of Oak to Maple to Pine trees in the North section is 3:5:2, in the South section is 2:3:5, in the East section is 5:2:3, and in the West section is 3:2:5, what is the total number of Pine trees in the forest?",
+    "reasoning_steps": [
+        "Step 1: Determine the total number of trees in each section by setting up equations based on the given percentages and the total number of trees in the forest.",
+        "Step 2: Calculate the actual number of trees in each section using the equations from Step 1.",
+        "Step 3: Calculate the number of Oak, Maple, and Pine trees in each section using the given ratios and the total number of trees in each section from Step 2.",
+        "Step 4: Sum up the number of Pine trees from each section to find the total number of Pine trees in the forest.",
+        "Step 5: Validate the calculations by ensuring the total number of trees across all sections equals 4800 and that the ratios of tree types in each section are correctly applied."
+    ],
+    "final_answer": "960"
+}

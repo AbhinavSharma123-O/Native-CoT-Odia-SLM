@@ -1,0 +1,12 @@
+{
+    "id": "375",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 150 cups of coffee per day. There are 5 more bakeries than cafes, and the total number of shops in the town is 25. If each restaurant sells 300 meals per day, and the average daily revenue from all shops is $1200, with each loaf of bread costing $2, each cup of coffee costing $1.50, and each meal costing $10, determine the total daily revenue from all the shops in the town.",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of bakeries, cafes, and restaurants. Let b be the number of bakeries, c be the number of cafes, and r be the number of restaurants.",
+        "Step 2: Establish the relationship between the number of bakeries and cafes. Since there are 5 more bakeries than cafes, we have b = c + 5.",
+        "Step 3: Determine the total number of shops using the information given. We know that b + c + r = 25.",
+        "Step 4: Calculate the daily revenue from each type of shop. The daily revenue from bakeries is 250b * $2, from cafes is 150c * $1.50, and from restaurants is 300r * $10.",
+        "Step 5: Use the average daily revenue to set up an equation for the total daily revenue from all shops, which is (250b * $2 + 150c * $1.50 + 300r * $10) / (b + c + r) = $1200."
+    ],
+    "final_answer": "Total daily revenue = $1200 * 25 = $30000"
+}

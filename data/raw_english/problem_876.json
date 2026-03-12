@@ -1,0 +1,12 @@
+{
+    "id": "876",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A is filled for 2 hours, Tower B is filled for 1.5 hours, and Tower C is filled for 2.5 hours, but then 10% of Tower A's water and 20% of Tower B's water are transferred to Tower C, and finally, 15% of the total water in Tower C is used for a festival, what percentage of the total water used and stored in all towers is used for the festival?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total water filled in each tower. For Tower A: 0.5 liters/minute * 120 minutes = 60 liters, for Tower B: 0.75 liters/minute * 90 minutes = 67.5 liters, and for Tower C: 1 liter/minute * 150 minutes = 150 liters.",
+        "Step 2: Calculate the water transferred from Tower A and Tower B to Tower C. 10% of Tower A's water is 0.1 * 60 = 6 liters, and 20% of Tower B's water is 0.2 * 67.5 = 13.5 liters.",
+        "Step 3: Calculate the new total water in Tower C after the transfer. Tower C initially had 150 liters, then received 6 liters from Tower A and 13.5 liters from Tower B, making it 150 + 6 + 13.5 = 169.5 liters.",
+        "Step 4: Calculate the amount of water used for the festival. 15% of the total water in Tower C is used, which is 0.15 * 169.5 = 25.425 liters.",
+        "Step 5: Calculate the total water used and stored in all towers after the transfers and the festival. The total water initially is 60 + 67.5 + 150 = 277.5 liters. After transfers but before the festival, Tower A has 60 - 6 = 54 liters, Tower B has 67.5 - 13.5 = 54 liters, and Tower C has 169.5 liters, totaling 277.5 liters. After the festival, the total water remains 277.5 liters because the water used for the festival comes from the stored water."
+    ],
+    "final_answer": "9.15"
+}

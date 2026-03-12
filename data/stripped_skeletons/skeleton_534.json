@@ -1,0 +1,20 @@
+{
+    "id": "534",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a maximum of 250 loaves of bread per day, with a minimum of 2 employees and a maximum of 5. Each cafe sells a maximum of 150 cups of coffee per day, with a minimum of 1 employee and a maximum of 3. Each restaurant sells a maximum of 200 meals per day, with a minimum of 3 employees and a maximum of 6. If the total number of employees in the village is 50, the total number of loaves of bread sold per day is 600, the total number of cups of coffee sold per day is 300, and the total number of meals sold per day is 400, what is the maximum possible number of shops in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a maximum of 250 loaves of bread per day, with a minimum of 2 employees and a maximum of 5. Each cafe sells a maximum of 150 cups of coffee per day, with a minimum of 1 employee and a maximum of 3. Each restaurant sells a maximum of 200 meals per day, with a minimum of 3 employees and a maximum of 6. ଯଦି (if) the ମୋଟ (total) number of employees in the village is 50, the ମୋଟ (total) number of loaves of bread sold per day is 600, the ମୋଟ (total) number of cups of coffee sold per day is 300, and the ମୋଟ (total) number of meals sold per day is 400, what is the maximum possible number of shops in the village?",
+    "original_steps": [
+        "Step 1: Determine the maximum number of bakeries by dividing the total number of loaves of bread sold per day by the maximum number of loaves of bread each bakery sells per day.",
+        "Step 2: Determine the minimum number of employees required for the maximum number of bakeries, and then calculate the remaining employees for cafes and restaurants.",
+        "Step 3: Determine the maximum number of cafes by dividing the total number of cups of coffee sold per day by the maximum number of cups of coffee each cafe sells per day.",
+        "Step 4: Determine the minimum number of employees required for the maximum number of cafes, and then calculate the remaining employees for restaurants.",
+        "Step 5: Determine the maximum number of restaurants by dividing the total number of meals sold per day by the maximum number of meals each restaurant sells per day, and then add up the number of bakeries, cafes, and restaurants to find the total number of shops."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the maximum number of bakeries by dividing the ମୋଟ (total) number of loaves of bread sold per day by the maximum number of loaves of bread each bakery sells per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the minimum number of employees required for the maximum number of bakeries, and ତାହେଲେ (then) calculate the remaining employees for cafes and restaurants.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the maximum number of cafes by dividing the ମୋଟ (total) number of cups of coffee sold per day by the maximum number of cups of coffee each cafe sells per day.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the minimum number of employees required for the maximum number of cafes, and ତାହେଲେ (then) calculate the remaining employees for restaurants.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the maximum number of restaurants by dividing the ମୋଟ (total) number of meals sold per day by the maximum number of meals each restaurant sells per day, and ତାହେଲେ (then) ଯୋଗ (add) up the number of bakeries, cafes, and restaurants to find the ମୋଟ (total) number of shops."
+    ],
+    "final_answer": "14"
+}

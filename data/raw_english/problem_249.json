@@ -1,0 +1,12 @@
+{
+    "id": "249",
+    "problem": "In a small village, there are three types of shops: grocery stores, bakeries, and butcher shops. The village has a total of 25 shops. The number of bakeries is 5 more than the number of grocery stores, and the number of butcher shops is 3 less than the number of bakeries. If the village council decides to impose a tax of $100 on each grocery store, $150 on each bakery, and $200 on each butcher shop, what is the total tax revenue collected from all the shops, given that there are 5 grocery stores?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of bakeries by adding 5 to the number of grocery stores, which is 5 + 5 = 10 bakeries.",
+        "Step 2: Calculate the number of butcher shops by subtracting 3 from the number of bakeries, which results in 10 - 3 = 7 butcher shops.",
+        "Step 3: Verify the total number of shops by summing the number of grocery stores, bakeries, and butcher shops: 5 (grocery) + 10 (bakeries) + 7 (butcher) = 22 shops, but since the village has a total of 25 shops, adjust the numbers according to the given conditions.",
+        "Step 4: Since the initial calculation does not match the total number of shops, re-evaluate the distribution considering the conditions: let's denote the number of grocery stores as G, the number of bakeries as B, and the number of butcher shops as H. Given B = G + 5 and H = B - 3, and knowing there are 5 grocery stores, we can confirm B = 10 and H = 7, but this doesn't add up to 25. The initial approach to directly calculate based on the given number of grocery stores was correct, but let's proceed with calculating tax based on the numbers derived: 5 grocery stores, 10 bakeries, and 7 butcher shops, as these numbers directly derive from the given conditions without needing to fulfill the total of 25 shops, which might have been a misunderstanding in the problem setup.",
+        "Step 5: Calculate the total tax revenue by multiplying the number of each type of shop by its respective tax and summing these amounts: (5 * $100) + (10 * $150) + (7 * $200)."
+    ],
+    "final_answer": "The final calculation for the total tax revenue is: (5 * 100) + (10 * 150) + (7 * 200) = 500 + 1500 + 1400 = 3400"
+}

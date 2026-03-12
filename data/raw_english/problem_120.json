@@ -1,0 +1,12 @@
+{
+    "id": "120",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a specific ratio of employees to customers. Type A shops have 2 employees for every 5 customers, Type B shops have 3 employees for every 7 customers, and Type C shops have 4 employees for every 9 customers. On a given day, the total number of customers across all shops is 420, and the total number of employees across all Type A and Type B shops is 84. Additionally, the total number of employees across all shops is 120. What is the number of Type C shops, given that each shop of any type has the same number of shops as the others, and the number of shops for each type is a multiple of 3?",
+    "reasoning_steps": [
+        "Step 1: Determine the total number of employees and customers for each type of shop based on the given ratios.",
+        "Step 2: Set up equations representing the total number of customers and employees across all shops.",
+        "Step 3: Use the information about the total number of employees across all Type A and Type B shops to create an equation that relates the number of shops of each type.",
+        "Step 4: Solve the system of equations from Steps 2 and 3 to find the number of shops for each type.",
+        "Step 5: Apply the constraint that the number of shops for each type is a multiple of 3 to find the valid solution for the number of Type C shops."
+    ],
+    "final_answer": "3"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "751",
+    "problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 40%, and 30% of the town's total output of widgets, respectively. Factory A produces 200 more widgets per day than Factory C. If the total output of widgets in the town is 1500 per day, how many widgets does Factory B produce per day if it operates 5 days a week, and the total number of widgets produced by all factories in a week is 7500?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total output of widgets per day for each factory by determining the percentage of total output each factory contributes.",
+        "Step 2: Use the information that Factory A produces 200 more widgets per day than Factory C to set up an equation that relates the outputs of Factory A and Factory C.",
+        "Step 3: Solve the equation from Step 2 to find the daily output of Factory A and Factory C.",
+        "Step 4: Calculate the daily output of Factory B by subtracting the combined daily output of Factory A and Factory C from the total daily output of all factories.",
+        "Step 5: Calculate the weekly output of Factory B by multiplying its daily output by the number of days it operates in a week."
+    ],
+    "final_answer": "600"
+}

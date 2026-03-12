@@ -1,0 +1,12 @@
+{
+    "id": "748",
+    "problem": "In a small town, there are three types of houses: small, medium, and large. The small houses have 2 bedrooms and are painted either blue or green. The medium houses have 3 bedrooms, are painted either red or yellow, and are located next to a small house. The large houses have 4 bedrooms, are painted either white or black, and are located next to a medium house. If there are 5 small houses, 3 of which are painted blue, and the rest are painted green, and if there are 4 medium houses, 2 of which are painted red and are located next to a blue small house, then how many large houses are there in total, given that each large house is located next to a medium house painted yellow, and there is only one large house painted black?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of small houses that are painted green, since 3 out of 5 small houses are painted blue.",
+        "Step 2: Calculate the number of medium houses painted yellow, knowing that 2 out of 4 medium houses are painted red and are next to a blue small house.",
+        "Step 3: Establish the number of medium houses that can be next to a large house, considering that each large house must be next to a medium house painted yellow.",
+        "Step 4: Deduce the total number of large houses, taking into account that there is only one large house painted black and that each large house is located next to a medium house painted yellow.",
+        "Step 5: Verify the answer by ensuring that the number of large houses does not exceed the number of medium houses painted yellow, as each large house requires a medium house painted yellow as a neighbor."
+    ],
+    "final_answer": "2"
+}

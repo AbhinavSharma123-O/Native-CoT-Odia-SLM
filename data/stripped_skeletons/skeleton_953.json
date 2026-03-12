@@ -1,0 +1,20 @@
+{
+    "id": "953",
+    "original_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it will not slip back. However, on the fifth day of its climb, a severe storm hits, reducing the well's height by 4 feet due to erosion. How many days will it take for the snail to reach the top of the well after the storm has passed?",
+    "deconstructed_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it will not slip back. However, on the fifth day of its climb, a severe storm hits, reducing the well's height by 4 feet due to erosion. How many days will it take for the snail to reach the top of the well after the storm has passed?",
+    "original_steps": [
+        "Step 1: Calculate the net progress of the snail per day, which is 3 feet up during the day and 2 feet back at night, resulting in a net gain of 1 foot per day.",
+        "Step 2: Determine the total distance the snail needs to climb after the storm, which is the original height of the well minus the erosion caused by the storm, so 20 - 4 = 16 feet.",
+        "Step 3: Consider the snail's progress before the storm. For the first 4 days, the snail climbs a net of 1 foot per day, totaling 4 feet.",
+        "Step 4: Subtract the distance climbed before the storm from the total distance needed to climb after the storm to find out how much distance is left for the snail to climb after the storm, which is 16 - 4 = 12 feet.",
+        "Step 5: Calculate how many days it will take for the snail to climb the remaining distance after the storm. Given the snail climbs 3 feet during the day and slips back 2 feet at night, it effectively climbs 1 foot per day. However, on the day it reaches or exceeds the top, it won't slip back. Thus, if the remaining distance is exactly divisible by the daily net gain, the snail reaches the top on that day without slipping back. Otherwise, it needs one more day to reach or exceed the top without slipping back."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net progress of the snail per day, which is 3 feet up during the day and 2 feet back at night, resulting in a net gain of 1 foot per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) distance the snail needs to climb after the storm, which is the original height of the well minus the erosion caused by the storm, so 20 - 4 = 16 feet.",
+        "ପଦକ୍ଷେପ (step) 3: Consider the snail's progress before the storm. For the first 4 days, the snail climbs a net of 1 foot per day, totaling 4 feet.",
+        "ପଦକ୍ଷେପ (step) 4: ବିୟୋଗ (subtract) the distance climbed before the storm from the ମୋଟ (total) distance needed to climb after the storm to find out how much distance is left for the snail to climb after the storm, which is 16 - 4 = 12 feet.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate how many days it will take for the snail to climb the remaining distance after the storm. Given the snail climbs 3 feet during the day and slips back 2 feet at night, it effectively climbs 1 foot per day. However, on the day it reaches or exceeds the top, it won't slip back. Thus, ଯଦି (if) the remaining distance is exactly divisible by the daily net gain, the snail reaches the top on that day without slipping back. Otherwise, it needs one more day to reach or exceed the top without slipping back."
+    ],
+    "final_answer": "It will take the snail 13 days to reach the top of the well after the storm has passed, since it climbs 4 feet before the storm and then needs 9 more days to climb the remaining 12 feet (12 feet / 1 foot per day = 12 days, plus the day the storm hits as the fifth day of climbing)."
+}

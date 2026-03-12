@@ -1,0 +1,12 @@
+{
+    "id": "240",
+    "problem": "In a small town, there are three water tanks - A, B, and C. Tank A can hold 1200 liters of water, Tank B can hold 800 liters, and Tank C can hold 1500 liters. The town's water supply system has three pipes - Pipe 1, Pipe 2, and Pipe 3. Pipe 1 can fill Tank A at a rate of 200 liters per hour and Tank B at a rate of 150 liters per hour. Pipe 2 can fill Tank B at a rate of 100 liters per hour and Tank C at a rate of 250 liters per hour. Pipe 3 can fill Tank A at a rate of 300 liters per hour and Tank C at a rate of 200 liters per hour. If all three pipes are opened at the same time and it takes 4 hours to fill all three tanks, how many hours would it take to fill Tank C if only Pipe 2 is used?",
+    "reasoning_steps": [
+        "Step 1: Calculate the combined rate at which all three pipes fill Tank A. Since Pipe 1 fills Tank A at 200 liters/hour and Pipe 3 fills Tank A at 300 liters/hour, their combined rate is 200 + 300 = 500 liters/hour.",
+        "Step 2: Calculate the combined rate at which all three pipes fill Tank B. Since Pipe 1 fills Tank B at 150 liters/hour and Pipe 2 fills Tank B at 100 liters/hour, their combined rate is 150 + 100 = 250 liters/hour.",
+        "Step 3: Calculate the combined rate at which all three pipes fill Tank C. Since Pipe 2 fills Tank C at 250 liters/hour and Pipe 3 fills Tank C at 200 liters/hour, their combined rate is 250 + 200 = 450 liters/hour.",
+        "Step 4: Use the information from Steps 1-3 to set up equations representing the filling of the tanks. For Tank A: 500 * 4 = 1200. For Tank B: 250 * 4 = 800 (given that it's full in 4 hours, but we actually need the rate for Tank C). For Tank C: 450 * 4 = 1500 (given). Since we confirmed that all tanks are filled in 4 hours with the combined rates, we can proceed to find the rate for Tank C with Pipe 2 alone.",
+        "Step 5: Determine how long it would take to fill Tank C using only Pipe 2, which fills Tank C at a rate of 250 liters per hour. The time to fill Tank C is given by the total capacity of Tank C divided by the rate at which Pipe 2 fills Tank C: 1500 / 250 = 6 hours."
+    ],
+    "final_answer": "6"
+}

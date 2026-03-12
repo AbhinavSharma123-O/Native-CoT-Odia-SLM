@@ -1,0 +1,20 @@
+{
+    "id": "860",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system can fill Tank A at a rate of 50 liters per minute, Tank B at a rate of 30 liters per minute, and Tank C at a rate of 20 liters per minute. On a given day, Tank A is 3/4 full, Tank B is 1/2 full, and Tank C is 1/3 full. How many minutes will it take to fill all three tanks if the water supply system operates simultaneously for all tanks, but with the condition that Tank A must be filled first, then Tank B, and finally Tank C, and the system can only fill one tank at a time?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system can fill Tank A at a rate of 50 liters per minute, Tank B at a rate of 30 liters per minute, and Tank C at a rate of 20 liters per minute. On a given day, Tank A is 3/4 full, Tank B is 1/2 full, and Tank C is 1/3 full. How many minutes will it take to fill all three tanks ଯଦି (if) the water supply system operates simultaneously for all tanks, but with the condition that Tank A must be filled first, ତାହେଲେ (then) Tank B, and finally Tank C, and the system can only fill one tank at a time?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water currently in each tank. For Tank A: 1000 * (3/4) = 750 liters, for Tank B: 800 * (1/2) = 400 liters, for Tank C: 1200 * (1/3) = 400 liters.",
+        "Step 2: Determine the amount of water needed to fill each tank. For Tank A: 1000 - 750 = 250 liters, for Tank B: 800 - 400 = 400 liters, for Tank C: 1200 - 400 = 800 liters.",
+        "Step 3: Calculate the time required to fill each tank at their respective rates. For Tank A: 250 / 50 = 5 minutes, for Tank B: 400 / 30 = 13.33 minutes, for Tank C: 800 / 20 = 40 minutes.",
+        "Step 4: Since the tanks must be filled in the order A, B, C, and only one tank can be filled at a time, we need to sum the time required to fill each tank in sequence. Total time = Time for A + Time for B + Time for C.",
+        "Step 5: Calculate the total time by adding the times calculated in Step 3 in the correct sequence: Total time = 5 minutes (for A) + 13.33 minutes (for B) + 40 minutes (for C)."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water currently in each tank. For Tank A: 1000 * (3/4) = 750 liters, for Tank B: 800 * (1/2) = 400 liters, for Tank C: 1200 * (1/3) = 400 liters.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the amount of water needed to fill each tank. For Tank A: 1000 - 750 = 250 liters, for Tank B: 800 - 400 = 400 liters, for Tank C: 1200 - 400 = 800 liters.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the time required to fill each tank at their respective rates. For Tank A: 250 / 50 = 5 minutes, for Tank B: 400 / 30 = 13.33 minutes, for Tank C: 800 / 20 = 40 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: Since the tanks must be filled in the order A, B, C, and only one tank can be filled at a time, we need to ସମଷ୍ଟି (sum) the time required to fill each tank in sequence. ମୋଟ (total) time = Time for A + Time for B + Time for C.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) time by adding the times calculated in ପଦକ୍ଷେପ (step) 3 in the correct sequence: ମୋଟ (total) time = 5 minutes (for A) + 13.33 minutes (for B) + 40 minutes (for C)."
+    ],
+    "final_answer": "58.33"
+}

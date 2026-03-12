@@ -1,0 +1,20 @@
+{
+    "id": "131",
+    "original_problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with 30% being residential, 40% commercial, and the rest industrial. If 25% of the residential buildings have a red door, 15% of the commercial buildings have a blue door, and the remaining buildings have a green door, how many buildings in total have a green door?",
+    "deconstructed_problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a ମୋଟ (total) of 240 buildings, with 30% being residential, 40% commercial, and the rest industrial. ଯଦି (if) 25% of the residential buildings have a red door, 15% of the commercial buildings have a blue door, and the remaining buildings have a green door, how many buildings in ମୋଟ (total) have a green door?",
+    "original_steps": [
+        "Step 1: Calculate the number of residential buildings by multiplying the total number of buildings by the percentage of residential buildings (30% of 240).",
+        "Step 2: Calculate the number of commercial buildings by multiplying the total number of buildings by the percentage of commercial buildings (40% of 240).",
+        "Step 3: Determine the number of industrial buildings by subtracting the sum of residential and commercial buildings from the total number of buildings.",
+        "Step 4: For each type of building, calculate the number of buildings with a red door (25% of residential), a blue door (15% of commercial), and then find the total number of buildings with either a red or blue door.",
+        "Step 5: Subtract the total number of buildings with either a red or blue door from the total number of buildings to find the number of buildings with a green door."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of residential buildings by multiplying the ମୋଟ (total) number of buildings by the percentage of residential buildings (30% of 240).",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of commercial buildings by multiplying the ମୋଟ (total) number of buildings by the percentage of commercial buildings (40% of 240).",
+        "ପଦକ୍ଷେପ (step) 3: Determine the number of industrial buildings by subtracting the ସମଷ୍ଟି (sum) of residential and commercial buildings from the ମୋଟ (total) number of buildings.",
+        "ପଦକ୍ଷେପ (step) 4: For each type of building, calculate the number of buildings with a red door (25% of residential), a blue door (15% of commercial), and ତାହେଲେ (then) find the ମୋଟ (total) number of buildings with either a red or blue door.",
+        "ପଦକ୍ଷେପ (step) 5: ବିୟୋଗ (subtract) the ମୋଟ (total) number of buildings with either a red or blue door from the ମୋଟ (total) number of buildings to find the number of buildings with a green door."
+    ],
+    "final_answer": "162"
+}

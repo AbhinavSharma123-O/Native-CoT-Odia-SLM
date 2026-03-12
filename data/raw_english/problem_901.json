@@ -1,0 +1,13 @@
+{
+    "id": "901",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 liters of water, Tank B can hold 800 liters, and Tank C can hold 1600 liters. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A directly to Tank C. Pipe 1 can transfer water at a rate of 200 liters per hour, Pipe 2 at 150 liters per hour, and Pipe 3 at 300 liters per hour. If Tank A is initially filled to its maximum capacity, Tank B is filled to 2/3 of its capacity, and Tank C is empty, how many hours will it take to fill Tank C to its maximum capacity, given that all pipes are operating simultaneously and that water cannot be transferred out of the system, only within it?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. Tank A has 1200 liters, Tank B has 2/3 * 800 = 533.33 liters, and Tank C has 0 liters.",
+        "Step 2: Determine the net flow of water into Tank C per hour. Pipe 3 directly fills Tank C at 300 liters per hour. Pipe 2 fills Tank C at 150 liters per hour but only after Tank B is filled to capacity. Calculate the net flow into Tank B from Pipe 1, which is 200 liters per hour.",
+        "Step 3: Calculate how long it takes to fill Tank B to its capacity. Tank B needs 800 - 533.33 = 266.67 liters to be full. At a rate of 200 liters per hour from Pipe 1, it will take 266.67 / 200 = 1.3333 hours to fill Tank B.",
+        "Step 4: After Tank B is full, the flow from Pipe 2 starts contributing to filling Tank C. So, the combined rate of filling Tank C after Tank B is full is 300 liters per hour from Pipe 3 plus 150 liters per hour from Pipe 2, totaling 450 liters per hour.",
+        "Step 5: Calculate the total time to fill Tank C. For the first 1.3333 hours, Tank C is filled only by Pipe 3 at 300 liters per hour. After that, both Pipe 2 and Pipe 3 fill Tank C at a combined rate of 450 liters per hour. The amount of water in Tank C after 1.3333 hours is 300 * 1.3333 = 400 liters. Tank C needs 1600 - 400 = 1200 liters more to be full. At a rate of 450 liters per hour, it will take 1200 / 450 = 2.6667 hours to fill the rest of Tank C.",
+        "Step 6: Add the time it takes to fill Tank B and the subsequent time to fill Tank C to its capacity. Total time = 1.3333 hours (to fill Tank B) + 2.6667 hours (to fill Tank C after Tank B is full) = 4 hours."
+    ],
+    "final_answer": "4"
+}

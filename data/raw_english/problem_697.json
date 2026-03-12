@@ -1,0 +1,12 @@
+{
+    "id": "697",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system can fill Tank A at a rate of 200 gallons per hour, Tank B at a rate of 150 gallons per hour, and Tank C at a rate of 300 gallons per hour. However, due to some technical issues, 10% of the water from Tank A leaks into Tank B, and 5% of the water from Tank C leaks into Tank A. If all tanks are initially empty and the supply system operates for 5 hours, how many gallons of water will be in Tank B after 5 hours, considering the leakage?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water that can be filled in each tank in 5 hours without considering the leakage.",
+        "Step 2: Determine the amount of water that leaks from Tank A to Tank B and from Tank C to Tank A per hour.",
+        "Step 3: Calculate the net amount of water added to each tank per hour, taking into account the leakage.",
+        "Step 4: Calculate the total amount of water in each tank after 5 hours, considering the net addition of water per hour.",
+        "Step 5: Specifically for Tank B, add the water it receives from Tank A due to leakage to its total, and subtract any water it might lose, if applicable."
+    ],
+    "final_answer": "1015"
+}

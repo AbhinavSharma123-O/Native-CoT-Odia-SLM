@@ -1,0 +1,12 @@
+{
+    "id": "611",
+    "problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the villagers tells you that one of the bulbs is always on, one is always off, and the other is controlled by a switch that is currently off. The village elder gives you a hint that the always-on bulb is in the same corner of the room as the bulb controlled by the switch that is currently off.",
+    "reasoning_steps": [
+        "Step 1: Turn two of the switches to the 'on' position for 5 minutes to heat up the corresponding bulbs.",
+        "Step 2: Turn one of the switches that was turned on in step 1 to the 'off' position, and immediately enter the room to observe the bulbs.",
+        "Step 3: Identify the bulb that is still on, as it must be the always-on bulb based on the villager's information.",
+        "Step 4: Identify the bulb that is off but warm, as it must be controlled by the switch that was turned off in step 2.",
+        "Step 5: Determine the remaining switch and bulb by the process of elimination, knowing which switch controls the always-on bulb and which switch was turned off in step 2."
+    ],
+    "final_answer": "You can correctly identify which switch controls which light bulb by following these steps."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "300",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system is designed such that Tank A is filled first, then Tank B, and finally Tank C. However, due to a malfunction, the system starts filling the tanks in the order of A, C, B. If the water supply can fill 200 gallons per hour and Tank A is already half full when the malfunction occurs, how many hours will it take to fill all three tanks?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system is designed such that Tank A is filled first, ତାହେଲେ (then) Tank B, and finally Tank C. However, due to a malfunction, the system starts filling the tanks in the order of A, C, B. ଯଦି (if) the water supply can fill 200 gallons per hour and Tank A is already half full when the malfunction occurs, how many hours will it take to fill all three tanks?",
+    "original_steps": [
+        "Step 1: Determine the initial amount of water in Tank A and calculate how much more water is needed to fill it completely.",
+        "Step 2: Calculate the time it takes to fill the remaining capacity of Tank A at the rate of 200 gallons per hour.",
+        "Step 3: Determine the amount of water that will be in Tank C when Tank A is full and calculate the time it takes to fill Tank C.",
+        "Step 4: After Tank A and Tank C are filled, calculate the remaining amount of water needed for Tank B and determine the time required to fill it at the given rate.",
+        "Step 5: Add up the time taken in each step to find the total time required to fill all three tanks."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the initial amount of water in Tank A and calculate how much more water is needed to fill it completely.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the time it takes to fill the remaining capacity of Tank A at the rate of 200 gallons per hour.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the amount of water that will be in Tank C when Tank A is full and calculate the time it takes to fill Tank C.",
+        "ପଦକ୍ଷେପ (step) 4: After Tank A and Tank C are filled, calculate the remaining amount of water needed for Tank B and determine the time required to fill it at the given rate.",
+        "ପଦକ୍ଷେପ (step) 5: ଯୋଗ (add) up the time taken in each ପଦକ୍ଷେପ (step) to find the ମୋଟ (total) time required to fill all three tanks."
+    ],
+    "final_answer": "11.5"
+}

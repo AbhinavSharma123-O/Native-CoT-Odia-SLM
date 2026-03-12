@@ -1,0 +1,12 @@
+{
+    "id": "438",
+    "problem": "There are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will only turn on if the switch is flipped an odd number of times, while the other two bulbs will turn on regardless of the number of times the switch is flipped. After entering the room, you notice that two of the bulbs are on and one is off. One of the bulbs that is on has been on for some time and is slightly warmer than the other, which was recently turned on. The question is: which switch corresponds to the special bulb?",
+    "reasoning_steps": [
+        "Step 1: Understand the initial conditions and the special bulb's behaviour, noting that it will only turn on if its switch is flipped an odd number of times.",
+        "Step 2: Develop a strategy to identify the special bulb by flipping switches in a specific pattern before entering the room, such as flipping switch 1 to the 'on' position for 5 minutes, then flipping it off, flipping switch 2 to the 'on' position, and immediately entering the room.",
+        "Step 3: Analyze the observed states of the bulbs upon entering the room. If two bulbs are on and one is off, determine which of the on bulbs is warmer, indicating it was turned on first.",
+        "Step 4: Deduce the switch corresponding to the special bulb based on the pattern of switch flips and the observed state of the bulbs. Since the warmer bulb must have been on for longer, it corresponds to switch 1 if it's on, or the recently turned on bulb corresponds to switch 2 if the warmer one is off.",
+        "Step 5: Use the process of elimination and the known behaviour of the special bulb to confirm the identities of the remaining switches and their corresponding bulbs."
+    ],
+    "final_answer": "The switch that was flipped first (switch 1) corresponds to the special bulb if the warmer bulb is on; otherwise, it corresponds to the recently turned on bulb (switch 2), with the remaining switch (switch 3) corresponding to the bulb that is off."
+}

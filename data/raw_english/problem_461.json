@@ -1,0 +1,12 @@
+{
+    "id": "461",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a certain number of cakes per day, with an average of 250 cakes sold across all bakeries. There are 5 bakeries in total, but each has a different number of cakes sold daily: 200, 220, 280, 300, and an unknown number. Meanwhile, each cafe sells an average of 150 pastries per day, and there are 8 cafes in total. Restaurants, on the other hand, sell an average of 500 meals per day, with a total of 10 restaurants. However, it's known that the total number of items (cakes, pastries, meals) sold across all shops is 7,500. If each bakery, on average, sells 50 more cakes than each cafe sells pastries, how many cakes are sold by the bakery with the unknown number of cakes sold daily?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of cakes sold across all bakeries, given the average and the number of bakeries.",
+        "Step 2: Determine the total number of pastries sold across all cafes, given the average and the number of cafes.",
+        "Step 3: Calculate the total number of meals sold across all restaurants, given the average and the number of restaurants.",
+        "Step 4: Subtract the total number of pastries and meals from the total number of items sold to find the total number of cakes sold.",
+        "Step 5: Use the information that each bakery sells 50 more cakes than each cafe sells pastries to establish a relationship between the average sales of bakeries and cafes, and then solve for the unknown number of cakes sold by one bakery."
+    ],
+    "final_answer": "240"
+}

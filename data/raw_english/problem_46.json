@@ -1,0 +1,12 @@
+{
+    "id": "46",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system can fill the towers at a rate of 100 gallons per minute for Tower A, 150 gallons per minute for Tower B, and 200 gallons per minute for Tower C. However, due to some technical issues, Tower A can only be filled for 2 hours a day, Tower B for 3 hours a day, and Tower C for 4 hours a day. Additionally, there is a daily water consumption of 500 gallons for Tower A, 750 gallons for Tower B, and 1000 gallons for Tower C. What is the maximum number of days the town's water supply can last if all towers are filled to their maximum capacity on the first day and then operated under the given constraints?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water that can be filled in each tower per day, considering their respective filling rates and time limitations.",
+        "Step 2: Determine the net daily water gain or loss for each tower by subtracting the daily consumption from the amount filled per day.",
+        "Step 3: Calculate the total initial water supply by summing the capacities of all three towers.",
+        "Step 4: Consider the scenario where the town uses water from the towers in such a way that the water level in each tower decreases at a rate proportional to its daily consumption, and find the point at which the water supply becomes insufficient to meet the daily demand.",
+        "Step 5: Use the information gathered to find the maximum number of days the town's water supply can last under the given conditions."
+    ],
+    "final_answer": "10"
+}

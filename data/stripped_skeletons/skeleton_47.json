@@ -1,0 +1,22 @@
+{
+    "id": "47",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C, with capacities of 200, 300, and 400 gallons respectively. Tank A is filled at a rate of 5 gallons per minute, Tank B is filled at a rate of 10 gallons per minute, and Tank C is filled at a rate of 8 gallons per minute. If Tank A is 3/4 full, Tank B is 1/4 full, and Tank C is empty at the start, and all three tanks start filling simultaneously, how many minutes will it take to fill all three tanks, given that when any tank is full, it starts to overflow and does not affect the overall filling time of the other tanks?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C, with capacities of 200, 300, and 400 gallons respectively. Tank A is filled at a rate of 5 gallons per minute, Tank B is filled at a rate of 10 gallons per minute, and Tank C is filled at a rate of 8 gallons per minute. ଯଦି (if) Tank A is 3/4 full, Tank B is 1/4 full, and Tank C is empty at the start, and all three tanks start filling simultaneously, how many minutes will it take to fill all three tanks, given that when any tank is full, it starts to overflow and does not affect the overall filling time of the other tanks?",
+    "original_steps": [
+        "Step 1: Determine the amount of water needed to fill each tank completely from its initial state. For Tank A, which is 3/4 full, the amount needed is 1/4 * 200 gallons. For Tank B, which is 1/4 full, the amount needed is 3/4 * 300 gallons. For Tank C, which is empty, the amount needed is 400 gallons.",
+        "Step 2: Calculate the specific amounts of water needed for each tank. For Tank A: 1/4 * 200 = 50 gallons. For Tank B: 3/4 * 300 = 225 gallons. For Tank C: 400 gallons.",
+        "Step 3: Determine the combined rate at which the tanks are being filled. Tank A is filled at 5 gallons/minute, Tank B at 10 gallons/minute, and Tank C at 8 gallons/minute, making a total fill rate of 5 + 10 + 8 = 23 gallons/minute.",
+        "Step 4: Calculate the time it would take to fill each tank if they were being filled individually at their respective rates. For Tank A: 50 gallons / 5 gallons/minute. For Tank B: 225 gallons / 10 gallons/minute. For Tank C: 400 gallons / 8 gallons/minute.",
+        "Step 5: Perform the calculations for Step 4. For Tank A: 50 / 5 = 10 minutes. For Tank B: 225 / 10 = 22.5 minutes. For Tank C: 400 / 8 = 50 minutes.",
+        "Step 6: Since the tanks are filling simultaneously, we need to find the longest time it takes to fill any one tank, as that will be the time when all tanks are filled, considering overflow does not affect the overall time. The longest time from Step 5 is 50 minutes for Tank C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the amount of water needed to fill each tank completely from its initial state. For Tank A, which is 3/4 full, the amount needed is 1/4 * 200 gallons. For Tank B, which is 1/4 full, the amount needed is 3/4 * 300 gallons. For Tank C, which is empty, the amount needed is 400 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the specific amounts of water needed for each tank. For Tank A: 1/4 * 200 = 50 gallons. For Tank B: 3/4 * 300 = 225 gallons. For Tank C: 400 gallons.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the combined rate at which the tanks are being filled. Tank A is filled at 5 gallons/minute, Tank B at 10 gallons/minute, and Tank C at 8 gallons/minute, making a ମୋଟ (total) fill rate of 5 + 10 + 8 = 23 gallons/minute.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the time it would take to fill each tank ଯଦି (if) they were being filled individually at their respective rates. For Tank A: 50 gallons / 5 gallons/minute. For Tank B: 225 gallons / 10 gallons/minute. For Tank C: 400 gallons / 8 gallons/minute.",
+        "ପଦକ୍ଷେପ (step) 5: Perform the calculations for ପଦକ୍ଷେପ (step) 4. For Tank A: 50 / 5 = 10 minutes. For Tank B: 225 / 10 = 22.5 minutes. For Tank C: 400 / 8 = 50 minutes.",
+        "ପଦକ୍ଷେପ (step) 6: Since the tanks are filling simultaneously, we need to find the longest time it takes to fill any one tank, as that will be the time when all tanks are filled, considering overflow does not affect the overall time. The longest time from ପଦକ୍ଷେପ (step) 5 is 50 minutes for Tank C."
+    ],
+    "final_answer": "50"
+}

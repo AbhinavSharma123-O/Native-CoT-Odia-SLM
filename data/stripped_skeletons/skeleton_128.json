@@ -1,0 +1,20 @@
+{
+    "id": "128",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a given day, the total water demand is 6500 gallons. However, due to a malfunction, Tower A can only fill to 3/4 of its capacity, and Tower B can only fill to 2/3 of its capacity. Tower C operates normally. How much water will Tower C need to supply to meet the town's demand, given that the water towers are filled sequentially and any excess water from one tower is used to fill the next?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, ତାହେଲେ (then) Tower B, and finally Tower C. On a given day, the ମୋଟ (total) water demand is 6500 gallons. However, due to a malfunction, Tower A can only fill to 3/4 of its capacity, and Tower B can only fill to 2/3 of its capacity. Tower C operates normally. How much water will Tower C need to supply to meet the town's demand, given that the water towers are filled sequentially and any excess water from one tower is used to fill the next?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water Tower A can supply, considering it can only fill to 3/4 of its 2000-gallon capacity.",
+        "Step 2: Determine the remaining water demand after Tower A has been filled, and calculate how much of Tower B's 2/3 capacity will be used to meet this demand.",
+        "Step 3: Calculate the actual amount of water supplied by Tower B, given its capacity and the demand remaining after Tower A's contribution.",
+        "Step 4: Calculate the remaining water demand after both Tower A and Tower B have been utilized, taking into account any excess from Tower A that was used to fill Tower B.",
+        "Step 5: Determine how much water Tower C needs to supply to meet the remaining demand, considering its full capacity and the sequential filling process."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water Tower A can supply, considering it can only fill to 3/4 of its 2000-gallon capacity.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the remaining water demand after Tower A has been filled, and calculate how much of Tower B's 2/3 capacity will be used to meet this demand.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the actual amount of water supplied by Tower B, given its capacity and the demand remaining after Tower A's contribution.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the remaining water demand after both Tower A and Tower B have been utilized, taking into account any excess from Tower A that was used to fill Tower B.",
+        "ପଦକ୍ଷେପ (step) 5: Determine how much water Tower C needs to supply to meet the remaining demand, considering its full capacity and the sequential filling process."
+    ],
+    "final_answer": "Tower C needs to supply 6500 - (2000 * 3/4) - (3000 * 2/3) = 6500 - 1500 - 2000 = 3000 gallons"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "495",
+    "problem": "In a small village, there are five houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the red house. Clue 5: The person who drinks soda lives in the house next to the person who owns the green house. Clue 6: The person who drinks tea lives in the house next to the person who owns the white house. Clue 7: The person who owns the green house drinks water.",
+    "reasoning_steps": [
+        "Step 1: Determine the color of the first house by using Clue 1 and the fact that there are five houses, each a different color.",
+        "Step 2: Use Clue 2 to find the color of the house next to the person who drinks milk and determine the color of the yellow house.",
+        "Step 3: Apply Clue 3 to find the possible positions of the red house, given that the person who owns the red house does not live next to the person who drinks coffee.",
+        "Step 4: Utilize Clue 4 to determine the nationality of the person who lives in the red house and then use Clue 5 to find the position of the person who drinks soda relative to the green house.",
+        "Step 5: Employ Clue 6 to identify the position of the person who drinks tea in relation to the white house, and Clue 7 to determine the drink of the person who owns the green house."
+    ],
+    "final_answer": "The final order from left to right is: Yellow - Canadian - Milk, Blue - British - Coffee, Red - American - Soda, Green - Indian - Water, White - Japanese - Tea."
+}

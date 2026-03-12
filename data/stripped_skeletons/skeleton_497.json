@@ -1,0 +1,20 @@
+{
+    "id": "497",
+    "original_problem": "In a small village, there are three types of traders: farmers, craftsmen, and merchants. Each farmer can produce 200 units of food per day, and they sell it to the merchants at $1 per unit. The merchants then sell the food to the craftsmen at a 20% markup. However, the craftsmen also produce goods that they sell to the merchants at $5 per unit, and the merchants sell these goods to the farmers at a 30% markup. If a farmer produces food for 5 days, and then buys goods from the merchant for the total amount of money they earned, how many units of goods can they buy, given that the merchant has an unlimited supply of goods, and all transactions are done in whole units?",
+    "deconstructed_problem": "In a small village, there are three types of traders: farmers, craftsmen, and merchants. Each farmer can produce 200 units of food per day, and they sell it to the merchants at $1 per unit. The merchants ତାହେଲେ (then) sell the food to the craftsmen at a 20% markup. However, the craftsmen also produce goods that they sell to the merchants at $5 per unit, and the merchants sell these goods to the farmers at a 30% markup. ଯଦି (if) a farmer produces food for 5 days, and ତାହେଲେ (then) buys goods from the merchant for the ମୋଟ (total) amount of money they earned, how many units of goods can they buy, given that the merchant has an unlimited supply of goods, and all transactions are done in whole units?",
+    "original_steps": [
+        "Step 1: Calculate the total amount of money the farmer earns from selling food to the merchant over 5 days.",
+        "Step 2: Determine the selling price of the food from the merchant to the craftsmen, considering the 20% markup.",
+        "Step 3: Calculate the selling price of the goods from the merchant to the farmer, considering the 30% markup from the price the merchant buys them at from the craftsmen.",
+        "Step 4: Calculate the total amount of money the farmer has to spend on goods after selling their produce.",
+        "Step 5: Determine the maximum number of units of goods the farmer can buy with the money they have, considering the price per unit after the merchant's markup."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) amount of money the farmer earns from selling food to the merchant over 5 days.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the selling price of the food from the merchant to the craftsmen, considering the 20% markup.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the selling price of the goods from the merchant to the farmer, considering the 30% markup from the price the merchant buys them at from the craftsmen.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) amount of money the farmer has to spend on goods after selling their produce.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the maximum number of units of goods the farmer can buy with the money they have, considering the price per unit after the merchant's markup."
+    ],
+    "final_answer": "50"
+}

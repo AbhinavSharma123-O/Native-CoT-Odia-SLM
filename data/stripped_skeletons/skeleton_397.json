@@ -1,0 +1,20 @@
+{
+    "id": "397",
+    "original_problem": "In a small town, there are three types of shops: clothing, electronics, and home goods. The town has a total of 25 shops. The number of clothing shops is 5 more than the number of electronics shops. The number of home goods shops is 2 less than the number of clothing shops. If the total number of employees in all shops is 250, and each clothing shop has 10 employees, each electronics shop has 8 employees, and each home goods shop has 12 employees, how many electronics shops are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: clothing, electronics, and home goods. The town has a ମୋଟ (total) of 25 shops. The number of clothing shops is 5 more than the number of electronics shops. The number of home goods shops is 2 less than the number of clothing shops. ଯଦି (if) the ମୋଟ (total) number of employees in all shops is 250, and each clothing shop has 10 employees, each electronics shop has 8 employees, and each home goods shop has 12 employees, how many electronics shops are there in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of shop. Let C be the number of clothing shops, E be the number of electronics shops, and H be the number of home goods shops.",
+        "Step 2: Set up equations based on the given information. We know that C = E + 5 and H = C - 2. Also, the total number of shops is given as C + E + H = 25.",
+        "Step 3: Substitute the expressions for C and H from the first two equations into the total shops equation to find a relationship between E and the total number of shops.",
+        "Step 4: Knowing that C + E + H = 25, and substituting C and H with their expressions relative to E, we get (E + 5) + E + ((E + 5) - 2) = 25. This simplifies to 3E + 8 = 25.",
+        "Step 5: Solve the equation 3E + 8 = 25 for E to find the number of electronics shops. Subtract 8 from both sides to get 3E = 17, then divide by 3 to solve for E."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of shop. Let C be the number of clothing shops, E be the number of electronics shops, and H be the number of home goods shops.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. We know that C = E + 5 and H = C - 2. Also, the ମୋଟ (total) number of shops is given as C + E + H = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for C and H from the first two equations into the ମୋଟ (total) shops ସମୀକରଣ (equation) to find a relationship between E and the ମୋଟ (total) number of shops.",
+        "ପଦକ୍ଷେପ (step) 4: Knowing that C + E + H = 25, and substituting C and H with their expressions relative to E, we get (E + 5) + E + ((E + 5) - 2) = 25. This simplifies to 3E + 8 = 25.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) 3E + 8 = 25 for E to find the number of electronics shops. ବିୟୋଗ (subtract) 8 from both sides to get 3E = 17, ତାହେଲେ (then) ହରଣ (divide) by 3 to solve for E."
+    ],
+    "final_answer": "5"
+}

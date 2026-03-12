@@ -1,0 +1,12 @@
+{
+    "id": "715",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system has three valves that control the flow of water into the tanks. Valve 1 fills Tank A at a rate of 100 liters per minute, Valve 2 fills Tank B at a rate of 150 liters per minute, and Valve 3 fills Tank C at a rate of 200 liters per minute. However, due to some technical issues, Valve 1 can only be opened for 30 minutes at a time before it needs to be closed for 10 minutes to cool down. Valve 2 and Valve 3 do not have this restriction. If all three valves are opened at the same time, and it takes 2 hours to fill Tank A, Tank B, and Tank C simultaneously, how many minutes will it take to fill Tank C alone, assuming that only Valve 3 is opened, and the town's water supply system operates without any restrictions?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water that can be filled by Valve 1 in 2 hours, considering its restriction of being open for only 30 minutes at a time.",
+        "Step 2: Determine the amount of water that Valve 2 and Valve 3 can fill in 2 hours, considering that they do not have any restrictions.",
+        "Step 3: Calculate the total amount of water that all three valves can fill in 2 hours.",
+        "Step 4: Since Tank A, Tank B, and Tank C are filled simultaneously, calculate the amount of water that each tank can hold and the total amount of water that can be filled by all three valves in 2 hours.",
+        "Step 5: Use the information from the previous steps to calculate how long it will take Valve 3 to fill Tank C alone."
+    ],
+    "final_answer": "120 minutes"
+}

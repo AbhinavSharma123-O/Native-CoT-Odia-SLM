@@ -1,0 +1,24 @@
+{
+    "id": "77",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all shops is 105. The number of employees in bakeries is 15 more than the number of employees in cafes, and the number of employees in restaurants is 20 more than the number of employees in bakeries. If the number of employees in cafes is 5 less than the number of employees in restaurants divided by 2, then how many employees are there in each type of shop?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 105. The number of employees in bakeries is 15 more than the number of employees in cafes, and the number of employees in restaurants is 20 more than the number of employees in bakeries. ଯଦି (if) the number of employees in cafes is 5 less than the number of employees in restaurants divided by 2, ତାହେଲେ (then) how many employees are there in each type of shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants.",
+        "Step 2: Translate the given information into mathematical equations based on the defined variables. We have: B = C + 15, R = B + 20, C = (R / 2) - 5, and B + C + R = 105.",
+        "Step 3: Use the equations to express all variables in terms of one variable. From B = C + 15 and C = (R / 2) - 5, we can express B and C in terms of R. Since R = B + 20, we can substitute B with C + 15 to get R = (C + 15) + 20.",
+        "Step 4: Solve the system of equations. Substitute C from the equation C = (R / 2) - 5 into the equation B = C + 15 to get B in terms of R. Then, knowing R = B + 20, we substitute B to find R. With R known, we can find B and C.",
+        "Step 5: Calculate the specific values for B, C, and R using the derived equations. Given the equation C = (R / 2) - 5 and knowing that R = B + 20 and B = C + 15, we can substitute these into B + C + R = 105 to solve for one variable, then solve for the others."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Translate the given information into mathematical equations based on the defined variables. We have: B = C + 15, R = B + 20, C = (R / 2) - 5, and B + C + R = 105.",
+        "ପଦକ୍ଷେପ (step) 3: Use the equations to express all variables in terms of one ଚଳ (variable). From B = C + 15 and C = (R / 2) - 5, we can express B and C in terms of R. Since R = B + 20, we can substitute B with C + 15 to get R = (C + 15) + 20.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the system of equations. Substitute C from the ସମୀକରଣ (equation) C = (R / 2) - 5 into the ସମୀକରଣ (equation) B = C + 15 to get B in terms of R. ତାହେଲେ (then), knowing R = B + 20, we substitute B to find R. With R known, we can find B and C.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the specific values for B, C, and R using the derived equations. Given the ସମୀକରଣ (equation) C = (R / 2) - 5 and knowing that R = B + 20 and B = C + 15, we can substitute these into B + C + R = 105 to solve for one ଚଳ (variable), ତାହେଲେ (then) solve for the others."
+    ],
+    "final_answer": {
+        "Bakeries": 35,
+        "Cafes": 20,
+        "Restaurants": 50
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "51",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $240 worth of bread per day, with each loaf costing $4. Each cafe sells a total of $300 worth of coffee per day, with each cup costing $5. Each restaurant sells a total of $600 worth of meals per day, with each meal costing $8. The town has a total of 15 shops. The total daily revenue from all shops is $6,300. If the number of bakeries is 5 more than the number of cafes, how many restaurants are in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a ମୋଟ (total) of $240 worth of bread per day, with each loaf costing $4. Each cafe sells a ମୋଟ (total) of $300 worth of coffee per day, with each cup costing $5. Each restaurant sells a ମୋଟ (total) of $600 worth of meals per day, with each meal costing $8. The town has a ମୋଟ (total) of 15 shops. The ମୋଟ (total) daily revenue from all shops is $6,300. ଯଦି (if) the number of bakeries is 5 more than the number of cafes, how many restaurants are in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and set up equations based on the given information.",
+        "Step 2: Formulate equations for the total number of shops and the total daily revenue: B + C + R = 15 and 240B + 300C + 600R = 6300.",
+        "Step 3: Express the number of bakeries in terms of the number of cafes: B = C + 5.",
+        "Step 4: Substitute the expression for B into the equation for the total number of shops to get: (C + 5) + C + R = 15, simplifying to 2C + R = 10.",
+        "Step 5: Substitute the expression for B into the equation for the total daily revenue: 240(C + 5) + 300C + 600R = 6300, simplifying to 540C + 600R = 6300 - 1200, which further simplifies to 540C + 600R = 5100.",
+        "Step 6: Solve the system of equations formed by steps 4 and 5 to find the values of C and R."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and set up equations based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Formulate equations for the ମୋଟ (total) number of shops and the ମୋଟ (total) daily revenue: B + C + R = 15 and 240B + 300C + 600R = 6300.",
+        "ପଦକ୍ଷେପ (step) 3: Express the number of bakeries in terms of the number of cafes: B = C + 5.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expression for B into the ସମୀକରଣ (equation) for the ମୋଟ (total) number of shops to get: (C + 5) + C + R = 15, simplifying to 2C + R = 10.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the expression for B into the ସମୀକରଣ (equation) for the ମୋଟ (total) daily revenue: 240(C + 5) + 300C + 600R = 6300, simplifying to 540C + 600R = 6300 - 1200, which further simplifies to 540C + 600R = 5100.",
+        "ପଦକ୍ଷେପ (step) 6: Solve the system of equations formed by steps 4 and 5 to find the values of C and R."
+    ],
+    "final_answer": "R = 5"
+}

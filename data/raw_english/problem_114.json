@@ -1,0 +1,12 @@
+{
+    "id": "114",
+    "problem": "In a small village, there are three types of shops: clothing, electronics, and furniture. The village has a total of 24 shops. The number of clothing shops is 4 more than the number of electronics shops, and the number of furniture shops is 2 more than the number of clothing shops. If the number of electronics shops is denoted by x, then what is the value of x?",
+    "reasoning_steps": [
+        "Step 1: Let's denote the number of electronics shops as x. Then the number of clothing shops is x + 4, and the number of furniture shops is (x + 4) + 2 = x + 6.",
+        "Step 2: The total number of shops in the village is the sum of the number of electronics shops, clothing shops, and furniture shops. This gives us the equation: x + (x + 4) + (x + 6) = 24.",
+        "Step 3: Simplify the equation by combining like terms. This results in 3x + 10 = 24.",
+        "Step 4: To solve for x, subtract 10 from both sides of the equation, yielding 3x = 14.",
+        "Step 5: Finally, divide both sides of the equation by 3 to find the value of x, which gives us x = 14 / 3."
+    ],
+    "final_answer": "4.66666666667"
+}

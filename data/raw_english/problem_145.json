@@ -1,0 +1,12 @@
+{
+    "id": "145",
+    "problem": "In a small town, there are three factories: A, B, and C, producing 30%, 25%, and 45% of the total widgets, respectively. Each factory has a different production rate per hour: A produces 200 widgets/hour, B produces 150 widgets/hour, and C produces 300 widgets/hour. If the total production of widgets from all factories in a day (8 hours) is 36,000, what percentage of the total daily production comes from factory C during the last 2 hours of the day, given that factory A operates for 6 hours and factory B operates for 5 hours?",
+    "reasoning_steps": [
+        "Step 1: Calculate the daily production of each factory based on their operational hours and production rates.",
+        "Step 2: Determine the total production from all factories in a day to establish a baseline for comparison.",
+        "Step 3: Find out how much each factory produces in the time it operates to understand their contribution to the total.",
+        "Step 4: Calculate the production of factory C during the last 2 hours of the day, considering its production rate and operational hours.",
+        "Step 5: Calculate the percentage of the total daily production that comes from factory C during the last 2 hours of the day."
+    ],
+    "final_answer": "Given factory A produces 200 widgets/hour for 6 hours (1200 widgets), factory B produces 150 widgets/hour for 5 hours (750 widgets), and the total production is 36,000 widgets, we can calculate the production of factory C for the day. Since A and B together produce 1950 widgets, and they account for 30% + 25% = 55% of production, the remaining 45% must come from C. This means C produces 45% of 36,000 = 16,200 widgets in 8 hours. Since C produces 300 widgets/hour, in the last 2 hours it produces 300 * 2 = 600 widgets. To find the percentage of the total daily production from C in the last 2 hours: (600 / 36,000) * 100 = 1.6667%"
+}

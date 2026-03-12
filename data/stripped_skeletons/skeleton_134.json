@@ -1,0 +1,20 @@
+{
+    "id": "134",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 2500 gallons. The town's water supply system is such that the rate of filling Tower A is 100 gallons per minute, Tower B is 150 gallons per minute, and Tower C is 120 gallons per minute. However, due to leaks, Tower A loses 10 gallons per minute, Tower B loses 15 gallons per minute, and Tower C loses 8 gallons per minute. If all towers start empty and are filled simultaneously, how many minutes will it take to fill all three towers to their maximum capacities, assuming the filling and leaking rates remain constant?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 2500 gallons. The town's water supply system is such that the rate of filling Tower A is 100 gallons per minute, Tower B is 150 gallons per minute, and Tower C is 120 gallons per minute. However, due to leaks, Tower A loses 10 gallons per minute, Tower B loses 15 gallons per minute, and Tower C loses 8 gallons per minute. ଯଦି (if) all towers start empty and are filled simultaneously, how many minutes will it take to fill all three towers to their maximum capacities, assuming the filling and leaking rates remain constant?",
+    "original_steps": [
+        "Step 1: Calculate the net filling rate for each tower by subtracting the leak rate from the filling rate. For Tower A, the net rate is 100 - 10 = 90 gallons per minute. For Tower B, it's 150 - 15 = 135 gallons per minute. For Tower C, it's 120 - 8 = 112 gallons per minute.",
+        "Step 2: Determine the time it takes to fill each tower individually by dividing the tower's capacity by its net filling rate. For Tower A, time = 2000 / 90. For Tower B, time = 3000 / 135. For Tower C, time = 2500 / 112.",
+        "Step 3: Perform the calculations for each tower to find the individual filling times. For Tower A, time ≈ 22.22 minutes. For Tower B, time ≈ 22.22 minutes. For Tower C, time ≈ 22.32 minutes.",
+        "Step 4: Since all towers are being filled simultaneously, the time it takes to fill all three towers is determined by the tower that takes the longest to fill. Compare the filling times calculated in Step 3.",
+        "Step 5: From the calculations in Step 3, identify the longest time as the answer, which will be the time it takes to fill all towers, since they are filled simultaneously and the question asks for when all are filled to their maximum capacities."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net filling rate for each tower by subtracting the leak rate from the filling rate. For Tower A, the net rate is 100 - 10 = 90 gallons per minute. For Tower B, it's 150 - 15 = 135 gallons per minute. For Tower C, it's 120 - 8 = 112 gallons per minute.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the time it takes to fill each tower individually by dividing the tower's capacity by its net filling rate. For Tower A, time = 2000 / 90. For Tower B, time = 3000 / 135. For Tower C, time = 2500 / 112.",
+        "ପଦକ୍ଷେପ (step) 3: Perform the calculations for each tower to find the individual filling times. For Tower A, time ≈ 22.22 minutes. For Tower B, time ≈ 22.22 minutes. For Tower C, time ≈ 22.32 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: Since all towers are being filled simultaneously, the time it takes to fill all three towers is determined by the tower that takes the longest to fill. Compare the filling times calculated in ପଦକ୍ଷେପ (step) 3.",
+        "ପଦକ୍ଷେପ (step) 5: From the calculations in ପଦକ୍ଷେପ (step) 3, identify the longest time as the answer, which will be the time it takes to fill all towers, since they are filled simultaneously and the question asks for when all are filled to their maximum capacities."
+    ],
+    "final_answer": "22.32"
+}

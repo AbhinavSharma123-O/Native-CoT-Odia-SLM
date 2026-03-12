@@ -1,0 +1,20 @@
+{
+    "id": "345",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system is designed such that Tank A is filled from the town's main water source at a rate of 50 liters per minute. Once Tank A is full, it starts filling Tank B at the same rate until Tank B is full. Then, Tank A and Tank B together start filling Tank C at a combined rate of 100 liters per minute. If all tanks are initially empty and it takes 5 hours to fill all three tanks, what is the rate in liters per minute at which the town's main water source fills Tank A, given that the rate of filling Tank A is increased by 10 liters per minute every 30 minutes?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system is designed such that Tank A is filled from the town's main water source at a rate of 50 liters per minute. Once Tank A is full, it starts filling Tank B at the same rate until Tank B is full. ତାହେଲେ (then), Tank A and Tank B together start filling Tank C at a combined rate of 100 liters per minute. ଯଦି (if) all tanks are initially empty and it takes 5 hours to fill all three tanks, what is the rate in liters per minute at which the town's main water source fills Tank A, given that the rate of filling Tank A is increased by 10 liters per minute every 30 minutes?",
+    "original_steps": [
+        "Step 1: Determine the time it takes to fill Tank A at the initial rate of 50 liters per minute, considering the rate increase every 30 minutes.",
+        "Step 2: Calculate the total amount of water filled in Tank A before it starts filling Tank B, accounting for the increased rate.",
+        "Step 3: Find the time it takes to fill Tank B after Tank A is full, considering Tank A's initial and increased rates.",
+        "Step 4: Calculate the combined rate at which Tank A and Tank B fill Tank C, knowing that their combined rate is 100 liters per minute.",
+        "Step 5: Set up an equation based on the total time to fill all tanks (5 hours) and solve for the initial rate of filling Tank A, taking into account the periodic rate increase."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the time it takes to fill Tank A at the initial rate of 50 liters per minute, considering the rate increase every 30 minutes.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) amount of water filled in Tank A before it starts filling Tank B, accounting for the increased rate.",
+        "ପଦକ୍ଷେପ (step) 3: Find the time it takes to fill Tank B after Tank A is full, considering Tank A's initial and increased rates.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the combined rate at which Tank A and Tank B fill Tank C, knowing that their combined rate is 100 liters per minute.",
+        "ପଦକ୍ଷେପ (step) 5: Set up an ସମୀକରଣ (equation) based on the ମୋଟ (total) time to fill all tanks (5 hours) and solve for the initial rate of filling Tank A, taking into account the periodic rate increase."
+    ],
+    "final_answer": "60"
+}

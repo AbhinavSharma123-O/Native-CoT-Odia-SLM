@@ -1,0 +1,20 @@
+{
+    "id": "948",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than type B shops. Type C shops have 3 times as many employees as type B shops. If the total number of employees in all three types of shops is 240, and there are 5 type A shops, 3 type B shops, and 2 type C shops, how many employees does a type B shop have?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than type B shops. Type C shops have 3 times as many employees as type B shops. ଯଦି (if) the ମୋଟ (total) number of employees in all three types of shops is 240, and there are 5 type A shops, 3 type B shops, and 2 type C shops, how many employees does a type B shop have?",
+    "original_steps": [
+        "Step 1: Define variables for the number of employees in each type of shop: let's call the number of employees in type A shops 'a', type B shops 'b', and type C shops 'c'.",
+        "Step 2: Set up equations based on the given relationships between the types of shops: a = b + 5 and c = 3b.",
+        "Step 3: Calculate the total number of employees using the given number of shops for each type: 5a + 3b + 2c = 240.",
+        "Step 4: Substitute the expressions for 'a' and 'c' from step 2 into the equation from step 3: 5(b + 5) + 3b + 2(3b) = 240.",
+        "Step 5: Solve the resulting equation for 'b': 5b + 25 + 3b + 6b = 240, which simplifies to 14b + 25 = 240, then 14b = 215, and finally b = 215 / 14."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of employees in each type of shop: let's call the number of employees in type A shops 'a', type B shops 'b', and type C shops 'c'.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given relationships between the types of shops: a = b + 5 and c = 3b.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of employees using the given number of shops for each type: 5a + 3b + 2c = 240.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for 'a' and 'c' from ପଦକ୍ଷେପ (step) 2 into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3: 5(b + 5) + 3b + 2(3b) = 240.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the resulting ସମୀକରଣ (equation) for 'b': 5b + 25 + 3b + 6b = 240, which simplifies to 14b + 25 = 240, ତାହେଲେ (then) 14b = 215, and finally b = 215 / 14."
+    ],
+    "final_answer": "15.357142857142857"
+}

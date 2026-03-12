@@ -1,0 +1,12 @@
+{
+    "id": "737",
+    "problem": "In a small town, there are three water towers, A, B, and C, with capacities of 1000, 2000, and 3000 gallons respectively. Each day, the town uses 150 gallons of water from tower A, 300 gallons from tower B, and 450 gallons from tower C. However, due to a leak, tower A loses an additional 50 gallons per day, tower B loses 100 gallons per day, and tower C loses 150 gallons per day. If all three towers are currently full and the town wants to distribute the water equally among its 500 residents, how many days will it take for the town to run out of water, assuming each resident uses 1 gallon of water per day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily water usage by the town, including the leakages, which is 150 + 300 + 450 (usage) + 50 + 100 + 150 (leakage) = 1200 gallons per day.",
+        "Step 2: Calculate the total amount of water available in all three towers, which is 1000 + 2000 + 3000 = 6000 gallons.",
+        "Step 3: Determine the total amount of water used by the residents per day, which is 500 residents * 1 gallon per resident per day = 500 gallons per day.",
+        "Step 4: Calculate the net water usage per day, accounting for both the town's usage and the leakage, which is 1200 gallons per day (total usage and leakage) - 500 gallons per day (resident usage) = 700 gallons per day.",
+        "Step 5: Calculate the number of days the water will last by dividing the total amount of water available by the net daily usage, which is 6000 gallons / 700 gallons per day = 8.57 days, rounding down to 8 days since the town cannot use a fraction of a day's water."
+    ],
+    "final_answer": "8"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "150",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3500 gallons, and Tower C can hold 4500 gallons. On a given day, Tower A is 3/4 full, Tower B is 2/3 full, and Tower C is 5/6 full. Meanwhile, the town's water treatment plant can supply 1000 gallons per hour. If 1/4 of Tower A's water is used for drinking, 1/2 of Tower B's water is used for industrial purposes, and 3/4 of Tower C's water is used for agricultural purposes, how many hours will it take to refill all three towers, assuming the water treatment plant operates at a constant rate and all the water used is replenished from the plant?",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of water in each tower at the start of the day. For Tower A: 2000 * (3/4) = 1500 gallons, for Tower B: 3500 * (2/3) = 2333.33 gallons, and for Tower C: 4500 * (5/6) = 3750 gallons.",
+        "Step 2: Determine the amount of water used from each tower. From Tower A: 1500 * (1/4) = 375 gallons, from Tower B: 2333.33 * (1/2) = 1166.67 gallons, and from Tower C: 3750 * (3/4) = 2812.5 gallons.",
+        "Step 3: Calculate the remaining water in each tower after usage. For Tower A: 1500 - 375 = 1125 gallons, for Tower B: 2333.33 - 1166.67 = 1166.66 gallons, and for Tower C: 3750 - 2812.5 = 937.5 gallons.",
+        "Step 4: Calculate the total amount of water needed to refill all towers to their full capacity. For Tower A: 2000 - 1125 = 875 gallons, for Tower B: 3500 - 1166.66 = 2333.34 gallons, and for Tower C: 4500 - 937.5 = 3562.5 gallons.",
+        "Step 5: Sum the total amount of water needed for all towers and divide by the plant's supply rate to find the total hours required to refill them. Total water needed = 875 + 2333.34 + 3562.5 = 6771.34 gallons. Hours to refill = Total water needed / Supply rate = 6771.34 / 1000 = 6.77134 hours."
+    ],
+    "final_answer": "6.77134"
+}

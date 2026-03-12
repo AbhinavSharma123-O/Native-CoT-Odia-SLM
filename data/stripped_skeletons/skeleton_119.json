@@ -1,0 +1,22 @@
+{
+    "id": "119",
+    "original_problem": "In a small village, there are three types of shops: grocery, clothing, and furniture. Each type of shop has a different number of employees. The grocery shop has 5 more employees than the clothing shop, and the furniture shop has 3 times as many employees as the clothing shop. If the total number of employees in all three shops is 72, and the clothing shop has 2 fewer employees than the sum of the number of letters in the words 'grocery' and 'furniture', determine the number of employees in each type of shop.",
+    "deconstructed_problem": "In a small village, there are three types of shops: grocery, clothing, and furniture. Each type of shop has a different number of employees. The grocery shop has 5 more employees than the clothing shop, and the furniture shop has 3 times as many employees as the clothing shop. ଯଦି (if) the ମୋଟ (total) number of employees in all three shops is 72, and the clothing shop has 2 fewer employees than the ସମଷ୍ଟି (sum) of the number of letters in the words 'grocery' and 'furniture', determine the number of employees in each type of shop.",
+    "original_steps": [
+        "Step 1: Determine the number of letters in the words 'grocery' and 'furniture'. The word 'grocery' has 7 letters and 'furniture' has 9 letters.",
+        "Step 2: Calculate the sum of the number of letters in the words 'grocery' and 'furniture'. The sum is 7 + 9 = 16.",
+        "Step 3: Determine the number of employees in the clothing shop. Since the clothing shop has 2 fewer employees than the sum of the number of letters in the words 'grocery' and 'furniture', it has 16 - 2 = 14 employees.",
+        "Step 4: Calculate the number of employees in the furniture shop. Since the furniture shop has 3 times as many employees as the clothing shop, it has 3 * 14 = 42 employees.",
+        "Step 5: Determine the number of employees in the grocery shop. Since the grocery shop has 5 more employees than the clothing shop, it has 14 + 5 = 19 employees.",
+        "Step 6: Verify the total number of employees in all three shops. The total number of employees is 14 (clothing) + 42 (furniture) + 19 (grocery) = 75, which does not match the given total of 72. Re-evaluate the calculations to ensure accuracy."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of letters in the words 'grocery' and 'furniture'. The word 'grocery' has 7 letters and 'furniture' has 9 letters.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ସମଷ୍ଟି (sum) of the number of letters in the words 'grocery' and 'furniture'. The ସମଷ୍ଟି (sum) is 7 + 9 = 16.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the number of employees in the clothing shop. Since the clothing shop has 2 fewer employees than the ସମଷ୍ଟି (sum) of the number of letters in the words 'grocery' and 'furniture', it has 16 - 2 = 14 employees.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the number of employees in the furniture shop. Since the furniture shop has 3 times as many employees as the clothing shop, it has 3 * 14 = 42 employees.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the number of employees in the grocery shop. Since the grocery shop has 5 more employees than the clothing shop, it has 14 + 5 = 19 employees.",
+        "ପଦକ୍ଷେପ (step) 6: Verify the ମୋଟ (total) number of employees in all three shops. The ମୋଟ (total) number of employees is 14 (clothing) + 42 (furniture) + 19 (grocery) = 75, which does not match the given ମୋଟ (total) of 72. Re-evaluate the calculations to ensure accuracy."
+    ],
+    "final_answer": "The initial calculation yields 75 employees, which exceeds the given total. Reassessing, if the clothing shop has x employees, then the grocery shop has x + 5, and the furniture shop has 3x. The equation becomes x + (x + 5) + 3x = 72. Simplifying this, 5x + 5 = 72. Solving for x, 5x = 67, x = 13.4. Since the number of employees must be a whole number, and the original problem setup was based on the word lengths, a mistake was made in assuming the direct sum of letters as the basis for the clothing shop's employees without considering it might not directly translate to a whole number of employees due to the problem's constraints. Thus, revisiting Step 3 with the understanding that the sum of letters minus 2 should directly relate to a feasible number of employees, but recognizing the error in calculation due to not initially solving the equation correctly for whole numbers of employees."
+}

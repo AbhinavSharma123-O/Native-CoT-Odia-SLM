@@ -1,0 +1,12 @@
+{
+    "id": "678",
+    "problem": "In a small town, there are three types of coins: gold, silver, and copper. Each type of coin has a different weight and value. The gold coin weighs 10 grams and is worth $15. The silver coin weighs 8 grams and is worth $8. The copper coin weighs 5 grams and is worth $2. A merchant has 30 coins in total, consisting of gold, silver, and copper coins. The total weight of all the coins is 220 grams, and the total value is $240. If the number of gold coins is 5 more than the number of copper coins, how many silver coins are there?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of gold, silver, and copper coins. Let G be the number of gold coins, S be the number of silver coins, and C be the number of copper coins.",
+        "Step 2: Set up the system of equations based on the given information. The total number of coins is 30, so G + S + C = 30. The total weight of all coins is 220 grams, so 10G + 8S + 5C = 220. The total value of all coins is $240, so 15G + 8S + 2C = 240.",
+        "Step 3: Use the information that the number of gold coins is 5 more than the number of copper coins to create another equation: G = C + 5.",
+        "Step 4: Substitute the equation G = C + 5 into the first equation G + S + C = 30 to get (C + 5) + S + C = 30, which simplifies to 2C + S = 25.",
+        "Step 5: Substitute G = C + 5 into the weight equation 10G + 8S + 5C = 220 to get 10(C + 5) + 8S + 5C = 220, which simplifies to 15C + 8S = 170."
+    ],
+    "final_answer": "10"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "915",
+    "original_problem": "In the city of Azura, there are three types of trains: the Azure, the Onyx, and the Lumina. The Azure train travels from Azura to the city of Eldrador, a distance of 420 miles, in 6 hours. The Onyx train travels from Eldrador to the city of Nyx, a distance of 315 miles, in 5 hours. The Lumina train travels from Nyx to Azura, a distance of 480 miles, in 8 hours. If a passenger takes the Azure train from Azura to Eldrador, then the Onyx train from Eldrador to Nyx, and finally the Lumina train from Nyx back to Azura, what is the total distance traveled by the passenger, and what is the total time taken for the entire journey? Additionally, if the passenger pays $0.50 per mile for the Azure train, $0.60 per mile for the Onyx train, and $0.40 per mile for the Lumina train, what is the total cost of the journey?",
+    "deconstructed_problem": "In the city of Azura, there are three types of trains: the Azure, the Onyx, and the Lumina. The Azure train travels from Azura to the city of Eldrador, a distance of 420 miles, in 6 hours. The Onyx train travels from Eldrador to the city of Nyx, a distance of 315 miles, in 5 hours. The Lumina train travels from Nyx to Azura, a distance of 480 miles, in 8 hours. ଯଦି (if) a passenger takes the Azure train from Azura to Eldrador, ତାହେଲେ (then) the Onyx train from Eldrador to Nyx, and finally the Lumina train from Nyx back to Azura, what is the ମୋଟ (total) distance traveled by the passenger, and what is the ମୋଟ (total) time taken for the entire journey? Additionally, ଯଦି (if) the passenger pays $0.50 per mile for the Azure train, $0.60 per mile for the Onyx train, and $0.40 per mile for the Lumina train, what is the ମୋଟ (total) cost of the journey?",
+    "original_steps": [
+        "Step 1: Calculate the total distance traveled by adding the distances of each leg of the journey: distance_Azura_to_Eldrador + distance_Eldrador_to_Nyx + distance_Nyx_to_Azura.",
+        "Step 2: Calculate the total time taken for the journey by adding the times taken for each leg: time_Azura_to_Eldrador + time_Eldrador_to_Nyx + time_Nyx_to_Azura.",
+        "Step 3: Determine the cost of each leg of the journey by multiplying the distance of each leg by the cost per mile for that leg.",
+        "Step 4: Calculate the total cost of the journey by adding the costs of each leg.",
+        "Step 5: Combine the calculations from steps 1, 2, and 4 to provide a comprehensive answer to the problem."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) distance traveled by adding the distances of each leg of the journey: distance_Azura_to_Eldrador + distance_Eldrador_to_Nyx + distance_Nyx_to_Azura.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) time taken for the journey by adding the times taken for each leg: time_Azura_to_Eldrador + time_Eldrador_to_Nyx + time_Nyx_to_Azura.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the cost of each leg of the journey by multiplying the distance of each leg by the cost per mile for that leg.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) cost of the journey by adding the costs of each leg.",
+        "ପଦକ୍ଷେପ (step) 5: Combine the calculations from steps 1, 2, and 4 to provide a comprehensive answer to the problem."
+    ],
+    "final_answer": "Total distance = 1215 miles, Total time = 19 hours, Total cost = $0.50*420 + $0.60*315 + $0.40*480 = $210 + $189 + $192 = $591"
+}

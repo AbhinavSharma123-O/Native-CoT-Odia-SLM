@@ -1,0 +1,12 @@
+{
+    "id": "775",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is designed such that the rate at which water is filled into the towers is directly proportional to the tower's capacity. If Tower A is filled at a rate of 10 gallons per minute, and the total water supply available for all three towers is 7200 gallons, how many minutes will it take to fill Tower C, given that Tower B starts filling 5 minutes after Tower A, and Tower C starts filling 10 minutes after Tower A?",
+    "reasoning_steps": [
+        "Step 1: Calculate the rate at which each tower is filled based on the given rate for Tower A and the proportionality to their capacities.",
+        "Step 2: Determine the amount of water filled in Tower A during the 5 minutes before Tower B starts filling and the 10 minutes before Tower C starts filling.",
+        "Step 3: Calculate the combined rate at which Towers A and B are filled after Tower B starts, and then the combined rate for all three towers after Tower C starts.",
+        "Step 4: Set up an equation to find the time it takes to fill Tower C, considering the sequential filling of the towers and the total available water supply.",
+        "Step 5: Solve the equation from Step 4 to find the total time required to fill Tower C."
+    ],
+    "final_answer": "80 minutes"
+}

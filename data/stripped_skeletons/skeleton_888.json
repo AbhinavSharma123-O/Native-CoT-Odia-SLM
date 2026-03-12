@@ -1,0 +1,20 @@
+{
+    "id": "888",
+    "original_problem": "In a small town, there are three types of shops: bakeries, butcher shops, and convenience stores. Each type of shop has a different number of employees. The total number of employees in all the shops is 90. The bakeries have 5 more employees than the butcher shops, and the convenience stores have 10 fewer employees than the bakeries. If the butcher shops have 5 times as many employees as the number of bakeries, then how many of each type of shop are there?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, butcher shops, and convenience stores. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 90. The bakeries have 5 more employees than the butcher shops, and the convenience stores have 10 fewer employees than the bakeries. ଯଦି (if) the butcher shops have 5 times as many employees as the number of bakeries, ତାହେଲେ (then) how many of each type of shop are there?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries, butcher shops, and convenience stores as B, S, and C respectively, and the number of employees in each as b, s, and c.",
+        "Step 2: Translate the given information into equations: b + s + c = 90, b = s + 5, c = b - 10, and s = 5B.",
+        "Step 3: Substitute the equation s = 5B into the equation b = s + 5 to get b = 5B + 5.",
+        "Step 4: Substitute the equations c = b - 10 and b = 5B + 5 into the equation b + s + c = 90, and also substitute s = 5B to solve for B.",
+        "Step 5: Once B is found, use the equations s = 5B, b = s + 5, and c = b - 10 to find the number of each type of shop."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries, butcher shops, and convenience stores as B, S, and C respectively, and the number of employees in each as b, s, and c.",
+        "ପଦକ୍ଷେପ (step) 2: Translate the given information into equations: b + s + c = 90, b = s + 5, c = b - 10, and s = 5B.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the ସମୀକରଣ (equation) s = 5B into the ସମୀକରଣ (equation) b = s + 5 to get b = 5B + 5.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the equations c = b - 10 and b = 5B + 5 into the ସମୀକରଣ (equation) b + s + c = 90, and also substitute s = 5B to solve for B.",
+        "ପଦକ୍ଷେପ (step) 5: Once B is found, use the equations s = 5B, b = s + 5, and c = b - 10 to find the number of each type of shop."
+    ],
+    "final_answer": "B = 3, S = 15, C = 20, b = 20, s = 15, c = 10"
+}

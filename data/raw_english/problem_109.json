@@ -1,0 +1,12 @@
+{
+    "id": "109",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a specific number of employees. The total number of employees in all bakeries is 120, which is 20 more than the total number of employees in all cafes. The total number of employees in all restaurants is 50 more than the total number of employees in all cafes. If the ratio of the number of bakeries to the number of cafes to the number of restaurants is 4:5:6, and each bakery has 10 employees, then what is the total number of employees in all the shops in the village?",
+    "reasoning_steps": [
+        "Step 1: Determine the total number of employees in all cafes by subtracting 20 from the total number of employees in all bakeries.",
+        "Step 2: Calculate the number of cafes by using the ratio of bakeries to cafes and the given number of employees per bakery.",
+        "Step 3: Find the total number of employees in all restaurants by adding 50 to the total number of employees in all cafes.",
+        "Step 4: Calculate the total number of employees in all shops by summing the total number of employees in all bakeries, cafes, and restaurants.",
+        "Step 5: Apply the given ratios to find the actual number of each type of shop and verify the calculations."
+    ],
+    "final_answer": "610"
+}

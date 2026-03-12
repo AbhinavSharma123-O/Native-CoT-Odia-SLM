@@ -1,0 +1,12 @@
+{
+    "id": "346",
+    "problem": "In a small town, there are three types of shops: grocery stores, bakeries, and cafes. Each grocery store sells a combination of fresh produce, dairy products, and baked goods, with an average profit margin of 15% on produce, 20% on dairy, and 25% on baked goods. The town has 5 grocery stores, and each sells an average of $1000 worth of produce, $800 worth of dairy products, and $1200 worth of baked goods per day. There are also 4 bakeries, each selling an average of $1500 worth of baked goods per day with a 30% profit margin. Additionally, there are 3 cafes, each selling an average of $2000 worth of beverages and snacks per day with a 40% profit margin. However, the cafes also purchase $300 worth of baked goods daily from the bakeries. If the total daily profit from all the shops is $3630, what is the total daily profit from the cafes alone?",
+    "reasoning_steps": [
+        "Step 1: Calculate the daily profit from each grocery store by determining the profit from produce, dairy, and baked goods, then summing these profits.",
+        "Step 2: Calculate the total daily profit from all grocery stores by multiplying the daily profit per grocery store by the number of grocery stores.",
+        "Step 3: Calculate the daily profit from each bakery by applying the profit margin to the average daily sales, then calculate the total daily profit from all bakeries.",
+        "Step 4: Calculate the total amount spent by cafes on baked goods from bakeries and subtract this from the total bakery sales to find the effective sales for the bakeries.",
+        "Step 5: Calculate the daily profit from each cafe by applying the profit margin to the average daily sales, then sum the profits from all cafes, adjusting for the purchase of baked goods from bakeries."
+    ],
+    "final_answer": "1200"
+}

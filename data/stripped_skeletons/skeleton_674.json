@@ -1,0 +1,20 @@
+{
+    "id": "674",
+    "original_problem": "In the city of Logos, there are three types of trains: the Alpha, Beta, and Gamma. The Alpha train travels from Logos to Athena at an average speed of 60 km/h and takes 5 hours to reach Athena, but it makes two 30-minute stops along the way. The Beta train travels from Logos to Athena at an average speed of 80 km/h but always takes 30 minutes longer than the Alpha train to reach Athena. Meanwhile, the Gamma train, which travels from Athena to Logos, has a speed that is 20 km/h faster than the Beta train and takes 2 hours and 15 minutes less than the Beta train to make the return trip. If a passenger were to travel from Logos to Athena on the Alpha train and then immediately return to Logos on the Gamma train, what would be the total travel time in hours for the round trip, given that the passenger spends exactly 1 hour in Athena before boarding the Gamma train?",
+    "deconstructed_problem": "In the city of Logos, there are three types of trains: the Alpha, Beta, and Gamma. The Alpha train travels from Logos to Athena at an average speed of 60 km/h and takes 5 hours to reach Athena, but it makes two 30-minute stops along the way. The Beta train travels from Logos to Athena at an average speed of 80 km/h but always takes 30 minutes longer than the Alpha train to reach Athena. Meanwhile, the Gamma train, which travels from Athena to Logos, has a speed that is 20 km/h faster than the Beta train and takes 2 hours and 15 minutes less than the Beta train to make the return trip. ଯଦି (if) a passenger were to travel from Logos to Athena on the Alpha train and ତାହେଲେ (then) immediately return to Logos on the Gamma train, what would be the ମୋଟ (total) travel time in hours for the round trip, given that the passenger spends exactly 1 hour in Athena before boarding the Gamma train?",
+    "original_steps": [
+        "Step 1: Calculate the total travel time of the Alpha train from Logos to Athena, including the two 30-minute stops.",
+        "Step 2: Determine the travel time of the Beta train from Logos to Athena by adding 30 minutes to the total travel time of the Alpha train.",
+        "Step 3: Find the speed and travel time of the Gamma train from Athena to Logos, knowing it is 20 km/h faster than the Beta train and takes 2 hours and 15 minutes less.",
+        "Step 4: Calculate the distance from Logos to Athena using the Alpha train's speed and travel time, then apply it to find the Gamma train's travel time.",
+        "Step 5: Add the travel times of the Alpha and Gamma trains, plus the 1-hour layover in Athena, to find the total round-trip travel time."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) travel time of the Alpha train from Logos to Athena, including the two 30-minute stops.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the travel time of the Beta train from Logos to Athena by adding 30 minutes to the ମୋଟ (total) travel time of the Alpha train.",
+        "ପଦକ୍ଷେପ (step) 3: Find the speed and travel time of the Gamma train from Athena to Logos, knowing it is 20 km/h faster than the Beta train and takes 2 hours and 15 minutes less.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the distance from Logos to Athena using the Alpha train's speed and travel time, ତାହେଲେ (then) apply it to find the Gamma train's travel time.",
+        "ପଦକ୍ଷେପ (step) 5: ଯୋଗ (add) the travel times of the Alpha and Gamma trains, plus the 1-hour layover in Athena, to find the ମୋଟ (total) round-trip travel time."
+    ],
+    "final_answer": "11.5"
+}

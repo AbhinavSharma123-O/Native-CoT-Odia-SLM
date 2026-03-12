@@ -1,0 +1,12 @@
+{
+    "id": "191",
+    "problem": "In the city of Azura, there are three types of trains: the express, the local, and the freight. The express train travels from Azura to the city of Eldar at an average speed of 120 km/h, while the local train travels at 80 km/h. The freight train, which travels in the opposite direction from Eldar to Azura, has a speed of 60 km/h. On a certain day, the express and local trains depart from Azura at the same time, with the express train having a 20 km head start over the local train. Meanwhile, the freight train departs from Eldar 30 minutes after the express and local trains have started their journey. If the distance between Azura and Eldar is 240 km, how many kilometers will the freight train have traveled when the express train arrives at Eldar, given that the express train makes a 15-minute stop midway through its journey?",
+    "reasoning_steps": [
+        "Step 1: Calculate the time it takes for the express train to reach Eldar without considering the stop.",
+        "Step 2: Factor in the 15-minute stop to find the total time the express train takes to reach Eldar.",
+        "Step 3: Determine the time at which the freight train starts its journey relative to the express train's departure.",
+        "Step 4: Calculate how long the freight train has been traveling by the time the express train arrives at Eldar.",
+        "Step 5: Use the freight train's speed and travel time to find the distance it has covered when the express train reaches Eldar."
+    ],
+    "final_answer": "120 km"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "957",
+    "problem": "In a large warehouse, there are three types of boxes: A, B, and C, each with a different volume. Box A has a volume that is 2/3 of Box B, and Box C has a volume that is 3/4 of Box A. If 5 Box A's and 3 Box C's can perfectly fill a large shipping container with a volume of 3000 cubic feet, how many Box B's can fit into the same shipping container?",
+    "reasoning_steps": [
+        "Step 1: Determine the relationship between the volumes of Box A, Box B, and Box C to find a common basis for comparison.",
+        "Step 2: Express the volume of Box A in terms of Box B, and the volume of Box C in terms of Box A to establish a chain of relationships.",
+        "Step 3: Use the given information that 5 Box A's and 3 Box C's fill the container to set up an equation based on their volumes.",
+        "Step 4: Solve the equation to find the volume of Box A, then use the relationship between Box A and Box B to find the volume of Box B.",
+        "Step 5: With the volume of Box B known, calculate how many Box B's can fit into the 3000 cubic feet shipping container."
+    ],
+    "final_answer": "8"
+}

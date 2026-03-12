@@ -1,0 +1,20 @@
+{
+    "id": "140",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the shops is 240. The number of employees in the bakeries is 1/4 of the total number of employees in the cafes and restaurants combined. The number of employees in the cafes is 1/3 of the number of employees in the restaurants. If the number of employees in the bakeries is 30, find the number of employees in the restaurants.",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 240. The number of employees in the bakeries is 1/4 of the ମୋଟ (total) number of employees in the cafes and restaurants combined. The number of employees in the cafes is 1/3 of the number of employees in the restaurants. ଯଦି (if) the number of employees in the bakeries is 30, find the number of employees in the restaurants.",
+    "original_steps": [
+        "Step 1: Calculate the combined total of employees in cafes and restaurants. Since the number of employees in bakeries is 1/4 of this combined total and we know there are 30 employees in bakeries, the combined total can be found by solving 30 = (1/4) * combined_total.",
+        "Step 2: Solve for the combined total of cafes and restaurants using the equation from Step 1: 30 = (1/4) * combined_total. This yields combined_total = 30 * 4 = 120.",
+        "Step 3: Knowing the total number of employees in all shops is 240 and the number of employees in bakeries is 30, calculate the total number of employees in cafes and restaurants combined. total_employees = 240, employees_in_bakeries = 30, so employees_in_cafes_and_restaurants = total_employees - employees_in_bakeries = 240 - 30 = 210.",
+        "Step 4: Use the relationship between the number of employees in cafes and restaurants (number of employees in cafes is 1/3 of the number in restaurants) to set up an equation. Let R be the number of employees in restaurants, so the number of employees in cafes is R/3. From Step 3, we know the total for both is 210, so R + R/3 = 210.",
+        "Step 5: Solve the equation from Step 4 for R. Multiply every term by 3 to clear the fraction: 3R + R = 210 * 3. This simplifies to 4R = 630. Then, divide both sides by 4 to solve for R: R = 630 / 4 = 157.5."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the combined ମୋଟ (total) of employees in cafes and restaurants. Since the number of employees in bakeries is 1/4 of this combined ମୋଟ (total) and we know there are 30 employees in bakeries, the combined ମୋଟ (total) can be found by solving 30 = (1/4) * combined_total.",
+        "ପଦକ୍ଷେପ (step) 2: Solve for the combined ମୋଟ (total) of cafes and restaurants using the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 1: 30 = (1/4) * combined_total. This yields combined_total = 30 * 4 = 120.",
+        "ପଦକ୍ଷେପ (step) 3: Knowing the ମୋଟ (total) number of employees in all shops is 240 and the number of employees in bakeries is 30, calculate the ମୋଟ (total) number of employees in cafes and restaurants combined. total_employees = 240, employees_in_bakeries = 30, so employees_in_cafes_and_restaurants = total_employees - employees_in_bakeries = 240 - 30 = 210.",
+        "ପଦକ୍ଷେପ (step) 4: Use the relationship between the number of employees in cafes and restaurants (number of employees in cafes is 1/3 of the number in restaurants) to set up an ସମୀକରଣ (equation). Let R be the number of employees in restaurants, so the number of employees in cafes is R/3. From ପଦକ୍ଷେପ (step) 3, we know the ମୋଟ (total) for both is 210, so R + R/3 = 210.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 for R. ଗୁଣନ (multiply) every term by 3 to clear the fraction: 3R + R = 210 * 3. This simplifies to 4R = 630. ତାହେଲେ (then), ହରଣ (divide) both sides by 4 to solve for R: R = 630 / 4 = 157.5."
+    ],
+    "final_answer": "157.5"
+}

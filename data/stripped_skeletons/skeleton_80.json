@@ -1,0 +1,20 @@
+{
+    "id": "80",
+    "original_problem": "In a small village, there are 5 temples, each with a different colored roof: blue, green, red, white, and yellow. Each temple has a different type of stone statue at its entrance: a dragon, an elephant, a lion, a monkey, and a tiger. The statues are made of 3 different materials: bronze, marble, and stone, and each temple has a distinct number of bells: 2, 4, 6, 8, or 10. Using the following clues: the temple with the green roof has a marble statue; the temple with the lion has 4 bells; the blue-roofed temple has a stone statue and 6 bells; the temple with the yellow roof has 2 bells and a bronze statue; the temple with the monkey has a stone statue; the red-roofed temple does not have a marble statue; and the temple with the dragon has 8 bells. Determine the color of the roof of the temple with the tiger statue.",
+    "deconstructed_problem": "In a small village, there are 5 temples, each with a different colored roof: blue, green, red, white, and yellow. Each temple has a different type of stone statue at its entrance: a dragon, an elephant, a lion, a monkey, and a tiger. The statues are made of 3 different materials: bronze, marble, and stone, and each temple has a distinct number of bells: 2, 4, 6, 8, or 10. Using the following clues: the temple with the green roof has a marble statue; the temple with the lion has 4 bells; the blue-roofed temple has a stone statue and 6 bells; the temple with the yellow roof has 2 bells and a bronze statue; the temple with the monkey has a stone statue; the red-roofed temple does not have a marble statue; and the temple with the dragon has 8 bells. Determine the color of the roof of the temple with the tiger statue.",
+    "original_steps": [
+        "Step 1: Create a table or grid to organize the given information about the temples, including roof color, statue type, material, and number of bells.",
+        "Step 2: Use the given clues to fill in the table, starting with the most specific information such as the yellow-roofed temple having 2 bells and a bronze statue, and the blue-roofed temple having a stone statue and 6 bells.",
+        "Step 3: Apply the process of elimination to determine the roof colors and statue types for the temples with the given number of bells, such as the temple with the lion having 4 bells, and the temple with the dragon having 8 bells.",
+        "Step 4: Use the clue about the temple with the green roof having a marble statue to further narrow down the possibilities for the remaining temples, and apply the information about the red-roofed temple not having a marble statue.",
+        "Step 5: Analyze the remaining options to determine the color of the roof of the temple with the tiger statue, taking into account the constraints provided by the other clues, such as the temple with the monkey having a stone statue."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Create a table or grid to organize the given information about the temples, including roof color, statue type, material, and number of bells.",
+        "ପଦକ୍ଷେପ (step) 2: Use the given clues to fill in the table, starting with the most specific information such as the yellow-roofed temple having 2 bells and a bronze statue, and the blue-roofed temple having a stone statue and 6 bells.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the process of elimination to determine the roof colors and statue types for the temples with the given number of bells, such as the temple with the lion having 4 bells, and the temple with the dragon having 8 bells.",
+        "ପଦକ୍ଷେପ (step) 4: Use the clue about the temple with the green roof having a marble statue to further narrow down the possibilities for the remaining temples, and apply the information about the red-roofed temple not having a marble statue.",
+        "ପଦକ୍ଷେପ (step) 5: Analyze the remaining options to determine the color of the roof of the temple with the tiger statue, taking into account the constraints provided by the other clues, such as the temple with the monkey having a stone statue."
+    ],
+    "final_answer": "White"
+}

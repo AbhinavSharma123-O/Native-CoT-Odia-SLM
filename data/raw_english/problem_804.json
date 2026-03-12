@@ -1,0 +1,12 @@
+{
+    "id": "804",
+    "problem": "In a small town, there are three types of people: farmers, teachers, and engineers. The town has a total population of 1200 people, with 30% being farmers, 20% being teachers, and the rest being engineers. If 25% of the farmers and 10% of the teachers are also engineers, what percentage of the town's population are people who are both engineers and either farmers or teachers?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of farmers, teachers, and engineers in the town. First, find the number of farmers: 30% of 1200 = 0.3 * 1200 = 360 farmers. Then, find the number of teachers: 20% of 1200 = 0.2 * 1200 = 240 teachers. The remaining population are engineers: 1200 - (360 + 240) = 600 engineers.",
+        "Step 2: Calculate the number of farmers who are also engineers: 25% of the farmers are engineers, so 0.25 * 360 = 90 farmers are also engineers.",
+        "Step 3: Calculate the number of teachers who are also engineers: 10% of the teachers are engineers, so 0.1 * 240 = 24 teachers are also engineers.",
+        "Step 4: Determine the total number of people who are both engineers and either farmers or teachers by adding the results from steps 2 and 3: 90 farmers/engineers + 24 teachers/engineers = 114 people.",
+        "Step 5: Calculate the percentage of the town's population that are people who are both engineers and either farmers or teachers: (114 / 1200) * 100 = 9.5%"
+    ],
+    "final_answer": "9.5%"
+}

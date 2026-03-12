@@ -1,0 +1,12 @@
+{
+    "id": "382",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system is such that Tank A fills at a rate of 200 gallons per hour, Tank B fills at a rate of 150 gallons per hour, and Tank C fills at a rate of 300 gallons per hour. However, due to leaks, Tank A loses 50 gallons per hour, Tank B loses 25 gallons per hour, and Tank C loses 75 gallons per hour. If all tanks are currently empty and it is desired to have a total of 2500 gallons of water in the tanks, how many hours will it take to fill the tanks to this amount, considering the filling and leaking rates?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net filling rate for each tank by subtracting the leak rate from the filling rate. For Tank A, the net rate is 200 - 50 = 150 gallons per hour. For Tank B, it is 150 - 25 = 125 gallons per hour. For Tank C, it is 300 - 75 = 225 gallons per hour.",
+        "Step 2: Determine the combined net filling rate of all three tanks. This is the sum of their individual net filling rates: 150 (Tank A) + 125 (Tank B) + 225 (Tank C) = 500 gallons per hour.",
+        "Step 3: Calculate the total amount of water needed, which is given as 2500 gallons.",
+        "Step 4: Divide the total amount of water needed by the combined net filling rate to find out how many hours it will take to fill the tanks to the desired level. This is 2500 gallons / 500 gallons per hour.",
+        "Step 5: Perform the division to find the exact number of hours required."
+    ],
+    "final_answer": "5"
+}

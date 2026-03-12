@@ -1,0 +1,20 @@
+{
+    "id": "852",
+    "original_problem": "In a small town, there are three types of shops: clothing stores, cafes, and bookstores. The town has a total of 25 shops, and the number of clothing stores is 5 more than the number of bookstores. If the number of cafes is 5 less than the number of clothing stores, and the total number of employees in all shops is 250, with each clothing store having 10 employees, each cafe having 5 employees, and each bookstore having 8 employees, how many bookstores are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: clothing stores, cafes, and bookstores. The town has a ମୋଟ (total) of 25 shops, and the number of clothing stores is 5 more than the number of bookstores. ଯଦି (if) the number of cafes is 5 less than the number of clothing stores, and the ମୋଟ (total) number of employees in all shops is 250, with each clothing store having 10 employees, each cafe having 5 employees, and each bookstore having 8 employees, how many bookstores are there in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the problem, where c = number of clothing stores, b = number of bookstores, and a = number of cafes.",
+        "Step 2: Set up equations based on the given information. The number of clothing stores is 5 more than the number of bookstores: c = b + 5. The number of cafes is 5 less than the number of clothing stores: a = c - 5. The total number of shops is 25: a + b + c = 25.",
+        "Step 3: Substitute the expressions for c and a from the first two equations into the total shops equation to solve for b. Given c = b + 5, and a = c - 5, substitute c in the equation for a to get a = (b + 5) - 5, which simplifies to a = b.",
+        "Step 4: Substitute a = b and c = b + 5 into the total shops equation: b + b + (b + 5) = 25. Simplify to solve for b: 3b + 5 = 25.",
+        "Step 5: Solve the equation for b: 3b = 20, b = 20 / 3."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the problem, where c = number of clothing stores, b = number of bookstores, and a = number of cafes.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. The number of clothing stores is 5 more than the number of bookstores: c = b + 5. The number of cafes is 5 less than the number of clothing stores: a = c - 5. The ମୋଟ (total) number of shops is 25: a + b + c = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for c and a from the first two equations into the ମୋଟ (total) shops ସମୀକରଣ (equation) to solve for b. Given c = b + 5, and a = c - 5, substitute c in the ସମୀକରଣ (equation) for a to get a = (b + 5) - 5, which simplifies to a = b.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute a = b and c = b + 5 into the ମୋଟ (total) shops ସମୀକରଣ (equation): b + b + (b + 5) = 25. Simplify to solve for b: 3b + 5 = 25.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) for b: 3b = 20, b = 20 / 3."
+    ],
+    "final_answer": "6"
+}

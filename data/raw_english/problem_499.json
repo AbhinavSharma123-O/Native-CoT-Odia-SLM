@@ -1,0 +1,12 @@
+{
+    "id": "499",
+    "problem": "In the town of Willowdale, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will only turn on if the switch is flipped an odd number of times. Another bulb is energy-efficient and will only turn on if it has been off for at least 5 minutes prior to being turned on.",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to ensure that if it corresponds to the energy-efficient bulb, it will be able to turn on.",
+        "Step 2: After 5 minutes, turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Then, immediately turn switch 2 to the 'off' position and turn switch 3 to the 'on' position. This sequence helps to account for the special bulb that only turns on if flipped an odd number of times.",
+        "Step 3: Now, enter the room to observe the bulbs. If a bulb is on, it could be controlled by switch 3. If a bulb is off but warm, it could be controlled by switch 1 (the energy-efficient one). If a bulb is off and cold, it could be controlled by switch 2, considering the special bulb's condition.",
+        "Step 4: Analyze the bulbs' states considering the special conditions: the special bulb that turns on only with an odd flip and the energy-efficient bulb that requires being off for at least 5 minutes.",
+        "Step 5: Based on the observations and the conditions of the bulbs, deduce which switch controls which light bulb, taking into account the initial manipulations of the switches."
+    ],
+    "final_answer": "The solution involves a process of elimination based on the initial switch manipulations and the special conditions of the bulbs, allowing for the identification of which switch corresponds to which light bulb."
+}

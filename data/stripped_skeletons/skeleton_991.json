@@ -1,0 +1,20 @@
+{
+    "id": "991",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $x$ pastries per day, with $y$ being the number of bakeries. The total revenue from pastry sales is $2400 per day. Each cafe sells $z$ sandwiches per day, with $w$ being the number of cafes, and each sandwich is sold for $8. The total revenue from sandwich sales is $3200 per day. The number of restaurants is $r$, and each restaurant has $t$ tables, with each table seating $s$ people. If the total number of people seated in all restaurants is $1200$, and $x = 2y + 5$, $z = 3w - 2$, $t = 2r + 1$, and $s = 4$, find the total number of shops in the town.",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a ମୋଟ (total) of $x$ pastries per day, with $y$ being the number of bakeries. The ମୋଟ (total) revenue from pastry sales is $2400 per day. Each cafe sells $z$ sandwiches per day, with $w$ being the number of cafes, and each sandwich is sold for $8. The ମୋଟ (total) revenue from sandwich sales is $3200 per day. The number of restaurants is $r$, and each restaurant has $t$ tables, with each table seating $s$ people. ଯଦି (if) the ମୋଟ (total) number of people seated in all restaurants is $1200$, and $x = 2y + 5$, $z = 3w - 2$, $t = 2r + 1$, and $s = 4$, find the ମୋଟ (total) number of shops in the town.",
+    "original_steps": [
+        "Step 1: First, use the given equations to express $x$ and $z$ in terms of $y$ and $w$.",
+        "Step 2: Then, calculate the total revenue from pastry and sandwich sales using $x$, $y$, $z$, and $w$, and set them equal to $2400$ and $3200$ respectively.",
+        "Step 3: Express the total number of people seated in restaurants using $r$, $t$, and $s$, and set it equal to $1200$ to find a relationship between $r$ and $t$.",
+        "Step 4: Substitute $t = 2r + 1$ into the equation from Step 3 to solve for $r$, and then find $t$.",
+        "Step 5: Solve the system of equations from Steps 2 and 4 to find the values of $y$ and $w$."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: First, use the given equations to express $x$ and $z$ in terms of $y$ and $w$.",
+        "ପଦକ୍ଷେପ (step) 2: ତାହେଲେ (then), calculate the ମୋଟ (total) revenue from pastry and sandwich sales using $x$, $y$, $z$, and $w$, and set them ସମାନ (equal) to $2400$ and $3200$ respectively.",
+        "ପଦକ୍ଷେପ (step) 3: Express the ମୋଟ (total) number of people seated in restaurants using $r$, $t$, and $s$, and set it ସମାନ (equal) to $1200$ to find a relationship between $r$ and $t$.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute $t = 2r + 1$ into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to solve for $r$, and ତାହେଲେ (then) find $t$.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the system of equations from Steps 2 and 4 to find the values of $y$ and $w$."
+    ],
+    "final_answer": "12"
+}

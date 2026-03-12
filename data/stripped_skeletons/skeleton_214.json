@@ -1,0 +1,20 @@
+{
+    "id": "214",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Shop A sells two types of products: X and Y. The profit from X is $10 per unit and from Y is $15 per unit. Shop B sells products X and Z. The profit from X is $12 per unit and from Z is $8 per unit. Shop C sells products Y and Z. The profit from Y is $18 per unit and from Z is $9 per unit. Each shop operates for 8 hours a day. If shop A operates for 20 days, shop B for 15 days, and shop C for 25 days, and the total profit from all shops is $30,100, and shop A sells 5 more units of X than Y, and shop B sells 3 more units of X than Z, determine the total number of units of product Z sold by all shops.",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Shop A sells two types of products: X and Y. The profit from X is $10 per unit and from Y is $15 per unit. Shop B sells products X and Z. The profit from X is $12 per unit and from Z is $8 per unit. Shop C sells products Y and Z. The profit from Y is $18 per unit and from Z is $9 per unit. Each shop operates for 8 hours a day. ଯଦି (if) shop A operates for 20 days, shop B for 15 days, and shop C for 25 days, and the ମୋଟ (total) profit from all shops is $30,100, and shop A sells 5 more units of X than Y, and shop B sells 3 more units of X than Z, determine the ମୋଟ (total) number of units of product Z sold by all shops.",
+    "original_steps": [
+        "Step 1: Define the variables for the units of products X, Y, and Z sold by each shop. Let's denote aX and aY as the units of X and Y sold by shop A, bX and bZ as the units of X and Z sold by shop B, and cY and cZ as the units of Y and Z sold by shop C.",
+        "Step 2: Calculate the total profit from each shop based on the given profit per unit for each product. The total profit from shop A is 10*aX + 15*aY, from shop B is 12*bX + 8*bZ, and from shop C is 18*cY + 9*cZ.",
+        "Step 3: Establish relationships between the units sold by each shop based on the given conditions. From shop A, we know aX = aY + 5. From shop B, we know bX = bZ + 3.",
+        "Step 4: Calculate the total profit from all shops and equate it to $30,100, considering the number of days each shop operates. This leads to the equation: 8*(20*(10*aX + 15*aY) + 15*(12*bX + 8*bZ) + 25*(18*cY + 9*cZ)) = 30,100.",
+        "Step 5: Since we need to find the total units of Z sold, we must express the total profit equation in terms of aX, aY, bX, bZ, cY, and cZ, and solve the system of equations considering the relationships between the variables and the given conditions to find the values of bZ and cZ, then calculate the total units of Z sold."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the units of products X, Y, and Z sold by each shop. Let's denote aX and aY as the units of X and Y sold by shop A, bX and bZ as the units of X and Z sold by shop B, and cY and cZ as the units of Y and Z sold by shop C.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) profit from each shop based on the given profit per unit for each product. The ମୋଟ (total) profit from shop A is 10*aX + 15*aY, from shop B is 12*bX + 8*bZ, and from shop C is 18*cY + 9*cZ.",
+        "ପଦକ୍ଷେପ (step) 3: Establish relationships between the units sold by each shop based on the given conditions. From shop A, we know aX = aY + 5. From shop B, we know bX = bZ + 3.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) profit from all shops and equate it to $30,100, considering the number of days each shop operates. This leads to the ସମୀକରଣ (equation): 8*(20*(10*aX + 15*aY) + 15*(12*bX + 8*bZ) + 25*(18*cY + 9*cZ)) = 30,100.",
+        "ପଦକ୍ଷେପ (step) 5: Since we need to find the ମୋଟ (total) units of Z sold, we must express the ମୋଟ (total) profit ସମୀକରଣ (equation) in terms of aX, aY, bX, bZ, cY, and cZ, and solve the system of equations considering the relationships between the variables and the given conditions to find the values of bZ and cZ, ତାହେଲେ (then) calculate the ମୋଟ (total) units of Z sold."
+    ],
+    "final_answer": "405"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "994",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of loaves of bread per day, with the total number being 250 loaves across all bakeries. The number of bakeries is 5 less than the total number of cafes and restaurants combined. If each cafe sells an average of 1.5 times the number of loaves a bakery sells, and each restaurant sells 0.75 times the number of loaves a bakery sells, and the total number of loaves sold by all shops is 1200, how many bakeries, cafes, and restaurants are there in total?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of loaves of bread per day, with the ମୋଟ (total) number being 250 loaves across all bakeries. The number of bakeries is 5 less than the ମୋଟ (total) number of cafes and restaurants combined. ଯଦି (if) each cafe sells an average of 1.5 times the number of loaves a bakery sells, and each restaurant sells 0.75 times the number of loaves a bakery sells, and the ମୋଟ (total) number of loaves sold by all shops is 1200, how many bakeries, cafes, and restaurants are there in ମୋଟ (total)?",
+    "original_steps": [
+        "Step 1: Define variables for the number of bakeries (B), cafes (C), and restaurants (R), and express the number of loaves sold by each type of shop in terms of B.",
+        "Step 2: Formulate equations based on the given information: B + C + R = total number of shops, B = total number of bakeries, total loaves from bakeries = 250, total loaves from cafes = 1.5 * loaves per bakery * C, total loaves from restaurants = 0.75 * loaves per bakery * R, total loaves from all shops = 1200.",
+        "Step 3: Use the information that the number of bakeries is 5 less than the total number of cafes and restaurants (B = C + R - 5) to relate B, C, and R.",
+        "Step 4: Express the total number of loaves sold by all shops in terms of B, C, and R, and solve for the number of bakeries, cafes, and restaurants using the given total of 1200 loaves.",
+        "Step 5: Solve the system of equations to find the values of B, C, and R, then calculate the total number of shops."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of bakeries (B), cafes (C), and restaurants (R), and express the number of loaves sold by each type of shop in terms of B.",
+        "ପଦକ୍ଷେପ (step) 2: Formulate equations based on the given information: B + C + R = ମୋଟ (total) number of shops, B = ମୋଟ (total) number of bakeries, ମୋଟ (total) loaves from bakeries = 250, ମୋଟ (total) loaves from cafes = 1.5 * loaves per bakery * C, ମୋଟ (total) loaves from restaurants = 0.75 * loaves per bakery * R, ମୋଟ (total) loaves from all shops = 1200.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information that the number of bakeries is 5 less than the ମୋଟ (total) number of cafes and restaurants (B = C + R - 5) to relate B, C, and R.",
+        "ପଦକ୍ଷେପ (step) 4: Express the ମୋଟ (total) number of loaves sold by all shops in terms of B, C, and R, and solve for the number of bakeries, cafes, and restaurants using the given ମୋଟ (total) of 1200 loaves.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the system of equations to find the values of B, C, and R, ତାହେଲେ (then) calculate the ମୋଟ (total) number of shops."
+    ],
+    "final_answer": "15"
+}

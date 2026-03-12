@@ -1,0 +1,20 @@
+{
+    "id": "275",
+    "original_problem": "In a small village, there are three types of shops: bookstores, coffee shops, and restaurants. The village has a total of 25 shops. The number of bookstores is 5 more than the number of coffee shops, and the number of restaurants is 3 less than the number of bookstores. If the number of coffee shops is 30% of the total number of shops, how many restaurants are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bookstores, coffee shops, and restaurants. The village has a ମୋଟ (total) of 25 shops. The number of bookstores is 5 more than the number of coffee shops, and the number of restaurants is 3 less than the number of bookstores. ଯଦି (if) the number of coffee shops is 30% of the ମୋଟ (total) number of shops, how many restaurants are there in the village?",
+    "original_steps": [
+        "Step 1: First, calculate the number of coffee shops, which is 30% of the total number of shops (25).",
+        "Step 2: Calculate the number of bookstores, which is 5 more than the number of coffee shops.",
+        "Step 3: Determine the number of restaurants, which is 3 less than the number of bookstores.",
+        "Step 4: Verify the total number of shops (bookstores + coffee shops + restaurants) equals 25.",
+        "Step 5: Solve for the number of restaurants based on the given relationships and calculations."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: First, calculate the number of coffee shops, which is 30% of the ମୋଟ (total) number of shops (25).",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of bookstores, which is 5 more than the number of coffee shops.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the number of restaurants, which is 3 less than the number of bookstores.",
+        "ପଦକ୍ଷେପ (step) 4: Verify the ମୋଟ (total) number of shops (bookstores + coffee shops + restaurants) ସମାନ (equals) 25.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for the number of restaurants based on the given relationships and calculations."
+    ],
+    "final_answer": "7"
+}

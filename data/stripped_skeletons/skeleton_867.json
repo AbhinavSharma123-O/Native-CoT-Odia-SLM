@@ -1,0 +1,25 @@
+{
+    "id": "867",
+    "original_problem": "In a small town, there are three factories: A, B, and C, producing 30%, 40%, and 30% of the total widgets, respectively. Factory A produces 200 more widgets per day than factory C. If the total number of widgets produced per day is 2500, determine how many widgets each factory produces per day. Additionally, find out how many days it would take for factory B to produce the same number of widgets as factory A and C combined, given that factory B works 5 days a week, while factories A and C work 7 days a week.",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, producing 30%, 40%, and 30% of the ମୋଟ (total) widgets, respectively. Factory A produces 200 more widgets per day than factory C. ଯଦି (if) the ମୋଟ (total) number of widgets produced per day is 2500, determine how many widgets each factory produces per day. Additionally, find out how many days it would take for factory B to produce the same number of widgets as factory A and C combined, given that factory B works 5 days a week, while factories A and C work 7 days a week.",
+    "original_steps": [
+        "Step 1: Calculate the total number of widgets produced by each factory per day using the given percentages and total widgets produced.",
+        "Step 2: Set up equations based on the information given about the production of factory A and C to find the exact number of widgets each produces per day.",
+        "Step 3: Solve these equations to find the daily production of each factory, considering the 200 more widgets per day produced by factory A compared to factory C.",
+        "Step 4: Determine the combined daily production of factories A and C.",
+        "Step 5: Calculate how many widgets factory B produces per working day and then find out how many days it would take for factory B to produce the same number of widgets as the combined production of factories A and C, taking into account the different working weeks of factory B compared to factories A and C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of widgets produced by each factory per day using the given percentages and ମୋଟ (total) widgets produced.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the information given about the production of factory A and C to find the exact number of widgets each produces per day.",
+        "ପଦକ୍ଷେପ (step) 3: Solve these equations to find the daily production of each factory, considering the 200 more widgets per day produced by factory A compared to factory C.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the combined daily production of factories A and C.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate how many widgets factory B produces per working day and ତାହେଲେ (then) find out how many days it would take for factory B to produce the same number of widgets as the combined production of factories A and C, taking into account the different working weeks of factory B compared to factories A and C."
+    ],
+    "final_answer": {
+        "Factory A": 1000,
+        "Factory B": 1000,
+        "Factory C": 800,
+        "Days for B to match A and C": 28
+    }
+}

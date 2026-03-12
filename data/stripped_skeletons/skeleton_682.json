@@ -1,0 +1,20 @@
+{
+    "id": "682",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a minimum of 250 loaves of bread per day and a maximum of 500 loaves. Each cafe sells a minimum of 300 cups of coffee per day and a maximum of 600 cups. Each restaurant sells a minimum of 400 meals per day and a maximum of 700 meals. The village has a total of 25 shops, with 5 more bakeries than cafes and 2 fewer restaurants than bakeries. If the total number of loaves of bread, cups of coffee, and meals sold per day is 35,100, what is the minimum number of shops of each type that the village could have, assuming each shop operates at its minimum capacity?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a minimum of 250 loaves of bread per day and a maximum of 500 loaves. Each cafe sells a minimum of 300 cups of coffee per day and a maximum of 600 cups. Each restaurant sells a minimum of 400 meals per day and a maximum of 700 meals. The village has a ମୋଟ (total) of 25 shops, with 5 more bakeries than cafes and 2 fewer restaurants than bakeries. ଯଦି (if) the ମୋଟ (total) number of loaves of bread, cups of coffee, and meals sold per day is 35,100, what is the minimum number of shops of each type that the village could have, assuming each shop operates at its minimum capacity?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), knowing that B = C + 5 and R = B - 2.",
+        "Step 2: Express the total number of shops in terms of C, which is B + C + R = (C + 5) + C + ((C + 5) - 2) = 25, simplifying to 3C + 8 = 25.",
+        "Step 3: Solve for C to find the number of cafes, which gives 3C = 17, leading to C = 17 / 3, but since the number of shops must be a whole number, we must adjust our approach to solving the equation 3C + 8 = 25 to find a suitable whole number solution for C that fits the given constraints.",
+        "Step 4: Correct the approach in Step 3 by properly solving the equation 3C + 8 = 25 for whole numbers, which simplifies to 3C = 17. Since C must be a whole number, we look for a combination of shops that satisfies all given conditions, including the total number of shops being 25 and the relationships between the types of shops.",
+        "Step 5: Use the relationships and total sales to set up equations based on minimum sales per shop type to find a combination that adds up to 35,100, considering the minimum sales per day for each type of shop and the total number of shops."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), knowing that B = C + 5 and R = B - 2.",
+        "ପଦକ୍ଷେପ (step) 2: Express the ମୋଟ (total) number of shops in terms of C, which is B + C + R = (C + 5) + C + ((C + 5) - 2) = 25, simplifying to 3C + 8 = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Solve for C to find the number of cafes, which gives 3C = 17, leading to C = 17 / 3, but since the number of shops must be a whole number, we must adjust our approach to solving the ସମୀକରଣ (equation) 3C + 8 = 25 to find a suitable whole number solution for C that fits the given constraints.",
+        "ପଦକ୍ଷେପ (step) 4: Correct the approach in ପଦକ୍ଷେପ (step) 3 by properly solving the ସମୀକରଣ (equation) 3C + 8 = 25 for whole numbers, which simplifies to 3C = 17. Since C must be a whole number, we look for a combination of shops that satisfies all given conditions, including the ମୋଟ (total) number of shops being 25 and the relationships between the types of shops.",
+        "ପଦକ୍ଷେପ (step) 5: Use the relationships and ମୋଟ (total) sales to set up equations based on minimum sales per shop type to find a combination that adds up to 35,100, considering the minimum sales per day for each type of shop and the ମୋଟ (total) number of shops."
+    ],
+    "final_answer": "5 bakeries, 0 cafes, and 20 restaurants"
+}

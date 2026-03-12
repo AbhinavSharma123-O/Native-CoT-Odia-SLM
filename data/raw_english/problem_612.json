@@ -1,0 +1,12 @@
+{
+    "id": "612",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $250 worth of goods per day, with 50% of the sales coming from bread and the rest from pastries. The town has a total of 15 bakeries. Meanwhile, the cafes sell an average of $200 worth of coffee per day, with each cup of coffee costing $2. There are 20 cafes in total. The restaurants, on the other hand, make an average of $500 per day from lunch and $300 from dinner, with the total number of restaurants being 5 more than the number of bakeries. If the town imposes a 10% tax on all sales, how much tax revenue will the town generate in a day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily sales from all bakeries by multiplying the number of bakeries by the daily sales per bakery.",
+        "Step 2: Determine the total daily sales from all cafes by multiplying the number of cafes by the average daily coffee sales per cafe.",
+        "Step 3: Calculate the total daily sales from all restaurants by first finding the total number of restaurants and then multiplying this by the combined average daily sales per restaurant from both lunch and dinner.",
+        "Step 4: Add up the total daily sales from bakeries, cafes, and restaurants to find the overall daily sales in the town.",
+        "Step 5: Apply the 10% tax rate to the total daily sales to calculate the tax revenue generated."
+    ],
+    "final_answer": "10550"
+}

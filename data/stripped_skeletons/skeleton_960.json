@@ -1,0 +1,20 @@
+{
+    "id": "960",
+    "original_problem": "In a small town, there are three types of shops: bookstores, coffee shops, and restaurants. The town has a total of 25 shops. The number of bookstores is 5 more than the number of coffee shops, and the number of restaurants is 3 less than the number of bookstores. If the number of coffee shops is 30% of the total number of shops, what is the total number of restaurants in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bookstores, coffee shops, and restaurants. The town has a ମୋଟ (total) of 25 shops. The number of bookstores is 5 more than the number of coffee shops, and the number of restaurants is 3 less than the number of bookstores. ଯଦି (if) the number of coffee shops is 30% of the ମୋଟ (total) number of shops, what is the ମୋଟ (total) number of restaurants in the town?",
+    "original_steps": [
+        "Step 1: Calculate the number of coffee shops, which is 30% of the total number of shops.",
+        "Step 2: Determine the number of bookstores, knowing it's 5 more than the number of coffee shops.",
+        "Step 3: Find the number of restaurants, which is 3 less than the number of bookstores.",
+        "Step 4: Verify that the sum of all types of shops equals the total number of shops in the town.",
+        "Step 5: Calculate the final number of restaurants based on the previous steps."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of coffee shops, which is 30% of the ମୋଟ (total) number of shops.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the number of bookstores, knowing it's 5 more than the number of coffee shops.",
+        "ପଦକ୍ଷେପ (step) 3: Find the number of restaurants, which is 3 less than the number of bookstores.",
+        "ପଦକ୍ଷେପ (step) 4: Verify that the ସମଷ୍ଟି (sum) of all types of shops ସମାନ (equals) the ମୋଟ (total) number of shops in the town.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the final number of restaurants based on the previous steps."
+    ],
+    "final_answer": "7"
+}

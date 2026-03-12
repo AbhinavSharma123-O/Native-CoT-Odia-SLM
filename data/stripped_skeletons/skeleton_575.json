@@ -1,0 +1,20 @@
+{
+    "id": "575",
+    "original_problem": "In a certain city, there are three types of trains: express, local, and freight. The express train travels from City A to City B at an average speed of 80 km/h and takes 5 hours for the entire trip. The local train travels the same route but makes 4 stops along the way, with each stop lasting 15 minutes. The freight train, on the other hand, carries a cargo of 1000 boxes, with each box weighing 20 kg. If the freight train travels at 40 km/h and it takes 12 hours to travel from City A to City B, what is the total weight of the cargo carried by the freight train, given that 25% of the boxes are empty and the remaining boxes are filled with a substance that weighs 15 kg per box?",
+    "deconstructed_problem": "In a certain city, there are three types of trains: express, local, and freight. The express train travels from City A to City B at an average speed of 80 km/h and takes 5 hours for the entire trip. The local train travels the same route but makes 4 stops along the way, with each stop lasting 15 minutes. The freight train, on the other hand, carries a cargo of 1000 boxes, with each box weighing 20 kg. ଯଦି (if) the freight train travels at 40 km/h and it takes 12 hours to travel from City A to City B, what is the ମୋଟ (total) weight of the cargo carried by the freight train, given that 25% of the boxes are empty and the remaining boxes are filled with a substance that weighs 15 kg per box?",
+    "original_steps": [
+        "Step 1: Calculate the distance between City A and City B using the speed and travel time of the express train: Distance = Speed * Time",
+        "Step 2: Calculate the time the local train takes to travel from City A to City B, taking into account the stops: Total Time = Travel Time + (Number of Stops * Stop Duration)",
+        "Step 3: Determine the actual weight of the cargo carried by the freight train, considering the empty boxes: Total Weight = (Number of Non-Empty Boxes * Weight per Box) + (Number of Empty Boxes * Weight per Empty Box)",
+        "Step 4: Calculate the number of non-empty boxes and empty boxes, given that 25% of the boxes are empty: Number of Empty Boxes = Total Boxes * 0.25, Number of Non-Empty Boxes = Total Boxes - Number of Empty Boxes",
+        "Step 5: Apply the values to the formula from Step 3 to find the total weight of the cargo carried by the freight train"
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the distance between City A and City B using the speed and travel time of the express train: Distance = Speed * Time",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the time the local train takes to travel from City A to City B, taking into account the stops: ମୋଟ (total) Time = Travel Time + (Number of Stops * Stop Duration)",
+        "ପଦକ୍ଷେପ (step) 3: Determine the actual weight of the cargo carried by the freight train, considering the empty boxes: ମୋଟ (total) Weight = (Number of Non-Empty Boxes * Weight per Box) + (Number of Empty Boxes * Weight per Empty Box)",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the number of non-empty boxes and empty boxes, given that 25% of the boxes are empty: Number of Empty Boxes = ମୋଟ (total) Boxes * 0.25, Number of Non-Empty Boxes = ମୋଟ (total) Boxes - Number of Empty Boxes",
+        "ପଦକ୍ଷେପ (step) 5: Apply the values to the formula from ପଦକ୍ଷେପ (step) 3 to find the ମୋଟ (total) weight of the cargo carried by the freight train"
+    ],
+    "final_answer": "11250 kg"
+}

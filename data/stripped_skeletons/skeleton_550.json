@@ -1,0 +1,20 @@
+{
+    "id": "550",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each shop has a different number of employees. The total number of employees in all shops is 105. The number of employees in bakeries is 5 more than the number of employees in cafes, and the number of employees in restaurants is 10 more than the number of employees in bakeries. If the number of employees in cafes is 15 less than the total number of employees in bakeries and restaurants combined, determine the number of employees in each type of shop.",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 105. The number of employees in bakeries is 5 more than the number of employees in cafes, and the number of employees in restaurants is 10 more than the number of employees in bakeries. ଯଦି (if) the number of employees in cafes is 15 less than the ମୋଟ (total) number of employees in bakeries and restaurants combined, determine the number of employees in each type of shop.",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop: let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants.",
+        "Step 2: Set up equations based on the given information: B = C + 5, R = B + 10, and C = (B + R) - 15.",
+        "Step 3: Substitute the expression for B from the first equation into the third equation to get C = ((C + 5) + (C + 5 + 10)) - 15, simplifying to C = (2C + 20) - 15.",
+        "Step 4: Solve the equation from step 3 to find the value of C: C = 2C + 5, which simplifies to C = 5.",
+        "Step 5: Use the value of C to find the values of B and R using the equations from step 2: B = C + 5 = 5 + 5 = 10, and R = B + 10 = 10 + 10 = 20."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop: let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: B = C + 5, R = B + 10, and C = (B + R) - 15.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expression for B from the first ସମୀକରଣ (equation) into the third ସମୀକରଣ (equation) to get C = ((C + 5) + (C + 5 + 10)) - 15, simplifying to C = (2C + 20) - 15.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to find the value of C: C = 2C + 5, which simplifies to C = 5.",
+        "ପଦକ୍ଷେପ (step) 5: Use the value of C to find the values of B and R using the equations from ପଦକ୍ଷେପ (step) 2: B = C + 5 = 5 + 5 = 10, and R = B + 10 = 10 + 10 = 20."
+    ],
+    "final_answer": "Bakeries: 10 employees, Cafes: 5 employees, Restaurants: 20 employees, Total: 105 employees (35 in bakeries and restaurants, 70 in all three types of shops combined, confirming the initial total of 105 employees when adding the 35 from bakeries and restaurants to the 70 from all shops)"
+}

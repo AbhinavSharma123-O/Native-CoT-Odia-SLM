@@ -1,0 +1,12 @@
+{
+    "id": "379",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the shops is 240. The number of employees in the bakeries is 1/3 of the total number of employees in the cafes and restaurants combined. The number of employees in the cafes is 2/3 of the number of employees in the restaurants. If the number of employees in the bakeries is 40, then what is the number of employees in the restaurants?",
+    "reasoning_steps": [
+        "Step 1: Determine the total number of employees in the bakeries, which is given as 40.",
+        "Step 2: Use the information that the number of employees in the bakeries is 1/3 of the total number of employees in the cafes and restaurants combined to set up an equation. Let's denote the total number of employees in the cafes and restaurants as x. Then, 1/3 * x = 40.",
+        "Step 3: Solve the equation from Step 2 to find the total number of employees in the cafes and restaurants. Multiply both sides by 3 to get x = 40 * 3 = 120.",
+        "Step 4: Use the information that the number of employees in the cafes is 2/3 of the number of employees in the restaurants to set up another equation. Let's denote the number of employees in the restaurants as y. Then, the number of employees in the cafes is 2/3 * y.",
+        "Step 5: Set up an equation using the information from Steps 3 and 4. The total number of employees in the cafes and restaurants is 120, so 2/3 * y + y = 120. Simplify the equation to get 5/3 * y = 120."
+    ],
+    "final_answer": "72"
+}

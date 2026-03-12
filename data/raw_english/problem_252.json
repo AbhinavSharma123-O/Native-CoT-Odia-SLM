@@ -1,0 +1,12 @@
+{
+    "id": "252",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it climbs out and does not slip back. Meanwhile, a bird starts at the top of the well and flies down to the snail's position every day, then returns to the top. The bird's flight covers 5 feet more than the snail's climb that day. How many days will it take for the snail to reach the top, and what will be the total distance the bird has flown by then?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net progress of the snail per day, which is the difference between its climb and its slip back at night.",
+        "Step 2: Determine the number of days the snail needs to climb to reach a height from which it can climb out of the well without slipping back.",
+        "Step 3: Calculate the distance the snail climbs on the final day when it reaches the top of the well.",
+        "Step 4: For each day, calculate the distance the bird flies, taking into account that it flies 5 feet more than the snail's climb that day.",
+        "Step 5: Sum the distances the bird flies each day until the snail reaches the top to find the total distance the bird has flown."
+    ],
+    "final_answer": "18 days for the snail to reach the top, with the bird flying a total distance of 5 + 2*(1+2+3+4+5+6+7) + 18 = 5 + 2*28 + 18 = 5 + 56 + 18 = 79 feet"
+}

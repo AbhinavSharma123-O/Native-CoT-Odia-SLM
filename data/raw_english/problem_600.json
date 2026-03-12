@@ -1,0 +1,12 @@
+{
+    "id": "600",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 liters of water, Tank B can hold 800 liters, and Tank C can hold 1500 liters. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A directly to Tank C. Pipe 1 can transfer water at a rate of 200 liters per hour, Pipe 2 at 150 liters per hour, and Pipe 3 at 100 liters per hour. If Tank A is initially filled to its maximum capacity, Tank B is half full, and Tank C is empty, and all pipes are open, how many hours will it take to fill Tank C to its maximum capacity, assuming that water can flow from Tank A to Tank B and then to Tank C, or directly from Tank A to Tank C, but the flow rates do not change regardless of the water levels in the tanks?",
+    "reasoning_steps": [
+        "Step 1: Determine the initial water levels in each tank and the maximum capacity of Tank C that needs to be filled.",
+        "Step 2: Calculate the net flow rate into Tank C by considering the flow from Pipe 2 (which depends on the water transferred from Tank A to Tank B and then to Tank C) and Pipe 3.",
+        "Step 3: Formulate equations to represent the change in water levels over time in each tank, taking into account the flow rates and the initial conditions.",
+        "Step 4: Solve the system of equations to find the time it takes for Tank C to reach its maximum capacity, considering that water flow stops once Tank C is full or when the flow into Tank C becomes zero.",
+        "Step 5: Validate the solution by checking that the water levels in Tanks A and B at the calculated time do not exceed their capacities and that the total water transferred matches the capacity of Tank C."
+    ],
+    "final_answer": "10 hours"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "858",
+    "original_problem": "In a certain city, there are three types of vehicles: cars, buses, and trucks. The city has a total of 250 vehicles. The number of buses is 1/5 the number of cars, and the number of trucks is 1/10 the number of buses. If the average speed of cars is 30 km/h, buses is 20 km/h, and trucks is 15 km/h, and the total distance traveled by all vehicles in a day is 12000 km, what is the number of cars in the city?",
+    "deconstructed_problem": "In a certain city, there are three types of vehicles: cars, buses, and trucks. The city has a ମୋଟ (total) of 250 vehicles. The number of buses is 1/5 the number of cars, and the number of trucks is 1/10 the number of buses. ଯଦି (if) the average speed of cars is 30 km/h, buses is 20 km/h, and trucks is 15 km/h, and the ମୋଟ (total) distance traveled by all vehicles in a day is 12000 km, what is the number of cars in the city?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of cars, buses, and trucks as c, b, and t respectively, and establish the relationships between them based on the given information.",
+        "Step 2: Express the number of buses and trucks in terms of the number of cars using the given ratios (b = c/5 and t = b/10 = c/50).",
+        "Step 3: Formulate an equation representing the total number of vehicles in the city (c + b + t = 250), and substitute the expressions for b and t from step 2 to solve for c.",
+        "Step 4: Calculate the total distance traveled by each type of vehicle using their respective average speeds and the total distance traveled by all vehicles ( Distance = Speed * Time, and the time is the same for all vehicles since they travel the same amount of time per day).",
+        "Step 5: Set up an equation for the total distance traveled by all vehicles, using the distances calculated in step 4 and the relationships between the number of vehicles from step 3."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of cars, buses, and trucks as c, b, and t respectively, and establish the relationships between them based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Express the number of buses and trucks in terms of the number of cars using the given ratios (b = c/5 and t = b/10 = c/50).",
+        "ପଦକ୍ଷେପ (step) 3: Formulate an ସମୀକରଣ (equation) representing the ମୋଟ (total) number of vehicles in the city (c + b + t = 250), and substitute the expressions for b and t from ପଦକ୍ଷେପ (step) 2 to solve for c.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) distance traveled by each type of vehicle using their respective average speeds and the ମୋଟ (total) distance traveled by all vehicles ( Distance = Speed * Time, and the time is the same for all vehicles since they travel the same amount of time per day).",
+        "ପଦକ୍ଷେପ (step) 5: Set up an ସମୀକରଣ (equation) for the ମୋଟ (total) distance traveled by all vehicles, using the distances calculated in ପଦକ୍ଷେପ (step) 4 and the relationships between the number of vehicles from ପଦକ୍ଷେପ (step) 3."
+    ],
+    "final_answer": "200"
+}

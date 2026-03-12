@@ -1,0 +1,20 @@
+{
+    "id": "279",
+    "original_problem": "In a small village, there are three types of shops: bakery, grocery, and hardware. Each shop has a distinct number of employees: 10, 15, and 20. Using the following clues: the bakery has fewer employees than the grocery, the hardware store has more employees than both the bakery and the grocery, and the total number of employees in all shops is 45, determine the number of employees in each type of shop and the total number of shops in the village.",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakery, grocery, and hardware. Each shop has a distinct number of employees: 10, 15, and 20. Using the following clues: the bakery has fewer employees than the grocery, the hardware store has more employees than both the bakery and the grocery, and the ମୋଟ (total) number of employees in all shops is 45, determine the number of employees in each type of shop and the ମୋଟ (total) number of shops in the village.",
+    "original_steps": [
+        "Step 1: Determine the possible range of employees for each shop based on the given clues.",
+        "Step 2: Use the clue that the total number of employees is 45 to establish equations for the sum of employees in the shops.",
+        "Step 3: Apply the clue that the bakery has fewer employees than the grocery and the hardware store has more employees than both to narrow down possible combinations.",
+        "Step 4: Solve the equations from step 2, considering the constraints from step 3 to find the exact number of employees in each type of shop.",
+        "Step 5: Calculate the total number of shops by dividing the total number of employees by the number of employees in each shop type, considering the distinct numbers of employees (10, 15, 20) and ensuring the total sum equals 45."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible range of employees for each shop based on the given clues.",
+        "ପଦକ୍ଷେପ (step) 2: Use the clue that the ମୋଟ (total) number of employees is 45 to establish equations for the ସମଷ୍ଟି (sum) of employees in the shops.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the clue that the bakery has fewer employees than the grocery and the hardware store has more employees than both to narrow down possible combinations.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the equations from ପଦକ୍ଷେପ (step) 2, considering the constraints from ପଦକ୍ଷେପ (step) 3 to find the exact number of employees in each type of shop.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of shops by dividing the ମୋଟ (total) number of employees by the number of employees in each shop type, considering the distinct numbers of employees (10, 15, 20) and ensuring the ମୋଟ (total) ସମଷ୍ଟି (sum) ସମାନ (equals) 45."
+    ],
+    "final_answer": "Bakery: 10 employees, Grocery: 15 employees, Hardware: 20 employees, Total Shops: 3"
+}

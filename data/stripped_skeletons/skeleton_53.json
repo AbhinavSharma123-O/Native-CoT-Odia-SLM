@@ -1,0 +1,20 @@
+{
+    "id": "53",
+    "original_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity: Red buses can hold 40 passengers, Blue buses can hold 60 passengers, and Green buses can hold 80 passengers. On a given day, a total of 240 passengers need to be transported. However, due to maintenance, only 2/3 of the Red buses and 3/4 of the Blue buses are available. Additionally, the number of Green buses available is 1/2 the number of Red buses. If the total number of buses available is 21 and the number of Red buses is 5 more than the number of Green buses, how many buses of each type are needed to transport all the passengers?",
+    "deconstructed_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity: Red buses can hold 40 passengers, Blue buses can hold 60 passengers, and Green buses can hold 80 passengers. On a given day, a ମୋଟ (total) of 240 passengers need to be transported. However, due to maintenance, only 2/3 of the Red buses and 3/4 of the Blue buses are available. Additionally, the number of Green buses available is 1/2 the number of Red buses. ଯଦି (if) the ମୋଟ (total) number of buses available is 21 and the number of Red buses is 5 more than the number of Green buses, how many buses of each type are needed to transport all the passengers?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of Red, Blue, and Green buses available, and establish the relationship between the number of Green buses and Red buses.",
+        "Step 2: Calculate the total number of passengers that can be transported by the available Red and Blue buses, taking into account their reduced availability.",
+        "Step 3: Determine the number of Green buses needed based on the remaining passengers and the capacity of the Green buses.",
+        "Step 4: Set up equations to represent the given conditions, such as the total number of buses available and the relationship between the number of Red and Green buses.",
+        "Step 5: Solve the system of equations to find the number of buses of each type available, then calculate the number of buses of each type needed to transport all the passengers."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of Red, Blue, and Green buses available, and establish the relationship between the number of Green buses and Red buses.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) number of passengers that can be transported by the available Red and Blue buses, taking into account their reduced availability.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the number of Green buses needed based on the remaining passengers and the capacity of the Green buses.",
+        "ପଦକ୍ଷେପ (step) 4: Set up equations to represent the given conditions, such as the ମୋଟ (total) number of buses available and the relationship between the number of Red and Green buses.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the system of equations to find the number of buses of each type available, ତାହେଲେ (then) calculate the number of buses of each type needed to transport all the passengers."
+    ],
+    "final_answer": "8 Red buses, 6 Blue buses, and 7 Green buses"
+}

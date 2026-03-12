@@ -1,0 +1,20 @@
+{
+    "id": "190",
+    "original_problem": "In the city of Logos, there are three types of trains: the Alpha, the Beta, and the Gamma. Each type of train has a different speed and a different number of cars. The Alpha train has 5 cars and travels at 60 km/h, the Beta train has 7 cars and travels at 80 km/h, and the Gamma train has 9 cars and travels at 40 km/h. The city has three train stations: North, South, and East. The North station can only accommodate trains with an odd number of cars, the South station can accommodate any type of train, and the East station can only accommodate trains traveling at a speed greater than 50 km/h. If the Alpha train is currently at the North station, the Beta train is currently at the South station, and the Gamma train is currently at the East station, how many different possible combinations of train placements are there if each train can move to any station that can accommodate it, and no two trains can be at the same station at the same time?",
+    "deconstructed_problem": "In the city of Logos, there are three types of trains: the Alpha, the Beta, and the Gamma. Each type of train has a different speed and a different number of cars. The Alpha train has 5 cars and travels at 60 km/h, the Beta train has 7 cars and travels at 80 km/h, and the Gamma train has 9 cars and travels at 40 km/h. The city has three train stations: North, South, and East. The North station can only accommodate trains with an odd number of cars, the South station can accommodate any type of train, and the East station can only accommodate trains traveling at a speed greater than 50 km/h. ଯଦି (if) the Alpha train is currently at the North station, the Beta train is currently at the South station, and the Gamma train is currently at the East station, how many different possible combinations of train placements are there ଯଦି (if) each train can move to any station that can accommodate it, and no two trains can be at the same station at the same time?",
+    "original_steps": [
+        "Step 1: Determine which stations each type of train can move to based on the number of cars and speed.",
+        "Step 2: Calculate the number of possible destinations for each train, considering that no two trains can be at the same station.",
+        "Step 3: Consider the initial placement of the trains and how it affects the possible combinations of train placements.",
+        "Step 4: Calculate the total number of possible combinations by multiplying the number of possible destinations for each train.",
+        "Step 5: Account for any combinations that violate the condition of no two trains being at the same station at the same time."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine which stations each type of train can move to based on the number of cars and speed.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of possible destinations for each train, considering that no two trains can be at the same station.",
+        "ପଦକ୍ଷେପ (step) 3: Consider the initial placement of the trains and how it affects the possible combinations of train placements.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of possible combinations by multiplying the number of possible destinations for each train.",
+        "ପଦକ୍ଷେପ (step) 5: Account for any combinations that violate the condition of no two trains being at the same station at the same time."
+    ],
+    "final_answer": "18"
+}

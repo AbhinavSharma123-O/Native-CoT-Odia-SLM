@@ -1,0 +1,12 @@
+{
+    "id": "401",
+    "problem": "In a small town, there are three types of trains: passenger, freight, and express. Each type of train has a different speed and can carry a different number of cars. The passenger train can carry 5 cars and travels at 60 km/h, the freight train can carry 10 cars and travels at 40 km/h, and the express train can carry 3 cars and travels at 80 km/h. If the passenger train takes 2 hours to travel from City A to City B, the freight train takes 3 hours to travel from City A to City C, which is 20 km farther than City B, and the express train takes 1.5 hours to travel from City C to City D, which is 30 km farther than City C, how many kilometers are between City A and City D?",
+    "reasoning_steps": [
+        "Step 1: Calculate the distance between City A and City B by using the speed and time of the passenger train.",
+        "Step 2: Determine the distance between City B and City C by using the additional distance the freight train travels.",
+        "Step 3: Calculate the distance between City A and City C by adding the distances from Step 1 and Step 2.",
+        "Step 4: Calculate the distance between City C and City D by using the speed and time of the express train.",
+        "Step 5: Determine the total distance between City A and City D by adding the distances from Step 3 and Step 4."
+    ],
+    "final_answer": "240"
+}

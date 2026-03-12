@@ -1,0 +1,12 @@
+{
+    "id": "212",
+    "problem": "In a small town, there are three water towers: Tower A, Tower B, and Tower C. Each tower has a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water usage is as follows: On Monday, the town uses 1/4 of Tower A's capacity and 1/3 of Tower C's capacity. On Tuesday, 2/3 of Tower B's capacity is used, and the remaining water from Monday is transferred to Tower B. On Wednesday, the town uses 3/4 of the total capacity of Tower B. What is the total amount of water used by the town from Monday to Wednesday?",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of water used from Tower A on Monday, which is 1/4 of its capacity: 2000 * (1/4) = 500 gallons.",
+        "Step 2: Calculate the amount of water used from Tower C on Monday, which is 1/3 of its capacity: 4000 * (1/3) = 1333.33 gallons.",
+        "Step 3: Determine the remaining water in Tower A and Tower C after Monday's usage. For Tower A: 2000 - 500 = 1500 gallons. For Tower C: 4000 - 1333.33 = 2666.67 gallons.",
+        "Step 4: Calculate the amount of water used from Tower B on Tuesday, which is 2/3 of its capacity: 3000 * (2/3) = 2000 gallons. Then, calculate the total water transferred to Tower B, including the remaining water from Tower A and Tower C: 1500 (from Tower A) + 2666.67 (from Tower C) = 4166.67 gallons.",
+        "Step 5: Calculate the total capacity of Tower B after the transfer: 3000 (initial capacity) - 2000 (used on Tuesday) + 4166.67 (transferred) = 5166.67 gallons. Then, calculate the amount of water used from Tower B on Wednesday, which is 3/4 of its new total capacity: 5166.67 * (3/4) = 3875 gallons."
+    ],
+    "final_answer": "500 (Monday from Tower A) + 1333.33 (Monday from Tower C) + 2000 (Tuesday from Tower B) + 3875 (Wednesday from Tower B) = 7708.33 gallons"
+}

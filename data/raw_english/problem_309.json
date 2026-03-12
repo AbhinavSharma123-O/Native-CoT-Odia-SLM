@@ -1,0 +1,12 @@
+{
+    "id": "309",
+    "problem": "In a small town, there are three types of buses: Red, Blue, and Green. The Red bus travels from Town A to Town B, a distance of 250 miles, in 5 hours. The Blue bus travels from Town B to Town C, a distance of 300 miles, in 6 hours. The Green bus travels from Town A to Town C, a distance of 400 miles, in 8 hours. However, due to road construction, the distance between Town A and Town B is reduced by 20% and the distance between Town B and Town C is increased by 15%. If the speed of the Red bus is increased by 10% and the speed of the Blue bus is decreased by 5%, how many hours will it take for the Green bus to travel from Town A to Town C, given that its speed remains constant, but it now takes a detour that adds 25 miles to its original route?",
+    "reasoning_steps": [
+        "Step 1: Calculate the original speed of each bus. The Red bus's speed is 250 miles / 5 hours = 50 mph, the Blue bus's speed is 300 miles / 6 hours = 50 mph, and the Green bus's speed is 400 miles / 8 hours = 50 mph.",
+        "Step 2: Determine the new distances between Town A and Town B, and Town B and Town C, after the road construction. The distance between Town A and Town B is reduced to 250 - (20% of 250) = 250 - 50 = 200 miles. The distance between Town B and Town C is increased to 300 + (15% of 300) = 300 + 45 = 345 miles.",
+        "Step 3: Calculate the new speeds of the Red and Blue buses after the changes. The Red bus's new speed is 50 mph + (10% of 50 mph) = 50 + 5 = 55 mph. The Blue bus's new speed is 50 mph - (5% of 50 mph) = 50 - 2.5 = 47.5 mph.",
+        "Step 4: Since the Green bus's speed remains constant at 50 mph and it takes a detour adding 25 miles to its original 400-mile route, the new total distance for the Green bus is 400 + 25 = 425 miles.",
+        "Step 5: Finally, calculate the time it will take for the Green bus to travel the new distance at its constant speed. Time = Distance / Speed = 425 miles / 50 mph = 8.5 hours."
+    ],
+    "final_answer": "8.5"
+}

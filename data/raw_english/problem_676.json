@@ -1,0 +1,13 @@
+{
+    "id": "676",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar to produce 3 units of bread. Each cafe uses 1 unit of flour and 2 units of sugar to produce 2 units of pastry. Each restaurant uses 3 units of bread and 2 units of pastry to serve 1 unit of meal. If the village has 10 bakeries, 8 cafes, and 12 restaurants, and each unit of flour costs $1, each unit of sugar costs $2, and each meal served brings in $15, what is the total profit made by the village?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total units of flour used by all bakeries and cafes. The bakeries use 2 * 10 = 20 units of flour and the cafes use 1 * 8 = 8 units of flour.",
+        "Step 2: Calculate the total units of sugar used by all bakeries and cafes. The bakeries use 1 * 10 = 10 units of sugar and the cafes use 2 * 8 = 16 units of sugar.",
+        "Step 3: Determine the total units of bread produced by the bakeries and the total units of pastry produced by the cafes. The bakeries produce 3 * 10 = 30 units of bread and the cafes produce 2 * 8 = 16 units of pastry.",
+        "Step 4: Calculate how many meals can be served by the restaurants given the bread and pastry available. Each restaurant needs 3 units of bread and 2 units of pastry. The limiting factor here is the pastry since 16 units of pastry would only serve 16 / 2 = 8 meals if we only consider the pastry, but we have to consider the bread as well. Since we have 30 units of bread, which would serve 30 / 3 = 10 meals, and we have enough bread for 10 meals but only enough pastry for 8 meals, the restaurants can serve 8 meals.",
+        "Step 5: Calculate the total cost of flour and sugar used and the total revenue from meals served to find the profit. The total cost is (20 + 8) * $1 for flour + (10 + 16) * $2 for sugar = 28 * $1 + 26 * $2 = $28 + $52 = $80. The total revenue is 8 meals * $15 per meal = $120.",
+        "Step 6: Subtract the total cost from the total revenue to find the profit. Profit = Total Revenue - Total Cost = $120 - $80 = $40."
+    ],
+    "final_answer": "$40"
+}

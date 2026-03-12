@@ -1,0 +1,20 @@
+{
+    "id": "447",
+    "original_problem": "Five friends - Alex, Ben, Charlie, David, and Emily - are planning to attend a music festival. The festival has three stages - Stage A, Stage B, and Stage C - with different genres of music playing at each stage. The friends have the following preferences: Alex wants to attend Stage A if Ben is at Stage B, Charlie wants to attend Stage B if David is at Stage C, David wants to attend Stage C if Emily is at Stage A, and Emily wants to attend Stage A if Charlie is at Stage B. Additionally, Ben will only attend Stage B if there are at least two friends attending Stage A. Given these conditions, determine the stage that Charlie will attend.",
+    "deconstructed_problem": "Five friends - Alex, Ben, Charlie, David, and Emily - are planning to attend a music festival. The festival has three stages - Stage A, Stage B, and Stage C - with different genres of music playing at each stage. The friends have the following preferences: Alex wants to attend Stage A ଯଦି (if) Ben is at Stage B, Charlie wants to attend Stage B ଯଦି (if) David is at Stage C, David wants to attend Stage C ଯଦି (if) Emily is at Stage A, and Emily wants to attend Stage A ଯଦି (if) Charlie is at Stage B. Additionally, Ben will only attend Stage B ଯଦି (if) there are at least two friends attending Stage A. Given these conditions, determine the stage that Charlie will attend.",
+    "original_steps": [
+        "Step 1: Analyze the preferences of each friend to identify any direct relationships between their stage choices.",
+        "Step 2: Apply the condition that Ben will only attend Stage B if there are at least two friends attending Stage A to narrow down possible combinations.",
+        "Step 3: Use the preferences of Alex, Charlie, David, and Emily to create a system of conditional statements that can help determine the stage each friend will attend.",
+        "Step 4: Identify any potential contradictions or circular dependencies in the system of conditional statements that could limit the possible stage combinations.",
+        "Step 5: Apply the process of elimination to the remaining possible stage combinations to determine the stage that Charlie will attend."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Analyze the preferences of each friend to identify any direct relationships between their stage choices.",
+        "ପଦକ୍ଷେପ (step) 2: Apply the condition that Ben will only attend Stage B ଯଦି (if) there are at least two friends attending Stage A to narrow down possible combinations.",
+        "ପଦକ୍ଷେପ (step) 3: Use the preferences of Alex, Charlie, David, and Emily to create a system of conditional statements that can help determine the stage each friend will attend.",
+        "ପଦକ୍ଷେପ (step) 4: Identify any potential contradictions or circular dependencies in the system of conditional statements that could limit the possible stage combinations.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the process of elimination to the remaining possible stage combinations to determine the stage that Charlie will attend."
+    ],
+    "final_answer": "Stage B"
+}

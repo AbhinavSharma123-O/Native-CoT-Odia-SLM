@@ -1,0 +1,20 @@
+{
+    "id": "758",
+    "original_problem": "In the city of Azura, there are three types of temples: A, B, and C. Temple A has 300 members, with 15% being priests. Temple B has 420 members, with 20% being priests. Temple C has an unknown number of members but is known to have 25% of its members as priests. The total number of priests across all temples is 175. If Temple C has 30 more members than Temple B, determine the total number of members across all three temples.",
+    "deconstructed_problem": "In the city of Azura, there are three types of temples: A, B, and C. Temple A has 300 members, with 15% being priests. Temple B has 420 members, with 20% being priests. Temple C has an unknown number of members but is known to have 25% of its members as priests. The ମୋଟ (total) number of priests across all temples is 175. ଯଦି (if) Temple C has 30 more members than Temple B, determine the ମୋଟ (total) number of members across all three temples.",
+    "original_steps": [
+        "Step 1: Calculate the number of priests in Temple A by multiplying the total number of members by the percentage of priests.",
+        "Step 2: Calculate the number of priests in Temple B using the same method as Step 1.",
+        "Step 3: Calculate the combined number of priests in Temples A and B, and subtract this from the total number of priests to find the number of priests in Temple C.",
+        "Step 4: Determine the total number of members in Temple C by dividing the number of priests in Temple C by the percentage of priests in Temple C.",
+        "Step 5: Add the number of members in Temple C to the number of members in Temple B, then add the number of members in Temple A to find the total number of members across all temples."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of priests in Temple A by multiplying the ମୋଟ (total) number of members by the percentage of priests.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of priests in Temple B using the same method as ପଦକ୍ଷେପ (step) 1.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the combined number of priests in Temples A and B, and ବିୟୋଗ (subtract) this from the ମୋଟ (total) number of priests to find the number of priests in Temple C.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the ମୋଟ (total) number of members in Temple C by dividing the number of priests in Temple C by the percentage of priests in Temple C.",
+        "ପଦକ୍ଷେପ (step) 5: ଯୋଗ (add) the number of members in Temple C to the number of members in Temple B, ତାହେଲେ (then) ଯୋଗ (add) the number of members in Temple A to find the ମୋଟ (total) number of members across all temples."
+    ],
+    "final_answer": "1216"
+}

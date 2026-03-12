@@ -1,0 +1,20 @@
+{
+    "id": "448",
+    "original_problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's total output of widgets, respectively. Factory A produces 200 more widgets per day than Factory B. On a certain day, the total production of widgets is 2500. However, due to a malfunction, Factory C produced 15% fewer widgets than it normally would, while Factory B produced 10% more. Given that the normal daily production of Factory A is 800 widgets, determine the actual number of widgets produced by Factory C on that day.",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's ମୋଟ (total) output of widgets, respectively. Factory A produces 200 more widgets per day than Factory B. On a certain day, the ମୋଟ (total) production of widgets is 2500. However, due to a malfunction, Factory C produced 15% fewer widgets than it normally would, while Factory B produced 10% more. Given that the normal daily production of Factory A is 800 widgets, determine the actual number of widgets produced by Factory C on that day.",
+    "original_steps": [
+        "Step 1: Calculate the normal daily production of Factory B by using the information that Factory A produces 200 more widgets per day than Factory B and that Factory A produces 800 widgets per day.",
+        "Step 2: Determine the normal total production of all factories based on the percentages given for each factory's contribution to the total output.",
+        "Step 3: Calculate the adjusted production of Factory B, considering it produced 10% more than its normal output.",
+        "Step 4: Calculate the adjusted production of Factory C, which produced 15% fewer widgets than it normally would.",
+        "Step 5: Use the total production for the day and the adjusted productions of Factory A and Factory B to find the actual production of Factory C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the normal daily production of Factory B by using the information that Factory A produces 200 more widgets per day than Factory B and that Factory A produces 800 widgets per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the normal ମୋଟ (total) production of all factories based on the percentages given for each factory's contribution to the ମୋଟ (total) output.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the adjusted production of Factory B, considering it produced 10% more than its normal output.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the adjusted production of Factory C, which produced 15% fewer widgets than it normally would.",
+        "ପଦକ୍ଷେପ (step) 5: Use the ମୋଟ (total) production for the day and the adjusted productions of Factory A and Factory B to find the actual production of Factory C."
+    ],
+    "final_answer": "945"
+}

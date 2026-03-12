@@ -1,0 +1,20 @@
+{
+    "id": "583",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the bakeries is 15 less than the total number of employees in all the cafes. The total number of employees in all the restaurants is 20 more than the total number of employees in all the bakeries. If the total number of employees in all the shops is 240, and the ratio of the number of bakeries to the number of cafes to the number of restaurants is 2:3:5, what is the average number of employees per bakery?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the bakeries is 15 less than the ମୋଟ (total) number of employees in all the cafes. The ମୋଟ (total) number of employees in all the restaurants is 20 more than the ମୋଟ (total) number of employees in all the bakeries. ଯଦି (if) the ମୋଟ (total) number of employees in all the shops is 240, and the ratio of the number of bakeries to the number of cafes to the number of restaurants is 2:3:5, what is the average number of employees per bakery?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in a bakery, C be the number of employees in a cafe, and R be the number of employees in a restaurant.",
+        "Step 2: Express the given relationships between the number of employees in each type of shop as equations. We have the equations: total_bakeries * B = total_cafes * C - 15, total_restaurants * R = total_bakeries * B + 20, and total_bakeries * B + total_cafes * C + total_restaurants * R = 240.",
+        "Step 3: Use the given ratio of the number of bakeries to cafes to restaurants (2:3:5) to express the total number of each type of shop in terms of a common variable. Let x be the common multiplier, so total_bakeries = 2x, total_cafes = 3x, and total_restaurants = 5x.",
+        "Step 4: Substitute the expressions for the total number of each type of shop into the equations from Step 2 and simplify the equations to solve for the number of employees in each type of shop.",
+        "Step 5: Calculate the average number of employees per bakery using the values found in Step 4."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in a bakery, C be the number of employees in a cafe, and R be the number of employees in a restaurant.",
+        "ପଦକ୍ଷେପ (step) 2: Express the given relationships between the number of employees in each type of shop as equations. We have the equations: total_bakeries * B = total_cafes * C - 15, total_restaurants * R = total_bakeries * B + 20, and total_bakeries * B + total_cafes * C + total_restaurants * R = 240.",
+        "ପଦକ୍ଷେପ (step) 3: Use the given ratio of the number of bakeries to cafes to restaurants (2:3:5) to express the ମୋଟ (total) number of each type of shop in terms of a common ଚଳ (variable). Let x be the common multiplier, so total_bakeries = 2x, total_cafes = 3x, and total_restaurants = 5x.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for the ମୋଟ (total) number of each type of shop into the equations from ପଦକ୍ଷେପ (step) 2 and simplify the equations to solve for the number of employees in each type of shop.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the average number of employees per bakery using the values found in ପଦକ୍ଷେପ (step) 4."
+    ],
+    "final_answer": "12"
+}

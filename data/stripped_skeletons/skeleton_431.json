@@ -1,0 +1,20 @@
+{
+    "id": "431",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of 250 loaves of bread per day, with 30% of the sales occurring in the morning, 40% in the afternoon, and the remaining 30% in the evening. There are 5 bakeries in the town. Meanwhile, each cafe sells an average of 120 cups of coffee per day, with sales split evenly between morning and afternoon, but none in the evening. There are 8 cafes. Restaurants, on the other hand, do not sell bread or coffee but sell meals. The average restaurant sells 180 meals per day, with sales divided into 20% in the morning, 60% in the afternoon, and 20% in the evening. If there are 12 restaurants and the town has a 10% tax on all sales, what is the total daily tax revenue from all three types of shops?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a ମୋଟ (total) of 250 loaves of bread per day, with 30% of the sales occurring in the morning, 40% in the afternoon, and the remaining 30% in the evening. There are 5 bakeries in the town. Meanwhile, each cafe sells an average of 120 cups of coffee per day, with sales split evenly between morning and afternoon, but none in the evening. There are 8 cafes. Restaurants, on the other hand, do not sell bread or coffee but sell meals. The average restaurant sells 180 meals per day, with sales divided into 20% in the morning, 60% in the afternoon, and 20% in the evening. ଯଦି (if) there are 12 restaurants and the town has a 10% tax on all sales, what is the ମୋଟ (total) daily tax revenue from all three types of shops?",
+    "original_steps": [
+        "Step 1: Calculate the total number of loaves of bread sold by all bakeries per day.",
+        "Step 2: Determine the total number of cups of coffee sold by all cafes per day.",
+        "Step 3: Calculate the total number of meals sold by all restaurants per day.",
+        "Step 4: Calculate the total daily sales from bakeries, cafes, and restaurants by adding the sales from each type of shop. Note that sales for bakeries and cafes need to be calculated based on their respective products (loaves of bread and cups of coffee), and for restaurants, it's based on meals. Assume the price of a loaf of bread is $2, a cup of coffee is $1.50, and a meal is $15.",
+        "Step 5: Apply the 10% tax rate to the total daily sales from all shops to find the total daily tax revenue."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of loaves of bread sold by all bakeries per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) number of cups of coffee sold by all cafes per day.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of meals sold by all restaurants per day.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) daily sales from bakeries, cafes, and restaurants by adding the sales from each type of shop. Note that sales for bakeries and cafes need to be calculated based on their respective products (loaves of bread and cups of coffee), and for restaurants, it's based on meals. Assume the price of a loaf of bread is $2, a cup of coffee is $1.50, and a meal is $15.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the 10% tax rate to the ମୋଟ (total) daily sales from all shops to find the ମୋଟ (total) daily tax revenue."
+    ],
+    "final_answer": "To calculate: Bakeries sell 5 * 250 = 1250 loaves of bread per day. Cafes sell 8 * 120 = 960 cups of coffee per day. Restaurants sell 12 * 180 = 2160 meals per day. Total sales = (1250 * $2) + (960 * $1.50) + (2160 * $15) = $2500 + $1440 + $32400 = $37340. Total tax = $37340 * 0.10 = $3734."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "116",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of bread loaves per day, with the total number of loaves sold by all bakeries being 240. The number of loaves sold by each bakery is directly proportional to the number of cafes in the town. If there are 5 cafes and the total number of shops (bakeries, cafes, and restaurants) is 25, and each restaurant sells an average of 50 meals per day with the total meals sold being 2000, then what is the total number of bakeries in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of bread loaves per day, with the ମୋଟ (total) number of loaves sold by all bakeries being 240. The number of loaves sold by each bakery is directly proportional to the number of cafes in the town. ଯଦି (if) there are 5 cafes and the ମୋଟ (total) number of shops (bakeries, cafes, and restaurants) is 25, and each restaurant sells an average of 50 meals per day with the ମୋଟ (total) meals sold being 2000, ତାହେଲେ (then) what is the ମୋଟ (total) number of bakeries in the town?",
+    "original_steps": [
+        "Step 1: Determine the total number of restaurants by dividing the total meals sold by the average meals sold per restaurant.",
+        "Step 2: Calculate the total number of bakeries and cafes by subtracting the number of restaurants from the total number of shops.",
+        "Step 3: Use the information about the total number of cafes to find the ratio of bakeries to cafes, knowing that the number of loaves sold by each bakery is directly proportional to the number of cafes.",
+        "Step 4: Set up an equation where the total number of loaves sold by all bakeries equals 240, and the number of loaves per bakery is proportional to the number of cafes.",
+        "Step 5: Solve for the number of bakeries using the information from the previous steps."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of restaurants by dividing the ମୋଟ (total) meals sold by the average meals sold per restaurant.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) number of bakeries and cafes by subtracting the number of restaurants from the ମୋଟ (total) number of shops.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information about the ମୋଟ (total) number of cafes to find the ratio of bakeries to cafes, knowing that the number of loaves sold by each bakery is directly proportional to the number of cafes.",
+        "ପଦକ୍ଷେପ (step) 4: Set up an ସମୀକରଣ (equation) where the ମୋଟ (total) number of loaves sold by all bakeries ସମାନ (equals) 240, and the number of loaves per bakery is proportional to the number of cafes.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for the number of bakeries using the information from the previous steps."
+    ],
+    "final_answer": "4"
+}

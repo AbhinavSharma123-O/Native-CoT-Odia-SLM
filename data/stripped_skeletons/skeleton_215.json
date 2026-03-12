@@ -1,0 +1,22 @@
+{
+    "id": "215",
+    "original_problem": "In a certain city, there are three types of buses: Red, Blue, and Green. The Red buses travel from the city center to the suburbs, covering a distance of 15 miles in 30 minutes. The Blue buses travel from the suburbs to the airport, covering a distance of 20 miles in 40 minutes. The Green buses travel from the city center to the airport, covering a distance of 30 miles in 60 minutes. However, due to traffic, the speed of all buses is reduced by 25% during rush hour. If a passenger takes the Red bus from the city center to the suburbs, then takes the Blue bus from the suburbs to the airport, and finally takes the Green bus from the airport back to the city center, what is the total time it takes for the passenger to complete the entire journey during rush hour, given that the Red bus leaves the city center every 20 minutes, the Blue bus leaves the suburbs every 30 minutes, and the Green bus leaves the airport every 45 minutes?",
+    "deconstructed_problem": "In a certain city, there are three types of buses: Red, Blue, and Green. The Red buses travel from the city center to the suburbs, covering a distance of 15 miles in 30 minutes. The Blue buses travel from the suburbs to the airport, covering a distance of 20 miles in 40 minutes. The Green buses travel from the city center to the airport, covering a distance of 30 miles in 60 minutes. However, due to traffic, the speed of all buses is reduced by 25% during rush hour. ଯଦି (if) a passenger takes the Red bus from the city center to the suburbs, ତାହେଲେ (then) takes the Blue bus from the suburbs to the airport, and finally takes the Green bus from the airport back to the city center, what is the ମୋଟ (total) time it takes for the passenger to complete the entire journey during rush hour, given that the Red bus leaves the city center every 20 minutes, the Blue bus leaves the suburbs every 30 minutes, and the Green bus leaves the airport every 45 minutes?",
+    "original_steps": [
+        "Step 1: Calculate the reduced speed of each bus during rush hour by multiplying their original speeds by 0.75.",
+        "Step 2: Determine the time it takes for the Red bus to travel from the city center to the suburbs during rush hour, using the reduced speed calculated in Step 1.",
+        "Step 3: Calculate the waiting time for the Blue bus at the suburbs, considering the schedule of the Red bus and the Blue bus.",
+        "Step 4: Determine the time it takes for the Blue bus to travel from the suburbs to the airport during rush hour, using the reduced speed calculated in Step 1, and add the waiting time calculated in Step 3.",
+        "Step 5: Calculate the waiting time for the Green bus at the airport, considering the combined schedule of the Red and Blue buses and the Green bus.",
+        "Step 6: Determine the time it takes for the Green bus to travel from the airport back to the city center during rush hour, using the reduced speed calculated in Step 1, and add the waiting time calculated in Step 5."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the reduced speed of each bus during rush hour by multiplying their original speeds by 0.75.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the time it takes for the Red bus to travel from the city center to the suburbs during rush hour, using the reduced speed calculated in ପଦକ୍ଷେପ (step) 1.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the waiting time for the Blue bus at the suburbs, considering the schedule of the Red bus and the Blue bus.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the time it takes for the Blue bus to travel from the suburbs to the airport during rush hour, using the reduced speed calculated in ପଦକ୍ଷେପ (step) 1, and ଯୋଗ (add) the waiting time calculated in ପଦକ୍ଷେପ (step) 3.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the waiting time for the Green bus at the airport, considering the combined schedule of the Red and Blue buses and the Green bus.",
+        "ପଦକ୍ଷେପ (step) 6: Determine the time it takes for the Green bus to travel from the airport back to the city center during rush hour, using the reduced speed calculated in ପଦକ୍ଷେପ (step) 1, and ଯୋଗ (add) the waiting time calculated in ପଦକ୍ଷେପ (step) 5."
+    ],
+    "final_answer": "235 minutes"
+}

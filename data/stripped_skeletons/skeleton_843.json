@@ -1,0 +1,20 @@
+{
+    "id": "843",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. The village has a total of 25 shops. The number of bakeries is 5 more than the number of cafes, and the number of restaurants is 10 less than the number of bakeries. If each bakery sells 250 loaves of bread per day, each cafe sells 150 cups of coffee per day, and each restaurant serves 300 meals per day, what is the total number of items sold per day in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. The village has a ମୋଟ (total) of 25 shops. The number of bakeries is 5 more than the number of cafes, and the number of restaurants is 10 less than the number of bakeries. ଯଦି (if) each bakery sells 250 loaves of bread per day, each cafe sells 150 cups of coffee per day, and each restaurant serves 300 meals per day, what is the ମୋଟ (total) number of items sold per day in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of shop. Let B be the number of bakeries, C be the number of cafes, and R be the number of restaurants.",
+        "Step 2: Set up equations based on the given information. We have B = C + 5 and R = B - 10. Also, B + C + R = 25.",
+        "Step 3: Substitute the expressions for B and R from the first two equations into the third equation to solve for C. This will allow us to find the values of B and R.",
+        "Step 4: Once we have the values of B, C, and R, calculate the total number of items sold per day by each type of shop. This means calculating 250B + 150C + 300R.",
+        "Step 5: Plug in the values of B, C, and R into the equation from step 4 to find the total number of items sold per day in the village."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of shop. Let B be the number of bakeries, C be the number of cafes, and R be the number of restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. We have B = C + 5 and R = B - 10. Also, B + C + R = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for B and R from the first two equations into the third ସମୀକରଣ (equation) to solve for C. This will allow us to find the values of B and R.",
+        "ପଦକ୍ଷେପ (step) 4: Once we have the values of B, C, and R, calculate the ମୋଟ (total) number of items sold per day by each type of shop. This means calculating 250B + 150C + 300R.",
+        "ପଦକ୍ଷେପ (step) 5: Plug in the values of B, C, and R into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 to find the ମୋଟ (total) number of items sold per day in the village."
+    ],
+    "final_answer": "12500"
+}

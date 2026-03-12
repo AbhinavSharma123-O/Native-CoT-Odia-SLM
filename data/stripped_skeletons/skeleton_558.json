@@ -1,0 +1,33 @@
+{
+    "id": "558",
+    "original_problem": "In a small village, there are three types of shops: grocery, clothing, and electronics. Each shop has a unique owner and sells a unique product. The grocery shop is owned by either Mr. Smith or Ms. Johnson and sells either apples or oranges. The clothing shop is owned by either Ms. Johnson or Mr. Thompson and sells either shirts or pants. The electronics shop is owned by either Mr. Thompson or Mr. Smith and sells either phones or laptops. Using the following clues: Mr. Smith does not sell electronics, Ms. Johnson sells clothing, Mr. Thompson sells phones, and the shop that sells oranges is owned by Mr. Smith, determine the type of product each shop sells and the owner of each shop.",
+    "deconstructed_problem": "In a small village, there are three types of shops: grocery, clothing, and electronics. Each shop has a unique owner and sells a unique product. The grocery shop is owned by either Mr. Smith or Ms. Johnson and sells either apples or oranges. The clothing shop is owned by either Ms. Johnson or Mr. Thompson and sells either shirts or pants. The electronics shop is owned by either Mr. Thompson or Mr. Smith and sells either phones or laptops. Using the following clues: Mr. Smith does not sell electronics, Ms. Johnson sells clothing, Mr. Thompson sells phones, and the shop that sells oranges is owned by Mr. Smith, determine the type of product each shop sells and the owner of each shop.",
+    "original_steps": [
+        "Step 1: Determine the owner of the grocery shop that sells oranges, which is given as Mr. Smith.",
+        "Step 2: Since Mr. Smith does not sell electronics, and he owns the grocery shop, the electronics shop must be owned by either Mr. Thompson or Ms. Johnson, but since Mr. Thompson sells phones, which are electronics, Mr. Thompson must own the electronics shop.",
+        "Step 3: Given that Ms. Johnson sells clothing, and Mr. Thompson sells phones, Ms. Johnson must own the clothing shop, leaving Mr. Smith to own the grocery shop.",
+        "Step 4: With Ms. Johnson owning the clothing shop and Mr. Thompson owning the electronics shop, we can determine the products sold by each shop. Since the grocery shop owned by Mr. Smith sells oranges, the clothing shop must sell either shirts or pants, and the electronics shop sells phones.",
+        "Step 5: To determine the last product, we use the clue that the grocery shop sells oranges and is owned by Mr. Smith. Given the constraints, the clothing shop must sell shirts because if it sold pants, and considering the other clues, we would not have enough information to uniquely determine all products and owners without this step."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the owner of the grocery shop that sells oranges, which is given as Mr. Smith.",
+        "ପଦକ୍ଷେପ (step) 2: Since Mr. Smith does not sell electronics, and he owns the grocery shop, the electronics shop must be owned by either Mr. Thompson or Ms. Johnson, but since Mr. Thompson sells phones, which are electronics, Mr. Thompson must own the electronics shop.",
+        "ପଦକ୍ଷେପ (step) 3: Given that Ms. Johnson sells clothing, and Mr. Thompson sells phones, Ms. Johnson must own the clothing shop, leaving Mr. Smith to own the grocery shop.",
+        "ପଦକ୍ଷେପ (step) 4: With Ms. Johnson owning the clothing shop and Mr. Thompson owning the electronics shop, we can determine the products sold by each shop. Since the grocery shop owned by Mr. Smith sells oranges, the clothing shop must sell either shirts or pants, and the electronics shop sells phones.",
+        "ପଦକ୍ଷେପ (step) 5: To determine the last product, we use the clue that the grocery shop sells oranges and is owned by Mr. Smith. Given the constraints, the clothing shop must sell shirts କାରଣ (because) ଯଦି (if) it sold pants, and considering the other clues, we would not have enough information to uniquely determine all products and owners without this ପଦକ୍ଷେପ (step)."
+    ],
+    "final_answer": {
+        "Grocery Shop": {
+            "Owner": "Mr. Smith",
+            "Product": "Oranges"
+        },
+        "Clothing Shop": {
+            "Owner": "Ms. Johnson",
+            "Product": "Shirts"
+        },
+        "Electronics Shop": {
+            "Owner": "Mr. Thompson",
+            "Product": "Phones"
+        }
+    }
+}

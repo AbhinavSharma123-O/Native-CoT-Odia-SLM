@@ -1,0 +1,12 @@
+{
+    "id": "444",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird starts at the top of the well and flies down 4 feet each day to feed the snail. However, if the bird reaches the snail, it stops flying down and starts flying back up 1 foot each day. If the bird and the snail meet on the 7th day, how many feet will the bird have flown in total, considering both downward and upward flights?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net progress of the snail per day, which is 3 feet up during the day and 2 feet back at night, resulting in a net gain of 1 foot per day.",
+        "Step 2: Determine the total progress of the snail over the first 6 days, since it meets the bird on the 7th day. The snail climbs 3 feet each day, so by the end of the 6th day, it would have climbed 6 * 3 = 18 feet, but due to slipping back 2 feet each night, its net progress would be 6 feet.",
+        "Step 3: Consider the bird's movement. Since the bird and snail meet on the 7th day, and knowing the snail's position after 6 days, we need to calculate how far the bird would have flown down by that point. Given the bird flies down 4 feet per day, over 6 days, it would have flown 6 * 4 = 24 feet down.",
+        "Step 4: On the 7th day, the snail climbs the remaining distance to the top, which is 20 - 6 = 14 feet (since it was 6 feet up after 6 days of net progress), but because it meets the bird, we only consider the bird's position. The bird, having flown 24 feet down over 6 days, would meet the snail on the way up for the snail. Since the snail is at 6 feet after 6 days and climbs 3 feet to reach 9 feet on the 7th day, and the bird flies down 4 feet, their meeting point must be considered with the snail's final climb.",
+        "Step 5: To find where the bird and snail meet, knowing the snail reaches 9 feet on the morning of the 7th day, and the bird has flown a total of 24 feet down, we must calculate the bird's position relative to the top when they meet. Since the bird flies down 4 feet per day and the snail climbs 3 feet on the 7th day, the meeting occurs when the bird has flown a portion of its daily 4 feet, considering the snail's climb to 9 feet."
+    ],
+    "final_answer": "30"
+}

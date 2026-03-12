@@ -1,0 +1,24 @@
+{
+    "id": "902",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. If the ratio of the number of bakeries to the number of cafes is 3:2, and the ratio of the number of restaurants to the number of bakeries is 5:3, what is the number of employees in each type of shop?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. ଯଦି (if) the ratio of the number of bakeries to the number of cafes is 3:2, and the ratio of the number of restaurants to the number of bakeries is 5:3, what is the number of employees in each type of shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in the bakeries, C be the number of employees in the cafes, and R be the number of employees in the restaurants.",
+        "Step 2: Express the relationships between the number of employees in each type of shop using the given information. We have B = C + 5 and R = B + 10.",
+        "Step 3: Use the given ratios to express the number of bakeries and restaurants in terms of the number of cafes. From the ratio of bakeries to cafes, we have B/C = 3/2, so B = (3/2)C. From the ratio of restaurants to bakeries, we have R/B = 5/3, so R = (5/3)B.",
+        "Step 4: Substitute the expressions for B and R from Step 3 into the equations from Step 2 to get a system of equations in terms of C. We have (3/2)C = C + 5 and (5/3)((3/2)C) = (3/2)C + 10.",
+        "Step 5: Solve the system of equations to find the values of B, C, and R. First, solve (3/2)C = C + 5 for C: (3/2)C - C = 5, (1/2)C = 5, C = 10. Then, find B = C + 5 = 10 + 5 = 15, and R = B + 10 = 15 + 10 = 25."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in the bakeries, C be the number of employees in the cafes, and R be the number of employees in the restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Express the relationships between the number of employees in each type of shop using the given information. We have B = C + 5 and R = B + 10.",
+        "ପଦକ୍ଷେପ (step) 3: Use the given ratios to express the number of bakeries and restaurants in terms of the number of cafes. From the ratio of bakeries to cafes, we have B/C = 3/2, so B = (3/2)C. From the ratio of restaurants to bakeries, we have R/B = 5/3, so R = (5/3)B.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for B and R from ପଦକ୍ଷେପ (step) 3 into the equations from ପଦକ୍ଷେପ (step) 2 to get a system of equations in terms of C. We have (3/2)C = C + 5 and (5/3)((3/2)C) = (3/2)C + 10.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the system of equations to find the values of B, C, and R. First, solve (3/2)C = C + 5 for C: (3/2)C - C = 5, (1/2)C = 5, C = 10. ତାହେଲେ (then), find B = C + 5 = 10 + 5 = 15, and R = B + 10 = 15 + 10 = 25."
+    ],
+    "final_answer": {
+        "Bakeries": 15,
+        "Cafes": 10,
+        "Restaurants": 25
+    }
+}

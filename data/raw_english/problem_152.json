@@ -1,0 +1,13 @@
+{
+    "id": "152",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town starts with Tank A filled to 30% of its capacity, Tank B filled to 25% of its capacity, and Tank C filled to 40% of its capacity. Every day, 150 liters of water are added to Tank A, 100 liters are added to Tank B, and 200 liters are added to Tank C. However, due to leakage, 50 liters of water are lost from Tank A, 30 liters from Tank B, and 60 liters from Tank C each day. How many days will it take for Tank C to be completely filled, given that water can be transferred from Tank A to Tank B at a rate of 20 liters per day but only when Tank A is more than 50% full and Tank B is less than 50% full, and that this transfer does not affect the leakage or addition of water to any tank?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. For Tank A: 1000 * 0.30 = 300 liters, for Tank B: 800 * 0.25 = 200 liters, and for Tank C: 1200 * 0.40 = 480 liters.",
+        "Step 2: Determine the net change in water volume for each tank per day. For Tank A: 150 (added) - 50 (leaked) = 100 liters per day, for Tank B: 100 (added) - 30 (leaked) = 70 liters per day, and for Tank C: 200 (added) - 60 (leaked) = 140 liters per day.",
+        "Step 3: Consider the transfer condition. Water can be transferred from Tank A to Tank B at 20 liters per day if Tank A is more than 50% full and Tank B is less than 50% full. This means Tank A needs to be above 500 liters, and Tank B needs to be below 400 liters for the transfer to occur.",
+        "Step 4: Calculate how long it takes for Tank A to reach 50% capacity (500 liters) from its initial 30% (300 liters), considering the daily net gain of 100 liters. It will take (500 - 300) / 100 = 2 days for Tank A to reach 50% capacity.",
+        "Step 5: Determine the impact of water transfer on the filling of Tank C. Since the transfer does not affect Tank C directly, we focus on when Tank C will be full. Tank C needs 1200 - 480 = 720 liters to be completely filled, with a daily net gain of 140 liters.",
+        "Step 6: Calculate the number of days required to fill Tank C completely, considering its initial water level and daily net gain. It will take 720 / 140 = 5.143 days, meaning it will take 6 days for Tank C to be completely filled because we cannot have a fraction of a day for this purpose."
+    ],
+    "final_answer": "6"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "592",
+    "original_problem": "In a small town, there are three types of stores: grocery stores, bakeries, and cafes. The town has a total of 25 stores. Each grocery store employs 5 people, each bakery employs 3 people, and each cafe employs 2 people. The total number of employees in the town is 105. Additionally, the number of bakeries is 5 more than the number of cafes, and the number of grocery stores is 2 less than the number of bakeries. What is the number of each type of store in the town?",
+    "deconstructed_problem": "In a small town, there are three types of stores: grocery stores, bakeries, and cafes. The town has a ମୋଟ (total) of 25 stores. Each grocery store employs 5 people, each bakery employs 3 people, and each cafe employs 2 people. The ମୋଟ (total) number of employees in the town is 105. Additionally, the number of bakeries is 5 more than the number of cafes, and the number of grocery stores is 2 less than the number of bakeries. What is the number of each type of store in the town?",
+    "original_steps": [
+        "Step 1: Define variables for the number of grocery stores (G), bakeries (B), and cafes (C), and establish the relationship between them based on the given information.",
+        "Step 2: Express the total number of stores using the variables: G + B + C = 25.",
+        "Step 3: Formulate the total number of employees using the variables: 5G + 3B + 2C = 105.",
+        "Step 4: Translate the given relationships between the types of stores into equations: B = C + 5 and G = B - 2.",
+        "Step 5: Substitute the relationships from Step 4 into the equations from Steps 2 and 3 to solve for the variables, starting with expressing G and B in terms of C and then solving the system of equations."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of grocery stores (G), bakeries (B), and cafes (C), and establish the relationship between them based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Express the ମୋଟ (total) number of stores using the variables: G + B + C = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Formulate the ମୋଟ (total) number of employees using the variables: 5G + 3B + 2C = 105.",
+        "ପଦକ୍ଷେପ (step) 4: Translate the given relationships between the types of stores into equations: B = C + 5 and G = B - 2.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the relationships from ପଦକ୍ଷେପ (step) 4 into the equations from Steps 2 and 3 to solve for the variables, starting with expressing G and B in terms of C and ତାହେଲେ (then) solving the system of equations."
+    ],
+    "final_answer": "G = 4, B = 9, C = 12"
+}

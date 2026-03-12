@@ -1,0 +1,12 @@
+{
+    "id": "766",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A to Tank C. Pipe 1 can transfer water at a rate of 20 liters per minute, Pipe 2 at 15 liters per minute, and Pipe 3 at 30 liters per minute. If Tank A is filled to its maximum capacity and Tank B and Tank C are empty, how many minutes will it take to fill Tank C to its maximum capacity, given that Pipe 1 and Pipe 2 are always operating, but Pipe 3 only operates when Tank B is more than half full?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial rate at which Tank B is filled by Pipe 1 from Tank A.",
+        "Step 2: Determine when Tank B will be more than half full to activate Pipe 3 and calculate the combined rate of Pipes 1 and 3 filling Tank B and the rate of Pipe 2 filling Tank C from Tank B.",
+        "Step 3: Calculate the rate at which Tank C is filled once Pipe 3 is activated, considering the flow from both Pipe 2 (from Tank B) and Pipe 3 (directly from Tank A).",
+        "Step 4: Determine the time it takes for Tank C to fill to its maximum capacity of 1200 liters with the combined flow from Pipes 2 and 3.",
+        "Step 5: Account for the time before Pipe 3 is activated and calculate the total time required."
+    ],
+    "final_answer": "120 minutes"
+}

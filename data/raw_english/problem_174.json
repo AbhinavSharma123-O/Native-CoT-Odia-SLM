@@ -1,0 +1,12 @@
+{
+    "id": "174",
+    "problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's total output, respectively. Each factory has a different production rate per hour. Factory A produces 250 units per hour, Factory B produces 200 units per hour, and Factory C produces 300 units per hour. If the total production of the town is 12,000 units per day and each factory operates for 8 hours a day, what is the total production of Factory C on a day when Factory A and Factory B are closed due to maintenance, and Factory C operates for 12 hours to meet the town's demand?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total production of each factory per day under normal operation conditions.",
+        "Step 2: Determine the town's total production per hour by dividing the daily production by the total hours all factories operate in a day.",
+        "Step 3: Calculate the production rate per hour needed from Factory C to meet the town's demand when Factory A and B are closed.",
+        "Step 4: Calculate the total production of Factory C when it operates for 12 hours to meet the town's demand.",
+        "Step 5: Adjust calculations based on the percentage of total output each factory normally produces to ensure Factory C's extended operation covers the town's needs."
+    ],
+    "final_answer": "3600"
+}

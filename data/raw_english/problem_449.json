@@ -1,0 +1,12 @@
+{
+    "id": "449",
+    "problem": "In the city of Azura, there are three types of temples: the Temple of the Sun, the Temple of the Moon, and the Temple of the Stars. Each temple has a unique ritual that requires a specific number of priests, and the total number of priests in all temples is 75. The Temple of the Sun requires 5 more priests than the Temple of the Moon, and the Temple of the Stars requires 10 fewer priests than the Temple of the Sun. If the Temple of the Moon has 15 priests, what is the total number of priests in the Temple of the Stars?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of priests in the Temple of the Sun by adding 5 to the number of priests in the Temple of the Moon.",
+        "Step 2: Calculate the number of priests in the Temple of the Stars by subtracting 10 from the number of priests in the Temple of the Sun.",
+        "Step 3: Find the total number of priests in the Temple of the Sun and the Temple of the Moon.",
+        "Step 4: Subtract the total number of priests in the Temple of the Sun and the Temple of the Moon from the overall total to verify the calculation.",
+        "Step 5: Confirm the calculation for the Temple of the Stars using the numbers obtained from previous steps."
+    ],
+    "final_answer": "20"
+}

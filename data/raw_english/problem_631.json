@@ -1,0 +1,12 @@
+{
+    "id": "631",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Shop A sells 20% more items than Shop B, and Shop C sells 15% more items than Shop A. If Shop B sells 1000 items per month and each item in Shop A costs $5, in Shop B costs $4, and in Shop C costs $6, what is the total revenue from all three shops in a month, given that Shop A has a 10% discount on all items and Shop C has a 5% discount on all items?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of items sold by Shop A, knowing it sells 20% more than Shop B, which sells 1000 items.",
+        "Step 2: Determine the number of items sold by Shop C, knowing it sells 15% more than Shop A.",
+        "Step 3: Calculate the revenue from Shop B by multiplying the number of items it sells by the price per item.",
+        "Step 4: Calculate the revenue from Shop A, taking into account the 10% discount on all items and the price per item.",
+        "Step 5: Calculate the revenue from Shop C, considering the 5% discount on all items and the price per item, then sum the revenues from all shops to find the total monthly revenue."
+    ],
+    "final_answer": "To calculate: Shop A sells 1.2 * 1000 = 1200 items. Shop C sells 1.15 * 1200 = 1380 items. Revenue from Shop B = 1000 * $4 = $4000. Revenue from Shop A = 1200 * $5 * 0.9 = $5400. Revenue from Shop C = 1380 * $6 * 0.95 = $7866. Total revenue = $4000 + $5400 + $7866 = $17266."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "539",
+    "problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a total of 25 businesses. Each restaurant has 5 employees, each shop has 3 employees, and each hotel has 8 employees. If the total number of employees in the town is 135, and there are 5 more shops than hotels, how many restaurants are in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of restaurants, shops, and hotels as r, s, and h respectively.",
+        "Step 2: Set up the equation based on the total number of businesses: r + s + h = 25.",
+        "Step 3: Set up the equation based on the total number of employees: 5r + 3s + 8h = 135.",
+        "Step 4: Use the information that there are 5 more shops than hotels to set up another equation: s = h + 5.",
+        "Step 5: Substitute the equation from step 4 into the equations from steps 2 and 3 to solve for r, s, and h."
+    ],
+    "final_answer": "5"
+}

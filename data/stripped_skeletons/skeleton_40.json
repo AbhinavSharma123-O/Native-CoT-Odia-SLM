@@ -1,0 +1,20 @@
+{
+    "id": "40",
+    "original_problem": "In the town of Ashwood, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings. The number of commercial buildings is 15 more than the number of industrial buildings. The number of residential buildings is 20 less than twice the number of commercial buildings. What is the number of industrial buildings in Ashwood?",
+    "deconstructed_problem": "In the town of Ashwood, there are three types of buildings: residential, commercial, and industrial. The town has a ମୋଟ (total) of 240 buildings. The number of commercial buildings is 15 more than the number of industrial buildings. The number of residential buildings is 20 less than twice the number of commercial buildings. What is the number of industrial buildings in Ashwood?",
+    "original_steps": [
+        "Step 1: Define the variables for each type of building: let R be the number of residential buildings, C be the number of commercial buildings, and I be the number of industrial buildings.",
+        "Step 2: Translate the given information into equations: C = I + 15 and R = 2C - 20.",
+        "Step 3: Use the fact that the total number of buildings is 240 to create an equation: R + C + I = 240.",
+        "Step 4: Substitute the expressions for R and C from the earlier steps into the total equation to solve for I: (2C - 20) + C + I = 240, knowing C = I + 15.",
+        "Step 5: Substitute C with I + 15 in the equation (2C - 20) + C + I = 240, yielding (2(I + 15) - 20) + (I + 15) + I = 240, and solve for I."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for each type of building: let R be the number of residential buildings, C be the number of commercial buildings, and I be the number of industrial buildings.",
+        "ପଦକ୍ଷେପ (step) 2: Translate the given information into equations: C = I + 15 and R = 2C - 20.",
+        "ପଦକ୍ଷେପ (step) 3: Use the fact that the ମୋଟ (total) number of buildings is 240 to create an ସମୀକରଣ (equation): R + C + I = 240.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for R and C from the earlier steps into the ମୋଟ (total) ସମୀକରଣ (equation) to solve for I: (2C - 20) + C + I = 240, knowing C = I + 15.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute C with I + 15 in the ସମୀକରଣ (equation) (2C - 20) + C + I = 240, yielding (2(I + 15) - 20) + (I + 15) + I = 240, and solve for I."
+    ],
+    "final_answer": "40"
+}

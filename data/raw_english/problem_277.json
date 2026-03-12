@@ -1,0 +1,12 @@
+{
+    "id": "277",
+    "problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with the number of commercial buildings being 20 more than the number of industrial buildings, and the number of residential buildings being twice the number of commercial buildings. If the total area covered by all buildings is 1200 acres, with each residential building covering 2 acres, each commercial building covering 5 acres, and each industrial building covering 3 acres, how many industrial buildings are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of building: let R be the number of residential buildings, C be the number of commercial buildings, and I be the number of industrial buildings.",
+        "Step 2: Set up the system of equations based on the given information: R + C + I = 240, C = I + 20, and R = 2C.",
+        "Step 3: Substitute the expression for C from the second equation into the third equation to get R in terms of I: R = 2(I + 20).",
+        "Step 4: Substitute the expressions for R and C into the first equation to solve for I: 2(I + 20) + (I + 20) + I = 240.",
+        "Step 5: Simplify and solve the equation for I: 2I + 40 + I + 20 + I = 240, which simplifies to 4I + 60 = 240, then 4I = 180, and finally I = 45."
+    ],
+    "final_answer": "45"
+}

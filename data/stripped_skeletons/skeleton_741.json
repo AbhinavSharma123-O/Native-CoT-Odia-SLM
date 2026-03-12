@@ -1,0 +1,46 @@
+{
+    "id": "741",
+    "original_problem": "In a small village, there are five houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clues: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the yellow house. The person who owns the red house does not live next to the person who drinks coffee. The American lives in the house next to the person who drinks soda. The person who drinks tea lives in the green house. The person who owns the green house lives in the house next to the person who drinks water.",
+    "deconstructed_problem": "In a small village, there are five houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clues: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the yellow house. The person who owns the red house does not live next to the person who drinks coffee. The American lives in the house next to the person who drinks soda. The person who drinks tea lives in the green house. The person who owns the green house lives in the house next to the person who drinks water.",
+    "original_steps": [
+        "Step 1: Determine the color of the first house by using the clue about the Canadian's house and the possible colors.",
+        "Step 2: Figure out the favorite drink of the Canadian by using the clues about the person who drinks milk and the yellow house.",
+        "Step 3: Deduce the color of the house next to the Canadian's house by using the clue about the person who drinks milk and the yellow house.",
+        "Step 4: Determine the nationality of the person in the house next to the Canadian by using the clues about the American, the person who drinks soda, and the red house.",
+        "Step 5: Use the clue about the person who drinks tea and the green house to figure out the color of the remaining houses and their occupants' nationalities and favorite drinks."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the color of the first house by using the clue about the Canadian's house and the possible colors.",
+        "ପଦକ୍ଷେପ (step) 2: Figure out the favorite drink of the Canadian by using the clues about the person who drinks milk and the yellow house.",
+        "ପଦକ୍ଷେପ (step) 3: Deduce the color of the house next to the Canadian's house by using the clue about the person who drinks milk and the yellow house.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the nationality of the person in the house next to the Canadian by using the clues about the American, the person who drinks soda, and the red house.",
+        "ପଦକ୍ଷେପ (step) 5: Use the clue about the person who drinks tea and the green house to figure out the color of the remaining houses and their occupants' nationalities and favorite drinks."
+    ],
+    "final_answer": {
+        "house1": {
+            "color": "yellow",
+            "nationality": "Canadian",
+            "drink": "milk"
+        },
+        "house2": {
+            "color": "blue",
+            "nationality": "American",
+            "drink": "soda"
+        },
+        "house3": {
+            "color": "red",
+            "nationality": "British",
+            "drink": "coffee"
+        },
+        "house4": {
+            "color": "green",
+            "nationality": "Indian",
+            "drink": "tea"
+        },
+        "house5": {
+            "color": "white",
+            "nationality": "Japanese",
+            "drink": "water"
+        }
+    }
+}

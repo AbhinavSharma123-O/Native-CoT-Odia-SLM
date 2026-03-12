@@ -1,0 +1,20 @@
+{
+    "id": "930",
+    "original_problem": "A water tank can be filled by three pipes, A, B, and C. Pipe A fills the tank at a rate of 2 cubic meters per hour, pipe B at 3 cubic meters per hour, and pipe C at 4 cubic meters per hour. However, due to a leak, 10% of the water filled by pipe A and 20% of the water filled by pipe B is lost. Pipe C does not leak. If the tank holds 240 cubic meters and it is currently empty, how many hours will it take to fill the tank using all three pipes, given that pipe A operates for the first 4 hours, then pipe B joins for the next 2 hours while pipe A continues, and finally, pipe C joins for the remaining time until the tank is full?",
+    "deconstructed_problem": "A water tank can be filled by three pipes, A, B, and C. Pipe A fills the tank at a rate of 2 cubic meters per hour, pipe B at 3 cubic meters per hour, and pipe C at 4 cubic meters per hour. However, due to a leak, 10% of the water filled by pipe A and 20% of the water filled by pipe B is lost. Pipe C does not leak. ଯଦି (if) the tank holds 240 cubic meters and it is currently empty, how many hours will it take to fill the tank using all three pipes, given that pipe A operates for the first 4 hours, ତାହେଲେ (then) pipe B joins for the next 2 hours while pipe A continues, and finally, pipe C joins for the remaining time until the tank is full?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water filled by pipe A in the first 4 hours, accounting for the leak.",
+        "Step 2: Determine the combined rate of pipes A and B during the next 2 hours, considering the leak from both pipes, and calculate the total water filled during this period.",
+        "Step 3: Calculate the remaining capacity of the tank after 6 hours of operation by pipes A and B.",
+        "Step 4: Find the combined rate of all three pipes (A, B, and C) without any leaks from pipe C, but accounting for the leaks from pipes A and B.",
+        "Step 5: Calculate the time required to fill the remaining capacity of the tank using the combined rate of all three pipes."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water filled by pipe A in the first 4 hours, accounting for the leak.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the combined rate of pipes A and B during the next 2 hours, considering the leak from both pipes, and calculate the ମୋଟ (total) water filled during this period.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the remaining capacity of the tank after 6 hours of operation by pipes A and B.",
+        "ପଦକ୍ଷେପ (step) 4: Find the combined rate of all three pipes (A, B, and C) without any leaks from pipe C, but accounting for the leaks from pipes A and B.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the time required to fill the remaining capacity of the tank using the combined rate of all three pipes."
+    ],
+    "final_answer": "8.57"
+}

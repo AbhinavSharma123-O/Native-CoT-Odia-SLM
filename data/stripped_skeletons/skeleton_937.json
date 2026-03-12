@@ -1,0 +1,20 @@
+{
+    "id": "937",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can fill 1,200 liters per hour, Tank B can fill 800 liters per hour, and Tank C can fill 400 liters per hour. The town's water usage is as follows: 30% of the water is used by homes, 25% is used by businesses, and the remaining 45% is used by farms. One day, Tank A operates for 4 hours, Tank B operates for 3 hours, and Tank C operates for 5 hours. If the total water used by homes is 10,500 liters, what percentage of the total water produced did the farms use?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can fill 1,200 liters per hour, Tank B can fill 800 liters per hour, and Tank C can fill 400 liters per hour. The town's water usage is as follows: 30% of the water is used by homes, 25% is used by businesses, and the remaining 45% is used by farms. One day, Tank A operates for 4 hours, Tank B operates for 3 hours, and Tank C operates for 5 hours. ଯଦି (if) the ମୋଟ (total) water used by homes is 10,500 liters, what percentage of the ମୋଟ (total) water produced did the farms use?",
+    "original_steps": [
+        "Step 1: Calculate the total amount of water produced by each tank by multiplying the rate at which each tank fills water by the number of hours it operates.",
+        "Step 2: Sum the total water produced by all tanks to find the overall water production.",
+        "Step 3: Determine the total amount of water used by homes, which is given as 10,500 liters, and calculate the percentage of total water used by homes to find the total water used.",
+        "Step 4: Calculate the total water used by businesses and homes combined, using the percentages given for homes and businesses.",
+        "Step 5: Subtract the total water used by homes and businesses from the total water produced to find the amount of water used by farms, then calculate the percentage of the total water produced that this represents."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) amount of water produced by each tank by multiplying the rate at which each tank fills water by the number of hours it operates.",
+        "ପଦକ୍ଷେପ (step) 2: ସମଷ୍ଟି (sum) the ମୋଟ (total) water produced by all tanks to find the overall water production.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the ମୋଟ (total) amount of water used by homes, which is given as 10,500 liters, and calculate the percentage of ମୋଟ (total) water used by homes to find the ମୋଟ (total) water used.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) water used by businesses and homes combined, using the percentages given for homes and businesses.",
+        "ପଦକ୍ଷେପ (step) 5: ବିୟୋଗ (subtract) the ମୋଟ (total) water used by homes and businesses from the ମୋଟ (total) water produced to find the amount of water used by farms, ତାହେଲେ (then) calculate the percentage of the ମୋଟ (total) water produced that this represents."
+    ],
+    "final_answer": "60%"
+}

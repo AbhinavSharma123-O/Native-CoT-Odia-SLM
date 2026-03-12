@@ -1,0 +1,12 @@
+{
+    "id": "756",
+    "problem": "In a small town, there are three water towers, A, B, and C, with capacities of 1000, 2000, and 3000 gallons respectively. The town's water supply system operates as follows: Tower A fills Tower B at a rate of 100 gallons per hour, Tower B fills Tower C at a rate of 150 gallons per hour, and Tower C supplies the town at a rate of 50 gallons per hour. Initially, Tower A is full, Tower B has 500 gallons, and Tower C is empty. How many hours will it take for Tower C to be completely filled, assuming that the filling and supply processes start simultaneously and that the town's supply from Tower C does not affect the filling rates between the towers?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net rate at which Tower B is being filled, taking into account both the filling from Tower A and the simultaneous filling of Tower C.",
+        "Step 2: Determine the time it takes for Tower B to fill up completely from its initial 500 gallons, considering the net filling rate calculated in Step 1.",
+        "Step 3: Calculate the amount of water transferred from Tower B to Tower C during the time Tower B is filling up, based on the rate of 150 gallons per hour.",
+        "Step 4: After Tower B is full, calculate the combined rate at which Towers A and B fill Tower C, since Tower A continues to fill Tower B, which in turn fills Tower C.",
+        "Step 5: Determine the additional time needed to fill Tower C completely after Tower B is full, using the combined filling rate from Step 4 and the amount of water already in Tower C from Step 3."
+    ],
+    "final_answer": "25 hours"
+}

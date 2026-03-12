@@ -1,0 +1,16 @@
+{
+    "id": "170",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system is designed such that Tank A is filled first, then Tank B, and finally Tank C. The system has three valves: Valve 1 connects the water source to Tank A, Valve 2 connects Tank A to Tank B, and Valve 3 connects Tank B to Tank C. Each valve can be either open or closed. If Valve 1 is open for 2 hours, 1200 liters of water flow into Tank A. If Valve 2 is then opened for 1.5 hours, 800 liters of water flow from Tank A into Tank B. Meanwhile, Valve 3 is open for 2 hours, allowing 1500 liters of water to flow from Tank B into Tank C. However, due to a leak, Tank A loses 200 liters of water per hour. Tank B loses 100 liters per hour, and Tank C loses 50 liters per hour. How many liters of water will be in each tank after 4 hours, given that all valves are initially closed, Valve 1 is opened at hour 0, Valve 2 is opened at hour 2, and Valve 3 is opened at hour 2?",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of water in Tank A after Valve 1 is opened for 2 hours, considering the leak.",
+        "Step 2: Determine the amount of water transferred from Tank A to Tank B when Valve 2 is opened for 1.5 hours, accounting for the continuous leak in Tank A.",
+        "Step 3: Calculate the amount of water in Tank B after receiving water from Tank A and before and after Valve 3 is opened, considering its leak.",
+        "Step 4: Find out how much water is transferred from Tank B to Tank C when Valve 3 is open for 2 hours, accounting for the leaks in both Tank B and Tank C.",
+        "Step 5: Calculate the final amount of water in each tank after 4 hours, considering all transfers and leaks."
+    ],
+    "final_answer": {
+        "Tank A": "0",
+        "Tank B": "1300",
+        "Tank C": "2800"
+    }
+}

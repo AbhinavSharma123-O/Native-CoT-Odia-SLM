@@ -1,0 +1,12 @@
+{
+    "id": "561",
+    "problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with 30% being residential, 40% commercial, and the rest industrial. If the average residential building has 8 apartments, the average commercial building has 12 offices, and the average industrial building has 20 workers, what is the total number of people (including residents, office workers, and industrial workers) in the town if each residential apartment is occupied by 3 people, each commercial office is occupied by 2 people, and each industrial worker requires 0.5 acres of land, with the town having a total of 500 acres of land available for these buildings and their occupants? Assume that each type of building requires the same amount of land per building.",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of residential, commercial, and industrial buildings by using the percentages given.",
+        "Step 2: Determine the total number of apartments, offices, and industrial workers based on the averages provided for each type of building.",
+        "Step 3: Calculate the total number of people residing in apartments, working in offices, and working in industrial buildings by using the occupancy rates.",
+        "Step 4: Calculate the total amount of land required for the industrial workers based on the 0.5 acres per worker requirement and compare it with the total land available to ensure the town can support the industrial activities.",
+        "Step 5: Add the total number of residents, office workers, and industrial workers to find the total population of the town."
+    ],
+    "final_answer": "2280"
+}

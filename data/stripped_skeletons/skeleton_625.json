@@ -1,0 +1,20 @@
+{
+    "id": "625",
+    "original_problem": "In a small town, there are three water towers - A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town has a total water storage capacity of 3000 liters. On a given day, Tower A starts filling at 8:00 AM, Tower B starts filling at 9:00 AM, and Tower C starts filling at 10:00 AM. If Tower A fills for 4 hours, Tower B fills for 3 hours, and Tower C fills for 2 hours, what percentage of the town's total water storage capacity is filled by the three towers?",
+    "deconstructed_problem": "In a small town, there are three water towers - A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town has a ମୋଟ (total) water storage capacity of 3000 liters. On a given day, Tower A starts filling at 8:00 AM, Tower B starts filling at 9:00 AM, and Tower C starts filling at 10:00 AM. ଯଦି (if) Tower A fills for 4 hours, Tower B fills for 3 hours, and Tower C fills for 2 hours, what percentage of the town's ମୋଟ (total) water storage capacity is filled by the three towers?",
+    "original_steps": [
+        "Step 1: Calculate the total volume of water filled by Tower A by multiplying its filling rate by the number of minutes it fills, which is 4 hours * 60 minutes/hour = 240 minutes.",
+        "Step 2: Calculate the total volume of water filled by Tower B by multiplying its filling rate by the number of minutes it fills, taking into account it starts 1 hour after Tower A, which is 3 hours * 60 minutes/hour = 180 minutes.",
+        "Step 3: Calculate the total volume of water filled by Tower C by multiplying its filling rate by the number of minutes it fills, taking into account it starts 2 hours after Tower A, which is 2 hours * 60 minutes/hour = 120 minutes.",
+        "Step 4: Add the volumes of water filled by each tower to find the total volume of water filled by all three towers.",
+        "Step 5: Calculate the percentage of the town's total water storage capacity that is filled by dividing the total volume of water filled by the total capacity and multiplying by 100."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) volume of water filled by Tower A by multiplying its filling rate by the number of minutes it fills, which is 4 hours * 60 minutes/hour = 240 minutes.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) volume of water filled by Tower B by multiplying its filling rate by the number of minutes it fills, taking into account it starts 1 hour after Tower A, which is 3 hours * 60 minutes/hour = 180 minutes.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) volume of water filled by Tower C by multiplying its filling rate by the number of minutes it fills, taking into account it starts 2 hours after Tower A, which is 2 hours * 60 minutes/hour = 120 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: ଯୋଗ (add) the volumes of water filled by each tower to find the ମୋଟ (total) volume of water filled by all three towers.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the percentage of the town's ମୋଟ (total) water storage capacity that is filled by dividing the ମୋଟ (total) volume of water filled by the ମୋଟ (total) capacity and multiplying by 100."
+    ],
+    "final_answer": "61.5%"
+}

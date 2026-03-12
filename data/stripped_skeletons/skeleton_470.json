@@ -1,0 +1,20 @@
+{
+    "id": "470",
+    "original_problem": "In a small town, there are three types of houses: A, B, and C. House A costs $120,000 and uses 100 units of water per month. House B costs $150,000 and uses 80 units of water per month. House C costs $180,000 and uses 120 units of water per month. The town has a budget of $1,500,000 to build houses and a water supply of 1,200 units per month. If the town wants to maximize the number of houses built while staying within its budget and water supply, how many houses of each type should it build, and what will be the total cost?",
+    "deconstructed_problem": "In a small town, there are three types of houses: A, B, and C. House A costs $120,000 and uses 100 units of water per month. House B costs $150,000 and uses 80 units of water per month. House C costs $180,000 and uses 120 units of water per month. The town has a budget of $1,500,000 to build houses and a water supply of 1,200 units per month. ଯଦି (if) the town wants to maximize the number of houses built while staying within its budget and water supply, how many houses of each type should it build, and what will be the ମୋଟ (total) cost?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of house to be built, let's say x for House A, y for House B, and z for House C.",
+        "Step 2: Set up the equations based on the given constraints: 120,000x + 150,000y + 180,000z = 1,500,000 for the budget, and 100x + 80y + 120z = 1,200 for the water supply.",
+        "Step 3: Since the goal is to maximize the total number of houses (x + y + z), we need to consider the constraints and possibly use a method like linear programming to find the optimal solution.",
+        "Step 4: To simplify the calculations, let's divide the budget equation by 60,000 to get: 2x + 2.5y + 3z = 25, and the water supply equation by 20 to get: 5x + 4y + 6z = 60.",
+        "Step 5: We then need to solve this system of linear equations, possibly using substitution or elimination methods, and considering the constraints that x, y, and z must be non-negative integers."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of house to be built, let's say x for House A, y for House B, and z for House C.",
+        "ପଦକ୍ଷେପ (step) 2: Set up the equations based on the given constraints: 120,000x + 150,000y + 180,000z = 1,500,000 for the budget, and 100x + 80y + 120z = 1,200 for the water supply.",
+        "ପଦକ୍ଷେପ (step) 3: Since the goal is to maximize the ମୋଟ (total) number of houses (x + y + z), we need to consider the constraints and possibly use a method like linear programming to find the optimal solution.",
+        "ପଦକ୍ଷେପ (step) 4: To simplify the calculations, let's ହରଣ (divide) the budget ସମୀକରଣ (equation) by 60,000 to get: 2x + 2.5y + 3z = 25, and the water supply ସମୀକରଣ (equation) by 20 to get: 5x + 4y + 6z = 60.",
+        "ପଦକ୍ଷେପ (step) 5: We ତାହେଲେ (then) need to solve this system of linear equations, possibly using substitution or elimination methods, and considering the constraints that x, y, and z must be non-negative integers."
+    ],
+    "final_answer": "To maximize the number of houses within the given constraints, the town should build 10 House A, 5 House B, and 0 House C, with a total cost of $1,500,000."
+}

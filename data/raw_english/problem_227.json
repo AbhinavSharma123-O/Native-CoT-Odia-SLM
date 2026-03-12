@@ -1,0 +1,12 @@
+{
+    "id": "227",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water, Tank B can hold 3000 liters of water, and Tank C can hold 4000 liters of water. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A to Tank C. Each pipe can transfer water at a rate of 100 liters per minute. If Tank A is initially filled with 1500 liters of water, Tank B is initially filled with 2000 liters of water, and Tank C is initially empty, how many minutes will it take to fill Tank C to its maximum capacity of 4000 liters, assuming that all pipes are opened simultaneously and that water can be transferred from one tank to another only if the source tank has enough water to transfer?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial total amount of water available in all tanks.",
+        "Step 2: Determine the rate at which each tank fills or empties, considering the transfer rates of all pipes and the initial water levels in each tank.",
+        "Step 3: Establish the sequence of events as water is transferred between tanks, focusing on when each tank reaches its capacity or empties, affecting the transfer rates.",
+        "Step 4: Calculate the time it takes for Tank C to fill up to its maximum capacity based on the net inflow of water into Tank C, taking into account the changing water levels in Tanks A and B.",
+        "Step 5: Consider the point at which Tank A empties and the subsequent change in water transfer dynamics, as this affects the rate at which Tank C is filled."
+    ],
+    "final_answer": "80 minutes"
+}

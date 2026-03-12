@@ -1,0 +1,12 @@
+{
+    "id": "704",
+    "problem": "In a small town, there are three types of factories: A, B, and C. Factory A produces 200 units of product X and 150 units of product Y per day. Factory B produces 300 units of product X and 250 units of product Y per day. Factory C produces 400 units of product X and 100 units of product Y per day. The town has a storage capacity of 3000 units for product X and 2000 units for product Y. If the town operates for 5 days and Factory A works for 3 days, Factory B works for 4 days, and Factory C works for 5 days, what is the total amount of product Y produced, given that the town's storage for product X is completely filled and any excess product X is converted into product Y at a rate of 2:1 (2 units of X to 1 unit of Y)?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of product X produced by each factory over the operating days.",
+        "Step 2: Determine the total storage capacity for product X and calculate how much excess product X is produced.",
+        "Step 3: Convert the excess product X into product Y based on the given conversion rate.",
+        "Step 4: Calculate the total amount of product Y produced directly by the factories.",
+        "Step 5: Add the amount of product Y produced directly to the amount of product Y produced from converting excess product X to find the total amount of product Y."
+    ],
+    "final_answer": "2750"
+}

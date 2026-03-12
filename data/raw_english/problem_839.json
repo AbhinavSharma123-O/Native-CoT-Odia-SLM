@@ -1,0 +1,12 @@
+{
+    "id": "839",
+    "problem": "In the town of Ashwood, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar to make a cake. Each cafe uses 1 unit of flour and 2 units of sugar to make a pastry. Each restaurant uses 3 units of flour and 1 unit of sugar to make a meal. The town has a total of 240 units of flour and 180 units of sugar available for the shops. If the town currently has 10 bakeries, 15 cafes, and 8 restaurants, and each shop operates at full capacity, how many more cafes can the town support with the remaining flour and sugar after all current shops have been supplied, assuming each shop makes one product per day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of flour and sugar used by the current bakeries, cafes, and restaurants. Bakeries use 2*10 + 1*10 = 30 units of flour and 1*10 = 10 units of sugar. Cafes use 1*15 + 2*15 = 45 units of flour and 2*15 = 30 units of sugar. Restaurants use 3*8 + 1*8 = 32 units of flour and 1*8 = 8 units of sugar.",
+        "Step 2: Determine the total amount of flour and sugar used by all current shops. Total flour used = 30 (bakeries) + 45 (cafes) + 32 (restaurants) = 107 units. Total sugar used = 10 (bakeries) + 30 (cafes) + 8 (restaurants) = 48 units.",
+        "Step 3: Calculate the remaining flour and sugar after all current shops have been supplied. Remaining flour = 240 (total) - 107 (used) = 133 units. Remaining sugar = 180 (total) - 48 (used) = 132 units.",
+        "Step 4: Determine the amount of flour and sugar each additional cafe would use. Each cafe uses 1 unit of flour and 2 units of sugar.",
+        "Step 5: Calculate how many additional cafes can be supported with the remaining flour and sugar. For flour, 133 units / 1 unit per cafe = 133 cafes (theoretically by flour alone). For sugar, 132 units / 2 units per cafe = 66 cafes (theoretically by sugar alone). The limiting factor is sugar, so the town can support up to 66 more cafes based on sugar availability, but this must be adjusted for the flour as well. Given that flour can support more cafes than sugar, the actual limit is set by the sugar."
+    ],
+    "final_answer": "66"
+}

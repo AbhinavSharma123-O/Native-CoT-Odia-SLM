@@ -1,0 +1,20 @@
+{
+    "id": "706",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, with each loaf costing $2.50. The village has 5 bakeries. There are also 3 cafes, each selling 150 cups of coffee per day at $1.75 per cup. Additionally, there are 2 restaurants, each serving 200 meals per day at $15 per meal. If the total daily revenue from all the bakeries, cafes, and restaurants is $13,837.50, and there's a 10% tax on all sales, how much does the village collect in taxes per day from these establishments?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, with each loaf costing $2.50. The village has 5 bakeries. There are also 3 cafes, each selling 150 cups of coffee per day at $1.75 per cup. Additionally, there are 2 restaurants, each serving 200 meals per day at $15 per meal. ଯଦି (if) the ମୋଟ (total) daily revenue from all the bakeries, cafes, and restaurants is $13,837.50, and there's a 10% tax on all sales, how much does the village collect in taxes per day from these establishments?",
+    "original_steps": [
+        "Step 1: Calculate the total daily revenue from all the bakeries by multiplying the number of bakeries by the number of loaves each sells per day and then by the cost per loaf.",
+        "Step 2: Calculate the total daily revenue from all the cafes by multiplying the number of cafes by the number of cups of coffee each sells per day and then by the cost per cup.",
+        "Step 3: Calculate the total daily revenue from all the restaurants by multiplying the number of restaurants by the number of meals each serves per day and then by the cost per meal.",
+        "Step 4: Sum the revenues from the bakeries, cafes, and restaurants to get the total revenue before tax, then apply the given total daily revenue to find any discrepancies or to confirm calculations.",
+        "Step 5: Apply the 10% tax rate to the total daily revenue to find out how much the village collects in taxes per day from these establishments."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) daily revenue from all the bakeries by multiplying the number of bakeries by the number of loaves each sells per day and ତାହେଲେ (then) by the cost per loaf.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) daily revenue from all the cafes by multiplying the number of cafes by the number of cups of coffee each sells per day and ତାହେଲେ (then) by the cost per cup.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) daily revenue from all the restaurants by multiplying the number of restaurants by the number of meals each serves per day and ତାହେଲେ (then) by the cost per meal.",
+        "ପଦକ୍ଷେପ (step) 4: ସମଷ୍ଟି (sum) the revenues from the bakeries, cafes, and restaurants to get the ମୋଟ (total) revenue before tax, ତାହେଲେ (then) apply the given ମୋଟ (total) daily revenue to find any discrepancies or to confirm calculations.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the 10% tax rate to the ମୋଟ (total) daily revenue to find out how much the village collects in taxes per day from these establishments."
+    ],
+    "final_answer": "1383.75"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "662",
+    "problem": "In a small town, there are three water towers - Tower A, Tower B, and Tower C. Each tower has a different capacity and is filled at a different rate. Tower A can hold 1200 gallons and is filled at a rate of 20 gallons per minute. Tower B can hold 900 gallons and is filled at a rate of 15 gallons per minute. Tower C can hold 1500 gallons and is filled at a rate of 30 gallons per minute. On a given day, all three towers start filling at the same time, but Tower A starts with 300 gallons already in it, Tower B starts with 200 gallons, and Tower C starts with 400 gallons. How many minutes will it take to fill all three towers, assuming they are filled simultaneously and the filling process stops once all towers are full?",
+    "reasoning_steps": [
+        "Step 1: Determine the remaining capacity for each tower by subtracting the initial amount of water from the total capacity.",
+        "Step 2: Calculate the time it would take to fill each tower individually by dividing the remaining capacity by the fill rate for each tower.",
+        "Step 3: Find the time it takes to fill the tower that takes the longest to fill, as this will be the time when all towers are full, considering they start filling at the same time.",
+        "Step 4: Since the towers are filled simultaneously, we need to consider the time it takes for the slowest tower to fill as the benchmark, but also ensure that the other towers do not overflow before this time.",
+        "Step 5: Calculate the time it takes for the slowest tower to fill, taking into account the initial water levels and the rate at which each tower is filled."
+    ],
+    "final_answer": "It will take 60 minutes to fill all three towers."
+}

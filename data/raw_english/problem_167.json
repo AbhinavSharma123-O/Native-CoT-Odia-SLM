@@ -1,0 +1,12 @@
+{
+    "id": "167",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each shop type has a different number of employees. Type A shops have 5 more employees than type B shops. Type C shops have 3 times the number of employees as type B shops. There are a total of 105 employees in all the shops combined. If the ratio of type A shops to type B shops is 3:5 and there are 8 type C shops, how many type B shops are there in total?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in type A shops as A, type B shops as B, and type C shops as C.",
+        "Step 2: Set up equations based on the given information. We know that A = B + 5, C = 3B, and A + B + C = 105. Also, the ratio of type A shops to type B shops is 3:5, which can be represented as A/B = 3/5.",
+        "Step 3: Use the ratio A/B = 3/5 to express A in terms of B. Rearranging the ratio equation gives A = (3/5)B.",
+        "Step 4: Substitute the expressions for A and C from steps 1 and 2 into the total employees equation. Substituting A = B + 5 and C = 3B into A + B + C = 105 gives (B + 5) + B + 3B = 105.",
+        "Step 5: Simplify and solve the equation from step 4 for B. Combining like terms gives 5B + 5 = 105. Subtracting 5 from both sides gives 5B = 100. Dividing both sides by 5 gives B = 20. However, we need to consider the ratio and the number of type C shops to find the total number of type B shops, taking into account that the ratio of A to B shops and the presence of C shops affects the total count of each type."
+    ],
+    "final_answer": "There are 20 type B shops in total, but considering the given ratio and the presence of type C shops, we need to adjust our understanding of 'total' to reflect the question's specific ask, which may involve calculating the number of type B shops based on the given ratio and total employees, including the influence of type C shops on the overall distribution."
+}

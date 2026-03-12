@@ -1,0 +1,20 @@
+{
+    "id": "371",
+    "original_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb?",
+    "deconstructed_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb?",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room to observe the bulbs. Identify which bulb is on (switch 2), which bulb is off but warm (switch 1), and which bulb is off and cold (switch 3).",
+        "Step 4: Determine the correct switch for the warm but off bulb (switch 1) and the cold but off bulb (switch 3).",
+        "Step 5: Conclude that the switch left is the one corresponding to the bulb that was never turned on during the process (switch 3)"
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "ପଦକ୍ଷେପ (step) 3: Immediately enter the room to observe the bulbs. Identify which bulb is on (switch 2), which bulb is off but warm (switch 1), and which bulb is off and cold (switch 3).",
+        "ପଦକ୍ଷେପ (step) 4: Determine the correct switch for the warm but off bulb (switch 1) and the cold but off bulb (switch 3).",
+        "ପଦକ୍ଷେପ (step) 5: Conclude that the switch left is the one corresponding to the bulb that was never turned on during the process (switch 3)"
+    ],
+    "final_answer": "Switch 1 controls the warm but off bulb, switch 2 controls the on bulb, and switch 3 controls the cold but off bulb."
+}

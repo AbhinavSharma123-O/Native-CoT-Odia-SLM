@@ -1,0 +1,20 @@
+{
+    "id": "983",
+    "original_problem": "In the town of Ravenswood, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will change its state (on to off, or off to on) every time one of the other two bulbs is turned on or off. You don't know which bulb is the special one.",
+    "deconstructed_problem": "In the town of Ravenswood, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will change its state (on to off, or off to on) every time one of the other two bulbs is turned on or off. You don't know which bulb is the special one.",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "Step 3: In the room, identify the bulb that is currently on (corresponding to switch 2), the bulb that is off but warm (corresponding to switch 1), and the remaining bulb (which could be the special bulb).",
+        "Step 4: Turn switch 2 to the 'off' position and turn switch 3 to the 'on' position. Then turn switch 2 back to the 'on' position. Observe the bulbs again to see if any have changed state unexpectedly, which would indicate the special bulb.",
+        "Step 5: Analyze the observations from step 3 and step 4 to determine which switch controls which bulb, taking into account the special bulb's behavior."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "ପଦକ୍ଷେପ (step) 3: In the room, identify the bulb that is currently on (corresponding to switch 2), the bulb that is off but warm (corresponding to switch 1), and the remaining bulb (which could be the special bulb).",
+        "ପଦକ୍ଷେପ (step) 4: Turn switch 2 to the 'off' position and turn switch 3 to the 'on' position. ତାହେଲେ (then) turn switch 2 back to the 'on' position. Observe the bulbs again to see ଯଦି (if) any have changed state unexpectedly, which would indicate the special bulb.",
+        "ପଦକ୍ଷେପ (step) 5: Analyze the observations from ପଦକ୍ଷେପ (step) 3 and ପଦକ୍ଷେପ (step) 4 to determine which switch controls which bulb, taking into account the special bulb's behavior."
+    ],
+    "final_answer": "Switch 1 corresponds to the warm bulb, switch 2 corresponds to the bulb that was on when you entered the room, and switch 3 corresponds to the remaining bulb. If the special bulb is identified, its behavior will confirm the correct assignments."
+}

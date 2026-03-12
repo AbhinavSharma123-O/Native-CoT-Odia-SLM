@@ -1,0 +1,12 @@
+{
+    "id": "762",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 200 units of flour per day, each cafe uses 50 units of flour per day, and each restaurant uses 100 units of flour per day. The town has a total of 25 shops. The total amount of flour used per day in the town is 3000 units. Additionally, the number of bakeries is 5 more than the number of cafes, and the number of restaurants is 5 less than the number of cafes. What is the number of each type of shop in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and establish the given relationships: B = C + 5 and R = C - 5.",
+        "Step 2: Express the total number of shops in terms of C: B + C + R = 25, which becomes (C + 5) + C + (C - 5) = 25, simplifying to 3C = 25.",
+        "Step 3: Solve for C, the number of cafes, from the equation 3C = 25, yielding C = 25 / 3, but since the number of shops must be a whole number, re-evaluate the equation to correctly solve for C, recognizing the mistake in simplification: the correct approach should involve solving the system of equations considering the flour usage and shop totals correctly.",
+        "Step 4: Correctly formulate the equation for the total flour usage: 200B + 50C + 100R = 3000, and substitute B and R with their expressions in terms of C: 200(C + 5) + 50C + 100(C - 5) = 3000.",
+        "Step 5: Simplify and solve the equation for C: 200C + 1000 + 50C + 100C - 500 = 3000, which simplifies further to 350C + 500 = 3000, then 350C = 2500, leading to C = 2500 / 350 = 20/7, but recognizing that C must be a whole number and re-evaluating the initial problem setup and equations for a logical and mathematical consistency."
+    ],
+    "final_answer": "There are 5 bakeries, 0 cafes, and 20 restaurants, since re-evaluation shows the initial setup was flawed in calculation: the correct approach should reconsider the total flour usage and shop relationships to find a logical and mathematically consistent solution, which means the initial step's simplification and the entire reasoning process need correction to fit the real problem constraints and logic."
+}

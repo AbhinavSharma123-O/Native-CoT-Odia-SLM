@@ -1,0 +1,12 @@
+{
+    "id": "503",
+    "problem": "In a small town, there are three types of vehicles: cars, buses, and trucks. The total number of vehicles in the town is 250. The number of cars is 30 more than the number of buses, and the number of trucks is 20 less than the number of buses. If 15% of the cars, 20% of the buses, and 25% of the trucks are blue, and a blue vehicle is randomly selected, what is the probability that it is a truck?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of cars, buses, and trucks, and establish the relationships between them based on the problem statement.",
+        "Step 2: Use the given information to set up a system of equations to find the exact number of cars, buses, and trucks in the town.",
+        "Step 3: Calculate the number of blue cars, buses, and trucks by applying the given percentages to the numbers found in Step 2.",
+        "Step 4: Determine the total number of blue vehicles by summing the results from Step 3.",
+        "Step 5: Calculate the probability of selecting a blue truck by dividing the number of blue trucks by the total number of blue vehicles found in Step 4."
+    ],
+    "final_answer": "0.235"
+}

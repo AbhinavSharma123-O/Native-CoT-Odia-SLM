@@ -1,0 +1,12 @@
+{
+    "id": "21",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A is filled for 2 hours, Tower B is filled for 1.5 hours, and Tower C is filled for 2.25 hours, and then 20% of the water from Tower A is transferred to Tower B, and 15% of the water from Tower C is transferred to Tower A, what is the total amount of water in liters in all three towers after the transfers, given that Tower A has a capacity of 1200 liters, Tower B has a capacity of 1000 liters, and Tower C has a capacity of 1500 liters?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water in each tower before any transfers by multiplying the fill rate by the time each tower is filled.",
+        "Step 2: Determine the actual amount of water in each tower after filling, considering their capacities.",
+        "Step 3: Calculate the amount of water transferred from Tower A to Tower B, and from Tower C to Tower A, based on the percentages given.",
+        "Step 4: Adjust the amounts of water in each tower after the transfers, ensuring that no tower exceeds its capacity.",
+        "Step 5: Sum the final amounts of water in all three towers to find the total amount of water."
+    ],
+    "final_answer": "2875"
+}

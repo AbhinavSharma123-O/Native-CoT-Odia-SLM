@@ -1,0 +1,20 @@
+{
+    "id": "263",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 1000 gallons, Tower B can hold 2000 gallons, and Tower C can hold 3000 gallons. The town's water usage is as follows: On Monday, the town uses 500 gallons from Tower A. On Tuesday, the town uses 1000 gallons from Tower B. On Wednesday, 200 gallons are transferred from Tower A to Tower B, and then the town uses 800 gallons from Tower C. On Thursday, the town uses 300 gallons from Tower A and 600 gallons from Tower B. If all towers were full at the beginning of the week, how much water is left in the towers at the end of the week?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 1000 gallons, Tower B can hold 2000 gallons, and Tower C can hold 3000 gallons. The town's water usage is as follows: On Monday, the town uses 500 gallons from Tower A. On Tuesday, the town uses 1000 gallons from Tower B. On Wednesday, 200 gallons are transferred from Tower A to Tower B, and ତାହେଲେ (then) the town uses 800 gallons from Tower C. On Thursday, the town uses 300 gallons from Tower A and 600 gallons from Tower B. ଯଦି (if) all towers were full at the beginning of the week, how much water is left in the towers at the end of the week?",
+    "original_steps": [
+        "Step 1: Determine the initial water level in each tower.",
+        "Step 2: Calculate the water usage for each day and update the water levels in the towers accordingly.",
+        "Step 3: Account for the transfer of water from Tower A to Tower B on Wednesday.",
+        "Step 4: Summarize the total water used from each tower by the end of the week.",
+        "Step 5: Calculate the remaining water in each tower after all usage and transfers."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the initial water level in each tower.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the water usage for each day and update the water levels in the towers accordingly.",
+        "ପଦକ୍ଷେପ (step) 3: Account for the transfer of water from Tower A to Tower B on Wednesday.",
+        "ପଦକ୍ଷେପ (step) 4: Summarize the ମୋଟ (total) water used from each tower by the end of the week.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the remaining water in each tower after all usage and transfers."
+    ],
+    "final_answer": "Tower A: 200 gallons, Tower B: 400 gallons, Tower C: 2200 gallons"
+}

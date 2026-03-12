@@ -1,0 +1,16 @@
+{
+    "id": "604",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system is such that Tank A is filled first, then Tank B, and finally Tank C. On a particular day, due to a malfunction, the system starts filling the tanks in the reverse order, starting with Tank C, then Tank B, and finally Tank A. If the water supply rate is 50 liters per minute and the system operates for 30 minutes before the malfunction is noticed and corrected, how much water will be in each tank after the correction, assuming the filling process resumes normally after the correction and all tanks are initially empty?",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of water filled in Tank C during the first 30 minutes of the malfunction.",
+        "Step 2: Calculate the remaining amount of water that can still be filled in Tank C after the correction, and then determine how much water will be filled in Tank B and Tank A during the initial 30 minutes of malfunction.",
+        "Step 3: Determine the amount of time it takes to fill Tank A and Tank B after the correction, considering the water already filled during the malfunction.",
+        "Step 4: Calculate the amount of water in each tank after the filling process resumes normally and all tanks are filled to their capacities.",
+        "Step 5: Consider the total capacity of each tank and the total time the system operates to find the exact amount of water in each tank after the correction."
+    ],
+    "final_answer": {
+        "Tank A": "1000 liters",
+        "Tank B": "800 liters",
+        "Tank C": "1200 liters"
+    }
+}

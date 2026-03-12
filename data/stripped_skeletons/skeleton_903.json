@@ -1,0 +1,22 @@
+{
+    "id": "903",
+    "original_problem": "In a small town, there are three types of businesses: restaurants, cafes, and shops. The town has a total of 25 businesses. The number of restaurants is 5 more than the number of cafes, and the number of shops is 3 less than the number of cafes. If 1/5 of the restaurants, 1/4 of the cafes, and 1/3 of the shops are open on Sundays, and a total of 8 businesses are open on Sundays, how many cafes are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of businesses: restaurants, cafes, and shops. The town has a ମୋଟ (total) of 25 businesses. The number of restaurants is 5 more than the number of cafes, and the number of shops is 3 less than the number of cafes. ଯଦି (if) 1/5 of the restaurants, 1/4 of the cafes, and 1/3 of the shops are open on Sundays, and a ମୋଟ (total) of 8 businesses are open on Sundays, how many cafes are there in the town?",
+    "original_steps": [
+        "Step 1: Define variables for the number of restaurants, cafes, and shops. Let R be the number of restaurants, C be the number of cafes, and S be the number of shops.",
+        "Step 2: Translate given information into equations. Since the number of restaurants is 5 more than the number of cafes, R = C + 5. The number of shops is 3 less than the number of cafes, so S = C - 3. Also, R + C + S = 25.",
+        "Step 3: Substitute R and S in terms of C into the total equation to find C. Substituting R = C + 5 and S = C - 3 into R + C + S = 25 gives (C + 5) + C + (C - 3) = 25.",
+        "Step 4: Solve the equation from Step 3 to find the value of C. Simplifying (C + 5) + C + (C - 3) = 25 gives 3C + 2 = 25, which simplifies further to 3C = 23, and thus C = 23 / 3.",
+        "Step 5: Calculate the number of businesses of each type that are open on Sundays. The number of restaurants open is 1/5 * R, cafes open is 1/4 * C, and shops open is 1/3 * S. Knowing R, C, and S, we can calculate each and ensure it aligns with the given total of 8 open businesses on Sundays to verify our calculations.",
+        "Step 6: Solve for C using the information about open businesses on Sundays if necessary. Given that we have an equation for the total number of open businesses (1/5 * R + 1/4 * C + 1/3 * S = 8), substitute R and S in terms of C and solve for C if the previous steps do not directly lead to a clear, whole number solution for C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of restaurants, cafes, and shops. Let R be the number of restaurants, C be the number of cafes, and S be the number of shops.",
+        "ପଦକ୍ଷେପ (step) 2: Translate given information into equations. Since the number of restaurants is 5 more than the number of cafes, R = C + 5. The number of shops is 3 less than the number of cafes, so S = C - 3. Also, R + C + S = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute R and S in terms of C into the ମୋଟ (total) ସମୀକରଣ (equation) to find C. Substituting R = C + 5 and S = C - 3 into R + C + S = 25 gives (C + 5) + C + (C - 3) = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to find the value of C. Simplifying (C + 5) + C + (C - 3) = 25 gives 3C + 2 = 25, which simplifies further to 3C = 23, and thus C = 23 / 3.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of businesses of each type that are open on Sundays. The number of restaurants open is 1/5 * R, cafes open is 1/4 * C, and shops open is 1/3 * S. Knowing R, C, and S, we can calculate each and ensure it aligns with the given ମୋଟ (total) of 8 open businesses on Sundays to verify our calculations.",
+        "ପଦକ୍ଷେପ (step) 6: Solve for C using the information about open businesses on Sundays ଯଦି (if) necessary. Given that we have an ସମୀକରଣ (equation) for the ମୋଟ (total) number of open businesses (1/5 * R + 1/4 * C + 1/3 * S = 8), substitute R and S in terms of C and solve for C ଯଦି (if) the previous steps do not directly lead to a clear, whole number solution for C."
+    ],
+    "final_answer": "7"
+}

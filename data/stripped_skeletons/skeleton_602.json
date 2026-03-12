@@ -1,0 +1,20 @@
+{
+    "id": "602",
+    "original_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it stops slipping back. However, on the day it reaches 18 feet, a bird eats it and it has to start over from 15 feet the next day. If the well has a small ledge at 5 feet that the snail can rest on safely, so it doesn't slip back from this height, how many days will it take for the snail to reach the top of the well?",
+    "deconstructed_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it stops slipping back. However, on the day it reaches 18 feet, a bird eats it and it has to start over from 15 feet the next day. ଯଦି (if) the well has a small ledge at 5 feet that the snail can rest on safely, so it doesn't slip back from this height, how many days will it take for the snail to reach the top of the well?",
+    "original_steps": [
+        "Step 1: Determine the daily net progress of the snail when it is below 18 feet and not on the ledge.",
+        "Step 2: Calculate how many days it takes for the snail to reach 18 feet for the first time, considering the effect of the ledge at 5 feet.",
+        "Step 3: Account for the setback when the bird eats the snail and it has to start over from 15 feet.",
+        "Step 4: Determine the number of days required for the snail to climb from 15 feet back up to 18 feet, and then to the top of the well.",
+        "Step 5: Sum all the days from the previous steps to find the total number of days it takes for the snail to reach the top of the well."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the daily net progress of the snail when it is below 18 feet and not on the ledge.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate how many days it takes for the snail to reach 18 feet for the first time, considering the effect of the ledge at 5 feet.",
+        "ପଦକ୍ଷେପ (step) 3: Account for the setback when the bird eats the snail and it has to start over from 15 feet.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the number of days required for the snail to climb from 15 feet back up to 18 feet, and ତାହେଲେ (then) to the top of the well.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) all the days from the previous steps to find the ମୋଟ (total) number of days it takes for the snail to reach the top of the well."
+    ],
+    "final_answer": "17 days"
+}

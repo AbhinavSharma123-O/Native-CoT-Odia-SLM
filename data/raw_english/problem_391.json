@@ -1,0 +1,12 @@
+{
+    "id": "391",
+    "problem": "In a small town, there are three factories: A, B, and C, each producing a different product. Factory A produces 250 units of product X per day, while factory B produces 300 units of product Y per day. Factory C produces a combination of products X and Y. The town has a total of 600 units of product X and 450 units of product Y in storage. After a day of production, the total amount of product X increases by 15% and the total amount of product Y increases by 10%. If factory C produces 2/3 of its total production as product X and the rest as product Y, and the town now has a total of 720 units of product X and 550 units of product Y, how many units of product does factory C produce per day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial total production of product X and Y before the day's production, which is 600 units of X and 450 units of Y.",
+        "Step 2: Determine the amount of product X and Y produced by all factories after a day, which results in 720 units of X and 550 units of Y. This means there was an increase of 120 units of X and 100 units of Y.",
+        "Step 3: Calculate the increase in product X and Y due to the percentage increase, which is 15% of 600 for X and 10% of 450 for Y, resulting in 90 units of X and 45 units of Y.",
+        "Step 4: Find out how much of the increase is due to the factories' production, specifically for product X: 120 units (total increase) - 90 units (percentage increase) = 30 units from factories A and C, and for product Y: 100 units (total increase) - 45 units (percentage increase) = 55 units from factories B and C.",
+        "Step 5: Knowing factory A produces 250 units of X and factory B produces 300 units of Y, and that factory C produces 2/3 of its production as X and 1/3 as Y, calculate the production of factory C."
+    ],
+    "final_answer": "150"
+}

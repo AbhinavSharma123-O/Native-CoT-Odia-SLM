@@ -1,0 +1,38 @@
+{
+    "id": "807",
+    "problem": "In a mystical forest, there are five houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the green house. Clue 6: The person who owns the green house lives in the house next to the person who drinks water.",
+    "reasoning_steps": [
+        "Step 1: Determine the color of the first house by using Clue 1, which states the Canadian lives in the first house.",
+        "Step 2: Apply Clue 2 to find the color of the house next to the person who drinks milk and determine the color of the yellow house.",
+        "Step 3: Utilize Clue 3 to figure out the possible positions of the red house in relation to the person who drinks coffee.",
+        "Step 4: Use Clue 4 to establish the position of the American and the person who drinks soda in relation to each other.",
+        "Step 5: Apply Clue 5 and Clue 6 to determine the color of the house of the person who drinks tea and the person who drinks water, and their respective positions."
+    ],
+    "final_answer": {
+        "house1": {
+            "color": "yellow",
+            "nationality": "Canadian",
+            "drink": "milk"
+        },
+        "house2": {
+            "color": "blue",
+            "nationality": "American",
+            "drink": "coffee"
+        },
+        "house3": {
+            "color": "red",
+            "nationality": "British",
+            "drink": "soda"
+        },
+        "house4": {
+            "color": "green",
+            "nationality": "Indian",
+            "drink": "tea"
+        },
+        "house5": {
+            "color": "white",
+            "nationality": "Japanese",
+            "drink": "water"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "14",
+    "original_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird is observing from above and notices that the well has 5 ledges, each 4 feet apart, where the snail can rest. If the bird drops a seed on the first ledge, which is 4 feet from the top, and the seed takes 2 seconds to fall from the ledge to the ground, how many seconds will it take for the seed to reach the ground if the bird drops it when the snail is exactly halfway up the well, and the snail started climbing at the same time the seed was dropped?",
+    "deconstructed_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird is observing from above and notices that the well has 5 ledges, each 4 feet apart, where the snail can rest. ଯଦି (if) the bird drops a seed on the first ledge, which is 4 feet from the top, and the seed takes 2 seconds to fall from the ledge to the ground, how many seconds will it take for the seed to reach the ground ଯଦି (if) the bird drops it when the snail is exactly halfway up the well, and the snail started climbing at the same time the seed was dropped?",
+    "original_steps": [
+        "Step 1: Determine the total distance the snail needs to climb to reach the top of the well.",
+        "Step 2: Calculate how many days it takes for the snail to climb halfway up the well.",
+        "Step 3: Find out which ledge the snail will be on when it is halfway up the well.",
+        "Step 4: Calculate the distance from the ledge where the seed is dropped to the ground.",
+        "Step 5: Apply the formula for free fall to calculate the time it takes for the seed to reach the ground from the specified ledge."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) distance the snail needs to climb to reach the top of the well.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate how many days it takes for the snail to climb halfway up the well.",
+        "ପଦକ୍ଷେପ (step) 3: Find out which ledge the snail will be on when it is halfway up the well.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the distance from the ledge where the seed is dropped to the ground.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the formula for free fall to calculate the time it takes for the seed to reach the ground from the specified ledge."
+    ],
+    "final_answer": "2"
+}

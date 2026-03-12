@@ -1,0 +1,14 @@
+{
+    "id": "656",
+    "problem": "In a mystical forest, there are five temples dedicated to different gods, each with a distinct color: blue, green, red, white, and yellow. The temples are arranged in a row, and each has a specific drink associated with it: coffee, tea, milk, soda, and water. The gods also have a preference for a particular type of music: classical, folk, jazz, pop, and rock. Using the following clues, determine the order of the temples, their associated drinks, and the type of music each god prefers. Clue 1: The green temple is to the immediate left of the temple that serves coffee. Clue 2: The temple that serves milk is next to the one that plays jazz music. Clue 3: The red temple serves soda and is at one of the ends. Clue 4: The temple that plays classical music is to the immediate right of the yellow temple. Clue 5: The blue temple serves tea and is next to the temple that plays folk music. Clue 6: The white temple does not serve water, and the temple that serves water is at the other end from the red temple. Clue 7: The temple that plays pop music serves a drink that is often consumed in the morning.",
+    "reasoning_steps": [
+        "Step 1: Determine the position of the red temple and the drink it serves based on Clue 3.",
+        "Step 2: Use Clue 6 to determine the position of the temple that serves water and the color of the white temple.",
+        "Step 3: Apply Clue 1 to find the position of the green temple and the drink served by its neighboring temple.",
+        "Step 4: With Clue 4, establish the position of the yellow temple and the type of music played to its right.",
+        "Step 5: Utilize Clue 2 to determine the drink served by the temple that plays jazz music and its relation to the temple serving milk.",
+        "Step 6: Apply Clue 5 to determine the positions of the blue temple and the temple playing folk music.",
+        "Step 7: Use Clue 7 to identify the drink associated with the temple playing pop music and finalize the arrangement of temples, drinks, and music types."
+    ],
+    "final_answer": "The order from left to right is: Yellow (water, classical), Blue (tea, folk), Green (milk, jazz), White (soda is at an end, so White must serve coffee, and its music type is pop), Red (soda, rock)."
+}

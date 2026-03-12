@@ -1,0 +1,12 @@
+{
+    "id": "171",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system has three pipes: Pipe 1 fills Tank A at a rate of 200 gallons per hour, Pipe 2 fills Tank B at a rate of 150 gallons per hour, and Pipe 3 fills Tank C at a rate of 300 gallons per hour. However, due to some technical issues, Pipe 1 can only be used for 4 hours a day, Pipe 2 can be used for 6 hours a day, and Pipe 3 can be used for 5 hours a day. Additionally, the town's water usage is as follows: the town uses 100 gallons of water from Tank A every hour for 8 hours a day, 50 gallons of water from Tank B every hour for 6 hours a day, and 200 gallons of water from Tank C every hour for 4 hours a day. If all three tanks are currently empty and all pipes are functioning properly, how many days will it take to fill all three tanks, considering the town's water usage?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total gallons of water each pipe can fill per day, considering their usage limitations.",
+        "Step 2: Determine the net amount of water added to each tank per day by subtracting the town's water usage from the amount filled by the pipes.",
+        "Step 3: Calculate the number of days it would take to fill each tank individually based on the net amount of water added per day.",
+        "Step 4: Since the tanks are filled simultaneously, identify the tank that takes the longest to fill, which determines the minimum number of days required to fill all tanks.",
+        "Step 5: Verify if the town's water usage affects the filling time by comparing the total water used from each tank with the amount filled by the pipes."
+    ],
+    "final_answer": "9 days"
+}

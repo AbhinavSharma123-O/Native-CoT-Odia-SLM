@@ -1,0 +1,13 @@
+{
+    "id": "395",
+    "problem": "In a small town, there are 5 bakeries that sell a total of 250 loaves of bread per day. Each bakery has a different pricing strategy: Bakery A charges $2 per loaf, Bakery B charges $1.50 per loaf, Bakery C charges $2.50 per loaf, Bakery D charges $2.25 per loaf, and Bakery E charges $1.75 per loaf. The total revenue from all the bakeries is $475 per day. If Bakery A sells 20 more loaves than Bakery B, and Bakery C sells 15 fewer loaves than Bakery D, and the total number of loaves sold by Bakery A and Bakery E together is 100, determine the number of loaves sold by each bakery.",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of loaves sold by each bakery: let A, B, C, D, and E represent the number of loaves sold by each bakery.",
+        "Step 2: Set up the equation based on the given information that the total number of loaves sold is 250: A + B + C + D + E = 250.",
+        "Step 3: Use the given information that Bakery A sells 20 more loaves than Bakery B to create the equation: A = B + 20.",
+        "Step 4: Use the given information that Bakery C sells 15 fewer loaves than Bakery D to create the equation: C = D - 15.",
+        "Step 5: Set up the equation based on the total revenue: 2A + 1.5B + 2.5C + 2.25D + 1.75E = 475.",
+        "Step 6: Substitute the equations from steps 3 and 4 into the equation from step 2 and the revenue equation from step 5 to solve for the number of loaves sold by each bakery, considering the additional constraint that A + E = 100."
+    ],
+    "final_answer": "Bakery A: 60 loaves, Bakery B: 40 loaves, Bakery C: 35 loaves, Bakery D: 50 loaves, Bakery E: 40 loaves"
+}

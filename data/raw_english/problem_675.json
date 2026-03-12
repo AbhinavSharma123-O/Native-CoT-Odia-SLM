@@ -1,0 +1,12 @@
+{
+    "id": "675",
+    "problem": "In a small town, there are three water towers: A, B, and C. Each tower has a different capacity: A can hold 2000 gallons, B can hold 3000 gallons, and C can hold 4000 gallons. The town's water usage is as follows: on Monday, 1000 gallons are used; on Tuesday, 1500 gallons are used; and on Wednesday, 2000 gallons are used. Additionally, due to a leak, tower A loses 10% of its water every day, tower B loses 5%, and tower C loses 15%. If all towers are filled to capacity at the start of Monday and the town's water usage is fulfilled by the towers in the order of A, then B, then C, how many gallons of water will be left in the towers by the end of Wednesday?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total water usage for the three days (Monday, Tuesday, Wednesday).",
+        "Step 2: Determine the daily water loss for each tower due to leaks, considering the percentage of water lost per day.",
+        "Step 3: Calculate the remaining water in each tower after each day, taking into account both the town's water usage and the leak losses, and ensuring that the water usage is fulfilled in the order of tower A, then B, then C.",
+        "Step 4: For each day, apply the water usage and leak losses sequentially to towers A, B, and C, making sure to account for the order in which the towers supply water to the town.",
+        "Step 5: Summarize the remaining water in all towers by the end of Wednesday, after all water usage and leak losses have been accounted for."
+    ],
+    "final_answer": "1050"
+}

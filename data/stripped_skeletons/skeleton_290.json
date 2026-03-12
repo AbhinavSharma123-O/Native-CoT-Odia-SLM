@@ -1,0 +1,20 @@
+{
+    "id": "290",
+    "original_problem": "There are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will only turn on if the switch is flipped an even number of times, while the other two bulbs will turn on if their switch is flipped an odd number of times. After figuring out the correct mapping of switches to bulbs, determine the minimum number of switch flips required to turn on all three bulbs.",
+    "deconstructed_problem": "There are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will only turn on ଯଦି (if) the switch is flipped an even number of times, while the other two bulbs will turn on ଯଦି (if) their switch is flipped an odd number of times. After figuring out the correct mapping of switches to bulbs, determine the minimum number of switch flips required to turn on all three bulbs.",
+    "original_steps": [
+        "Step 1: Understand the initial conditions and the constraints of the problem, including the special bulb that only turns on with an even number of flips.",
+        "Step 2: Develop a strategy to identify the special bulb by flipping switches in a pattern that allows for the identification of the special bulb based on its unique behavior.",
+        "Step 3: Once the special bulb is identified, use a process of elimination and additional flips to determine which of the remaining switches corresponds to which of the remaining bulbs.",
+        "Step 4: With the correct mapping of switches to bulbs established, calculate the minimum number of flips required to turn on all three bulbs, taking into account the special bulb's requirement for an even number of flips.",
+        "Step 5: Apply the principles of combinatorial logic and optimization to minimize the total number of switch flips while ensuring all conditions are met."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Understand the initial conditions and the constraints of the problem, including the special bulb that only turns on with an even number of flips.",
+        "ପଦକ୍ଷେପ (step) 2: Develop a strategy to identify the special bulb by flipping switches in a pattern that allows for the identification of the special bulb based on its unique behavior.",
+        "ପଦକ୍ଷେପ (step) 3: Once the special bulb is identified, use a process of elimination and additional flips to determine which of the remaining switches corresponds to which of the remaining bulbs.",
+        "ପଦକ୍ଷେପ (step) 4: With the correct mapping of switches to bulbs established, calculate the minimum number of flips required to turn on all three bulbs, taking into account the special bulb's requirement for an even number of flips.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the principles of combinatorial logic and optimization to minimize the ମୋଟ (total) number of switch flips while ensuring all conditions are met."
+    ],
+    "final_answer": "6"
+}

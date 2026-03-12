@@ -1,0 +1,20 @@
+{
+    "id": "954",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can fill 1000 liters in 5 hours, Tank B can fill 800 liters in 4 hours, and Tank C can fill 1200 liters in 6 hours. If Tank A is filled first, then 1/4 of its water is transferred to Tank B. Next, 3/8 of the remaining water in Tank A is transferred to Tank C. After these transfers, Tank B is filled to its capacity, and then 2/5 of its water is transferred to Tank C. Finally, the remaining water in Tank C is used to fill a small pool that can hold 1800 liters. What percentage of the pool's capacity is filled, rounded to the nearest whole number?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can fill 1000 liters in 5 hours, Tank B can fill 800 liters in 4 hours, and Tank C can fill 1200 liters in 6 hours. ଯଦି (if) Tank A is filled first, ତାହେଲେ (then) 1/4 of its water is transferred to Tank B. Next, 3/8 of the remaining water in Tank A is transferred to Tank C. After these transfers, Tank B is filled to its capacity, and ତାହେଲେ (then) 2/5 of its water is transferred to Tank C. Finally, the remaining water in Tank C is used to fill a small pool that can hold 1800 liters. What percentage of the pool's capacity is filled, rounded to the nearest whole number?",
+    "original_steps": [
+        "Step 1: Calculate the rate at which each tank fills per hour.",
+        "Step 2: Determine the amount of water in Tank A after it is filled and calculate the amount transferred to Tank B.",
+        "Step 3: Calculate the amount of water remaining in Tank A after the transfer to Tank B, then calculate the amount transferred to Tank C.",
+        "Step 4: Determine the amount of water in Tank B after it is filled to capacity and calculate the amount transferred to Tank C.",
+        "Step 5: Calculate the total amount of water in Tank C after all transfers and determine the percentage of the pool's capacity that is filled."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the rate at which each tank fills per hour.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the amount of water in Tank A after it is filled and calculate the amount transferred to Tank B.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the amount of water remaining in Tank A after the transfer to Tank B, ତାହେଲେ (then) calculate the amount transferred to Tank C.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the amount of water in Tank B after it is filled to capacity and calculate the amount transferred to Tank C.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) amount of water in Tank C after all transfers and determine the percentage of the pool's capacity that is filled."
+    ],
+    "final_answer": "100%"
+}

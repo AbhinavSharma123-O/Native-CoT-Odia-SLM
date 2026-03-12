@@ -1,0 +1,20 @@
+{
+    "id": "115",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. However, due to a malfunction, the system starts filling the towers in a different order: it fills Tower C first until it is 3/4 full, then it fills Tower B until it is 2/3 full, and finally it fills Tower A until it is 1/2 full. After this initial filling, the system resumes its normal operation, filling Tower A first, then Tower B, and finally Tower C, until all towers are completely full. How many gallons of water are added to the system during the second phase of filling?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, ତାହେଲେ (then) Tower B, and finally Tower C. However, due to a malfunction, the system starts filling the towers in a different order: it fills Tower C first until it is 3/4 full, ତାହେଲେ (then) it fills Tower B until it is 2/3 full, and finally it fills Tower A until it is 1/2 full. After this initial filling, the system resumes its normal operation, filling Tower A first, ତାହେଲେ (then) Tower B, and finally Tower C, until all towers are completely full. How many gallons of water are added to the system during the second phase of filling?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water in each tower after the initial filling. For Tower C, which is filled first until it is 3/4 full, the amount of water is 3/4 * 4000 = 3000 gallons.",
+        "Step 2: For Tower B, which is filled until it is 2/3 full after Tower C's initial filling, the amount of water is 2/3 * 3000 = 2000 gallons.",
+        "Step 3: For Tower A, which is filled until it is 1/2 full after Tower B's initial filling, the amount of water is 1/2 * 2000 = 1000 gallons.",
+        "Step 4: Determine the remaining capacity for each tower after the initial filling. Tower A has 2000 - 1000 = 1000 gallons remaining, Tower B has 3000 - 2000 = 1000 gallons remaining, and Tower C has 4000 - 3000 = 1000 gallons remaining.",
+        "Step 5: Calculate the total amount of water needed to fill all towers completely during the second phase. This involves filling Tower A (1000 gallons remaining), then Tower B (1000 gallons remaining), and finally Tower C (1000 gallons remaining), resulting in a total of 1000 + 1000 + 1000 = 3000 gallons."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water in each tower after the initial filling. For Tower C, which is filled first until it is 3/4 full, the amount of water is 3/4 * 4000 = 3000 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: For Tower B, which is filled until it is 2/3 full after Tower C's initial filling, the amount of water is 2/3 * 3000 = 2000 gallons.",
+        "ପଦକ୍ଷେପ (step) 3: For Tower A, which is filled until it is 1/2 full after Tower B's initial filling, the amount of water is 1/2 * 2000 = 1000 gallons.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the remaining capacity for each tower after the initial filling. Tower A has 2000 - 1000 = 1000 gallons remaining, Tower B has 3000 - 2000 = 1000 gallons remaining, and Tower C has 4000 - 3000 = 1000 gallons remaining.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) amount of water needed to fill all towers completely during the second phase. This involves filling Tower A (1000 gallons remaining), ତାହେଲେ (then) Tower B (1000 gallons remaining), and finally Tower C (1000 gallons remaining), resulting in a ମୋଟ (total) of 1000 + 1000 + 1000 = 3000 gallons."
+    ],
+    "final_answer": "3000"
+}

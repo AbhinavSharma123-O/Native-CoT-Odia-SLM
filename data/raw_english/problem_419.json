@@ -1,0 +1,12 @@
+{
+    "id": "419",
+    "problem": "In a small town, there are three types of houses: blue, red, and green. Each house has a unique address and can be occupied by one of five different families: the Smiths, the Jones, the Williams, the Browns, or the Davises. The houses are located on a single street and are numbered from 1 to 15. The following conditions apply: the Smiths live in a blue house, the Jones live in a house next to the Williams, the green house is at one of the ends of the street, the Browns live in a red house, and the Davises live in a house that is exactly three houses away from the Browns. If the Williams live in house number 5, and the Smiths live in house number 10, what is the address of the green house?",
+    "reasoning_steps": [
+        "Step 1: Determine the possible locations for the Jones and the Williams based on the given house number for the Williams.",
+        "Step 2: Identify the possible locations for the Browns and the Davises based on their relative positions to each other.",
+        "Step 3: Use the information about the Smiths' house to narrow down the possible locations for the remaining houses.",
+        "Step 4: Consider the constraint that the green house is at one of the ends of the street and deduce which end it must be based on the already determined house locations.",
+        "Step 5: Combine all the information gathered to find the address of the green house, ensuring that all conditions are satisfied."
+    ],
+    "final_answer": "House number 1"
+}

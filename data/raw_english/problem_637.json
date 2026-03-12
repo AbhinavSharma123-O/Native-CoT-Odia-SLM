@@ -1,0 +1,12 @@
+{
+    "id": "637",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery has 2 cafes and 3 restaurants within a 2-block radius. Each cafe has 1 bakery and 2 restaurants within the same radius. Each restaurant has 1 bakery and 1 cafe within the same radius. If there are 12 bakeries in total, and each bakery, cafe, and restaurant has a unique owner, what is the total number of unique owners of all the shops in the town?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of cafes and restaurants associated with each bakery. Since each bakery has 2 cafes and 3 restaurants, and there are 12 bakeries, we need to consider the overlap of these shops.",
+        "Step 2: Calculate the total number of cafes. Since each bakery has 2 cafes, there are 12 * 2 = 24 cafe associations. However, each cafe is associated with only 1 bakery, meaning the actual number of cafes is less than 24.",
+        "Step 3: Calculate the total number of restaurants. Each bakery has 3 restaurants, resulting in 12 * 3 = 36 restaurant associations. Since each restaurant is associated with 1 bakery and 1 cafe, the actual number of restaurants must be considered with these associations in mind.",
+        "Step 4: Determine the unique number of cafes. Given that each cafe is associated with 1 bakery and has 2 restaurants, and there are 2 cafes for every bakery, we must find how these associations overlap to avoid double-counting.",
+        "Step 5: Determine the unique number of restaurants. With each restaurant being associated with 1 bakery and 1 cafe, and knowing the relationships between bakeries, cafes, and restaurants, calculate the total unique number of restaurants."
+    ],
+    "final_answer": "36"
+}

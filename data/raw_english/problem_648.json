@@ -1,0 +1,12 @@
+{
+    "id": "648",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system can fill Tank A at a rate of 100 liters per minute, Tank B at a rate of 150 liters per minute, and Tank C at a rate of 200 liters per minute. However, due to some leakages, Tank A loses water at a rate of 10 liters per minute, Tank B loses water at a rate of 20 liters per minute, and Tank C loses water at a rate of 30 liters per minute. If all tanks are initially empty and the supply system starts filling them at the same time, how many minutes will it take to fill all three tanks to their respective capacities?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net fill rate for each tank by subtracting the leakage rate from the fill rate. For Tank A, the net fill rate is 100 - 10 = 90 liters per minute. For Tank B, the net fill rate is 150 - 20 = 130 liters per minute. For Tank C, the net fill rate is 200 - 30 = 170 liters per minute.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net fill rate. For Tank A, the time is 2000 / 90 = 22.22 minutes. For Tank B, the time is 3000 / 130 = 23.08 minutes. For Tank C, the time is 4000 / 170 = 23.53 minutes.",
+        "Step 3: Find the longest time among the three tanks, which determines when all tanks will be filled. The longest time is 23.53 minutes for Tank C.",
+        "Step 4: Since the question asks for the time to fill all three tanks to their respective capacities, we need to consider if the filling process for each tank can be stopped once its capacity is reached without affecting the others. Given that the supply system fills them simultaneously and at different rates, the time calculated for each tank to reach its capacity is independent of the others.",
+        "Step 5: Given that the system fills the tanks simultaneously and the calculated times are based on continuous filling until each tank is full, the time to fill all tanks is determined by the tank that takes the longest to fill, which is Tank C at 23.53 minutes."
+    ],
+    "final_answer": "23.53"
+}

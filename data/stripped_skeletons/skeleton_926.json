@@ -1,0 +1,20 @@
+{
+    "id": "926",
+    "original_problem": "In a small town, there are three types of coins: gold, silver, and copper. A gold coin weighs 10 grams, a silver coin weighs 5 grams, and a copper coin weighs 2 grams. A local merchant has 30 coins in total, consisting of gold, silver, and copper coins. The total weight of all the coins is 180 grams. If the number of copper coins is 5 more than the number of gold coins, and the number of silver coins is 2 less than the number of gold coins, how many gold coins does the merchant have?",
+    "deconstructed_problem": "In a small town, there are three types of coins: gold, silver, and copper. A gold coin weighs 10 grams, a silver coin weighs 5 grams, and a copper coin weighs 2 grams. A local merchant has 30 coins in ମୋଟ (total), consisting of gold, silver, and copper coins. The ମୋଟ (total) weight of all the coins is 180 grams. ଯଦି (if) the number of copper coins is 5 more than the number of gold coins, and the number of silver coins is 2 less than the number of gold coins, how many gold coins does the merchant have?",
+    "original_steps": [
+        "Step 1: Define variables for the number of gold, silver, and copper coins. Let G be the number of gold coins, S be the number of silver coins, and C be the number of copper coins.",
+        "Step 2: Set up equations based on the given information. The total number of coins is 30, so G + S + C = 30. The total weight of the coins is 180 grams, so 10G + 5S + 2C = 180.",
+        "Step 3: Use the given relationships between the coins to set up additional equations. The number of copper coins is 5 more than the number of gold coins, so C = G + 5. The number of silver coins is 2 less than the number of gold coins, so S = G - 2.",
+        "Step 4: Substitute the expressions for S and C from Step 3 into the equations from Step 2. Substitute S = G - 2 and C = G + 5 into G + S + C = 30 and 10G + 5S + 2C = 180.",
+        "Step 5: Simplify and solve the resulting equations to find the number of gold coins. After substitution, the equations become G + (G - 2) + (G + 5) = 30 and 10G + 5(G - 2) + 2(G + 5) = 180."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of gold, silver, and copper coins. Let G be the number of gold coins, S be the number of silver coins, and C be the number of copper coins.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. The ମୋଟ (total) number of coins is 30, so G + S + C = 30. The ମୋଟ (total) weight of the coins is 180 grams, so 10G + 5S + 2C = 180.",
+        "ପଦକ୍ଷେପ (step) 3: Use the given relationships between the coins to set up additional equations. The number of copper coins is 5 more than the number of gold coins, so C = G + 5. The number of silver coins is 2 less than the number of gold coins, so S = G - 2.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for S and C from ପଦକ୍ଷେପ (step) 3 into the equations from ପଦକ୍ଷେପ (step) 2. Substitute S = G - 2 and C = G + 5 into G + S + C = 30 and 10G + 5S + 2C = 180.",
+        "ପଦକ୍ଷେପ (step) 5: Simplify and solve the resulting equations to find the number of gold coins. After substitution, the equations become G + (G - 2) + (G + 5) = 30 and 10G + 5(G - 2) + 2(G + 5) = 180."
+    ],
+    "final_answer": "5"
+}

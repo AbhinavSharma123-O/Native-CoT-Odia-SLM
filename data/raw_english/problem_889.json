@@ -1,0 +1,12 @@
+{
+    "id": "889",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system can fill Tank A at a rate of 200 gallons per hour, Tank B at 150 gallons per hour, and Tank C at 300 gallons per hour. However, due to a leak, Tank A loses 50 gallons per hour, Tank B loses 25 gallons per hour, and Tank C loses 75 gallons per hour. If all tanks are initially empty and the water supply system operates for 5 hours, how many gallons of water are in Tank C after 5 hours, given that the system stops filling Tank B after it is 3/4 full?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net fill rate for each tank by subtracting the leak rate from the fill rate. For Tank A: 200 gallons/hour - 50 gallons/hour = 150 gallons/hour, for Tank B: 150 gallons/hour - 25 gallons/hour = 125 gallons/hour, and for Tank C: 300 gallons/hour - 75 gallons/hour = 225 gallons/hour.",
+        "Step 2: Determine how long it takes to fill Tank B to 3/4 of its capacity. Since Tank B can hold 800 gallons and it needs to be 3/4 full, it needs 800 * (3/4) = 600 gallons. With a net fill rate of 125 gallons/hour, it will take 600 / 125 = 4.8 hours to fill Tank B to 3/4.",
+        "Step 3: Calculate how much water is in each tank after 4.8 hours, considering that Tank B stops being filled after this time. For Tank A: 150 gallons/hour * 4.8 hours = 720 gallons, for Tank B: 600 gallons (since it stops at 3/4 full), and for Tank C: 225 gallons/hour * 4.8 hours = 1080 gallons.",
+        "Step 4: Since the system operates for 5 hours and Tank B stops being filled after 4.8 hours, we need to calculate the additional water added to Tank A and Tank C during the remaining 0.2 hours. For Tank A: 150 gallons/hour * 0.2 hours = 30 gallons, for Tank C: 225 gallons/hour * 0.2 hours = 45 gallons.",
+        "Step 5: Add the water added in the last 0.2 hours to the totals for Tank A and Tank C. For Tank A: 720 gallons + 30 gallons = 750 gallons (not needed for the final answer), and for Tank C: 1080 gallons + 45 gallons = 1125 gallons."
+    ],
+    "final_answer": "1125"
+}

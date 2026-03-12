@@ -1,0 +1,12 @@
+{
+    "id": "779",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird watching from above decides to drop a seed every 5 feet as the snail climbs. If the bird drops a total of 4 seeds, how many days will it take for the snail to reach the top of the well?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net progress of the snail per day by subtracting the slip-back distance from the climb distance.",
+        "Step 2: Determine the pattern of seed drops in relation to the snail's progress, recognizing that a seed is dropped every 5 feet.",
+        "Step 3: Use the information about the seeds to establish a relationship between the snail's climb and the bird's seed drops, considering that 4 seeds were dropped.",
+        "Step 4: Calculate the total distance the snail must climb to reach the point where the bird drops the fourth seed, taking into account the well's height and the snail's climbing pattern.",
+        "Step 5: Apply the daily net progress of the snail to the total distance needed to climb to find out how many days it will take for the snail to reach the top."
+    ],
+    "final_answer": "18"
+}

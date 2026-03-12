@@ -1,0 +1,12 @@
+{
+    "id": "74",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 gallons of water, Tank B can hold 3000 gallons, and Tank C can hold 4000 gallons. On a given day, Tank A is 3/4 full, Tank B is 2/3 full, and Tank C is 1/2 full. Due to a leak, 500 gallons of water are lost from Tank A, and then 300 gallons are transferred from Tank B to Tank A. After that, 200 gallons are transferred from Tank C to Tank B. What percentage of the total capacity of all tanks is filled with water after these operations?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. For Tank A, it is 3/4 * 2000 = 1500 gallons. For Tank B, it is 2/3 * 3000 = 2000 gallons. For Tank C, it is 1/2 * 4000 = 2000 gallons.",
+        "Step 2: Calculate the amount of water in each tank after the leak from Tank A. Tank A loses 500 gallons, so it has 1500 - 500 = 1000 gallons left.",
+        "Step 3: Calculate the amount of water in each tank after transferring 300 gallons from Tank B to Tank A. Tank A now has 1000 + 300 = 1300 gallons, and Tank B has 2000 - 300 = 1700 gallons.",
+        "Step 4: Calculate the amount of water in each tank after transferring 200 gallons from Tank C to Tank B. Tank B now has 1700 + 200 = 1900 gallons, and Tank C has 2000 - 200 = 1800 gallons.",
+        "Step 5: Calculate the total amount of water in all tanks after these operations. Total water = 1300 (Tank A) + 1900 (Tank B) + 1800 (Tank C) = 5000 gallons."
+    ],
+    "final_answer": "The total capacity of all tanks is 2000 + 3000 + 4000 = 9000 gallons. The percentage of the total capacity filled is (5000 / 9000) * 100 = 55.56%"
+}

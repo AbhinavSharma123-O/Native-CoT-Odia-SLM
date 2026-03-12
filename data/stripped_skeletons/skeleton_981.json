@@ -1,0 +1,20 @@
+{
+    "id": "981",
+    "original_problem": "In the town of Ashwood, there are three types of shops: bakeries, florists, and cafes. Each type of shop has a different number of employees. The total number of employees in all the shops is 90. The number of employees in the bakeries is 5 more than the number of employees in the florists. The number of employees in the cafes is 10 less than the number of employees in the bakeries. If the number of employees in the florists is 20, how many employees are in each type of shop, and what is the average number of employees per shop?",
+    "deconstructed_problem": "In the town of Ashwood, there are three types of shops: bakeries, florists, and cafes. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 90. The number of employees in the bakeries is 5 more than the number of employees in the florists. The number of employees in the cafes is 10 less than the number of employees in the bakeries. ଯଦି (if) the number of employees in the florists is 20, how many employees are in each type of shop, and what is the average number of employees per shop?",
+    "original_steps": [
+        "Step 1: Determine the number of employees in the bakeries by using the information that the number of employees in the bakeries is 5 more than the number of employees in the florists.",
+        "Step 2: Calculate the number of employees in the cafes using the information that the number of employees in the cafes is 10 less than the number of employees in the bakeries.",
+        "Step 3: Calculate the total number of employees in the bakeries, florists, and cafes to ensure it matches the given total of 90 employees.",
+        "Step 4: Calculate the number of each type of shop by dividing the total number of employees of each type by the number of employees per shop, assuming each shop has the same number of employees of its type.",
+        "Step 5: Calculate the average number of employees per shop by dividing the total number of employees by the total number of shops."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of employees in the bakeries by using the information that the number of employees in the bakeries is 5 more than the number of employees in the florists.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of employees in the cafes using the information that the number of employees in the cafes is 10 less than the number of employees in the bakeries.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of employees in the bakeries, florists, and cafes to ensure it matches the given ମୋଟ (total) of 90 employees.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the number of each type of shop by dividing the ମୋଟ (total) number of employees of each type by the number of employees per shop, assuming each shop has the same number of employees of its type.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the average number of employees per shop by dividing the ମୋଟ (total) number of employees by the ମୋଟ (total) number of shops."
+    ],
+    "final_answer": "The average number of employees per shop is 30, with 25 employees in each bakery, 20 in each florist, and 15 in each cafe."
+}

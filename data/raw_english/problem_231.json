@@ -1,0 +1,12 @@
+{
+    "id": "231",
+    "problem": "In a small town, there are three types of businesses: restaurants, cafes, and shops. The town has a total of 25 businesses. The number of restaurants is 5 more than the number of cafes, and the number of shops is 3 less than the number of cafes. If the total number of employees in all restaurants is 150, and each restaurant has 10 more employees than the previous one, starting with 10 employees in the first restaurant, how many employees are there in total in all the cafes, given that each cafe has the same number of employees as the number of shops?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of restaurants (R), cafes (C), and shops (S), and establish the relationships between them based on the given information.",
+        "Step 2: Use the information about the total number of businesses to create an equation: R + C + S = 25, and incorporate the relationships R = C + 5 and S = C - 3 into this equation to solve for C.",
+        "Step 3: Solve for the number of cafes (C) using the equation from Step 2, which will allow us to find the number of restaurants (R) and shops (S).",
+        "Step 4: Calculate the number of employees in each restaurant, using the formula for the sum of an arithmetic series, where the first term a1 = 10, the common difference d = 10, and the number of terms n = R, to verify the total number of employees in restaurants is indeed 150.",
+        "Step 5: With the number of shops (S) known, and each cafe having the same number of employees as the number of shops, calculate the total number of employees in all cafes."
+    ],
+    "final_answer": "30"
+}

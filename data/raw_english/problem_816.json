@@ -1,0 +1,12 @@
+{
+    "id": "816",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A starts with 100 liters of water, Tower B starts with 50 liters of water, and Tower C starts with 200 liters of water, and all three towers start filling at the same time, how many minutes will it take for Tower C to have twice as much water as Tower A and Tower B combined, given that Tower A can hold a maximum of 500 liters, Tower B can hold a maximum of 300 liters, and Tower C can hold a maximum of 1000 liters?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial total amount of water in all towers.",
+        "Step 2: Set up equations for the amount of water in each tower over time, considering their filling rates and maximum capacities.",
+        "Step 3: Determine the condition for Tower C to have twice as much water as Tower A and Tower B combined, and express this condition mathematically.",
+        "Step 4: Solve the equations from Step 2, taking into account the condition from Step 3, to find the time at which the specified condition is met.",
+        "Step 5: Verify that the calculated time does not exceed the time it would take for any of the towers to reach their maximum capacity, which would stop the filling process for that tower."
+    ],
+    "final_answer": "80 minutes"
+}

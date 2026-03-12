@@ -1,0 +1,16 @@
+{
+    "id": "98",
+    "problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's total output of widgets, respectively. Factory A produces 200 more widgets per day than factory B, while factory C produces 500 more widgets per day than the sum of the outputs of factories A and B. If the total output of all factories is 5000 widgets per day, how many widgets does each factory produce per day?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the output of each factory: let's denote the output of factory A as A, factory B as B, and factory C as C.",
+        "Step 2: Express the given relationships between the factories' outputs as equations: A = B + 200, C = A + B + 500, and A + B + C = 5000.",
+        "Step 3: Substitute the equation A = B + 200 into the equation for C to get C in terms of B: C = (B + 200) + B + 500 = 2B + 700.",
+        "Step 4: Substitute the expressions for A and C from steps 1 and 3 into the total output equation: (B + 200) + B + (2B + 700) = 5000, simplifying to 4B + 900 = 5000.",
+        "Step 5: Solve the equation from step 4 for B: 4B = 5000 - 900, 4B = 4100, B = 4100 / 4 = 1025."
+    ],
+    "final_answer": {
+        "A": 1225,
+        "B": 1025,
+        "C": 2750
+    }
+}

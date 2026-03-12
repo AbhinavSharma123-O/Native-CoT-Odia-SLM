@@ -1,0 +1,12 @@
+{
+    "id": "413",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water needs are as follows: the school requires 500 gallons per day, the hospital requires 750 gallons per day, and the residential area requires 1200 gallons per day. However, due to a recent drought, the town can only replenish its water supply at a rate of 1500 gallons per day from a nearby river. If Tower A is currently 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full, how many days will it take for the town to completely run out of water, assuming the water is used and replenished at a constant rate?",
+    "reasoning_steps": [
+        "Step 1: Calculate the current total amount of water available in all towers by determining the amount in each tower and summing them up. For Tower A: 2000 * 3/4 = 1500 gallons, for Tower B: 3000 * 1/2 = 1500 gallons, and for Tower C: 4000 * 2/3 = 2666.67 gallons.",
+        "Step 2: Sum the amounts from each tower to find the total initial amount of water: 1500 + 1500 + 2666.67 = 5666.67 gallons.",
+        "Step 3: Calculate the total daily water consumption: 500 gallons (school) + 750 gallons (hospital) + 1200 gallons (residential) = 2450 gallons per day.",
+        "Step 4: Calculate the net daily water loss by subtracting the replenishment rate from the total daily consumption: 2450 gallons (consumption) - 1500 gallons (replenishment) = 950 gallons lost per day.",
+        "Step 5: Determine the number of days until the town runs out of water by dividing the total initial amount of water by the net daily water loss: 5666.67 gallons / 950 gallons per day = 5.96 days."
+    ],
+    "final_answer": "6"
+}

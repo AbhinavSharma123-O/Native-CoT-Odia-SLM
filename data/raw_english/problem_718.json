@@ -1,0 +1,12 @@
+{
+    "id": "718",
+    "problem": "In a small town, there are three rivers: River A, River B, and River C. Each river has a different flow rate. River A flows at 5 cubic meters per minute, River B flows at 3 cubic meters per minute, and River C flows at 2 cubic meters per minute. Three waterwheels, Wheel X, Wheel Y, and Wheel Z, are positioned on the rivers such that Wheel X is on River A, Wheel Y is on River B, and Wheel Z is on River C. Each wheel has a different efficiency: Wheel X is 80% efficient, Wheel Y is 70% efficient, and Wheel Z is 60% efficient. If the waterwheels operate for 10 minutes, how much usable water (in cubic meters) is produced in total, considering the flow rates and efficiencies of the wheels?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total volume of water flowing through each river in 10 minutes by multiplying the flow rate of each river by the time (10 minutes).",
+        "Step 2: Determine the volume of usable water each wheel can produce per minute by multiplying the flow rate of its respective river by the efficiency of the wheel.",
+        "Step 3: Calculate the total volume of usable water each wheel can produce in 10 minutes by multiplying the volume of usable water each wheel can produce per minute by the time (10 minutes).",
+        "Step 4: Add up the total volumes of usable water produced by Wheel X, Wheel Y, and Wheel Z over the 10-minute period to find the overall total.",
+        "Step 5: Perform the actual calculations: For River A and Wheel X, the calculation is 5 cubic meters/minute * 10 minutes * 0.8 = 40 cubic meters. For River B and Wheel Y, it is 3 cubic meters/minute * 10 minutes * 0.7 = 21 cubic meters. For River C and Wheel Z, it is 2 cubic meters/minute * 10 minutes * 0.6 = 12 cubic meters."
+    ],
+    "final_answer": "73"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "624",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. There is a bird that flies over the well every 4 days and eats 1/4 of the snail's progress. However, the bird only eats the snail's progress if the snail has climbed more than 5 feet. If the snail starts climbing on a Monday, what day of the week will it be when the snail finally reaches the top of the well?",
+    "reasoning_steps": [
+        "Step 1: Calculate the daily net progress of the snail, taking into account its climb and slip.",
+        "Step 2: Determine how the bird's eating affects the snail's progress every 4 days, considering the condition that the bird only eats if the snail has climbed more than 5 feet.",
+        "Step 3: Establish a pattern or formula to track the snail's progress over time, incorporating both the snail's daily movement and the bird's periodic interference.",
+        "Step 4: Account for the condition that on the day the snail reaches the top, it does not slip back, and calculate the exact day this happens.",
+        "Step 5: Translate the day the snail reaches the top into the corresponding day of the week, given that it starts climbing on a Monday."
+    ],
+    "final_answer": "Monday"
+}

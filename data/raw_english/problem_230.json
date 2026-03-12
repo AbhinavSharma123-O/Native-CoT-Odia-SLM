@@ -1,0 +1,12 @@
+{
+    "id": "230",
+    "problem": "In a small town, there are three water towers: Tower A, Tower B, and Tower C. Tower A can fill a pool in 6 hours, Tower B can fill it in 8 hours, and Tower C can fill it in 12 hours. However, Tower B is currently being used to drain water from the pool at a rate of 1/16 of the pool's capacity per hour due to a leak. Meanwhile, Tower C is being used to supply water to a nearby farm, reducing its effective rate of filling the pool by 25%. If all three towers start operating simultaneously to fill the pool, but Tower A only operates for the first 2 hours, how many hours will it take to fill the pool?",
+    "reasoning_steps": [
+        "Step 1: Calculate the combined rate at which the towers fill the pool, taking into account Tower B's draining and Tower C's reduced supply rate.",
+        "Step 2: Determine the fraction of the pool filled by Tower A in the first 2 hours it operates.",
+        "Step 3: Calculate the net rate at which the remaining towers (B and C) fill the pool after Tower A stops operating.",
+        "Step 4: Calculate the time it takes for Towers B and C to fill the remaining fraction of the pool after Tower A stops.",
+        "Step 5: Add the initial 2 hours that Tower A operated to the time calculated in Step 4 to find the total time to fill the pool."
+    ],
+    "final_answer": "9.6"
+}

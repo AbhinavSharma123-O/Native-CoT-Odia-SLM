@@ -1,0 +1,12 @@
+{
+    "id": "917",
+    "problem": "In the city of Azure, there are three types of trains: the express, the commuter, and the freight. The express train travels from Azure to its destination at an average speed of 120 km/h, the commuter train at 90 km/h, and the freight train at 60 km/h. One day, the express train departed Azure 30 minutes after the freight train but 1 hour before the commuter train. If the freight train took 4 hours and 30 minutes to reach its destination, and the distance between Azure and the destination is the same for all trains, determine the time it takes for the commuter train to reach its destination.",
+    "reasoning_steps": [
+        "Step 1: Calculate the distance traveled by the freight train using its speed and travel time. Distance = Speed * Time, so Distance = 60 km/h * 4.5 hours.",
+        "Step 2: With the distance known, calculate the time it takes for the express train to travel the same distance. Time = Distance / Speed, using the speed of the express train.",
+        "Step 3: Determine the time difference between the departures of the express and commuter trains, which is given as 1 hour.",
+        "Step 4: Calculate the time the express train took to reach its destination and then find out how long after the express train the commuter train departed, to establish a basis for comparison.",
+        "Step 5: Finally, use the distance calculated from the freight train and the speed of the commuter train to find out how long it takes the commuter train to reach its destination."
+    ],
+    "final_answer": "The commuter train takes 8 hours to reach its destination."
+}

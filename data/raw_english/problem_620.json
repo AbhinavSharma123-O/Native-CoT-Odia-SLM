@@ -1,0 +1,12 @@
+{
+    "id": "620",
+    "problem": "In a small town, there are 3 types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $500 worth of items per day, with 1/4 of the sales coming from bread, 1/4 from pastries, and the rest from cakes. Each cafe sells $300 worth of items per day, with 1/2 of the sales coming from coffee and the rest from tea. Each restaurant sells $1000 worth of items per day, with 1/5 of the sales coming from breakfast items, 1/5 from lunch items, and the rest from dinner items. If there are 5 bakeries, 3 cafes, and 2 restaurants in the town, what is the total daily sales of all the shops, and what percentage of the total sales comes from the sales of bread in the bakeries?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily sales of each type of shop. For bakeries, the total daily sales is 5 * $500 = $2500. For cafes, the total daily sales is 3 * $300 = $900. For restaurants, the total daily sales is 2 * $1000 = $2000.",
+        "Step 2: Calculate the total daily sales of all the shops by adding the sales from each type of shop. Total sales = $2500 + $900 + $2000 = $5400.",
+        "Step 3: Determine the sales from bread in the bakeries. Each bakery sells 1/4 of $500 from bread, so each bakery sells $125 worth of bread per day. With 5 bakeries, the total sales from bread is 5 * $125 = $625.",
+        "Step 4: Calculate the percentage of the total sales that comes from the sales of bread in the bakeries. The percentage is ($625 / $5400) * 100.",
+        "Step 5: Perform the final calculation for the percentage. ($625 / $5400) * 100 = 11.57%, rounded to two decimal places."
+    ],
+    "final_answer": "11.57"
+}

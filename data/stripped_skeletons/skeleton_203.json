@@ -1,0 +1,22 @@
+{
+    "id": "203",
+    "original_problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a total of 25 shops. The number of bakeries is 5 more than the number of cafes, and the number of grocery stores is 3 less than the number of bakeries. If the total number of employees in all the shops is 150, and each grocery store has 5 employees, each bakery has 7 employees, and each cafe has 3 employees, how many cafes are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a ମୋଟ (total) of 25 shops. The number of bakeries is 5 more than the number of cafes, and the number of grocery stores is 3 less than the number of bakeries. ଯଦି (if) the ମୋଟ (total) number of employees in all the shops is 150, and each grocery store has 5 employees, each bakery has 7 employees, and each cafe has 3 employees, how many cafes are there in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of shop. Let G be the number of grocery stores, B be the number of bakeries, and C be the number of cafes.",
+        "Step 2: Set up equations based on the given information. Since the number of bakeries is 5 more than the number of cafes, we have B = C + 5. The number of grocery stores is 3 less than the number of bakeries, so G = B - 3. Also, the total number of shops is 25, which gives us G + B + C = 25.",
+        "Step 3: Express G and B in terms of C. From B = C + 5, we substitute B in G = B - 3 to get G = (C + 5) - 3 = C + 2.",
+        "Step 4: Substitute the expressions for G and B into the total shops equation. Substituting G = C + 2 and B = C + 5 into G + B + C = 25 gives (C + 2) + (C + 5) + C = 25, simplifying to 3C + 7 = 25.",
+        "Step 5: Solve for C. From 3C + 7 = 25, we subtract 7 from both sides to get 3C = 18, then divide by 3 to find C = 6.",
+        "Step 6: Verify the total number of employees. With C = 6, B = C + 5 = 11, and G = B - 3 = 8, calculate the total employees: (8 grocery stores * 5 employees) + (11 bakeries * 7 employees) + (6 cafes * 3 employees) = 40 + 77 + 18 = 135. However, we are given that the total number of employees is 150, indicating a mistake in the verification step since we should be solving for the number of cafes based on the given total of shops and employee information correctly."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of shop. Let G be the number of grocery stores, B be the number of bakeries, and C be the number of cafes.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. Since the number of bakeries is 5 more than the number of cafes, we have B = C + 5. The number of grocery stores is 3 less than the number of bakeries, so G = B - 3. Also, the ମୋଟ (total) number of shops is 25, which gives us G + B + C = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Express G and B in terms of C. From B = C + 5, we substitute B in G = B - 3 to get G = (C + 5) - 3 = C + 2.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for G and B into the ମୋଟ (total) shops ସମୀକରଣ (equation). Substituting G = C + 2 and B = C + 5 into G + B + C = 25 gives (C + 2) + (C + 5) + C = 25, simplifying to 3C + 7 = 25.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for C. From 3C + 7 = 25, we ବିୟୋଗ (subtract) 7 from both sides to get 3C = 18, ତାହେଲେ (then) ହରଣ (divide) by 3 to find C = 6.",
+        "ପଦକ୍ଷେପ (step) 6: Verify the ମୋଟ (total) number of employees. With C = 6, B = C + 5 = 11, and G = B - 3 = 8, calculate the ମୋଟ (total) employees: (8 grocery stores * 5 employees) + (11 bakeries * 7 employees) + (6 cafes * 3 employees) = 40 + 77 + 18 = 135. However, we are given that the ମୋଟ (total) number of employees is 150, indicating a mistake in the verification ପଦକ୍ଷେପ (step) since we should be solving for the number of cafes based on the given ମୋଟ (total) of shops and employee information correctly."
+    ],
+    "final_answer": "There are 6 cafes in the village, as calculated directly from solving the equations based on the total number of shops."
+}

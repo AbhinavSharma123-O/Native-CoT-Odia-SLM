@@ -1,0 +1,12 @@
+{
+    "id": "162",
+    "problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 200 cubic meters per hour, and River B flows into River C at a rate of 300 cubic meters per hour. However, due to a nearby dam, 20% of River C's water is diverted back into River A. If River A initially has 1000 cubic meters of water, River B initially has 800 cubic meters of water, and River C initially has 1200 cubic meters of water, how many cubic meters of water will River C have after 5 hours? Assume that the rates of flow are constant and that no other rivers or sources contribute to the water levels.",
+    "reasoning_steps": [
+        "Step 1: Calculate the net flow rate from River A to River B by considering the rate at which River A flows into River B and the rate at which water is diverted back from River C to River A.",
+        "Step 2: Determine the net flow rate from River B to River C, taking into account the diversion of 20% of River C's water back into River A.",
+        "Step 3: Calculate the change in water volume for each river over the first hour, considering the initial volumes and the net flow rates calculated in the previous steps.",
+        "Step 4: Use the results from Step 3 to calculate the new initial volumes for each river at the start of the second hour and repeat the process for the remaining 4 hours, adjusting the volumes according to the net flow rates.",
+        "Step 5: After calculating the changes in water volume for each hour over the 5-hour period, determine the final volume of water in River C."
+    ],
+    "final_answer": "2098.4"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "423",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. On a given day, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full. Due to a leak, 10% of the water from Tower A flows into Tower B, and 15% of the water from Tower B flows into Tower C. After the leak, Tower A loses an additional 100 gallons of water due to evaporation. What is the total amount of water in all three towers after the leak and evaporation, and how many gallons can still be added to each tower before they are completely full?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. On a given day, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full. Due to a leak, 10% of the water from Tower A flows into Tower B, and 15% of the water from Tower B flows into Tower C. After the leak, Tower A loses an additional 100 gallons of water due to evaporation. What is the ମୋଟ (total) amount of water in all three towers after the leak and evaporation, and how many gallons can still be added to each tower before they are completely full?",
+    "original_steps": [
+        "Step 1: Calculate the initial amount of water in each tower before the leak. For Tower A: 2000 * (3/4) = 1500 gallons, for Tower B: 3000 * (1/2) = 1500 gallons, and for Tower C: 4000 * (2/3) = 2666.67 gallons.",
+        "Step 2: Calculate the amount of water that flows from Tower A to Tower B due to the leak. 10% of 1500 gallons is 0.1 * 1500 = 150 gallons.",
+        "Step 3: Calculate the amount of water that flows from Tower B to Tower C due to the leak. First, calculate the amount of water in Tower B after receiving water from Tower A: 1500 + 150 = 1650 gallons. Then, 15% of 1650 gallons is 0.15 * 1650 = 247.5 gallons.",
+        "Step 4: Calculate the new amounts of water in each tower after the leak. Tower A: 1500 - 150 = 1350 gallons, Tower B: 1650 - 247.5 = 1402.5 gallons, Tower C: 2666.67 + 247.5 = 2914.17 gallons.",
+        "Step 5: Account for the additional water lost from Tower A due to evaporation. Tower A: 1350 - 100 = 1250 gallons.",
+        "Step 6: Calculate the total amount of water in all three towers after the leak and evaporation. 1250 (Tower A) + 1402.5 (Tower B) + 2914.17 (Tower C) = 5566.67 gallons.",
+        "Step 7: Calculate how many gallons can still be added to each tower before they are completely full. For Tower A: 2000 - 1250 = 750 gallons, for Tower B: 3000 - 1402.5 = 1597.5 gallons, for Tower C: 4000 - 2914.17 = 1085.83 gallons."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial amount of water in each tower before the leak. For Tower A: 2000 * (3/4) = 1500 gallons, for Tower B: 3000 * (1/2) = 1500 gallons, and for Tower C: 4000 * (2/3) = 2666.67 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water that flows from Tower A to Tower B due to the leak. 10% of 1500 gallons is 0.1 * 1500 = 150 gallons.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the amount of water that flows from Tower B to Tower C due to the leak. First, calculate the amount of water in Tower B after receiving water from Tower A: 1500 + 150 = 1650 gallons. ତାହେଲେ (then), 15% of 1650 gallons is 0.15 * 1650 = 247.5 gallons.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the new amounts of water in each tower after the leak. Tower A: 1500 - 150 = 1350 gallons, Tower B: 1650 - 247.5 = 1402.5 gallons, Tower C: 2666.67 + 247.5 = 2914.17 gallons.",
+        "ପଦକ୍ଷେପ (step) 5: Account for the additional water lost from Tower A due to evaporation. Tower A: 1350 - 100 = 1250 gallons.",
+        "ପଦକ୍ଷେପ (step) 6: Calculate the ମୋଟ (total) amount of water in all three towers after the leak and evaporation. 1250 (Tower A) + 1402.5 (Tower B) + 2914.17 (Tower C) = 5566.67 gallons.",
+        "ପଦକ୍ଷେପ (step) 7: Calculate how many gallons can still be added to each tower before they are completely full. For Tower A: 2000 - 1250 = 750 gallons, for Tower B: 3000 - 1402.5 = 1597.5 gallons, for Tower C: 4000 - 2914.17 = 1085.83 gallons."
+    ],
+    "final_answer": "The total amount of water in all three towers after the leak and evaporation is 5566.67 gallons. Tower A can hold an additional 750 gallons, Tower B can hold an additional 1597.5 gallons, and Tower C can hold an additional 1085.83 gallons."
+}

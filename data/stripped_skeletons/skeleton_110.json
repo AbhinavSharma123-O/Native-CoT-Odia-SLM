@@ -1,0 +1,20 @@
+{
+    "id": "110",
+    "original_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a spider is at the top of the well and is moving downwards at a rate of 1 foot per day. If the spider and the snail meet, they will not move for the rest of the day, and the problem will be considered solved. However, if the spider reaches the bottom of the well before meeting the snail, it will start moving upwards at the same rate. Determine the number of days it takes for the spider and the snail to meet, given that the spider starts moving downwards on the same day the snail starts climbing.",
+    "deconstructed_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a spider is at the top of the well and is moving downwards at a rate of 1 foot per day. ଯଦି (if) the spider and the snail meet, they will not move for the rest of the day, and the problem will be considered solved. However, ଯଦି (if) the spider reaches the bottom of the well before meeting the snail, it will start moving upwards at the same rate. Determine the number of days it takes for the spider and the snail to meet, given that the spider starts moving downwards on the same day the snail starts climbing.",
+    "original_steps": [
+        "Step 1: Calculate the net distance the snail climbs each day, considering both the climb and the slip back.",
+        "Step 2: Determine the day when the snail will reach or exceed the height of the well, taking into account its climbing pattern.",
+        "Step 3: Calculate the distance the spider travels downwards each day and consider the scenario where it reaches the bottom and starts moving upwards.",
+        "Step 4: Find the point of intersection or meeting by comparing the positions of the snail and the spider over time, considering both the snail's climb and the spider's movement.",
+        "Step 5: Determine the exact day the snail and the spider meet based on their relative positions and movements."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net distance the snail climbs each day, considering both the climb and the slip back.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the day when the snail will reach or exceed the height of the well, taking into account its climbing pattern.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the distance the spider travels downwards each day and consider the scenario where it reaches the bottom and starts moving upwards.",
+        "ପଦକ୍ଷେପ (step) 4: Find the point of intersection or meeting by comparing the positions of the snail and the spider over time, considering both the snail's climb and the spider's movement.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the exact day the snail and the spider meet based on their relative positions and movements."
+    ],
+    "final_answer": "18"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "343",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, which is 5 more than the number of sandwiches sold by each cafe, and 3 less than the number of meals served by each restaurant. If there are 5 bakeries, 3 cafes, and 2 restaurants in the village, and each cafe sells 10 fewer sandwiches than the total number of meals served by all restaurants, determine the total number of cakes, sandwiches, and meals sold in the village per day.",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, which is 5 more than the number of sandwiches sold by each cafe, and 3 less than the number of meals served by each restaurant. ଯଦି (if) there are 5 bakeries, 3 cafes, and 2 restaurants in the village, and each cafe sells 10 fewer sandwiches than the ମୋଟ (total) number of meals served by all restaurants, determine the ମୋଟ (total) number of cakes, sandwiches, and meals sold in the village per day.",
+    "original_steps": [
+        "Step 1: Define variables for the unknowns - let b be the number of cakes sold by each bakery, c be the number of sandwiches sold by each cafe, and r be the number of meals served by each restaurant.",
+        "Step 2: Set up equations based on the given information: b = c + 5 and b = r - 3.",
+        "Step 3: Since each cafe sells 10 fewer sandwiches than the total number of meals served by all restaurants, we can write the equation: c = 2r - 10.",
+        "Step 4: Substitute c from the third step into the equation b = c + 5 to relate b and r: b = (2r - 10) + 5.",
+        "Step 5: Simplify the equation from step 4 to get b in terms of r: b = 2r - 5.",
+        "Step 6: Equate the two expressions for b from step 2 and step 5: 2r - 5 = r - 3.",
+        "Step 7: Solve for r: r = 2.",
+        "Step 8: With r known, find b and c: b = 2*2 - 3 = 1 and c = 2*2 - 10 = -6, but since negative sales are not possible, re-evaluate the initial equations and steps for a logical inconsistency or mistake in the problem formulation.",
+        "Step 9: Re-evaluate the equation c = 2r - 10 with the correct understanding that the number of sandwiches cannot be negative, indicating a need to reassess the relationship between the number of sandwiches and meals.",
+        "Step 10: Correct the approach by directly using the relationship between bakeries, cafes, and restaurants without assuming negative sales, focusing on the total sales: if each cafe sells 10 fewer sandwiches than the total meals by all restaurants, and there are 2 restaurants, each serving r meals, then 3c = 2r - 10, and since b = c + 5 and b = r - 3, solve these equations considering the total sales and the fact that all numbers must be positive."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the unknowns - let b be the number of cakes sold by each bakery, c be the number of sandwiches sold by each cafe, and r be the number of meals served by each restaurant.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: b = c + 5 and b = r - 3.",
+        "ପଦକ୍ଷେପ (step) 3: Since each cafe sells 10 fewer sandwiches than the ମୋଟ (total) number of meals served by all restaurants, we can write the ସମୀକରଣ (equation): c = 2r - 10.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute c from the third ପଦକ୍ଷେପ (step) into the ସମୀକରଣ (equation) b = c + 5 to relate b and r: b = (2r - 10) + 5.",
+        "ପଦକ୍ଷେପ (step) 5: Simplify the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 to get b in terms of r: b = 2r - 5.",
+        "ପଦକ୍ଷେପ (step) 6: Equate the two expressions for b from ପଦକ୍ଷେପ (step) 2 and ପଦକ୍ଷେପ (step) 5: 2r - 5 = r - 3.",
+        "ପଦକ୍ଷେପ (step) 7: Solve for r: r = 2.",
+        "ପଦକ୍ଷେପ (step) 8: With r known, find b and c: b = 2*2 - 3 = 1 and c = 2*2 - 10 = -6, but since negative sales are not possible, re-evaluate the initial equations and steps for a logical inconsistency or mistake in the problem formulation.",
+        "ପଦକ୍ଷେପ (step) 9: Re-evaluate the ସମୀକରଣ (equation) c = 2r - 10 with the correct understanding that the number of sandwiches cannot be negative, indicating a need to reassess the relationship between the number of sandwiches and meals.",
+        "ପଦକ୍ଷେପ (step) 10: Correct the approach by directly using the relationship between bakeries, cafes, and restaurants without assuming negative sales, focusing on the ମୋଟ (total) sales: ଯଦି (if) each cafe sells 10 fewer sandwiches than the ମୋଟ (total) meals by all restaurants, and there are 2 restaurants, each serving r meals, ତାହେଲେ (then) 3c = 2r - 10, and since b = c + 5 and b = r - 3, solve these equations considering the ମୋଟ (total) sales and the fact that all numbers must be positive."
+    ],
+    "final_answer": "Given the misstep in calculation, the problem's constraints require a reevaluation for logical consistency and correct mathematical relationships, indicating a potential flaw in the initial problem setup or the steps provided for its solution."
+}

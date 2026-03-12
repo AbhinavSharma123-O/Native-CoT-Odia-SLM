@@ -1,0 +1,12 @@
+{
+    "id": "426",
+    "problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows at a rate of 5 cubic meters per second, River B flows at a rate of 3 cubic meters per second, and River C flows at a rate of 2 cubic meters per second. The town's water treatment plant can process 10 cubic meters of water per second. One day, due to heavy rainfall, the water level in River A rises by 20%, in River B by 15%, and in River C by 30%. If the town's water treatment plant operates at full capacity for 5 hours to process the excess water from the rivers, how many cubic meters of water will still need to be processed after the plant stops operating, assuming that the rivers return to their normal flow rates after the plant stops?",
+    "reasoning_steps": [
+        "Step 1: Calculate the increased flow rate of each river after the heavy rainfall. For River A, the new flow rate is 5 cubic meters/second * 1.20 = 6 cubic meters/second. For River B, the new flow rate is 3 cubic meters/second * 1.15 = 3.45 cubic meters/second. For River C, the new flow rate is 2 cubic meters/second * 1.30 = 2.60 cubic meters/second.",
+        "Step 2: Calculate the total amount of water flowing into the town's water treatment plant during the 5 hours of operation. The combined flow rate of the three rivers is 6 + 3.45 + 2.60 = 12.05 cubic meters/second. Since the plant can process 10 cubic meters/second, it will process 10 cubic meters/second * 5 hours * 3600 seconds/hour = 180000 cubic meters of water.",
+        "Step 3: Calculate the excess water that the plant cannot process during the 5 hours of operation. The excess water is (12.05 - 10) cubic meters/second * 5 hours * 3600 seconds/hour = 2.05 cubic meters/second * 18000 seconds = 36900 cubic meters.",
+        "Step 4: Calculate the amount of water that will still need to be processed after the plant stops operating, assuming the rivers return to their normal flow rates. The normal combined flow rate is 5 + 3 + 2 = 10 cubic meters/second, which the plant can process. Therefore, we only need to consider the excess water calculated in Step 3.",
+        "Step 5: Determine the final answer by considering the excess water calculated in Step 3, as the rivers return to their normal flow rates after the plant stops, and the plant can process the normal flow rate."
+    ],
+    "final_answer": "36900"
+}

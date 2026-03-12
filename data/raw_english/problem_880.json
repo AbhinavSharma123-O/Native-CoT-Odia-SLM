@@ -1,0 +1,12 @@
+{
+    "id": "880",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop sells a different product: widgets, gizmos, and doohickeys. The town has a total of 240 shops, with 30 more shops of type A than type B, and 20 more shops of type C than type A. If the number of gizmos sold by each shop of type B is 5 times the number of widgets sold by each shop of type A, and the total number of gizmos sold is 15000, what is the total number of doohickeys sold if each shop of type C sells 2 doohickeys for every 3 widgets sold by a shop of type A?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of shops of each type by setting up equations based on the given relationships between the types of shops.",
+        "Step 2: Express the number of shops of type B in terms of the number of shops of type A, and then express the number of shops of type C in terms of the number of shops of type A.",
+        "Step 3: Use the information about the gizmos sold to find the number of widgets sold by each shop of type A and the number of shops of type B.",
+        "Step 4: Solve the system of equations from steps 1-3 to find the number of shops of each type.",
+        "Step 5: Calculate the total number of doohickeys sold based on the relationship between the doohickeys sold by shops of type C and the widgets sold by shops of type A."
+    ],
+    "final_answer": "12000"
+}

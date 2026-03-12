@@ -1,0 +1,12 @@
+{
+    "id": "337",
+    "problem": "In a small town, there are three types of people: those who always tell the truth, those who always lie, and those who sometimes tell the truth and sometimes lie. A detective arrives in town to investigate a crime and meets three townspeople: Alex, Ben, and Chris. Alex says that Ben is a truth-teller and Chris is a liar. Ben says that Alex is a liar and Chris is a truth-teller. Chris says that Alex is a truth-teller and Ben is a liar. If the detective knows that exactly one of the townspeople is a truth-teller, one is a liar, and one sometimes tells the truth and sometimes lies, who is the truth-teller, who is the liar, and who sometimes tells the truth and sometimes lies?",
+    "reasoning_steps": [
+        "Step 1: Analyze Alex's statement. If Alex is a truth-teller, then Ben is a truth-teller and Chris is a liar.",
+        "Step 2: Analyze Ben's statement. If Ben is a truth-teller, then Alex is a liar and Chris is a truth-teller. This creates a contradiction with Alex's statement, so Ben cannot be the truth-teller.",
+        "Step 3: Analyze Chris's statement. If Chris is a truth-teller, then Alex is a truth-teller and Ben is a liar. However, this creates a contradiction with the fact that exactly one of the townspeople is a truth-teller.",
+        "Step 4: Determine the possible combinations of truth-tellers, liars, and sometimes truth-tellers. Since exactly one of the townspeople is a truth-teller, one is a liar, and one sometimes tells the truth and sometimes lies, the possible combinations are: (Alex, Ben, Chris), (Alex, Chris, Ben), (Ben, Alex, Chris), (Ben, Chris, Alex), (Chris, Alex, Ben), and (Chris, Ben, Alex).",
+        "Step 5: Test each combination against the statements made by the townspeople. The only combination that satisfies all the statements is (Chris, Ben, Alex), where Chris is the truth-teller, Ben is the liar, and Alex sometimes tells the truth and sometimes lies."
+    ],
+    "final_answer": "Chris is the truth-teller, Ben is the liar, and Alex sometimes tells the truth and sometimes lies."
+}

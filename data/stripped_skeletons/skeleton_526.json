@@ -1,0 +1,20 @@
+{
+    "id": "526",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a particular day, due to a leak, 10% of the water from Tower A and 15% from Tower B was lost before they could be used. Meanwhile, it was decided to transfer 20% of the water from Tower C to Tower A to compensate for the leak, and then transfer 25% of the water from Tower B to Tower C. Given that each tower was initially filled to its maximum capacity, calculate the total amount of water in gallons that the town has available after all transfers and losses.",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, ତାହେଲେ (then) Tower B, and finally Tower C. On a particular day, due to a leak, 10% of the water from Tower A and 15% from Tower B was lost before they could be used. Meanwhile, it was decided to transfer 20% of the water from Tower C to Tower A to compensate for the leak, and ତାହେଲେ (then) transfer 25% of the water from Tower B to Tower C. Given that each tower was initially filled to its maximum capacity, calculate the ମୋଟ (total) amount of water in gallons that the town has available after all transfers and losses.",
+    "original_steps": [
+        "Step 1: Calculate the initial amount of water lost from Tower A due to the leak, which is 10% of its capacity.",
+        "Step 2: Calculate the initial amount of water lost from Tower B due to the leak, which is 15% of its capacity.",
+        "Step 3: Determine the amount of water transferred from Tower C to Tower A, which is 20% of Tower C's capacity, and calculate the new water levels in both towers after this transfer.",
+        "Step 4: Calculate the amount of water transferred from Tower B to Tower C, which is 25% of Tower B's capacity after the leak, and determine the final water levels in both towers after this transfer.",
+        "Step 5: Sum up the final amounts of water in all three towers to find the total amount of water available to the town."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial amount of water lost from Tower A due to the leak, which is 10% of its capacity.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the initial amount of water lost from Tower B due to the leak, which is 15% of its capacity.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the amount of water transferred from Tower C to Tower A, which is 20% of Tower C's capacity, and calculate the new water levels in both towers after this transfer.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water transferred from Tower B to Tower C, which is 25% of Tower B's capacity after the leak, and determine the final water levels in both towers after this transfer.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) up the final amounts of water in all three towers to find the ମୋଟ (total) amount of water available to the town."
+    ],
+    "final_answer": "8600"
+}

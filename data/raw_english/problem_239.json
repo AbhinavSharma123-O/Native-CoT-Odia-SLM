@@ -1,0 +1,12 @@
+{
+    "id": "239",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all bakeries is 210, which is 30 more than the total number of employees in all cafes. The total number of employees in all restaurants is 150 more than the total number of employees in all cafes. If the ratio of the number of bakeries to the number of cafes to the number of restaurants is 3:4:5, and each bakery has 10 employees, how many employees are there in each cafe and how many cafes are there in total, given that each restaurant has 20 employees?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of employees in all cafes by subtracting 30 from the total number of employees in all bakeries.",
+        "Step 2: Determine the total number of employees in all restaurants by adding 150 to the total number of employees in all cafes.",
+        "Step 3: Use the given ratio and the number of employees in each type of shop to set up equations representing the total number of employees in each type of shop.",
+        "Step 4: Solve the equations to find the number of employees in each cafe and the total number of cafes.",
+        "Step 5: Verify the calculations by ensuring the total number of employees in all shops and the ratio of the number of shops match the problem statement."
+    ],
+    "final_answer": "There are 12 employees in each cafe and there are 28 cafes in total."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "233",
+    "problem": "There are five switches, but they are not labelled. Each switch corresponds to one of five light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room.",
+        "Step 3: Observe the light bulbs and note which ones are on and which ones are off. Also, note the temperature of each bulb (a bulb that has been recently turned off will be warm).",
+        "Step 4: Use the information gathered to assign switch 1 and switch 2 to their respective bulbs.",
+        "Step 5: Use the process of elimination to assign the remaining switches to their respective bulbs."
+    ],
+    "final_answer": "Switch 1 corresponds to the bulb that is off but warm, switch 2 corresponds to the bulb that is on, and switches 3, 4, and 5 can be assigned to the remaining bulbs through the process of elimination."
+}

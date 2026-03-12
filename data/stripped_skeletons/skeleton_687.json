@@ -1,0 +1,20 @@
+{
+    "id": "687",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than Type B shops. Type C shops have 3 times the number of employees as Type B shops. If the total number of employees in all shops is 450 and there are 15 Type A shops, 20 Type B shops, and 10 Type C shops, how many employees are in each Type B shop?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than Type B shops. Type C shops have 3 times the number of employees as Type B shops. ଯଦି (if) the ମୋଟ (total) number of employees in all shops is 450 and there are 15 Type A shops, 20 Type B shops, and 10 Type C shops, how many employees are in each Type B shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in Type A shops as A, in Type B shops as B, and in Type C shops as C.",
+        "Step 2: Translate the given relationships between the types of shops into equations. We have A = B + 5 and C = 3B.",
+        "Step 3: Calculate the total number of employees using the given number of shops for each type. The total number of employees is given by 15A + 20B + 10C = 450.",
+        "Step 4: Substitute the expressions for A and C from Step 2 into the equation from Step 3 to solve for B. This means substituting A = B + 5 and C = 3B into the total equation.",
+        "Step 5: Perform the substitution and solve the resulting equation for B. This involves calculating 15(B + 5) + 20B + 10(3B) = 450, which simplifies to 15B + 75 + 20B + 30B = 450, then to 65B + 75 = 450, and finally to 65B = 375, giving B = 375 / 65."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in Type A shops as A, in Type B shops as B, and in Type C shops as C.",
+        "ପଦକ୍ଷେପ (step) 2: Translate the given relationships between the types of shops into equations. We have A = B + 5 and C = 3B.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of employees using the given number of shops for each type. The ମୋଟ (total) number of employees is given by 15A + 20B + 10C = 450.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for A and C from ପଦକ୍ଷେପ (step) 2 into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to solve for B. This means substituting A = B + 5 and C = 3B into the ମୋଟ (total) ସମୀକରଣ (equation).",
+        "ପଦକ୍ଷେପ (step) 5: Perform the substitution and solve the resulting ସମୀକରଣ (equation) for B. This involves calculating 15(B + 5) + 20B + 10(3B) = 450, which simplifies to 15B + 75 + 20B + 30B = 450, ତାହେଲେ (then) to 65B + 75 = 450, and finally to 65B = 375, giving B = 375 / 65."
+    ],
+    "final_answer": "5.769"
+}

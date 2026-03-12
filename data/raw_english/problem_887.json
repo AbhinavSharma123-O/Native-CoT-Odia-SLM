@@ -1,0 +1,12 @@
+{
+    "id": "887",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 liters of water, Tank B can hold 900 liters, and Tank C can hold 1500 liters. The town's water supply system can fill Tank A at a rate of 10 liters per minute, Tank B at 15 liters per minute, and Tank C at 20 liters per minute. However, due to a leak, Tank A loses water at a rate of 2 liters per minute, Tank B loses water at 3 liters per minute, and Tank C loses water at 1 liter per minute. If all three tanks are currently empty and the town's water supply system starts filling them at the same time, how many minutes will it take to fill all three tanks to their maximum capacity?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net fill rate for each tank by subtracting the leak rate from the fill rate. For Tank A, the net fill rate is 10 - 2 = 8 liters per minute. For Tank B, the net fill rate is 15 - 3 = 12 liters per minute. For Tank C, the net fill rate is 20 - 1 = 19 liters per minute.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net fill rate. For Tank A, the time is 1200 / 8 = 150 minutes. For Tank B, the time is 900 / 12 = 75 minutes. For Tank C, the time is 1500 / 19 = 78.95 minutes.",
+        "Step 3: Find the longest time it takes to fill any of the tanks, which will be the time when all tanks are filled. Comparing the times from Step 2, Tank A takes the longest to fill at 150 minutes.",
+        "Step 4: Confirm that the other tanks will be filled and waiting by the time the longest tank is filled. Since Tank B fills in 75 minutes and Tank C in approximately 79 minutes, both will be filled and waiting by the time Tank A is filled.",
+        "Step 5: Conclude the time it takes to fill all three tanks based on the longest fill time calculated."
+    ],
+    "final_answer": "150"
+}

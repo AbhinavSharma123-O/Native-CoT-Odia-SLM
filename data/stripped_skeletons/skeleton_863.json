@@ -1,0 +1,20 @@
+{
+    "id": "863",
+    "original_problem": "In a small town, there are three types of shops: clothing, electronics, and home goods. Each shop has a different owner: Alex, Ben, and Charlie. The shops are located on three consecutive streets: Main, Oak, and Pine. Using the following clues, determine the order of the shops and their owners: (1) The electronics shop is located next to Charlie's shop. (2) The home goods shop is on Main Street. (3) Alex's shop is on Pine Street. (4) Ben's shop is not on Main Street. (5) The clothing shop is on Oak Street. The town council imposes a tax based on the shop type: $1000 for clothing, $2000 for electronics, and $1500 for home goods. If the total tax collected from all three shops is $4500, what is the total amount of tax paid by the shop owners on Main and Oak Streets?",
+    "deconstructed_problem": "In a small town, there are three types of shops: clothing, electronics, and home goods. Each shop has a different owner: Alex, Ben, and Charlie. The shops are located on three consecutive streets: Main, Oak, and Pine. Using the following clues, determine the order of the shops and their owners: (1) The electronics shop is located next to Charlie's shop. (2) The home goods shop is on Main Street. (3) Alex's shop is on Pine Street. (4) Ben's shop is not on Main Street. (5) The clothing shop is on Oak Street. The town council imposes a tax based on the shop type: $1000 for clothing, $2000 for electronics, and $1500 for home goods. ଯଦି (if) the ମୋଟ (total) tax collected from all three shops is $4500, what is the ମୋଟ (total) amount of tax paid by the shop owners on Main and Oak Streets?",
+    "original_steps": [
+        "Step 1: Determine the possible locations for each shop type based on clues (1) through (5)",
+        "Step 2: Use clue (2) to establish that the home goods shop is on Main Street, and then apply clue (3) to place Alex's shop on Pine Street",
+        "Step 3: Apply clue (5) to place the clothing shop on Oak Street, and use clue (4) to deduce that Ben's shop must be the electronics shop, which cannot be on Main Street due to clue (2), thus placing it on Pine Street is not possible due to Alex's shop, so it must be on Oak Street or the arrangement does not fit",
+        "Step 4: From clue (1), since the electronics shop must be next to Charlie's, and given Ben's shop is electronics and on Oak, Charlie's must be either clothing or home goods; but since the clothing shop is on Oak and Ben is electronics, Charlie cannot own the clothing shop, placing Charlie as the owner of the home goods shop on Main Street",
+        "Step 5: Calculate the total tax paid by shops on Main and Oak Streets, knowing the home goods shop ($1500) is on Main, the clothing shop ($1000) is on Oak, and the electronics shop ($2000) is on Oak"
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible locations for each shop type based on clues (1) through (5)",
+        "ପଦକ୍ଷେପ (step) 2: Use clue (2) to establish that the home goods shop is on Main Street, and ତାହେଲେ (then) apply clue (3) to place Alex's shop on Pine Street",
+        "ପଦକ୍ଷେପ (step) 3: Apply clue (5) to place the clothing shop on Oak Street, and use clue (4) to deduce that Ben's shop must be the electronics shop, which cannot be on Main Street due to clue (2), thus placing it on Pine Street is not possible due to Alex's shop, so it must be on Oak Street or the arrangement does not fit",
+        "ପଦକ୍ଷେପ (step) 4: From clue (1), since the electronics shop must be next to Charlie's, and given Ben's shop is electronics and on Oak, Charlie's must be either clothing or home goods; but since the clothing shop is on Oak and Ben is electronics, Charlie cannot own the clothing shop, placing Charlie as the owner of the home goods shop on Main Street",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) tax paid by shops on Main and Oak Streets, knowing the home goods shop ($1500) is on Main, the clothing shop ($1000) is on Oak, and the electronics shop ($2000) is on Oak"
+    ],
+    "final_answer": "$3500"
+}

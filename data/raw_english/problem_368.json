@@ -1,0 +1,12 @@
+{
+    "id": "368",
+    "problem": "In a small town, there are three types of people: farmers, teachers, and engineers. The town has a total of 240 residents. The number of engineers is 1/3 the number of farmers. The number of teachers is 1/4 the number of engineers. If 1/5 of the farmers are also teachers and 1/10 of the engineers are also farmers, what is the total number of people in the town who are either farmers or teachers?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of farmers (F), teachers (T), and engineers (E), and establish the relationship between them based on the given information.",
+        "Step 2: Express the number of engineers in terms of the number of farmers: E = 1/3F.",
+        "Step 3: Express the number of teachers in terms of the number of engineers: T = 1/4E. Substitute the expression for E from Step 2 to get T in terms of F: T = 1/4 * (1/3F) = 1/12F.",
+        "Step 4: Calculate the number of farmers who are also teachers: 1/5F. Since these individuals are counted in both the farmer and teacher groups, they need to be considered when calculating the total number of people who are either farmers or teachers.",
+        "Step 5: Calculate the number of engineers who are also farmers: 1/10E. Using the relationship E = 1/3F, we find this number in terms of F: 1/10 * (1/3F) = 1/30F. This is important for accurately counting the total number of unique individuals who are farmers or teachers."
+    ],
+    "final_answer": "To find the total number of people who are either farmers or teachers, we must solve the system of equations considering the overlaps. Let's denote the total number of farmers or teachers as N. The equation to represent the total population is F + T + E - (1/5F + 1/30F) = 240, since we subtract the overlaps to avoid double-counting. Substituting T and E in terms of F from the earlier steps gives us F + 1/12F + 1/3F - (1/5F + 1/30F) = 240. Simplifying this equation will give us the value of F, and subsequently, we can find the total number of people who are either farmers or teachers."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "195",
+    "problem": "In a small village, there are three types of shops: bakeries, candy stores, and florists. Each bakery sells a combination of 3 types of bread and 2 types of pastries. Each candy store sells 5 types of candies and has a 20% discount on all items on Wednesdays. Each florist sells 4 types of flowers and offers a 15% discount for purchases over $100. The village has a total of 15 shops, with 5 shops on Main Street, 4 shops on Elm Street, and 6 shops on Oak Street. If 40% of the shops on Main Street are bakeries, 30% of the shops on Elm Street are candy stores, and 50% of the shops on Oak Street are florists, what is the total percentage of shops that are either bakeries or candy stores?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of bakeries on Main Street by multiplying the total number of shops on Main Street by the percentage of bakeries.",
+        "Step 2: Calculate the number of candy stores on Elm Street by multiplying the total number of shops on Elm Street by the percentage of candy stores.",
+        "Step 3: Calculate the number of florists on Oak Street by multiplying the total number of shops on Oak Street by the percentage of florists, then determine the remaining shops that could be either bakeries or candy stores.",
+        "Step 4: Combine the number of bakeries from Main Street and the potential bakeries from Oak Street, and the number of candy stores from Elm Street and the potential candy stores from Oak Street.",
+        "Step 5: Calculate the total percentage of shops that are either bakeries or candy stores by dividing the combined total of bakeries and candy stores by the total number of shops in the village and then multiplying by 100."
+    ],
+    "final_answer": "36.67%"
+}

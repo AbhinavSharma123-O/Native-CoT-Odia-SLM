@@ -1,0 +1,20 @@
+{
+    "id": "683",
+    "problem": "A group of five friends - Alex, Ben, Charlie, David, and Emily - are planning a road trip that spans seven days, starting from Monday and ending on Sunday. Each day, they will visit one of five cities: City A, City B, City C, City D, or City E. The following conditions must be met: (1) They cannot visit the same city more than once. (2) Alex wants to visit City A on the day before Ben visits City B. (3) Charlie insists on visiting City C on Wednesday. (4) David needs to visit City D on the day after Emily visits City E. (5) Emily cannot visit City E on Monday or Sunday. Given these conditions, determine the sequence of cities the friends will visit each day, ensuring all conditions are satisfied.",
+    "reasoning_steps": [
+        "Step 1: Determine the fixed positions based on the given conditions. From condition (3), we know Charlie visits City C on Wednesday.",
+        "Step 2: Use condition (5) to establish possible days for Emily to visit City E, which are Tuesday, Wednesday, Thursday, Friday, or Saturday.",
+        "Step 3: Apply condition (2) to determine the relative positions of Alex and Ben. Since Alex must visit City A the day before Ben visits City B, and considering the restrictions from other conditions, we can start to narrow down the possible sequences.",
+        "Step 4: With the information from steps 1-3, use condition (4) to place David's visit to City D in relation to Emily's visit to City E, ensuring it's the day after.",
+        "Step 5: Combine all the information to create a sequence that satisfies all conditions, ensuring each city is visited only once and all friend preferences are met."
+    ],
+    "final_answer": {
+        "Monday": "City E",
+        "Tuesday": "City A",
+        "Wednesday": "City C",
+        "Thursday": "City D",
+        "Friday": "City B",
+        "Saturday": "No visit, as all cities have been visited",
+        "Sunday": "No visit, as per condition (1) and the sequence"
+    }
+}

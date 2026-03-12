@@ -1,0 +1,16 @@
+{
+    "id": "88",
+    "problem": "In a small town, there are three types of shops: clothing, electronics, and home goods. Each type of shop has a specific number of employees. The total number of employees in all shops is 240. The number of employees in clothing shops is 30 more than the number of employees in electronics shops. The number of employees in home goods shops is 50 less than the number of employees in electronics shops. If the ratio of employees in clothing shops to electronics shops to home goods shops is 4:3:2, what is the number of employees in each type of shop?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop: let C be the number of employees in clothing shops, E be the number of employees in electronics shops, and H be the number of employees in home goods shops.",
+        "Step 2: Translate the given information into mathematical equations based on the problem statement: C + E + H = 240, C = E + 30, H = E - 50, and the ratio of C:E:H is 4:3:2.",
+        "Step 3: Use the ratio to express C, E, and H in terms of a common multiplier, x, where C = 4x, E = 3x, and H = 2x.",
+        "Step 4: Substitute the expressions for C, E, and H from Step 3 into the equations from Step 2 to find the value of x and solve for the number of employees in each type of shop.",
+        "Step 5: Once x is determined, calculate the specific number of employees in each type of shop using the expressions from Step 3."
+    ],
+    "final_answer": {
+        "clothing": 96,
+        "electronics": 72,
+        "home goods": 72
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "727",
+    "problem": "In the city of Azure, there are three types of trains: the Azure Express, the Coastal Runner, and the Mountain Climber. Each train has a different average speed and a different number of cars. The Azure Express travels at an average speed of 80 km/h and has 10 cars. The Coastal Runner travels at an average speed of 90 km/h and has 8 cars. The Mountain Climber travels at an average speed of 60 km/h and has 12 cars. If 240 passengers are distributed evenly among the three trains, and each car can hold 20 passengers, how many hours will it take for the three trains to travel a total distance of 720 km, assuming they all start at the same time and travel the same direction, but each train travels a different portion of the total distance? The portion of the distance each train travels is directly proportional to the number of passengers it carries.",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of passengers each train carries by dividing the total number of passengers by the number of trains and considering the even distribution.",
+        "Step 2: Determine the portion of the total distance each train will travel based on the number of passengers it carries.",
+        "Step 3: Calculate the distance each train will travel by multiplying the portion of the distance by the total distance.",
+        "Step 4: Calculate the time it will take for each train to travel its portion of the distance by dividing the distance by the average speed of each train.",
+        "Step 5: Determine the maximum time from the calculated times for each train, which will be the time it takes for all three trains to complete their respective portions of the total distance."
+    ],
+    "final_answer": "6"
+}

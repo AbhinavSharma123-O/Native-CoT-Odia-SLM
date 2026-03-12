@@ -1,0 +1,12 @@
+{
+    "id": "924",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of loaves of bread per day, with the first bakery selling 250 loaves, the second selling 300 loaves, and the third selling 200 loaves. Additionally, each cafe sells a combination of coffee and pastries, with a ratio of 3:5 for coffee to pastry sales. If the total number of pastries sold in all cafes is 1500, and each restaurant serves an average of 2.5 times the number of customers as each cafe, with the total number of customers in all restaurants being 3000, how many cafes are there in total, given that the total number of customers in all cafes and restaurants combined is 5000?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of customers in all restaurants",
+        "Step 2: Determine the number of customers in each cafe by using the total number of customers in all cafes and restaurants",
+        "Step 3: Find out the number of cafes by dividing the total number of pastries sold by the ratio of pastry sales per cafe",
+        "Step 4: Calculate the average number of customers per cafe by dividing the total number of customers in cafes by the number of cafes",
+        "Step 5: Verify that the calculated number of cafes matches the number obtained by dividing the total number of customers in all cafes and restaurants by the average number of customers per cafe and per restaurant"
+    ],
+    "final_answer": "6"
+}

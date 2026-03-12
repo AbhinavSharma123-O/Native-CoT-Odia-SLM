@@ -1,0 +1,15 @@
+{
+    "id": "796",
+    "problem": "In a small town, there are three types of shops: clothing, electronics, and furniture. Each shop has a different owner: Alex, Ben, and Chris. The shops are located on three consecutive streets: Main, Oak, and Pine. Using the following clues, determine the order of the shops and their owners: (1) The electronics shop is located next to the shop owned by Chris. (2) The clothing shop is owned by Ben. (3) The furniture shop is located on Main Street. (4) Alex's shop is not located on Pine Street. (5) The shop owned by Ben is located on Oak Street.",
+    "reasoning_steps": [
+        "Step 1: Identify the known information from the clues, such as the location of the furniture shop and the owner of the clothing shop.",
+        "Step 2: Determine the possible locations of the electronics shop based on clue (1) and the known location of the furniture shop.",
+        "Step 3: Use clue (2) to establish the location of the clothing shop and its owner, then apply clue (4) to narrow down the possible locations for Alex's shop.",
+        "Step 4: Apply clue (5) to finalize the location of Ben's shop, which will help in determining the locations of the other two shops.",
+        "Step 5: Combine all the information gathered to deduce the order of the shops and their respective owners."
+    ],
+    "final_answer": {
+        "order": "Furniture (Alex) on Main, Clothing (Ben) on Oak, Electronics (Chris) on Pine",
+        "owners": "Alex - Furniture, Ben - Clothing, Chris - Electronics"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "490",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The capacity of Tower A is 3000 liters, Tower B is 4000 liters, and Tower C is 5000 liters. If all towers start filling at the same time, but Tower A starts with 1000 liters already filled, Tower B starts with 500 liters, and Tower C starts empty, how many minutes will it take to fill all three towers, assuming that once a tower is filled, it stops being filled?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The capacity of Tower A is 3000 liters, Tower B is 4000 liters, and Tower C is 5000 liters. ଯଦି (if) all towers start filling at the same time, but Tower A starts with 1000 liters already filled, Tower B starts with 500 liters, and Tower C starts empty, how many minutes will it take to fill all three towers, assuming that once a tower is filled, it stops being filled?",
+    "original_steps": [
+        "Step 1: Calculate the remaining capacity for each tower: Tower A needs 3000 - 1000 = 2000 liters, Tower B needs 4000 - 500 = 3500 liters, and Tower C needs 5000 liters.",
+        "Step 2: Determine the time it takes to fill each tower based on their fill rates: Time for Tower A = 2000 / 0.5, Time for Tower B = 3500 / 0.75, Time for Tower C = 5000 / 1.",
+        "Step 3: Calculate the time for each tower: Time for Tower A = 4000 minutes, Time for Tower B = 4666.67 minutes, Time for Tower C = 5000 minutes.",
+        "Step 4: Identify the longest time, which dictates when all towers will be filled since they start filling at the same time. The longest time here is for Tower C at 5000 minutes.",
+        "Step 5: Since the question asks for the time it takes to fill all three towers and they start filling simultaneously, the time when the last tower (Tower C in this case) is filled is the answer."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the remaining capacity for each tower: Tower A needs 3000 - 1000 = 2000 liters, Tower B needs 4000 - 500 = 3500 liters, and Tower C needs 5000 liters.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the time it takes to fill each tower based on their fill rates: Time for Tower A = 2000 / 0.5, Time for Tower B = 3500 / 0.75, Time for Tower C = 5000 / 1.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the time for each tower: Time for Tower A = 4000 minutes, Time for Tower B = 4666.67 minutes, Time for Tower C = 5000 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: Identify the longest time, which dictates when all towers will be filled since they start filling at the same time. The longest time here is for Tower C at 5000 minutes.",
+        "ପଦକ୍ଷେପ (step) 5: Since the question asks for the time it takes to fill all three towers and they start filling simultaneously, the time when the last tower (Tower C in this case) is filled is the answer."
+    ],
+    "final_answer": "5000"
+}

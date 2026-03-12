@@ -1,0 +1,20 @@
+{
+    "id": "856",
+    "original_problem": "In a mystical forest, there are five temples, each containing a different number of ancient artifacts: 15, 27, 32, 41, and 50. The temple with 15 artifacts is 3 miles closer to the forest entrance than the temple with 27 artifacts. The temple with 32 artifacts is 2 miles farther from the temple with 41 artifacts than the temple with 50 artifacts. If the temple with 50 artifacts is 8 miles from the forest entrance, and the temple with 41 artifacts is 5 miles from the temple with 15 artifacts, determine the total distance from the forest entrance to the farthest temple.",
+    "deconstructed_problem": "In a mystical forest, there are five temples, each containing a different number of ancient artifacts: 15, 27, 32, 41, and 50. The temple with 15 artifacts is 3 miles closer to the forest entrance than the temple with 27 artifacts. The temple with 32 artifacts is 2 miles farther from the temple with 41 artifacts than the temple with 50 artifacts. ଯଦି (if) the temple with 50 artifacts is 8 miles from the forest entrance, and the temple with 41 artifacts is 5 miles from the temple with 15 artifacts, determine the ମୋଟ (total) distance from the forest entrance to the farthest temple.",
+    "original_steps": [
+        "Step 1: Determine the distance from the forest entrance to the temple with 15 artifacts and the temple with 27 artifacts.",
+        "Step 2: Calculate the distance between the temple with 50 artifacts and the temple with 41 artifacts, given that the temple with 32 artifacts is 2 miles farther from the temple with 41 artifacts than the temple with 50 artifacts.",
+        "Step 3: Use the distances from steps 1 and 2 to find the distance from the forest entrance to the temple with 32 artifacts.",
+        "Step 4: Calculate the distance from the forest entrance to the temple with 41 artifacts using the information about the temple with 15 artifacts.",
+        "Step 5: Compare the distances from the forest entrance to each temple to determine which temple is farthest and calculate the total distance to that temple."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the distance from the forest entrance to the temple with 15 artifacts and the temple with 27 artifacts.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the distance between the temple with 50 artifacts and the temple with 41 artifacts, given that the temple with 32 artifacts is 2 miles farther from the temple with 41 artifacts than the temple with 50 artifacts.",
+        "ପଦକ୍ଷେପ (step) 3: Use the distances from steps 1 and 2 to find the distance from the forest entrance to the temple with 32 artifacts.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the distance from the forest entrance to the temple with 41 artifacts using the information about the temple with 15 artifacts.",
+        "ପଦକ୍ଷେପ (step) 5: Compare the distances from the forest entrance to each temple to determine which temple is farthest and calculate the ମୋଟ (total) distance to that temple."
+    ],
+    "final_answer": "23"
+}

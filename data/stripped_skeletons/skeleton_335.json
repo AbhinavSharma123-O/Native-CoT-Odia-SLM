@@ -1,0 +1,46 @@
+{
+    "id": "335",
+    "original_problem": "In a mystical forest, there are five temples dedicated to different gods, each with a distinct color: blue, green, red, white, and yellow. Each temple has a unique architectural style: Gothic, Modern, Romanesque, Victorian, and Byzantine, and is inhabited by a different type of priest: Buddhist, Christian, Hindu, Muslim, and Shinto. Using the following clues, determine the color, architectural style, and type of priest for each temple: (1) The Christian priest does not live in the green or yellow temple. (2) The Byzantine temple is to the immediate left of the temple inhabited by the Hindu priest. (3) The green temple is to the immediate right of the white temple. (4) The Buddhist priest lives in the yellow temple. (5) The Romanesque temple is to the immediate left of the Christian priest's temple. (6) The red temple is at one of the ends. (7) The Muslim priest lives in the temple next to the Byzantine temple. (8) The Gothic temple is not at either end. (9) The Shinto priest does not live in the red or green temple. (10) The Victorian temple is at the other end from the red temple.",
+    "deconstructed_problem": "In a mystical forest, there are five temples dedicated to different gods, each with a distinct color: blue, green, red, white, and yellow. Each temple has a unique architectural style: Gothic, Modern, Romanesque, Victorian, and Byzantine, and is inhabited by a different type of priest: Buddhist, Christian, Hindu, Muslim, and Shinto. Using the following clues, determine the color, architectural style, and type of priest for each temple: (1) The Christian priest does not live in the green or yellow temple. (2) The Byzantine temple is to the immediate left of the temple inhabited by the Hindu priest. (3) The green temple is to the immediate right of the white temple. (4) The Buddhist priest lives in the yellow temple. (5) The Romanesque temple is to the immediate left of the Christian priest's temple. (6) The red temple is at one of the ends. (7) The Muslim priest lives in the temple next to the Byzantine temple. (8) The Gothic temple is not at either end. (9) The Shinto priest does not live in the red or green temple. (10) The Victorian temple is at the other end from the red temple.",
+    "original_steps": [
+        "Step 1: Determine the possible positions of the red temple based on clue (6).",
+        "Step 2: Use clue (3) to establish the relative positions of the green and white temples.",
+        "Step 3: Apply clue (4) to place the yellow temple and its Buddhist priest, then use clue (2) to position the Byzantine temple and the Hindu priest.",
+        "Step 4: With clue (5), position the Romanesque temple relative to the Christian priest's temple, considering the restrictions from clues (1) and (3).",
+        "Step 5: Utilize clue (8) to place the Gothic temple, and then apply clues (7) and (9) to finalize the positions of the Muslim and Shinto priests, respectively."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible positions of the red temple based on clue (6).",
+        "ପଦକ୍ଷେପ (step) 2: Use clue (3) to establish the relative positions of the green and white temples.",
+        "ପଦକ୍ଷେପ (step) 3: Apply clue (4) to place the yellow temple and its Buddhist priest, ତାହେଲେ (then) use clue (2) to position the Byzantine temple and the Hindu priest.",
+        "ପଦକ୍ଷେପ (step) 4: With clue (5), position the Romanesque temple relative to the Christian priest's temple, considering the restrictions from clues (1) and (3).",
+        "ପଦକ୍ଷେପ (step) 5: Utilize clue (8) to place the Gothic temple, and ତାହେଲେ (then) apply clues (7) and (9) to finalize the positions of the Muslim and Shinto priests, respectively."
+    ],
+    "final_answer": {
+        "Temple 1 (Left End - Red)": {
+            "color": "red",
+            "style": "Victorian",
+            "priest": "Shinto"
+        },
+        "Temple 2": {
+            "color": "blue",
+            "style": "Gothic",
+            "priest": "Muslim"
+        },
+        "Temple 3": {
+            "color": "white",
+            "style": "Byzantine",
+            "priest": "Hindu"
+        },
+        "Temple 4": {
+            "color": "green",
+            "style": "Romanesque",
+            "priest": "Christian"
+        },
+        "Temple 5 (Right End - Not Red)": {
+            "color": "yellow",
+            "style": "Modern",
+            "priest": "Buddhist"
+        }
+    }
+}

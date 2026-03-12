@@ -1,0 +1,12 @@
+{
+    "id": "194",
+    "problem": "In a small town, there are three water towers: Tower A, Tower B, and Tower C. Tower A can hold 1200 gallons of water, Tower B can hold 800 gallons, and Tower C can hold 1500 gallons. The town uses an average of 250 gallons per day for its residents. However, there is a festival coming up that will increase the water usage to 400 gallons per day for 5 days. After the festival, a new, more efficient system will be installed that reduces daily water usage to 200 gallons. If Tower A is currently 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full, will the town have enough water to last until the new system is installed after the festival, assuming the new system will be installed 10 days after the festival ends? If yes, how many gallons of water will be left?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water currently available in all towers by determining the amount in each tower based on its capacity and fill level.",
+        "Step 2: Determine the total water usage during the festival by multiplying the increased usage rate by the number of days of the festival.",
+        "Step 3: Calculate the remaining water after the festival by subtracting the festival's water usage from the total water available before the festival.",
+        "Step 4: Calculate the water usage for the 10 days following the festival at the new, reduced rate.",
+        "Step 5: Subtract the post-festival water usage from the remaining water after the festival to find out how much water will be left when the new system is installed."
+    ],
+    "final_answer": "Yes, the town will have enough water, with 565 gallons left."
+}

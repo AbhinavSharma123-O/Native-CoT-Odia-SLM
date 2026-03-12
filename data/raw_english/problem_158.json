@@ -1,0 +1,12 @@
+{
+    "id": "158",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 gallons, Tank B can hold 800 gallons, and Tank C can hold 1200 gallons. The town's water supply system is designed such that Tank A is filled first, then Tank B, and finally Tank C. The system is also set up so that when Tank A is 3/4 full, a valve opens, allowing excess water to flow into Tank B. Similarly, when Tank B is 2/3 full, another valve opens, allowing excess water to flow into Tank C. If the town's water supply can fill Tank A at a rate of 50 gallons per minute, how many minutes will it take to fill all three tanks, given that Tank A starts empty, Tank B starts with 200 gallons, and Tank C starts with 300 gallons?",
+    "reasoning_steps": [
+        "Step 1: Determine the amount of water needed to fill each tank from its initial state.",
+        "Step 2: Calculate the time it takes to fill Tank A to 3/4 of its capacity and the amount of water that flows into Tank B at this point.",
+        "Step 3: Calculate the time it takes for Tank B to reach 2/3 of its capacity after the valve from Tank A opens, considering the initial water in Tank B and the water flowing in from Tank A.",
+        "Step 4: Determine the amount of water that flows into Tank C when Tank B reaches 2/3 of its capacity and calculate how long it takes to fill Tank C, considering the initial water and the water flowing in from Tank B.",
+        "Step 5: Calculate the total time required to fill all three tanks based on the times calculated in the previous steps."
+    ],
+    "final_answer": "It will take 37.5 minutes to fill all three tanks."
+}

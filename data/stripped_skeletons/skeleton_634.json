@@ -1,0 +1,20 @@
+{
+    "id": "634",
+    "original_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and candle makers. Each shop has a distinct number of employees: 5, 7, and 9. The total number of employees in all the shops is 45. The bakeries have 5 more employees than the butcher shops. The candle makers have 3 fewer employees than the bakeries and the butcher shops combined. If the butcher shops have the fewest employees, how many employees does each type of shop have?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and candle makers. Each shop has a distinct number of employees: 5, 7, and 9. The ମୋଟ (total) number of employees in all the shops is 45. The bakeries have 5 more employees than the butcher shops. The candle makers have 3 fewer employees than the bakeries and the butcher shops combined. ଯଦି (if) the butcher shops have the fewest employees, how many employees does each type of shop have?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries, butcher shops, and candle makers as B, S, and C respectively, and the number of employees in each type of shop as b, s, and c.",
+        "Step 2: Given that b = 5, s = 7, and c = 9, and the butcher shops have the fewest employees, we can set up equations based on the given information: b + s + c = 45 and b = s + 5.",
+        "Step 3: Express c in terms of b and s using the information that c = b + s - 3.",
+        "Step 4: Substitute b = s + 5 into the equation c = b + s - 3 to get c in terms of s: c = (s + 5) + s - 3 = 2s + 2.",
+        "Step 5: Substitute the expressions for b and c into the equation b + s + c = 45: (s + 5) + s + (2s + 2) = 45 and solve for s."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries, butcher shops, and candle makers as B, S, and C respectively, and the number of employees in each type of shop as b, s, and c.",
+        "ପଦକ୍ଷେପ (step) 2: Given that b = 5, s = 7, and c = 9, and the butcher shops have the fewest employees, we can set up equations based on the given information: b + s + c = 45 and b = s + 5.",
+        "ପଦକ୍ଷେପ (step) 3: Express c in terms of b and s using the information that c = b + s - 3.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute b = s + 5 into the ସମୀକରଣ (equation) c = b + s - 3 to get c in terms of s: c = (s + 5) + s - 3 = 2s + 2.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the expressions for b and c into the ସମୀକରଣ (equation) b + s + c = 45: (s + 5) + s + (2s + 2) = 45 and solve for s."
+    ],
+    "final_answer": "Butcher shops: 7 employees, Bakeries: 12 employees, Candle makers: 26 employees"
+}

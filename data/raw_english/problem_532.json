@@ -1,0 +1,12 @@
+{
+    "id": "532",
+    "problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding light bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position, then immediately enter the room to observe the light bulbs.",
+        "Step 3: Identify the light bulb that is on, which corresponds to switch 2.",
+        "Step 4: Identify the light bulb that is off but warm, which corresponds to switch 1.",
+        "Step 5: The remaining light bulb corresponds to switch 3."
+    ],
+    "final_answer": "You can correctly identify the corresponding switch for each light bulb."
+}

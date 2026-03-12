@@ -1,0 +1,20 @@
+{
+    "id": "900",
+    "original_problem": "In a small town, there are three bridges, A, B, and C, each with a different toll to cross. Bridge A costs $5 to cross during the day and $3 at night. Bridge B costs $4 to cross during the day and $2 at night. Bridge C costs $6 to cross during the day and $4 at night. A truck driver needs to cross each bridge exactly once to get to his destination, which is on the other side of the bridges. However, due to traffic restrictions, he can only cross one bridge at night and must cross the other two during the day. If the truck driver wants to minimize his total toll cost and he has to cross Bridge A, what is the minimum total toll he will have to pay to cross all three bridges, given that he can choose which bridge to cross at night to minimize his cost?",
+    "deconstructed_problem": "In a small town, there are three bridges, A, B, and C, each with a different toll to cross. Bridge A costs $5 to cross during the day and $3 at night. Bridge B costs $4 to cross during the day and $2 at night. Bridge C costs $6 to cross during the day and $4 at night. A truck driver needs to cross each bridge exactly once to get to his destination, which is on the other side of the bridges. However, due to traffic restrictions, he can only cross one bridge at night and must cross the other two during the day. ଯଦି (if) the truck driver wants to minimize his ମୋଟ (total) toll cost and he has to cross Bridge A, what is the minimum ମୋଟ (total) toll he will have to pay to cross all three bridges, given that he can choose which bridge to cross at night to minimize his cost?",
+    "original_steps": [
+        "Step 1: Determine the possible combinations of bridges that can be crossed at night to minimize the cost, considering that Bridge A must be crossed.",
+        "Step 2: Calculate the total toll cost for each possible combination, taking into account the day and night tolls for each bridge.",
+        "Step 3: Compare the costs of crossing Bridge A during the day with the costs of crossing it at night, considering the restrictions and the goal to minimize the total toll.",
+        "Step 4: Identify the cheapest option for the night crossing between Bridges B and C, given that one of them must be crossed at night.",
+        "Step 5: Calculate the final minimum total toll by adding the costs of crossing the two bridges during the day and the chosen bridge at night."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible combinations of bridges that can be crossed at night to minimize the cost, considering that Bridge A must be crossed.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) toll cost for each possible combination, taking into account the day and night tolls for each bridge.",
+        "ପଦକ୍ଷେପ (step) 3: Compare the costs of crossing Bridge A during the day with the costs of crossing it at night, considering the restrictions and the goal to minimize the ମୋଟ (total) toll.",
+        "ପଦକ୍ଷେପ (step) 4: Identify the cheapest option for the night crossing between Bridges B and C, given that one of them must be crossed at night.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the final minimum ମୋଟ (total) toll by adding the costs of crossing the two bridges during the day and the chosen bridge at night."
+    ],
+    "final_answer": "16"
+}

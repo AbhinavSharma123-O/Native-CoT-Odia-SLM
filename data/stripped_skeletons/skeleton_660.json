@@ -1,0 +1,24 @@
+{
+    "id": "660",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 gallons of water, Tank B can hold 3000 gallons, and Tank C can hold 4000 gallons. The town's water supply system is such that Tank A is filled first, then Tank B, and finally Tank C. On a particular day, due to a burst pipe, 1500 gallons of water were lost from Tank A before it was completely filled. Later, 1/4 of the water from Tank B was transferred to Tank C. After these events, it was found that the total amount of water in all tanks was 6200 gallons. How many gallons of water were in Tank C after the transfer from Tank B?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 gallons of water, Tank B can hold 3000 gallons, and Tank C can hold 4000 gallons. The town's water supply system is such that Tank A is filled first, ତାହେଲେ (then) Tank B, and finally Tank C. On a particular day, due to a burst pipe, 1500 gallons of water were lost from Tank A before it was completely filled. Later, 1/4 of the water from Tank B was transferred to Tank C. After these events, it was found that the ମୋଟ (total) amount of water in all tanks was 6200 gallons. How many gallons of water were in Tank C after the transfer from Tank B?",
+    "original_steps": [
+        "Step 1: Calculate the initial amount of water that would have been in Tank A if it were completely filled without any loss, which is 2000 gallons.",
+        "Step 2: Determine the actual amount of water in Tank A after the loss, which is 2000 - 1500 = 500 gallons.",
+        "Step 3: Understand that Tank B starts filling after Tank A is filled, meaning Tank B would have been filled completely before any water was transferred to Tank C, giving it 3000 gallons initially.",
+        "Step 4: Calculate the amount of water transferred from Tank B to Tank C, which is 1/4 of 3000 gallons, equal to 750 gallons.",
+        "Step 5: Calculate the remaining water in Tank B after the transfer, which would be 3000 - 750 = 2250 gallons.",
+        "Step 6: Determine the total amount of water in Tanks A and B after all events, which is 500 (from Tank A) + 2250 (remaining in Tank B) = 2750 gallons.",
+        "Step 7: Since the total amount of water in all tanks after the events is given as 6200 gallons, calculate the amount of water in Tank C by subtracting the total in Tanks A and B from this total: 6200 - 2750 = 3450 gallons."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial amount of water that would have been in Tank A ଯଦି (if) it were completely filled without any loss, which is 2000 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the actual amount of water in Tank A after the loss, which is 2000 - 1500 = 500 gallons.",
+        "ପଦକ୍ଷେପ (step) 3: Understand that Tank B starts filling after Tank A is filled, meaning Tank B would have been filled completely before any water was transferred to Tank C, giving it 3000 gallons initially.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water transferred from Tank B to Tank C, which is 1/4 of 3000 gallons, ସମାନ (equal) to 750 gallons.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the remaining water in Tank B after the transfer, which would be 3000 - 750 = 2250 gallons.",
+        "ପଦକ୍ଷେପ (step) 6: Determine the ମୋଟ (total) amount of water in Tanks A and B after all events, which is 500 (from Tank A) + 2250 (remaining in Tank B) = 2750 gallons.",
+        "ପଦକ୍ଷେପ (step) 7: Since the ମୋଟ (total) amount of water in all tanks after the events is given as 6200 gallons, calculate the amount of water in Tank C by subtracting the ମୋଟ (total) in Tanks A and B from this ମୋଟ (total): 6200 - 2750 = 3450 gallons."
+    ],
+    "final_answer": "3450"
+}

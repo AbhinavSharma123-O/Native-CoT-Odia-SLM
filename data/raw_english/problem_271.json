@@ -1,0 +1,12 @@
+{
+    "id": "271",
+    "problem": "In a small town, there are three types of shops: cafes, restaurants, and bakeries. Each cafe has 5 tables, each restaurant has 10 tables, and each bakery has 3 tables. The town has a total of 150 tables. Additionally, the number of cafes is 2 more than the number of bakeries, and the number of restaurants is 5 less than the number of cafes. How many shops of each type are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of cafes, restaurants, and bakeries as c, r, and b respectively.",
+        "Step 2: Formulate equations based on the given information: c = b + 2 and r = c - 5.",
+        "Step 3: Express the total number of tables using the variables: 5c + 10r + 3b = 150.",
+        "Step 4: Substitute the expressions for c and r from Step 2 into the equation from Step 3 to solve for b.",
+        "Step 5: After finding b, use the relationships c = b + 2 and r = c - 5 to find the number of cafes and restaurants."
+    ],
+    "final_answer": "There are 8 bakeries, 10 cafes, and 5 restaurants in the town."
+}

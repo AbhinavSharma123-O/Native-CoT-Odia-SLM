@@ -1,0 +1,14 @@
+{
+    "id": "107",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town requires 3000 liters of water to meet its daily needs. However, Tower A can only hold 1200 liters, Tower B can hold 1500 liters, and Tower C can hold 2000 liters. If all towers start filling at the same time and Tower A fills up first, then Tower B, and finally Tower C, how many minutes will it take to fill all three towers to their maximum capacity and meet the town's daily needs, assuming that once a tower is full, it stops filling and the excess water from the other towers is used to fill the remaining towers?",
+    "reasoning_steps": [
+        "Step 1: Calculate the time it takes for Tower A to fill up completely: time_A = capacity_A / fill_rate_A",
+        "Step 2: Determine the amount of water left to fill Tower B after Tower A is full: remaining_water_B = capacity_B - (fill_rate_B * time_A)",
+        "Step 3: Calculate the additional time needed to fill Tower B after Tower A is full: additional_time_B = remaining_water_B / fill_rate_B",
+        "Step 4: Calculate the total time to fill Tower B: total_time_B = time_A + additional_time_B",
+        "Step 5: Determine the amount of water left to fill Tower C after both Tower A and Tower B are full: remaining_water_C = capacity_C - (fill_rate_C * total_time_B)",
+        "Step 6: Calculate the additional time needed to fill Tower C after both Tower A and Tower B are full: additional_time_C = remaining_water_C / fill_rate_C",
+        "Step 7: Calculate the total time to fill all three towers to their maximum capacity and meet the town's daily needs: total_time = total_time_B + additional_time_C"
+    ],
+    "final_answer": "It will take 2400 minutes to fill Tower A, 2600 minutes to fill Tower B, and 3000 minutes to fill Tower C and meet the town's daily needs, so the final answer is the time it takes to fill Tower C, which is 3000 minutes."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "418",
+    "original_problem": "In a small town, there are three types of shops: clothing stores, bakeries, and restaurants. A survey found that 60% of the shops are clothing stores, 30% are bakeries, and the remaining 10% are restaurants. If the average annual revenue of a clothing store is $200,000, a bakery is $150,000, and a restaurant is $300,000, what is the total annual revenue of all the shops in the town if there are 120 shops in total, but 20 of them are closed due to renovations?",
+    "deconstructed_problem": "In a small town, there are three types of shops: clothing stores, bakeries, and restaurants. A survey found that 60% of the shops are clothing stores, 30% are bakeries, and the remaining 10% are restaurants. ଯଦି (if) the average annual revenue of a clothing store is $200,000, a bakery is $150,000, and a restaurant is $300,000, what is the ମୋଟ (total) annual revenue of all the shops in the town ଯଦି (if) there are 120 shops in ମୋଟ (total), but 20 of them are closed due to renovations?",
+    "original_steps": [
+        "Step 1: Calculate the number of shops of each type by applying the percentages to the total number of shops, which is 120. This means there are 0.6 * 120 = 72 clothing stores, 0.3 * 120 = 36 bakeries, and 0.1 * 120 = 12 restaurants.",
+        "Step 2: Adjust the number of shops of each type to account for the 20 shops that are closed. Assuming the closed shops are distributed proportionally across the types (which may not be explicitly stated but is a common assumption in such problems), calculate the proportion of each type that remains open. The proportion of shops that are open is (120 - 20) / 120 = 100 / 120 = 5/6.",
+        "Step 3: Apply this proportion to each type of shop to find out how many of each are open. For clothing stores: 72 * (5/6) = 60, for bakeries: 36 * (5/6) = 30, and for restaurants: 12 * (5/6) = 10.",
+        "Step 4: Calculate the total annual revenue from each type of shop. For clothing stores: 60 shops * $200,000 = $12,000,000, for bakeries: 30 shops * $150,000 = $4,500,000, and for restaurants: 10 shops * $300,000 = $3,000,000.",
+        "Step 5: Sum the revenues from all types of shops to find the total annual revenue of all open shops in the town."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of shops of each type by applying the percentages to the ମୋଟ (total) number of shops, which is 120. This means there are 0.6 * 120 = 72 clothing stores, 0.3 * 120 = 36 bakeries, and 0.1 * 120 = 12 restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Adjust the number of shops of each type to account for the 20 shops that are closed. Assuming the closed shops are distributed proportionally across the types (which may not be explicitly stated but is a common assumption in such problems), calculate the proportion of each type that remains open. The proportion of shops that are open is (120 - 20) / 120 = 100 / 120 = 5/6.",
+        "ପଦକ୍ଷେପ (step) 3: Apply this proportion to each type of shop to find out how many of each are open. For clothing stores: 72 * (5/6) = 60, for bakeries: 36 * (5/6) = 30, and for restaurants: 12 * (5/6) = 10.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) annual revenue from each type of shop. For clothing stores: 60 shops * $200,000 = $12,000,000, for bakeries: 30 shops * $150,000 = $4,500,000, and for restaurants: 10 shops * $300,000 = $3,000,000.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the revenues from all types of shops to find the ମୋଟ (total) annual revenue of all open shops in the town."
+    ],
+    "final_answer": "$19,500,000"
+}

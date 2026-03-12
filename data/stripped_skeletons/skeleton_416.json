@@ -1,0 +1,20 @@
+{
+    "id": "416",
+    "original_problem": "In a small town, there are three types of shops: clothing stores, bakeries, and restaurants. The town has a total of 25 shops. The number of clothing stores is 5 more than the number of bakeries. The number of restaurants is 3 times the number of bakeries. If the total number of employees in all the shops is 250, and each clothing store has 10 employees, each bakery has 5 employees, and each restaurant has 15 employees, how many bakeries are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: clothing stores, bakeries, and restaurants. The town has a ମୋଟ (total) of 25 shops. The number of clothing stores is 5 more than the number of bakeries. The number of restaurants is 3 times the number of bakeries. ଯଦି (if) the ମୋଟ (total) number of employees in all the shops is 250, and each clothing store has 10 employees, each bakery has 5 employees, and each restaurant has 15 employees, how many bakeries are there in the town?",
+    "original_steps": [
+        "Step 1: Let's denote the number of bakeries as B. According to the problem, the number of clothing stores is B + 5, and the number of restaurants is 3B.",
+        "Step 2: The total number of shops in the town is given as 25. This can be represented by the equation B + (B + 5) + 3B = 25, simplifying to 5B + 5 = 25.",
+        "Step 3: Solve the equation from Step 2 to find the value of B. Subtract 5 from both sides to get 5B = 20, then divide both sides by 5 to find B.",
+        "Step 4: Although we can find B directly from the equation in Step 3, let's also consider the information about the total number of employees to cross-check our solution. The total number of employees can be represented as 10(B + 5) + 5B + 15(3B) = 250.",
+        "Step 5: Simplify the equation from Step 4 to get 10B + 50 + 5B + 45B = 250, which simplifies further to 60B + 50 = 250. Then, subtract 50 from both sides to get 60B = 200, and finally divide both sides by 60 to find B."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Let's denote the number of bakeries as B. According to the problem, the number of clothing stores is B + 5, and the number of restaurants is 3B.",
+        "ପଦକ୍ଷେପ (step) 2: The ମୋଟ (total) number of shops in the town is given as 25. This can be represented by the ସମୀକରଣ (equation) B + (B + 5) + 3B = 25, simplifying to 5B + 5 = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 2 to find the value of B. ବିୟୋଗ (subtract) 5 from both sides to get 5B = 20, ତାହେଲେ (then) ହରଣ (divide) both sides by 5 to find B.",
+        "ପଦକ୍ଷେପ (step) 4: Although we can find B directly from the ସମୀକରଣ (equation) in ପଦକ୍ଷେପ (step) 3, let's also consider the information about the ମୋଟ (total) number of employees to cross-check our solution. The ମୋଟ (total) number of employees can be represented as 10(B + 5) + 5B + 15(3B) = 250.",
+        "ପଦକ୍ଷେପ (step) 5: Simplify the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 to get 10B + 50 + 5B + 45B = 250, which simplifies further to 60B + 50 = 250. ତାହେଲେ (then), ବିୟୋଗ (subtract) 50 from both sides to get 60B = 200, and finally ହରଣ (divide) both sides by 60 to find B."
+    ],
+    "final_answer": "4"
+}

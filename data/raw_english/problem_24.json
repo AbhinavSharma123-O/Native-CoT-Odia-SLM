@@ -1,0 +1,12 @@
+{
+    "id": "24",
+    "problem": "In a small town, there are three types of buses: Red, Blue, and Green. The Red bus travels from Town A to Town B, a distance of 250 miles, in 5 hours. The Blue bus travels from Town B to Town C, a distance of 300 miles, in 6 hours. The Green bus travels from Town A to Town C, a distance of 420 miles, in 8 hours. However, due to roadwork, a 30-mile segment of the road between Town A and Town B is closed, and buses must take a detour that adds 20 miles to their trip. Meanwhile, a new highway is being built between Town B and Town C, which will reduce the travel distance by 40 miles but increase the travel time by 30 minutes. If the Green bus takes the detour between Town A and Town B, and then uses the new highway between Town B and Town C, how many hours will it take for the Green bus to travel from Town A to Town C, given that the bus must also make a 15-minute stop in Town B?",
+    "reasoning_steps": [
+        "Step 1: Calculate the original time it takes for the Green bus to travel from Town A to Town C without any detours or new highways.",
+        "Step 2: Determine the new distance the Green bus must travel from Town A to Town B with the detour, and calculate the new time it takes to travel this segment.",
+        "Step 3: Calculate the new distance and time it takes for the Green bus to travel from Town B to Town C using the new highway.",
+        "Step 4: Add the time spent on the detour, the time spent on the new highway, and the 15-minute stop in Town B to find the total travel time.",
+        "Step 5: Consider any additional factors that might affect travel time, such as potential delays or the bus's speed, although the problem does not specify these, they are typically assumed constant in such scenarios."
+    ],
+    "final_answer": "9.5"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "322",
+    "problem": "In the town of Ashwood, there are three types of buses: the Express, the Local, and the Tourist. The Express bus travels from Ashwood to the city at an average speed of 60 miles per hour and takes 2 hours to make the trip. The Local bus, which stops at every stop along the way, travels at an average speed of 30 miles per hour. Meanwhile, the Tourist bus, which also stops at every stop but takes a longer route, travels at an average speed of 25 miles per hour. If the Local bus takes 4 hours to make the trip and the Tourist bus takes 6 hours, what is the total distance of the route taken by the Tourist bus?",
+    "reasoning_steps": [
+        "Step 1: Calculate the distance traveled by the Express bus to determine the base distance of the route from Ashwood to the city.",
+        "Step 2: Use the time and speed of the Local bus to find the total distance of its route, comparing it to the Express bus route to understand the difference in distance due to stops.",
+        "Step 3: Calculate the difference in distance between the Local bus route and the Express bus route to understand the additional distance covered due to stops.",
+        "Step 4: Apply the speed of the Tourist bus and its travel time to calculate the total distance of its route, taking into account the longer path it takes.",
+        "Step 5: Combine the understanding from the previous steps to calculate the total distance traveled by the Tourist bus, factoring in both the longer route and the stops."
+    ],
+    "final_answer": "150 miles"
+}

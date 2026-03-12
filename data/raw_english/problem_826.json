@@ -1,0 +1,12 @@
+{
+    "id": "826",
+    "problem": "In a small village, there are three types of shops: those that sell only books, those that sell only clothes, and those that sell both books and clothes. The village has a total of 25 shops. The number of shops that sell only books is 5 more than the number of shops that sell only clothes. The number of shops that sell both books and clothes is 1/5 of the total number of shops that sell only books and only clothes combined. If 1/3 of the shops that sell only books are owned by women and 2/5 of the shops that sell only clothes are owned by women, what is the total number of shops owned by women in the village?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of shops that sell only books (B), only clothes (C), and both books and clothes (BC).",
+        "Step 2: Set up the equation based on the given information that the total number of shops is 25: B + C + BC = 25.",
+        "Step 3: Use the information that the number of shops that sell only books is 5 more than the number of shops that sell only clothes to create another equation: B = C + 5.",
+        "Step 4: Determine the number of shops that sell both books and clothes, which is 1/5 of the total number of shops that sell only books and only clothes combined: BC = 1/5 * (B + C).",
+        "Step 5: Solve the system of equations to find the values of B, C, and BC. Then, calculate the number of shops owned by women in each category and sum them up to find the total."
+    ],
+    "final_answer": "8"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "366",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $240 worth of products per day, with 30% of sales coming from bread, 40% from pastries, and 30% from cakes. Each cafe sells a total of $180 worth of products per day, with 20% of sales coming from coffee, 30% from tea, and 50% from snacks. Each restaurant sells a total of $360 worth of products per day, with 40% of sales coming from meals, 30% from desserts, and 30% from beverages. If the town has 5 bakeries, 4 cafes, and 3 restaurants, what is the total daily sales from all shops, and what percentage of these sales comes from food items (including bread, pastries, cakes, meals, and snacks)?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a ମୋଟ (total) of $240 worth of products per day, with 30% of sales coming from bread, 40% from pastries, and 30% from cakes. Each cafe sells a ମୋଟ (total) of $180 worth of products per day, with 20% of sales coming from coffee, 30% from tea, and 50% from snacks. Each restaurant sells a ମୋଟ (total) of $360 worth of products per day, with 40% of sales coming from meals, 30% from desserts, and 30% from beverages. ଯଦି (if) the town has 5 bakeries, 4 cafes, and 3 restaurants, what is the ମୋଟ (total) daily sales from all shops, and what percentage of these sales comes from food items (including bread, pastries, cakes, meals, and snacks)?",
+    "original_steps": [
+        "Step 1: Calculate the daily sales from each type of shop: bakeries, cafes, and restaurants.",
+        "Step 2: Determine the total daily sales from all shops by summing the sales from each type of shop.",
+        "Step 3: Calculate the daily sales from food items in each type of shop: bread, pastries, and cakes in bakeries; snacks in cafes; and meals in restaurants.",
+        "Step 4: Sum the daily sales from all food items across all shops to find the total daily sales from food.",
+        "Step 5: Calculate the percentage of total daily sales that comes from food items by dividing the total daily sales from food by the total daily sales from all shops and multiplying by 100."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the daily sales from each type of shop: bakeries, cafes, and restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) daily sales from all shops by summing the sales from each type of shop.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the daily sales from food items in each type of shop: bread, pastries, and cakes in bakeries; snacks in cafes; and meals in restaurants.",
+        "ପଦକ୍ଷେପ (step) 4: ସମଷ୍ଟି (sum) the daily sales from all food items across all shops to find the ମୋଟ (total) daily sales from food.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the percentage of ମୋଟ (total) daily sales that comes from food items by dividing the ମୋଟ (total) daily sales from food by the ମୋଟ (total) daily sales from all shops and multiplying by 100."
+    ],
+    "final_answer": "The total daily sales from all shops is $4140, and 77.5% of these sales comes from food items."
+}

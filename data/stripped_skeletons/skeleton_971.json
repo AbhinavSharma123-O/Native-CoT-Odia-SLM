@@ -1,0 +1,24 @@
+{
+    "id": "971",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The total number of employees in all shops is 240. The ratio of employees in type A shops to type B shops is 3:5, and the ratio of employees in type B shops to type C shops is 4:3. Additionally, it is known that the number of employees in type A shops is 20 less than the number of employees in type C shops. What is the number of employees in each type of shop?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 240. The ratio of employees in type A shops to type B shops is 3:5, and the ratio of employees in type B shops to type C shops is 4:3. Additionally, it is known that the number of employees in type A shops is 20 less than the number of employees in type C shops. What is the number of employees in each type of shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in type A shops as A, type B shops as B, and type C shops as C.",
+        "Step 2: Express the given ratios in terms of the variables. The ratio of A to B is 3:5, so A = 3x and B = 5x, where x is a common multiplier. The ratio of B to C is 4:3, so B = 4y and C = 3y, where y is another common multiplier.",
+        "Step 3: Find a relationship between x and y by equating the expressions for B from the two ratios. Since B = 5x and B = 4y, we have 5x = 4y.",
+        "Step 4: Express the relationship between A and C using the information that A is 20 less than C. So, A = C - 20. Substituting A = 3x and C = 3y, we get 3x = 3y - 20.",
+        "Step 5: Solve the system of equations formed by steps 3 and 4. From 5x = 4y, we can express y in terms of x as y = 5x/4. Substituting y = 5x/4 into 3x = 3y - 20 gives 3x = 3(5x/4) - 20. Simplifying this equation will allow us to find x, and subsequently, the values of A, B, and C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in type A shops as A, type B shops as B, and type C shops as C.",
+        "ପଦକ୍ଷେପ (step) 2: Express the given ratios in terms of the variables. The ratio of A to B is 3:5, so A = 3x and B = 5x, where x is a common multiplier. The ratio of B to C is 4:3, so B = 4y and C = 3y, where y is another common multiplier.",
+        "ପଦକ୍ଷେପ (step) 3: Find a relationship between x and y by equating the expressions for B from the two ratios. Since B = 5x and B = 4y, we have 5x = 4y.",
+        "ପଦକ୍ଷେପ (step) 4: Express the relationship between A and C using the information that A is 20 less than C. So, A = C - 20. Substituting A = 3x and C = 3y, we get 3x = 3y - 20.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the system of equations formed by steps 3 and 4. From 5x = 4y, we can express y in terms of x as y = 5x/4. Substituting y = 5x/4 into 3x = 3y - 20 gives 3x = 3(5x/4) - 20. Simplifying this ସମୀକରଣ (equation) will allow us to find x, and subsequently, the values of A, B, and C."
+    ],
+    "final_answer": {
+        "A": 48,
+        "B": 80,
+        "C": 112
+    }
+}

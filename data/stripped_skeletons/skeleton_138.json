@@ -1,0 +1,20 @@
+{
+    "id": "138",
+    "original_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and candle makers. Each type of shop has a distinct number of employees: 5 employees in each bakery, 7 employees in each butcher shop, and 3 employees in each candle maker. The village has 12 shops in total. If the total number of employees in the bakeries and butcher shops is 84, and the total number of employees in the candle makers is 15, how many shops of each type are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and candle makers. Each type of shop has a distinct number of employees: 5 employees in each bakery, 7 employees in each butcher shop, and 3 employees in each candle maker. The village has 12 shops in ମୋଟ (total). ଯଦି (if) the ମୋଟ (total) number of employees in the bakeries and butcher shops is 84, and the ମୋଟ (total) number of employees in the candle makers is 15, how many shops of each type are there in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries, butcher shops, and candle makers as B, S, and C respectively, with the equation B + S + C = 12 for the total number of shops.",
+        "Step 2: Calculate the total number of employees in bakeries and butcher shops using the equation 5B + 7S = 84, since each bakery has 5 employees and each butcher shop has 7 employees.",
+        "Step 3: Calculate the total number of employees in candle makers using the equation 3C = 15, since each candle maker has 3 employees, to find C.",
+        "Step 4: Solve the equation 3C = 15 to find C = 5, then substitute C = 5 into B + S + C = 12 to get B + S + 5 = 12, simplifying to B + S = 7.",
+        "Step 5: Use the equation 5B + 7S = 84 and the result B + S = 7 to solve for B and S using substitution or elimination method."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries, butcher shops, and candle makers as B, S, and C respectively, with the ସମୀକରଣ (equation) B + S + C = 12 for the ମୋଟ (total) number of shops.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) number of employees in bakeries and butcher shops using the ସମୀକରଣ (equation) 5B + 7S = 84, since each bakery has 5 employees and each butcher shop has 7 employees.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of employees in candle makers using the ସମୀକରଣ (equation) 3C = 15, since each candle maker has 3 employees, to find C.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) 3C = 15 to find C = 5, ତାହେଲେ (then) substitute C = 5 into B + S + C = 12 to get B + S + 5 = 12, simplifying to B + S = 7.",
+        "ପଦକ୍ଷେପ (step) 5: Use the ସମୀକରଣ (equation) 5B + 7S = 84 and the result B + S = 7 to solve for B and S using substitution or elimination method."
+    ],
+    "final_answer": "B = 3, S = 4, C = 5"
+}

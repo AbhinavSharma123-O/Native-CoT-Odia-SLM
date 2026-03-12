@@ -1,0 +1,12 @@
+{
+    "id": "969",
+    "problem": "In a small village, there are three types of shops: bookstore, café, and restaurant. Each shop has a different owner: Alex, Ben, and Chris. Using the following clues, determine the order of the shops from north to south and the corresponding owner of each shop. Clues: The bookstore is south of the café. The restaurant is north of the bookstore. Chris owns the café. Ben does not own the bookstore. Alex owns the restaurant. The café is not at the southernmost position.",
+    "reasoning_steps": [
+        "Step 1: Determine the possible positions of the restaurant based on the given clues, knowing it must be north of the bookstore.",
+        "Step 2: Establish the position of the café, given that Chris owns it and it's not at the southernmost position, and considering the bookstore's position relative to the café.",
+        "Step 3: Identify the possible owner of the bookstore, knowing Ben does not own it and Alex owns the restaurant, which helps in placing the bookstore.",
+        "Step 4: Use the clue that the bookstore is south of the café to narrow down the possible arrangements of the shops.",
+        "Step 5: Combine all the clues to deduce the final order of the shops from north to south and their respective owners."
+    ],
+    "final_answer": "Restaurant (Alex), Café (Chris), Bookstore (Ben)"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "460",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3500 gallons, and Tower C can hold 4500 gallons. On a given day, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full. If 1200 gallons of water are added to Tower A, 800 gallons are added to Tower B, and 1500 gallons are added to Tower C, but then 500 gallons are removed from Tower A and 200 gallons are removed from Tower B, how much water is in each tower, and what is the average amount of water in the towers after these operations?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tower by multiplying the capacity of each tower by its respective fill fraction.",
+        "Step 2: Add the specified amounts of water to each tower and then subtract the amounts removed to find the final amount of water in each tower.",
+        "Step 3: Calculate the total amount of water in all towers after the additions and subtractions.",
+        "Step 4: Divide the total amount of water by the number of towers to find the average amount of water in the towers.",
+        "Step 5: Perform the arithmetic to calculate the specific amounts in each tower and the overall average, taking into account the fractions and whole numbers involved in the problem."
+    ],
+    "final_answer": "Tower A: 2000 * (3/4) + 1200 - 500 = 1500 + 1200 - 500 = 2200 gallons, Tower B: 3500 * (1/2) + 800 - 200 = 1750 + 800 - 200 = 2350 gallons, Tower C: 4500 * (2/3) + 1500 = 3000 + 1500 = 4500 gallons. Total water = 2200 + 2350 + 4500 = 9050 gallons. Average = 9050 / 3 = 3016.67 gallons"
+}

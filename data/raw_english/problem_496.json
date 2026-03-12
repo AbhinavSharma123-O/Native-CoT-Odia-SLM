@@ -1,0 +1,12 @@
+{
+    "id": "496",
+    "problem": "In a large warehouse, there are five boxes labeled A, B, C, D, and E. Each box contains a different type of fruit: apples, bananas, cherries, dates, and elderberries. The boxes are stacked in a particular order, with the box containing apples on top of the box containing bananas, the box containing cherries below the box containing dates, and the box containing elderberries at the bottom. Using the following clues: the box containing bananas is below the box containing cherries, the box containing apples is above the box containing elderberries, and the box containing dates is above the box containing bananas, determine the order of the boxes from top to bottom, and then calculate the total number of possible arrangements of the boxes if each box can be placed in any position, but the given conditions must be satisfied.",
+    "reasoning_steps": [
+        "Step 1: Analyze the given conditions and determine the possible positions of each box based on the clues provided.",
+        "Step 2: Identify the fixed positions, such as the box containing apples being on top of the box containing bananas and the box containing elderberries being at the bottom.",
+        "Step 3: Determine the possible positions of the remaining boxes (cherries and dates) based on the given clues, such as the box containing cherries being below the box containing dates and the box containing bananas being below the box containing cherries.",
+        "Step 4: Calculate the total number of possible arrangements of the boxes by considering the restrictions imposed by the given conditions and the number of available positions for each box.",
+        "Step 5: Apply combinatorial principles to find the total number of valid arrangements, taking into account the constraints and the number of boxes."
+    ],
+    "final_answer": "30"
+}

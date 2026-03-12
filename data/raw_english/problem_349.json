@@ -1,0 +1,12 @@
+{
+    "id": "349",
+    "problem": "In a small village, there are three types of shops: clothing, electronics, and food. The village has a total of 25 shops, with 5 more clothing shops than electronics shops, and 3 more food shops than clothing shops. Each clothing shop sells an average of 250 items per day, with each item costing $5. Each electronics shop sells an average of 150 items per day, with each item costing $10. Each food shop sells an average of 300 items per day, with each item costing $2. If the village makes a total of $13,500 per day from all the shops, what is the number of electronics shops in the village?",
+    "reasoning_steps": [
+        "Step 1: Define variables for the number of each type of shop. Let's denote the number of electronics shops as E, the number of clothing shops as C, and the number of food shops as F.",
+        "Step 2: Translate given information into equations based on the variables defined. We have the following equations: C = E + 5, F = C + 3, and E + C + F = 25.",
+        "Step 3: Substitute the first two equations into the third to find the value of E. Substituting C and F in terms of E into the total equation gives us E + (E + 5) + ((E + 5) + 3) = 25.",
+        "Step 4: Solve the equation for E. Simplifying the equation gives us E + E + 5 + E + 5 + 3 = 25, which further simplifies to 3E + 13 = 25. Subtracting 13 from both sides gives us 3E = 12, and dividing by 3 gives us E = 4.",
+        "Step 5: Verify that the solution makes sense in the context of the problem. With E = 4, C = 9, and F = 12, we can calculate the total daily revenue from each type of shop and ensure it matches the given total of $13,500."
+    ],
+    "final_answer": "4"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "308",
+    "original_problem": "A ferry travels from the left bank of a river to the right bank and back again. The ferry can carry a maximum of 5 people, including the ferry operator. On the left bank, there are 12 people who want to cross the river: 4 doctors, 3 nurses, 3 patients, and 2 family members of the patients. However, there are certain constraints: (1) at least one doctor must be present on the ferry for any trip that includes a patient, (2) no more than two nurses can be on the ferry at any time, (3) a family member cannot be on the ferry without at least one patient, and (4) the ferry operator is not a doctor, nurse, or patient but counts towards the 5-person limit. What is the minimum number of trips the ferry must make to transport all 12 people across the river?",
+    "deconstructed_problem": "A ferry travels from the left bank of a river to the right bank and back again. The ferry can carry a maximum of 5 people, including the ferry operator. On the left bank, there are 12 people who want to cross the river: 4 doctors, 3 nurses, 3 patients, and 2 family members of the patients. However, there are certain constraints: (1) at least one doctor must be present on the ferry for any trip that includes a patient, (2) no more than two nurses can be on the ferry at any time, (3) a family member cannot be on the ferry without at least one patient, and (4) the ferry operator is not a doctor, nurse, or patient but counts towards the 5-person limit. What is the minimum number of trips the ferry must make to transport all 12 people across the river?",
+    "original_steps": [
+        "Step 1: Determine the number of trips needed to transport the patients, considering the requirement for at least one doctor per patient.",
+        "Step 2: Calculate the number of trips required to transport the doctors, ensuring that at least one doctor is on each trip with a patient and accounting for trips without patients.",
+        "Step 3: Plan the transportation of the nurses, adhering to the limit of no more than two nurses per trip and considering their distribution across trips with and without patients.",
+        "Step 4: Schedule the family members, ensuring each is accompanied by at least one patient, and determine how their transportation impacts the overall number of trips.",
+        "Step 5: Consider the ferry operator's presence in each trip, factoring in the 5-person limit, and adjust the trip count accordingly to ensure all constraints are met."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of trips needed to transport the patients, considering the requirement for at least one doctor per patient.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of trips required to transport the doctors, ensuring that at least one doctor is on each trip with a patient and accounting for trips without patients.",
+        "ପଦକ୍ଷେପ (step) 3: Plan the transportation of the nurses, adhering to the limit of no more than two nurses per trip and considering their distribution across trips with and without patients.",
+        "ପଦକ୍ଷେପ (step) 4: Schedule the family members, ensuring each is accompanied by at least one patient, and determine how their transportation impacts the overall number of trips.",
+        "ପଦକ୍ଷେପ (step) 5: Consider the ferry operator's presence in each trip, factoring in the 5-person limit, and adjust the trip count accordingly to ensure all constraints are met."
+    ],
+    "final_answer": "7"
+}

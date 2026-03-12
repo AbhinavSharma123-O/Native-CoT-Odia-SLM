@@ -1,0 +1,24 @@
+{
+    "id": "357",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 900 gallons, and Tank C can hold 1500 gallons. The town's water supply system has three valves that control the flow of water into each tank. On a given day, the system is set up such that 3/5 of the water from Valve 1 goes to Tank A, 2/5 goes to Tank B. Valve 2 sends 1/3 of its water to Tank B and 2/3 to Tank C. Valve 3 sends 1/2 of its water to Tank A and 1/2 to Tank C. If Valve 1 is open for 4 hours, Valve 2 for 6 hours, and Valve 3 for 5 hours, and each valve supplies water at a constant rate of 100 gallons per hour, how much water will be in each tank at the end of the day, assuming they start empty?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 900 gallons, and Tank C can hold 1500 gallons. The town's water supply system has three valves that control the flow of water into each tank. On a given day, the system is set up such that 3/5 of the water from Valve 1 goes to Tank A, 2/5 goes to Tank B. Valve 2 sends 1/3 of its water to Tank B and 2/3 to Tank C. Valve 3 sends 1/2 of its water to Tank A and 1/2 to Tank C. ଯଦି (if) Valve 1 is open for 4 hours, Valve 2 for 6 hours, and Valve 3 for 5 hours, and each valve supplies water at a constant rate of 100 gallons per hour, how much water will be in each tank at the end of the day, assuming they start empty?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water supplied by each valve. Since each valve supplies 100 gallons per hour, we calculate the total water supplied by each valve by multiplying their hourly rate by the number of hours they are open.",
+        "Step 2: Determine the distribution of water from each valve to the tanks based on the given fractions. For Valve 1, 3/5 of its water goes to Tank A and 2/5 to Tank B. For Valve 2, 1/3 goes to Tank B and 2/3 to Tank C. For Valve 3, 1/2 goes to Tank A and 1/2 to Tank C.",
+        "Step 3: Calculate the total amount of water each tank receives from all valves. This involves multiplying the total water supplied by each valve by the fraction that goes to each tank and then summing these amounts for each tank.",
+        "Step 4: Apply the calculations from Step 3 to find out how much water each tank will have. For Tank A, this involves adding the water it receives from Valves 1 and 3. For Tank B, add the water it receives from Valves 1 and 2. For Tank C, add the water it receives from Valves 2 and 3.",
+        "Step 5: Ensure that the calculated amounts do not exceed the capacity of each tank. If any tank's calculated water amount exceeds its capacity, it will be full at that capacity."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water supplied by each valve. Since each valve supplies 100 gallons per hour, we calculate the ମୋଟ (total) water supplied by each valve by multiplying their hourly rate by the number of hours they are open.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the distribution of water from each valve to the tanks based on the given fractions. For Valve 1, 3/5 of its water goes to Tank A and 2/5 to Tank B. For Valve 2, 1/3 goes to Tank B and 2/3 to Tank C. For Valve 3, 1/2 goes to Tank A and 1/2 to Tank C.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) amount of water each tank receives from all valves. This involves multiplying the ମୋଟ (total) water supplied by each valve by the fraction that goes to each tank and ତାହେଲେ (then) summing these amounts for each tank.",
+        "ପଦକ୍ଷେପ (step) 4: Apply the calculations from ପଦକ୍ଷେପ (step) 3 to find out how much water each tank will have. For Tank A, this involves adding the water it receives from Valves 1 and 3. For Tank B, ଯୋଗ (add) the water it receives from Valves 1 and 2. For Tank C, ଯୋଗ (add) the water it receives from Valves 2 and 3.",
+        "ପଦକ୍ଷେପ (step) 5: Ensure that the calculated amounts do not exceed the capacity of each tank. ଯଦି (if) any tank's calculated water amount exceeds its capacity, it will be full at that capacity."
+    ],
+    "final_answer": {
+        "Tank A": "600 gallons from Valve 1 + 250 gallons from Valve 3 = 850 gallons",
+        "Tank B": "200 gallons from Valve 1 + 200 gallons from Valve 2 = 400 gallons",
+        "Tank C": "400 gallons from Valve 2 + 250 gallons from Valve 3 = 650 gallons"
+    }
+}

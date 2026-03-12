@@ -1,0 +1,12 @@
+{
+    "id": "67",
+    "problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with the number of commercial buildings being 20 more than the number of industrial buildings, and the number of residential buildings being twice the number of commercial buildings. If the total area of all commercial buildings is 120,000 square meters and each commercial building has an area of 800 square meters, what is the total number of residential buildings in the town?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of commercial buildings by dividing the total area of commercial buildings by the area of each commercial building.",
+        "Step 2: Calculate the number of industrial buildings by subtracting 20 from the number of commercial buildings.",
+        "Step 3: Find the number of residential buildings by multiplying the number of commercial buildings by 2.",
+        "Step 4: Verify that the sum of the residential, commercial, and industrial buildings equals the total number of buildings in the town.",
+        "Step 5: Use the information gathered to calculate the final answer."
+    ],
+    "final_answer": "160"
+}

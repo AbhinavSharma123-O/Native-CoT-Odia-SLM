@@ -1,0 +1,12 @@
+{
+    "id": "922",
+    "problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the light bulbs is special and will burn out after being turned on for 5 minutes. You don't know which bulb is the special one, but you do know that it will still function for those initial 5 minutes. Using the process of elimination and the given constraints, determine the minimum number of switch changes required to identify all three light bulbs and the special bulb.",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to potentially identify the special bulb and to heat up the corresponding light bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the light bulbs.",
+        "Step 3: Identify the bulb that is on (switch 2) and the bulb that is off but warm (switch 1), if applicable. If a bulb is on and warm, it is the special bulb because it was just turned off.",
+        "Step 4: If the special bulb is not identified in step 3, and one of the bulbs is on and another is off but warm, the remaining bulb must be controlled by switch 3. Otherwise, if two bulbs are off and one is on, the warm bulb (if any) is the special one controlled by switch 1, the on bulb is controlled by switch 2, and the cold, off bulb is controlled by switch 3.",
+        "Step 5: Analyze the information gathered in the previous steps to deduce the minimum number of switch changes required, which involves turning switch 1 on for 5 minutes (1 change), turning it off and turning switch 2 on (2 changes), for a total of 3 changes before entering the room."
+    ],
+    "final_answer": "3"
+}

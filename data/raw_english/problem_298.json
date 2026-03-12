@@ -1,0 +1,12 @@
+{
+    "id": "298",
+    "problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room and observe the light bulbs. The bulb that is still warm but off corresponds to switch 1, the bulb that is on corresponds to switch 2, and the bulb that is off and cold corresponds to switch 3.",
+        "Step 4: To confirm the solution, consider the process of elimination and the effect of heat on the bulbs to ensure the method is sound.",
+        "Step 5: Apply the process to other similar scenarios to generalize the approach for any number of switches and bulbs."
+    ],
+    "final_answer": "You can correctly identify which switch controls which light bulb by using the process of elimination and the effect of heat on the bulbs."
+}

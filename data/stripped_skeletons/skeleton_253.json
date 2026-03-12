@@ -1,0 +1,20 @@
+{
+    "id": "253",
+    "original_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 5 cubic meters per minute, while River B flows into River C at a rate of 10 cubic meters per minute. River C has a constant outflow of 15 cubic meters per minute. On the first day, the water level in River A rises by 2 meters due to rainfall. If the cross-sectional area of River A is 10 square meters, and the cross-sectional area of River B is 20 square meters, determine the total volume of water that will be in River C after 2 hours, assuming the initial volume of water in all rivers is 0 cubic meters and the water level in River A remains constant after the first day.",
+    "deconstructed_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 5 cubic meters per minute, while River B flows into River C at a rate of 10 cubic meters per minute. River C has a constant outflow of 15 cubic meters per minute. On the first day, the water level in River A rises by 2 meters due to rainfall. ଯଦି (if) the cross-sectional area of River A is 10 square meters, and the cross-sectional area of River B is 20 square meters, determine the ମୋଟ (total) volume of water that will be in River C after 2 hours, assuming the initial volume of water in all rivers is 0 cubic meters and the water level in River A remains constant after the first day.",
+    "original_steps": [
+        "Step 1: Calculate the initial volume of water added to River A due to the rise in water level on the first day, using the formula: volume = cross-sectional area * height.",
+        "Step 2: Determine the rate at which water flows from River A into River B, and calculate the total volume of water that flows from River A into River B over the 2-hour period.",
+        "Step 3: Calculate the rate at which water flows from River B into River C, taking into account the inflow from River A, and determine the total volume of water that flows into River C over the 2-hour period.",
+        "Step 4: Account for the constant outflow of water from River C and calculate the net volume of water that remains in River C after 2 hours.",
+        "Step 5: Add any initial volumes of water in River C (which is 0 in this case) to the net volume calculated in Step 4 to find the total volume of water in River C after 2 hours."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial volume of water added to River A due to the rise in water level on the first day, using the formula: volume = cross-sectional area * height.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the rate at which water flows from River A into River B, and calculate the ମୋଟ (total) volume of water that flows from River A into River B over the 2-hour period.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the rate at which water flows from River B into River C, taking into account the inflow from River A, and determine the ମୋଟ (total) volume of water that flows into River C over the 2-hour period.",
+        "ପଦକ୍ଷେପ (step) 4: Account for the constant outflow of water from River C and calculate the net volume of water that remains in River C after 2 hours.",
+        "ପଦକ୍ଷେପ (step) 5: ଯୋଗ (add) any initial volumes of water in River C (which is 0 in this case) to the net volume calculated in ପଦକ୍ଷେପ (step) 4 to find the ମୋଟ (total) volume of water in River C after 2 hours."
+    ],
+    "final_answer": "1050"
+}

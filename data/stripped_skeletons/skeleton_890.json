@@ -1,0 +1,24 @@
+{
+    "id": "890",
+    "original_problem": "In a small village, there are three types of traders: farmers, artisans, and merchants. Each type of trader has a different number of members, and the ratio of farmers to artisans to merchants is 3:5:2. The total number of traders in the village is 300. If the farmers have 120 more members than the merchants, and the artisans have 50 more members than the merchants, what is the total number of members for each type of trader?",
+    "deconstructed_problem": "In a small village, there are three types of traders: farmers, artisans, and merchants. Each type of trader has a different number of members, and the ratio of farmers to artisans to merchants is 3:5:2. The ମୋଟ (total) number of traders in the village is 300. ଯଦି (if) the farmers have 120 more members than the merchants, and the artisans have 50 more members than the merchants, what is the ମୋଟ (total) number of members for each type of trader?",
+    "original_steps": [
+        "Step 1: Define the number of members for each type of trader using variables, where the number of farmers is 3x, the number of artisans is 5x, and the number of merchants is 2x.",
+        "Step 2: Set up an equation based on the given information that the total number of traders is 300: 3x + 5x + 2x = 300.",
+        "Step 3: Solve the equation from Step 2 to find the value of x: 10x = 300 => x = 30.",
+        "Step 4: Use the value of x to calculate the number of members for each type of trader: farmers = 3x = 3 * 30 = 90, artisans = 5x = 5 * 30 = 150, merchants = 2x = 2 * 30 = 60.",
+        "Step 5: Verify the calculations with the additional given conditions: farmers have 120 more members than merchants (90 = 60 + 30, which does not match the given condition, indicating an error in initial calculations), artisans have 50 more members than merchants (150 = 60 + 90, which also does not match, indicating the initial setup needs correction). Correct the setup based on the ratios and conditions provided."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the number of members for each type of trader using variables, where the number of farmers is 3x, the number of artisans is 5x, and the number of merchants is 2x.",
+        "ପଦକ୍ଷେପ (step) 2: Set up an ସମୀକରଣ (equation) based on the given information that the ମୋଟ (total) number of traders is 300: 3x + 5x + 2x = 300.",
+        "ପଦକ୍ଷେପ (step) 3: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 2 to find the value of x: 10x = 300 => x = 30.",
+        "ପଦକ୍ଷେପ (step) 4: Use the value of x to calculate the number of members for each type of trader: farmers = 3x = 3 * 30 = 90, artisans = 5x = 5 * 30 = 150, merchants = 2x = 2 * 30 = 60.",
+        "ପଦକ୍ଷେପ (step) 5: Verify the calculations with the additional given conditions: farmers have 120 more members than merchants (90 = 60 + 30, which does not match the given condition, indicating an error in initial calculations), artisans have 50 more members than merchants (150 = 60 + 90, which also does not match, indicating the initial setup needs correction). Correct the setup based on the ratios and conditions provided."
+    ],
+    "final_answer": {
+        "farmers": 150,
+        "artisans": 250,
+        "merchants": 30
+    }
+}

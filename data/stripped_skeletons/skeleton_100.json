@@ -1,0 +1,20 @@
+{
+    "id": "100",
+    "original_problem": "In a small town, there are three types of houses: blue, red, and green. Each house has a unique address and a specific number of rooms. The addresses range from 1 to 100, and the number of rooms in each house is directly proportional to the address number. The town has a total of 250 rooms. House number 50 has 10 rooms, and it is known that the ratio of blue to red to green houses is 2:3:5. If the total number of rooms in the blue houses is 60, and the total number of rooms in the red houses is 80, what is the total number of rooms in the green houses?",
+    "deconstructed_problem": "In a small town, there are three types of houses: blue, red, and green. Each house has a unique address and a specific number of rooms. The addresses range from 1 to 100, and the number of rooms in each house is directly proportional to the address number. The town has a ମୋଟ (total) of 250 rooms. House number 50 has 10 rooms, and it is known that the ratio of blue to red to green houses is 2:3:5. ଯଦି (if) the ମୋଟ (total) number of rooms in the blue houses is 60, and the ମୋଟ (total) number of rooms in the red houses is 80, what is the ମୋଟ (total) number of rooms in the green houses?",
+    "original_steps": [
+        "Step 1: Determine the total number of houses based on the given total number of rooms and the information about house number 50.",
+        "Step 2: Calculate the ratio constant for each type of house by using the total number of rooms in blue and red houses.",
+        "Step 3: Find the total number of blue, red, and green houses by using the given ratio of blue to red to green houses.",
+        "Step 4: Calculate the number of rooms in each type of house by using the address and the number of rooms in house number 50.",
+        "Step 5: Find the total number of rooms in the green houses by subtracting the rooms in blue and red houses from the total number of rooms."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of houses based on the given ମୋଟ (total) number of rooms and the information about house number 50.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ratio constant for each type of house by using the ମୋଟ (total) number of rooms in blue and red houses.",
+        "ପଦକ୍ଷେପ (step) 3: Find the ମୋଟ (total) number of blue, red, and green houses by using the given ratio of blue to red to green houses.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the number of rooms in each type of house by using the address and the number of rooms in house number 50.",
+        "ପଦକ୍ଷେପ (step) 5: Find the ମୋଟ (total) number of rooms in the green houses by subtracting the rooms in blue and red houses from the ମୋଟ (total) number of rooms."
+    ],
+    "final_answer": "110"
+}

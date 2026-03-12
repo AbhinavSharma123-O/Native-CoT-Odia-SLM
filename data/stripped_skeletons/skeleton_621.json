@@ -1,0 +1,20 @@
+{
+    "id": "621",
+    "original_problem": "In a remote village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the bulbs is special and will burn out if turned on for more than 5 minutes. If you know that the special bulb is currently off and has never been turned on before, how can you ensure that you don't burn it out while trying to solve the problem?",
+    "deconstructed_problem": "In a remote village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the bulbs is special and will burn out ଯଦି (if) turned on for more than 5 minutes. ଯଦି (if) you know that the special bulb is currently off and has never been turned on before, how can you ensure that you don't burn it out while trying to solve the problem?",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to potentially identify the special bulb or create a reference point.",
+        "Step 2: After 5 minutes, turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "Step 3: In the room, identify which bulb is on (corresponding to switch 2), which is off but warm (corresponding to switch 1), and which is off and cold (could correspond to switch 3 or be the special bulb if it was not switch 1).",
+        "Step 4: Use the process of elimination to determine which switch corresponds to which bulb, considering the special bulb's constraint and the observations from the room.",
+        "Step 5: If the special bulb was not identified through the initial steps, use the remaining switch (switch 3) and the observations from the room to deduce which bulb it controls, ensuring the special bulb is not turned on for more than 5 minutes."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to potentially identify the special bulb or create a reference point.",
+        "ପଦକ୍ଷେପ (step) 2: After 5 minutes, turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "ପଦକ୍ଷେପ (step) 3: In the room, identify which bulb is on (corresponding to switch 2), which is off but warm (corresponding to switch 1), and which is off and cold (could correspond to switch 3 or be the special bulb ଯଦି (if) it was not switch 1).",
+        "ପଦକ୍ଷେପ (step) 4: Use the process of elimination to determine which switch corresponds to which bulb, considering the special bulb's constraint and the observations from the room.",
+        "ପଦକ୍ଷେପ (step) 5: ଯଦି (if) the special bulb was not identified through the initial steps, use the remaining switch (switch 3) and the observations from the room to deduce which bulb it controls, ensuring the special bulb is not turned on for more than 5 minutes."
+    ],
+    "final_answer": "You can figure out which switch controls which light bulb and avoid burning out the special bulb by following the outlined steps and using a combination of switch manipulation and observation."
+}

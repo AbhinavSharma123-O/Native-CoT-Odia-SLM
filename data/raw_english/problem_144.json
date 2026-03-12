@@ -1,0 +1,12 @@
+{
+    "id": "144",
+    "problem": "In a small village, there are three types of shops: bakeries, butcher shops, and cafes. The village has a total of 25 shops. The number of bakeries is 5 more than the number of cafes, and the number of butcher shops is 3 more than the number of bakeries. If the total number of employees in all the shops is 200, and each bakery has 5 employees, each butcher shop has 7 employees, and each cafe has 3 employees, how many cafes are there in the village?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of bakeries, butcher shops, and cafes. Let's denote the number of cafes as C, the number of bakeries as B, and the number of butcher shops as S.",
+        "Step 2: Set up equations based on the given information. We know that B = C + 5 and S = B + 3. Also, the total number of shops is 25, so B + S + C = 25.",
+        "Step 3: Substitute the expressions for B and S from the first two equations into the total shops equation to get (C + 5) + (C + 5 + 3) + C = 25, simplifying to 3C + 13 = 25.",
+        "Step 4: Solve for C, which represents the number of cafes. 3C = 25 - 13, so 3C = 12, and thus C = 12 / 3 = 4.",
+        "Step 5: Verify that the solution for the number of cafes is consistent with the given constraints about the total number of employees and the relationships between the types of shops."
+    ],
+    "final_answer": "4"
+}

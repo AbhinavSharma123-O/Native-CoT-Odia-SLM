@@ -1,0 +1,12 @@
+{
+    "id": "992",
+    "problem": "In a small town, there are three water towers, A, B, and C, with capacities of 2000, 3000, and 4000 gallons respectively. Tower A is currently 3/4 full, Tower B is 2/3 full, and Tower C is 1/2 full. Due to a water shortage, the town council decides to transfer water from one tower to another to ensure each tower has at least 1000 gallons. However, there's a constraint: water can only be transferred from Tower A to Tower B, from Tower B to Tower C, or directly from Tower A to Tower C, but never in reverse. Determine the minimum number of gallons that must be transferred to achieve the council's goal, given that each transfer operation can move up to 500 gallons at a time.",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tower. Tower A has 3/4 * 2000 = 1500 gallons, Tower B has 2/3 * 3000 = 2000 gallons, and Tower C has 1/2 * 4000 = 2000 gallons.",
+        "Step 2: Identify which towers need more water to meet the 1000-gallon minimum. Since Tower A already has more than 1000 gallons, it does not need more water.",
+        "Step 3: Determine the most efficient way to transfer water from Tower A and/or Tower B to Tower C, considering the transfer limitations and the goal of minimizing the total gallons transferred.",
+        "Step 4: Consider transferring water directly from Tower A to Tower C, as this could potentially be the most direct method to fill Tower C if necessary, while also considering transfers from Tower A to Tower B and then from Tower B to Tower C if it results in a more efficient distribution.",
+        "Step 5: Calculate the total amount of water that needs to be transferred based on the chosen method, ensuring that the transfer amount does not exceed 500 gallons per operation and that the final distribution meets the minimum requirement of 1000 gallons in each tower."
+    ],
+    "final_answer": "500"
+}

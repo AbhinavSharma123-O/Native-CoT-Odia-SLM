@@ -1,0 +1,20 @@
+{
+    "id": "149",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each shop has a distinct number of employees. The total number of employees in all bakeries is 120, which is 30 more than the total number of employees in all cafes. There are 25 shops in total, with 5 more bakeries than cafes and 5 fewer restaurants than cafes. If the average number of employees in a bakery is 10, the average number of employees in a cafe is 8, and the average number of employees in a restaurant is 12, what is the total number of employees in all restaurants?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each shop has a distinct number of employees. The ମୋଟ (total) number of employees in all bakeries is 120, which is 30 more than the ମୋଟ (total) number of employees in all cafes. There are 25 shops in ମୋଟ (total), with 5 more bakeries than cafes and 5 fewer restaurants than cafes. ଯଦି (if) the average number of employees in a bakery is 10, the average number of employees in a cafe is 8, and the average number of employees in a restaurant is 12, what is the ମୋଟ (total) number of employees in all restaurants?",
+    "original_steps": [
+        "Step 1: Determine the number of bakeries and calculate the total number of employees in them.",
+        "Step 2: Find the number of cafes and the total number of employees in cafes based on the relationship with bakeries.",
+        "Step 3: Calculate the number of restaurants based on the given relationships between the types of shops.",
+        "Step 4: Find the average number of employees in a restaurant and calculate the total number of employees in all restaurants.",
+        "Step 5: Use the information about the averages and totals to solve for the total number of employees in restaurants."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of bakeries and calculate the ମୋଟ (total) number of employees in them.",
+        "ପଦକ୍ଷେପ (step) 2: Find the number of cafes and the ମୋଟ (total) number of employees in cafes based on the relationship with bakeries.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the number of restaurants based on the given relationships between the types of shops.",
+        "ପଦକ୍ଷେପ (step) 4: Find the average number of employees in a restaurant and calculate the ମୋଟ (total) number of employees in all restaurants.",
+        "ପଦକ୍ଷେପ (step) 5: Use the information about the averages and totals to solve for the ମୋଟ (total) number of employees in restaurants."
+    ],
+    "final_answer": "240"
+}

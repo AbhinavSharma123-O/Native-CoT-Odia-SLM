@@ -1,0 +1,12 @@
+{
+    "id": "934",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A starts with 50 liters, Tower B starts with 75 liters, and Tower C starts with 100 liters, and all towers start filling at the same time, how many minutes will it take for Tower C to have twice as much water as Tower A, given that 10 minutes after the filling process starts, 20 liters are added to Tower B, and 5 minutes after that, 15 liters are removed from Tower A?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial total amount of water in each tower and establish the rate at which each tower is being filled.",
+        "Step 2: Set up equations to model the amount of water in each tower over time, taking into account the changes in water levels due to the addition and removal of water from Towers B and A, respectively.",
+        "Step 3: Determine the time at which 20 liters are added to Tower B and 15 liters are removed from Tower A, adjusting the equations accordingly to reflect these changes.",
+        "Step 4: Set up an equation to find when Tower C will have twice as much water as Tower A, considering the adjusted rates and amounts of water in each tower after the additions and removals.",
+        "Step 5: Solve the equation for the time it takes for Tower C to have twice as much water as Tower A, ensuring to account for all adjustments and changes in water levels over time."
+    ],
+    "final_answer": "60 minutes"
+}

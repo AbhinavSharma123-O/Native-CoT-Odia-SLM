@@ -1,0 +1,12 @@
+{
+    "id": "223",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all shops is 240. The number of employees in bakeries is 1/3 of the total number of employees in cafes and restaurants combined. The number of employees in cafes is 2/5 of the number of employees in restaurants. If the number of employees in bakeries is 24, find the total number of employees in restaurants.",
+    "reasoning_steps": [
+        "Step 1: Let's denote the number of employees in bakeries as B, in cafes as C, and in restaurants as R. We are given that B = 24.",
+        "Step 2: Since B is 1/3 of the total number of employees in cafes and restaurants combined, we can write the equation B = 1/3 * (C + R). Substituting B = 24, we get 24 = 1/3 * (C + R), which simplifies to C + R = 72.",
+        "Step 3: We are also given that the number of employees in cafes is 2/5 of the number of employees in restaurants. This can be written as C = 2/5 * R.",
+        "Step 4: Substituting the expression for C from Step 3 into the equation from Step 2, we get 2/5 * R + R = 72. Combining like terms gives us 7/5 * R = 72.",
+        "Step 5: Solving the equation from Step 4 for R, we multiply both sides by 5/7 to find R = 72 * 5/7 = 360/7 = 51.42857143. However, since the number of employees must be a whole number and we are looking for the total number of employees in restaurants, we need to ensure our calculations are correct and applicable to the given conditions."
+    ],
+    "final_answer": "51.42857143 is not a valid answer due to the need for whole numbers; re-evaluation is required based on correct interpretation of given data and equations."
+}

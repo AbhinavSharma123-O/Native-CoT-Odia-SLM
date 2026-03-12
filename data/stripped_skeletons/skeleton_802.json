@@ -1,0 +1,20 @@
+{
+    "id": "802",
+    "original_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will burn out after being turned on for 5 minutes. If you know that the special bulb was off when you started, and that it takes 2 minutes to walk to the room, how can you ensure you identify the special bulb and its corresponding switch without it burning out?",
+    "deconstructed_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will burn out after being turned on for 5 minutes. ଯଦି (if) you know that the special bulb was off when you started, and that it takes 2 minutes to walk to the room, how can you ensure you identify the special bulb and its corresponding switch without it burning out?",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to potentially identify the special bulb, then turn it off.",
+        "Step 2: Turn switch 2 to the 'on' position and immediately walk to the room, taking note of which bulbs are on and which are off, as well as the temperature of the bulbs to identify which one was recently turned off.",
+        "Step 3: Use the process of elimination to identify which bulb corresponds to switch 1 based on whether it was hot but off when you entered the room, indicating it was the special bulb.",
+        "Step 4: Use the remaining observations from the room to determine which switch corresponds to which of the other two bulbs, using the fact that one was on when you entered and the other was off but not hot.",
+        "Step 5: Combine all observations to create a definitive mapping of switches to bulbs, ensuring the special bulb and its switch are correctly identified without the bulb burning out."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to potentially identify the special bulb, ତାହେଲେ (then) turn it off.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 2 to the 'on' position and immediately walk to the room, taking note of which bulbs are on and which are off, as well as the temperature of the bulbs to identify which one was recently turned off.",
+        "ପଦକ୍ଷେପ (step) 3: Use the process of elimination to identify which bulb corresponds to switch 1 based on whether it was hot but off when you entered the room, indicating it was the special bulb.",
+        "ପଦକ୍ଷେପ (step) 4: Use the remaining observations from the room to determine which switch corresponds to which of the other two bulbs, using the fact that one was on when you entered and the other was off but not hot.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all observations to create a definitive mapping of switches to bulbs, ensuring the special bulb and its switch are correctly identified without the bulb burning out."
+    ],
+    "final_answer": "The special bulb and its switch can be identified by following these steps, ensuring the bulb does not burn out."
+}

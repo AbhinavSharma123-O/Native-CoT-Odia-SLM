@@ -1,0 +1,12 @@
+{
+    "id": "982",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, with a profit of $0.50 per loaf. Each cafe sells 300 cups of coffee per day, with a profit of $0.25 per cup. Each restaurant sells 200 meals per day, with a profit of $2.00 per meal. If the total profit from all shops is $1,500 per day and there are 5 more cafes than bakeries, and the number of restaurants is equal to the number of bakeries plus the number of cafes divided by 2, how many bakeries are there in the village?",
+    "reasoning_steps": [
+        "Step 1: Define variables for the number of bakeries (B), cafes (C), and restaurants (R), and establish the relationships between them: C = B + 5 and R = B + C/2.",
+        "Step 2: Express the total profit using the variables and given profit per item: 250*0.50*B + 300*0.25*C + 200*2.00*R = 1500.",
+        "Step 3: Substitute the relationships between B, C, and R into the profit equation to get an equation in terms of B only.",
+        "Step 4: Solve the resulting equation for B, which will involve simplifying and solving a linear equation.",
+        "Step 5: Once B is found, verify that the solution is reasonable and makes sense in the context of the problem."
+    ],
+    "final_answer": "B = 4"
+}

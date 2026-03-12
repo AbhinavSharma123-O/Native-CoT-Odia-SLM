@@ -1,0 +1,14 @@
+{
+    "id": "551",
+    "problem": "In a small town, there are three types of shops: clothing, electronics, and furniture. The town has a total of 240 shops. The number of clothing shops is 20 more than the number of electronics shops, and the number of furniture shops is 30 less than the number of electronics shops. If the average annual revenue of a clothing shop is $100,000, the average annual revenue of an electronics shop is $150,000, and the average annual revenue of a furniture shop is $80,000, what is the total annual revenue of all shops in the town?",
+    "reasoning_steps": [
+        "Step 1: Define variables for the number of each type of shop. Let's denote the number of electronics shops as E, the number of clothing shops as C, and the number of furniture shops as F.",
+        "Step 2: Establish relationships between the variables based on the given information. We know that C = E + 20 and F = E - 30.",
+        "Step 3: Use the total number of shops to create an equation involving E, C, and F. Since the total number of shops is 240, we have E + C + F = 240. Substituting the expressions for C and F from Step 2 gives us E + (E + 20) + (E - 30) = 240.",
+        "Step 4: Solve the equation from Step 3 to find the value of E. Simplifying the equation yields 3E - 10 = 240, then 3E = 250, and finally E = 250 / 3 = 83.33. Since we cannot have a fraction of a shop, we must round to the nearest whole number, but for the purpose of calculation, we'll continue with the exact numbers.",
+        "Step 5: Calculate the number of clothing and furniture shops using the relationships from Step 2. With E = 83.33, C = 83.33 + 20 = 103.33, and F = 83.33 - 30 = 53.33. Again, we're dealing with whole shops, but we continue with these values for revenue calculations.",
+        "Step 6: Compute the total annual revenue for each type of shop by multiplying the number of shops by the average annual revenue per shop. For electronics, it's 83.33 * $150,000. For clothing, it's 103.33 * $100,000. For furniture, it's 53.33 * $80,000.",
+        "Step 7: Add the revenues from all types of shops to find the total annual revenue of all shops in the town."
+    ],
+    "final_answer": "To find the final answer, calculate: (83.33 * $150,000) + (103.33 * $100,000) + (53.33 * $80,000) = $12,499,950 + $10,333,000 + $4,266,400 = $27,099,350"
+}

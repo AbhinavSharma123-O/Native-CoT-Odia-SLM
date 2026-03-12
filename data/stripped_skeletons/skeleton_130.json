@@ -1,0 +1,20 @@
+{
+    "id": "130",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3500 gallons, and Tower C can hold 4500 gallons. The town's water supply system is such that Tower A fills at a rate of 100 gallons per minute, Tower B fills at a rate of 150 gallons per minute, and Tower C fills at a rate of 200 gallons per minute. On a given day, Tower A starts with 500 gallons, Tower B starts with 1000 gallons, and Tower C starts with 2000 gallons. It is also known that the town's water usage is as follows: 50 gallons per minute for residential use, 75 gallons per minute for commercial use, and 100 gallons per minute for industrial use. If the town operates for 8 hours a day and the water towers are filled continuously, how many days will it take for all three towers to be completely filled, assuming that the town's water usage remains constant and that there is no other source of water supply?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3500 gallons, and Tower C can hold 4500 gallons. The town's water supply system is such that Tower A fills at a rate of 100 gallons per minute, Tower B fills at a rate of 150 gallons per minute, and Tower C fills at a rate of 200 gallons per minute. On a given day, Tower A starts with 500 gallons, Tower B starts with 1000 gallons, and Tower C starts with 2000 gallons. It is also known that the town's water usage is as follows: 50 gallons per minute for residential use, 75 gallons per minute for commercial use, and 100 gallons per minute for industrial use. ଯଦି (if) the town operates for 8 hours a day and the water towers are filled continuously, how many days will it take for all three towers to be completely filled, assuming that the town's water usage remains constant and that there is no other source of water supply?",
+    "original_steps": [
+        "Step 1: Calculate the initial total water available in all towers by summing the water in Tower A, Tower B, and Tower C.",
+        "Step 2: Calculate the net rate at which water is being added to the system by subtracting the total water usage per minute from the total fill rate per minute of all towers.",
+        "Step 3: Determine the total capacity of all three towers combined.",
+        "Step 4: Calculate the total amount of water needed to fill all towers by subtracting the initial total water available from the total capacity of all towers.",
+        "Step 5: Calculate the time it takes to fill the towers by dividing the total amount of water needed by the net fill rate per minute, then convert this time into days by dividing by the number of minutes the town operates per day."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial ମୋଟ (total) water available in all towers by summing the water in Tower A, Tower B, and Tower C.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the net rate at which water is being added to the system by subtracting the ମୋଟ (total) water usage per minute from the ମୋଟ (total) fill rate per minute of all towers.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the ମୋଟ (total) capacity of all three towers combined.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) amount of water needed to fill all towers by subtracting the initial ମୋଟ (total) water available from the ମୋଟ (total) capacity of all towers.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the time it takes to fill the towers by dividing the ମୋଟ (total) amount of water needed by the net fill rate per minute, ତାହେଲେ (then) convert this time into days by dividing by the number of minutes the town operates per day."
+    ],
+    "final_answer": "3.47"
+}

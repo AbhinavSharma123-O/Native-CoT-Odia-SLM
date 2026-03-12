@@ -1,0 +1,12 @@
+{
+    "id": "283",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it climbs out and doesn't slip back. There is a frog at the 15-foot mark that has been watching the snail. The frog decides to join the snail on its journey, but only if the snail reaches the 15-foot mark on a Wednesday. If the snail started climbing on a Sunday, will the frog join the snail, and how many days will it take for the snail to climb out of the well?",
+    "reasoning_steps": [
+        "Step 1: Determine the daily progress of the snail by calculating the difference between the distance it climbs during the day and the distance it slips back at night.",
+        "Step 2: Calculate how many days it takes for the snail to reach the 15-foot mark by dividing the distance to the 15-foot mark by the daily progress, considering that the progress may vary on the final day when it doesn't slip back.",
+        "Step 3: Establish the pattern of days of the week to figure out on which day the snail reaches the 15-foot mark, knowing it started climbing on a Sunday.",
+        "Step 4: Decide whether the frog will join the snail based on the day of the week the snail reaches the 15-foot mark.",
+        "Step 5: Calculate the total number of days it takes for the snail to climb out of the well, considering its daily progress and the final climb without slipping back."
+    ],
+    "final_answer": "The frog will join the snail, and it will take the snail 18 days to climb out of the well."
+}

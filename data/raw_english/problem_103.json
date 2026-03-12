@@ -1,0 +1,12 @@
+{
+    "id": "103",
+    "problem": "In a small town, there are three factories: A, B, and C, producing 30%, 40%, and 30% of the total goods, respectively. Factory A produces 200 units more than Factory C each day. If Factory B operates at 80% capacity and produces 480 units, what is the total number of units produced by all factories in a day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total production of Factory B at 100% capacity by dividing its current production by 0.8, since it operates at 80% capacity.",
+        "Step 2: Determine the production of Factory A and Factory C using the fact that Factory A produces 200 units more than Factory C and their combined percentage of total production.",
+        "Step 3: Set up the equation to find the total production based on the percentages and the relationship between Factory A and Factory C's production.",
+        "Step 4: Solve the equation to find the total production of all factories.",
+        "Step 5: Calculate the actual production of each factory based on the total and their respective percentages or relationships."
+    ],
+    "final_answer": "1200"
+}

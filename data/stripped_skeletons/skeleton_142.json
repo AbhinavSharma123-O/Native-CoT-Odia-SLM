@@ -1,0 +1,20 @@
+{
+    "id": "142",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a given day, the total water demand is 7200 gallons. However, due to a malfunction, Tower A can only be filled to 3/4 of its capacity, and Tower B can only be filled to 2/3 of its capacity. Tower C operates normally. How much water will be in each tower at the end of the day, and what is the total percentage of the town's water demand that is met?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, ତାହେଲେ (then) Tower B, and finally Tower C. On a given day, the ମୋଟ (total) water demand is 7200 gallons. However, due to a malfunction, Tower A can only be filled to 3/4 of its capacity, and Tower B can only be filled to 2/3 of its capacity. Tower C operates normally. How much water will be in each tower at the end of the day, and what is the ମୋଟ (total) percentage of the town's water demand that is met?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water Tower A can hold when filled to 3/4 of its capacity: 2000 * (3/4) = 1500 gallons.",
+        "Step 2: Calculate the amount of water Tower B can hold when filled to 2/3 of its capacity: 3000 * (2/3) = 2000 gallons.",
+        "Step 3: Determine the total amount of water that Towers A and B can hold when partially filled: 1500 (Tower A) + 2000 (Tower B) = 3500 gallons.",
+        "Step 4: Calculate the remaining water demand after filling Towers A and B: 7200 (total demand) - 3500 (water in Towers A and B) = 3700 gallons. This is the amount of water that needs to be held by Tower C.",
+        "Step 5: Since Tower C can hold 4000 gallons and only needs to hold 3700 gallons to meet the remaining demand, it will be filled to 3700 gallons, which is below its capacity."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water Tower A can hold when filled to 3/4 of its capacity: 2000 * (3/4) = 1500 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water Tower B can hold when filled to 2/3 of its capacity: 3000 * (2/3) = 2000 gallons.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the ମୋଟ (total) amount of water that Towers A and B can hold when partially filled: 1500 (Tower A) + 2000 (Tower B) = 3500 gallons.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the remaining water demand after filling Towers A and B: 7200 (ମୋଟ (total) demand) - 3500 (water in Towers A and B) = 3700 gallons. This is the amount of water that needs to be held by Tower C.",
+        "ପଦକ୍ଷେପ (step) 5: Since Tower C can hold 4000 gallons and only needs to hold 3700 gallons to meet the remaining demand, it will be filled to 3700 gallons, which is below its capacity."
+    ],
+    "final_answer": "The town's water demand is met at 100% because the total capacity of the partially filled towers (3500 gallons from Towers A and B) plus the water in Tower C (3700 gallons) equals the total demand of 7200 gallons."
+}

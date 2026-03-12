@@ -1,0 +1,12 @@
+{
+    "id": "577",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system is designed such that Tank A is filled first, then Tank B, and finally Tank C. Each day, the town uses 1000 liters of water from Tank A, 1500 liters from Tank B, and 2000 liters from Tank C. However, due to a leak, Tank A loses 10% of its water each day, Tank B loses 5%, and Tank C loses 15%. If all tanks are currently full and the town's water usage pattern remains constant, how many days will it take for all three tanks to be completely empty?",
+    "reasoning_steps": [
+        "Step 1: Calculate the daily net water loss from each tank, considering both the town's usage and the leak.",
+        "Step 2: Determine the total amount of water lost from each tank per day, taking into account the percentage lost due to leaks.",
+        "Step 3: Calculate the number of days it would take for each tank to be completely empty based on its capacity and daily net water loss.",
+        "Step 4: Identify the tank that will be emptied first and use this information to establish the initial condition for the subsequent tanks.",
+        "Step 5: Adjust the calculation for the remaining tanks based on the sequence of emptying and the changing water supply scenario."
+    ],
+    "final_answer": "It will take 4 days for Tank A to be empty, serving as the limiting factor; hence, it will take approximately 4 days for all tanks to start showing significant depletion, with Tank A being the first to completely empty."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "148",
+    "problem": "In a small town, there are three types of factories: A, B, and C. Factory A produces 200 units of product X and 100 units of product Y per day. Factory B produces 150 units of product X and 250 units of product Y per day. Factory C produces 300 units of product X and 50 units of product Y per day. If the total production of product X is 1200 units and the total production of product Y is 800 units per day, and Factory A operates for 2 more days than Factory B, and Factory C operates for 3 more days than Factory A, how many days does Factory B operate in a month of 30 days?",
+    "reasoning_steps": [
+        "Step 1: Define variables for the number of days each factory operates: Let a be the number of days Factory A operates, b be the number of days Factory B operates, and c be the number of days Factory C operates.",
+        "Step 2: Establish relationships between the variables based on the given conditions: Since Factory A operates for 2 more days than Factory B, we have a = b + 2. Since Factory C operates for 3 more days than Factory A, we have c = a + 3, which can also be expressed as c = (b + 2) + 3 = b + 5.",
+        "Step 3: Calculate the total production of product X and Y by each factory over the month, using the variables defined: The total production of product X is 200a + 150b + 300c, and the total production of product Y is 100a + 250b + 50c.",
+        "Step 4: Set up equations based on the given total production of product X and Y: For product X, we have 200a + 150b + 300c = 1200, and for product Y, we have 100a + 250b + 50c = 800. Substitute the relationships between a, b, and c into these equations to solve for b.",
+        "Step 5: Solve the resulting system of equations to find the value of b, which represents the number of days Factory B operates."
+    ],
+    "final_answer": "10"
+}

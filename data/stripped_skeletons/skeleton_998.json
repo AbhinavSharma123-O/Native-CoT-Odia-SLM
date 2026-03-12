@@ -1,0 +1,20 @@
+{
+    "id": "998",
+    "original_problem": "In a small town, there are three factories: A, B, and C, producing 30%, 25%, and 45% of the total widgets, respectively. Each factory has a different production rate per hour. Factory A produces 250 widgets per hour, Factory B produces 200 widgets per hour, and Factory C produces 350 widgets per hour. If the total production of widgets in the town is 100,000 per day and each factory operates for 8 hours a day, what is the total number of widgets produced by Factory C in a 5-day workweek?",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, producing 30%, 25%, and 45% of the ମୋଟ (total) widgets, respectively. Each factory has a different production rate per hour. Factory A produces 250 widgets per hour, Factory B produces 200 widgets per hour, and Factory C produces 350 widgets per hour. ଯଦି (if) the ମୋଟ (total) production of widgets in the town is 100,000 per day and each factory operates for 8 hours a day, what is the ମୋଟ (total) number of widgets produced by Factory C in a 5-day workweek?",
+    "original_steps": [
+        "Step 1: Calculate the total number of widgets produced per day by each factory by multiplying their production rates by the number of hours they operate per day.",
+        "Step 2: Determine the ratio of widgets produced by each factory based on the given percentages and calculate the actual number of widgets each factory produces per day.",
+        "Step 3: Calculate the total number of widgets produced by all factories in one day to verify it matches the given total of 100,000 widgets per day.",
+        "Step 4: Calculate the total number of widgets produced by Factory C in one day by using the production rate and hours of operation.",
+        "Step 5: Multiply the total number of widgets produced by Factory C in one day by the number of days in a workweek to find the total widgets produced in 5 days."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of widgets produced per day by each factory by multiplying their production rates by the number of hours they operate per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ratio of widgets produced by each factory based on the given percentages and calculate the actual number of widgets each factory produces per day.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of widgets produced by all factories in one day to verify it matches the given ମୋଟ (total) of 100,000 widgets per day.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of widgets produced by Factory C in one day by using the production rate and hours of operation.",
+        "ପଦକ୍ଷେପ (step) 5: ଗୁଣନ (multiply) the ମୋଟ (total) number of widgets produced by Factory C in one day by the number of days in a workweek to find the ମୋଟ (total) widgets produced in 5 days."
+    ],
+    "final_answer": "70,000"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "650",
+    "original_problem": "In a small village, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the red house. Clue 5: The person who drinks soda lives in the house next to the person who owns the green house. Clue 6: The person who drinks tea lives in the house next to the person who owns the blue house.",
+    "deconstructed_problem": "In a small village, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the red house. Clue 5: The person who drinks soda lives in the house next to the person who owns the green house. Clue 6: The person who drinks tea lives in the house next to the person who owns the blue house.",
+    "original_steps": [
+        "Step 1: From Clue 1, we know the Canadian lives in the first house.",
+        "Step 2: From Clue 2, we know the person who drinks milk lives next to the person who owns the yellow house, so the yellow house must be either the second or the third house.",
+        "Step 3: From Clue 3 and Clue 4, we know the American lives in the red house and the person who owns the red house does not live next to the person who drinks coffee, so the person who drinks coffee must live in either the first or the last house.",
+        "Step 4: From Clue 5, we know the person who drinks soda lives in the house next to the person who owns the green house, so the green house and the house of the person who drinks soda must be next to each other.",
+        "Step 5: From Clue 6, we know the person who drinks tea lives in the house next to the person who owns the blue house, so the blue house and the house of the person who drinks tea must be next to each other."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: From Clue 1, we know the Canadian lives in the first house.",
+        "ପଦକ୍ଷେପ (step) 2: From Clue 2, we know the person who drinks milk lives next to the person who owns the yellow house, so the yellow house must be either the second or the third house.",
+        "ପଦକ୍ଷେପ (step) 3: From Clue 3 and Clue 4, we know the American lives in the red house and the person who owns the red house does not live next to the person who drinks coffee, so the person who drinks coffee must live in either the first or the last house.",
+        "ପଦକ୍ଷେପ (step) 4: From Clue 5, we know the person who drinks soda lives in the house next to the person who owns the green house, so the green house and the house of the person who drinks soda must be next to each other.",
+        "ପଦକ୍ଷେପ (step) 5: From Clue 6, we know the person who drinks tea lives in the house next to the person who owns the blue house, so the blue house and the house of the person who drinks tea must be next to each other."
+    ],
+    "final_answer": "Blue - Canadian - Coffee, Green - British - Milk, Red - American - Soda, White - Indian - Tea, Yellow - Japanese - Water"
+}

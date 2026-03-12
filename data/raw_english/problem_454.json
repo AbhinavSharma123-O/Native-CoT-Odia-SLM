@@ -1,0 +1,13 @@
+{
+    "id": "454",
+    "problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a total of 25 businesses. The number of restaurants is 5 more than the number of shops. The number of hotels is 3 less than the number of shops. If the total number of employees in all the restaurants is 150, and each restaurant has 10 more employees than each shop, and each hotel has 5 fewer employees than each shop, what is the total number of employees in all the shops?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of restaurants, shops, and hotels as R, S, and H, respectively, and establish the given relationships: R = S + 5, H = S - 3.",
+        "Step 2: Use the total number of businesses to create an equation: R + S + H = 25. Substitute the expressions for R and H from Step 1 into this equation to find S.",
+        "Step 3: Substitute R and H in the total businesses equation: (S + 5) + S + (S - 3) = 25. Simplify to solve for S: 3S + 2 = 25.",
+        "Step 4: Solve for S: 3S = 23, thus S = 23 / 3. With S known, calculate R and H using the relationships from Step 1.",
+        "Step 5: Knowing the number of shops (S), and that each restaurant has 10 more employees than each shop, and given the total number of employees in restaurants is 150, set up an equation to find the number of employees per shop. Let E be the number of employees per shop. Then, the total number of employees in restaurants is R * (E + 10) = 150.",
+        "Step 6: Calculate the actual number of shops, then use it to find E. With E known, calculate the total number of employees in all shops by multiplying E by the number of shops (S)."
+    ],
+    "final_answer": "Total number of employees in shops = S * E, after calculating S and E based on given conditions and established equations."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "105",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, which is 5 more than the number of cakes sold by each cafe, and 10 less than the number sold by each restaurant. If there are 5 bakeries, 3 cafes, and 2 restaurants, and the total number of cakes sold by all shops is 420, how many cakes does each cafe sell per day?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of cakes sold by each type of shop: let B be the number of cakes sold by each bakery, C be the number of cakes sold by each cafe, and R be the number of cakes sold by each restaurant.",
+        "Step 2: Establish the relationships between the variables based on the given information: B = C + 5 and R = B + 10.",
+        "Step 3: Express R in terms of C using the relationships from step 2: since B = C + 5, then R = (C + 5) + 10 = C + 15.",
+        "Step 4: Calculate the total number of cakes sold by all shops using the variables and the number of each type of shop: 5B + 3C + 2R = 420.",
+        "Step 5: Substitute the expressions for B and R from steps 2 and 3 into the equation from step 4: 5(C + 5) + 3C + 2(C + 15) = 420, and solve for C."
+    ],
+    "final_answer": "15"
+}

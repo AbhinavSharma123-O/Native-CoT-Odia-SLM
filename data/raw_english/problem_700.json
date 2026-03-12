@@ -1,0 +1,12 @@
+{
+    "id": "700",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a minimum of 250 loaves of bread per day and a maximum of 750 loaves. Each cafe sells a minimum of 150 cups of coffee per day and a maximum of 300 cups. Each restaurant sells a minimum of 50 meals per day and a maximum of 200 meals. On a given day, the total number of loaves of bread, cups of coffee, and meals sold in the village is 2100. If there are 5 bakeries, 4 cafes, and 3 restaurants, what is the average number of items (loaves of bread, cups of coffee, and meals) sold per shop on that day?",
+    "reasoning_steps": [
+        "Step 1: Determine the minimum and maximum total items sold by all bakeries. Minimum = 5 bakeries * 250 loaves = 1250, Maximum = 5 bakeries * 750 loaves = 3750.",
+        "Step 2: Determine the minimum and maximum total items sold by all cafes. Minimum = 4 cafes * 150 cups = 600, Maximum = 4 cafes * 300 cups = 1200.",
+        "Step 3: Determine the minimum and maximum total items sold by all restaurants. Minimum = 3 restaurants * 50 meals = 150, Maximum = 3 restaurants * 200 meals = 600.",
+        "Step 4: Calculate the total minimum and maximum items that could have been sold by all shops combined. Minimum total = 1250 (bakeries) + 600 (cafes) + 150 (restaurants) = 2000, Maximum total = 3750 (bakeries) + 1200 (cafes) + 600 (restaurants) = 5550.",
+        "Step 5: Given that the total number of items sold is 2100, calculate the average items sold per shop. Total shops = 5 bakeries + 4 cafes + 3 restaurants = 12 shops. Average = Total items sold / Total shops = 2100 / 12 = 175."
+    ],
+    "final_answer": "175"
+}

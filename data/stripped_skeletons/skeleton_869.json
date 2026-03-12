@@ -1,0 +1,24 @@
+{
+    "id": "869",
+    "original_problem": "In a small village, there are three types of shops: bakeries, restaurants, and cafes. Each type of shop has a specific number of employees. The total number of employees in all the shops is 240. The number of employees in the bakeries is 1/4 of the total number of employees in the restaurants and cafes combined. The number of employees in the restaurants is 50 more than the number of employees in the bakeries. The number of employees in the cafes is 2/3 of the number of employees in the restaurants. What is the number of employees in each type of shop?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, restaurants, and cafes. Each type of shop has a specific number of employees. The ମୋଟ (total) number of employees in all the shops is 240. The number of employees in the bakeries is 1/4 of the ମୋଟ (total) number of employees in the restaurants and cafes combined. The number of employees in the restaurants is 50 more than the number of employees in the bakeries. The number of employees in the cafes is 2/3 of the number of employees in the restaurants. What is the number of employees in each type of shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop: let B be the number of employees in the bakeries, R be the number of employees in the restaurants, and C be the number of employees in the cafes.",
+        "Step 2: Translate the given information into equations: B + R + C = 240, B = 1/4(R + C), R = B + 50, C = 2/3R.",
+        "Step 3: Use substitution to simplify the equations: substitute R = B + 50 into C = 2/3R to get C = 2/3(B + 50).",
+        "Step 4: Substitute the expressions for R and C into the first equation: B + (B + 50) + 2/3(B + 50) = 240.",
+        "Step 5: Solve the resulting equation for B: B + B + 50 + 2/3B + 100/3 = 240, combine like terms and solve for B."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop: let B be the number of employees in the bakeries, R be the number of employees in the restaurants, and C be the number of employees in the cafes.",
+        "ପଦକ୍ଷେପ (step) 2: Translate the given information into equations: B + R + C = 240, B = 1/4(R + C), R = B + 50, C = 2/3R.",
+        "ପଦକ୍ଷେପ (step) 3: Use substitution to simplify the equations: substitute R = B + 50 into C = 2/3R to get C = 2/3(B + 50).",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for R and C into the first ସମୀକରଣ (equation): B + (B + 50) + 2/3(B + 50) = 240.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the resulting ସମୀକରଣ (equation) for B: B + B + 50 + 2/3B + 100/3 = 240, combine like terms and solve for B."
+    ],
+    "final_answer": {
+        "bakeries": "40",
+        "restaurants": "90",
+        "cafes": "110"
+    }
+}

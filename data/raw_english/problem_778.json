@@ -1,0 +1,18 @@
+{
+    "id": "778",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, tank B can hold 800 liters, and tank C can hold 1200 liters. The town's water supply system is such that 1/4 of the water from tank A flows into tank B, 1/3 of the water from tank B flows into tank C, and 1/2 of the water from tank C flows back into tank A. If tank A is initially filled to its maximum capacity, tank B is filled to 2/3 of its capacity, and tank C is empty, how many liters of water will be in each tank after one complete cycle of water flow? Assume that the water flow from one tank to another is instantaneous and that the tanks do not leak.",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. Tank A is filled to its maximum capacity of 1000 liters, tank B is filled to 2/3 of its capacity which is (2/3)*800 = 533.33 liters, and tank C is empty with 0 liters.",
+        "Step 2: Calculate the amount of water that flows from tank A to tank B. Since 1/4 of the water from tank A flows into tank B, the amount of water flowing from A to B is (1/4)*1000 = 250 liters.",
+        "Step 3: Calculate the new amounts of water in tanks A and B after the flow from A to B. Tank A will have 1000 - 250 = 750 liters, and tank B will have 533.33 + 250 = 783.33 liters.",
+        "Step 4: Calculate the amount of water that flows from tank B to tank C. Since 1/3 of the water from tank B flows into tank C, the amount of water flowing from B to C is (1/3)*783.33 = 261.11 liters.",
+        "Step 5: Calculate the new amounts of water in tanks B and C after the flow from B to C. Tank B will have 783.33 - 261.11 = 522.22 liters, and tank C will have 0 + 261.11 = 261.11 liters.",
+        "Step 6: Calculate the amount of water that flows from tank C back to tank A. Since 1/2 of the water from tank C flows back into tank A, the amount of water flowing from C to A is (1/2)*261.11 = 130.56 liters.",
+        "Step 7: Calculate the final amounts of water in tanks A, B, and C after one complete cycle. Tank A will have 750 + 130.56 = 880.56 liters, tank B will have 522.22 liters, and tank C will have 261.11 - 130.56 = 130.56 liters."
+    ],
+    "final_answer": {
+        "Tank A": 880.56,
+        "Tank B": 522.22,
+        "Tank C": 130.56
+    }
+}

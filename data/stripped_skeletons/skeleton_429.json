@@ -1,0 +1,20 @@
+{
+    "id": "429",
+    "original_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 5 cubic meters per minute, while River C flows into River B at a rate of 3 cubic meters per minute. River B then flows into a large lake at a rate of 10 cubic meters per minute. If the lake's water level is currently at 50 meters and the town's water usage rate is 2 cubic meters per minute, how many minutes will it take for the lake's water level to rise by 10 meters, given that 1 cubic meter of water raises the lake's water level by 0.01 meters and the initial volume of water in the lake is 5000 cubic meters?",
+    "deconstructed_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 5 cubic meters per minute, while River C flows into River B at a rate of 3 cubic meters per minute. River B ତାହେଲେ (then) flows into a large lake at a rate of 10 cubic meters per minute. ଯଦି (if) the lake's water level is currently at 50 meters and the town's water usage rate is 2 cubic meters per minute, how many minutes will it take for the lake's water level to rise by 10 meters, given that 1 cubic meter of water raises the lake's water level by 0.01 meters and the initial volume of water in the lake is 5000 cubic meters?",
+    "original_steps": [
+        "Step 1: Calculate the total inflow rate into River B by adding the inflow rates from River A and River C.",
+        "Step 2: Calculate the net inflow rate into the lake by subtracting the town's water usage rate from the total outflow rate of River B.",
+        "Step 3: Determine the volume of water required to raise the lake's water level by 10 meters using the given conversion factor.",
+        "Step 4: Calculate the time it will take for the lake's water level to rise by 10 meters by dividing the required volume by the net inflow rate.",
+        "Step 5: Add the initial volume of the lake to the calculation to ensure accuracy."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) inflow rate into River B by adding the inflow rates from River A and River C.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the net inflow rate into the lake by subtracting the town's water usage rate from the ମୋଟ (total) outflow rate of River B.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the volume of water required to raise the lake's water level by 10 meters using the given conversion factor.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the time it will take for the lake's water level to rise by 10 meters by dividing the required volume by the net inflow rate.",
+        "ପଦକ୍ଷେପ (step) 5: ଯୋଗ (add) the initial volume of the lake to the calculation to ensure accuracy."
+    ],
+    "final_answer": "2000 minutes"
+}

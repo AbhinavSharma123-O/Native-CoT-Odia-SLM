@@ -1,0 +1,20 @@
+{
+    "id": "224",
+    "original_problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's total energy, respectively. Factory A uses 3 different materials (X, Y, Z) in the ratio 2:5:3. The cost of material X is $10 per unit, material Y is $15 per unit, and material Z is $20 per unit. If the total energy produced by factory A is 4500 units and it uses 1500 units of material Y, how much did factory A spend on materials to produce the energy, given that factory B and C use the same materials but in different ratios and costs, but their total production and material usage are not relevant to calculating factory A's expenditure?",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's ମୋଟ (total) energy, respectively. Factory A uses 3 different materials (X, Y, Z) in the ratio 2:5:3. The cost of material X is $10 per unit, material Y is $15 per unit, and material Z is $20 per unit. ଯଦି (if) the ମୋଟ (total) energy produced by factory A is 4500 units and it uses 1500 units of material Y, how much did factory A spend on materials to produce the energy, given that factory B and C use the same materials but in different ratios and costs, but their ମୋଟ (total) production and material usage are not relevant to calculating factory A's expenditure?",
+    "original_steps": [
+        "Step 1: Calculate the total amount of materials used by factory A to produce 4500 units of energy, knowing that it produces 30% of the town's energy and the total town energy is not directly provided but can be inferred from the given percentages and the fact that factory A's production is 4500 units.",
+        "Step 2: Determine the amount of each material (X, Y, Z) used by factory A, using the given ratio of 2:5:3 and the known usage of material Y (1500 units).",
+        "Step 3: Calculate the cost of each material used by factory A, based on their respective prices per unit ($10 for X, $15 for Y, $20 for Z).",
+        "Step 4: Sum the costs of all materials used by factory A to find the total expenditure.",
+        "Step 5: Consider any potential adjustments or additional calculations needed due to the information about factories B and C, and confirm that their production and material usage do not affect the calculation of factory A's expenditure."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) amount of materials used by factory A to produce 4500 units of energy, knowing that it produces 30% of the town's energy and the ମୋଟ (total) town energy is not directly provided but can be inferred from the given percentages and the fact that factory A's production is 4500 units.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the amount of each material (X, Y, Z) used by factory A, using the given ratio of 2:5:3 and the known usage of material Y (1500 units).",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the cost of each material used by factory A, based on their respective prices per unit ($10 for X, $15 for Y, $20 for Z).",
+        "ପଦକ୍ଷେପ (step) 4: ସମଷ୍ଟି (sum) the costs of all materials used by factory A to find the ମୋଟ (total) expenditure.",
+        "ପଦକ୍ଷେପ (step) 5: Consider any potential adjustments or additional calculations needed due to the information about factories B and C, and confirm that their production and material usage do not affect the calculation of factory A's expenditure."
+    ],
+    "final_answer": "To find the total amount spent by factory A, first calculate the total units of materials used. Given that Y is 1500 units and its ratio is 5, the total parts of the ratio are 2+5+3 = 10 parts. So, 5 parts correspond to 1500 units, meaning 1 part is 1500 / 5 = 300 units. Thus, the total materials used are 2*300 (for X) + 1500 (for Y) + 3*300 (for Z) = 600 + 1500 + 900 = 3000 units. The cost is then (600*10) + (1500*15) + (900*20) = 6000 + 22500 + 18000 = $46500."
+}

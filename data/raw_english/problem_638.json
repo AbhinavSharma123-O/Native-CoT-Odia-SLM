@@ -1,0 +1,12 @@
+{
+    "id": "638",
+    "problem": "In a small town, there are three types of shops: bakeries, florists, and cafes. Each shop has a unique number of employees. The total number of employees in all the shops is 90. The town has 5 bakeries, and each bakery has 5 more employees than the average number of employees in a florist shop. There are 3 florist shops, and each florist shop has 2 fewer employees than the average number of employees in a cafe. The town has 2 cafes, and the total number of employees in the cafes is 50. What is the average number of employees in a bakery?",
+    "reasoning_steps": [
+        "Step 1: Calculate the average number of employees in a cafe by dividing the total number of employees in cafes by the number of cafes.",
+        "Step 2: Determine the average number of employees in a florist shop by using the relationship between the average number of employees in a florist shop and a cafe.",
+        "Step 3: Find the number of employees in each bakery by using the relationship between the number of employees in a bakery and the average number of employees in a florist shop.",
+        "Step 4: Calculate the total number of employees in all the bakeries.",
+        "Step 5: Calculate the average number of employees in a bakery by dividing the total number of employees in all the bakeries by the number of bakeries."
+    ],
+    "final_answer": "15"
+}

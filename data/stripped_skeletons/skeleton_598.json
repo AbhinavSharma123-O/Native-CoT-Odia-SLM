@@ -1,0 +1,46 @@
+{
+    "id": "598",
+    "original_problem": "In a small town, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the house next to the person who owns the green house. Clue 6: The person who owns the green house drinks water.",
+    "deconstructed_problem": "In a small town, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the house next to the person who owns the green house. Clue 6: The person who owns the green house drinks water.",
+    "original_steps": [
+        "Step 1: Determine the color of the first house and the favorite drink of its occupant using Clue 1 and Clue 6.",
+        "Step 2: Use Clue 2 to identify the color of the house next to the person who drinks milk and Clue 5 to place the person who drinks tea.",
+        "Step 3: Apply Clue 3 to position the red house and its occupant relative to the person who drinks coffee.",
+        "Step 4: Employ Clue 4 to find the position of the American and the person who drinks soda, considering the constraints from previous steps.",
+        "Step 5: Combine all information to deduce the color of each house, the nationality of its occupant, and their favorite drink, ensuring all clues are satisfied."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the color of the first house and the favorite drink of its occupant using Clue 1 and Clue 6.",
+        "ପଦକ୍ଷେପ (step) 2: Use Clue 2 to identify the color of the house next to the person who drinks milk and Clue 5 to place the person who drinks tea.",
+        "ପଦକ୍ଷେପ (step) 3: Apply Clue 3 to position the red house and its occupant relative to the person who drinks coffee.",
+        "ପଦକ୍ଷେପ (step) 4: Employ Clue 4 to find the position of the American and the person who drinks soda, considering the constraints from previous steps.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all information to deduce the color of each house, the nationality of its occupant, and their favorite drink, ensuring all clues are satisfied."
+    ],
+    "final_answer": {
+        "House 1": {
+            "Color": "Yellow",
+            "Nationality": "Canadian",
+            "Drink": "Milk"
+        },
+        "House 2": {
+            "Color": "Blue",
+            "Nationality": "American",
+            "Drink": "Soda"
+        },
+        "House 3": {
+            "Color": "Red",
+            "Nationality": "British",
+            "Drink": "Coffee"
+        },
+        "House 4": {
+            "Color": "Green",
+            "Nationality": "Indian",
+            "Drink": "Water"
+        },
+        "House 5": {
+            "Color": "White",
+            "Nationality": "Japanese",
+            "Drink": "Tea"
+        }
+    }
+}

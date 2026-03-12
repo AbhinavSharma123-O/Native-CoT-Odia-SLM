@@ -1,0 +1,12 @@
+{
+    "id": "728",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird is flying around the well, and every time the snail climbs, the bird drops a seed. The bird has 30 seeds to drop, and it drops them one at a time. How many days will it take for the snail to reach the top of the well, and will the bird have enough seeds to drop one each day the snail climbs?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net progress of the snail per day, which is the difference between the distance it climbs during the day and the distance it slips back at night.",
+        "Step 2: Determine the total distance the snail needs to climb to reach the top of the well and calculate how many days it will take to reach the top, considering the net progress per day.",
+        "Step 3: Calculate the number of days the snail will climb before reaching the top, as this will determine how many seeds the bird needs to drop.",
+        "Step 4: Compare the number of seeds the bird has with the number of days the snail will climb to see if the bird will have enough seeds.",
+        "Step 5: Adjust the calculation to account for the day the snail reaches the top and does not slip back, which affects the total number of climbing days."
+    ],
+    "final_answer": "It will take the snail 18 days to reach the top of the well, and the bird will have enough seeds."
+}

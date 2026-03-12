@@ -1,0 +1,25 @@
+{
+    "id": "840",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system has three valves that control the flow of water into the tanks. Each valve can either be fully open or fully closed. The system operates under the following rules: (1) Tank A and Tank B are connected in series and can be filled simultaneously from a single source. (2) Tank C is filled from a separate source and can be filled independently of Tanks A and B. (3) The rate at which Tank A is filled is 50 liters per minute when its valve is open, and the rate for Tank B is 30 liters per minute. (4) Tank C's filling rate is 20 liters per minute. (5) The town starts with all tanks empty and all valves closed. At time t=0, the valves for Tanks A and C are opened. At t=10 minutes, the valve for Tank B is opened, and the valve for Tank A is closed. How many liters of water are in each tank after 20 minutes, and what is the total amount of water in all tanks combined?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system has three valves that control the flow of water into the tanks. Each valve can either be fully open or fully closed. The system operates under the following rules: (1) Tank A and Tank B are connected in series and can be filled simultaneously from a single source. (2) Tank C is filled from a separate source and can be filled independently of Tanks A and B. (3) The rate at which Tank A is filled is 50 liters per minute when its valve is open, and the rate for Tank B is 30 liters per minute. (4) Tank C's filling rate is 20 liters per minute. (5) The town starts with all tanks empty and all valves closed. At time t=0, the valves for Tanks A and C are opened. At t=10 minutes, the valve for Tank B is opened, and the valve for Tank A is closed. How many liters of water are in each tank after 20 minutes, and what is the ମୋଟ (total) amount of water in all tanks combined?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water in Tank A from t=0 to t=10 minutes, given its filling rate of 50 liters per minute.",
+        "Step 2: Calculate the amount of water in Tank C from t=0 to t=10 minutes, given its filling rate of 20 liters per minute.",
+        "Step 3: From t=10 to t=20 minutes, calculate the amount of water added to Tank B, given its filling rate of 30 liters per minute, and the additional water added to Tank C.",
+        "Step 4: Calculate the total amount of water in each tank after 20 minutes by summing the amounts calculated in the previous steps for Tank A (which does not receive additional water after t=10), Tank B, and Tank C.",
+        "Step 5: Sum the amounts of water in Tanks A, B, and C to find the total amount of water in all tanks after 20 minutes."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water in Tank A from t=0 to t=10 minutes, given its filling rate of 50 liters per minute.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water in Tank C from t=0 to t=10 minutes, given its filling rate of 20 liters per minute.",
+        "ପଦକ୍ଷେପ (step) 3: From t=10 to t=20 minutes, calculate the amount of water added to Tank B, given its filling rate of 30 liters per minute, and the additional water added to Tank C.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) amount of water in each tank after 20 minutes by summing the amounts calculated in the previous steps for Tank A (which does not receive additional water after t=10), Tank B, and Tank C.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the amounts of water in Tanks A, B, and C to find the ମୋଟ (total) amount of water in all tanks after 20 minutes."
+    ],
+    "final_answer": {
+        "Tank A": 500,
+        "Tank B": 300,
+        "Tank C": 400,
+        "Total": 1200
+    }
+}

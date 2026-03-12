@@ -1,0 +1,20 @@
+{
+    "id": "806",
+    "original_problem": "In a small town, there are three water towers: Tower A, Tower B, and Tower C. Each tower has a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is set up such that Tower A fills Tower B at a rate of 100 gallons per hour, Tower B fills Tower C at a rate of 150 gallons per hour, and Tower C fills the town's reservoir at a rate of 200 gallons per hour. If Tower A is currently full, Tower B is 3/4 full, and Tower C is 1/2 full, how many hours will it take to fill the reservoir, which has a capacity of 12000 gallons, assuming that all towers start filling and emptying at the same time and that the rate of filling and emptying is constant?",
+    "deconstructed_problem": "In a small town, there are three water towers: Tower A, Tower B, and Tower C. Each tower has a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is set up such that Tower A fills Tower B at a rate of 100 gallons per hour, Tower B fills Tower C at a rate of 150 gallons per hour, and Tower C fills the town's reservoir at a rate of 200 gallons per hour. ଯଦି (if) Tower A is currently full, Tower B is 3/4 full, and Tower C is 1/2 full, how many hours will it take to fill the reservoir, which has a capacity of 12000 gallons, assuming that all towers start filling and emptying at the same time and that the rate of filling and emptying is constant?",
+    "original_steps": [
+        "Step 1: Determine the initial amount of water in each tower and the reservoir.",
+        "Step 2: Calculate the net rate at which the reservoir is being filled, taking into account the rates at which water is being transferred between towers and from Tower C to the reservoir.",
+        "Step 3: Calculate the total amount of water that needs to be transferred to fill the reservoir, considering the initial amounts in the towers and the reservoir's capacity.",
+        "Step 4: Use the net fill rate of the reservoir and the total amount of water needed to fill it to calculate the time required to fill the reservoir.",
+        "Step 5: Consider the limitations imposed by the capacities of the towers and adjust the calculation if necessary to account for any tower becoming full or empty during the process."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the initial amount of water in each tower and the reservoir.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the net rate at which the reservoir is being filled, taking into account the rates at which water is being transferred between towers and from Tower C to the reservoir.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) amount of water that needs to be transferred to fill the reservoir, considering the initial amounts in the towers and the reservoir's capacity.",
+        "ପଦକ୍ଷେପ (step) 4: Use the net fill rate of the reservoir and the ମୋଟ (total) amount of water needed to fill it to calculate the time required to fill the reservoir.",
+        "ପଦକ୍ଷେପ (step) 5: Consider the limitations imposed by the capacities of the towers and adjust the calculation ଯଦି (if) necessary to account for any tower becoming full or empty during the process."
+    ],
+    "final_answer": "24"
+}

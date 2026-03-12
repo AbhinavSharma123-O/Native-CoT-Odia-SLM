@@ -1,0 +1,38 @@
+{
+    "id": "570",
+    "problem": "In a small town, there are three types of houses: blue, red, and green. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address, nationality, and favorite drink of each house: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the blue house. The person who owns the red house does not live next to the person who drinks coffee. The person who drinks soda lives in the green house. The person who drinks tea lives in the house next to the British person. The American lives in the house next to the person who drinks water. The person who owns the blue house drinks either coffee or tea.",
+    "reasoning_steps": [
+        "Step 1: Determine the nationality of the person living in each house based on the given clues, starting with the Canadian in the first house.",
+        "Step 2: Use the clue about the person who drinks milk to establish the color of the house next to the Canadian and the favorite drink of its occupant.",
+        "Step 3: Apply the clue about the red house and coffee to further narrow down the possibilities for the houses' colors and occupants' favorite drinks.",
+        "Step 4: Utilize the information about the green house and soda, as well as the relationship between the British person and tea, to make further deductions.",
+        "Step 5: Finally, use the clue about the American and water to solve for the remaining house, determining its color, occupant's nationality, and favorite drink."
+    ],
+    "final_answer": {
+        "House 1": {
+            "color": "blue",
+            "nationality": "Canadian",
+            "drink": "milk"
+        },
+        "House 2": {
+            "color": "red",
+            "nationality": "British",
+            "drink": "tea"
+        },
+        "House 3": {
+            "color": "green",
+            "nationality": "Indian",
+            "drink": "soda"
+        },
+        "House 4": {
+            "color": "unknown",
+            "nationality": "American",
+            "drink": "water"
+        },
+        "House 5": {
+            "color": "unknown",
+            "nationality": "Japanese",
+            "drink": "coffee"
+        }
+    }
+}

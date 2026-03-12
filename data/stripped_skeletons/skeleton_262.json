@@ -1,0 +1,22 @@
+{
+    "id": "262",
+    "original_problem": "In a small village, there are three types of shops: A, B, and C. Each type of shop has a different number of employees, and the total number of employees in all shops is 105. Type A shops have 5 more employees than Type B shops, and Type C shops have 10 more employees than Type A shops. If there are 5 Type A shops, 3 Type B shops, and 2 Type C shops, what is the total number of employees in Type B shops?",
+    "deconstructed_problem": "In a small village, there are three types of shops: A, B, and C. Each type of shop has a different number of employees, and the ମୋଟ (total) number of employees in all shops is 105. Type A shops have 5 more employees than Type B shops, and Type C shops have 10 more employees than Type A shops. ଯଦି (if) there are 5 Type A shops, 3 Type B shops, and 2 Type C shops, what is the ମୋଟ (total) number of employees in Type B shops?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in Type A shops as A, Type B shops as B, and Type C shops as C.",
+        "Step 2: Establish the relationships between the variables based on the given information. We know that A = B + 5 and C = A + 10.",
+        "Step 3: Express C in terms of B to simplify the equations. Since A = B + 5, then C = (B + 5) + 10 = B + 15.",
+        "Step 4: Calculate the total number of employees using the given number of shops for each type. The total number of employees is 5A + 3B + 2C, and we are given that this total equals 105.",
+        "Step 5: Substitute the expressions for A and C from Steps 2 and 3 into the equation from Step 4 to solve for B. This gives us 5(B + 5) + 3B + 2(B + 15) = 105.",
+        "Step 6: Solve the equation for B. Expanding the equation yields 5B + 25 + 3B + 2B + 30 = 105. Combining like terms gives us 10B + 55 = 105. Subtracting 55 from both sides gives 10B = 50. Dividing both sides by 10 gives B = 5."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in Type A shops as A, Type B shops as B, and Type C shops as C.",
+        "ପଦକ୍ଷେପ (step) 2: Establish the relationships between the variables based on the given information. We know that A = B + 5 and C = A + 10.",
+        "ପଦକ୍ଷେପ (step) 3: Express C in terms of B to simplify the equations. Since A = B + 5, ତାହେଲେ (then) C = (B + 5) + 10 = B + 15.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of employees using the given number of shops for each type. The ମୋଟ (total) number of employees is 5A + 3B + 2C, and we are given that this ମୋଟ (total) ସମାନ (equals) 105.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the expressions for A and C from Steps 2 and 3 into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 to solve for B. This gives us 5(B + 5) + 3B + 2(B + 15) = 105.",
+        "ପଦକ୍ଷେପ (step) 6: Solve the ସମୀକରଣ (equation) for B. Expanding the ସମୀକରଣ (equation) yields 5B + 25 + 3B + 2B + 30 = 105. Combining like terms gives us 10B + 55 = 105. Subtracting 55 from both sides gives 10B = 50. Dividing both sides by 10 gives B = 5."
+    ],
+    "final_answer": "15"
+}

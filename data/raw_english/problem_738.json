@@ -1,0 +1,12 @@
+{
+    "id": "738",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters, Tank B can hold 800 liters, and Tank C can hold 1200 liters. The town's water supply system is such that on any given day, the amount of water used from Tank A is 20% more than the amount used from Tank B, and the amount used from Tank C is 15% less than the amount used from Tank A. If on a particular day, the total amount of water used from all three tanks is 2500 liters, and the amount used from Tank B is 30% of the total capacity of Tank B, then what percentage of Tank C's capacity is used on this day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of water used from Tank B, knowing it's 30% of its 800-liter capacity.",
+        "Step 2: Determine the amount of water used from Tank A, given it's 20% more than the amount used from Tank B.",
+        "Step 3: Calculate the total amount of water used from Tanks A and B combined.",
+        "Step 4: Find the amount of water used from Tank C by subtracting the total used from Tanks A and B from the total used from all tanks (2500 liters).",
+        "Step 5: Calculate the percentage of Tank C's capacity that is used by dividing the amount used from Tank C by its total capacity and multiplying by 100."
+    ],
+    "final_answer": "62.5%"
+}

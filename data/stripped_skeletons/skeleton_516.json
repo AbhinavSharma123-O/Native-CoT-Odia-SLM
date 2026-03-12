@@ -1,0 +1,20 @@
+{
+    "id": "516",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1200 gallons. The town's water supply system can fill Tank A at a rate of 50 gallons per minute, Tank B at a rate of 30 gallons per minute, and Tank C at a rate of 40 gallons per minute. However, due to some leaks, Tank A loses water at a rate of 10 gallons per minute, Tank B loses water at a rate of 5 gallons per minute, and Tank C loses water at a rate of 15 gallons per minute. If all three tanks are currently empty and the town's water supply system starts filling them at the same time, how many minutes will it take to fill all three tanks to their maximum capacity?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1200 gallons. The town's water supply system can fill Tank A at a rate of 50 gallons per minute, Tank B at a rate of 30 gallons per minute, and Tank C at a rate of 40 gallons per minute. However, due to some leaks, Tank A loses water at a rate of 10 gallons per minute, Tank B loses water at a rate of 5 gallons per minute, and Tank C loses water at a rate of 15 gallons per minute. ଯଦି (if) all three tanks are currently empty and the town's water supply system starts filling them at the same time, how many minutes will it take to fill all three tanks to their maximum capacity?",
+    "original_steps": [
+        "Step 1: Calculate the net filling rate for each tank by subtracting the leak rate from the filling rate. For Tank A, the net filling rate is 50 - 10 = 40 gallons per minute. For Tank B, the net filling rate is 30 - 5 = 25 gallons per minute. For Tank C, the net filling rate is 40 - 15 = 25 gallons per minute.",
+        "Step 2: Calculate the time it takes to fill each tank to its maximum capacity using the net filling rates. For Tank A, the time is 1000 / 40 = 25 minutes. For Tank B, the time is 800 / 25 = 32 minutes. For Tank C, the time is 1200 / 25 = 48 minutes.",
+        "Step 3: Determine the maximum time it takes to fill any of the tanks, which will be the time when all tanks are filled to their maximum capacity. In this case, Tank C takes the longest time at 48 minutes.",
+        "Step 4: Since all tanks are being filled simultaneously, the time it takes to fill all three tanks to their maximum capacity is the same as the time it takes to fill the tank that takes the longest to fill, which is Tank C.",
+        "Step 5: Therefore, the time it takes to fill all three tanks to their maximum capacity is the time calculated for Tank C in Step 3."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net filling rate for each tank by subtracting the leak rate from the filling rate. For Tank A, the net filling rate is 50 - 10 = 40 gallons per minute. For Tank B, the net filling rate is 30 - 5 = 25 gallons per minute. For Tank C, the net filling rate is 40 - 15 = 25 gallons per minute.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the time it takes to fill each tank to its maximum capacity using the net filling rates. For Tank A, the time is 1000 / 40 = 25 minutes. For Tank B, the time is 800 / 25 = 32 minutes. For Tank C, the time is 1200 / 25 = 48 minutes.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the maximum time it takes to fill any of the tanks, which will be the time when all tanks are filled to their maximum capacity. In this case, Tank C takes the longest time at 48 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: Since all tanks are being filled simultaneously, the time it takes to fill all three tanks to their maximum capacity is the same as the time it takes to fill the tank that takes the longest to fill, which is Tank C.",
+        "ପଦକ୍ଷେପ (step) 5: ତେଣୁ (therefore), the time it takes to fill all three tanks to their maximum capacity is the time calculated for Tank C in ପଦକ୍ଷେପ (step) 3."
+    ],
+    "final_answer": "48"
+}

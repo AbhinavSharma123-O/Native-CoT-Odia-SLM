@@ -1,0 +1,12 @@
+{
+    "id": "690",
+    "problem": "In a small town, there are three types of houses: A, B, and C. House A costs $200,000 and increases in value by 5% each year. House B costs $250,000 and increases in value by 3% each year. House C costs $180,000 and increases in value by 7% each year. If a person buys one house of each type and sells them after 5 years, what is the total amount of money the person will have, given that the interest rate is 2% per year and the person invests any profit in a savings account? Assume that the person has $100,000 initially and uses it to pay for the houses, and that there are no other expenses or taxes.",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial total cost of the houses and determine how much money is left after the purchase to invest in a savings account.",
+        "Step 2: Calculate the annual increase in value for each type of house over 5 years, considering the compounding effect of the increase.",
+        "Step 3: Determine the total value of each house after 5 years and calculate the total profit made from selling the houses.",
+        "Step 4: Calculate the interest earned from investing any remaining balance in a savings account over the 5-year period, considering the compounding effect of the interest.",
+        "Step 5: Add the total profit from selling the houses and the interest earned from the savings account to the initial amount of money to find the total amount the person will have after 5 years."
+    ],
+    "final_answer": "Approximately $943,919.24"
+}

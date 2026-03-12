@@ -1,0 +1,14 @@
+{
+    "id": "205",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town starts with Tank A being 3/4 full, Tank B being 1/2 full, and Tank C being empty. Due to a water shortage, the town decides to implement a water distribution system where 1/4 of the water from Tank A is transferred to Tank B every day, and then 1/3 of the water from Tank B is transferred to Tank C. However, it's also discovered that Tank C leaks at a rate of 50 gallons per day. On the 4th day after the distribution system starts, how much water will be in each tank, and what will be the total amount of water in the system?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. For Tank A, 3/4 of 1200 gallons is 900 gallons. For Tank B, 1/2 of 800 gallons is 400 gallons. Tank C starts empty.",
+        "Step 2: Determine the amount of water transferred from Tank A to Tank B on the first day, which is 1/4 of 900 gallons, or 225 gallons.",
+        "Step 3: Calculate the amount of water in Tank B after the transfer from Tank A and before transferring to Tank C. This will be the initial 400 gallons plus the 225 gallons from Tank A, totaling 625 gallons.",
+        "Step 4: Calculate the amount of water transferred from Tank B to Tank C on the first day, which is 1/3 of 625 gallons, or approximately 208.33 gallons.",
+        "Step 5: Account for the leak in Tank C, which loses 50 gallons per day.",
+        "Step 6: Repeat steps 2 through 5 for the subsequent days, adjusting the amounts in each tank accordingly, considering the transfers and the leak.",
+        "Step 7: On the 4th day, after all transfers and accounting for the leak, calculate the final amount of water in each tank and sum them for the total amount in the system."
+    ],
+    "final_answer": "Total water after calculations: Tank A = 900 - (225 * 4) = 300 gallons, Tank B = 400 + (225 * 4) - (208.33 * 4) = 400 + 900 - 833.32 = 466.68 gallons, Tank C = (208.33 * 4) - 50 * 4 = 833.32 - 200 = 633.32 gallons. Total water = 300 + 466.68 + 633.32 = 1400 gallons."
+}

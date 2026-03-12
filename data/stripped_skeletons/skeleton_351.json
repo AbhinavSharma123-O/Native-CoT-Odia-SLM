@@ -1,0 +1,20 @@
+{
+    "id": "351",
+    "original_problem": "In a small town, there are 5 factories producing goods. Each factory has a different production rate and operates for a different number of hours per day. Factory A operates for 8 hours at a rate of 200 units per hour, Factory B for 10 hours at 150 units per hour, Factory C for 12 hours at 100 units per hour, Factory D for 8 hours at 250 units per hour, and Factory E for 10 hours at 120 units per hour. Additionally, the town has a 10% tax on all goods produced. If the town aims to produce a total of 12000 units after taxes, and considering that Factory A and Factory D have a 5% increase in production rate due to new machinery, how many hours should Factory C operate to meet the town's production goal?",
+    "deconstructed_problem": "In a small town, there are 5 factories producing goods. Each factory has a different production rate and operates for a different number of hours per day. Factory A operates for 8 hours at a rate of 200 units per hour, Factory B for 10 hours at 150 units per hour, Factory C for 12 hours at 100 units per hour, Factory D for 8 hours at 250 units per hour, and Factory E for 10 hours at 120 units per hour. Additionally, the town has a 10% tax on all goods produced. ଯଦି (if) the town aims to produce a ମୋଟ (total) of 12000 units after taxes, and considering that Factory A and Factory D have a 5% increase in production rate due to new machinery, how many hours should Factory C operate to meet the town's production goal?",
+    "original_steps": [
+        "Step 1: Calculate the initial production rate for each factory before taxes and adjustments.",
+        "Step 2: Apply the 5% increase in production rate to Factory A and Factory D.",
+        "Step 3: Calculate the total production of all factories before taxes, excluding Factory C.",
+        "Step 4: Determine the required production after taxes and calculate the needed production before taxes.",
+        "Step 5: Find out how much Factory C needs to produce to meet the town's goal and calculate the hours it needs to operate based on its production rate."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial production rate for each factory before taxes and adjustments.",
+        "ପଦକ୍ଷେପ (step) 2: Apply the 5% increase in production rate to Factory A and Factory D.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) production of all factories before taxes, excluding Factory C.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the required production after taxes and calculate the needed production before taxes.",
+        "ପଦକ୍ଷେପ (step) 5: Find out how much Factory C needs to produce to meet the town's goal and calculate the hours it needs to operate based on its production rate."
+    ],
+    "final_answer": "Factory C should operate for 16 hours."
+}

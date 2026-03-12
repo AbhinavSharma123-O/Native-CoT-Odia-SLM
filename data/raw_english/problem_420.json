@@ -1,0 +1,12 @@
+{
+    "id": "420",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 150 cups of coffee per day. Each restaurant sells 300 meals per day. The total number of loaves of bread sold per day is 3750, the total number of cups of coffee sold per day is 2250, and the total number of meals sold per day is 4800. If a bakery costs $1000 to set up, a cafe costs $800 to set up, and a restaurant costs $1200 to set up, and the total cost of setting up all the shops in the town is $43200, how many bakeries are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of bakeries by dividing the total number of loaves of bread sold per day by the number of loaves sold per bakery: 3750 / 250 = 15",
+        "Step 2: Calculate the number of cafes by dividing the total number of cups of coffee sold per day by the number of cups sold per cafe: 2250 / 150 = 15",
+        "Step 3: Calculate the number of restaurants by dividing the total number of meals sold per day by the number of meals sold per restaurant: 4800 / 300 = 16",
+        "Step 4: Set up an equation to represent the total cost of setting up all the shops: 1000B + 800C + 1200R = 43200, where B is the number of bakeries, C is the number of cafes, and R is the number of restaurants",
+        "Step 5: Substitute the values of C and R into the equation from Step 4, using the values calculated in Steps 2 and 3: 1000B + 800(15) + 1200(16) = 43200, and solve for B"
+    ],
+    "final_answer": "6"
+}

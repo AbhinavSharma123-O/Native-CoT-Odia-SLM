@@ -1,0 +1,20 @@
+{
+    "id": "884",
+    "original_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the villagers tells you that one of the light bulbs is always in the opposite state of another, and the third light bulb is always in the same state as the first. You also know that when you first enter the village, all the switches are off, and therefore all the light bulbs are off.",
+    "deconstructed_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the villagers tells you that one of the light bulbs is always in the opposite state of another, and the third light bulb is always in the same state as the first. You also know that when you first enter the village, all the switches are off, and ତେଣୁ (therefore) all the light bulbs are off.",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to potentially heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "Step 3: In the room, identify the bulb that is on (corresponding to switch 2), the bulb that is off but warm (corresponding to switch 1), and the remaining bulb that is off and cold.",
+        "Step 4: Determine the relationship between the bulbs based on the villager's information. Since one bulb is always in the opposite state of another, and the third is always in the same state as the first, the bulb corresponding to switch 1 (initially turned on and then off) must be the one that has a corresponding 'opposite' bulb, given it was recently changed.",
+        "Step 5: Use the information from the villager and the observed states of the bulbs to deduce which switch controls which light bulb, considering the always 'opposite' and always 'same' conditions."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to potentially heat up the corresponding bulb.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "ପଦକ୍ଷେପ (step) 3: In the room, identify the bulb that is on (corresponding to switch 2), the bulb that is off but warm (corresponding to switch 1), and the remaining bulb that is off and cold.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the relationship between the bulbs based on the villager's information. Since one bulb is always in the opposite state of another, and the third is always in the same state as the first, the bulb corresponding to switch 1 (initially turned on and ତାହେଲେ (then) off) must be the one that has a corresponding 'opposite' bulb, given it was recently changed.",
+        "ପଦକ୍ଷେପ (step) 5: Use the information from the villager and the observed states of the bulbs to deduce which switch controls which light bulb, considering the always 'opposite' and always 'same' conditions."
+    ],
+    "final_answer": "Switch 1 corresponds to the bulb that was recently warm, switch 2 corresponds to the bulb that was on when observed, and switch 3 corresponds to the remaining bulb, with the exact 'same' or 'opposite' relationship determined based on the observed states and the villager's hint."
+}

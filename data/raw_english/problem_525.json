@@ -1,0 +1,12 @@
+{
+    "id": "525",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a maximum of 250 loaves of bread per day, with each loaf costing $2. Each cafe sells a maximum of 300 cups of coffee per day, with each cup costing $1.50. Each restaurant sells a maximum of 200 meals per day, with each meal costing $15. The town has a total of 10 shops, consisting of 3 bakeries, 4 cafes, and 3 restaurants. If all shops sell their maximum amount of products per day and the total revenue from all shops is $13,500, what is the average revenue per shop? However, there's an additional condition: one of the cafes is a high-end cafe, and it sells its coffee for $3 per cup instead of $1.50, and it sells exactly 50% more coffee than the average of the other cafes.",
+    "reasoning_steps": [
+        "Step 1: Calculate the total revenue from all bakeries by multiplying the number of bakeries by the maximum number of loaves each sells per day and the cost per loaf.",
+        "Step 2: Calculate the total revenue from all regular cafes by first finding the average number of cups of coffee each regular cafe sells per day, then multiplying this average by the number of regular cafes, the cost per cup, and adjusting for the high-end cafe's sales.",
+        "Step 3: Calculate the revenue from the high-end cafe by determining how many cups of coffee it sells based on the 50% increase from the average of the other cafes, then multiplying by its selling price per cup.",
+        "Step 4: Calculate the total revenue from all restaurants by multiplying the number of restaurants by the maximum number of meals each sells per day and the cost per meal.",
+        "Step 5: Add the revenues from all types of shops together and divide by the total number of shops to find the average revenue per shop, ensuring to account for the high-end cafe's different pricing and sales volume."
+    ],
+    "final_answer": "1350"
+}

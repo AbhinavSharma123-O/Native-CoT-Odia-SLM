@@ -1,0 +1,12 @@
+{
+    "id": "6",
+    "problem": "In a small town, there are three factories: A, B, and C, producing 30%, 25%, and 45% of the town's total output, respectively. Each factory has a different production rate per hour: Factory A produces 250 units/hour, Factory B produces 200 units/hour, and Factory C produces 300 units/hour. On a given day, Factory A operates for 8 hours, Factory B operates for 7 hours, and Factory C operates for 9 hours. If the total daily output of the town is 12,000 units, what is the total output of Factory C on that day?",
+    "reasoning_steps": [
+        "Step 1: Determine the total output of each factory per day by multiplying their production rates by the number of hours they operate.",
+        "Step 2: Calculate the total output of Factory A by multiplying 250 units/hour by 8 hours to get 2,000 units.",
+        "Step 3: Calculate the total output of Factory B by multiplying 200 units/hour by 7 hours to get 1,400 units.",
+        "Step 4: Express the total output of Factory C as 300 units/hour multiplied by 9 hours, which equals 2,700 units, and recognize this is a portion of the total output.",
+        "Step 5: Calculate the combined output of Factory A and Factory B, which is 2,000 units + 1,400 units = 3,400 units, and subtract this from the total town output to find the output of Factory C."
+    ],
+    "final_answer": "8,600"
+}

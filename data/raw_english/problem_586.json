@@ -1,0 +1,12 @@
+{
+    "id": "586",
+    "problem": "In a small town, there are three types of shops: clothing stores, bakeries, and bookstores. The town has a total of 25 shops. The number of clothing stores is 5 more than the number of bakeries, and the number of bookstores is 3 less than the number of clothing stores. If the total number of employees in all the shops is 150, and each bakery has 5 employees, each clothing store has 8 employees, and each bookstore has 4 employees, how many bakeries are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define variables for the number of each type of shop: let B = number of bakeries, C = number of clothing stores, and S = number of bookstores.",
+        "Step 2: Translate given information into equations: C = B + 5, S = C - 3, and B + C + S = 25.",
+        "Step 3: Substitute the expressions for C and S from the first two equations into the third equation to get B + (B + 5) + ((B + 5) - 3) = 25, simplifying to 3B + 7 = 25.",
+        "Step 4: Solve the equation from step 3 for B: 3B = 25 - 7, 3B = 18, B = 18 / 3, B = 6.",
+        "Step 5: Verify that the total number of employees matches the given information: 6 bakeries * 5 employees = 30, (6 + 5) clothing stores * 8 employees = 11 * 8 = 88, and (11 - 3) bookstores * 4 employees = 8 * 4 = 32. Total employees = 30 + 88 + 32 = 150, which matches the problem statement."
+    ],
+    "final_answer": "6"
+}

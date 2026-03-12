@@ -1,0 +1,20 @@
+{
+    "id": "974",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar per day. Each cafe uses 1 unit of flour and 2 units of sugar per day. Each restaurant uses 3 units of flour and 1 unit of sugar per day. The village has a total of 15 shops, and the total daily usage of flour is 45 units and sugar is 30 units. If the number of bakeries is 2 more than the number of cafes, how many restaurants are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar per day. Each cafe uses 1 unit of flour and 2 units of sugar per day. Each restaurant uses 3 units of flour and 1 unit of sugar per day. The village has a ମୋଟ (total) of 15 shops, and the ମୋଟ (total) daily usage of flour is 45 units and sugar is 30 units. ଯଦି (if) the number of bakeries is 2 more than the number of cafes, how many restaurants are there in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and establish the relationships between them based on the given information.",
+        "Step 2: Set up equations based on the total number of shops (B + C + R = 15) and the daily usage of flour (2B + C + 3R = 45) and sugar (B + 2C + R = 30).",
+        "Step 3: Use the information that the number of bakeries is 2 more than the number of cafes (B = C + 2) to reduce the number of variables in the equations.",
+        "Step 4: Substitute B = C + 2 into the equations for total shops, flour usage, and sugar usage to create a system of equations with two variables (C and R).",
+        "Step 5: Solve the system of equations for C and R. First, substitute B in the total shops equation: (C + 2) + C + R = 15, simplifying to 2C + R = 13. Then, substitute B in the flour and sugar equations and solve the resulting system of equations."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and establish the relationships between them based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the ମୋଟ (total) number of shops (B + C + R = 15) and the daily usage of flour (2B + C + 3R = 45) and sugar (B + 2C + R = 30).",
+        "ପଦକ୍ଷେପ (step) 3: Use the information that the number of bakeries is 2 more than the number of cafes (B = C + 2) to reduce the number of variables in the equations.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute B = C + 2 into the equations for ମୋଟ (total) shops, flour usage, and sugar usage to create a system of equations with two variables (C and R).",
+        "ପଦକ୍ଷେପ (step) 5: Solve the system of equations for C and R. First, substitute B in the ମୋଟ (total) shops ସମୀକରଣ (equation): (C + 2) + C + R = 15, simplifying to 2C + R = 13. ତାହେଲେ (then), substitute B in the flour and sugar equations and solve the resulting system of equations."
+    ],
+    "final_answer": "4"
+}

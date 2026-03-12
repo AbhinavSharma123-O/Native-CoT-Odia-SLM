@@ -1,0 +1,20 @@
+{
+    "id": "501",
+    "original_problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch controls which light bulb?",
+    "deconstructed_problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch controls which light bulb?",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room to observe the bulbs. Identify the bulb that is on (corresponding to switch 2), the bulb that is off but warm (corresponding to switch 1), and the bulb that is off and cold (which could correspond to either switch 1 or switch 3).",
+        "Step 4: Turn switch 2 to the 'off' position and turn switch 3 to the 'on' position if you haven't already done so, then re-enter is not allowed so use the process of elimination to figure out which switch corresponds to which bulb based on the initial observations and the final switch positions.",
+        "Step 5: Now, deduce the correct mapping of switches to bulbs using the information gathered in the previous steps."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "ପଦକ୍ଷେପ (step) 3: Immediately enter the room to observe the bulbs. Identify the bulb that is on (corresponding to switch 2), the bulb that is off but warm (corresponding to switch 1), and the bulb that is off and cold (which could correspond to either switch 1 or switch 3).",
+        "ପଦକ୍ଷେପ (step) 4: Turn switch 2 to the 'off' position and turn switch 3 to the 'on' position ଯଦି (if) you haven't already done so, ତାହେଲେ (then) re-enter is not allowed so use the process of elimination to figure out which switch corresponds to which bulb based on the initial observations and the final switch positions.",
+        "ପଦକ୍ଷେପ (step) 5: Now, deduce the correct mapping of switches to bulbs using the information gathered in the previous steps."
+    ],
+    "final_answer": "Switch 1 corresponds to the warm bulb, switch 2 corresponds to the bulb that was on when you entered, and switch 3 corresponds to the cold bulb."
+}

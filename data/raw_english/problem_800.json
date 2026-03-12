@@ -1,0 +1,12 @@
+{
+    "id": "800",
+    "problem": "In the town of Ashwood, there are three types of shops: bakeries, candy stores, and florists. The town has a total of 25 shops. Each bakery uses 200 units of water per day, while each candy store uses 50 units of water per day. Florists use 100 units of water per day but also produce 20 units of oxygen. The town's water supply can provide a maximum of 3500 units of water per day. Additionally, the town has a rule that the total amount of oxygen produced by all florists must be at least 10% of the total water used by all shops. If there are 5 more candy stores than bakeries, how many bakeries, candy stores, and florists can Ashwood have to meet these conditions?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), candy stores (C), and florists (F), knowing that B + C + F = 25 and C = B + 5.",
+        "Step 2: Express the total water usage in terms of B, C, and F: 200B + 50C + 100F = 200B + 50(B + 5) + 100F, simplifying to 200B + 50B + 250 + 100F = 250B + 250 + 100F.",
+        "Step 3: Apply the condition that the total water usage must not exceed 3500 units: 250B + 250 + 100F ≤ 3500.",
+        "Step 4: Express the condition for oxygen production: 20F ≥ 0.10(250B + 250 + 100F), simplifying to 20F ≥ 25B + 25 + 10F, which further simplifies to 10F ≥ 25B + 25.",
+        "Step 5: Solve the system of equations and inequalities considering B + C + F = 25 and C = B + 5, to find values of B, C, and F that satisfy all conditions."
+    ],
+    "final_answer": "B = 5, C = 10, F = 10"
+}

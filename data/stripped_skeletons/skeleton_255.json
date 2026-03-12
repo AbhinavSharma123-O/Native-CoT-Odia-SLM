@@ -1,0 +1,20 @@
+{
+    "id": "255",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar to produce 3 units of bread. Each cafe uses 1 unit of flour and 2 units of sugar to produce 2 units of pastry. Each restaurant uses 3 units of flour and 1 unit of sugar to produce 4 units of cake. If the village has 12 bakeries, 8 cafes, and 10 restaurants, and the total amount of flour available is 120 units and the total amount of sugar available is 80 units, how many more units of flour are needed to meet the total demand for producing bread, pastry, and cake?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar to produce 3 units of bread. Each cafe uses 1 unit of flour and 2 units of sugar to produce 2 units of pastry. Each restaurant uses 3 units of flour and 1 unit of sugar to produce 4 units of cake. ଯଦି (if) the village has 12 bakeries, 8 cafes, and 10 restaurants, and the ମୋଟ (total) amount of flour available is 120 units and the ମୋଟ (total) amount of sugar available is 80 units, how many more units of flour are needed to meet the ମୋଟ (total) demand for producing bread, pastry, and cake?",
+    "original_steps": [
+        "Step 1: Calculate the total units of flour and sugar needed for all the bakeries. Each bakery needs 2 units of flour and 1 unit of sugar, so 12 bakeries need 12 * 2 = 24 units of flour and 12 * 1 = 12 units of sugar.",
+        "Step 2: Calculate the total units of flour and sugar needed for all the cafes. Each cafe needs 1 unit of flour and 2 units of sugar, so 8 cafes need 8 * 1 = 8 units of flour and 8 * 2 = 16 units of sugar.",
+        "Step 3: Calculate the total units of flour and sugar needed for all the restaurants. Each restaurant needs 3 units of flour and 1 unit of sugar, so 10 restaurants need 10 * 3 = 30 units of flour and 10 * 1 = 10 units of sugar.",
+        "Step 4: Sum the total units of flour and sugar needed for all shops. Total flour needed is 24 (bakeries) + 8 (cafes) + 30 (restaurants) = 62 units of flour, and total sugar needed is 12 (bakeries) + 16 (cafes) + 10 (restaurants) = 38 units of sugar.",
+        "Step 5: Determine how many more units of flour are needed. Given that the village has 120 units of flour available and the total demand for flour is 62 units, we need to find out if there's a surplus or a deficit in flour after meeting the demand for all shops."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) units of flour and sugar needed for all the bakeries. Each bakery needs 2 units of flour and 1 unit of sugar, so 12 bakeries need 12 * 2 = 24 units of flour and 12 * 1 = 12 units of sugar.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) units of flour and sugar needed for all the cafes. Each cafe needs 1 unit of flour and 2 units of sugar, so 8 cafes need 8 * 1 = 8 units of flour and 8 * 2 = 16 units of sugar.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) units of flour and sugar needed for all the restaurants. Each restaurant needs 3 units of flour and 1 unit of sugar, so 10 restaurants need 10 * 3 = 30 units of flour and 10 * 1 = 10 units of sugar.",
+        "ପଦକ୍ଷେପ (step) 4: ସମଷ୍ଟି (sum) the ମୋଟ (total) units of flour and sugar needed for all shops. ମୋଟ (total) flour needed is 24 (bakeries) + 8 (cafes) + 30 (restaurants) = 62 units of flour, and ମୋଟ (total) sugar needed is 12 (bakeries) + 16 (cafes) + 10 (restaurants) = 38 units of sugar.",
+        "ପଦକ୍ଷେପ (step) 5: Determine how many more units of flour are needed. Given that the village has 120 units of flour available and the ମୋଟ (total) demand for flour is 62 units, we need to find out ଯଦି (if) there's a surplus or a deficit in flour after meeting the demand for all shops."
+    ],
+    "final_answer": "58"
+}

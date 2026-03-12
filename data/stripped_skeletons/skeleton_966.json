@@ -1,0 +1,20 @@
+{
+    "id": "966",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: 1000 gallons, 2000 gallons, and 3000 gallons. The towers are filled by two pumps, Pump A and Pump B, which have different filling rates. Pump A fills the 1000-gallon tower at a rate of 50 gallons per minute, the 2000-gallon tower at a rate of 100 gallons per minute, and the 3000-gallon tower at a rate of 150 gallons per minute. Pump B fills the towers at twice the rate of Pump A for each respective tower. If Pump A is used to fill the 1000-gallon tower for 5 minutes, then Pump B is used to fill the 2000-gallon tower for 8 minutes, and finally, Pump A is used again to fill the 3000-gallon tower for 10 minutes, how many gallons of water are in the towers in total after these operations, given that the towers were initially empty?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: 1000 gallons, 2000 gallons, and 3000 gallons. The towers are filled by two pumps, Pump A and Pump B, which have different filling rates. Pump A fills the 1000-gallon tower at a rate of 50 gallons per minute, the 2000-gallon tower at a rate of 100 gallons per minute, and the 3000-gallon tower at a rate of 150 gallons per minute. Pump B fills the towers at twice the rate of Pump A for each respective tower. ଯଦି (if) Pump A is used to fill the 1000-gallon tower for 5 minutes, ତାହେଲେ (then) Pump B is used to fill the 2000-gallon tower for 8 minutes, and finally, Pump A is used again to fill the 3000-gallon tower for 10 minutes, how many gallons of water are in the towers in ମୋଟ (total) after these operations, given that the towers were initially empty?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water Pump A fills the 1000-gallon tower in 5 minutes at a rate of 50 gallons per minute.",
+        "Step 2: Determine the amount of water Pump B fills the 2000-gallon tower in 8 minutes, knowing it fills at twice the rate of Pump A for this tower, which is 200 gallons per minute.",
+        "Step 3: Calculate the amount of water Pump A fills the 3000-gallon tower in 10 minutes at a rate of 150 gallons per minute.",
+        "Step 4: Sum the amounts of water in all three towers after these filling operations to find the total amount of water.",
+        "Step 5: Verify that the total amount of water does not exceed the combined capacity of the towers and account for any potential overflow, though given the capacities and the amounts calculated, this is not expected to be an issue."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water Pump A fills the 1000-gallon tower in 5 minutes at a rate of 50 gallons per minute.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the amount of water Pump B fills the 2000-gallon tower in 8 minutes, knowing it fills at twice the rate of Pump A for this tower, which is 200 gallons per minute.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the amount of water Pump A fills the 3000-gallon tower in 10 minutes at a rate of 150 gallons per minute.",
+        "ପଦକ୍ଷେପ (step) 4: ସମଷ୍ଟି (sum) the amounts of water in all three towers after these filling operations to find the ମୋଟ (total) amount of water.",
+        "ପଦକ୍ଷେପ (step) 5: Verify that the ମୋଟ (total) amount of water does not exceed the combined capacity of the towers and account for any potential overflow, though given the capacities and the amounts calculated, this is not expected to be an issue."
+    ],
+    "final_answer": "50 * 5 + 200 * 8 + 150 * 10 = 250 + 1600 + 1500 = 3350"
+}

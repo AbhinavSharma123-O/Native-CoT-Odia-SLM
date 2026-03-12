@@ -1,0 +1,46 @@
+{
+    "id": "607",
+    "original_problem": "In a small village, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the house next to the person who owns the green house. Clue 6: The person who owns the green house drinks water.",
+    "deconstructed_problem": "In a small village, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the house next to the person who owns the green house. Clue 6: The person who owns the green house drinks water.",
+    "original_steps": [
+        "Step 1: Determine the color and occupant of the first house using Clue 1.",
+        "Step 2: Apply Clue 2 to find the house colors and drinks for the first two houses.",
+        "Step 3: Use Clue 3 to eliminate possible positions for the red house.",
+        "Step 4: Apply Clue 4 to narrow down the possible houses for the American.",
+        "Step 5: Apply Clue 5 to find the color of the house next to the person who drinks tea and use Clue 6 to determine the drink of the green house occupant."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the color and occupant of the first house using Clue 1.",
+        "ପଦକ୍ଷେପ (step) 2: Apply Clue 2 to find the house colors and drinks for the first two houses.",
+        "ପଦକ୍ଷେପ (step) 3: Use Clue 3 to eliminate possible positions for the red house.",
+        "ପଦକ୍ଷେପ (step) 4: Apply Clue 4 to narrow down the possible houses for the American.",
+        "ପଦକ୍ଷେପ (step) 5: Apply Clue 5 to find the color of the house next to the person who drinks tea and use Clue 6 to determine the drink of the green house occupant."
+    ],
+    "final_answer": {
+        "House 1": {
+            "color": "yellow",
+            "nationality": "Canadian",
+            "drink": "milk"
+        },
+        "House 2": {
+            "color": "blue",
+            "nationality": "British",
+            "drink": "tea"
+        },
+        "House 3": {
+            "color": "red",
+            "nationality": "Indian",
+            "drink": "soda"
+        },
+        "House 4": {
+            "color": "green",
+            "nationality": "Japanese",
+            "drink": "water"
+        },
+        "House 5": {
+            "color": "white",
+            "nationality": "American",
+            "drink": "coffee"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "29",
+    "problem": "In the kingdom of Azura, there are five towns: A, B, C, D, and E. The towns are connected by a network of roads. The road from A to B is 15 miles long, from B to C is 20 miles, from C to D is 12 miles, from D to E is 18 miles, and from E to A is 22 miles. Additionally, there is a road from A to C that is 10 miles shorter than the road from A to B, and a road from B to D that is 5 miles longer than the road from B to C. A merchant wants to travel from town A to town E, visiting each town exactly once, but due to a recent flood, the road from C to D is closed. The merchant has a map but needs to figure out the shortest path. What is the shortest distance the merchant can travel from A to E, given the constraints?",
+    "reasoning_steps": [
+        "Step 1: Determine the length of the road from A to C by subtracting 10 miles from the length of the road from A to B.",
+        "Step 2: Calculate the length of the road from B to D by adding 5 miles to the length of the road from B to C.",
+        "Step 3: Identify all possible routes from A to E that do not use the closed road from C to D and involve visiting each town exactly once.",
+        "Step 4: For each possible route identified in Step 3, calculate the total distance traveled by summing the lengths of all roads used in that route.",
+        "Step 5: Compare the total distances calculated in Step 4 to find the shortest distance."
+    ],
+    "final_answer": "87"
+}

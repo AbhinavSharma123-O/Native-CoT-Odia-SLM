@@ -1,0 +1,20 @@
+{
+    "id": "539",
+    "original_problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a total of 25 businesses. Each restaurant has 5 employees, each shop has 3 employees, and each hotel has 8 employees. If the total number of employees in the town is 135, and there are 5 more shops than hotels, how many restaurants are in the town?",
+    "deconstructed_problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a ମୋଟ (total) of 25 businesses. Each restaurant has 5 employees, each shop has 3 employees, and each hotel has 8 employees. ଯଦି (if) the ମୋଟ (total) number of employees in the town is 135, and there are 5 more shops than hotels, how many restaurants are in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of restaurants, shops, and hotels as r, s, and h respectively.",
+        "Step 2: Set up the equation based on the total number of businesses: r + s + h = 25.",
+        "Step 3: Set up the equation based on the total number of employees: 5r + 3s + 8h = 135.",
+        "Step 4: Use the information that there are 5 more shops than hotels to set up another equation: s = h + 5.",
+        "Step 5: Substitute the equation from step 4 into the equations from steps 2 and 3 to solve for r, s, and h."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of restaurants, shops, and hotels as r, s, and h respectively.",
+        "ପଦକ୍ଷେପ (step) 2: Set up the ସମୀକରଣ (equation) based on the ମୋଟ (total) number of businesses: r + s + h = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Set up the ସମୀକରଣ (equation) based on the ମୋଟ (total) number of employees: 5r + 3s + 8h = 135.",
+        "ପଦକ୍ଷେପ (step) 4: Use the information that there are 5 more shops than hotels to set up another ସମୀକରଣ (equation): s = h + 5.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 into the equations from steps 2 and 3 to solve for r, s, and h."
+    ],
+    "final_answer": "5"
+}

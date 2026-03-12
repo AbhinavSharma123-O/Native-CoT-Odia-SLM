@@ -1,0 +1,20 @@
+{
+    "id": "493",
+    "original_problem": "In a mystical forest, there are five temples, each with a different colored door: blue, green, red, white, and yellow. Each temple has a different number of marble statues: 10, 12, 15, 18, and 20. The temples are arranged in a specific order, with the following clues: the green door is to the immediate left of the temple with 18 statues, the red door is to the immediate right of the temple with 12 statues, the blue door is at one of the ends, the yellow door is next to the temple with 15 statues, and the white door is next to the temple with 20 statues. If the temple with 10 statues is not at either end, what is the order of the temples from left to right, including their respective door colors and number of statues?",
+    "deconstructed_problem": "In a mystical forest, there are five temples, each with a different colored door: blue, green, red, white, and yellow. Each temple has a different number of marble statues: 10, 12, 15, 18, and 20. The temples are arranged in a specific order, with the following clues: the green door is to the immediate left of the temple with 18 statues, the red door is to the immediate right of the temple with 12 statues, the blue door is at one of the ends, the yellow door is next to the temple with 15 statues, and the white door is next to the temple with 20 statues. ଯଦି (if) the temple with 10 statues is not at either end, what is the order of the temples from left to right, including their respective door colors and number of statues?",
+    "original_steps": [
+        "Step 1: Determine the position of the blue door, which must be at one of the ends. Consider the two possibilities: blue door at the left end or the right end.",
+        "Step 2: Analyze the clue about the green door being to the immediate left of the temple with 18 statues. This means the green door cannot be at the right end, because there must be a temple to its right with 18 statues.",
+        "Step 3: Use the clue about the red door being to the immediate right of the temple with 12 statues to further narrow down the possible arrangements. The red door cannot be at the left end since it must have a temple with 12 statues to its left.",
+        "Step 4: Apply the clue about the yellow door being next to the temple with 15 statues and the white door being next to the temple with 20 statues. Given the constraints from previous steps, consider how these clues restrict the possible arrangements of the temples.",
+        "Step 5: Combine all the clues and the process of elimination to determine the unique arrangement of the temples that satisfies all conditions."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the position of the blue door, which must be at one of the ends. Consider the two possibilities: blue door at the left end or the right end.",
+        "ପଦକ୍ଷେପ (step) 2: Analyze the clue about the green door being to the immediate left of the temple with 18 statues. This means the green door cannot be at the right end, କାରଣ (because) there must be a temple to its right with 18 statues.",
+        "ପଦକ୍ଷେପ (step) 3: Use the clue about the red door being to the immediate right of the temple with 12 statues to further narrow down the possible arrangements. The red door cannot be at the left end since it must have a temple with 12 statues to its left.",
+        "ପଦକ୍ଷେପ (step) 4: Apply the clue about the yellow door being next to the temple with 15 statues and the white door being next to the temple with 20 statues. Given the constraints from previous steps, consider how these clues restrict the possible arrangements of the temples.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all the clues and the process of elimination to determine the unique arrangement of the temples that satisfies all conditions."
+    ],
+    "final_answer": "Blue (10), White (20), Green (18), Yellow (15), Red (12)"
+}

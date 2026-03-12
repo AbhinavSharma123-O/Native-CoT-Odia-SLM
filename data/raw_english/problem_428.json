@@ -1,0 +1,12 @@
+{
+    "id": "428",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water needs are as follows: 1500 gallons are needed for drinking water, 800 gallons for industrial use, and 1200 gallons for agricultural purposes. However, due to a drought, only 60% of Tower A and 80% of Tower B are filled, while Tower C is completely filled. If 20% of the water from Tower C is used for drinking, 15% for industrial use, and the rest is used for agricultural purposes, how much water in gallons will be left in Tower C after all the water needs are met, assuming the water from Tower A and Tower B is used first to meet the demands?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water available in each tower after the drought. For Tower A: 2000 * 0.6 = 1200 gallons, for Tower B: 3000 * 0.8 = 2400 gallons, and Tower C is full with 4000 gallons.",
+        "Step 2: Determine the total water available from all towers. Total = 1200 (A) + 2400 (B) + 4000 (C) = 7600 gallons.",
+        "Step 3: Calculate the total water needed for all purposes. Total needed = 1500 (drinking) + 800 (industrial) + 1200 (agricultural) = 3500 gallons.",
+        "Step 4: Calculate how much water is used from Tower C for each purpose. Drinking: 20% of 4000 = 0.2 * 4000 = 800 gallons, Industrial: 15% of 4000 = 0.15 * 4000 = 600 gallons. The remaining water in Tower C after these allocations is used for agricultural purposes, but first, we need to see how much of the town's needs are met by Towers A and B.",
+        "Step 5: Calculate how much water from Towers A and B is used to meet the town's water needs before using water from Tower C. The total water from Towers A and B is 1200 + 2400 = 3600 gallons. Since the total needed is 3500 gallons, Towers A and B can cover all the needs, leaving no need to use water from Tower C for the initial allocations of drinking, industrial, and agricultural water. Thus, we only consider the initial allocations from Tower C as per the percentages given for drinking and industrial use to find out how much water is left in Tower C after these specific allocations."
+    ],
+    "final_answer": "4000 - (800 + 600) = 4000 - 1400 = 2600"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "633",
+    "problem": "In a large warehouse, there are three types of boxes: Red, Blue, and Green, with different dimensions and weights. The Red boxes are 2 meters long, 1 meter wide, and 1 meter tall, weighing 50 kg each. The Blue boxes are 1.5 meters long, 1.2 meters wide, and 0.8 meters tall, weighing 30 kg each. The Green boxes are 2.5 meters long, 1.5 meters wide, and 1.2 meters tall, weighing 70 kg each. If a forklift can carry a maximum of 200 kg and a maximum volume of 4 cubic meters, what is the maximum number of boxes of each type that the forklift can carry if it is to transport boxes from the warehouse to a waiting truck, given that the truck has a capacity to hold a maximum of 20 cubic meters and 1000 kg, and there are 10 Red boxes, 15 Blue boxes, and 8 Green boxes available?",
+    "reasoning_steps": [
+        "Step 1: Calculate the volume of each type of box by multiplying its length, width, and height.",
+        "Step 2: Determine the maximum number of boxes of each type that the forklift can carry based on both weight and volume constraints.",
+        "Step 3: Calculate the total volume and weight of the boxes that the forklift can carry in one trip.",
+        "Step 4: Determine how many trips the forklift needs to make to fill the truck to its maximum capacity, considering both volume and weight.",
+        "Step 5: Calculate the maximum number of boxes of each type that can be transported, taking into account the number of trips and the constraints of both the forklift and the truck."
+    ],
+    "final_answer": "The forklift can carry a maximum of 4 boxes per trip, with a combination that does not exceed 200 kg or 4 cubic meters. To maximize the truck's capacity, the forklift should carry a combination of boxes that fills the truck in the fewest trips possible, considering the truck's capacity of 20 cubic meters and 1000 kg. Given these constraints and the available boxes, the forklift can make 5 trips with a specific combination of boxes to fill the truck, resulting in transporting 8 Green boxes, 10 Red boxes, and 7 Blue boxes, maximizing the use of space and weight capacity of both the forklift and the truck."
+}

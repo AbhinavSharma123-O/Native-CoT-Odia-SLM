@@ -1,0 +1,30 @@
+{
+    "id": "769",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than type B shops. Type C shops have 3 times the number of employees as type B shops. If the total number of employees in all shops is 240, and the ratio of type A to type B shops is 3:2, and the ratio of type B to type C shops is 2:1, how many type C shops are there?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than type B shops. Type C shops have 3 times the number of employees as type B shops. ଯଦି (if) the ମୋଟ (total) number of employees in all shops is 240, and the ratio of type A to type B shops is 3:2, and the ratio of type B to type C shops is 2:1, how many type C shops are there?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in type A, B, and C shops as A, B, and C respectively.",
+        "Step 2: Express the relationships between the number of employees in each type of shop based on the given information. We have A = B + 5 and C = 3B.",
+        "Step 3: Express the ratio of type A to type B shops as 3:2 and the ratio of type B to type C shops as 2:1 in terms of the number of shops. Let the number of type A, B, and C shops be 3x, 2x, and x respectively.",
+        "Step 4: Calculate the total number of employees in all shops using the defined variables and ratios. The total number of employees is (3x * A) + (2x * B) + (x * C) = 240.",
+        "Step 5: Substitute the relationships between A, B, and C into the total number of employees equation. Since A = B + 5 and C = 3B, we substitute these into the equation: (3x * (B + 5)) + (2x * B) + (x * 3B) = 240.",
+        "Step 6: Simplify the equation. This yields 3xB + 15x + 2xB + 3xB = 240, which simplifies to 8xB + 15x = 240.",
+        "Step 7: Solve for x and B. Since we need to find the number of type C shops, which is represented by x, we first need to find B. However, we notice that we have one equation with two unknowns. We must revisit the ratios and relationships to find another equation that involves x and B.",
+        "Step 8: Revisit the given ratios to find another relationship that could help solve for x or B. Given that A:B:C = 3x:2x:x and A = B + 5, C = 3B, we can use the total number of employees in terms of x and B to find a solution.",
+        "Step 9: Realize that we actually have enough information to solve the problem with the given equations and ratios. We can simplify our approach by directly using the ratios and the total number of employees to find x, without explicitly solving for B first.",
+        "Step 10: Use the fact that the total number of employees is 240 and the ratios of the shops to set up an equation that directly involves x. Since A = B + 5 and C = 3B, and the ratios of A, B, and C shops are given, we can express the total number of employees as a function of x and the relationships between A, B, and C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in type A, B, and C shops as A, B, and C respectively.",
+        "ପଦକ୍ଷେପ (step) 2: Express the relationships between the number of employees in each type of shop based on the given information. We have A = B + 5 and C = 3B.",
+        "ପଦକ୍ଷେପ (step) 3: Express the ratio of type A to type B shops as 3:2 and the ratio of type B to type C shops as 2:1 in terms of the number of shops. Let the number of type A, B, and C shops be 3x, 2x, and x respectively.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of employees in all shops using the defined variables and ratios. The ମୋଟ (total) number of employees is (3x * A) + (2x * B) + (x * C) = 240.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the relationships between A, B, and C into the ମୋଟ (total) number of employees ସମୀକରଣ (equation). Since A = B + 5 and C = 3B, we substitute these into the ସମୀକରଣ (equation): (3x * (B + 5)) + (2x * B) + (x * 3B) = 240.",
+        "ପଦକ୍ଷେପ (step) 6: Simplify the ସମୀକରଣ (equation). This yields 3xB + 15x + 2xB + 3xB = 240, which simplifies to 8xB + 15x = 240.",
+        "ପଦକ୍ଷେପ (step) 7: Solve for x and B. Since we need to find the number of type C shops, which is represented by x, we first need to find B. However, we notice that we have one ସମୀକରଣ (equation) with two unknowns. We must revisit the ratios and relationships to find another ସମୀକରଣ (equation) that involves x and B.",
+        "ପଦକ୍ଷେପ (step) 8: Revisit the given ratios to find another relationship that could help solve for x or B. Given that A:B:C = 3x:2x:x and A = B + 5, C = 3B, we can use the ମୋଟ (total) number of employees in terms of x and B to find a solution.",
+        "ପଦକ୍ଷେପ (step) 9: Realize that we actually have enough information to solve the problem with the given equations and ratios. We can simplify our approach by directly using the ratios and the ମୋଟ (total) number of employees to find x, without explicitly solving for B first.",
+        "ପଦକ୍ଷେପ (step) 10: Use the fact that the ମୋଟ (total) number of employees is 240 and the ratios of the shops to set up an ସମୀକରଣ (equation) that directly involves x. Since A = B + 5 and C = 3B, and the ratios of A, B, and C shops are given, we can express the ମୋଟ (total) number of employees as a function of x and the relationships between A, B, and C."
+    ],
+    "final_answer": "10"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "530",
+    "original_problem": "In a small village, there are three types of shops: bakeries, candy stores, and flower shops. Each shop has a different number of employees, with the total number of employees in all shops being 90. The number of employees in the bakeries is 5 less than the number in the candy stores, and the number in the flower shops is 10 more than the number in the bakeries. If the total number of employees in the bakeries and candy stores is 60, what is the number of employees in each type of shop?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, candy stores, and flower shops. Each shop has a different number of employees, with the ମୋଟ (total) number of employees in all shops being 90. The number of employees in the bakeries is 5 less than the number in the candy stores, and the number in the flower shops is 10 more than the number in the bakeries. ଯଦି (if) the ମୋଟ (total) number of employees in the bakeries and candy stores is 60, what is the number of employees in each type of shop?",
+    "original_steps": [
+        "Step 1: Let's denote the number of employees in the bakeries as B, the number in the candy stores as C, and the number in the flower shops as F. We are given that B + C + F = 90.",
+        "Step 2: We also know that B = C - 5 and F = B + 10. We can substitute these expressions into the first equation to start solving the problem.",
+        "Step 3: Substitute B in the equation F = B + 10 to get F in terms of C, which gives F = (C - 5) + 10 = C + 5.",
+        "Step 4: Now, knowing B = C - 5 and F = C + 5, we substitute these into the total equation: (C - 5) + C + (C + 5) = 90, simplifying to 3C = 90, which means C = 30.",
+        "Step 5: With C = 30, we can find B and F. Since B = C - 5, B = 30 - 5 = 25. And since F = C + 5, F = 30 + 5 = 35. Thus, we have the number of employees in each type of shop."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Let's denote the number of employees in the bakeries as B, the number in the candy stores as C, and the number in the flower shops as F. We are given that B + C + F = 90.",
+        "ପଦକ୍ଷେପ (step) 2: We also know that B = C - 5 and F = B + 10. We can substitute these expressions into the first ସମୀକରଣ (equation) to start solving the problem.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute B in the ସମୀକରଣ (equation) F = B + 10 to get F in terms of C, which gives F = (C - 5) + 10 = C + 5.",
+        "ପଦକ୍ଷେପ (step) 4: Now, knowing B = C - 5 and F = C + 5, we substitute these into the ମୋଟ (total) ସମୀକରଣ (equation): (C - 5) + C + (C + 5) = 90, simplifying to 3C = 90, which means C = 30.",
+        "ପଦକ୍ଷେପ (step) 5: With C = 30, we can find B and F. Since B = C - 5, B = 30 - 5 = 25. And since F = C + 5, F = 30 + 5 = 35. Thus, we have the number of employees in each type of shop."
+    ],
+    "final_answer": "Bakeries: 25, Candy stores: 30, Flower shops: 35"
+}

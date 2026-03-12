@@ -1,0 +1,13 @@
+{
+    "id": "7",
+    "problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a total of 25 shops. The number of bakeries is 5 more than the number of grocery stores. The number of cafes is 3 less than the number of bakeries. If each grocery store employs 2 people, each bakery employs 3 people, and each cafe employs 4 people, what is the total number of people employed in the village?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of shop. Let G be the number of grocery stores, B be the number of bakeries, and C be the number of cafes.",
+        "Step 2: Set up equations based on the given information. We know that B = G + 5 and C = B - 3. Also, G + B + C = 25.",
+        "Step 3: Substitute the expressions for B and C into the total equation to solve for G. This gives us G + (G + 5) + ((G + 5) - 3) = 25.",
+        "Step 4: Simplify and solve the equation for G. This yields G + G + 5 + G + 5 - 3 = 25, which simplifies to 3G + 7 = 25. Then, 3G = 18, so G = 6.",
+        "Step 5: Calculate the number of bakeries and cafes using the values of G. Since G = 6, B = 6 + 5 = 11, and C = 11 - 3 = 8.",
+        "Step 6: Calculate the total number of people employed. The total number of people employed is (2 * G) + (3 * B) + (4 * C). Substituting the values of G, B, and C gives us (2 * 6) + (3 * 11) + (4 * 8)."
+    ],
+    "final_answer": "2 * 6 + 3 * 11 + 4 * 8 = 12 + 33 + 32 = 77"
+}

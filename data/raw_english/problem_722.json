@@ -1,0 +1,12 @@
+{
+    "id": "722",
+    "problem": "In a large warehouse, there are five machines - A, B, C, D, and E - each producing a different type of product. Machine A produces 200 units per hour, Machine B produces 250 units per hour, Machine C produces 300 units per hour, Machine D produces 150 units per hour, and Machine E produces 400 units per hour. Each machine has a different maintenance schedule: Machine A needs maintenance every 4 hours, Machine B every 5 hours, Machine C every 3 hours, Machine D every 6 hours, and Machine E every 8 hours. If all machines start working at the same time and the maintenance time for each machine is 1 hour, how many units of products will be produced in total after 24 hours, considering the time spent on maintenance?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of hours each machine operates without maintenance in 24 hours, considering their maintenance schedules.",
+        "Step 2: For each machine, calculate the number of maintenance sessions within the 24-hour period by dividing 24 by the maintenance interval and taking the floor of that value, then subtract the total maintenance time from the total possible operating hours.",
+        "Step 3: Calculate the effective operating hours for each machine by subtracting the total maintenance time from the total possible operating hours (24 hours).",
+        "Step 4: Multiply the effective operating hours of each machine by its production rate to find out how many units each machine produces in 24 hours.",
+        "Step 5: Sum up the production of all five machines to find the total units produced in 24 hours."
+    ],
+    "final_answer": "11760"
+}

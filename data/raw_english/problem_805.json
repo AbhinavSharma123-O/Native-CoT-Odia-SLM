@@ -1,0 +1,12 @@
+{
+    "id": "805",
+    "problem": "In the town of Mathoria, there are three types of coins: gold, silver, and bronze, each with a different weight. The gold coin weighs 3 times as much as the bronze coin, and the silver coin weighs 2 times as much as the bronze coin. If a merchant has 15 gold coins, 20 silver coins, and 30 bronze coins, and the total weight of all the coins is 315 units, what is the weight of a single bronze coin?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the weights of each coin type. Let's denote the weight of the bronze coin as B, the weight of the silver coin as S, and the weight of the gold coin as G.",
+        "Step 2: Establish the relationships between the weights of the coins based on the problem statement. We have G = 3B and S = 2B.",
+        "Step 3: Calculate the total weight of all the coins using the given quantities and the relationships between the coin weights. The total weight is given by 15G + 20S + 30B.",
+        "Step 4: Substitute the relationships G = 3B and S = 2B into the total weight equation to express everything in terms of B. This yields 15(3B) + 20(2B) + 30B = 45B + 40B + 30B = 115B.",
+        "Step 5: Solve for B by equating the expression for the total weight to the given total weight of 315 units. So, 115B = 315."
+    ],
+    "final_answer": "2.739"
+}

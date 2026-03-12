@@ -1,0 +1,12 @@
+{
+    "id": "547",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all bakeries is 120, which is 30 more than the total number of employees in all cafes. The total number of employees in all restaurants is 50 more than the total number of employees in all cafes. If each bakery has 10 employees, each cafe has 8 employees, and the total number of restaurants is 15, how many cafes are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Determine the total number of employees in all cafes by using the information that the total number of employees in all bakeries is 120, which is 30 more than the total number of employees in all cafes.",
+        "Step 2: Calculate the total number of employees in all cafes by subtracting 30 from the total number of employees in all bakeries.",
+        "Step 3: Find the total number of cafes by dividing the total number of employees in all cafes by the number of employees in each cafe.",
+        "Step 4: Calculate the total number of employees in all restaurants by adding 50 to the total number of employees in all cafes.",
+        "Step 5: Verify that the information about the total number of restaurants and the number of employees in each type of shop is consistent with the calculations."
+    ],
+    "final_answer": "15"
+}

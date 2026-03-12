@@ -1,0 +1,16 @@
+{
+    "id": "622",
+    "problem": "In the city of Azura, there are three types of temples: A, B, and C. Temple A has 20% more monks than Temple B, and Temple C has 30% more monks than Temple A. If the total number of monks in all three temples is 1200, and the number of monks in Temple B is 5/7 of the number of monks in Temple C, then what is the number of monks in each temple?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of monks in each temple. Let's denote the number of monks in Temple A as A, Temple B as B, and Temple C as C.",
+        "Step 2: Translate the given relationships into mathematical expressions. We have: A = 1.2B, C = 1.3A, and B = 5/7C.",
+        "Step 3: Express A and B in terms of C using the relationships from Step 2. Substituting A = 1.2B into C = 1.3A gives C = 1.3 * 1.2B, which simplifies to C = 1.56B. Since B = 5/7C, we can substitute this into the equation for C to get C = 1.56 * (5/7C), which simplifies to C = 1.56 * (5/7)C, but to find the values, we need to use the fact that B = 5/7C and A = 1.2B to express A and B in terms of C directly for substitution into the total equation.",
+        "Step 4: Correctly express B in terms of C and then find A in terms of C. Given B = 5/7C, we substitute this into A = 1.2B to get A = 1.2 * (5/7C), which simplifies to A = 0.8571C (approximately). Now, we have A and B in terms of C.",
+        "Step 5: Use the total number of monks (A + B + C = 1200) and the expressions for A and B in terms of C to solve for C. Substituting A = 0.8571C and B = 5/7C into the equation gives 0.8571C + 5/7C + C = 1200. Combining like terms, we get (0.8571 + 0.7143 + 1)C = 1200, which simplifies to 2.5714C = 1200. Solving for C gives C = 1200 / 2.5714, which is approximately 466.67. Knowing C, we can solve for B and A."
+    ],
+    "final_answer": {
+        "Temple A": "375",
+        "Temple B": "312.5",
+        "Temple C": "466.67"
+    }
+}

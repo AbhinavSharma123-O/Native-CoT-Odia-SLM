@@ -1,0 +1,20 @@
+{
+    "id": "361",
+    "original_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity: Red can hold 40 people, Blue can hold 60 people, and Green can hold 80 people. On a given day, 15 Red buses, 8 Blue buses, and 12 Green buses are operational. However, due to maintenance, 3 Red buses and 2 Blue buses are not running. Additionally, the town has a rule that each bus must have at least 75% of its capacity filled before it can operate. If 420 people want to ride the buses, and assuming that the buses are filled in the order of Green, Blue, and then Red, how many buses of each type will be operational, given that the people are distributed evenly among the operational buses of the same type, and what is the total number of operational buses?",
+    "deconstructed_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity: Red can hold 40 people, Blue can hold 60 people, and Green can hold 80 people. On a given day, 15 Red buses, 8 Blue buses, and 12 Green buses are operational. However, due to maintenance, 3 Red buses and 2 Blue buses are not running. Additionally, the town has a rule that each bus must have at least 75% of its capacity filled before it can operate. ଯଦି (if) 420 people want to ride the buses, and assuming that the buses are filled in the order of Green, Blue, and ତାହେଲେ (then) Red, how many buses of each type will be operational, given that the people are distributed evenly among the operational buses of the same type, and what is the ମୋଟ (total) number of operational buses?",
+    "original_steps": [
+        "Step 1: Calculate the total capacity of each type of bus that is operational, taking into account the buses that are not running due to maintenance.",
+        "Step 2: Determine how many people can be accommodated by the Green buses, considering the 75% capacity rule, and then calculate how many Green buses are needed to accommodate these people.",
+        "Step 3: After filling the Green buses, calculate the remaining number of people and determine how many Blue buses are needed to accommodate the remaining people, again considering the 75% capacity rule.",
+        "Step 4: With the remaining people after filling the Blue buses, calculate how many Red buses are needed, taking into account the 75% capacity rule and the number of operational Red buses.",
+        "Step 5: Calculate the total number of operational buses by summing up the number of operational Green, Blue, and Red buses, ensuring that all buses have at least 75% of their capacity filled."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) capacity of each type of bus that is operational, taking into account the buses that are not running due to maintenance.",
+        "ପଦକ୍ଷେପ (step) 2: Determine how many people can be accommodated by the Green buses, considering the 75% capacity rule, and ତାହେଲେ (then) calculate how many Green buses are needed to accommodate these people.",
+        "ପଦକ୍ଷେପ (step) 3: After filling the Green buses, calculate the remaining number of people and determine how many Blue buses are needed to accommodate the remaining people, again considering the 75% capacity rule.",
+        "ପଦକ୍ଷେପ (step) 4: With the remaining people after filling the Blue buses, calculate how many Red buses are needed, taking into account the 75% capacity rule and the number of operational Red buses.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of operational buses by summing up the number of operational Green, Blue, and Red buses, ensuring that all buses have at least 75% of their capacity filled."
+    ],
+    "final_answer": "8"
+}

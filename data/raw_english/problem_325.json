@@ -1,0 +1,12 @@
+{
+    "id": "325",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 liters, Tower B can hold 3000 liters, and Tower C can hold 4000 liters. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a particular day, due to a malfunction, Tower A was filled to 3/4 of its capacity, Tower B was filled to 2/3 of its capacity, and Tower C was filled to 1/2 of its capacity. If 1000 liters of water were then transferred from Tower C to Tower B, and after that, 500 liters were transferred from Tower B to Tower A, how many liters of water are in Tower A after these transfers?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in Tower A by multiplying its capacity by the fraction it was filled: 2000 * (3/4) = 1500 liters.",
+        "Step 2: Calculate the initial amount of water in Tower B by multiplying its capacity by the fraction it was filled: 3000 * (2/3) = 2000 liters.",
+        "Step 3: Calculate the initial amount of water in Tower C by multiplying its capacity by the fraction it was filled: 4000 * (1/2) = 2000 liters.",
+        "Step 4: After transferring 1000 liters from Tower C to Tower B, calculate the new amount of water in Tower C: 2000 - 1000 = 1000 liters, and the new amount in Tower B: 2000 + 1000 = 3000 liters.",
+        "Step 5: Finally, after transferring 500 liters from Tower B to Tower A, calculate the final amount of water in Tower A: 1500 + 500 = 2000 liters, and verify the new amount in Tower B: 3000 - 500 = 2500 liters."
+    ],
+    "final_answer": "2000"
+}

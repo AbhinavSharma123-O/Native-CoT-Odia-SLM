@@ -1,0 +1,12 @@
+{
+    "id": "680",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a minimum of 250 and a maximum of 500 loaves of bread per day. Each cafe sells a minimum of 100 and a maximum of 300 cups of coffee per day. Each restaurant serves a minimum of 50 and a maximum of 200 meals per day. The total number of loaves of bread sold, cups of coffee served, and meals served in the town per day is 2800. If there are 5 bakeries, 4 cafes, and 3 restaurants in the town, and the average number of loaves of bread sold per bakery is 380, the average number of cups of coffee served per cafe is 220, what is the average number of meals served per restaurant?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of loaves of bread sold per day by multiplying the average number of loaves of bread sold per bakery by the number of bakeries: 380 * 5 = 1900",
+        "Step 2: Calculate the total number of cups of coffee served per day by multiplying the average number of cups of coffee served per cafe by the number of cafes: 220 * 4 = 880",
+        "Step 3: Calculate the total number of meals served per day by subtracting the total number of loaves of bread and cups of coffee from the total number of items served: 2800 - (1900 + 880) = 2800 - 2780 = 20",
+        "Step 4: Calculate the average number of meals served per restaurant by dividing the total number of meals served per day by the number of restaurants: 20 / 3 = 6.67",
+        "Step 5: Round the average number of meals served per restaurant to the nearest whole number since the number of meals must be a whole number: 7"
+    ],
+    "final_answer": "6.67"
+}

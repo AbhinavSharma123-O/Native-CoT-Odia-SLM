@@ -1,0 +1,26 @@
+{
+    "id": "578",
+    "original_problem": "In a small town, there are three types of coins: gold, silver, and copper, with values of $5, $2, and $0.50 respectively. A merchant has 100 coins in total, consisting of gold, silver, and copper coins. The total value of the gold and silver coins is $240, and the total value of the copper coins is $10. If the number of gold coins is 5 more than the number of copper coins, and the number of silver coins is 10 less than the number of gold coins, how many coins of each type does the merchant have?",
+    "deconstructed_problem": "In a small town, there are three types of coins: gold, silver, and copper, with values of $5, $2, and $0.50 respectively. A merchant has 100 coins in ମୋଟ (total), consisting of gold, silver, and copper coins. The ମୋଟ (total) value of the gold and silver coins is $240, and the ମୋଟ (total) value of the copper coins is $10. ଯଦି (if) the number of gold coins is 5 more than the number of copper coins, and the number of silver coins is 10 less than the number of gold coins, how many coins of each type does the merchant have?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of gold, silver, and copper coins as G, S, and C respectively.",
+        "Step 2: Set up the equation for the total number of coins: G + S + C = 100.",
+        "Step 3: Set up the equation for the total value of the gold and silver coins: 5G + 2S = 240.",
+        "Step 4: Set up the equation for the total value of the copper coins: 0.5C = 10, and solve for C to find C = 20.",
+        "Step 5: Use the given relationship that the number of gold coins is 5 more than the number of copper coins to set up the equation G = C + 5, and substitute C = 20 to find G = 25.",
+        "Step 6: Use the relationship that the number of silver coins is 10 less than the number of gold coins to set up the equation S = G - 10, and substitute G = 25 to find S = 15."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of gold, silver, and copper coins as G, S, and C respectively.",
+        "ପଦକ୍ଷେପ (step) 2: Set up the ସମୀକରଣ (equation) for the ମୋଟ (total) number of coins: G + S + C = 100.",
+        "ପଦକ୍ଷେପ (step) 3: Set up the ସମୀକରଣ (equation) for the ମୋଟ (total) value of the gold and silver coins: 5G + 2S = 240.",
+        "ପଦକ୍ଷେପ (step) 4: Set up the ସମୀକରଣ (equation) for the ମୋଟ (total) value of the copper coins: 0.5C = 10, and solve for C to find C = 20.",
+        "ପଦକ୍ଷେପ (step) 5: Use the given relationship that the number of gold coins is 5 more than the number of copper coins to set up the ସମୀକରଣ (equation) G = C + 5, and substitute C = 20 to find G = 25.",
+        "ପଦକ୍ଷେପ (step) 6: Use the relationship that the number of silver coins is 10 less than the number of gold coins to set up the ସମୀକରଣ (equation) S = G - 10, and substitute G = 25 to find S = 15."
+    ],
+    "final_answer": {
+        "gold": 25,
+        "silver": 15,
+        "copper": 20
+    }
+}

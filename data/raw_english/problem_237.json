@@ -1,0 +1,12 @@
+{
+    "id": "237",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $240 worth of bread per day, with a combination of whole wheat and white bread. The ratio of whole wheat to white bread is 3:5. Each cafe sells a total of $180 worth of pastries per day, with a combination of cakes and cookies. The ratio of cakes to cookies is 2:3. Each restaurant sells a total of $300 worth of meals per day, with a combination of breakfast, lunch, and dinner. The ratio of breakfast to lunch to dinner is 1:2:3. If the village has 5 bakeries, 4 cafes, and 3 restaurants, and the total daily sales from all shops is $5,220, what is the average daily sales per shop?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily sales from all bakeries. First, calculate the sales per bakery, which is given as $240. Then, multiply this by the number of bakeries, which is 5.",
+        "Step 2: Calculate the total daily sales from all cafes. The sales per cafe is given as $180. Multiply this by the number of cafes, which is 4.",
+        "Step 3: Calculate the total daily sales from all restaurants. The sales per restaurant is given as $300. Multiply this by the number of restaurants, which is 3.",
+        "Step 4: Add the total daily sales from all bakeries, cafes, and restaurants to find the total daily sales from all shops. Then, compare this to the given total daily sales to ensure consistency.",
+        "Step 5: Calculate the average daily sales per shop by dividing the total daily sales from all shops by the total number of shops."
+    ],
+    "final_answer": "344"
+}

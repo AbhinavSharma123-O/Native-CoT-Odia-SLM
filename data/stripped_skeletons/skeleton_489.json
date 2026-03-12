@@ -1,0 +1,20 @@
+{
+    "id": "489",
+    "original_problem": "In a small town, there are three types of people: those who always tell the truth (T), those who always lie (L), and those who sometimes tell the truth and sometimes lie (S). Three friends - Alex, Ben, and Chris - are standing in a row, and each one belongs to one of these categories. Alex says that Ben is a liar. Ben says that Chris is sometimes truthful. Chris says that Alex is not a liar. If it is known that exactly one of the friends is sometimes truthful, determine the categories of all three friends and the maximum possible number of truthful statements that can be made by the three friends combined, assuming each friend can make only one statement.",
+    "deconstructed_problem": "In a small town, there are three types of people: those who always tell the truth (T), those who always lie (L), and those who sometimes tell the truth and sometimes lie (S). Three friends - Alex, Ben, and Chris - are standing in a row, and each one belongs to one of these categories. Alex says that Ben is a liar. Ben says that Chris is sometimes truthful. Chris says that Alex is not a liar. ଯଦି (if) it is known that exactly one of the friends is sometimes truthful, determine the categories of all three friends and the maximum possible number of truthful statements that can be made by the three friends combined, assuming each friend can make only one statement.",
+    "original_steps": [
+        "Step 1: Determine the possible category of Alex based on the statement about Ben, considering the implications of Alex being a truth-teller or a liar.",
+        "Step 2: Analyze Ben's statement about Chris to understand the possible categories of Chris, given that Chris could be truthful, a liar, or sometimes truthful.",
+        "Step 3: Use Chris's statement about Alex to further narrow down the categories of Alex and consequently Ben, considering the constraints provided by all statements.",
+        "Step 4: Since exactly one friend is sometimes truthful, evaluate the combinations where Alex, Ben, or Chris could be the sometimes truthful one, ensuring consistency across all statements.",
+        "Step 5: Calculate the maximum possible number of truthful statements that can be made by the three friends combined, given the constraints and the categories determined for each friend."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible category of Alex based on the statement about Ben, considering the implications of Alex being a truth-teller or a liar.",
+        "ପଦକ୍ଷେପ (step) 2: Analyze Ben's statement about Chris to understand the possible categories of Chris, given that Chris could be truthful, a liar, or sometimes truthful.",
+        "ପଦକ୍ଷେପ (step) 3: Use Chris's statement about Alex to further narrow down the categories of Alex and consequently Ben, considering the constraints provided by all statements.",
+        "ପଦକ୍ଷେପ (step) 4: Since exactly one friend is sometimes truthful, evaluate the combinations where Alex, Ben, or Chris could be the sometimes truthful one, ensuring consistency across all statements.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the maximum possible number of truthful statements that can be made by the three friends combined, given the constraints and the categories determined for each friend."
+    ],
+    "final_answer": "2"
+}

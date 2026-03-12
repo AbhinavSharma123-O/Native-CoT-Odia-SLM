@@ -1,0 +1,12 @@
+{
+    "id": "780",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A to Tank C. Pipe 1 can transfer water at a rate of 100 liters per minute, Pipe 2 at 150 liters per minute, and Pipe 3 at 50 liters per minute. If Tank A is initially filled with 1500 liters, Tank B with 2000 liters, and Tank C with 1000 liters, and the goal is to have all tanks filled to their maximum capacity in the least amount of time, how many minutes will it take to achieve this goal?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water needed to fill all tanks to their maximum capacity.",
+        "Step 2: Determine the net flow rate into each tank by considering the transfer rates of the pipes and the initial water levels in the tanks.",
+        "Step 3: Identify the limiting factor (the pipe or set of pipes that determines the minimum time required to fill the tanks) based on the transfer rates and the initial and final water levels in the tanks.",
+        "Step 4: Develop a strategy to utilize the pipes efficiently, possibly involving sequential or simultaneous use of the pipes to minimize the time required to fill the tanks.",
+        "Step 5: Calculate the time required to fill the tanks based on the chosen strategy, taking into account the initial water levels, the capacity of each tank, and the transfer rates of the pipes."
+    ],
+    "final_answer": "It will take 60 minutes to fill all tanks to their maximum capacity."
+}

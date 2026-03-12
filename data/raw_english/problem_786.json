@@ -1,0 +1,12 @@
+{
+    "id": "786",
+    "problem": "In a small village, there are 5 stores: A, B, C, D, and E. Each store sells a different type of product: groceries, electronics, clothing, furniture, and books. Using the following clues, determine the order of the stores from west to east and the type of product each store sells: Store A is next to the store that sells electronics. The store that sells groceries is next to the store that sells clothing. Store C is between the store that sells furniture and the store that sells books. Store D is to the east of store B. The store that sells electronics is to the west of the store that sells furniture. Store E sells books.",
+    "reasoning_steps": [
+        "Step 1: Analyze the given clues and identify direct relationships between stores and products.",
+        "Step 2: Determine the possible positions of Store A and the store that sells electronics based on their proximity.",
+        "Step 3: Use the clue about Store C being between the store that sells furniture and the store that sells books to establish a partial sequence.",
+        "Step 4: Apply the clue about the store that sells electronics being to the west of the store that sells furniture to further refine the sequence.",
+        "Step 5: Utilize the information about Store D being to the east of Store B and the relationships between the stores that sell groceries and clothing to finalize the order."
+    ],
+    "final_answer": "The order from west to east is: A (electronics), B (groceries), C (clothing), D (furniture), E (books)"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "424",
+    "original_problem": "In a small town, there are three types of houses: blue, green, and red. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address, nationality, and favorite drink of each house: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the blue house. The person who owns the red house does not live next to the person who drinks coffee. The person who drinks tea lives in the green house. The American lives in the house next to the person who drinks soda. The person who drinks water lives in the house next to the British person. The person who owns the green house lives in the house next to the person who owns the white house, but there is no white house, so it must be next to either the blue or the red house. The person who drinks soda does not live in the first or the last house.",
+    "deconstructed_problem": "In a small town, there are three types of houses: blue, green, and red. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address, nationality, and favorite drink of each house: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the blue house. The person who owns the red house does not live next to the person who drinks coffee. The person who drinks tea lives in the green house. The American lives in the house next to the person who drinks soda. The person who drinks water lives in the house next to the British person. The person who owns the green house lives in the house next to the person who owns the white house, but there is no white house, so it must be next to either the blue or the red house. The person who drinks soda does not live in the first or the last house.",
+    "original_steps": [
+        "Step 1: Determine the order of the houses based on the given clues, starting with the Canadian in the first house.",
+        "Step 2: Use the clue about the person who drinks milk to determine the color of the house next to the Canadian.",
+        "Step 3: Apply the clue about the red house and coffee to further narrow down the possible arrangements of houses and drinks.",
+        "Step 4: Utilize the clue about the American and the person who drinks soda to determine their positions relative to each other and the other houses.",
+        "Step 5: Combine all the information gathered so far with the clue about the person who drinks water and the British person to finalize the arrangement of nationalities, houses, and drinks."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the order of the houses based on the given clues, starting with the Canadian in the first house.",
+        "ପଦକ୍ଷେପ (step) 2: Use the clue about the person who drinks milk to determine the color of the house next to the Canadian.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the clue about the red house and coffee to further narrow down the possible arrangements of houses and drinks.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize the clue about the American and the person who drinks soda to determine their positions relative to each other and the other houses.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all the information gathered so far with the clue about the person who drinks water and the British person to finalize the arrangement of nationalities, houses, and drinks."
+    ],
+    "final_answer": {
+        "House 1": {
+            "Address": "1",
+            "Nationality": "Canadian",
+            "Drink": "milk",
+            "Color": "blue"
+        },
+        "House 2": {
+            "Address": "2",
+            "Nationality": "Indian",
+            "Drink": "coffee",
+            "Color": "green"
+        },
+        "House 3": {
+            "Address": "3",
+            "Nationality": "American",
+            "Drink": "soda",
+            "Color": "red"
+        },
+        "House 4": {
+            "Address": "4",
+            "Nationality": "British",
+            "Drink": "tea",
+            "Color": "green"
+        },
+        "House 5": {
+            "Address": "5",
+            "Nationality": "Japanese",
+            "Drink": "water",
+            "Color": "red"
+        }
+    }
+}

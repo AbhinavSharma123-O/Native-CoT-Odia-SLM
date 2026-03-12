@@ -1,0 +1,20 @@
+{
+    "id": "166",
+    "original_problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the light bulbs has a unique characteristic: it will always turn on 5 minutes after being turned off, and it will always turn off 5 minutes after being turned on. The other two bulbs do not have this characteristic and will remain in their last known state until a switch is flipped. You have 10 minutes to solve the puzzle before the room is locked forever.",
+    "deconstructed_problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the light bulbs has a unique characteristic: it will always turn on 5 minutes after being turned off, and it will always turn off 5 minutes after being turned on. The other two bulbs do not have this characteristic and will remain in their last known state until a switch is flipped. You have 10 minutes to solve the puzzle before the room is locked forever.",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to potentially activate the bulb with the unique characteristic.",
+        "Step 2: Turn switch 1 to the 'off' position and immediately turn switch 2 to the 'on' position. Then, enter the room to observe the light bulbs.",
+        "Step 3: If one of the bulbs is on, it could be controlled by switch 2, or it could be the bulb with the unique characteristic that was turned off by switch 1. Observe the bulbs for any that are warm but off, which could indicate the bulb controlled by switch 1.",
+        "Step 4: Identify the bulb that is on, and if it turns off within 5 minutes of observation, it is the bulb with the unique characteristic. The switch that was left in the 'on' position (switch 2) corresponds to one of the other bulbs.",
+        "Step 5: Use the process of elimination to determine which switch controls which of the remaining two bulbs."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to potentially activate the bulb with the unique characteristic.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and immediately turn switch 2 to the 'on' position. ତାହେଲେ (then), enter the room to observe the light bulbs.",
+        "ପଦକ୍ଷେପ (step) 3: ଯଦି (if) one of the bulbs is on, it could be controlled by switch 2, or it could be the bulb with the unique characteristic that was turned off by switch 1. Observe the bulbs for any that are warm but off, which could indicate the bulb controlled by switch 1.",
+        "ପଦକ୍ଷେପ (step) 4: Identify the bulb that is on, and ଯଦି (if) it turns off within 5 minutes of observation, it is the bulb with the unique characteristic. The switch that was left in the 'on' position (switch 2) corresponds to one of the other bulbs.",
+        "ପଦକ୍ଷେପ (step) 5: Use the process of elimination to determine which switch controls which of the remaining two bulbs."
+    ],
+    "final_answer": "Switch 1 corresponds to the bulb with the unique characteristic, switch 2 corresponds to one of the standard bulbs, and switch 3 corresponds to the remaining standard bulb."
+}

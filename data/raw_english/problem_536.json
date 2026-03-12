@@ -1,0 +1,12 @@
+{
+    "id": "536",
+    "problem": "In a small town, there are three types of houses: blue, red, and green. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address of the Japanese person's house, the color of the house, and their favorite drink: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the blue house. The person who owns the red house does not live next to the person who drinks coffee. The person who drinks soda lives in the house next to the British person. The green house is to the immediate left of the person who drinks tea. The American lives in the house next to the person who drinks soda. The person who drinks water lives in the house next to the person who owns the green house. The person who owns the blue house drinks coffee.",
+    "reasoning_steps": [
+        "Step 1: Determine the order of the houses based on the given clues about the relative positions of the houses and their occupants.",
+        "Step 2: Use the clues about the favorite drinks to further narrow down the possible arrangements of the houses and their occupants.",
+        "Step 3: Apply the clues about the nationalities to the possible arrangements to determine the most likely placement of each person.",
+        "Step 4: Analyze the clues about the house colors and their relationship to the occupants and their favorite drinks.",
+        "Step 5: Combine all the information from the previous steps to determine the address of the Japanese person's house, the color of the house, and their favorite drink."
+    ],
+    "final_answer": "House 3, Green, Tea"
+}

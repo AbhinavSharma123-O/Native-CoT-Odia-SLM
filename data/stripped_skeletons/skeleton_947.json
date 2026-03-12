@@ -1,0 +1,20 @@
+{
+    "id": "947",
+    "original_problem": "In a small village, there are three types of shops: bakery, grocery, and clothing. The village has a total of 25 shops, with 5 more bakeries than grocery stores and 2 fewer clothing stores than bakeries. If the total number of employees in all the shops is 200, with each bakery having 8 employees, each grocery store having 10 employees, and each clothing store having 12 employees, how many grocery stores are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakery, grocery, and clothing. The village has a ମୋଟ (total) of 25 shops, with 5 more bakeries than grocery stores and 2 fewer clothing stores than bakeries. ଯଦି (if) the ମୋଟ (total) number of employees in all the shops is 200, with each bakery having 8 employees, each grocery store having 10 employees, and each clothing store having 12 employees, how many grocery stores are there in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries, grocery stores, and clothing stores, and establish the relationships between them based on the given information.",
+        "Step 2: Set up equations based on the total number of shops and the total number of employees to find the relationship between the number of each type of shop.",
+        "Step 3: Use the information about the number of employees in each type of shop to create an equation that represents the total number of employees in the village.",
+        "Step 4: Solve the system of equations to find the number of grocery stores.",
+        "Step 5: Validate the solution by ensuring it satisfies all the given conditions, such as the total number of shops and the total number of employees."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries, grocery stores, and clothing stores, and establish the relationships between them based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the ମୋଟ (total) number of shops and the ମୋଟ (total) number of employees to find the relationship between the number of each type of shop.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information about the number of employees in each type of shop to create an ସମୀକରଣ (equation) that represents the ମୋଟ (total) number of employees in the village.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the system of equations to find the number of grocery stores.",
+        "ପଦକ୍ଷେପ (step) 5: Validate the solution by ensuring it satisfies all the given conditions, such as the ମୋଟ (total) number of shops and the ମୋଟ (total) number of employees."
+    ],
+    "final_answer": "5"
+}

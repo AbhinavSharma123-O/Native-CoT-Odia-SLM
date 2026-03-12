@@ -1,0 +1,12 @@
+{
+    "id": "797",
+    "problem": "In a small town, there are three types of trains: red, blue, and green. Each train has a different number of cars, and each car has a different number of wheels. The total number of wheels on all the red trains is 240, on all the blue trains is 300, and on all the green trains is 360. If a red train has 3 more cars than a blue train, but 2 fewer cars than a green train, and each car on any train has 4 wheels, determine the number of cars on each type of train.",
+    "reasoning_steps": [
+        "Step 1: Let's denote the number of cars on a blue train as B. Given that a red train has 3 more cars than a blue train and a green train has 2 more cars than a red train, we can express the number of cars on a red train as B + 3 and on a green train as (B + 3) + 2 = B + 5.",
+        "Step 2: Knowing each car has 4 wheels, we can express the total number of wheels on each type of train. For red trains, it's 4 * (B + 3), for blue trains, it's 4B, and for green trains, it's 4 * (B + 5).",
+        "Step 3: We are given that the total number of wheels on all the red trains is 240, on all the blue trains is 300, and on all the green trains is 360. However, to use this information effectively, we need to consider that these totals are for all trains of each type, not just one. Let's assume there's one train of each type for simplicity.",
+        "Step 4: Now, we can set up equations based on the given wheel totals: For red trains, 4 * (B + 3) = 240; for blue trains, 4B = 300; and for green trains, 4 * (B + 5) = 360. Solving any one of these equations will allow us to find B, the number of cars on a blue train.",
+        "Step 5: Let's solve the equation for blue trains: 4B = 300. Dividing both sides by 4 gives B = 75. This means a blue train has 75 cars. Using the relationships established, a red train has B + 3 = 75 + 3 = 78 cars, and a green train has B + 5 = 75 + 5 = 80 cars."
+    ],
+    "final_answer": "A blue train has 75 cars, a red train has 78 cars, and a green train has 80 cars."
+}

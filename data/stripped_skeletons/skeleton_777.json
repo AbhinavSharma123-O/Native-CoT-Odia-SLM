@@ -1,0 +1,24 @@
+{
+    "id": "777",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the shops is 240. The number of employees in the bakeries is 1/3 of the total number of employees in the cafes and restaurants combined. The number of employees in the cafes is 2/5 of the total number of employees in the bakeries and restaurants combined. The number of employees in the restaurants is 50 more than the number of employees in the bakeries. Let's denote the number of employees in the bakeries as B, the number of employees in the cafes as C, and the number of employees in the restaurants as R. What are the values of B, C, and R?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 240. The number of employees in the bakeries is 1/3 of the ମୋଟ (total) number of employees in the cafes and restaurants combined. The number of employees in the cafes is 2/5 of the ମୋଟ (total) number of employees in the bakeries and restaurants combined. The number of employees in the restaurants is 50 more than the number of employees in the bakeries. Let's denote the number of employees in the bakeries as B, the number of employees in the cafes as C, and the number of employees in the restaurants as R. What are the values of B, C, and R?",
+    "original_steps": [
+        "Step 1: Define the given information in terms of equations: B + C + R = 240, B = 1/3(C + R), C = 2/5(B + R), R = B + 50",
+        "Step 2: Use substitution to simplify the equations, starting with R = B + 50 and substituting into the first and second equations to reduce variables",
+        "Step 3: Substitute R = B + 50 into B = 1/3(C + R) to get B = 1/3(C + B + 50), which simplifies to 3B = C + B + 50, and further to 2B = C + 50",
+        "Step 4: Substitute R = B + 50 into C = 2/5(B + R) to get C = 2/5(B + B + 50), which simplifies to C = 2/5(2B + 50), and further to C = (4B + 100)/5",
+        "Step 5: Substitute the expression for C from Step 4 into the equation 2B = C + 50 from Step 3, yielding 2B = (4B + 100)/5 + 50, and solve for B"
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the given information in terms of equations: B + C + R = 240, B = 1/3(C + R), C = 2/5(B + R), R = B + 50",
+        "ପଦକ୍ଷେପ (step) 2: Use substitution to simplify the equations, starting with R = B + 50 and substituting into the first and second equations to reduce variables",
+        "ପଦକ୍ଷେପ (step) 3: Substitute R = B + 50 into B = 1/3(C + R) to get B = 1/3(C + B + 50), which simplifies to 3B = C + B + 50, and further to 2B = C + 50",
+        "ପଦକ୍ଷେପ (step) 4: Substitute R = B + 50 into C = 2/5(B + R) to get C = 2/5(B + B + 50), which simplifies to C = 2/5(2B + 50), and further to C = (4B + 100)/5",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the expression for C from ପଦକ୍ଷେପ (step) 4 into the ସମୀକରଣ (equation) 2B = C + 50 from ପଦକ୍ଷେପ (step) 3, yielding 2B = (4B + 100)/5 + 50, and solve for B"
+    ],
+    "final_answer": {
+        "B": 40,
+        "C": 70,
+        "R": 130
+    }
+}

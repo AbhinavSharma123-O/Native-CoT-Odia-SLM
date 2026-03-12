@@ -1,0 +1,20 @@
+{
+    "id": "573",
+    "original_problem": "In a small town, there are three types of vehicles: cars, buses, and trucks. The total number of vehicles in the town is 250. The number of cars is 30 more than the number of buses, and the number of trucks is 20 less than the number of buses. If 15% of the cars, 20% of the buses, and 25% of the trucks are blue, and a blue vehicle is selected at random, what is the probability that it is a bus?",
+    "deconstructed_problem": "In a small town, there are three types of vehicles: cars, buses, and trucks. The ମୋଟ (total) number of vehicles in the town is 250. The number of cars is 30 more than the number of buses, and the number of trucks is 20 less than the number of buses. ଯଦି (if) 15% of the cars, 20% of the buses, and 25% of the trucks are blue, and a blue vehicle is selected at random, what is the probability that it is a bus?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of cars, buses, and trucks, and establish the relationships between them based on the given information.",
+        "Step 2: Set up equations to represent these relationships and solve for the number of each type of vehicle.",
+        "Step 3: Calculate the number of blue vehicles for each type by applying the given percentages.",
+        "Step 4: Determine the total number of blue vehicles in the town by summing the blue cars, buses, and trucks.",
+        "Step 5: Calculate the probability of selecting a blue bus by dividing the number of blue buses by the total number of blue vehicles."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of cars, buses, and trucks, and establish the relationships between them based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations to represent these relationships and solve for the number of each type of vehicle.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the number of blue vehicles for each type by applying the given percentages.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the ମୋଟ (total) number of blue vehicles in the town by summing the blue cars, buses, and trucks.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the probability of selecting a blue bus by dividing the number of blue buses by the ମୋଟ (total) number of blue vehicles."
+    ],
+    "final_answer": "0.235"
+}

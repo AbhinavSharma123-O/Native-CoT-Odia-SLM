@@ -1,0 +1,12 @@
+{
+    "id": "932",
+    "problem": "In a small village, there are three types of shops: grocery stores, bakeries, and butcheries. Each type of shop has a different number of employees. The total number of employees in all the shops is 90. The number of employees in the bakeries is 5 more than the number of employees in the butcheries. The number of employees in the grocery stores is 10 less than the number of employees in the bakeries. If the number of employees in the butcheries is 20, what is the average number of employees per shop, given that there are 5 shops in total?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of employees in the bakeries by adding 5 to the number of employees in the butcheries, which is 20 + 5 = 25.",
+        "Step 2: Determine the number of employees in the grocery stores by subtracting 10 from the number of employees in the bakeries, which is 25 - 10 = 15.",
+        "Step 3: Calculate the total number of employees in the bakeries and grocery stores, which is 25 + 15 = 40.",
+        "Step 4: Subtract the total number of employees in the bakeries and grocery stores from the overall total to find the number of employees in the butcheries that was already given as 20, and then find the total number of employees in all butcheries, which is indeed 20 since there is only one butchery mentioned, so the calculation here is actually to confirm the number of butcheries and their employees.",
+        "Step 5: Calculate the average number of employees per shop by dividing the total number of employees by the total number of shops, which is 90 / 5 = 18."
+    ],
+    "final_answer": "18"
+}

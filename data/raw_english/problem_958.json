@@ -1,0 +1,12 @@
+{
+    "id": "958",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a combination of bread and pastries. The total number of bakeries is 5 more than the total number of cafes. There are 3 restaurants, and each restaurant has a partnership with 2 cafes. If each bakery sells 250 loaves of bread and 300 pastries per day, and each cafe sells 200 cups of coffee and has a daily revenue of $1500, what is the total daily revenue of all shops in the village, given that each restaurant has a daily revenue of $3000 and each bakery has a daily revenue of $1200?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of cafes by using the information about the restaurants and their partnerships with cafes.",
+        "Step 2: Calculate the total number of bakeries based on the relationship between the number of bakeries and cafes.",
+        "Step 3: Calculate the daily revenue of all cafes by multiplying the number of cafes by their individual daily revenue.",
+        "Step 4: Calculate the total daily revenue of all bakeries by multiplying the number of bakeries by their individual daily revenue.",
+        "Step 5: Calculate the total daily revenue of all restaurants and add it to the revenues of the bakeries and cafes to find the total daily revenue of all shops in the village."
+    ],
+    "final_answer": "Let's denote the number of cafes as C. Since each restaurant partners with 2 cafes and there are 3 restaurants, we have 3 * 2 = 6 cafe partnerships. This implies there are 6 / 2 = 3 cafes because each cafe partners with 2 restaurants. Given there are 5 more bakeries than cafes, there are 3 + 5 = 8 bakeries. The daily revenue of all cafes is 3 * $1500 = $4500. The daily revenue of all bakeries is 8 * $1200 = $9600. The daily revenue of all restaurants is 3 * $3000 = $9000. Thus, the total daily revenue of all shops is $4500 + $9600 + $9000 = $23100."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "411",
+    "problem": "In a small town, there are three rivers: River A, River B, and River C. The town's water management system can move water between these rivers in the following rates: from River A to River B at 5 cubic meters per hour, from River B to River C at 3 cubic meters per hour, and from River C to River A at 2 cubic meters per hour. If River A initially contains 1200 cubic meters of water, River B contains 800 cubic meters, and River C contains 600 cubic meters, how many hours will it take for all three rivers to have the same amount of water, assuming the water transfer rates remain constant and no water is added or removed from the system except through these transfers?",
+    "reasoning_steps": [
+        "Step 1: Determine the total amount of water in the system, which is the sum of the water in all three rivers: 1200 + 800 + 600 = 2600 cubic meters.",
+        "Step 2: Calculate the target amount of water for each river when they have the same amount, which is the total water divided by 3: 2600 / 3 = 866.67 cubic meters.",
+        "Step 3: Establish the differential equations representing the change in water volume over time for each river, taking into account the transfer rates: dA/dt = -5 + 2, dB/dt = 5 - 3, dC/dt = 3 - 2.",
+        "Step 4: Simplify the differential equations to dA/dt = -3, dB/dt = 2, dC/dt = 1, and solve them to find the time it takes for each river to reach the target volume, considering the initial conditions.",
+        "Step 5: Solve the system of equations, possibly requiring numerical methods due to the complexity, to find when all rivers will have approximately 866.67 cubic meters of water, which may involve setting up and solving a system of linear equations based on the initial conditions and the target condition."
+    ],
+    "final_answer": "This problem requires numerical methods or further simplification to solve exactly, but the process involves setting up and solving the differential equations with the given initial conditions and transfer rates."
+}

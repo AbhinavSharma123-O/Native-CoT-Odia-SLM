@@ -1,0 +1,20 @@
+{
+    "id": "723",
+    "original_problem": "In a small town, there are three factories: A, B, and C, producing goods X, Y, and Z respectively. The production rate of each factory is as follows: Factory A produces 200 units of X per day, Factory B produces 300 units of Y per day, and Factory C produces 400 units of Z per day. However, due to market fluctuations, the prices of X, Y, and Z change daily. On a certain day, the price of X is $5 per unit, Y is $3 per unit, and Z is $2 per unit. Additionally, the town has a tax regime where a 10% tax is levied on the total daily production value of each factory. If Factory A operates for 6 hours, Factory B for 8 hours, and Factory C for 10 hours, and given that the production rate is constant and the factories operate at their respective rates for the given hours, what is the total tax paid by all three factories on that day?",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, producing goods X, Y, and Z respectively. The production rate of each factory is as follows: Factory A produces 200 units of X per day, Factory B produces 300 units of Y per day, and Factory C produces 400 units of Z per day. However, due to market fluctuations, the prices of X, Y, and Z change daily. On a certain day, the price of X is $5 per unit, Y is $3 per unit, and Z is $2 per unit. Additionally, the town has a tax regime where a 10% tax is levied on the ମୋଟ (total) daily production value of each factory. ଯଦି (if) Factory A operates for 6 hours, Factory B for 8 hours, and Factory C for 10 hours, and given that the production rate is constant and the factories operate at their respective rates for the given hours, what is the ମୋଟ (total) tax paid by all three factories on that day?",
+    "original_steps": [
+        "Step 1: Calculate the daily production of each factory by multiplying their production rates by the number of hours they operate. For Factory A: 200 units/hour * 6 hours = 1200 units of X, for Factory B: 300 units/hour * 8 hours = 2400 units of Y, and for Factory C: 400 units/hour * 10 hours = 4000 units of Z.",
+        "Step 2: Determine the total value of production for each factory by multiplying the units produced by the price per unit. For Factory A: 1200 units * $5/unit = $6000, for Factory B: 2400 units * $3/unit = $7200, and for Factory C: 4000 units * $2/unit = $8000.",
+        "Step 3: Calculate the tax paid by each factory, which is 10% of their total production value. For Factory A: $6000 * 0.10 = $600, for Factory B: $7200 * 0.10 = $720, and for Factory C: $8000 * 0.10 = $800.",
+        "Step 4: Sum the taxes paid by all three factories to find the total tax paid. Total tax = $600 (from A) + $720 (from B) + $800 (from C).",
+        "Step 5: Perform the final calculation to find the total tax paid. Total tax = $600 + $720 + $800 = $2120."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the daily production of each factory by multiplying their production rates by the number of hours they operate. For Factory A: 200 units/hour * 6 hours = 1200 units of X, for Factory B: 300 units/hour * 8 hours = 2400 units of Y, and for Factory C: 400 units/hour * 10 hours = 4000 units of Z.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) value of production for each factory by multiplying the units produced by the price per unit. For Factory A: 1200 units * $5/unit = $6000, for Factory B: 2400 units * $3/unit = $7200, and for Factory C: 4000 units * $2/unit = $8000.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the tax paid by each factory, which is 10% of their ମୋଟ (total) production value. For Factory A: $6000 * 0.10 = $600, for Factory B: $7200 * 0.10 = $720, and for Factory C: $8000 * 0.10 = $800.",
+        "ପଦକ୍ଷେପ (step) 4: ସମଷ୍ଟି (sum) the taxes paid by all three factories to find the ମୋଟ (total) tax paid. ମୋଟ (total) tax = $600 (from A) + $720 (from B) + $800 (from C).",
+        "ପଦକ୍ଷେପ (step) 5: Perform the final calculation to find the ମୋଟ (total) tax paid. ମୋଟ (total) tax = $600 + $720 + $800 = $2120."
+    ],
+    "final_answer": "$2120"
+}

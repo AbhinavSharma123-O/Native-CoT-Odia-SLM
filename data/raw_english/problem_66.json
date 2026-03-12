@@ -1,0 +1,12 @@
+{
+    "id": "66",
+    "problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus travels at a different speed: Red buses travel at 30 km/h, Blue buses at 45 km/h, and Green buses at 60 km/h. One day, three buses are traveling from Town A to Town B, which are 180 km apart. The Red bus starts 2 hours before the Blue bus, and the Blue bus starts 3 hours before the Green bus. If the Green bus overtakes the Blue bus after 1 hour of the Blue bus's journey and the Red bus travels for 5 hours before it is overtaken by the Green bus, how many hours does it take for all three buses to reach Town B?",
+    "reasoning_steps": [
+        "Step 1: Determine the distance each bus travels before it is overtaken or reaches Town B, starting with the Green bus overtaking the Blue bus.",
+        "Step 2: Calculate the time the Blue bus has been traveling when it is overtaken by the Green bus, using the relative speeds of the two buses.",
+        "Step 3: Use the time calculated in Step 2 and the speed of the Blue bus to find the distance it has traveled when overtaken.",
+        "Step 4: With the distance the Blue bus has traveled, calculate how long the Red bus has been traveling when the Green bus overtakes it, considering their speed difference and the head start of the Red bus.",
+        "Step 5: Calculate the remaining distance to Town B after the Green bus overtakes the Red bus and determine how long it takes for the Green bus to cover this distance, given its speed."
+    ],
+    "final_answer": "8 hours"
+}

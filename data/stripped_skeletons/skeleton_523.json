@@ -1,0 +1,20 @@
+{
+    "id": "523",
+    "original_problem": "In a small town, there are 5 factories producing goods. Factories A, B, and C produce 250, 300, and 200 units of product per day, respectively. Factories D and E produce a combined total of 550 units per day. However, due to a machine malfunction, Factory B must reduce its production by 20% for 3 days, while Factory C increases its production by 15% for the same period. Meanwhile, Factory D and E adjust their production to maintain a constant total of 550 units per day. If the town aims to produce a total of 2800 units over 4 days, can they meet this goal, considering the changes in production rates and the combined efforts of all factories?",
+    "deconstructed_problem": "In a small town, there are 5 factories producing goods. Factories A, B, and C produce 250, 300, and 200 units of product per day, respectively. Factories D and E produce a combined ମୋଟ (total) of 550 units per day. However, due to a machine malfunction, Factory B must reduce its production by 20% for 3 days, while Factory C increases its production by 15% for the same period. Meanwhile, Factory D and E adjust their production to maintain a constant ମୋଟ (total) of 550 units per day. ଯଦି (if) the town aims to produce a ମୋଟ (total) of 2800 units over 4 days, can they meet this goal, considering the changes in production rates and the combined efforts of all factories?",
+    "original_steps": [
+        "Step 1: Calculate the original total daily production of all 5 factories by summing the production rates of Factories A, B, C, and the combined rate of Factories D and E.",
+        "Step 2: Calculate the reduced production rate of Factory B after the 20% decrease and the increased production rate of Factory C after the 15% increase.",
+        "Step 3: Determine the adjusted total daily production for the 3 days with altered production rates for Factories B and C, considering that Factories D and E maintain a combined total of 550 units per day.",
+        "Step 4: Calculate the total production over the 3 days with adjusted rates and add the production of the 4th day, when all factories return to their original production rates.",
+        "Step 5: Compare the total production over the 4 days to the goal of 2800 units to determine if the town can meet its production target."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the original ମୋଟ (total) daily production of all 5 factories by summing the production rates of Factories A, B, C, and the combined rate of Factories D and E.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the reduced production rate of Factory B after the 20% decrease and the increased production rate of Factory C after the 15% increase.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the adjusted ମୋଟ (total) daily production for the 3 days with altered production rates for Factories B and C, considering that Factories D and E maintain a combined ମୋଟ (total) of 550 units per day.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) production over the 3 days with adjusted rates and ଯୋଗ (add) the production of the 4th day, when all factories return to their original production rates.",
+        "ପଦକ୍ଷେପ (step) 5: Compare the ମୋଟ (total) production over the 4 days to the goal of 2800 units to determine ଯଦି (if) the town can meet its production target."
+    ],
+    "final_answer": "Yes"
+}

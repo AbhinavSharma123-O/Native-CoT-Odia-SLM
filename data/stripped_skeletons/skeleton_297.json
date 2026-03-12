@@ -1,0 +1,20 @@
+{
+    "id": "297",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B at 0.75 liters per minute, and Tower C at 1.0 liter per minute. The town's water usage is as follows: 200 liters are used on Monday, 250 liters on Tuesday, 300 liters on Wednesday, 350 liters on Thursday, and 400 liters on Friday. If all towers are empty at the start of Monday and Tower A can hold 1000 liters, Tower B 1200 liters, and Tower C 1500 liters, determine how many minutes it will take to fill all three towers completely after the town's water usage for the week, assuming the filling process starts after Friday's usage.",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B at 0.75 liters per minute, and Tower C at 1.0 liter per minute. The town's water usage is as follows: 200 liters are used on Monday, 250 liters on Tuesday, 300 liters on Wednesday, 350 liters on Thursday, and 400 liters on Friday. ଯଦି (if) all towers are empty at the start of Monday and Tower A can hold 1000 liters, Tower B 1200 liters, and Tower C 1500 liters, determine how many minutes it will take to fill all three towers completely after the town's water usage for the week, assuming the filling process starts after Friday's usage.",
+    "original_steps": [
+        "Step 1: Calculate the total water used by the town over the week.",
+        "Step 2: Determine the remaining capacity in each tower after the week's usage, considering they were initially empty and then filled as needed to meet the town's water demands.",
+        "Step 3: Calculate the total capacity of all three towers combined.",
+        "Step 4: Determine the total amount of water needed to fill all towers after the week's usage, accounting for the water already used from the towers.",
+        "Step 5: Calculate the combined rate at which the three towers are filled and then determine how long it will take to fill the towers completely based on the remaining capacity needed to be filled."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) water used by the town over the week.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the remaining capacity in each tower after the week's usage, considering they were initially empty and ତାହେଲେ (then) filled as needed to meet the town's water demands.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) capacity of all three towers combined.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the ମୋଟ (total) amount of water needed to fill all towers after the week's usage, accounting for the water already used from the towers.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the combined rate at which the three towers are filled and ତାହେଲେ (then) determine how long it will take to fill the towers completely based on the remaining capacity needed to be filled."
+    ],
+    "final_answer": "It will take 480 minutes to fill Tower A, 320 minutes to fill Tower B, and 0 minutes to fill Tower C as it would already be full from meeting the town's demand, but considering the question asks for filling all towers after the week, focusing on the combined effort: Calculate the total water needed after usage (200+250+300+350+400=1500 liters), and the towers' combined fill rate (0.5+0.75+1.0=2.25 liters/minute). The towers would need 1500 liters to meet the week's demand, but since they can hold more, we consider the maximum capacity. Tower A and B would be filled in the process of meeting the demand, Tower C would be overfilled in this context. The actual calculation should consider the total water used and the towers' capacity to understand the real question context."
+}

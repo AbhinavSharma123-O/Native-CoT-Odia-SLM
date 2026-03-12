@@ -1,0 +1,12 @@
+{
+    "id": "562",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $450 worth of products per day, with 30% of the sales coming from bread, 40% from pastries, and the remaining 30% from cakes. The town has a total of 15 shops, with 5 bakeries, 4 cafes, and 6 restaurants. However, it is known that the number of bakeries is 1 more than the number of cafes that sell coffee. If each cafe sells $200 worth of coffee per day and each restaurant sells $300 worth of food per day, what is the total daily revenue from all the shops in the town, given that the total daily revenue from all bakeries is $2250?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of bakeries and their total sales to find the sales per bakery, which is given as $450 per day.",
+        "Step 2: Calculate the total daily revenue from all the bakeries, which is given as $2250, to confirm the number of bakeries.",
+        "Step 3: Find the number of cafes by using the relationship between the number of bakeries and cafes, knowing that the number of bakeries is 1 more than the number of cafes selling coffee.",
+        "Step 4: Calculate the total daily revenue from all the cafes by multiplying the number of cafes by the daily sales per cafe, which is $200.",
+        "Step 5: Determine the total daily revenue from all the restaurants by multiplying the number of restaurants by the daily sales per restaurant, which is $300, and add this to the revenues from bakeries and cafes to find the total daily revenue from all shops."
+    ],
+    "final_answer": "5150"
+}

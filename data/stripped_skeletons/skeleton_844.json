@@ -1,0 +1,20 @@
+{
+    "id": "844",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 120 cups of coffee per day. The town has a total of 15 shops, with 5 more bakeries than cafes, and 2 fewer restaurants than cafes. If the total number of loaves of bread sold per day is 2000, and the total number of cups of coffee sold per day is 840, what is the total number of restaurants in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 120 cups of coffee per day. The town has a ମୋଟ (total) of 15 shops, with 5 more bakeries than cafes, and 2 fewer restaurants than cafes. ଯଦି (if) the ମୋଟ (total) number of loaves of bread sold per day is 2000, and the ମୋଟ (total) number of cups of coffee sold per day is 840, what is the ମୋଟ (total) number of restaurants in the town?",
+    "original_steps": [
+        "Step 1: Determine the number of bakeries and cafes by setting up equations based on the given information about the total number of shops and the difference between the number of bakeries and cafes.",
+        "Step 2: Use the information about the total number of loaves of bread sold per day to find the number of bakeries, since each bakery sells a known quantity of bread.",
+        "Step 3: With the number of bakeries determined, calculate the number of cafes using the relationship between the number of bakeries and cafes.",
+        "Step 4: Use the information about the total number of cups of coffee sold per day to verify the number of cafes, as each cafe sells a known quantity of coffee.",
+        "Step 5: Finally, calculate the number of restaurants by using the relationship between the number of restaurants and cafes."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of bakeries and cafes by setting up equations based on the given information about the ମୋଟ (total) number of shops and the ପାର୍ଥକ୍ୟ (difference) between the number of bakeries and cafes.",
+        "ପଦକ୍ଷେପ (step) 2: Use the information about the ମୋଟ (total) number of loaves of bread sold per day to find the number of bakeries, since each bakery sells a known quantity of bread.",
+        "ପଦକ୍ଷେପ (step) 3: With the number of bakeries determined, calculate the number of cafes using the relationship between the number of bakeries and cafes.",
+        "ପଦକ୍ଷେପ (step) 4: Use the information about the ମୋଟ (total) number of cups of coffee sold per day to verify the number of cafes, as each cafe sells a known quantity of coffee.",
+        "ପଦକ୍ଷେପ (step) 5: Finally, calculate the number of restaurants by using the relationship between the number of restaurants and cafes."
+    ],
+    "final_answer": "4"
+}

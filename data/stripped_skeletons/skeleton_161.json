@@ -1,0 +1,20 @@
+{
+    "id": "161",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is set up such that Tower A fills at a rate of 100 gallons per hour, Tower B fills at a rate of 150 gallons per hour, and Tower C fills at a rate of 200 gallons per hour. However, due to leakage, Tower A loses 10 gallons per hour, Tower B loses 20 gallons per hour, and Tower C loses 30 gallons per hour. If all three towers are currently empty and the town's water needs require that the total amount of water in the towers must be at least 6000 gallons, how many hours will it take to fill the towers to meet this requirement, given that the filling and leaking rates remain constant?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is set up such that Tower A fills at a rate of 100 gallons per hour, Tower B fills at a rate of 150 gallons per hour, and Tower C fills at a rate of 200 gallons per hour. However, due to leakage, Tower A loses 10 gallons per hour, Tower B loses 20 gallons per hour, and Tower C loses 30 gallons per hour. ଯଦି (if) all three towers are currently empty and the town's water needs require that the ମୋଟ (total) amount of water in the towers must be at least 6000 gallons, how many hours will it take to fill the towers to meet this requirement, given that the filling and leaking rates remain constant?",
+    "original_steps": [
+        "Step 1: Calculate the net fill rate for each tower by subtracting the leakage rate from the fill rate. For Tower A, the net fill rate is 100 - 10 = 90 gallons per hour. For Tower B, the net fill rate is 150 - 20 = 130 gallons per hour. For Tower C, the net fill rate is 200 - 30 = 170 gallons per hour.",
+        "Step 2: Determine the total net fill rate for all three towers combined. This is the sum of the individual net fill rates: 90 + 130 + 170 = 390 gallons per hour.",
+        "Step 3: Calculate the total amount of water needed to meet the requirement. Since the requirement is for at least 6000 gallons and the towers can hold a maximum of 2000 + 3000 + 4000 = 9000 gallons, the target is to have at least 6000 gallons in the towers.",
+        "Step 4: Calculate the time it will take to fill the towers to the required amount. This can be found by dividing the total amount of water needed by the total net fill rate. So, the time required is 6000 / 390.",
+        "Step 5: Perform the division to find the exact number of hours it will take to fill the towers to meet the water requirement."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net fill rate for each tower by subtracting the leakage rate from the fill rate. For Tower A, the net fill rate is 100 - 10 = 90 gallons per hour. For Tower B, the net fill rate is 150 - 20 = 130 gallons per hour. For Tower C, the net fill rate is 200 - 30 = 170 gallons per hour.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) net fill rate for all three towers combined. This is the ସମଷ୍ଟି (sum) of the individual net fill rates: 90 + 130 + 170 = 390 gallons per hour.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) amount of water needed to meet the requirement. Since the requirement is for at least 6000 gallons and the towers can hold a maximum of 2000 + 3000 + 4000 = 9000 gallons, the target is to have at least 6000 gallons in the towers.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the time it will take to fill the towers to the required amount. This can be found by dividing the ମୋଟ (total) amount of water needed by the ମୋଟ (total) net fill rate. So, the time required is 6000 / 390.",
+        "ପଦକ୍ଷେପ (step) 5: Perform the division to find the exact number of hours it will take to fill the towers to meet the water requirement."
+    ],
+    "final_answer": "15.385"
+}

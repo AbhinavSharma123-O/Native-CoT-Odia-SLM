@@ -1,0 +1,20 @@
+{
+    "id": "452",
+    "original_problem": "In the town of Willow Creek, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $500 worth of goods per day, with 20% of the sales coming from bread and the rest from pastries. The town has a total of 15 shops, with the number of bakeries being 3 more than the number of cafes, and the number of restaurants being 2 less than the number of cafes. If each cafe sells $300 worth of goods per day and each restaurant sells $800 worth of goods per day, and the total daily sales of all shops in the town is $6,300, what is the total amount of money earned by the bakeries from selling bread?",
+    "deconstructed_problem": "In the town of Willow Creek, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a ମୋଟ (total) of $500 worth of goods per day, with 20% of the sales coming from bread and the rest from pastries. The town has a ମୋଟ (total) of 15 shops, with the number of bakeries being 3 more than the number of cafes, and the number of restaurants being 2 less than the number of cafes. ଯଦି (if) each cafe sells $300 worth of goods per day and each restaurant sells $800 worth of goods per day, and the ମୋଟ (total) daily sales of all shops in the town is $6,300, what is the ମୋଟ (total) amount of money earned by the bakeries from selling bread?",
+    "original_steps": [
+        "Step 1: Define the variables for the problem, where b is the number of bakeries, c is the number of cafes, and r is the number of restaurants.",
+        "Step 2: Set up the equation based on the given information about the number of shops: b = c + 3 and r = c - 2, and b + c + r = 15.",
+        "Step 3: Solve the system of equations to find the values of b, c, and r. Substitute b and r in terms of c into the total equation to find c, then find b and r.",
+        "Step 4: Calculate the total daily sales of the cafes and restaurants, then subtract this amount from the total daily sales of all shops to find the total daily sales of the bakeries.",
+        "Step 5: Determine the amount earned by the bakeries from selling bread, which is 20% of their total sales."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the problem, where b is the number of bakeries, c is the number of cafes, and r is the number of restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Set up the ସମୀକରଣ (equation) based on the given information about the number of shops: b = c + 3 and r = c - 2, and b + c + r = 15.",
+        "ପଦକ୍ଷେପ (step) 3: Solve the system of equations to find the values of b, c, and r. Substitute b and r in terms of c into the ମୋଟ (total) ସମୀକରଣ (equation) to find c, ତାହେଲେ (then) find b and r.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) daily sales of the cafes and restaurants, ତାହେଲେ (then) ବିୟୋଗ (subtract) this amount from the ମୋଟ (total) daily sales of all shops to find the ମୋଟ (total) daily sales of the bakeries.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the amount earned by the bakeries from selling bread, which is 20% of their ମୋଟ (total) sales."
+    ],
+    "final_answer": "180"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "455",
+    "original_problem": "In a small town, there are three buses (A, B, and C) that operate on different schedules. Bus A leaves the station every 15 minutes, Bus B leaves every 20 minutes, and Bus C leaves every 30 minutes. If Bus A and Bus B both leave the station at 8:00 AM and Bus C leaves at 8:05 AM, what is the next time after 8:00 AM when all three buses will leave the station at the same time?",
+    "deconstructed_problem": "In a small town, there are three buses (A, B, and C) that operate on different schedules. Bus A leaves the station every 15 minutes, Bus B leaves every 20 minutes, and Bus C leaves every 30 minutes. ଯଦି (if) Bus A and Bus B both leave the station at 8:00 AM and Bus C leaves at 8:05 AM, what is the next time after 8:00 AM when all three buses will leave the station at the same time?",
+    "original_steps": [
+        "Step 1: Determine the intervals at which each bus leaves the station and find their least common multiple (LCM) to figure out when they might coincide.",
+        "Step 2: Calculate the LCM of the intervals for Bus A (15 minutes), Bus B (20 minutes), and Bus C (30 minutes) to find the shortest time frame in which all three buses could potentially leave together.",
+        "Step 3: Consider the initial departure times of each bus to understand their individual schedules and how they relate to each other's departure times.",
+        "Step 4: Account for the fact that Bus C leaves 5 minutes after the initial departure of Bus A and Bus B, meaning the first potential alignment after 8:00 AM must consider this offset.",
+        "Step 5: Use the LCM from Step 2 and apply it from the time Bus C first leaves (8:05 AM) to find the next time all three buses will depart together, taking into account the offset and the LCM of their departure intervals."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the intervals at which each bus leaves the station and find their least common multiple (LCM) to figure out when they might coincide.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the LCM of the intervals for Bus A (15 minutes), Bus B (20 minutes), and Bus C (30 minutes) to find the shortest time frame in which all three buses could potentially leave together.",
+        "ପଦକ୍ଷେପ (step) 3: Consider the initial departure times of each bus to understand their individual schedules and how they relate to each other's departure times.",
+        "ପଦକ୍ଷେପ (step) 4: Account for the fact that Bus C leaves 5 minutes after the initial departure of Bus A and Bus B, meaning the first potential alignment after 8:00 AM must consider this offset.",
+        "ପଦକ୍ଷେପ (step) 5: Use the LCM from ପଦକ୍ଷେପ (step) 2 and apply it from the time Bus C first leaves (8:05 AM) to find the next time all three buses will depart together, taking into account the offset and the LCM of their departure intervals."
+    ],
+    "final_answer": "11:30 AM"
+}

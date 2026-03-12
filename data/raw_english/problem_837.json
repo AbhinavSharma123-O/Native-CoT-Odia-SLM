@@ -1,0 +1,12 @@
+{
+    "id": "837",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a specific type of bread, and the price of the bread is determined by the number of bakeries in the village. If there are 5 bakeries, the price of the bread is $5. For every additional bakery, the price increases by $0.50. There are also cafes that sell coffee, and the price of the coffee is $2 more than the price of the bread. The restaurants in the village serve meals, and the price of the meal is $10 more than the price of the coffee. If a villager buys one loaf of bread, one cup of coffee, and one meal, and the total cost is $35.50, how many bakeries are there in the village?",
+    "reasoning_steps": [
+        "Step 1: Determine the price of the bread based on the number of bakeries. Let's assume the number of bakeries is x, and the price of the bread is 5 + 0.5(x - 5).",
+        "Step 2: Calculate the price of the coffee, which is $2 more than the price of the bread. The price of the coffee is 5 + 0.5(x - 5) + 2.",
+        "Step 3: Calculate the price of the meal, which is $10 more than the price of the coffee. The price of the meal is (5 + 0.5(x - 5) + 2) + 10.",
+        "Step 4: Set up an equation to represent the total cost of the bread, coffee, and meal. The total cost is 5 + 0.5(x - 5) + (5 + 0.5(x - 5) + 2) + ((5 + 0.5(x - 5) + 2) + 10) = 35.50.",
+        "Step 5: Simplify the equation and solve for x. Combine like terms to get 5 + 0.5x - 2.5 + 5 + 0.5x - 2.5 + 2 + 5 + 0.5x - 2.5 + 2 + 10 = 35.50. Then, simplify further to get 3(0.5x) + 3(5) - 3(2.5) + 2 + 10 = 35.50. This simplifies to 1.5x + 15 - 7.5 + 2 + 10 = 35.50, and then to 1.5x + 19.5 = 35.50. Subtract 19.5 from both sides to get 1.5x = 16. Then, divide by 1.5 to solve for x."
+    ],
+    "final_answer": "10.67"
+}

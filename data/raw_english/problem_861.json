@@ -1,0 +1,12 @@
+{
+    "id": "861",
+    "problem": "In the town of Azura, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding light bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position, then immediately enter the room to observe the light bulbs.",
+        "Step 3: In the room, identify the light bulb that is on (this corresponds to switch 2) and the light bulb that is off but warm (this corresponds to switch 1).",
+        "Step 4: The remaining light bulb, which is off and cold, must correspond to switch 3.",
+        "Step 5: By using the process of elimination and the observations made, determine the correct switch-light bulb configuration."
+    ],
+    "final_answer": "Switch 1 corresponds to the warm light bulb, switch 2 corresponds to the light bulb that is on, and switch 3 corresponds to the cold light bulb."
+}

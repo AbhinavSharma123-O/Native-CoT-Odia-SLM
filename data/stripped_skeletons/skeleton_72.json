@@ -1,0 +1,20 @@
+{
+    "id": "72",
+    "original_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and candle makers. The village has a total of 24 shops, with 5 more bakeries than butcher shops and 3 more candle makers than bakeries. If the total number of employees in all the shops is 120, with bakeries having 4 employees each, butcher shops having 5 employees each, and candle makers having 6 employees each, how many butcher shops are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and candle makers. The village has a ମୋଟ (total) of 24 shops, with 5 more bakeries than butcher shops and 3 more candle makers than bakeries. ଯଦି (if) the ମୋଟ (total) number of employees in all the shops is 120, with bakeries having 4 employees each, butcher shops having 5 employees each, and candle makers having 6 employees each, how many butcher shops are there in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of shop: let B be the number of bakeries, U be the number of butcher shops, and C be the number of candle makers.",
+        "Step 2: Set up equations based on the given information: B + U + C = 24 (total shops), B = U + 5 (more bakeries than butcher shops), and C = B + 3 (more candle makers than bakeries).",
+        "Step 3: Substitute B and C in terms of U into the total shops equation: (U + 5) + U + ((U + 5) + 3) = 24.",
+        "Step 4: Solve for U: 3U + 13 = 24, which simplifies to 3U = 11.",
+        "Step 5: Calculate U: U = 11 / 3, but since U must be a whole number (as it represents the number of shops), re-evaluate the equation from step 3 to ensure correct calculation: the correct approach should involve solving the equation correctly as 3U + 13 = 24, leading to 3U = 11, which indicates a miscalculation since U should be an integer."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of shop: let B be the number of bakeries, U be the number of butcher shops, and C be the number of candle makers.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: B + U + C = 24 (ମୋଟ (total) shops), B = U + 5 (more bakeries than butcher shops), and C = B + 3 (more candle makers than bakeries).",
+        "ପଦକ୍ଷେପ (step) 3: Substitute B and C in terms of U into the ମୋଟ (total) shops ସମୀକରଣ (equation): (U + 5) + U + ((U + 5) + 3) = 24.",
+        "ପଦକ୍ଷେପ (step) 4: Solve for U: 3U + 13 = 24, which simplifies to 3U = 11.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate U: U = 11 / 3, but since U must be a whole number (as it represents the number of shops), re-evaluate the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to ensure correct calculation: the correct approach should involve solving the ସମୀକରଣ (equation) correctly as 3U + 13 = 24, leading to 3U = 11, which indicates a miscalculation since U should be an integer."
+    ],
+    "final_answer": "There are 3 butcher shops in the village."
+}

@@ -1,0 +1,13 @@
+{
+    "id": "580",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town uses water from these tanks for its daily needs. On a certain day, Tank A is 3/4 full, Tank B is 2/3 full, and Tank C is 1/2 full. If 500 liters of water are used from Tank A and 1000 liters are used from Tank B, how many liters of water are left in total in all three tanks after this usage, given that the town also receives 2000 liters of rainwater that gets evenly distributed among the tanks?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. For Tank A, it's 3/4 * 2000 = 1500 liters, for Tank B, it's 2/3 * 3000 = 2000 liters, and for Tank C, it's 1/2 * 4000 = 2000 liters.",
+        "Step 2: Calculate the amount of water used from Tanks A and B, which is given as 500 liters from Tank A and 1000 liters from Tank B.",
+        "Step 3: Subtract the used water from the initial amounts in Tanks A and B. For Tank A, 1500 - 500 = 1000 liters left, and for Tank B, 2000 - 1000 = 1000 liters left. The amount in Tank C remains unchanged at this step.",
+        "Step 4: Calculate the amount of rainwater each tank receives. Since 2000 liters of rainwater are evenly distributed among the three tanks, each tank gets 2000 / 3 = approximately 666.67 liters.",
+        "Step 5: Add the received rainwater to each tank. For Tank A, it's 1000 + 666.67 = 1666.67 liters, for Tank B, it's 1000 + 666.67 = 1666.67 liters, and for Tank C, it's 2000 + 666.67 = 2666.67 liters.",
+        "Step 6: Sum the final amounts in all three tanks to find the total amount of water left. Total = 1666.67 (Tank A) + 1666.67 (Tank B) + 2666.67 (Tank C) = 6000 liters."
+    ],
+    "final_answer": "6000"
+}

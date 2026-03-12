@@ -1,0 +1,20 @@
+{
+    "id": "93",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a combination of three types of bread: white, whole wheat, and sourdough. The village has a total of 15 shops, with 5 bakeries, 4 cafes, and 6 restaurants. The bakeries are divided into two categories: those that sell all three types of bread and those that sell only two types. The first category has 3 bakeries that sell 200 loaves of white bread, 150 loaves of whole wheat bread, and 100 loaves of sourdough bread per day. The second category has 2 bakeries that sell 150 loaves of white bread and 100 loaves of whole wheat bread per day. There is no bakery that sells only sourdough bread. If the total number of loaves of bread sold per day in the village is 3000, and each cafe sells an average of 50 loaves of assorted bread per day, how many loaves of sourdough bread are sold by the bakeries that sell all three types of bread?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a combination of three types of bread: white, whole wheat, and sourdough. The village has a ମୋଟ (total) of 15 shops, with 5 bakeries, 4 cafes, and 6 restaurants. The bakeries are divided into two categories: those that sell all three types of bread and those that sell only two types. The first category has 3 bakeries that sell 200 loaves of white bread, 150 loaves of whole wheat bread, and 100 loaves of sourdough bread per day. The second category has 2 bakeries that sell 150 loaves of white bread and 100 loaves of whole wheat bread per day. There is no bakery that sells only sourdough bread. ଯଦି (if) the ମୋଟ (total) number of loaves of bread sold per day in the village is 3000, and each cafe sells an average of 50 loaves of assorted bread per day, how many loaves of sourdough bread are sold by the bakeries that sell all three types of bread?",
+    "original_steps": [
+        "Step 1: Calculate the total number of loaves of bread sold by the cafes per day, which is the number of cafes multiplied by the average number of loaves sold per cafe.",
+        "Step 2: Determine the total number of loaves of bread sold by the bakeries that sell only two types of bread per day.",
+        "Step 3: Find the total number of loaves of white and whole wheat bread sold by all bakeries per day.",
+        "Step 4: Calculate the total number of loaves of bread sold by all shops in the village, excluding the bakeries that sell all three types of bread, to find out how many loaves are sold by these bakeries.",
+        "Step 5: Use the information about the bakeries that sell all three types of bread to calculate the number of loaves of sourdough bread they sell per day."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of loaves of bread sold by the cafes per day, which is the number of cafes multiplied by the average number of loaves sold per cafe.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) number of loaves of bread sold by the bakeries that sell only two types of bread per day.",
+        "ପଦକ୍ଷେପ (step) 3: Find the ମୋଟ (total) number of loaves of white and whole wheat bread sold by all bakeries per day.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of loaves of bread sold by all shops in the village, excluding the bakeries that sell all three types of bread, to find out how many loaves are sold by these bakeries.",
+        "ପଦକ୍ଷେପ (step) 5: Use the information about the bakeries that sell all three types of bread to calculate the number of loaves of sourdough bread they sell per day."
+    ],
+    "final_answer": "300"
+}

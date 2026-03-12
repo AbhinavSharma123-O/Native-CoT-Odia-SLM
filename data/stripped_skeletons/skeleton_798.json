@@ -1,0 +1,20 @@
+{
+    "id": "798",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A takes 120 minutes to fill, Tower B takes 90 minutes to fill, and Tower C takes 60 minutes to fill, what is the total volume of water in liters that the three towers can hold if they are all filled at the same time, given that Tower A holds 3 times as much water as Tower C and Tower B holds 2 times as much water as Tower C?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. ଯଦି (if) Tower A takes 120 minutes to fill, Tower B takes 90 minutes to fill, and Tower C takes 60 minutes to fill, what is the ମୋଟ (total) volume of water in liters that the three towers can hold ଯଦି (if) they are all filled at the same time, given that Tower A holds 3 times as much water as Tower C and Tower B holds 2 times as much water as Tower C?",
+    "original_steps": [
+        "Step 1: Determine the volume of water Tower C can hold, which is the rate of filling multiplied by the time it takes to fill. So, Volume_C = 1 * 60 = 60 liters.",
+        "Step 2: Calculate the volume of water Tower A can hold, knowing it holds 3 times as much water as Tower C. So, Volume_A = 3 * Volume_C = 3 * 60 = 180 liters.",
+        "Step 3: Verify the volume of Tower A by using its filling rate and time. Volume_A = 0.5 * 120 = 60 liters. However, given the problem's statement, we rely on the relationship provided, thus adhering to the given information that Tower A holds 3 times as much as Tower C, which may imply a misunderstanding in the initial calculation based on filling rates. Therefore, accepting Volume_A = 180 liters based on the problem's direct statement.",
+        "Step 4: Calculate the volume of water Tower B can hold, knowing it holds 2 times as much water as Tower C. So, Volume_B = 2 * Volume_C = 2 * 60 = 120 liters.",
+        "Step 5: Sum the volumes of all three towers to find the total volume of water they can hold when filled. Total_Volume = Volume_A + Volume_B + Volume_C = 180 + 120 + 60 = 360 liters."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the volume of water Tower C can hold, which is the rate of filling multiplied by the time it takes to fill. So, Volume_C = 1 * 60 = 60 liters.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the volume of water Tower A can hold, knowing it holds 3 times as much water as Tower C. So, Volume_A = 3 * Volume_C = 3 * 60 = 180 liters.",
+        "ପଦକ୍ଷେପ (step) 3: Verify the volume of Tower A by using its filling rate and time. Volume_A = 0.5 * 120 = 60 liters. However, given the problem's statement, we rely on the relationship provided, thus adhering to the given information that Tower A holds 3 times as much as Tower C, which may imply a misunderstanding in the initial calculation based on filling rates. ତେଣୁ (therefore), accepting Volume_A = 180 liters based on the problem's direct statement.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the volume of water Tower B can hold, knowing it holds 2 times as much water as Tower C. So, Volume_B = 2 * Volume_C = 2 * 60 = 120 liters.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the volumes of all three towers to find the ମୋଟ (total) volume of water they can hold when filled. Total_Volume = Volume_A + Volume_B + Volume_C = 180 + 120 + 60 = 360 liters."
+    ],
+    "final_answer": "360"
+}

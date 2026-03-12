@@ -1,0 +1,20 @@
+{
+    "id": "433",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all shops is 240. The number of employees in bakeries is 1/3 of the total number of employees in cafes and restaurants combined. The number of employees in cafes is 2/3 of the number of employees in restaurants. If the number of employees in bakeries is 40, find the total number of employees in restaurants.",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 240. The number of employees in bakeries is 1/3 of the ମୋଟ (total) number of employees in cafes and restaurants combined. The number of employees in cafes is 2/3 of the number of employees in restaurants. ଯଦି (if) the number of employees in bakeries is 40, find the ମୋଟ (total) number of employees in restaurants.",
+    "original_steps": [
+        "Step 1: Determine the total number of employees in bakeries, which is given as 40.",
+        "Step 2: Set up an equation to represent the relationship between the number of employees in bakeries and the total number of employees in cafes and restaurants. Let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants. The equation is B = 1/3 * (C + R).",
+        "Step 3: Use the given information that the number of employees in cafes is 2/3 of the number of employees in restaurants to set up another equation: C = 2/3 * R.",
+        "Step 4: Substitute the equation from Step 3 into the equation from Step 2 to get 40 = 1/3 * (2/3 * R + R). Simplify the equation to solve for R.",
+        "Step 5: Solve the equation for R. First, simplify the equation to 40 = 1/3 * (5/3 * R), then to 40 = 5/9 * R. Multiply both sides by 9/5 to isolate R: R = 40 * 9/5 = 72."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of employees in bakeries, which is given as 40.",
+        "ପଦକ୍ଷେପ (step) 2: Set up an ସମୀକରଣ (equation) to represent the relationship between the number of employees in bakeries and the ମୋଟ (total) number of employees in cafes and restaurants. Let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants. The ସମୀକରଣ (equation) is B = 1/3 * (C + R).",
+        "ପଦକ୍ଷେପ (step) 3: Use the given information that the number of employees in cafes is 2/3 of the number of employees in restaurants to set up another ସମୀକରଣ (equation): C = 2/3 * R.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 2 to get 40 = 1/3 * (2/3 * R + R). Simplify the ସମୀକରଣ (equation) to solve for R.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) for R. First, simplify the ସମୀକରଣ (equation) to 40 = 1/3 * (5/3 * R), ତାହେଲେ (then) to 40 = 5/9 * R. ଗୁଣନ (multiply) both sides by 9/5 to isolate R: R = 40 * 9/5 = 72."
+    ],
+    "final_answer": "72"
+}

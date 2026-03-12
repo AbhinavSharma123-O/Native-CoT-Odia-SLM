@@ -1,0 +1,13 @@
+{
+    "id": "822",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a combination of three types of bread: white, whole wheat, and rye, with the total production of 240 loaves per day. The ratio of white to whole wheat to rye bread is 4:5:6. The cafes buy 30% of the white bread and 20% of the whole wheat bread for their daily operations. Meanwhile, the restaurants purchase 40% of the rye bread. If a bakery decides to increase its production by 15% due to high demand, how many more loaves of rye bread will the bakery produce, considering that the increased production is distributed according to the original ratio of bread types?",
+    "reasoning_steps": [
+        "Step 1: Determine the original number of loaves for each type of bread by calculating the total parts in the ratio (4+5+6 = 15 parts) and then finding out how many loaves each part represents (240 loaves / 15 parts = 16 loaves per part).",
+        "Step 2: Calculate the original number of loaves for each type of bread. For white bread: 4 parts * 16 loaves/part = 64 loaves, for whole wheat: 5 parts * 16 loaves/part = 80 loaves, and for rye: 6 parts * 16 loaves/part = 96 loaves.",
+        "Step 3: Calculate the amount of bread sold to cafes and restaurants. Cafes buy 30% of the white bread (0.3 * 64 = 19.2 loaves) and 20% of the whole wheat bread (0.2 * 80 = 16 loaves). Restaurants buy 40% of the rye bread (0.4 * 96 = 38.4 loaves).",
+        "Step 4: Determine the new total production after the bakery increases its output by 15%. The new total is 240 loaves * 1.15 = 276 loaves.",
+        "Step 5: Calculate how many loaves each part of the ratio represents in the new production (276 loaves / 15 parts = 18.4 loaves per part) and then find the new production of rye bread (6 parts * 18.4 loaves/part = 110.4 loaves).",
+        "Step 6: Find out how many more loaves of rye bread are produced by subtracting the original production of rye bread from the new production (110.4 loaves - 96 loaves)."
+    ],
+    "final_answer": "14.4"
+}

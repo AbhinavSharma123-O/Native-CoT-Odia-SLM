@@ -1,0 +1,12 @@
+{
+    "id": "984",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $240 worth of items per day, with 30% of the sales coming from bread and the rest from pastries. The town has a total of 15 shops, with 5 of them being bakeries. The cafes in the town sell an average of $180 worth of items per day, with a 20% increase in sales on weekends. The restaurants sell an average of $300 worth of items per day, with a 15% decrease in sales on weekdays. If the total sales from all shops on a weekday is $3,600 and the total sales from all shops on a weekend day is $4,200, how much does each cafe sell on a weekday?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily sales from all bakeries. Since each bakery sells $240 worth of items per day, and there are 5 bakeries, the total sales from bakeries is 5 * $240 = $1,200 per day.",
+        "Step 2: Determine the total daily sales from all restaurants on a weekday. Let's denote the number of restaurants as R. The total sales from restaurants on a weekday is $300 * R * 0.85 (due to the 15% decrease).",
+        "Step 3: Determine the total daily sales from all cafes on a weekday. Let's denote the number of cafes as C. The total sales from cafes on a weekday is $180 * C.",
+        "Step 4: Set up equations based on the total sales on weekdays and weekend days. On a weekday, the total sales is $3,600, which means $1,200 (bakeries) + $180 * C + $300 * R * 0.85 = $3,600. On a weekend day, the total sales is $4,200, which means $1,200 (bakeries) + $180 * 1.20 * C + $300 * R = $4,200.",
+        "Step 5: Solve the system of equations. Since there are 15 shops in total, with 5 being bakeries, the remaining 10 shops are either cafes or restaurants. This gives us the equation C + R = 10. Using the equations from Step 4 and the fact that C + R = 10, we can solve for C and then find the sales per cafe on a weekday."
+    ],
+    "final_answer": "Each cafe sells $180 on a weekday."
+}

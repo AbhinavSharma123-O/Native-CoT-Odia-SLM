@@ -1,0 +1,20 @@
+{
+    "id": "649",
+    "original_problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 20%, and 50% of the town's total output of widgets, respectively. Factory A produces 200 more widgets per day than factory B. If the total production of widgets in the town is 2500 per day, and factory C operates at 80% capacity, while factories A and B operate at 90% capacity, what is the total number of widgets that factory C would produce if it were to operate at full capacity?",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 20%, and 50% of the town's ମୋଟ (total) output of widgets, respectively. Factory A produces 200 more widgets per day than factory B. ଯଦି (if) the ମୋଟ (total) production of widgets in the town is 2500 per day, and factory C operates at 80% capacity, while factories A and B operate at 90% capacity, what is the ମୋଟ (total) number of widgets that factory C would produce ଯଦି (if) it were to operate at full capacity?",
+    "original_steps": [
+        "Step 1: Determine the total output of each factory as a percentage of the total production, then calculate their individual daily outputs based on these percentages.",
+        "Step 2: Use the information that factory A produces 200 more widgets per day than factory B to establish an equation and solve for the daily outputs of factories A and B.",
+        "Step 3: Calculate the actual daily output of factory C, knowing it operates at 80% capacity and produces 50% of the town's total output.",
+        "Step 4: Find out how many widgets factory C would produce if it were operating at full capacity by adjusting its current output by the difference between its current capacity and full capacity.",
+        "Step 5: Calculate the increase in production for factory C from 80% to 100% capacity to find the answer."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) output of each factory as a percentage of the ମୋଟ (total) production, ତାହେଲେ (then) calculate their individual daily outputs based on these percentages.",
+        "ପଦକ୍ଷେପ (step) 2: Use the information that factory A produces 200 more widgets per day than factory B to establish an ସମୀକରଣ (equation) and solve for the daily outputs of factories A and B.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the actual daily output of factory C, knowing it operates at 80% capacity and produces 50% of the town's ମୋଟ (total) output.",
+        "ପଦକ୍ଷେପ (step) 4: Find out how many widgets factory C would produce ଯଦି (if) it were operating at full capacity by adjusting its current output by the ପାର୍ଥକ୍ୟ (difference) between its current capacity and full capacity.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the increase in production for factory C from 80% to 100% capacity to find the answer."
+    ],
+    "final_answer": "1250"
+}

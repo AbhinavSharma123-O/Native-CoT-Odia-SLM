@@ -1,0 +1,13 @@
+{
+    "id": "287",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The total number of employees in all shops is 240. Type A shops have 15 more employees than Type B shops. Type C shops have 25 fewer employees than Type A shops. If there are 5 Type A shops, 7 Type B shops, and 4 Type C shops, what is the average number of employees per shop in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop: Let's denote the number of employees in Type A shops as A, in Type B shops as B, and in Type C shops as C.",
+        "Step 2: Set up equations based on the given information: We know that A = B + 15 and C = A - 25. Also, the total number of employees is 240, so 5A + 7B + 4C = 240.",
+        "Step 3: Substitute the expressions for A and C from the first two equations into the total equation to solve for B: Given A = B + 15 and C = A - 25, substituting A in terms of B into the equation for C gives C = (B + 15) - 25 = B - 10.",
+        "Step 4: Plug the expressions for A and C into the total equation: Substituting A = B + 15 and C = B - 10 into 5A + 7B + 4C = 240 yields 5(B + 15) + 7B + 4(B - 10) = 240.",
+        "Step 5: Solve the equation for B: Expanding the equation gives 5B + 75 + 7B + 4B - 40 = 240. Simplifying, we get 16B + 35 = 240. Then, 16B = 240 - 35, so 16B = 205. Solving for B gives B = 205 / 16.",
+        "Step 6: Calculate the number of employees in each type of shop and then find the total number of shops to calculate the average: Once B is found, we can calculate A and C, then find the total number of employees in each type of shop and divide by the total number of shops to find the average."
+    ],
+    "final_answer": "12.5"
+}

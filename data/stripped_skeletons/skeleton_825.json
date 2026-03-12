@@ -1,0 +1,26 @@
+{
+    "id": "825",
+    "original_problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a total of 25 businesses. The number of restaurants is 5 more than the number of shops, and the number of hotels is 3 less than the number of shops. If each restaurant has 8 employees, each shop has 5 employees, and each hotel has 12 employees, and the total number of employees in the town is 235, what is the number of shops in the town?",
+    "deconstructed_problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a ମୋଟ (total) of 25 businesses. The number of restaurants is 5 more than the number of shops, and the number of hotels is 3 less than the number of shops. ଯଦି (if) each restaurant has 8 employees, each shop has 5 employees, and each hotel has 12 employees, and the ମୋଟ (total) number of employees in the town is 235, what is the number of shops in the town?",
+    "original_steps": [
+        "Step 1: Define variables to represent the unknowns - let R be the number of restaurants, S be the number of shops, and H be the number of hotels.",
+        "Step 2: From the given information, establish equations based on the relationships between the types of businesses: R = S + 5 and H = S - 3.",
+        "Step 3: Knowing the total number of businesses is 25, set up the equation R + S + H = 25 and substitute the expressions from Step 2 into this equation to solve for S.",
+        "Step 4: Substitute R and H in terms of S into the total equation: (S + 5) + S + (S - 3) = 25, simplifying to 3S + 2 = 25.",
+        "Step 5: Solve the equation from Step 4 for S to find the number of shops: 3S = 23, thus S = 23 / 3.",
+        "Step 6: However, the equation from Step 5 was incorrectly simplified; correctly solving 3S + 2 = 25 yields 3S = 23, which was another mistake in calculation. The correct step should solve for S correctly: 3S = 25 - 2, so 3S = 23 is incorrect. The right approach should be: 3S + 2 = 25, then 3S = 25 - 2, leading to 3S = 23, which was a misstep in calculation. The accurate calculation directly from the relationship should consider the total employees and businesses to correctly establish and solve equations without confusion.",
+        "Step 7: Correct the approach by directly solving the equation without the incorrect simplification: The actual correct step to find S should involve using the information about the total number of employees and setting up an equation based on the employees in each type of business, then solving for S correctly using the total number of businesses equation R + S + H = 25, and the relationships R = S + 5, H = S - 3, to find S without the confusion introduced in previous steps.",
+        "Step 8: The correct calculation should start with the total employees equation: 8R + 5S + 12H = 235, and substitute R and H with their equivalents in terms of S, then solve the system of equations correctly to find S."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables to represent the unknowns - let R be the number of restaurants, S be the number of shops, and H be the number of hotels.",
+        "ପଦକ୍ଷେପ (step) 2: From the given information, establish equations based on the relationships between the types of businesses: R = S + 5 and H = S - 3.",
+        "ପଦକ୍ଷେପ (step) 3: Knowing the ମୋଟ (total) number of businesses is 25, set up the ସମୀକରଣ (equation) R + S + H = 25 and substitute the expressions from ପଦକ୍ଷେପ (step) 2 into this ସମୀକରଣ (equation) to solve for S.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute R and H in terms of S into the ମୋଟ (total) ସମୀକରଣ (equation): (S + 5) + S + (S - 3) = 25, simplifying to 3S + 2 = 25.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 for S to find the number of shops: 3S = 23, thus S = 23 / 3.",
+        "ପଦକ୍ଷେପ (step) 6: However, the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 5 was incorrectly simplified; correctly solving 3S + 2 = 25 yields 3S = 23, which was another mistake in calculation. The correct ପଦକ୍ଷେପ (step) should solve for S correctly: 3S = 25 - 2, so 3S = 23 is incorrect. The right approach should be: 3S + 2 = 25, ତାହେଲେ (then) 3S = 25 - 2, leading to 3S = 23, which was a misstep in calculation. The accurate calculation directly from the relationship should consider the ମୋଟ (total) employees and businesses to correctly establish and solve equations without confusion.",
+        "ପଦକ୍ଷେପ (step) 7: Correct the approach by directly solving the ସମୀକରଣ (equation) without the incorrect simplification: The actual correct ପଦକ୍ଷେପ (step) to find S should involve using the information about the ମୋଟ (total) number of employees and setting up an ସମୀକରଣ (equation) based on the employees in each type of business, ତାହେଲେ (then) solving for S correctly using the ମୋଟ (total) number of businesses ସମୀକରଣ (equation) R + S + H = 25, and the relationships R = S + 5, H = S - 3, to find S without the confusion introduced in previous steps.",
+        "ପଦକ୍ଷେପ (step) 8: The correct calculation should start with the ମୋଟ (total) employees ସମୀକରଣ (equation): 8R + 5S + 12H = 235, and substitute R and H with their equivalents in terms of S, ତାହେଲେ (then) solve the system of equations correctly to find S."
+    ],
+    "final_answer": "There are 6 shops in the town."
+}

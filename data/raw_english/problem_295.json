@@ -1,0 +1,12 @@
+{
+    "id": "295",
+    "problem": "In a small town, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the green house. Clue 6: The person who owns the green house lives in the house next to the person who drinks water.",
+    "reasoning_steps": [
+        "Step 1: Determine the color of the first house based on Clue 1 and the given color options.",
+        "Step 2: Use Clue 2 to establish the relationship between the person who drinks milk and the yellow house, then apply Clue 5 to find the color of the house of the person who drinks tea.",
+        "Step 3: Apply Clue 3 to determine the possible locations of the red house relative to the coffee drinker, and Clue 4 to find the location of the American relative to the soda drinker.",
+        "Step 4: Combine the information from Steps 1-3 with Clue 6 to narrow down the options for the green house and its neighbors, and deduce the remaining house colors and occupants.",
+        "Step 5: Use the process of elimination and the clues to determine the favorite drink of each person and the color of their house."
+    ],
+    "final_answer": "Blue - Canadian - ?; Green - ? - Tea; Red - ? - ?; White - ? - ?; Yellow - ? - ?, with the question marks representing the remaining variables to be solved based on the given clues."
+}

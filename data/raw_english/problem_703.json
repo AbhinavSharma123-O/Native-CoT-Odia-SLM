@@ -1,0 +1,13 @@
+{
+    "id": "703",
+    "problem": "In a small town, there are three water tanks - A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system has three valves - X, Y, and Z. Valve X fills Tank A at a rate of 200 gallons per hour and Tank B at a rate of 150 gallons per hour. Valve Y fills Tank B at a rate of 100 gallons per hour and Tank C at a rate of 250 gallons per hour. Valve Z fills Tank A at a rate of 300 gallons per hour and Tank C at a rate of 200 gallons per hour. If all valves are opened at the same time, and Tank A is already filled to 600 gallons, Tank B to 200 gallons, and Tank C to 900 gallons, how many hours will it take to fill all the tanks?",
+    "reasoning_steps": [
+        "Step 1: Determine the combined rate at which each tank is being filled by adding the rates from all relevant valves. For Tank A, the rate is 200 gallons/hour from Valve X plus 300 gallons/hour from Valve Z, totaling 500 gallons/hour.",
+        "Step 2: Calculate the remaining capacity for each tank. For Tank A, the remaining capacity is 1200 - 600 = 600 gallons. For Tank B, it is 800 - 200 = 600 gallons. For Tank C, it is 1500 - 900 = 600 gallons.",
+        "Step 3: Determine the combined fill rate for Tank B by adding the rates from Valve X and Valve Y, which gives 150 gallons/hour + 100 gallons/hour = 250 gallons/hour.",
+        "Step 4: Determine the combined fill rate for Tank C by adding the rates from Valve Y and Valve Z, which gives 250 gallons/hour + 200 gallons/hour = 450 gallons/hour.",
+        "Step 5: Calculate the time it will take to fill each tank. For Tank A, time = remaining capacity / fill rate = 600 gallons / 500 gallons/hour. For Tank B, time = 600 gallons / 250 gallons/hour. For Tank C, time = 600 gallons / 450 gallons/hour. Then, find the maximum time among these calculations since all tanks need to be filled.",
+        "Step 6: Perform the calculations for each tank. For Tank A: 600 / 500 = 1.2 hours. For Tank B: 600 / 250 = 2.4 hours. For Tank C: 600 / 450 = 1.3333 hours. The maximum time is 2.4 hours for Tank B."
+    ],
+    "final_answer": "2.4"
+}

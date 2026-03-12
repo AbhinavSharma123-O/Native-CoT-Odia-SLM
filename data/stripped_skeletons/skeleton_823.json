@@ -1,0 +1,24 @@
+{
+    "id": "823",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. The village has a total of 25 shops. The number of bakeries is 5 more than the number of cafes, and the number of restaurants is 10 less than the number of cafes. If each bakery sells 250 loaves of bread per day, each cafe sells 300 cups of coffee per day, and each restaurant serves 200 meals per day, what is the total number of items (loaves of bread, cups of coffee, and meals) sold in the village per day?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. The village has a ମୋଟ (total) of 25 shops. The number of bakeries is 5 more than the number of cafes, and the number of restaurants is 10 less than the number of cafes. ଯଦି (if) each bakery sells 250 loaves of bread per day, each cafe sells 300 cups of coffee per day, and each restaurant serves 200 meals per day, what is the ମୋଟ (total) number of items (loaves of bread, cups of coffee, and meals) sold in the village per day?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries, cafes, and restaurants. Let B be the number of bakeries, C be the number of cafes, and R be the number of restaurants.",
+        "Step 2: Express the relationships between the variables based on the problem statement. We have B = C + 5 and R = C - 10.",
+        "Step 3: Use the fact that the total number of shops is 25 to create an equation involving B, C, and R. This gives us B + C + R = 25. Substituting the expressions for B and R from Step 2, we get (C + 5) + C + (C - 10) = 25.",
+        "Step 4: Solve the equation from Step 3 to find the value of C. Simplifying the equation gives us 3C - 5 = 25, which leads to 3C = 30, and thus C = 10.",
+        "Step 5: Find the values of B and R using the relationships from Step 2. With C = 10, we find B = 10 + 5 = 15 and R = 10 - 10 = 0.",
+        "Step 6: Calculate the total number of items sold per day by each type of shop. For bakeries, it's 15 * 250 = 3750 loaves of bread. For cafes, it's 10 * 300 = 3000 cups of coffee. For restaurants, since R = 0, the number of meals served is 0.",
+        "Step 7: Sum the total number of items sold per day from all shops to find the final answer."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries, cafes, and restaurants. Let B be the number of bakeries, C be the number of cafes, and R be the number of restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Express the relationships between the variables based on the problem statement. We have B = C + 5 and R = C - 10.",
+        "ପଦକ୍ଷେପ (step) 3: Use the fact that the ମୋଟ (total) number of shops is 25 to create an ସମୀକରଣ (equation) involving B, C, and R. This gives us B + C + R = 25. Substituting the expressions for B and R from ପଦକ୍ଷେପ (step) 2, we get (C + 5) + C + (C - 10) = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to find the value of C. Simplifying the ସମୀକରଣ (equation) gives us 3C - 5 = 25, which leads to 3C = 30, and thus C = 10.",
+        "ପଦକ୍ଷେପ (step) 5: Find the values of B and R using the relationships from ପଦକ୍ଷେପ (step) 2. With C = 10, we find B = 10 + 5 = 15 and R = 10 - 10 = 0.",
+        "ପଦକ୍ଷେପ (step) 6: Calculate the ମୋଟ (total) number of items sold per day by each type of shop. For bakeries, it's 15 * 250 = 3750 loaves of bread. For cafes, it's 10 * 300 = 3000 cups of coffee. For restaurants, since R = 0, the number of meals served is 0.",
+        "ପଦକ୍ଷେପ (step) 7: ସମଷ୍ଟି (sum) the ମୋଟ (total) number of items sold per day from all shops to find the final answer."
+    ],
+    "final_answer": "6750"
+}

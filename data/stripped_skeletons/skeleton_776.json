@@ -1,0 +1,20 @@
+{
+    "id": "776",
+    "original_problem": "In a small village, there are three types of people: those who always tell the truth, those who always lie, and those who sometimes tell the truth and sometimes lie. Three villagers, Alex, Ben, and Chris, are standing in front of you. Alex says that Ben is a liar. Ben says that Chris is a truth-teller. Chris says that Alex is sometimes truthful. If you also know that exactly one of the villagers is a truth-teller, one is a liar, and one sometimes tells the truth, how can you figure out who is who?",
+    "deconstructed_problem": "In a small village, there are three types of people: those who always tell the truth, those who always lie, and those who sometimes tell the truth and sometimes lie. Three villagers, Alex, Ben, and Chris, are standing in front of you. Alex says that Ben is a liar. Ben says that Chris is a truth-teller. Chris says that Alex is sometimes truthful. ଯଦି (if) you also know that exactly one of the villagers is a truth-teller, one is a liar, and one sometimes tells the truth, how can you figure out who is who?",
+    "original_steps": [
+        "Step 1: Determine the possible combinations of truth-teller, liar, and sometimes truthful for Alex, Ben, and Chris.",
+        "Step 2: Use the statement from Alex to analyze the possibilities of Ben being a liar or a truth-teller and its implications on Alex's nature.",
+        "Step 3: Apply the statement from Ben about Chris being a truth-teller to further narrow down the possibilities based on Ben's potential nature as determined in Step 2.",
+        "Step 4: Analyze Chris's statement about Alex being sometimes truthful and its implications on Chris's own nature, considering the constraints from Steps 2 and 3.",
+        "Step 5: Combine all deductions from Steps 1 through 4 to identify who among Alex, Ben, and Chris is the truth-teller, the liar, and the sometimes truthful individual."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible combinations of truth-teller, liar, and sometimes truthful for Alex, Ben, and Chris.",
+        "ପଦକ୍ଷେପ (step) 2: Use the statement from Alex to analyze the possibilities of Ben being a liar or a truth-teller and its implications on Alex's nature.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the statement from Ben about Chris being a truth-teller to further narrow down the possibilities based on Ben's potential nature as determined in ପଦକ୍ଷେପ (step) 2.",
+        "ପଦକ୍ଷେପ (step) 4: Analyze Chris's statement about Alex being sometimes truthful and its implications on Chris's own nature, considering the constraints from Steps 2 and 3.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all deductions from Steps 1 through 4 to identify who among Alex, Ben, and Chris is the truth-teller, the liar, and the sometimes truthful individual."
+    ],
+    "final_answer": "Alex is sometimes truthful, Ben is a liar, and Chris is a truth-teller."
+}

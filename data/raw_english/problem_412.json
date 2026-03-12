@@ -1,0 +1,12 @@
+{
+    "id": "412",
+    "problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each bus type has a different capacity and travel time between two destinations, A and B. The Red bus has a capacity of 50 passengers and takes 30 minutes to travel from A to B. The Blue bus has a capacity of 75 passengers but breaks down 1 out of every 5 trips, requiring an additional 20 minutes to repair, and normally takes 25 minutes to travel from A to B. The Green bus has a capacity of 30 passengers and takes 40 minutes to travel from A to B. If 200 passengers need to travel from A to B, and the goal is to minimize the total travel time while ensuring all passengers are transported, what is the optimal combination of buses to use, assuming each bus can make multiple trips and that the breakdown and repair time of the Blue bus is factored into its overall travel time calculation?",
+    "reasoning_steps": [
+        "Step 1: Calculate the effective travel time for the Blue bus, taking into account its breakdown and repair time. This involves finding the average time the Blue bus takes for a trip, including the time it takes when it breaks down.",
+        "Step 2: Determine the maximum number of passengers each bus type can carry in a single trip and use this to establish the minimum number of trips each bus type would need to make to transport 200 passengers.",
+        "Step 3: Calculate the total travel time for each bus type to transport its share of passengers, considering the number of trips and the travel time per trip.",
+        "Step 4: Find the optimal combination of buses that minimizes the total travel time. This may involve using a combination of bus types to ensure that the total capacity is met while minimizing travel time.",
+        "Step 5: Evaluate the optimal combination based on the constraints and the goal, ensuring that all 200 passengers can be transported in the least amount of time possible."
+    ],
+    "final_answer": "To transport 200 passengers in the least amount of time, the optimal combination would involve using 2 Blue buses and 1 Red bus, with the Blue buses making 2 trips each (considering their breakdown and repair time) and the Red bus making 1 trip, totaling approximately 145 minutes for all passengers to reach their destination."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "42",
+    "problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will always be in the opposite state of the others (if two are on, it's off, and vice versa). You need to not only identify which switch controls which bulb but also determine which one is the special bulb.",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "Step 3: Identify the bulb that is on, which corresponds to switch 2. Then, identify the bulb that is off but warm, which corresponds to switch 1.",
+        "Step 4: The remaining bulb, which is either on or off and not warm, corresponds to switch 3. Observe its state to determine if it matches the state of the bulb controlled by switch 2.",
+        "Step 5: Determine the special bulb by comparing the states of the bulbs. If the bulb controlled by switch 3 is in the opposite state of the bulb controlled by switch 2, then it is the special bulb. Otherwise, the special bulb is the one controlled by switch 1 or switch 2, depending on which one is in the opposite state of the other two."
+    ],
+    "final_answer": "The switches can be identified and the special bulb can be determined by following the outlined steps, with the special bulb being the one that is always in the opposite state of the other two bulbs."
+}

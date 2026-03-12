@@ -1,0 +1,20 @@
+{
+    "id": "236",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, while Tower B is filled at a rate of 0.75 liters per minute. Tower C, however, is being drained at a rate of 0.25 liters per minute due to a leak. On a given day, all three towers start empty, and water begins filling them at their respective rates. However, after 2 hours, Tower A's valve is closed, and 30 minutes later, Tower B's valve is also closed. Tower C continues to leak at the same rate. If Tower A can hold 120 liters of water, Tower B can hold 180 liters, and Tower C can hold 150 liters, what is the total amount of water in all three towers after 4 hours from the start?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, while Tower B is filled at a rate of 0.75 liters per minute. Tower C, however, is being drained at a rate of 0.25 liters per minute due to a leak. On a given day, all three towers start empty, and water begins filling them at their respective rates. However, after 2 hours, Tower A's valve is closed, and 30 minutes later, Tower B's valve is also closed. Tower C continues to leak at the same rate. ଯଦି (if) Tower A can hold 120 liters of water, Tower B can hold 180 liters, and Tower C can hold 150 liters, what is the ମୋଟ (total) amount of water in all three towers after 4 hours from the start?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water in each tower after 2 hours, considering their fill rates and Tower C's leak.",
+        "Step 2: Determine how much water is in Tower A after its valve is closed at 2 hours, as it will not fill further.",
+        "Step 3: Calculate the additional water that fills Tower B from 2 hours until its valve is closed at 2.5 hours, adding this to the amount it had at 2 hours.",
+        "Step 4: Calculate the total amount of water lost from Tower C due to the leak from the start until 4 hours, considering it started empty and was being filled and leaked simultaneously until the other towers were closed.",
+        "Step 5: Sum the amounts of water in Towers A, B, and C at the end of 4 hours, accounting for the fill rates, the leak, and the times when the towers' valves were closed."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water in each tower after 2 hours, considering their fill rates and Tower C's leak.",
+        "ପଦକ୍ଷେପ (step) 2: Determine how much water is in Tower A after its valve is closed at 2 hours, as it will not fill further.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the additional water that fills Tower B from 2 hours until its valve is closed at 2.5 hours, adding this to the amount it had at 2 hours.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) amount of water lost from Tower C due to the leak from the start until 4 hours, considering it started empty and was being filled and leaked simultaneously until the other towers were closed.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the amounts of water in Towers A, B, and C at the end of 4 hours, accounting for the fill rates, the leak, and the times when the towers' valves were closed."
+    ],
+    "final_answer": "120 + (0.75 * 2.5 * 60) + (0.5 * 2 * 60 - 0.25 * 4 * 60) = 120 + 112.5 + 60 = 292.5"
+}

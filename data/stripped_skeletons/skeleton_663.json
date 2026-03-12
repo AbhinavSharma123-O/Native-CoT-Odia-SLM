@@ -1,0 +1,24 @@
+{
+    "id": "663",
+    "original_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity: Red buses can hold 40 people, Blue buses can hold 60 people, and Green buses can hold 80 people. The town has a total of 25 buses, with 5 more Red buses than Blue buses, and 3 more Green buses than Red buses. One day, all the buses are filled to capacity, and a total of 1720 people are transported. How many buses of each type are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity: Red buses can hold 40 people, Blue buses can hold 60 people, and Green buses can hold 80 people. The town has a ମୋଟ (total) of 25 buses, with 5 more Red buses than Blue buses, and 3 more Green buses than Red buses. One day, all the buses are filled to capacity, and a ମୋଟ (total) of 1720 people are transported. How many buses of each type are there in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of buses of each type. Let's denote the number of Red buses as R, the number of Blue buses as B, and the number of Green buses as G.",
+        "Step 2: Set up equations based on the given information. We know that R = B + 5 and G = R + 3, and the total number of buses is 25, so R + B + G = 25.",
+        "Step 3: Substitute the expressions for R and G from Step 2 into the total bus equation to get an equation in terms of B. This gives us (B + 5) + B + (B + 5 + 3) = 25, which simplifies to 3B + 13 = 25.",
+        "Step 4: Solve the equation from Step 3 for B. Subtracting 13 from both sides gives 3B = 12, and dividing by 3 gives B = 4.",
+        "Step 5: Use the value of B to find R and G. Substituting B = 4 into R = B + 5 gives R = 9, and substituting R = 9 into G = R + 3 gives G = 12.",
+        "Step 6: Calculate the total number of people transported by each type of bus and sum them up to verify the given total of 1720 people. For Red buses: 9 * 40 = 360, for Blue buses: 4 * 60 = 240, and for Green buses: 12 * 80 = 960. The sum is 360 + 240 + 960 = 1560, which does not match the given total, indicating an inconsistency in the initial problem setup or a miscalculation.",
+        "Step 7: Re-evaluate the equation for the total number of people transported, considering the capacity of each bus type and the number of buses of each type calculated. The correct approach should involve setting up an equation based on the capacity and solving for the actual numbers of buses based on the total people transported, which was not correctly addressed in the previous steps."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of buses of each type. Let's denote the number of Red buses as R, the number of Blue buses as B, and the number of Green buses as G.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. We know that R = B + 5 and G = R + 3, and the ମୋଟ (total) number of buses is 25, so R + B + G = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for R and G from ପଦକ୍ଷେପ (step) 2 into the ମୋଟ (total) bus ସମୀକରଣ (equation) to get an ସମୀକରଣ (equation) in terms of B. This gives us (B + 5) + B + (B + 5 + 3) = 25, which simplifies to 3B + 13 = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 for B. Subtracting 13 from both sides gives 3B = 12, and dividing by 3 gives B = 4.",
+        "ପଦକ୍ଷେପ (step) 5: Use the value of B to find R and G. Substituting B = 4 into R = B + 5 gives R = 9, and substituting R = 9 into G = R + 3 gives G = 12.",
+        "ପଦକ୍ଷେପ (step) 6: Calculate the ମୋଟ (total) number of people transported by each type of bus and ସମଷ୍ଟି (sum) them up to verify the given ମୋଟ (total) of 1720 people. For Red buses: 9 * 40 = 360, for Blue buses: 4 * 60 = 240, and for Green buses: 12 * 80 = 960. The ସମଷ୍ଟି (sum) is 360 + 240 + 960 = 1560, which does not match the given ମୋଟ (total), indicating an inconsistency in the initial problem setup or a miscalculation.",
+        "ପଦକ୍ଷେପ (step) 7: Re-evaluate the ସମୀକରଣ (equation) for the ମୋଟ (total) number of people transported, considering the capacity of each bus type and the number of buses of each type calculated. The correct approach should involve setting up an ସମୀକରଣ (equation) based on the capacity and solving for the actual numbers of buses based on the ମୋଟ (total) people transported, which was not correctly addressed in the previous steps."
+    ],
+    "final_answer": "The initial problem setup leads to an inconsistency, as the calculated total number of people (1560) does not match the given total (1720), suggesting a need for reevaluation of the equations or the initial problem statement."
+}

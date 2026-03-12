@@ -1,0 +1,20 @@
+{
+    "id": "850",
+    "original_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. However, on the day before it reaches the top, a bird comes and pecks at it, causing it to slip back an additional foot from where it would have normally slipped back to. Considering these conditions, how many days will it take for the snail to reach the top of the well?",
+    "deconstructed_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. However, on the day before it reaches the top, a bird comes and pecks at it, causing it to slip back an additional foot from where it would have normally slipped back to. Considering these conditions, how many days will it take for the snail to reach the top of the well?",
+    "original_steps": [
+        "Step 1: Calculate the net progress the snail makes each day before the bird interferes, which is 3 feet up during the day and 2 feet back at night, resulting in a net gain of 1 foot per day.",
+        "Step 2: Determine the day the snail will reach or surpass the 20-foot mark, considering its daily net gain of 1 foot and taking into account the bird's interference.",
+        "Step 3: Account for the bird's interference, which adds an extra foot to the snail's slip back on the day before it reaches the top, effectively making the snail's progress 0 feet on that specific day.",
+        "Step 4: Realize that to reach the top without slipping back on the final day, the snail must be at or below 17 feet (20 - 3 = 17) the day before it reaches the top, because it climbs 3 feet on the final day.",
+        "Step 5: Calculate how many days it takes for the snail to reach 17 feet, considering the bird's interference and the snail's net progress per day."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net progress the snail makes each day before the bird interferes, which is 3 feet up during the day and 2 feet back at night, resulting in a net gain of 1 foot per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the day the snail will reach or surpass the 20-foot mark, considering its daily net gain of 1 foot and taking into account the bird's interference.",
+        "ପଦକ୍ଷେପ (step) 3: Account for the bird's interference, which adds an extra foot to the snail's slip back on the day before it reaches the top, effectively making the snail's progress 0 feet on that specific day.",
+        "ପଦକ୍ଷେପ (step) 4: Realize that to reach the top without slipping back on the final day, the snail must be at or below 17 feet (20 - 3 = 17) the day before it reaches the top, କାରଣ (because) it climbs 3 feet on the final day.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate how many days it takes for the snail to reach 17 feet, considering the bird's interference and the snail's net progress per day."
+    ],
+    "final_answer": "18"
+}

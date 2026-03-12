@@ -1,0 +1,20 @@
+{
+    "id": "70",
+    "original_problem": "In a small town, there are three types of shops: cafes, restaurants, and bakeries. The total number of shops in the town is 45. The number of cafes is 5 more than the number of bakeries, and the number of restaurants is 10 less than the number of cafes. If 1/3 of the bakeries, 1/2 of the cafes, and 2/3 of the restaurants are open on Sundays, and the total number of shops open on Sundays is 20, how many bakeries are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: cafes, restaurants, and bakeries. The ମୋଟ (total) number of shops in the town is 45. The number of cafes is 5 more than the number of bakeries, and the number of restaurants is 10 less than the number of cafes. ଯଦି (if) 1/3 of the bakeries, 1/2 of the cafes, and 2/3 of the restaurants are open on Sundays, and the ମୋଟ (total) number of shops open on Sundays is 20, how many bakeries are there in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of cafes, restaurants, and bakeries as C, R, and B respectively, and establish the relationships between them based on the problem statement.",
+        "Step 2: Express the number of cafes in terms of the number of bakeries (C = B + 5) and the number of restaurants in terms of the number of cafes (R = C - 10).",
+        "Step 3: Substitute the expression for C from Step 2 into the equation for R to express R in terms of B (R = (B + 5) - 10 = B - 5).",
+        "Step 4: Use the information about the shops open on Sundays to set up an equation based on the fractions of each type of shop that are open: (1/3)B + (1/2)(B + 5) + (2/3)(B - 5) = 20.",
+        "Step 5: Solve the equation from Step 4 for B to find the number of bakeries in the town."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of cafes, restaurants, and bakeries as C, R, and B respectively, and establish the relationships between them based on the problem statement.",
+        "ପଦକ୍ଷେପ (step) 2: Express the number of cafes in terms of the number of bakeries (C = B + 5) and the number of restaurants in terms of the number of cafes (R = C - 10).",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expression for C from ପଦକ୍ଷେପ (step) 2 into the ସମୀକରଣ (equation) for R to express R in terms of B (R = (B + 5) - 10 = B - 5).",
+        "ପଦକ୍ଷେପ (step) 4: Use the information about the shops open on Sundays to set up an ସମୀକରଣ (equation) based on the fractions of each type of shop that are open: (1/3)B + (1/2)(B + 5) + (2/3)(B - 5) = 20.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 for B to find the number of bakeries in the town."
+    ],
+    "final_answer": "10"
+}

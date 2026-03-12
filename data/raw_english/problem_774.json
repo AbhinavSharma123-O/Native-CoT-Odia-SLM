@@ -1,0 +1,13 @@
+{
+    "id": "774",
+    "problem": "In a small town, there are three water towers, A, B, and C, with capacities of 2000, 3000, and 4000 gallons, respectively. Tower A is currently 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full. Due to a water shortage, the town council decides to transfer water from the fullest tower to the emptiest tower until all towers are equally full. If it takes 5 hours to transfer 1000 gallons from one tower to another, how many hours will it take to achieve equal water levels in all towers, assuming that water can only be transferred from the fullest tower to the emptiest tower at any given time, and that the transfer rate remains constant?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tower by multiplying the capacity by the fraction that is full. Tower A has 2000 * (3/4) = 1500 gallons, Tower B has 3000 * (1/2) = 1500 gallons, and Tower C has 4000 * (2/3) = 2666.67 gallons.",
+        "Step 2: Determine the total amount of water in all towers combined. 1500 + 1500 + 2666.67 = 5666.67 gallons.",
+        "Step 3: Calculate the target amount of water in each tower for them to be equally full. Since there are three towers, the total water (5666.67 gallons) is divided by 3. So, 5666.67 / 3 = 1888.89 gallons per tower.",
+        "Step 4: Determine the amount of water that needs to be transferred from the fullest tower (Tower C) to the emptiest towers (Towers A and B) to achieve the target amount. Tower A needs 1888.89 - 1500 = 388.89 gallons, and Tower B needs 1888.89 - 1500 = 388.89 gallons. Tower C has enough water to fill both A and B to the target level but will be emptied in the process. First, fill Tower A, then Tower B, or fill them simultaneously if possible, but given the constraints, it's sequential.",
+        "Step 5: Calculate the total amount of water to be transferred. Since Tower C needs to supply both A and B, the total to be transferred is 388.89 * 2 = 777.78 gallons.",
+        "Step 6: Calculate the time it takes to transfer this amount of water at the given rate. Since it takes 5 hours to transfer 1000 gallons, the rate is 1000 / 5 = 200 gallons per hour. Thus, the time to transfer 777.78 gallons is 777.78 / 200 = 3.889 hours."
+    ],
+    "final_answer": "3.889"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "694",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water, tank B can hold 3000 liters, and tank C can hold 4000 liters. The town gets its water from a nearby river, and the rate at which water flows into the tanks is as follows: tank A gets 100 liters per minute, tank B gets 150 liters per minute, and tank C gets 200 liters per minute. However, due to some leaks, tank A loses 10 liters per minute, tank B loses 15 liters per minute, and tank C loses 20 liters per minute. If all tanks are initially empty and the water flows into the tanks for 2 hours, how much water will be in tank C after this time, given that when any tank is full, the excess water flows into the next tank in sequence (A to B, B to C), and when tank C is full, the excess water is discarded?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water, tank B can hold 3000 liters, and tank C can hold 4000 liters. The town gets its water from a nearby river, and the rate at which water flows into the tanks is as follows: tank A gets 100 liters per minute, tank B gets 150 liters per minute, and tank C gets 200 liters per minute. However, due to some leaks, tank A loses 10 liters per minute, tank B loses 15 liters per minute, and tank C loses 20 liters per minute. ଯଦି (if) all tanks are initially empty and the water flows into the tanks for 2 hours, how much water will be in tank C after this time, given that when any tank is full, the excess water flows into the next tank in sequence (A to B, B to C), and when tank C is full, the excess water is discarded?",
+    "original_steps": [
+        "Step 1: Calculate the net rate of water flow into each tank per minute, taking into account both the inflow and the leak.",
+        "Step 2: Determine how long it takes to fill each tank based on their capacities and the net flow rates calculated in step 1.",
+        "Step 3: Calculate the total amount of water that flows into tank A and then overflows into tank B within the 2-hour timeframe, considering that any excess from A goes to B.",
+        "Step 4: Calculate the amount of water that overflows from tank B into tank C within the same timeframe, considering the net flow rate into B and its capacity.",
+        "Step 5: Finally, calculate the total amount of water in tank C after 2 hours, including the direct flow into C, the overflow from B, and accounting for any losses due to leaks from C itself."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net rate of water flow into each tank per minute, taking into account both the inflow and the leak.",
+        "ପଦକ୍ଷେପ (step) 2: Determine how long it takes to fill each tank based on their capacities and the net flow rates calculated in ପଦକ୍ଷେପ (step) 1.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) amount of water that flows into tank A and ତାହେଲେ (then) overflows into tank B within the 2-hour timeframe, considering that any excess from A goes to B.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water that overflows from tank B into tank C within the same timeframe, considering the net flow rate into B and its capacity.",
+        "ପଦକ୍ଷେପ (step) 5: Finally, calculate the ମୋଟ (total) amount of water in tank C after 2 hours, including the direct flow into C, the overflow from B, and accounting for any losses due to leaks from C itself."
+    ],
+    "final_answer": "3200"
+}

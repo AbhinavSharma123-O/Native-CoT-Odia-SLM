@@ -1,0 +1,12 @@
+{
+    "id": "91",
+    "problem": "In a mystical forest, there are five temples, each containing a different number of golden idols. The first temple contains 100 idols, but each subsequent temple contains 15% more idols than the previous one. However, during a dark ritual, 20 idols were stolen from the second temple, and then, in a bizarre sequence of events, the number of idols in the third temple was reduced by 5% of the total idols found in the first two temples combined. After this, a mysterious entity moved 10% of the idols from the fourth temple to the fifth, but only if the fifth temple originally had fewer idols than the fourth. Given that the original number of idols in the fifth temple was greater than 250, determine the exact number of idols in the fifth temple after all these events.",
+    "reasoning_steps": [
+        "Step 1: Calculate the original number of idols in each temple, starting with the first temple having 100 idols and each subsequent temple having 15% more idols than the previous one.",
+        "Step 2: Adjust the number of idols in the second temple after 20 idols were stolen.",
+        "Step 3: Calculate the reduction in the number of idols in the third temple based on 5% of the combined idols in the first two temples.",
+        "Step 4: Determine if the condition for moving idols from the fourth to the fifth temple is met and calculate the new distribution if applicable.",
+        "Step 5: Calculate the final number of idols in the fifth temple after all adjustments and transfers."
+    ],
+    "final_answer": "341.13"
+}

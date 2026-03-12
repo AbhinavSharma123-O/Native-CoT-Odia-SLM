@@ -1,0 +1,12 @@
+{
+    "id": "422",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed quantity of bread per day, which is 250 loaves more than the number of pastries sold by each cafe. The total number of pastries sold by all cafes is 1500, and each cafe sells the same number of pastries. If there are 5 cafes in total and each restaurant sells 3 times the total number of bread sold by all bakeries, determine the total number of restaurants if each bakery sells 500 loaves of bread and the total number of shops in the village is 15.",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of pastries sold by each cafe by dividing the total number of pastries by the number of cafes.",
+        "Step 2: Determine the number of loaves of bread each bakery sells, which is 250 more than the number of pastries each cafe sells.",
+        "Step 3: Calculate the total number of bread sold by all bakeries.",
+        "Step 4: Calculate the number of items sold by each restaurant, which is 3 times the total number of bread sold by all bakeries.",
+        "Step 5: Use the total number of shops and the number of cafes and bakeries to find the number of restaurants."
+    ],
+    "final_answer": "5"
+}

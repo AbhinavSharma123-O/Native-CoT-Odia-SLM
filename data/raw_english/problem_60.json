@@ -1,0 +1,12 @@
+{
+    "id": "60",
+    "problem": "In a small town, there are three types of taxis: Red, Green, and Blue. The Red taxis operate on a fixed route and charge $2 per ride. The Green taxis charge $1.50 per ride plus an additional $0.50 for every mile traveled. The Blue taxis charge $3 per ride plus $0.25 for every minute of waiting time. One day, John took a Red taxi for 5 miles, then a Green taxi for 3 miles, and finally a Blue taxi for 2 miles with 5 minutes of waiting time. If he paid a total of $15, how many miles did he travel in the Green taxi if the total miles traveled in all taxis was 10 miles?",
+    "reasoning_steps": [
+        "Step 1: Calculate the cost of the Red taxi ride by multiplying the fixed charge per ride by the number of rides taken, which in this case is just 1 ride.",
+        "Step 2: Determine the cost of the Blue taxi ride by adding the fixed charge per ride and the charge for waiting time, then use the given total cost and the cost of the Red taxi to find the combined cost of the Green and Blue taxis.",
+        "Step 3: Use the given information about the total miles traveled and the miles traveled in the Red and Blue taxis to find the miles traveled in the Green taxi.",
+        "Step 4: Apply the cost formula for the Green taxi to the miles traveled in the Green taxi, and use the total cost of the Green and Blue taxis to solve for the exact miles traveled in the Green taxi.",
+        "Step 5: Subtract the cost of the Blue taxi from the combined cost of the Green and Blue taxis to find the cost of the Green taxi, and then use this cost to solve for the miles traveled in the Green taxi using the Green taxi's cost formula."
+    ],
+    "final_answer": "3"
+}

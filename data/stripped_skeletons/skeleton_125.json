@@ -1,0 +1,20 @@
+{
+    "id": "125",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all bakeries is 250, which is 5 more than the total number of employees in all cafes. The total number of employees in all restaurants is 320, which is 20 less than the sum of employees in all bakeries and cafes. If each bakery has 10 employees, each cafe has 8 employees, and each restaurant has 16 employees, how many shops of each type are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all bakeries is 250, which is 5 more than the ମୋଟ (total) number of employees in all cafes. The ମୋଟ (total) number of employees in all restaurants is 320, which is 20 less than the ସମଷ୍ଟି (sum) of employees in all bakeries and cafes. ଯଦି (if) each bakery has 10 employees, each cafe has 8 employees, and each restaurant has 16 employees, how many shops of each type are there in the village?",
+    "original_steps": [
+        "Step 1: Determine the total number of employees in all cafes by subtracting 5 from the total number of employees in all bakeries, which is 250 - 5 = 245.",
+        "Step 2: Calculate the sum of employees in all bakeries and cafes, which is 250 (bakeries) + 245 (cafes) = 495.",
+        "Step 3: Find the total number of employees in all restaurants, which is given as 320, and use this to verify the relationship with the sum of employees in bakeries and cafes, which should be 20 less than this sum, thus 495 - 20 = 475, but we are given 320, so we proceed with calculations based on given data.",
+        "Step 4: Calculate the number of bakeries by dividing the total number of employees in bakeries by the number of employees per bakery, which is 250 / 10 = 25.",
+        "Step 5: Calculate the number of cafes by dividing the total number of employees in cafes by the number of employees per cafe, which is 245 / 8 = 30.625, indicating a miscalculation in step 3; hence, recalculate correctly considering the actual problem statement and known variables."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of employees in all cafes by subtracting 5 from the ମୋଟ (total) number of employees in all bakeries, which is 250 - 5 = 245.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ସମଷ୍ଟି (sum) of employees in all bakeries and cafes, which is 250 (bakeries) + 245 (cafes) = 495.",
+        "ପଦକ୍ଷେପ (step) 3: Find the ମୋଟ (total) number of employees in all restaurants, which is given as 320, and use this to verify the relationship with the ସମଷ୍ଟି (sum) of employees in bakeries and cafes, which should be 20 less than this ସମଷ୍ଟି (sum), thus 495 - 20 = 475, but we are given 320, so we proceed with calculations based on given data.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the number of bakeries by dividing the ମୋଟ (total) number of employees in bakeries by the number of employees per bakery, which is 250 / 10 = 25.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of cafes by dividing the ମୋଟ (total) number of employees in cafes by the number of employees per cafe, which is 245 / 8 = 30.625, indicating a miscalculation in ପଦକ୍ଷେପ (step) 3; hence, recalculate correctly considering the actual problem statement and known variables."
+    ],
+    "final_answer": "There are 25 bakeries, and to find the number of cafes and restaurants correctly, recalculate based on accurate interpretations of given data: For cafes, 245 employees / 8 employees per cafe = 30.625, which was a misstep. Correctly, if 250 (bakeries) - 5 = 245 (cafes), and knowing each type's employee count, the misinterpretation was in calculating cafes and restaurants. The total in restaurants is 320, and each has 16 employees, so 320 / 16 = 20 restaurants. The error was in misinterpreting the relationship and not directly calculating each type based on given totals and employee counts per shop type."
+}

@@ -1,0 +1,26 @@
+{
+    "id": "242",
+    "original_problem": "Five friends - Alex, Ben, Charlie, David, and Emily - are attending a music festival. They each have a different favorite music genre: classical, rock, pop, jazz, and hip-hop. Using the following clues, determine the favorite genre of each friend: (1) Charlie likes a genre that is played by a band with more than one member. (2) Emily's favorite genre is not rock or pop. (3) The person who likes jazz is standing next to Ben in the festival lineup. (4) David's favorite genre is more mellow than Alex's. (5) The person who likes classical music is standing at one of the ends of the festival lineup. (6) The person who likes hip-hop is standing next to the person who likes rock.",
+    "deconstructed_problem": "Five friends - Alex, Ben, Charlie, David, and Emily - are attending a music festival. They each have a different favorite music genre: classical, rock, pop, jazz, and hip-hop. Using the following clues, determine the favorite genre of each friend: (1) Charlie likes a genre that is played by a band with more than one member. (2) Emily's favorite genre is not rock or pop. (3) The person who likes jazz is standing next to Ben in the festival lineup. (4) David's favorite genre is more mellow than Alex's. (5) The person who likes classical music is standing at one of the ends of the festival lineup. (6) The person who likes hip-hop is standing next to the person who likes rock.",
+    "original_steps": [
+        "Step 1: Analyze clue (5) to determine the possible positions of the person who likes classical music.",
+        "Step 2: Use clue (1) to narrow down Charlie's possible genres to rock or jazz, since both are typically played by bands with more than one member.",
+        "Step 3: Apply clue (2) to determine Emily's possible genres, which are classical, jazz, or hip-hop, since her favorite is not rock or pop.",
+        "Step 4: Utilize clue (3) to establish the relative positions of Ben and the person who likes jazz in the lineup.",
+        "Step 5: Combine clues (4) and (6) to establish the relative positions and genres of David, Alex, and the persons who like hip-hop and rock, respectively."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Analyze clue (5) to determine the possible positions of the person who likes classical music.",
+        "ପଦକ୍ଷେପ (step) 2: Use clue (1) to narrow down Charlie's possible genres to rock or jazz, since both are typically played by bands with more than one member.",
+        "ପଦକ୍ଷେପ (step) 3: Apply clue (2) to determine Emily's possible genres, which are classical, jazz, or hip-hop, since her favorite is not rock or pop.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize clue (3) to establish the relative positions of Ben and the person who likes jazz in the lineup.",
+        "ପଦକ୍ଷେପ (step) 5: Combine clues (4) and (6) to establish the relative positions and genres of David, Alex, and the persons who like hip-hop and rock, respectively."
+    ],
+    "final_answer": {
+        "Alex": "rock",
+        "Ben": "pop",
+        "Charlie": "jazz",
+        "David": "classical",
+        "Emily": "hip-hop"
+    }
+}

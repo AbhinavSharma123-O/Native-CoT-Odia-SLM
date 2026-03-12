@@ -1,0 +1,20 @@
+{
+    "id": "421",
+    "original_problem": "In the town of Mathoria, there are five houses, each painted with a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of the house, the nationality of the occupant, and their favorite drink: (1) The Canadian lives in the first house. (2) The person who drinks milk lives next to the person who owns the yellow house. (3) The person who owns the red house does not live next to the person who drinks coffee. (4) The American lives in the house next to the person who drinks soda. (5) The person who drinks tea lives in the house next to the person who owns the green house. (6) The person who owns the green house drinks water. (7) The person who owns the yellow house drinks soda. What is the order of the houses from left to right in terms of their color, and what is the favorite drink of the person who lives in the yellow house?",
+    "deconstructed_problem": "In the town of Mathoria, there are five houses, each painted with a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of the house, the nationality of the occupant, and their favorite drink: (1) The Canadian lives in the first house. (2) The person who drinks milk lives next to the person who owns the yellow house. (3) The person who owns the red house does not live next to the person who drinks coffee. (4) The American lives in the house next to the person who drinks soda. (5) The person who drinks tea lives in the house next to the person who owns the green house. (6) The person who owns the green house drinks water. (7) The person who owns the yellow house drinks soda. What is the order of the houses from left to right in terms of their color, and what is the favorite drink of the person who lives in the yellow house?",
+    "original_steps": [
+        "Step 1: Determine the order of the houses based on the given clues, starting with the Canadian in the first house.",
+        "Step 2: Use clue (2) to establish the relationship between the person who drinks milk and the yellow house, and clue (7) to determine the drink of the person in the yellow house.",
+        "Step 3: Apply clue (4) to find the position of the American and the person who drinks soda, considering the yellow house's position.",
+        "Step 4: Utilize clue (5) to position the person who drinks tea relative to the green house, and clue (6) to identify the drink of the person in the green house.",
+        "Step 5: Combine all information to deduce the order of houses by color and the favorite drink of the person in the yellow house."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the order of the houses based on the given clues, starting with the Canadian in the first house.",
+        "ପଦକ୍ଷେପ (step) 2: Use clue (2) to establish the relationship between the person who drinks milk and the yellow house, and clue (7) to determine the drink of the person in the yellow house.",
+        "ପଦକ୍ଷେପ (step) 3: Apply clue (4) to find the position of the American and the person who drinks soda, considering the yellow house's position.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize clue (5) to position the person who drinks tea relative to the green house, and clue (6) to identify the drink of the person in the green house.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all information to deduce the order of houses by color and the favorite drink of the person in the yellow house."
+    ],
+    "final_answer": "The order of the houses from left to right is: yellow (Canadian, unknown), blue (unknown, unknown), red (unknown, unknown), green (unknown, water), white (unknown, unknown). The person in the yellow house drinks soda."
+}

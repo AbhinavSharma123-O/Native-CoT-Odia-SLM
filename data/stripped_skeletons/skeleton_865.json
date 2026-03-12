@@ -1,0 +1,20 @@
+{
+    "id": "865",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: 2000, 3000, and 4000 gallons. The town uses water from these towers to supply its residents. On a given day, the town starts with the 2000-gallon tower full, the 3000-gallon tower 3/4 full, and the 4000-gallon tower empty. The town's water usage is as follows: the first 1000 gallons used come from the 2000-gallon tower, the next 1500 gallons used come from the 3000-gallon tower, and any amount over 2500 gallons is taken from the 4000-gallon tower, which is filled at a rate of 500 gallons per hour. If the town uses a total of 6000 gallons of water in a day and the 4000-gallon tower is filled starting from the moment the first gallon of water is used, how many hours will it take to fill the 4000-gallon tower?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: 2000, 3000, and 4000 gallons. The town uses water from these towers to supply its residents. On a given day, the town starts with the 2000-gallon tower full, the 3000-gallon tower 3/4 full, and the 4000-gallon tower empty. The town's water usage is as follows: the first 1000 gallons used come from the 2000-gallon tower, the next 1500 gallons used come from the 3000-gallon tower, and any amount over 2500 gallons is taken from the 4000-gallon tower, which is filled at a rate of 500 gallons per hour. ଯଦି (if) the town uses a ମୋଟ (total) of 6000 gallons of water in a day and the 4000-gallon tower is filled starting from the moment the first gallon of water is used, how many hours will it take to fill the 4000-gallon tower?",
+    "original_steps": [
+        "Step 1: Calculate the initial amount of water available in each tower and determine how much water is used from each tower based on the town's usage pattern.",
+        "Step 2: Determine the amount of water used from the 2000-gallon and 3000-gallon towers, and calculate how much water needs to be supplied by the 4000-gallon tower.",
+        "Step 3: Calculate the time it takes to use the first 1000 gallons from the 2000-gallon tower and the next 1500 gallons from the 3000-gallon tower.",
+        "Step 4: Determine the remaining amount of water needed to reach the total of 6000 gallons used in the day, and calculate how much of this comes from the 4000-gallon tower.",
+        "Step 5: Calculate the time it takes to fill the 4000-gallon tower based on the town's water usage and the rate at which the tower is filled."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial amount of water available in each tower and determine how much water is used from each tower based on the town's usage pattern.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the amount of water used from the 2000-gallon and 3000-gallon towers, and calculate how much water needs to be supplied by the 4000-gallon tower.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the time it takes to use the first 1000 gallons from the 2000-gallon tower and the next 1500 gallons from the 3000-gallon tower.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the remaining amount of water needed to reach the ମୋଟ (total) of 6000 gallons used in the day, and calculate how much of this comes from the 4000-gallon tower.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the time it takes to fill the 4000-gallon tower based on the town's water usage and the rate at which the tower is filled."
+    ],
+    "final_answer": "8 hours"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "316",
+    "problem": "In a small town, there are three types of shops: clothing, electronics, and home goods. Each type of shop has a different number of items on sale. The total number of items on sale in all clothing shops is 250, which is 5 times the number of items on sale in all electronics shops. The total number of items on sale in all home goods shops is 150 more than the total number of items on sale in all electronics shops. If the total number of items on sale in all shops is 1050, how many items are on sale in all electronics shops?",
+    "reasoning_steps": [
+        "Step 1: Determine the total number of items on sale in all electronics shops in terms of the total number of items on sale in all clothing shops.",
+        "Step 2: Express the total number of items on sale in all home goods shops in terms of the total number of items on sale in all electronics shops.",
+        "Step 3: Set up an equation representing the total number of items on sale in all shops using the information from steps 1 and 2.",
+        "Step 4: Solve the equation from step 3 for the number of items on sale in all electronics shops.",
+        "Step 5: Calculate the final answer based on the solution from step 4."
+    ],
+    "final_answer": "50"
+}

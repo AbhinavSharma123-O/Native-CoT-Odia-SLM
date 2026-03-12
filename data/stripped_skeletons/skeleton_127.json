@@ -1,0 +1,20 @@
+{
+    "id": "127",
+    "original_problem": "In the city of Azura, there are three types of temples: A, B, and C. Temple A has 15% more priests than Temple B, and Temple C has 20% fewer priests than Temple A. If Temple B has 120 priests, what is the total number of priests in all three temples, given that the ratio of priests in Temple A to Temple C is 5:4?",
+    "deconstructed_problem": "In the city of Azura, there are three types of temples: A, B, and C. Temple A has 15% more priests than Temple B, and Temple C has 20% fewer priests than Temple A. ଯଦି (if) Temple B has 120 priests, what is the ମୋଟ (total) number of priests in all three temples, given that the ratio of priests in Temple A to Temple C is 5:4?",
+    "original_steps": [
+        "Step 1: Calculate the number of priests in Temple A by finding 15% more than the number of priests in Temple B.",
+        "Step 2: Determine the number of priests in Temple C by calculating 20% fewer priests than in Temple A.",
+        "Step 3: Use the ratio of priests in Temple A to Temple C to set up an equation and solve for the actual number of priests in each, considering the ratio 5:4.",
+        "Step 4: Calculate the total number of priests in all three temples by adding the number of priests in Temple A, Temple B, and Temple C.",
+        "Step 5: Verify the calculations to ensure accuracy in the final total."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of priests in Temple A by finding 15% more than the number of priests in Temple B.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the number of priests in Temple C by calculating 20% fewer priests than in Temple A.",
+        "ପଦକ୍ଷେପ (step) 3: Use the ratio of priests in Temple A to Temple C to set up an ସମୀକରଣ (equation) and solve for the actual number of priests in each, considering the ratio 5:4.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of priests in all three temples by adding the number of priests in Temple A, Temple B, and Temple C.",
+        "ପଦକ୍ଷେପ (step) 5: Verify the calculations to ensure accuracy in the final ମୋଟ (total)."
+    ],
+    "final_answer": "373"
+}

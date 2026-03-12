@@ -1,0 +1,12 @@
+{
+    "id": "313",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird is flying overhead, observing the snail. The bird notices that on the day the snail climbs to the top, it takes the bird exactly 5 hours to fly from its nest, which is 15 miles away from the well, to the well, flying at a constant speed of 3 miles per hour. However, due to strong headwinds, the bird's return trip takes 7.5 hours. What is the total distance the snail traveled to reach the top of the well, and how many days did it take for the snail to reach the top, given the bird's observations are used to confirm the day the snail reaches the top?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net distance the snail climbs each day, which is 3 feet up and 2 feet back down, resulting in a net gain of 1 foot per day.",
+        "Step 2: Determine the day the snail reaches the top by calculating how many days it takes for the snail to climb 18 feet (20 feet total height minus the 2 feet it doesn't slip back on the final day), which, given the net gain, would be 18 days.",
+        "Step 3: Verify the day the snail reaches the top using the bird's flight information. The bird's speed is given as 3 miles per hour, and it takes 5 hours to reach the well, which means it indeed flies 15 miles to get there, confirming the bird's observations are consistent with the given information.",
+        "Step 4: Since the bird's observations and the snail's climb are synchronized on the day the snail reaches the top, we focus on calculating the total distance the snail traveled, which includes the 3 feet it climbs each day and the 2 feet it slips back each night, except for the last day.",
+        "Step 5: Calculate the total distance traveled by the snail. For the first 17 days, the snail climbs 3 feet and slips back 2 feet, resulting in 5 feet of movement per day (3 feet up and 2 feet down). On the 18th day, the snail climbs the final 3 feet to reach the top without slipping back. Thus, the total distance is (17 days * 5 feet/day) + 3 feet."
+    ],
+    "final_answer": "The snail took 18 days to reach the top, and the total distance traveled is (17 * 5) + 3 = 88 feet."
+}

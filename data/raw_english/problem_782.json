@@ -1,0 +1,12 @@
+{
+    "id": "782",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $200 worth of bread per day, with 20% of the sales going to the town's tax fund. There are 5 cafes in the town, each selling an average of 50 pastries per day at $2 each, but they also buy bread from the bakeries at a rate of 10% of their pastry sales. The town has 10 restaurants, with each restaurant buying bread at a rate of $50 per day from the bakeries and selling meals at an average price of $20 per meal, with a 15% tax on each meal sold. If the total tax collected from all shops is $1000, how many meals are sold per day in total by the restaurants?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily tax collected from the bakeries. First, determine the number of bakeries needed to calculate this.",
+        "Step 2: Calculate the total daily sales of pastries from the cafes and the amount of bread they buy from the bakeries.",
+        "Step 3: Determine the total tax collected from the cafes, considering both their sales and their purchases from bakeries.",
+        "Step 4: Calculate the total daily tax collected from the restaurants, which includes tax on meal sales and the tax from buying bread from bakeries.",
+        "Step 5: Use the total tax collected from all sources to solve for the number of meals sold by the restaurants, considering that part of the tax comes from bread purchases and part from meal sales."
+    ],
+    "final_answer": "150"
+}

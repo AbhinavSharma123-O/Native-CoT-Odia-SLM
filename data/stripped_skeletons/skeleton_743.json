@@ -1,0 +1,20 @@
+{
+    "id": "743",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system is such that Tank A is filled at a rate of 200 gallons per hour, Tank B is filled at a rate of 150 gallons per hour, and Tank C is filled at a rate of 300 gallons per hour. However, due to leaks, Tank A loses 50 gallons per hour, Tank B loses 25 gallons per hour, and Tank C loses 75 gallons per hour. If all tanks are initially empty and the filling process starts at the same time, how many hours will it take for all three tanks to be completely filled, assuming that once a tank is full, it stops being filled but continues to leak until all tanks are full?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system is such that Tank A is filled at a rate of 200 gallons per hour, Tank B is filled at a rate of 150 gallons per hour, and Tank C is filled at a rate of 300 gallons per hour. However, due to leaks, Tank A loses 50 gallons per hour, Tank B loses 25 gallons per hour, and Tank C loses 75 gallons per hour. ଯଦି (if) all tanks are initially empty and the filling process starts at the same time, how many hours will it take for all three tanks to be completely filled, assuming that once a tank is full, it stops being filled but continues to leak until all tanks are full?",
+    "original_steps": [
+        "Step 1: Calculate the net filling rate for each tank by subtracting the leak rate from the fill rate. For Tank A, the net fill rate is 200 - 50 = 150 gallons per hour. For Tank B, the net fill rate is 150 - 25 = 125 gallons per hour. For Tank C, the net fill rate is 300 - 75 = 225 gallons per hour.",
+        "Step 2: Determine the time it takes for each tank to fill by dividing its capacity by its net fill rate. For Tank A, the time is 1200 / 150 = 8 hours. For Tank B, the time is 800 / 125 = 6.4 hours. For Tank C, the time is 1500 / 225 = 6.67 hours.",
+        "Step 3: Identify the tank that takes the longest to fill, which dictates the minimum time required for all tanks to be filled, considering they stop being filled once full but continue to leak.",
+        "Step 4: Calculate the amount of water lost from each tank after it's full until the longest tank is full. For Tank A, if it's not the last to fill, it leaks for the difference in time. The same calculation applies to Tanks B and C.",
+        "Step 5: Adjust the time calculation based on the leakages and fill rates to find the exact moment all tanks are full, considering the dynamic of filling and leaking."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net filling rate for each tank by subtracting the leak rate from the fill rate. For Tank A, the net fill rate is 200 - 50 = 150 gallons per hour. For Tank B, the net fill rate is 150 - 25 = 125 gallons per hour. For Tank C, the net fill rate is 300 - 75 = 225 gallons per hour.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the time it takes for each tank to fill by dividing its capacity by its net fill rate. For Tank A, the time is 1200 / 150 = 8 hours. For Tank B, the time is 800 / 125 = 6.4 hours. For Tank C, the time is 1500 / 225 = 6.67 hours.",
+        "ପଦକ୍ଷେପ (step) 3: Identify the tank that takes the longest to fill, which dictates the minimum time required for all tanks to be filled, considering they stop being filled once full but continue to leak.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water lost from each tank after it's full until the longest tank is full. For Tank A, ଯଦି (if) it's not the last to fill, it leaks for the ପାର୍ଥକ୍ୟ (difference) in time. The same calculation applies to Tanks B and C.",
+        "ପଦକ୍ଷେପ (step) 5: Adjust the time calculation based on the leakages and fill rates to find the exact moment all tanks are full, considering the dynamic of filling and leaking."
+    ],
+    "final_answer": "8 hours"
+}

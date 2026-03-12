@@ -1,0 +1,26 @@
+{
+    "id": "459",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than type B shops, and type C shops have 3 times as many employees as type B shops. If there are 15 type A shops, 20 type B shops, and 10 type C shops in the town, and the total number of employees in all shops is 2,500, how many employees are in each type of shop?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than type B shops, and type C shops have 3 times as many employees as type B shops. ଯଦି (if) there are 15 type A shops, 20 type B shops, and 10 type C shops in the town, and the ମୋଟ (total) number of employees in all shops is 2,500, how many employees are in each type of shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop: let's denote the number of employees in type A shops as A, type B shops as B, and type C shops as C.",
+        "Step 2: Set up equations based on the given information: A = B + 5, C = 3B, and the total number of employees equation: 15A + 20B + 10C = 2,500.",
+        "Step 3: Substitute A and C in terms of B into the total employees equation: 15(B + 5) + 20B + 10(3B) = 2,500.",
+        "Step 4: Simplify the equation: 15B + 75 + 20B + 30B = 2,500, which simplifies to 65B + 75 = 2,500.",
+        "Step 5: Solve for B: 65B = 2,500 - 75, so 65B = 2,425, then B = 2,425 / 65 = 37.308 (round to a whole number since you cannot have a fraction of a person, so B = 37).",
+        "Step 6: Calculate A and C using B: A = 37 + 5 = 42, C = 3 * 37 = 111."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop: let's denote the number of employees in type A shops as A, type B shops as B, and type C shops as C.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: A = B + 5, C = 3B, and the ମୋଟ (total) number of employees ସମୀକରଣ (equation): 15A + 20B + 10C = 2,500.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute A and C in terms of B into the ମୋଟ (total) employees ସମୀକରଣ (equation): 15(B + 5) + 20B + 10(3B) = 2,500.",
+        "ପଦକ୍ଷେପ (step) 4: Simplify the ସମୀକରଣ (equation): 15B + 75 + 20B + 30B = 2,500, which simplifies to 65B + 75 = 2,500.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for B: 65B = 2,500 - 75, so 65B = 2,425, ତାହେଲେ (then) B = 2,425 / 65 = 37.308 (round to a whole number since you cannot have a fraction of a person, so B = 37).",
+        "ପଦକ୍ଷେପ (step) 6: Calculate A and C using B: A = 37 + 5 = 42, C = 3 * 37 = 111."
+    ],
+    "final_answer": {
+        "Type A": 42,
+        "Type B": 37,
+        "Type C": 111
+    }
+}

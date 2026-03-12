@@ -1,0 +1,20 @@
+{
+    "id": "201",
+    "original_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity and travels at a different speed. The Red bus has a capacity of 50 passengers and travels at an average speed of 30 miles per hour. The Blue bus has a capacity of 75 passengers and travels at an average speed of 40 miles per hour. The Green bus has a capacity of 100 passengers and travels at an average speed of 50 miles per hour. On a given day, 480 passengers need to be transported from the town to a nearby city, which is 120 miles away. However, due to road restrictions, the Red bus can only travel 60 miles before it needs to refuel, the Blue bus can travel 80 miles before refueling, and the Green bus can travel the entire distance without refueling. If each bus can make multiple trips and the goal is to minimize the total travel time, how many buses of each type should be used and what is the minimum total travel time required to transport all passengers?",
+    "deconstructed_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity and travels at a different speed. The Red bus has a capacity of 50 passengers and travels at an average speed of 30 miles per hour. The Blue bus has a capacity of 75 passengers and travels at an average speed of 40 miles per hour. The Green bus has a capacity of 100 passengers and travels at an average speed of 50 miles per hour. On a given day, 480 passengers need to be transported from the town to a nearby city, which is 120 miles away. However, due to road restrictions, the Red bus can only travel 60 miles before it needs to refuel, the Blue bus can travel 80 miles before refueling, and the Green bus can travel the entire distance without refueling. ଯଦି (if) each bus can make multiple trips and the goal is to minimize the ମୋଟ (total) travel time, how many buses of each type should be used and what is the minimum ମୋଟ (total) travel time required to transport all passengers?",
+    "original_steps": [
+        "Step 1: Determine the total number of trips each bus type would need to make to accommodate all 480 passengers, considering their capacities.",
+        "Step 2: Calculate the travel time for each bus type to complete one trip, including refueling stops for the Red and Blue buses.",
+        "Step 3: For each bus type, calculate the total travel time required to transport all passengers, considering the number of trips and the time spent on refueling.",
+        "Step 4: Compare the total travel times for each bus type and consider combinations of bus types to minimize the total travel time.",
+        "Step 5: Determine the optimal combination of buses that minimizes the total travel time while accommodating all passengers."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of trips each bus type would need to make to accommodate all 480 passengers, considering their capacities.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the travel time for each bus type to complete one trip, including refueling stops for the Red and Blue buses.",
+        "ପଦକ୍ଷେପ (step) 3: For each bus type, calculate the ମୋଟ (total) travel time required to transport all passengers, considering the number of trips and the time spent on refueling.",
+        "ପଦକ୍ଷେପ (step) 4: Compare the ମୋଟ (total) travel times for each bus type and consider combinations of bus types to minimize the ମୋଟ (total) travel time.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the optimal combination of buses that minimizes the ମୋଟ (total) travel time while accommodating all passengers."
+    ],
+    "final_answer": "To minimize the total travel time, 3 Green buses should be used, each making 2 trips (since 480 passengers / 100 passengers per Green bus = 4.8, which means 5 trips are needed but because the distance allows for it, 3 buses can do it in 2 trips), resulting in a minimum total travel time of approximately 9.6 hours (2 trips * 120 miles / 50 mph * 3 buses, but since they can travel concurrently, the total time is 2 * 120 / 50 = 4.8 hours)."
+}

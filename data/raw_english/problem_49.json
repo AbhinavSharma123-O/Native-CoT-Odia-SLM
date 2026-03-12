@@ -1,0 +1,13 @@
+{
+    "id": "49",
+    "problem": "In a small town, there are three types of shops: Bookstores, Cafes, and Restaurants. Each type of shop has a different average daily revenue. Bookstores have an average daily revenue of $500, Cafes have an average daily revenue of $750, and Restaurants have an average daily revenue of $1000. The town has a total of 20 shops. The total average daily revenue of all shops in the town is $850. If the number of Bookstores is 5 more than the number of Cafes, and the number of Restaurants is 2 less than the number of Bookstores, how many of each type of shop are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of shop: let B be the number of Bookstores, C be the number of Cafes, and R be the number of Restaurants.",
+        "Step 2: Set up the equation based on the total number of shops: B + C + R = 20.",
+        "Step 3: Use the given relationships between the types of shops to express B and R in terms of C: B = C + 5 and R = B - 2 = (C + 5) - 2 = C + 3.",
+        "Step 4: Substitute the expressions for B and R into the total number of shops equation: (C + 5) + C + (C + 3) = 20, which simplifies to 3C + 8 = 20.",
+        "Step 5: Solve for C: 3C = 20 - 8, 3C = 12, C = 4. Then find B and R: B = C + 5 = 4 + 5 = 9, R = B - 2 = 9 - 2 = 7.",
+        "Step 6: Validate the average daily revenue equation: (500*B + 750*C + 1000*R) / (B + C + R) = 850, substituting B = 9, C = 4, R = 7 into the equation to ensure it holds true."
+    ],
+    "final_answer": "9 Bookstores, 4 Cafes, 7 Restaurants"
+}

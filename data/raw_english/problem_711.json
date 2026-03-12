@@ -1,0 +1,12 @@
+{
+    "id": "711",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 300 cups of coffee per day. The village has a total of 15 shops, with 5 more bakeries than cafes, and 2 fewer restaurants than cafes. If a bakery makes a profit of $0.50 per loaf of bread, a cafe makes a profit of $0.25 per cup of coffee, and a restaurant makes a profit of $1.00 per meal, with each restaurant serving 200 meals per day, what is the total profit of all the shops in the village per day?",
+    "reasoning_steps": [
+        "Step 1: Define the number of each type of shop in the village, letting B represent the number of bakeries, C represent the number of cafes, and R represent the number of restaurants.",
+        "Step 2: Set up equations based on the given information: B + C + R = 15 (total number of shops), B = C + 5 (5 more bakeries than cafes), and R = C - 2 (2 fewer restaurants than cafes).",
+        "Step 3: Solve the system of equations to find the values of B, C, and R. First, substitute B and R in terms of C into the first equation: (C + 5) + C + (C - 2) = 15. Simplify to get 3C + 3 = 15, which leads to 3C = 12, and thus C = 4.",
+        "Step 4: Calculate the number of each type of shop: With C = 4, then B = C + 5 = 4 + 5 = 9, and R = C - 2 = 4 - 2 = 2.",
+        "Step 5: Calculate the daily profit of each type of shop and then the total profit. For bakeries: 9 bakeries * 250 loaves * $0.50 = $1125. For cafes: 4 cafes * 300 cups * $0.25 = $300. For restaurants: 2 restaurants * 200 meals * $1.00 = $400. The total profit is $1125 + $300 + $400 = $1825."
+    ],
+    "final_answer": "$1825"
+}

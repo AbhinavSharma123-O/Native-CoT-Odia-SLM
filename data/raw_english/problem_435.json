@@ -1,0 +1,18 @@
+{
+    "id": "435",
+    "problem": "In a small town, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the yellow house drinks soda. Clue 4: The American lives in the red house. Clue 5: The person who drinks coffee lives in the house next to the British person. Clue 6: The person who drinks tea lives in the green house. Clue 7: The person who owns the green house is not the person who drinks water.",
+    "reasoning_steps": [
+        "Step 1: Determine the color and occupant of the first house using Clue 1, which states the Canadian lives in the first house.",
+        "Step 2: Use Clue 2 and Clue 3 to figure out the color of the house next to the Canadian and the favorite drink of its occupant.",
+        "Step 3: Apply Clue 4 to identify the color of the American's house and use the process of elimination to start filling in the colors of the other houses.",
+        "Step 4: Utilize Clue 5 to determine the favorite drink of the person who lives next to the British person and narrow down the possibilities for the British person's house color and favorite drink.",
+        "Step 5: Apply Clue 6 and Clue 7 to determine the color of the green house, the favorite drink of its occupant, and the final arrangements of the houses, occupants, and favorite drinks."
+    ],
+    "final_answer": {
+        "House 1": "Yellow, Canadian, Milk",
+        "House 2": "Blue, British, Coffee",
+        "House 3": "Red, American, Soda",
+        "House 4": "Green, Indian, Tea",
+        "House 5": "White, Japanese, Water"
+    }
+}

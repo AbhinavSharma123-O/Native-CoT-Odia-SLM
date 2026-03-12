@@ -1,0 +1,12 @@
+{
+    "id": "294",
+    "problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a total of 25 businesses. The number of restaurants is 5 more than the number of hotels, and the number of shops is 3 less than the number of restaurants. If the total number of employees in the town is 250, and each restaurant has 10 employees, each shop has 5 employees, and each hotel has 8 employees, how many hotels are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of restaurants, shops, and hotels as R, S, and H, respectively.",
+        "Step 2: Set up the system of equations based on the given information: R = H + 5, S = R - 3, and R + S + H = 25.",
+        "Step 3: Substitute the expressions for R and S into the total equation to solve for H: (H + 5) + ((H + 5) - 3) + H = 25.",
+        "Step 4: Simplify the equation: H + 5 + H + 2 + H = 25, which gives 3H + 7 = 25.",
+        "Step 5: Solve for H: 3H = 25 - 7, 3H = 18, H = 18 / 3, H = 6."
+    ],
+    "final_answer": "6"
+}

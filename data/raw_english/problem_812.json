@@ -1,0 +1,12 @@
+{
+    "id": "812",
+    "problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb? Furthermore, one of the light bulbs is special and will change its state (from on to off, or off to on) every time one of the other two bulbs is turned on. The other two bulbs behave normally. Given that you know the special bulb is currently off, and you have turned the switches as follows before entering the room: Switch 1 was turned on for 5 minutes, then off. Switch 2 was turned on for 3 minutes, then off. Switch 3 was never turned on. When you enter the room, you see that two of the bulbs are off and one is on. Which switch corresponds to which bulb, and which is the special bulb?",
+    "reasoning_steps": [
+        "Step 1: Understand the initial conditions and the effects of the special bulb.",
+        "Step 2: Determine the possible states of the bulbs after the initial switch manipulations.",
+        "Step 3: Analyze the impact of the special bulb on the observed state when entering the room.",
+        "Step 4: Use the process of elimination to narrow down the possible switch-bulb combinations based on the observed states.",
+        "Step 5: Deduce the final switch-bulb correspondence and identify the special bulb based on the observed on bulb and the known initial conditions."
+    ],
+    "final_answer": "Switch 1 corresponds to the special bulb, Switch 2 corresponds to the bulb that is on when you enter, and Switch 3 corresponds to the remaining bulb."
+}

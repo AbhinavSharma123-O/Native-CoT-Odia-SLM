@@ -1,0 +1,12 @@
+{
+    "id": "545",
+    "problem": "A water treatment plant has three tanks: A, B, and C. Tank A can hold 2000 gallons, Tank B can hold 3000 gallons, and Tank C can hold 4000 gallons. The plant starts with Tank A filled to 50% capacity, Tank B filled to 25% capacity, and Tank C empty. Every day, 500 gallons of water are added to Tank A, 750 gallons are added to Tank B, and 1000 gallons are added to Tank C. However, due to leaks, Tank A loses 10% of its water daily, Tank B loses 5%, and Tank C loses 15%. On which day will all three tanks be at least 90% full for the first time, given that the tanks are filled and leaked in the sequence of A, then B, then C, each day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. Tank A starts with 50% of 2000 gallons, which is 1000 gallons. Tank B starts with 25% of 3000 gallons, which is 750 gallons. Tank C starts with 0 gallons.",
+        "Step 2: Determine the daily net change in water level for each tank. For Tank A, the daily net change is 500 gallons added minus 10% of its current volume lost. For Tank B, it's 750 gallons added minus 5% lost. For Tank C, it's 1000 gallons added minus 15% lost.",
+        "Step 3: Establish the condition for each tank to be at least 90% full. For Tank A, this means having at least 0.9 * 2000 = 1800 gallons. For Tank B, it's at least 0.9 * 3000 = 2700 gallons. For Tank C, it's at least 0.9 * 4000 = 3600 gallons.",
+        "Step 4: Develop a method to track the water level in each tank over time, considering the daily additions and losses. This could involve setting up equations or using iterative calculations to simulate each day's changes.",
+        "Step 5: Iterate through the days, calculating the water level in each tank until the condition of all tanks being at least 90% full is met. This step may require the use of a calculator or computer program to efficiently simulate the daily changes and identify the day when the condition is first satisfied."
+    ],
+    "final_answer": "Day 8"
+}

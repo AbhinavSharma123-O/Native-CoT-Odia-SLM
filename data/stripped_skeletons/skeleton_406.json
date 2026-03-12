@@ -1,0 +1,20 @@
+{
+    "id": "406",
+    "original_problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "deconstructed_problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "Step 3: Identify the bulb that is on. This corresponds to switch 2.",
+        "Step 4: Identify the bulb that is off, but warm. This corresponds to switch 1.",
+        "Step 5: The remaining bulb, which is off and cold, corresponds to switch 3."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "ପଦକ୍ଷେପ (step) 3: Identify the bulb that is on. This corresponds to switch 2.",
+        "ପଦକ୍ଷେପ (step) 4: Identify the bulb that is off, but warm. This corresponds to switch 1.",
+        "ପଦକ୍ଷେପ (step) 5: The remaining bulb, which is off and cold, corresponds to switch 3."
+    ],
+    "final_answer": "You can correctly identify which switch corresponds to which light bulb using the process of elimination and the observation of the bulbs in the room."
+}

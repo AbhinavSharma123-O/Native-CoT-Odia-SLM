@@ -1,0 +1,12 @@
+{
+    "id": "564",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The town has a total of 240 employees. Type A shops have 5 more employees than Type B shops. Type C shops have 3 times the number of employees as Type B shops. If there are 8 Type A shops, 12 Type B shops, and 4 Type C shops, what is the average number of employees per shop in the town?",
+    "reasoning_steps": [
+        "Step 1: Let's denote the number of employees in a Type B shop as x. Then, the number of employees in a Type A shop is x + 5, and the number of employees in a Type C shop is 3x.",
+        "Step 2: Calculate the total number of employees in Type A shops: 8 * (x + 5).",
+        "Step 3: Calculate the total number of employees in Type B shops: 12 * x.",
+        "Step 4: Calculate the total number of employees in Type C shops: 4 * 3x = 12x.",
+        "Step 5: The sum of the total employees from all types of shops equals 240, so we can set up the equation: 8 * (x + 5) + 12 * x + 12x = 240 and solve for x."
+    ],
+    "final_answer": "15"
+}

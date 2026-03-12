@@ -1,0 +1,12 @@
+{
+    "id": "893",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a specific type of cake that is not sold by any other bakery. There are 5 bakeries in total, and each sells a different number of cakes per day. The total number of cakes sold by all bakeries is 250. The second bakery sells 30 more cakes than the first, and the third bakery sells 20 fewer cakes than the second. The fourth bakery sells 40% more cakes than the third, and the fifth bakery sells 25% fewer cakes than the fourth. Additionally, the town has a rule that each cafe must buy cakes from exactly two different bakeries, and there are 10 cafes in total. If each cafe buys the same number of cakes from each of the two bakeries it deals with, and the total number of cakes bought by all cafes is 300, what is the total number of cakes sold by the first and the third bakeries combined?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of cakes sold by each bakery, starting with the relationships between the second, third, fourth, and fifth bakeries.",
+        "Step 2: Set up equations based on the information given about the number of cakes sold by each bakery and the total number of cakes sold by all bakeries.",
+        "Step 3: Solve the system of equations to find the number of cakes sold by each bakery, particularly focusing on the first and third bakeries.",
+        "Step 4: Calculate the total number of cakes bought by all cafes and how it relates to the cakes sold by the bakeries, considering the rule that each cafe buys from exactly two bakeries.",
+        "Step 5: Combine the information from the previous steps to calculate the total number of cakes sold by the first and third bakeries."
+    ],
+    "final_answer": "90"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "701",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The total number of employees in all shops is 240. The number of employees in shop A is 20 more than the number of employees in shop B. The number of employees in shop C is 30 less than the number of employees in shop B. If the ratio of employees in shop A to shop C is 4:3, then what is the number of employees in shop B?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 240. The number of employees in shop A is 20 more than the number of employees in shop B. The number of employees in shop C is 30 less than the number of employees in shop B. ଯଦି (if) the ratio of employees in shop A to shop C is 4:3, ତାହେଲେ (then) what is the number of employees in shop B?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each shop: let's call the number of employees in shop A as 'a', shop B as 'b', and shop C as 'c'.",
+        "Step 2: Translate the given information into equations: a + b + c = 240, a = b + 20, c = b - 30, and a/c = 4/3.",
+        "Step 3: Substitute the expressions for 'a' and 'c' from the second and third equations into the first equation to get (b + 20) + b + (b - 30) = 240, simplifying to 3b - 10 = 240.",
+        "Step 4: Solve the equation from step 3 for 'b': 3b = 240 + 10, 3b = 250, b = 250 / 3.",
+        "Step 5: Calculate the value of 'b' to find the number of employees in shop B."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each shop: let's call the number of employees in shop A as 'a', shop B as 'b', and shop C as 'c'.",
+        "ପଦକ୍ଷେପ (step) 2: Translate the given information into equations: a + b + c = 240, a = b + 20, c = b - 30, and a/c = 4/3.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for 'a' and 'c' from the second and third equations into the first ସମୀକରଣ (equation) to get (b + 20) + b + (b - 30) = 240, simplifying to 3b - 10 = 240.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 for 'b': 3b = 240 + 10, 3b = 250, b = 250 / 3.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the value of 'b' to find the number of employees in shop B."
+    ],
+    "final_answer": "83.33"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "759",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A is filled for 2 hours, Tower B is filled for 1.5 hours, and Tower C is filled for 2.25 hours, and then the water from all three towers is mixed together and distributed evenly into 5 large containers, how many liters of water will each container hold if Tower A has a 10% loss of water due to leakage during the filling process, Tower B has a 5% loss, and Tower C has a 15% loss?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water filled in each tower before accounting for leakage. For Tower A, this is 0.5 liters/minute * 120 minutes = 60 liters. For Tower B, this is 0.75 liters/minute * 90 minutes = 67.5 liters. For Tower C, this is 1 liter/minute * 135 minutes = 135 liters.",
+        "Step 2: Calculate the actual amount of water in each tower after accounting for leakage. For Tower A, this is 60 liters * 0.9 = 54 liters. For Tower B, this is 67.5 liters * 0.95 = 64.125 liters. For Tower C, this is 135 liters * 0.85 = 114.75 liters.",
+        "Step 3: Sum the total amount of water from all three towers after leakage. Total_water = 54 liters + 64.125 liters + 114.75 liters = 232.875 liters.",
+        "Step 4: Divide the total amount of water by the number of containers to find out how many liters each container will hold. water_per_container = Total_water / 5 = 232.875 liters / 5 = 46.575 liters.",
+        "Step 5: Round the final answer to a reasonable number of decimal places if necessary, though the problem does not specify this, the calculation will give a precise answer."
+    ],
+    "final_answer": "46.575"
+}

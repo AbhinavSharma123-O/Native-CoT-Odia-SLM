@@ -1,0 +1,20 @@
+{
+    "id": "356",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 2500 liters. The town's water supply system can fill Tank A at a rate of 200 liters per minute, Tank B at a rate of 150 liters per minute, and Tank C at a rate of 100 liters per minute. However, due to some leaks, Tank A loses water at a rate of 20 liters per minute, Tank B loses water at a rate of 30 liters per minute, and Tank C loses water at a rate of 10 liters per minute. If all tanks are initially empty and the supply system starts filling them at the same time, how many minutes will it take to fill all three tanks to their maximum capacity?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 2500 liters. The town's water supply system can fill Tank A at a rate of 200 liters per minute, Tank B at a rate of 150 liters per minute, and Tank C at a rate of 100 liters per minute. However, due to some leaks, Tank A loses water at a rate of 20 liters per minute, Tank B loses water at a rate of 30 liters per minute, and Tank C loses water at a rate of 10 liters per minute. ଯଦି (if) all tanks are initially empty and the supply system starts filling them at the same time, how many minutes will it take to fill all three tanks to their maximum capacity?",
+    "original_steps": [
+        "Step 1: Calculate the net fill rate for each tank by subtracting the leak rate from the fill rate. For Tank A: 200 liters/minute - 20 liters/minute = 180 liters/minute. For Tank B: 150 liters/minute - 30 liters/minute = 120 liters/minute. For Tank C: 100 liters/minute - 10 liters/minute = 90 liters/minute.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net fill rate. For Tank A: 2000 liters / 180 liters/minute. For Tank B: 3000 liters / 120 liters/minute. For Tank C: 2500 liters / 90 liters/minute.",
+        "Step 3: Perform the division for each tank to find the time in minutes. For Tank A: 2000 / 180 = 11.11 minutes. For Tank B: 3000 / 120 = 25 minutes. For Tank C: 2500 / 90 = 27.78 minutes.",
+        "Step 4: Identify the tank that takes the longest to fill since all tanks are being filled simultaneously, and the system will be considered fully filled when the last tank is full.",
+        "Step 5: Among the calculated times, select the maximum time as the answer, which corresponds to the time it takes for the last tank to be completely filled."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net fill rate for each tank by subtracting the leak rate from the fill rate. For Tank A: 200 liters/minute - 20 liters/minute = 180 liters/minute. For Tank B: 150 liters/minute - 30 liters/minute = 120 liters/minute. For Tank C: 100 liters/minute - 10 liters/minute = 90 liters/minute.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net fill rate. For Tank A: 2000 liters / 180 liters/minute. For Tank B: 3000 liters / 120 liters/minute. For Tank C: 2500 liters / 90 liters/minute.",
+        "ପଦକ୍ଷେପ (step) 3: Perform the division for each tank to find the time in minutes. For Tank A: 2000 / 180 = 11.11 minutes. For Tank B: 3000 / 120 = 25 minutes. For Tank C: 2500 / 90 = 27.78 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: Identify the tank that takes the longest to fill since all tanks are being filled simultaneously, and the system will be considered fully filled when the last tank is full.",
+        "ପଦକ୍ଷେପ (step) 5: Among the calculated times, select the maximum time as the answer, which corresponds to the time it takes for the last tank to be completely filled."
+    ],
+    "final_answer": "27.78"
+}

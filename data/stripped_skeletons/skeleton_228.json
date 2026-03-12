@@ -1,0 +1,20 @@
+{
+    "id": "228",
+    "original_problem": "In the town of Willowdale, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the shops is 240. The number of employees in the bakeries is 1/3 the number of employees in the cafes, and the number of employees in the restaurants is 2/3 the number of employees in the cafes. If there are 30 more employees in the cafes than in the bakeries, how many employees are in each type of shop?",
+    "deconstructed_problem": "In the town of Willowdale, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 240. The number of employees in the bakeries is 1/3 the number of employees in the cafes, and the number of employees in the restaurants is 2/3 the number of employees in the cafes. ଯଦି (if) there are 30 more employees in the cafes than in the bakeries, how many employees are in each type of shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop: let B be the number of employees in the bakeries, C be the number of employees in the cafes, and R be the number of employees in the restaurants.",
+        "Step 2: Write down the given information in equation form: B + C + R = 240, B = 1/3C, R = 2/3C, and C = B + 30.",
+        "Step 3: Substitute the expression for R from the third equation into the first equation to get B + C + 2/3C = 240, which simplifies to B + 5/3C = 240.",
+        "Step 4: Use the second equation to express B in terms of C: B = 1/3C. Substitute this expression into the equation from step 3: 1/3C + 5/3C = 240, which simplifies to 2C = 240, and then C = 120.",
+        "Step 5: With the value of C known, use the equations from step 2 to find the values of B and R: B = 1/3 * 120 = 40, and R = 2/3 * 120 = 80."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop: let B be the number of employees in the bakeries, C be the number of employees in the cafes, and R be the number of employees in the restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Write down the given information in ସମୀକରଣ (equation) form: B + C + R = 240, B = 1/3C, R = 2/3C, and C = B + 30.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expression for R from the third ସମୀକରଣ (equation) into the first ସମୀକରଣ (equation) to get B + C + 2/3C = 240, which simplifies to B + 5/3C = 240.",
+        "ପଦକ୍ଷେପ (step) 4: Use the second ସମୀକରଣ (equation) to express B in terms of C: B = 1/3C. Substitute this expression into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3: 1/3C + 5/3C = 240, which simplifies to 2C = 240, and ତାହେଲେ (then) C = 120.",
+        "ପଦକ୍ଷେପ (step) 5: With the value of C known, use the equations from ପଦକ୍ଷେପ (step) 2 to find the values of B and R: B = 1/3 * 120 = 40, and R = 2/3 * 120 = 80."
+    ],
+    "final_answer": "Bakeries: 40 employees, Cafes: 120 employees, Restaurants: 80 employees"
+}

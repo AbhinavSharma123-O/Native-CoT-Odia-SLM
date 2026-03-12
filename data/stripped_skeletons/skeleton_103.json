@@ -1,0 +1,20 @@
+{
+    "id": "103",
+    "original_problem": "In a small town, there are three factories: A, B, and C, producing 30%, 40%, and 30% of the total goods, respectively. Factory A produces 200 units more than Factory C each day. If Factory B operates at 80% capacity and produces 480 units, what is the total number of units produced by all factories in a day?",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, producing 30%, 40%, and 30% of the ମୋଟ (total) goods, respectively. Factory A produces 200 units more than Factory C each day. ଯଦି (if) Factory B operates at 80% capacity and produces 480 units, what is the ମୋଟ (total) number of units produced by all factories in a day?",
+    "original_steps": [
+        "Step 1: Calculate the total production of Factory B at 100% capacity by dividing its current production by 0.8, since it operates at 80% capacity.",
+        "Step 2: Determine the production of Factory A and Factory C using the fact that Factory A produces 200 units more than Factory C and their combined percentage of total production.",
+        "Step 3: Set up the equation to find the total production based on the percentages and the relationship between Factory A and Factory C's production.",
+        "Step 4: Solve the equation to find the total production of all factories.",
+        "Step 5: Calculate the actual production of each factory based on the total and their respective percentages or relationships."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) production of Factory B at 100% capacity by dividing its current production by 0.8, since it operates at 80% capacity.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the production of Factory A and Factory C using the fact that Factory A produces 200 units more than Factory C and their combined percentage of ମୋଟ (total) production.",
+        "ପଦକ୍ଷେପ (step) 3: Set up the ସମୀକରଣ (equation) to find the ମୋଟ (total) production based on the percentages and the relationship between Factory A and Factory C's production.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) to find the ମୋଟ (total) production of all factories.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the actual production of each factory based on the ମୋଟ (total) and their respective percentages or relationships."
+    ],
+    "final_answer": "1200"
+}

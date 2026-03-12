@@ -1,0 +1,16 @@
+{
+    "id": "698",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each shop has a different number of employees. The total number of employees in all the shops is 90. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. If the ratio of the number of bakeries to the number of cafes is 3:2 and the ratio of the number of restaurants to the number of bakeries is 5:3, what is the number of employees in each type of shop?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in the bakeries, C be the number of employees in the cafes, and R be the number of employees in the restaurants.",
+        "Step 2: Use the given information to set up equations based on the relationships between the number of employees in each type of shop. We have B = C + 5 and R = B + 10.",
+        "Step 3: Express the ratios of the number of shops as equations. The ratio of bakeries to cafes is 3:2, so B/C = 3/2. The ratio of restaurants to bakeries is 5:3, so R/B = 5/3.",
+        "Step 4: Use the ratio equations to find the relationships between the number of employees in each type of shop. From B/C = 3/2, we can say C = (2/3)B. From R/B = 5/3, we can say R = (5/3)B.",
+        "Step 5: Substitute the expressions for C and R into the equation B = C + 5 and R = B + 10, and use the fact that B + C + R = 90 to solve for B, C, and R."
+    ],
+    "final_answer": {
+        "Bakeries": 25,
+        "Cafes": 20,
+        "Restaurants": 45
+    }
+}

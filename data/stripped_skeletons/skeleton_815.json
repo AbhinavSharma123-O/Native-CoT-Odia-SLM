@@ -1,0 +1,20 @@
+{
+    "id": "815",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A can fill 1200 gallons per hour, Tower B can fill 800 gallons per hour, and Tower C can fill 1600 gallons per hour. However, due to a malfunction, Tower A can only fill at 3/4 of its capacity, and Tower C can only fill at 5/8 of its capacity. If the town needs 10080 gallons of water to be filled within 4 hours, and Tower B operates for the entire 4 hours, how many hours must Tower A and Tower C operate to meet this demand?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A can fill 1200 gallons per hour, Tower B can fill 800 gallons per hour, and Tower C can fill 1600 gallons per hour. However, due to a malfunction, Tower A can only fill at 3/4 of its capacity, and Tower C can only fill at 5/8 of its capacity. ଯଦି (if) the town needs 10080 gallons of water to be filled within 4 hours, and Tower B operates for the entire 4 hours, how many hours must Tower A and Tower C operate to meet this demand?",
+    "original_steps": [
+        "Step 1: Calculate the effective fill rate of Tower A by multiplying its capacity by 3/4, which gives us 1200 * (3/4) = 900 gallons per hour.",
+        "Step 2: Calculate the effective fill rate of Tower C by multiplying its capacity by 5/8, which gives us 1600 * (5/8) = 1000 gallons per hour.",
+        "Step 3: Determine the total amount of water Tower B can fill in 4 hours by multiplying its fill rate by the number of hours, which gives us 800 * 4 = 3200 gallons.",
+        "Step 4: Subtract the amount filled by Tower B from the total needed to find out how much Towers A and C must fill together, which is 10080 - 3200 = 6880 gallons.",
+        "Step 5: Set up an equation to represent the combined fill rate of Towers A and C, where the sum of their fill rates multiplied by the number of hours they operate equals the remaining amount needed. Let x be the number of hours Towers A and C operate, so the equation is 900x + 1000x = 6880."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the effective fill rate of Tower A by multiplying its capacity by 3/4, which gives us 1200 * (3/4) = 900 gallons per hour.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the effective fill rate of Tower C by multiplying its capacity by 5/8, which gives us 1600 * (5/8) = 1000 gallons per hour.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the ମୋଟ (total) amount of water Tower B can fill in 4 hours by multiplying its fill rate by the number of hours, which gives us 800 * 4 = 3200 gallons.",
+        "ପଦକ୍ଷେପ (step) 4: ବିୟୋଗ (subtract) the amount filled by Tower B from the ମୋଟ (total) needed to find out how much Towers A and C must fill together, which is 10080 - 3200 = 6880 gallons.",
+        "ପଦକ୍ଷେପ (step) 5: Set up an ସମୀକରଣ (equation) to represent the combined fill rate of Towers A and C, where the ସମଷ୍ଟି (sum) of their fill rates multiplied by the number of hours they operate ସମାନ (equals) the remaining amount needed. Let x be the number of hours Towers A and C operate, so the ସମୀକରଣ (equation) is 900x + 1000x = 6880."
+    ],
+    "final_answer": "Towers A and C must each operate for 4.267 hours to meet the demand, which we find by solving the equation 900x + 1000x = 6880 to get 1900x = 6880, and thus x = 6880 / 1900 = 3.6263, rounding to 4.267 hours when accounting for the specific fill rates and rounding to a reasonable operational time."
+}

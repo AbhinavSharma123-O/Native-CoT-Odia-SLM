@@ -1,0 +1,15 @@
+{
+    "id": "469",
+    "problem": "In a small town, there are three types of vehicles: cars, buses, and trucks. The total number of vehicles in the town is 250. The number of cars is 30 more than the number of buses. The number of trucks is 25 less than the number of buses. If 15% of the cars, 20% of the buses, and 10% of the trucks are red, and a red vehicle is selected at random, what is the probability that it is a car?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of buses, cars, and trucks. Let's denote the number of buses as B, the number of cars as C, and the number of trucks as T.",
+        "Step 2: Express the number of cars and trucks in terms of the number of buses. Given that C = B + 30 and T = B - 25.",
+        "Step 3: Write an equation for the total number of vehicles in the town. The total number of vehicles is given as 250, so B + C + T = 250. Substituting C and T from step 2 gives B + (B + 30) + (B - 25) = 250.",
+        "Step 4: Solve the equation from step 3 to find the number of buses. Simplifying the equation results in 3B + 5 = 250. Subtracting 5 from both sides gives 3B = 245. Dividing by 3 gives B = 245 / 3 = 81.666... Since the number of buses must be a whole number, and we are dealing with a real-world scenario, we will round to the nearest whole number that makes sense in context. However, for the sake of calculation, we'll proceed with precise numbers where possible.",
+        "Step 5: Calculate the number of cars and trucks using the values from step 4. C = B + 30 = 81.666... + 30 = 111.666... and T = B - 25 = 81.666... - 25 = 56.666... Again, these are theoretical calculations; in practice, we'd need whole numbers, but we continue with these values for calculation purposes.",
+        "Step 6: Calculate the number of red cars, buses, and trucks. The number of red cars is 15% of C, or 0.15 * 111.666... The number of red buses is 20% of B, or 0.20 * 81.666... The number of red trucks is 10% of T, or 0.10 * 56.666... Performing these calculations gives the number of red cars, buses, and trucks.",
+        "Step 7: Calculate the total number of red vehicles. This is the sum of red cars, buses, and trucks from step 6.",
+        "Step 8: Calculate the probability that a randomly selected red vehicle is a car. This is the number of red cars divided by the total number of red vehicles from step 7."
+    ],
+    "final_answer": "Given the complexity and the requirement for intermediate calculations, let's finalize with a numerical example based on rounded, realistic numbers for buses, cars, and trucks, acknowledging that precise calculations yield non-integer results for vehicles, which doesn't align with real-world counts. For a simplified final answer, if we were to use rounded numbers (e.g., B=82, C=112, T=57 for easier calculation), the number of red cars would be 0.15*112 = 16.8, red buses 0.20*82 = 16.4, and red trucks 0.10*57 = 5.7. The total red vehicles would be 16.8 + 16.4 + 5.7 = 38.9. The probability of selecting a red car would then be 16.8 / 38.9 ≈ 0.432."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "219",
+    "original_problem": "In the town of Ravenswood, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch controls which light bulb?",
+    "deconstructed_problem": "In the town of Ravenswood, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch controls which light bulb?",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room to observe the bulbs. Identify which bulb is on (switch 2), which bulb is off but warm (switch 1), and which bulb is off and cold (switch 3).",
+        "Step 4: Based on the observation, determine the correct mapping of switches to bulbs.",
+        "Step 5: Verify the solution by mentally applying the process to different initial conditions to ensure it works in all cases."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "ପଦକ୍ଷେପ (step) 3: Immediately enter the room to observe the bulbs. Identify which bulb is on (switch 2), which bulb is off but warm (switch 1), and which bulb is off and cold (switch 3).",
+        "ପଦକ୍ଷେପ (step) 4: Based on the observation, determine the correct mapping of switches to bulbs.",
+        "ପଦକ୍ଷେପ (step) 5: Verify the solution by mentally applying the process to different initial conditions to ensure it works in all cases."
+    ],
+    "final_answer": "You can correctly identify which switch controls which light bulb by following these steps."
+}

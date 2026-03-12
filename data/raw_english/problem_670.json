@@ -1,0 +1,12 @@
+{
+    "id": "670",
+    "problem": "In the town of Ashwood, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room to observe the bulbs. Take note of which bulbs are on, off, and warm (but off).",
+        "Step 4: Identify the bulb that is on as corresponding to switch 2.",
+        "Step 5: Identify the warm bulb (that is off) as corresponding to switch 1."
+    ],
+    "final_answer": "Switch 3 corresponds to the remaining bulb."
+}

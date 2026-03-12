@@ -1,0 +1,13 @@
+{
+    "id": "897",
+    "problem": "In a small village, there are three types of shops: bakery, grocery, and clothing. Each type of shop has a distinct number of items on display. The total number of items in all shops is 240. The number of items in the grocery shops is 20 more than the number of items in the bakery shops, and the number of items in the clothing shops is 30 less than the number of items in the grocery shops. If there are 5 bakery shops, 3 grocery shops, and 2 clothing shops, what is the average number of items per shop?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of items in each type of shop. Let B be the number of items in a bakery shop, G be the number of items in a grocery shop, and C be the number of items in a clothing shop.",
+        "Step 2: Set up equations based on the given information. The number of items in the grocery shops is 20 more than the number of items in the bakery shops: G = B + 20. The number of items in the clothing shops is 30 less than the number of items in the grocery shops: C = G - 30.",
+        "Step 3: Express the total number of items in terms of the variables. The total number of items is the sum of the items in all shops: 5B + 3G + 2C = 240.",
+        "Step 4: Substitute the expressions for G and C from Step 2 into the equation from Step 3 to get an equation in terms of B only. Substituting G = B + 20 and C = G - 30 = (B + 20) - 30 = B - 10 into the equation gives: 5B + 3(B + 20) + 2(B - 10) = 240.",
+        "Step 5: Simplify and solve the equation from Step 4 for B. Expanding the equation gives: 5B + 3B + 60 + 2B - 20 = 240, which simplifies to 10B + 40 = 240. Subtracting 40 from both sides gives 10B = 200. Dividing both sides by 10 gives B = 20.",
+        "Step 6: Calculate the average number of items per shop. First, find the total number of items in each type of shop: Bakery = 5 * 20 = 100, Grocery = 3 * (20 + 20) = 3 * 40 = 120, Clothing = 2 * (40 - 30) = 2 * 10 = 20. Then, calculate the total number of shops: 5 + 3 + 2 = 10. The average number of items per shop is the total number of items divided by the total number of shops: (100 + 120 + 20) / 10 = 240 / 10 = 24."
+    ],
+    "final_answer": "24"
+}

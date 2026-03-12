@@ -1,0 +1,14 @@
+{
+    "id": "864",
+    "problem": "In the city of Logos, there are three types of trains: the Alpha, Beta, and Gamma. Each type of train has a distinct speed and can travel different distances. The Alpha train travels at 80 km/h and can travel for 4 hours before needing to refuel. The Beta train travels at 60 km/h but can only travel for 3 hours before needing to refuel. The Gamma train travels at 100 km/h and can travel for 5 hours before needing to refuel. If the Alpha train starts at point A and travels to point B, a distance of 240 km, and then the Beta train starts at point B and travels to point C, a distance of 180 km, and finally the Gamma train starts at point C and travels back to point A, a distance of 300 km, how many total hours will all three trains have traveled by the time the Gamma train returns to point A, considering that each train must refuel after its maximum travel time and that refueling takes 1 hour?",
+    "reasoning_steps": [
+        "Step 1: Calculate the time it takes for the Alpha train to travel from point A to point B. Time = Distance / Speed = 240 km / 80 km/h = 3 hours.",
+        "Step 2: Determine if the Alpha train needs to refuel after traveling from A to B. Since it travels for 3 hours and its maximum travel time before refueling is 4 hours, it does not need to refuel after this trip.",
+        "Step 3: Calculate the time it takes for the Beta train to travel from point B to point C. Time = Distance / Speed = 180 km / 60 km/h = 3 hours.",
+        "Step 4: Determine if the Beta train needs to refuel after traveling from B to C. Since it travels for 3 hours and its maximum travel time before refueling is 3 hours, it needs to refuel after this trip, adding 1 hour to its total time.",
+        "Step 5: Calculate the time it takes for the Gamma train to travel from point C back to point A. Time = Distance / Speed = 300 km / 100 km/h = 3 hours.",
+        "Step 6: Determine if the Gamma train needs to refuel after traveling from C to A. Since it travels for 3 hours and its maximum travel time before refueling is 5 hours, it does not need to refuel after this trip.",
+        "Step 7: Sum the travel times and refueling times of all three trains to find the total travel time. Total time = Alpha train time + Beta train time (including refueling) + Gamma train time = 3 hours + (3 hours + 1 hour) + 3 hours = 10 hours."
+    ],
+    "final_answer": "10"
+}

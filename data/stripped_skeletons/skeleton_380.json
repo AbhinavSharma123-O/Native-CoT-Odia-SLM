@@ -1,0 +1,20 @@
+{
+    "id": "380",
+    "original_problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a total of 25 shops, with 5 more bakeries than cafes and 3 more grocery stores than bakeries. If the number of cafes is represented by 'c', then what is the value of 'c' if each grocery store employs 2 people, each bakery employs 3 people, and each cafe employs 4 people, given that the total number of employees in the village is 115?",
+    "deconstructed_problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a ମୋଟ (total) of 25 shops, with 5 more bakeries than cafes and 3 more grocery stores than bakeries. ଯଦି (if) the number of cafes is represented by 'c', ତାହେଲେ (then) what is the value of 'c' ଯଦି (if) each grocery store employs 2 people, each bakery employs 3 people, and each cafe employs 4 people, given that the ମୋଟ (total) number of employees in the village is 115?",
+    "original_steps": [
+        "Step 1: Define the relationship between the number of each type of shop. Let 'c' represent the number of cafes, 'b' represent the number of bakeries, and 'g' represent the number of grocery stores. We know that b = c + 5 and g = b + 3.",
+        "Step 2: Express 'b' and 'g' in terms of 'c'. Given b = c + 5, we substitute this into g = b + 3 to get g = (c + 5) + 3 = c + 8.",
+        "Step 3: Set up the equation based on the total number of shops. We are told the village has a total of 25 shops. Therefore, c + b + g = 25. Substituting b and g from step 2, we get c + (c + 5) + (c + 8) = 25.",
+        "Step 4: Simplify the equation from step 3 to find 'c'. This gives us 3c + 13 = 25. Subtracting 13 from both sides gives 3c = 12.",
+        "Step 5: Solve for 'c'. Divide both sides by 3 to isolate 'c': c = 12 / 3 = 4."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the relationship between the number of each type of shop. Let 'c' represent the number of cafes, 'b' represent the number of bakeries, and 'g' represent the number of grocery stores. We know that b = c + 5 and g = b + 3.",
+        "ପଦକ୍ଷେପ (step) 2: Express 'b' and 'g' in terms of 'c'. Given b = c + 5, we substitute this into g = b + 3 to get g = (c + 5) + 3 = c + 8.",
+        "ପଦକ୍ଷେପ (step) 3: Set up the ସମୀକରଣ (equation) based on the ମୋଟ (total) number of shops. We are told the village has a ମୋଟ (total) of 25 shops. ତେଣୁ (therefore), c + b + g = 25. Substituting b and g from ପଦକ୍ଷେପ (step) 2, we get c + (c + 5) + (c + 8) = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Simplify the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to find 'c'. This gives us 3c + 13 = 25. Subtracting 13 from both sides gives 3c = 12.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for 'c'. ହରଣ (divide) both sides by 3 to isolate 'c': c = 12 / 3 = 4."
+    ],
+    "final_answer": "4"
+}

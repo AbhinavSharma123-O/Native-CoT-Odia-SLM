@@ -1,0 +1,20 @@
+{
+    "id": "25",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, with the total being 250 cakes across all bakeries. The number of cakes sold by each bakery is directly proportional to the number of cafes in the village. If there are 5 cafes and the total number of shops (bakeries + cafes + restaurants) is 25, while the ratio of restaurants to bakeries is 3:2, find the number of cakes sold by each bakery, given that each cafe sells 50 cups of coffee per day and the total revenue from all shops is $10,000, with cakes being priced at $2 each, coffee at $1 per cup, and each restaurant bringing in $500 per day.",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, with the ମୋଟ (total) being 250 cakes across all bakeries. The number of cakes sold by each bakery is directly proportional to the number of cafes in the village. ଯଦି (if) there are 5 cafes and the ମୋଟ (total) number of shops (bakeries + cafes + restaurants) is 25, while the ratio of restaurants to bakeries is 3:2, find the number of cakes sold by each bakery, given that each cafe sells 50 cups of coffee per day and the ମୋଟ (total) revenue from all shops is $10,000, with cakes being priced at $2 each, coffee at $1 per cup, and each restaurant bringing in $500 per day.",
+    "original_steps": [
+        "Step 1: Determine the total number of bakeries, cafes, and restaurants using the given ratio and total number of shops.",
+        "Step 2: Calculate the number of bakeries using the ratio of restaurants to bakeries and the total number of shops.",
+        "Step 3: Find the number of cakes sold by each bakery by dividing the total number of cakes by the number of bakeries, considering the proportionality to the number of cafes.",
+        "Step 4: Verify the calculation by checking the total revenue from all shops, ensuring it matches the given $10,000 when considering the sales from cakes, coffee, and restaurants.",
+        "Step 5: Adjust calculations as necessary to ensure all conditions (total cakes, total revenue, shop ratios) are met."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of bakeries, cafes, and restaurants using the given ratio and ମୋଟ (total) number of shops.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of bakeries using the ratio of restaurants to bakeries and the ମୋଟ (total) number of shops.",
+        "ପଦକ୍ଷେପ (step) 3: Find the number of cakes sold by each bakery by dividing the ମୋଟ (total) number of cakes by the number of bakeries, considering the proportionality to the number of cafes.",
+        "ପଦକ୍ଷେପ (step) 4: Verify the calculation by checking the ମୋଟ (total) revenue from all shops, ensuring it matches the given $10,000 when considering the sales from cakes, coffee, and restaurants.",
+        "ପଦକ୍ଷେପ (step) 5: Adjust calculations as necessary to ensure all conditions (ମୋଟ (total) cakes, ମୋଟ (total) revenue, shop ratios) are met."
+    ],
+    "final_answer": "5"
+}

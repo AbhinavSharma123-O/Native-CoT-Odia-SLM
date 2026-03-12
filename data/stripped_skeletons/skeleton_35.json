@@ -1,0 +1,26 @@
+{
+    "id": "35",
+    "original_problem": "In a small town, there are 5 factories, each producing a different product: toys, furniture, clothing, electronics, and food. The town has 5 roads: Main, Oak, Maple, Pine, and Cedar. Each factory is located on one of these roads, and each road has exactly one factory. Using the following clues, determine the product each factory produces and the road it is located on: (1) The factory producing toys is located on a road that comes after the road with the factory producing furniture, alphabetically. (2) The factory producing electronics is on Main Road. (3) The factory producing clothing is on a road that comes before the road with the factory producing food, alphabetically. (4) The factory producing furniture is not on Cedar Road. (5) The factory on Pine Road produces a product that starts with the letter 'F'.",
+    "deconstructed_problem": "In a small town, there are 5 factories, each producing a different product: toys, furniture, clothing, electronics, and food. The town has 5 roads: Main, Oak, Maple, Pine, and Cedar. Each factory is located on one of these roads, and each road has exactly one factory. Using the following clues, determine the product each factory produces and the road it is located on: (1) The factory producing toys is located on a road that comes after the road with the factory producing furniture, alphabetically. (2) The factory producing electronics is on Main Road. (3) The factory producing clothing is on a road that comes before the road with the factory producing food, alphabetically. (4) The factory producing furniture is not on Cedar Road. (5) The factory on Pine Road produces a product that starts with the letter 'F'.",
+    "original_steps": [
+        "Step 1: Start by listing all possible products and roads, and then apply the first clue to establish the relationship between toys and furniture.",
+        "Step 2: Use the second clue to fix the position of the electronics factory on Main Road.",
+        "Step 3: Apply the third clue to establish the alphabetical order relationship between clothing and food.",
+        "Step 4: Use the fourth clue to eliminate Cedar Road as a possible location for the furniture factory.",
+        "Step 5: Apply the fifth clue to determine the product produced on Pine Road, which starts with 'F', and then deduce the locations and products for the remaining factories based on the established relationships."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Start by listing all possible products and roads, and ତାହେଲେ (then) apply the first clue to establish the relationship between toys and furniture.",
+        "ପଦକ୍ଷେପ (step) 2: Use the second clue to fix the position of the electronics factory on Main Road.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the third clue to establish the alphabetical order relationship between clothing and food.",
+        "ପଦକ୍ଷେପ (step) 4: Use the fourth clue to eliminate Cedar Road as a possible location for the furniture factory.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the fifth clue to determine the product produced on Pine Road, which starts with 'F', and ତାହେଲେ (then) deduce the locations and products for the remaining factories based on the established relationships."
+    ],
+    "final_answer": {
+        "Main Road": "Electronics",
+        "Oak Road": "Furniture",
+        "Maple Road": "Clothing",
+        "Pine Road": "Food",
+        "Cedar Road": "Toys"
+    }
+}

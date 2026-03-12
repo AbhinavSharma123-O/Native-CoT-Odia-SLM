@@ -1,0 +1,12 @@
+{
+    "id": "746",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed amount of bread per day, with the total amount sold by all bakeries being 240 loaves. The number of bakeries is 4 less than the number of cafes, and the number of cafes is 5 more than the number of restaurants. If each cafe sells 1/3 the amount of bread a bakery sells, and each restaurant sells 2/5 the amount of bread a cafe sells, what is the total amount of bread sold by all shops in the village, given that each bakery sells 8 loaves of bread per day?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of bakeries and the total amount of bread they sell per day.",
+        "Step 2: Calculate the number of cafes based on the relationship between the number of bakeries and cafes.",
+        "Step 3: Find the number of restaurants using the relationship between the number of cafes and restaurants.",
+        "Step 4: Calculate the amount of bread each cafe sells per day, based on the amount sold by each bakery.",
+        "Step 5: Calculate the amount of bread each restaurant sells per day, based on the amount sold by each cafe."
+    ],
+    "final_answer": "348"
+}

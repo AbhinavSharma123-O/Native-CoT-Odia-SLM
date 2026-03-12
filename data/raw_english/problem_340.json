@@ -1,0 +1,12 @@
+{
+    "id": "340",
+    "problem": "In a small town, there are 5 schools with different numbers of students. School A has 15 more students than School B. School C has 120 students, which is 20 fewer than School D. School E has 35 more students than School A. If the total number of students in all schools is 650, how many students are in School B?",
+    "reasoning_steps": [
+        "Step 1: Define the number of students in School B as x.",
+        "Step 2: Determine the number of students in School A, which is x + 15.",
+        "Step 3: Calculate the number of students in School D, which is 120 + 20 = 140.",
+        "Step 4: Express the number of students in School E in terms of x, which is (x + 15) + 35 = x + 50.",
+        "Step 5: Set up an equation representing the total number of students in all schools: x + (x + 15) + 120 + 140 + (x + 50) = 650."
+    ],
+    "final_answer": "75"
+}

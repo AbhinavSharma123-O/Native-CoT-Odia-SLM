@@ -1,0 +1,12 @@
+{
+    "id": "904",
+    "problem": "In a small town, there are three water tanks, A, B, and C, with capacities of 200, 300, and 400 gallons, respectively. On a given day, tank A is filled at a rate of 5 gallons per minute, tank B is filled at a rate of 10 gallons per minute, and tank C is filled at a rate of 8 gallons per minute. However, due to a leak, tank A loses 2 gallons per minute, tank B loses 1 gallon per minute, and tank C loses 3 gallons per minute. If all tanks are initially empty and the filling and leaking processes start at the same time, how many minutes will it take to fill all three tanks?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net filling rate for each tank by subtracting the leak rate from the fill rate. For tank A, the net fill rate is 5 - 2 = 3 gallons per minute. For tank B, the net fill rate is 10 - 1 = 9 gallons per minute. For tank C, the net fill rate is 8 - 3 = 5 gallons per minute.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net fill rate. For tank A, the time to fill is 200 / 3 = 66.67 minutes. For tank B, the time to fill is 300 / 9 = 33.33 minutes. For tank C, the time to fill is 400 / 5 = 80 minutes.",
+        "Step 3: Identify the tank that takes the longest to fill, which will determine the minimum time required to fill all three tanks. In this case, tank C takes the longest to fill at 80 minutes.",
+        "Step 4: Consider the possibility that the other tanks may overflow before tank C is filled, and calculate the amount of time it would take for each tank to reach its capacity if filling continues after tank C is full. Since tank C takes the longest to fill, we only need to ensure that the other tanks do not overflow before it is full.",
+        "Step 5: Calculate the total amount of water in each tank at the time tank C is full (80 minutes) to verify that none of the tanks will overflow before tank C is filled. For tank A, the total water at 80 minutes is 3 * 80 = 240 gallons, which is below its capacity. For tank B, the total water at 80 minutes is 9 * 80 = 720 gallons, but since tank B's capacity is 300 gallons, it would have been filled and stopped being filled at 33.33 minutes, and then would have leaked for the remaining 46.67 minutes, resulting in a final amount of 300 - 1 * 46.67 = 253.33 gallons, which is below its capacity."
+    ],
+    "final_answer": "80"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "659",
+    "original_problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a total of 25 businesses. The number of restaurants is 5 more than the number of hotels, and the number of shops is 3 times the number of hotels. If the total number of employees in all the businesses is 250, and each restaurant has 10 employees, each shop has 5 employees, and each hotel has 15 employees, how many hotels are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a ମୋଟ (total) of 25 businesses. The number of restaurants is 5 more than the number of hotels, and the number of shops is 3 times the number of hotels. ଯଦି (if) the ମୋଟ (total) number of employees in all the businesses is 250, and each restaurant has 10 employees, each shop has 5 employees, and each hotel has 15 employees, how many hotels are there in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of restaurants, shops, and hotels as R, S, and H, respectively.",
+        "Step 2: Establish the relationships between the variables based on the problem statement: R = H + 5 and S = 3H.",
+        "Step 3: Use the information that the total number of businesses is 25 to create an equation: R + S + H = 25. Substitute R and S from step 2 into this equation to get (H + 5) + 3H + H = 25, simplifying to 5H + 5 = 25.",
+        "Step 4: Solve the equation from step 3 for H: 5H = 20, therefore H = 4.",
+        "Step 5: Verify the solution by checking if the total number of employees matches the given information: 10*R + 5*S + 15*H = 250. Substitute R and S using the relationships found, then use the value of H found in step 4 to calculate the total number of employees."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of restaurants, shops, and hotels as R, S, and H, respectively.",
+        "ପଦକ୍ଷେପ (step) 2: Establish the relationships between the variables based on the problem statement: R = H + 5 and S = 3H.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information that the ମୋଟ (total) number of businesses is 25 to create an ସମୀକରଣ (equation): R + S + H = 25. Substitute R and S from ପଦକ୍ଷେପ (step) 2 into this ସମୀକରଣ (equation) to get (H + 5) + 3H + H = 25, simplifying to 5H + 5 = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 for H: 5H = 20, ତେଣୁ (therefore) H = 4.",
+        "ପଦକ୍ଷେପ (step) 5: Verify the solution by checking ଯଦି (if) the ମୋଟ (total) number of employees matches the given information: 10*R + 5*S + 15*H = 250. Substitute R and S using the relationships found, ତାହେଲେ (then) use the value of H found in ପଦକ୍ଷେପ (step) 4 to calculate the ମୋଟ (total) number of employees."
+    ],
+    "final_answer": "4"
+}

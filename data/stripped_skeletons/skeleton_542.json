@@ -1,0 +1,20 @@
+{
+    "id": "542",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, which is 5 more than the number of cookies sold by each cafe. The number of cookies sold by each cafe is 3 more than the number of sandwiches sold by each restaurant. If a total of 240 items (cakes, cookies, and sandwiches) are sold by 5 bakeries, 8 cafes, and 12 restaurants per day, and each bakery sells 10 more items than each cafe, what is the number of sandwiches sold by each restaurant?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, which is 5 more than the number of cookies sold by each cafe. The number of cookies sold by each cafe is 3 more than the number of sandwiches sold by each restaurant. ଯଦି (if) a ମୋଟ (total) of 240 items (cakes, cookies, and sandwiches) are sold by 5 bakeries, 8 cafes, and 12 restaurants per day, and each bakery sells 10 more items than each cafe, what is the number of sandwiches sold by each restaurant?",
+    "original_steps": [
+        "Step 1: Define variables for the unknowns: let B be the number of cakes sold by each bakery, C be the number of cookies sold by each cafe, and S be the number of sandwiches sold by each restaurant.",
+        "Step 2: Express the number of cookies sold by each cafe in terms of the number of sandwiches sold by each restaurant: C = S + 3.",
+        "Step 3: Express the number of cakes sold by each bakery in terms of the number of cookies sold by each cafe: B = C + 5, and since C = S + 3, B = (S + 3) + 5 = S + 8.",
+        "Step 4: Formulate the total number of items sold by all shops: 5B + 8C + 12S = 240, and substitute B and C with their expressions in terms of S: 5(S + 8) + 8(S + 3) + 12S = 240.",
+        "Step 5: Solve the equation from step 4 to find S: 5S + 40 + 8S + 24 + 12S = 240, which simplifies to 25S + 64 = 240, then 25S = 176, and finally S = 176 / 25 = 7.04, but since the number of sandwiches must be a whole number, re-evaluate the equation considering the relationships between B, C, and S and the fact that each bakery sells 10 more items than each cafe."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the unknowns: let B be the number of cakes sold by each bakery, C be the number of cookies sold by each cafe, and S be the number of sandwiches sold by each restaurant.",
+        "ପଦକ୍ଷେପ (step) 2: Express the number of cookies sold by each cafe in terms of the number of sandwiches sold by each restaurant: C = S + 3.",
+        "ପଦକ୍ଷେପ (step) 3: Express the number of cakes sold by each bakery in terms of the number of cookies sold by each cafe: B = C + 5, and since C = S + 3, B = (S + 3) + 5 = S + 8.",
+        "ପଦକ୍ଷେପ (step) 4: Formulate the ମୋଟ (total) number of items sold by all shops: 5B + 8C + 12S = 240, and substitute B and C with their expressions in terms of S: 5(S + 8) + 8(S + 3) + 12S = 240.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 to find S: 5S + 40 + 8S + 24 + 12S = 240, which simplifies to 25S + 64 = 240, ତାହେଲେ (then) 25S = 176, and finally S = 176 / 25 = 7.04, but since the number of sandwiches must be a whole number, re-evaluate the ସମୀକରଣ (equation) considering the relationships between B, C, and S and the fact that each bakery sells 10 more items than each cafe."
+    ],
+    "final_answer": "7"
+}

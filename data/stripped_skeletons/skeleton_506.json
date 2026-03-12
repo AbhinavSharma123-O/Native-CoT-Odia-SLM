@@ -1,0 +1,20 @@
+{
+    "id": "506",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The total number of employees in all shops is 240. Type A shops have 15 more employees than Type B shops. Type C shops have 20 fewer employees than Type A shops. If the ratio of the number of Type A shops to Type B shops is 3:5 and the ratio of the number of Type C shops to Type A shops is 2:3, what is the total number of shops in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 240. Type A shops have 15 more employees than Type B shops. Type C shops have 20 fewer employees than Type A shops. ଯଦି (if) the ratio of the number of Type A shops to Type B shops is 3:5 and the ratio of the number of Type C shops to Type A shops is 2:3, what is the ମୋଟ (total) number of shops in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop, let's denote the number of employees in Type A shops as A, Type B shops as B, and Type C shops as C.",
+        "Step 2: Express the relationships between the number of employees in each type of shop using the given information: A = B + 15, C = A - 20.",
+        "Step 3: Use the given ratios to express the number of shops of each type in terms of a common variable. Let's denote the number of Type A shops as 3x and the number of Type B shops as 5x. Then, the number of Type C shops is (2/3)*3x = 2x.",
+        "Step 4: Express the total number of employees using the variables defined and the relationships between them: Total = (Number of Type A shops * A) + (Number of Type B shops * B) + (Number of Type C shops * C). Substitute the expressions for A, B, and C from Step 2, and the expressions for the number of shops from Step 3.",
+        "Step 5: Solve the equation for the total number of employees, which is given as 240, to find the value of x. Then, calculate the total number of shops by adding the number of shops of each type: Total shops = 3x + 5x + 2x."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop, let's denote the number of employees in Type A shops as A, Type B shops as B, and Type C shops as C.",
+        "ପଦକ୍ଷେପ (step) 2: Express the relationships between the number of employees in each type of shop using the given information: A = B + 15, C = A - 20.",
+        "ପଦକ୍ଷେପ (step) 3: Use the given ratios to express the number of shops of each type in terms of a common ଚଳ (variable). Let's denote the number of Type A shops as 3x and the number of Type B shops as 5x. ତାହେଲେ (then), the number of Type C shops is (2/3)*3x = 2x.",
+        "ପଦକ୍ଷେପ (step) 4: Express the ମୋଟ (total) number of employees using the variables defined and the relationships between them: ମୋଟ (total) = (Number of Type A shops * A) + (Number of Type B shops * B) + (Number of Type C shops * C). Substitute the expressions for A, B, and C from ପଦକ୍ଷେପ (step) 2, and the expressions for the number of shops from ପଦକ୍ଷେପ (step) 3.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) for the ମୋଟ (total) number of employees, which is given as 240, to find the value of x. ତାହେଲେ (then), calculate the ମୋଟ (total) number of shops by adding the number of shops of each type: ମୋଟ (total) shops = 3x + 5x + 2x."
+    ],
+    "final_answer": "30"
+}

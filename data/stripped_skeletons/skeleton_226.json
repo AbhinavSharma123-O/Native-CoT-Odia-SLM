@@ -1,0 +1,20 @@
+{
+    "id": "226",
+    "original_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and florists. Each shop has a different number of employees. The total number of employees in all shops is 60. The number of employees in each bakery is 5 more than the number of employees in each butcher shop. The number of employees in each florist is 2 less than the number of employees in each bakery. If there are 5 bakeries, 3 butcher shops, and 2 florists, what is the number of employees in each type of shop?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, butcher shops, and florists. Each shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 60. The number of employees in each bakery is 5 more than the number of employees in each butcher shop. The number of employees in each florist is 2 less than the number of employees in each bakery. ଯଦି (if) there are 5 bakeries, 3 butcher shops, and 2 florists, what is the number of employees in each type of shop?",
+    "original_steps": [
+        "Step 1: Define variables for the number of employees in each type of shop: let B be the number of employees in each bakery, U be the number of employees in each butcher shop, and F be the number of employees in each florist.",
+        "Step 2: Set up equations based on the given information: B = U + 5 and F = B - 2.",
+        "Step 3: Calculate the total number of employees using the defined variables: 5B + 3U + 2F = 60.",
+        "Step 4: Substitute the expressions for B and F from step 2 into the equation from step 3: 5(U + 5) + 3U + 2((U + 5) - 2) = 60.",
+        "Step 5: Simplify the equation from step 4 and solve for U: 5U + 25 + 3U + 2U + 6 = 60, which simplifies to 10U + 31 = 60, then 10U = 29, and finally U = 2.9."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of employees in each type of shop: let B be the number of employees in each bakery, U be the number of employees in each butcher shop, and F be the number of employees in each florist.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: B = U + 5 and F = B - 2.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of employees using the defined variables: 5B + 3U + 2F = 60.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for B and F from ପଦକ୍ଷେପ (step) 2 into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3: 5(U + 5) + 3U + 2((U + 5) - 2) = 60.",
+        "ପଦକ୍ଷେପ (step) 5: Simplify the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 and solve for U: 5U + 25 + 3U + 2U + 6 = 60, which simplifies to 10U + 31 = 60, ତାହେଲେ (then) 10U = 29, and finally U = 2.9."
+    ],
+    "final_answer": "B = 7.9, U = 2.9, F = 5.9"
+}

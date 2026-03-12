@@ -1,0 +1,12 @@
+{
+    "id": "282",
+    "problem": "In the city of Azura, there are three types of trains: the Azure, the Onyx, and the Lumina. Each type of train has a different speed and capacity. The Azure train travels at 80 km/h and can carry 200 passengers. The Onyx train travels at 60 km/h and can carry 300 passengers. The Lumina train travels at 100 km/h and can carry 250 passengers. On a given day, the Azure train is fully loaded and travels from Azura to the city of Eldar, a distance of 240 km. At the same time, the Onyx train, which is half full, travels from Eldar to Azura. Meanwhile, the Lumina train, which is three-quarters full, travels from Azura to a city 120 km away. How many passengers will have traveled on all three trains by the time the Lumina train reaches its destination, assuming the Onyx train will have reached Azura and the Azure train will have reached Eldar?",
+    "reasoning_steps": [
+        "Step 1: Calculate the time it takes for the Azure train to travel from Azura to Eldar. This can be found by dividing the distance by the speed of the Azure train.",
+        "Step 2: Determine the time it takes for the Onyx train to travel from Eldar to Azura. This can be calculated by dividing the distance by the speed of the Onyx train.",
+        "Step 3: Calculate the time it takes for the Lumina train to reach its destination. This involves dividing the distance the Lumina train travels by its speed.",
+        "Step 4: Find the number of passengers on each train. For the Azure train, it's fully loaded, so it has 200 passengers. For the Onyx train, it's half full, so it has 150 passengers. For the Lumina train, it's three-quarters full, so it has 187.5 passengers.",
+        "Step 5: Since the question asks for the total number of passengers traveled on all three trains by the time the Lumina train reaches its destination, we need to consider if the Azure and Onyx trains would have completed their journeys. Given the distances and speeds, the Azure train takes 3 hours to reach Eldar, the Onyx train takes 4 hours to reach Azura, and the Lumina train takes 1.2 hours to reach its destination. Thus, by the time the Lumina train reaches its destination, only the Azure train will have reached Eldar, and the Onyx train will still be en route. Therefore, we only consider the passengers on the Azure and Lumina trains, as well as the passengers that would have traveled on the Onyx train up to the point the Lumina train reaches its destination."
+    ],
+    "final_answer": "537.5"
+}

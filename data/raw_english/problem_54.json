@@ -1,0 +1,12 @@
+{
+    "id": "54",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The town has a total of 240 employees. Type A shops have 5 more employees than Type B shops. Type C shops have 3 times as many employees as Type B shops. If there are 8 Type A shops, 12 Type B shops, and 4 Type C shops, how many employees does a Type B shop have?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in Type A shops as A, Type B shops as B, and Type C shops as C.",
+        "Step 2: Translate the given information into mathematical equations. We have: A = B + 5, C = 3B, and the total number of employees equation 8A + 12B + 4C = 240.",
+        "Step 3: Substitute the expressions for A and C from the first two equations into the total number of employees equation to get an equation in terms of B only. This gives us 8(B + 5) + 12B + 4(3B) = 240.",
+        "Step 4: Simplify the equation from Step 3 to solve for B. Expanding gives 8B + 40 + 12B + 12B = 240. Combining like terms yields 32B + 40 = 240.",
+        "Step 5: Solve the simplified equation for B. Subtract 40 from both sides to get 32B = 200, then divide by 32 to find B."
+    ],
+    "final_answer": "6.25"
+}

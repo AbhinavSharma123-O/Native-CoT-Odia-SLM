@@ -1,0 +1,20 @@
+{
+    "id": "347",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $x$ pastries per day, with a selling price of $2y$ dollars each. The town has a total of 15 shops, with 5 more bakeries than cafes and 2 more restaurants than bakeries. If a cafe sells half the number of items as a bakery, but at a price that is $0.5y$ dollars higher, and a restaurant sells 3 times as many items as a bakery at the same price per item as a cafe, what is the total daily revenue of all shops in the town when x = 200, y = 3, given that the total number of items sold by all shops in a day is 10,000?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a ମୋଟ (total) of $x$ pastries per day, with a selling price of $2y$ dollars each. The town has a ମୋଟ (total) of 15 shops, with 5 more bakeries than cafes and 2 more restaurants than bakeries. ଯଦି (if) a cafe sells half the number of items as a bakery, but at a price that is $0.5y$ dollars higher, and a restaurant sells 3 times as many items as a bakery at the same price per item as a cafe, what is the ମୋଟ (total) daily revenue of all shops in the town when x = 200, y = 3, given that the ମୋଟ (total) number of items sold by all shops in a day is 10,000?",
+    "original_steps": [
+        "Step 1: Determine the number of each type of shop in the town based on the given information about their relative quantities.",
+        "Step 2: Calculate the number of items sold by each type of shop per day, using the given values of x and the relationships between the shops.",
+        "Step 3: Find the selling price per item for each type of shop, using the given value of y and the price relationships between the shops.",
+        "Step 4: Calculate the daily revenue of each type of shop by multiplying the number of items sold per day by the selling price per item.",
+        "Step 5: Sum the daily revenues of all shops to find the total daily revenue of the town."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of each type of shop in the town based on the given information about their relative quantities.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of items sold by each type of shop per day, using the given values of x and the relationships between the shops.",
+        "ପଦକ୍ଷେପ (step) 3: Find the selling price per item for each type of shop, using the given value of y and the price relationships between the shops.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the daily revenue of each type of shop by multiplying the number of items sold per day by the selling price per item.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the daily revenues of all shops to find the ମୋଟ (total) daily revenue of the town."
+    ],
+    "final_answer": "To be calculated based on given steps, requiring detailed computation"
+}

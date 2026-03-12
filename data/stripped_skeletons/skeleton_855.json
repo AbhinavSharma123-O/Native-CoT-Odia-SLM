@@ -1,0 +1,20 @@
+{
+    "id": "855",
+    "original_problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with 30% being residential, 45% commercial, and the rest industrial. If the average residential building has 8 apartments, the average commercial building has 12 offices, and the average industrial building has 20 workers, what is the total number of people (residents, office workers, and industrial workers) in the town, given that each residential apartment has an average of 2.5 residents, each commercial office has an average of 5 workers, and each industrial worker is a single individual?",
+    "deconstructed_problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a ମୋଟ (total) of 240 buildings, with 30% being residential, 45% commercial, and the rest industrial. ଯଦି (if) the average residential building has 8 apartments, the average commercial building has 12 offices, and the average industrial building has 20 workers, what is the ମୋଟ (total) number of people (residents, office workers, and industrial workers) in the town, given that each residential apartment has an average of 2.5 residents, each commercial office has an average of 5 workers, and each industrial worker is a single individual?",
+    "original_steps": [
+        "Step 1: Calculate the number of residential buildings by finding 30% of 240.",
+        "Step 2: Calculate the number of commercial buildings by finding 45% of 240, then calculate the number of industrial buildings by subtracting the sum of residential and commercial buildings from the total number of buildings.",
+        "Step 3: Determine the total number of apartments in all residential buildings, the total number of offices in all commercial buildings, and the total number of workers in all industrial buildings.",
+        "Step 4: Calculate the total number of residents by multiplying the total number of apartments by the average number of residents per apartment, the total number of commercial workers by multiplying the total number of offices by the average number of workers per office, and consider the total number of industrial workers.",
+        "Step 5: Sum the totals from residents, commercial workers, and industrial workers to find the overall population."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of residential buildings by finding 30% of 240.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of commercial buildings by finding 45% of 240, ତାହେଲେ (then) calculate the number of industrial buildings by subtracting the ସମଷ୍ଟି (sum) of residential and commercial buildings from the ମୋଟ (total) number of buildings.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the ମୋଟ (total) number of apartments in all residential buildings, the ମୋଟ (total) number of offices in all commercial buildings, and the ମୋଟ (total) number of workers in all industrial buildings.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of residents by multiplying the ମୋଟ (total) number of apartments by the average number of residents per apartment, the ମୋଟ (total) number of commercial workers by multiplying the ମୋଟ (total) number of offices by the average number of workers per office, and consider the ମୋଟ (total) number of industrial workers.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the totals from residents, commercial workers, and industrial workers to find the overall population."
+    ],
+    "final_answer": "2940"
+}

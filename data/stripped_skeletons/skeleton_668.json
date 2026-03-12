@@ -1,0 +1,20 @@
+{
+    "id": "668",
+    "original_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 200 cubic meters per hour, and River B flows into River C at a rate of 300 cubic meters per hour. River C has a dam that releases water at a rate of 100 cubic meters per hour. On a given day, River A has 1200 cubic meters of water, River B has 800 cubic meters, and River C has 1500 cubic meters. If it starts raining and River A's flow rate increases by 25%, River B's flow rate increases by 10%, and the dam's release rate decreases by 20%, how many hours will it take for River C to reach 3000 cubic meters, assuming the increased flow rates and decreased dam release rate remain constant?",
+    "deconstructed_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 200 cubic meters per hour, and River B flows into River C at a rate of 300 cubic meters per hour. River C has a dam that releases water at a rate of 100 cubic meters per hour. On a given day, River A has 1200 cubic meters of water, River B has 800 cubic meters, and River C has 1500 cubic meters. ଯଦି (if) it starts raining and River A's flow rate increases by 25%, River B's flow rate increases by 10%, and the dam's release rate decreases by 20%, how many hours will it take for River C to reach 3000 cubic meters, assuming the increased flow rates and decreased dam release rate remain constant?",
+    "original_steps": [
+        "Step 1: Calculate the initial total flow rate into River C by adding the flow rates of River A and River B and subtracting the dam's release rate.",
+        "Step 2: Determine the new flow rates of River A and River B after the increase due to rain, and the new dam release rate after the decrease.",
+        "Step 3: Calculate the net flow rate into River C after the changes, taking into account the new flow rates of River A and River B and the new dam release rate.",
+        "Step 4: Calculate the total amount of water that needs to flow into River C for it to reach 3000 cubic meters from its initial amount.",
+        "Step 5: Divide the total amount of water needed by the net flow rate into River C to find the number of hours required to reach 3000 cubic meters."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial ମୋଟ (total) flow rate into River C by adding the flow rates of River A and River B and subtracting the dam's release rate.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the new flow rates of River A and River B after the increase due to rain, and the new dam release rate after the decrease.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the net flow rate into River C after the changes, taking into account the new flow rates of River A and River B and the new dam release rate.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) amount of water that needs to flow into River C for it to reach 3000 cubic meters from its initial amount.",
+        "ପଦକ୍ଷେପ (step) 5: ହରଣ (divide) the ମୋଟ (total) amount of water needed by the net flow rate into River C to find the number of hours required to reach 3000 cubic meters."
+    ],
+    "final_answer": "It will take 6 hours for River C to reach 3000 cubic meters."
+}

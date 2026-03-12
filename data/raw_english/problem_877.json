@@ -1,0 +1,12 @@
+{
+    "id": "877",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 200 units of flour per day, while each cafe uses 150 units, and each restaurant uses 300 units. The village has a total of 15 shops, with 5 more bakeries than cafes, and 2 fewer restaurants than bakeries. If the total flour usage in the village is 4200 units per day, how many bakeries, cafes, and restaurants are there in the village?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and establish the relationships between them based on the given information.",
+        "Step 2: Formulate equations based on the total number of shops and the relationships between the types of shops. This includes B + C + R = 15, B = C + 5, and R = B - 2.",
+        "Step 3: Substitute the expressions for B and R from Step 2 into the equation for the total number of shops to find the value of C, which then allows us to calculate B and R.",
+        "Step 4: Once the values of B, C, and R are determined, calculate the total flour usage for each type of shop and verify that it matches the given total of 4200 units per day.",
+        "Step 5: Solve the system of equations to find the exact numbers of bakeries, cafes, and restaurants in the village."
+    ],
+    "final_answer": "8 bakeries, 3 cafes, and 4 restaurants"
+}

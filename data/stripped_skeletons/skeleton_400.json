@@ -1,0 +1,24 @@
+{
+    "id": "400",
+    "original_problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's total output, respectively. Factory A produces 120 units more than Factory B, and Factory C produces 50 units more than the combined output of Factories A and B. If the total output of the town is 1500 units, how many units does each factory produce?",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's ମୋଟ (total) output, respectively. Factory A produces 120 units more than Factory B, and Factory C produces 50 units more than the combined output of Factories A and B. ଯଦି (if) the ମୋଟ (total) output of the town is 1500 units, how many units does each factory produce?",
+    "original_steps": [
+        "Step 1: Calculate the total output of each factory as a percentage of the total output: Factory A = 0.3 * 1500, Factory B = 0.25 * 1500, Factory C = 0.45 * 1500",
+        "Step 2: Set up an equation using the given information that Factory A produces 120 units more than Factory B: 0.3 * 1500 = 0.25 * 1500 + 120",
+        "Step 3: Solve for the total output using the equation from Step 2 to verify consistency with the given data",
+        "Step 4: Use the information that Factory C produces 50 units more than the combined output of Factories A and B to set up another equation: Factory C = Factory A + Factory B + 50",
+        "Step 5: Substitute the percentages of total output for each factory into the equation from Step 4 and solve for the actual output of each factory"
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) output of each factory as a percentage of the ମୋଟ (total) output: Factory A = 0.3 * 1500, Factory B = 0.25 * 1500, Factory C = 0.45 * 1500",
+        "ପଦକ୍ଷେପ (step) 2: Set up an ସମୀକରଣ (equation) using the given information that Factory A produces 120 units more than Factory B: 0.3 * 1500 = 0.25 * 1500 + 120",
+        "ପଦକ୍ଷେପ (step) 3: Solve for the ମୋଟ (total) output using the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 2 to verify consistency with the given data",
+        "ପଦକ୍ଷେପ (step) 4: Use the information that Factory C produces 50 units more than the combined output of Factories A and B to set up another ସମୀକରଣ (equation): Factory C = Factory A + Factory B + 50",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the percentages of ମୋଟ (total) output for each factory into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 and solve for the actual output of each factory"
+    ],
+    "final_answer": {
+        "Factory A": 450,
+        "Factory B": 330,
+        "Factory C": 720
+    }
+}

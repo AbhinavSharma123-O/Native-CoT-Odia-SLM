@@ -1,0 +1,20 @@
+{
+    "id": "882",
+    "original_problem": "In a small town, there are three types of shops: cafes, bakeries, and restaurants. The town has a total of 25 shops. Each cafe has 5 employees, each bakery has 3 employees, and each restaurant has 7 employees. If the total number of employees in the town is 143, and there are 5 more bakeries than cafes, and the number of restaurants is one-third the total number of cafes and bakeries combined, how many shops of each type are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: cafes, bakeries, and restaurants. The town has a ମୋଟ (total) of 25 shops. Each cafe has 5 employees, each bakery has 3 employees, and each restaurant has 7 employees. ଯଦି (if) the ମୋଟ (total) number of employees in the town is 143, and there are 5 more bakeries than cafes, and the number of restaurants is one-third the ମୋଟ (total) number of cafes and bakeries combined, how many shops of each type are there in the town?",
+    "original_steps": [
+        "Step 1: Define variables for the number of cafes (c), bakeries (b), and restaurants (r), and set up equations based on the given information.",
+        "Step 2: Translate the information about the number of employees and the relationships between the types of shops into mathematical equations: 5c + 3b + 7r = 143, b = c + 5, and r = (c + b) / 3.",
+        "Step 3: Substitute the expression for b from the second equation into the third equation to find a relationship between r and c: r = (c + c + 5) / 3, which simplifies to r = (2c + 5) / 3.",
+        "Step 4: Substitute the expressions for b and r from the previous steps into the first equation to solve for c: 5c + 3(c + 5) + 7((2c + 5) / 3) = 143.",
+        "Step 5: Solve the equation from step 4 for c, then use the values of c to find b and r, ensuring all values are whole numbers since they represent counts of shops."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of cafes (c), bakeries (b), and restaurants (r), and set up equations based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Translate the information about the number of employees and the relationships between the types of shops into mathematical equations: 5c + 3b + 7r = 143, b = c + 5, and r = (c + b) / 3.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expression for b from the second ସମୀକରଣ (equation) into the third ସମୀକରଣ (equation) to find a relationship between r and c: r = (c + c + 5) / 3, which simplifies to r = (2c + 5) / 3.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for b and r from the previous steps into the first ସମୀକରଣ (equation) to solve for c: 5c + 3(c + 5) + 7((2c + 5) / 3) = 143.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 for c, ତାହେଲେ (then) use the values of c to find b and r, ensuring all values are whole numbers since they represent counts of shops."
+    ],
+    "final_answer": "There are 4 cafes, 9 bakeries, and 12 restaurants in the town."
+}

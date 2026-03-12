@@ -1,0 +1,12 @@
+{
+    "id": "19",
+    "problem": "In a small town, there are three types of buses: Red, Blue, and Green. The Red bus travels from Town A to Town B at an average speed of 40 miles per hour and takes 2 hours to complete the trip. The Blue bus travels from Town B to Town C at an average speed of 60 miles per hour and takes 1.5 hours to complete the trip. The Green bus travels from Town A to Town C but makes a stop in Town B, where 1/4 of the passengers get off, and then continues to Town C. If the Green bus travels at an average speed of 50 miles per hour, and it takes 4 hours to complete the trip from Town A to Town C, including the 30-minute stop in Town B, what is the distance between Town A and Town C?",
+    "reasoning_steps": [
+        "Step 1: Calculate the distance from Town A to Town B using the formula Distance = Speed * Time for the Red bus.",
+        "Step 2: Calculate the distance from Town B to Town C using the formula Distance = Speed * Time for the Blue bus.",
+        "Step 3: Calculate the total time the Green bus spends traveling by subtracting the 30-minute stop from the total trip time and convert this to hours.",
+        "Step 4: Determine the distance the Green bus travels from Town A to Town C using the formula Distance = Speed * Time, taking into account the time calculated in Step 3.",
+        "Step 5: Combine the information from the previous steps to ensure a logical consistency and calculate the final answer."
+    ],
+    "final_answer": "220 miles"
+}

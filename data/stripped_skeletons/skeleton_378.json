@@ -1,0 +1,24 @@
+{
+    "id": "378",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. If the number of employees in the cafes is a multiple of 3, and the total number of employees in the bakeries and cafes is 60, find the number of employees in each type of shop.",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. ଯଦି (if) the number of employees in the cafes is a multiple of 3, and the ମୋଟ (total) number of employees in the bakeries and cafes is 60, find the number of employees in each type of shop.",
+    "original_steps": [
+        "Step 1: Let's denote the number of employees in the cafes as x. Since the number of employees in the cafes is a multiple of 3, x can be expressed as 3n, where n is an integer.",
+        "Step 2: The number of employees in the bakeries is 5 more than the number of employees in the cafes, so it can be expressed as x + 5, or 3n + 5.",
+        "Step 3: The total number of employees in the bakeries and cafes is 60, so we can set up the equation x + (x + 5) = 60, which simplifies to 2x + 5 = 60.",
+        "Step 4: Solving for x, we get 2x = 55, and x = 27.5. However, since x must be a multiple of 3, we can try different values of n to find the correct value of x. If we try n = 9, we get x = 3 * 9 = 27, which satisfies the condition that the total number of employees in the bakeries and cafes is 60.",
+        "Step 5: Now that we have the correct value of x, we can find the number of employees in the bakeries (x + 5 = 32) and the number of employees in the restaurants (32 + 10 = 42)."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Let's denote the number of employees in the cafes as x. Since the number of employees in the cafes is a multiple of 3, x can be expressed as 3n, where n is an integer.",
+        "ପଦକ୍ଷେପ (step) 2: The number of employees in the bakeries is 5 more than the number of employees in the cafes, so it can be expressed as x + 5, or 3n + 5.",
+        "ପଦକ୍ଷେପ (step) 3: The ମୋଟ (total) number of employees in the bakeries and cafes is 60, so we can set up the ସମୀକରଣ (equation) x + (x + 5) = 60, which simplifies to 2x + 5 = 60.",
+        "ପଦକ୍ଷେପ (step) 4: Solving for x, we get 2x = 55, and x = 27.5. However, since x must be a multiple of 3, we can try different values of n to find the correct value of x. ଯଦି (if) we try n = 9, we get x = 3 * 9 = 27, which satisfies the condition that the ମୋଟ (total) number of employees in the bakeries and cafes is 60.",
+        "ପଦକ୍ଷେପ (step) 5: Now that we have the correct value of x, we can find the number of employees in the bakeries (x + 5 = 32) and the number of employees in the restaurants (32 + 10 = 42)."
+    ],
+    "final_answer": {
+        "cafe_employees": 27,
+        "bakery_employees": 32,
+        "restaurant_employees": 42
+    }
+}

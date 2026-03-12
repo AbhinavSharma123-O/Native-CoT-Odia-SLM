@@ -1,0 +1,20 @@
+{
+    "id": "445",
+    "original_problem": "In a small town, there are 5 factories producing goods. Factories A, B, and C produce 250, 300, and 200 units per day, respectively. Factories D and E produce a combined total of 550 units per day. However, due to a mechanical issue, Factory A's production decreases by 20% on Tuesdays and Thursdays. On Mondays, Factory B increases production by 15% and Factory C decreases production by 10%. Factory D produces 100 more units than Factory E on every day except Wednesday, when Factory E produces 50 more units than Factory D. Determine the total number of units produced by all factories on a Wednesday.",
+    "deconstructed_problem": "In a small town, there are 5 factories producing goods. Factories A, B, and C produce 250, 300, and 200 units per day, respectively. Factories D and E produce a combined ମୋଟ (total) of 550 units per day. However, due to a mechanical issue, Factory A's production decreases by 20% on Tuesdays and Thursdays. On Mondays, Factory B increases production by 15% and Factory C decreases production by 10%. Factory D produces 100 more units than Factory E on every day except Wednesday, when Factory E produces 50 more units than Factory D. Determine the ମୋଟ (total) number of units produced by all factories on a Wednesday.",
+    "original_steps": [
+        "Step 1: Calculate the adjusted production of Factory A on a Wednesday, which remains the same as its normal production of 250 units.",
+        "Step 2: Calculate the adjusted production of Factory B on a Wednesday, which remains the same as its normal production of 300 units.",
+        "Step 3: Calculate the adjusted production of Factory C on a Wednesday, which remains the same as its normal production of 200 units.",
+        "Step 4: Determine the production of Factories D and E. Since Factory D produces 100 more units than Factory E on every day except Wednesday, let's denote Factory E's production as x. Then, Factory D's production is x + 100. The total production of Factories D and E is 550 units, so we can write the equation x + (x + 100) = 550.",
+        "Step 5: Solve the equation from Step 4 to find the production of Factories D and E. On a Wednesday, Factory E produces 50 more units than Factory D, so let's denote Factory D's production as y. Then, Factory E's production is y + 50. The total production of Factories D and E is still 550 units, so we can write the equation y + (y + 50) = 550."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the adjusted production of Factory A on a Wednesday, which remains the same as its normal production of 250 units.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the adjusted production of Factory B on a Wednesday, which remains the same as its normal production of 300 units.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the adjusted production of Factory C on a Wednesday, which remains the same as its normal production of 200 units.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the production of Factories D and E. Since Factory D produces 100 more units than Factory E on every day except Wednesday, let's denote Factory E's production as x. ତାହେଲେ (then), Factory D's production is x + 100. The ମୋଟ (total) production of Factories D and E is 550 units, so we can write the ସମୀକରଣ (equation) x + (x + 100) = 550.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 to find the production of Factories D and E. On a Wednesday, Factory E produces 50 more units than Factory D, so let's denote Factory D's production as y. ତାହେଲେ (then), Factory E's production is y + 50. The ମୋଟ (total) production of Factories D and E is still 550 units, so we can write the ସମୀକରଣ (equation) y + (y + 50) = 550."
+    ],
+    "final_answer": "1200"
+}

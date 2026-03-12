@@ -1,0 +1,12 @@
+{
+    "id": "500",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, which is 15 less than the number of sandwiches sold by each cafe. The number of sandwiches sold by each cafe is 5 more than the number of meals served by each restaurant. If the total number of cakes, sandwiches, and meals sold in the village per day is 1050 and there are 5 more bakeries than cafes and 3 more cafes than restaurants, how many bakeries are there in the village?",
+    "reasoning_steps": [
+        "Step 1: Define variables to represent the number of bakeries, cafes, and restaurants. Let B be the number of bakeries, C be the number of cafes, and R be the number of restaurants.",
+        "Step 2: Express the relationships between the number of bakeries, cafes, and restaurants. Given there are 5 more bakeries than cafes (B = C + 5) and 3 more cafes than restaurants (C = R + 3).",
+        "Step 3: Determine the number of items sold by each type of shop in terms of a single variable. If each restaurant serves x meals, then each cafe sells x + 5 sandwiches, and each bakery sells (x + 5) - 15 = x - 10 cakes.",
+        "Step 4: Set up an equation based on the total number of items sold. The total number of items (cakes, sandwiches, and meals) sold per day is given as 1050. Using the expressions from Step 3 and the relationships between B, C, and R, we can write an equation in terms of x and the number of each type of shop.",
+        "Step 5: Solve the equation from Step 4 to find x, then use the relationships from Step 2 to find B, the number of bakeries. First, express B and C in terms of R: since C = R + 3 and B = C + 5, B = (R + 3) + 5 = R + 8. The total number of items sold is thus: B(x - 10) + C(x + 5) + R(x) = 1050. Substitute B, C, and their relationships to R into this equation and solve for x and then for B."
+    ],
+    "final_answer": "10"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "990",
+    "original_problem": "There are five houses in a row, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clues: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the yellow house. The person who owns the red house does not live next to the person who drinks coffee. The American lives in the house next to the person who drinks soda. The person who drinks tea lives in the green house. The person who owns the green house lives in the house next to the person who drinks water.",
+    "deconstructed_problem": "There are five houses in a row, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clues: The Canadian lives in the first house. The person who drinks milk lives next to the person who owns the yellow house. The person who owns the red house does not live next to the person who drinks coffee. The American lives in the house next to the person who drinks soda. The person who drinks tea lives in the green house. The person who owns the green house lives in the house next to the person who drinks water.",
+    "original_steps": [
+        "Step 1: Determine the position of the Canadian and the color of their house based on the given clue that the Canadian lives in the first house.",
+        "Step 2: Use the clue about the person who drinks milk to find the position of the yellow house and deduce the possible positions of the other houses.",
+        "Step 3: Apply the clue about the red house and the person who drinks coffee to narrow down the possible arrangements of the houses.",
+        "Step 4: Utilize the clue about the American and the person who drinks soda to further restrict the possible arrangements.",
+        "Step 5: Apply the remaining clues to find the exact color of each house, the nationality of its occupant, and their favorite drink."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the position of the Canadian and the color of their house based on the given clue that the Canadian lives in the first house.",
+        "ପଦକ୍ଷେପ (step) 2: Use the clue about the person who drinks milk to find the position of the yellow house and deduce the possible positions of the other houses.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the clue about the red house and the person who drinks coffee to narrow down the possible arrangements of the houses.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize the clue about the American and the person who drinks soda to further restrict the possible arrangements.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the remaining clues to find the exact color of each house, the nationality of its occupant, and their favorite drink."
+    ],
+    "final_answer": {
+        "house1": {
+            "color": "yellow",
+            "nationality": "Canadian",
+            "drink": "milk"
+        },
+        "house2": {
+            "color": "blue",
+            "nationality": "American",
+            "drink": "soda"
+        },
+        "house3": {
+            "color": "red",
+            "nationality": "British",
+            "drink": "coffee"
+        },
+        "house4": {
+            "color": "green",
+            "nationality": "Indian",
+            "drink": "tea"
+        },
+        "house5": {
+            "color": "white",
+            "nationality": "Japanese",
+            "drink": "water"
+        }
+    }
+}

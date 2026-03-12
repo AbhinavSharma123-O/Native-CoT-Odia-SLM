@@ -1,0 +1,24 @@
+{
+    "id": "707",
+    "original_problem": "In a small town, there are three types of shops: grocery stores, bakeries, and cafes. The total number of shops is 45. The number of grocery stores is 5 more than the number of bakeries, and the number of cafes is 10 less than the number of bakeries. If 1/3 of the grocery stores, 1/2 of the bakeries, and 2/3 of the cafes are open on Sundays, and the total number of shops open on Sundays is 20, how many bakeries are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: grocery stores, bakeries, and cafes. The ମୋଟ (total) number of shops is 45. The number of grocery stores is 5 more than the number of bakeries, and the number of cafes is 10 less than the number of bakeries. ଯଦି (if) 1/3 of the grocery stores, 1/2 of the bakeries, and 2/3 of the cafes are open on Sundays, and the ମୋଟ (total) number of shops open on Sundays is 20, how many bakeries are there in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of shop: let G be the number of grocery stores, B be the number of bakeries, and C be the number of cafes.",
+        "Step 2: Establish the relationships between the variables based on the given information: G = B + 5 and C = B - 10.",
+        "Step 3: Express the total number of shops in terms of B: since G + B + C = 45, substituting G and C from step 2 gives (B + 5) + B + (B - 10) = 45, which simplifies to 3B - 5 = 45.",
+        "Step 4: Solve for B: adding 5 to both sides of the equation from step 3 gives 3B = 50, and dividing both sides by 3 gives B = 50 / 3.",
+        "Step 5: Calculate the number of shops open on Sundays in terms of B: (1/3)(B + 5) + (1/2)B + (2/3)(B - 10) = 20, which simplifies to (B + 5)/3 + B/2 + (2B - 20)/3 = 20.",
+        "Step 6: Solve the equation from step 5 for B: multiplying the entire equation by 6 to clear the denominators gives 2(B + 5) + 3B + 2(2B - 20) = 120, which simplifies to 2B + 10 + 3B + 4B - 40 = 120.",
+        "Step 7: Continue simplifying the equation from step 6: combining like terms gives 9B - 30 = 120, adding 30 to both sides gives 9B = 150, and dividing both sides by 9 gives B = 150 / 9 = 50 / 3."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of shop: let G be the number of grocery stores, B be the number of bakeries, and C be the number of cafes.",
+        "ପଦକ୍ଷେପ (step) 2: Establish the relationships between the variables based on the given information: G = B + 5 and C = B - 10.",
+        "ପଦକ୍ଷେପ (step) 3: Express the ମୋଟ (total) number of shops in terms of B: since G + B + C = 45, substituting G and C from ପଦକ୍ଷେପ (step) 2 gives (B + 5) + B + (B - 10) = 45, which simplifies to 3B - 5 = 45.",
+        "ପଦକ୍ଷେପ (step) 4: Solve for B: adding 5 to both sides of the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 gives 3B = 50, and dividing both sides by 3 gives B = 50 / 3.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of shops open on Sundays in terms of B: (1/3)(B + 5) + (1/2)B + (2/3)(B - 10) = 20, which simplifies to (B + 5)/3 + B/2 + (2B - 20)/3 = 20.",
+        "ପଦକ୍ଷେପ (step) 6: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 5 for B: multiplying the entire ସମୀକରଣ (equation) by 6 to clear the denominators gives 2(B + 5) + 3B + 2(2B - 20) = 120, which simplifies to 2B + 10 + 3B + 4B - 40 = 120.",
+        "ପଦକ୍ଷେପ (step) 7: Continue simplifying the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 6: combining like terms gives 9B - 30 = 120, adding 30 to both sides gives 9B = 150, and dividing both sides by 9 gives B = 150 / 9 = 50 / 3."
+    ],
+    "final_answer": "16.67"
+}

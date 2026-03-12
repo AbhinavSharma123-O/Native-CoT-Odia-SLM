@@ -1,0 +1,12 @@
+{
+    "id": "360",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town has three water pumps: Pump 1 fills Tank A at a rate of 100 liters per minute, Pump 2 fills Tank B at a rate of 150 liters per minute, and Pump 3 fills Tank C at a rate of 200 liters per minute. However, due to some technical issues, Pump 1 can only operate for 30 minutes before it needs to be shut down for 10 minutes for maintenance. Pump 2 operates continuously but at half its normal rate if Tank A is not being filled. Pump 3 operates at its normal rate only if both Tank A and Tank B are being filled simultaneously. If all pumps start operating at the same time and it takes 2 hours to fill all three tanks completely, how many minutes will Pump 1 be operational during this 2-hour period?",
+    "reasoning_steps": [
+        "Step 1: Determine the total capacity of all tanks and the combined rate at which they are filled when all pumps operate at their normal rates.",
+        "Step 2: Calculate the adjusted rate of Pump 2 when Tank A is not being filled and consider the impact of Pump 3's operation conditional on both Tank A and Tank B being filled.",
+        "Step 3: Establish the pattern of operation for Pump 1, accounting for its 30 minutes of operation followed by 10 minutes of downtime, and calculate how many complete cycles it can complete within the 2-hour timeframe.",
+        "Step 4: Consider the time when Pump 1 is not operational and how Pump 2's reduced rate affects the overall filling process, particularly in relation to Pump 3's conditional operation.",
+        "Step 5: Calculate the total time Pump 1 needs to be operational to fill the tanks within the given 2-hour constraint, considering the interplay of all pumps' operational conditions and rates."
+    ],
+    "final_answer": "80"
+}

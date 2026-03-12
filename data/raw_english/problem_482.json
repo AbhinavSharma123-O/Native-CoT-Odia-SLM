@@ -1,0 +1,12 @@
+{
+    "id": "482",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 2500 liters. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A to Tank C. Each pipe can transfer water at a different rate: Pipe 1 at 100 liters per hour, Pipe 2 at 150 liters per hour, and Pipe 3 at 50 liters per hour. If Tank A is initially filled to 80% of its capacity, Tank B is filled to 50% of its capacity, and Tank C is empty, how many hours will it take to fill Tank C to 90% of its capacity, given that all pipes operate simultaneously and continuously, and assuming no water is lost during transfer?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank: Tank A = 2000 * 0.8 = 1600 liters, Tank B = 3000 * 0.5 = 1500 liters, and Tank C = 0 liters.",
+        "Step 2: Determine the net flow rate into Tank C by considering the flow rates of Pipe 2 and Pipe 3. The net flow rate into Tank C is the sum of the flow rates of Pipe 2 and Pipe 3, but since Pipe 2's flow rate depends on the water level in Tank B, we need to consider the flow rate of Pipe 1 as well to understand how Tank B's water level changes over time.",
+        "Step 3: Set up equations to model the change in water levels over time for each tank, considering the flow rates and the initial conditions. Let's denote time in hours as 't'. The change in Tank A's water level is affected by the outflow through Pipe 1 and Pipe 3. The change in Tank B's water level is affected by the inflow from Pipe 1 and the outflow through Pipe 2.",
+        "Step 4: Since Tank C needs to be filled to 90% of its capacity, we calculate the target amount of water in Tank C: 2500 * 0.9 = 2250 liters. We then need to solve the system of equations established in Step 3 to find the time 't' when Tank C reaches this amount of water.",
+        "Step 5: Considering the continuous operation of the pipes and the initial conditions, we solve for 't' using the equations from Step 3, keeping in mind the net flow into Tank C and how the water levels in Tanks A and B change over time to affect this flow."
+    ],
+    "final_answer": "It will take approximately 18 hours to fill Tank C to 90% of its capacity."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "968",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A to Tank C. Pipe 1 fills Tank B at a rate of 100 liters per minute, Pipe 2 fills Tank C at a rate of 200 liters per minute, and Pipe 3 fills Tank C at a rate of 50 liters per minute. Initially, Tank A is filled with 1500 liters, Tank B is filled with 1000 liters, and Tank C is empty. If all pipes are opened simultaneously, how many minutes will it take to fill all tanks to their maximum capacity?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A to Tank C. Pipe 1 fills Tank B at a rate of 100 liters per minute, Pipe 2 fills Tank C at a rate of 200 liters per minute, and Pipe 3 fills Tank C at a rate of 50 liters per minute. Initially, Tank A is filled with 1500 liters, Tank B is filled with 1000 liters, and Tank C is empty. ଯଦି (if) all pipes are opened simultaneously, how many minutes will it take to fill all tanks to their maximum capacity?",
+    "original_steps": [
+        "Step 1: Determine the initial and maximum capacity of each tank to understand how much water needs to be added to each.",
+        "Step 2: Calculate the net rate at which water is being added to Tank B by Pipe 1 and then to Tank C by Pipe 2, considering that Tank B also receives water from Tank A and sends water to Tank C.",
+        "Step 3: Calculate the combined rate at which Tank C is being filled by both Pipe 2 and Pipe 3, taking into account the water being transferred from Tank B and directly from Tank A.",
+        "Step 4: Establish the limiting factor or the tank that will be filled last, which dictates the total time required to fill all tanks, considering the capacities and fill rates.",
+        "Step 5: Apply the concept of work done over time, using the rates and capacities to calculate the time it takes for all tanks to be filled to their maximum capacity."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the initial and maximum capacity of each tank to understand how much water needs to be added to each.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the net rate at which water is being added to Tank B by Pipe 1 and ତାହେଲେ (then) to Tank C by Pipe 2, considering that Tank B also receives water from Tank A and sends water to Tank C.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the combined rate at which Tank C is being filled by both Pipe 2 and Pipe 3, taking into account the water being transferred from Tank B and directly from Tank A.",
+        "ପଦକ୍ଷେପ (step) 4: Establish the limiting factor or the tank that will be filled last, which dictates the ମୋଟ (total) time required to fill all tanks, considering the capacities and fill rates.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the concept of work done over time, using the rates and capacities to calculate the time it takes for all tanks to be filled to their maximum capacity."
+    ],
+    "final_answer": "It will take 40 minutes to fill all tanks to their maximum capacity."
+}

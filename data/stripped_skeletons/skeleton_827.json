@@ -1,0 +1,20 @@
+{
+    "id": "827",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that the rate at which water is filled into the towers is directly proportional to the square root of the remaining capacity of each tower. On a particular day, Tower A starts with 1000 gallons, Tower B starts with 2000 gallons, and Tower C starts with 3000 gallons. The rate of filling for Tower A is 50 gallons per minute, for Tower B it is 70 gallons per minute, and for Tower C, it is 90 gallons per minute when the towers are empty. If the town's water supply can fill the towers at a rate that is 20% less than the maximum rate when any tower is 3/4 full, and 10% less when any tower is half full, calculate the time it takes to fill all three towers completely, assuming the rate of filling decreases linearly between these points.",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that the rate at which water is filled into the towers is directly proportional to the square root of the remaining capacity of each tower. On a particular day, Tower A starts with 1000 gallons, Tower B starts with 2000 gallons, and Tower C starts with 3000 gallons. The rate of filling for Tower A is 50 gallons per minute, for Tower B it is 70 gallons per minute, and for Tower C, it is 90 gallons per minute when the towers are empty. ଯଦି (if) the town's water supply can fill the towers at a rate that is 20% less than the maximum rate when any tower is 3/4 full, and 10% less when any tower is half full, calculate the time it takes to fill all three towers completely, assuming the rate of filling decreases linearly between these points.",
+    "original_steps": [
+        "Step 1: Calculate the initial filling rates for each tower based on their initial water levels.",
+        "Step 2: Determine the point at which each tower reaches 3/4 and 1/2 full, adjusting the filling rates according to the given conditions.",
+        "Step 3: Calculate the adjusted filling rates for each tower at these critical points, considering the 20% and 10% reductions.",
+        "Step 4: Use the adjusted rates to find the time required to fill each tower from its initial state to full, taking into account the changing rates as the towers fill.",
+        "Step 5: Find the maximum time from the calculated times for each tower, as this will be the time it takes to fill all three towers completely."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial filling rates for each tower based on their initial water levels.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the point at which each tower reaches 3/4 and 1/2 full, adjusting the filling rates according to the given conditions.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the adjusted filling rates for each tower at these critical points, considering the 20% and 10% reductions.",
+        "ପଦକ୍ଷେପ (step) 4: Use the adjusted rates to find the time required to fill each tower from its initial state to full, taking into account the changing rates as the towers fill.",
+        "ପଦକ୍ଷେପ (step) 5: Find the maximum time from the calculated times for each tower, as this will be the time it takes to fill all three towers completely."
+    ],
+    "final_answer": "120 minutes"
+}

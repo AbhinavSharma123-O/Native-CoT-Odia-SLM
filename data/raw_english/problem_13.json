@@ -1,0 +1,12 @@
+{
+    "id": "13",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A is already 1/4 full, Tower B is 1/2 full, and Tower C is empty, and it takes 30 minutes to fill Tower A, 45 minutes to fill Tower B, and 60 minutes to fill Tower C from their current states, what is the total capacity of the three water towers combined?",
+    "reasoning_steps": [
+        "Step 1: Calculate the remaining capacity for Tower A by determining how much water it can hold when full. Since it takes 30 minutes to fill Tower A at a rate of 0.5 liters per minute from 1/4 full, we first need to find out how much water Tower A can hold when it's full.",
+        "Step 2: Use the filling rate and time to calculate the total capacity of Tower A. Given that Tower A is filled at 0.5 liters per minute and it takes 30 minutes to fill from 1/4 full, we can calculate the full capacity by first finding out how much water is added in 30 minutes and then accounting for the 1/4 that was already full.",
+        "Step 3: Repeat the process for Tower B, which is filled at 0.75 liters per minute and takes 45 minutes to fill from being 1/2 full. Calculate its total capacity by determining how much water is added in 45 minutes and then adding the amount that was already in the tower.",
+        "Step 4: For Tower C, which is filled at 1 liter per minute and takes 60 minutes to fill from empty, the total capacity can be directly calculated by multiplying the filling rate by the time it takes to fill.",
+        "Step 5: Add the capacities of all three towers together to find the total combined capacity."
+    ],
+    "final_answer": "225"
+}

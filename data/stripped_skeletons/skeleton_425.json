@@ -1,0 +1,20 @@
+{
+    "id": "425",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of 250 loaves of bread per day, with 30% going to cafes and 20% to restaurants. The remaining 50% is sold directly to customers. There are 5 bakeries in the town. Meanwhile, each cafe buys bread from 2 bakeries and sells an average of 150 cups of coffee per day, with each cup requiring 0.5 loaves of bread. If each restaurant buys bread from 3 bakeries and serves an average of 200 meals per day, with each meal requiring 1 loaf of bread, how many cups of coffee and meals are sold in total per day in the town, given that there are 3 cafes and 2 restaurants?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a ମୋଟ (total) of 250 loaves of bread per day, with 30% going to cafes and 20% to restaurants. The remaining 50% is sold directly to customers. There are 5 bakeries in the town. Meanwhile, each cafe buys bread from 2 bakeries and sells an average of 150 cups of coffee per day, with each cup requiring 0.5 loaves of bread. ଯଦି (if) each restaurant buys bread from 3 bakeries and serves an average of 200 meals per day, with each meal requiring 1 loaf of bread, how many cups of coffee and meals are sold in ମୋଟ (total) per day in the town, given that there are 3 cafes and 2 restaurants?",
+    "original_steps": [
+        "Step 1: Calculate the total amount of bread sold by all bakeries per day.",
+        "Step 2: Determine how much bread is sold to cafes, restaurants, and directly to customers from all bakeries.",
+        "Step 3: Calculate how much bread each cafe and restaurant buys and how it relates to their sales of coffee and meals.",
+        "Step 4: Use the information about the bread requirement for each cup of coffee and meal to calculate the total number of cups of coffee and meals sold by cafes and restaurants.",
+        "Step 5: Sum the total number of cups of coffee sold by all cafes and the total number of meals sold by all restaurants to get the final answer."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) amount of bread sold by all bakeries per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine how much bread is sold to cafes, restaurants, and directly to customers from all bakeries.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate how much bread each cafe and restaurant buys and how it relates to their sales of coffee and meals.",
+        "ପଦକ୍ଷେପ (step) 4: Use the information about the bread requirement for each cup of coffee and meal to calculate the ମୋଟ (total) number of cups of coffee and meals sold by cafes and restaurants.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the ମୋଟ (total) number of cups of coffee sold by all cafes and the ମୋଟ (total) number of meals sold by all restaurants to get the final answer."
+    ],
+    "final_answer": "4500"
+}

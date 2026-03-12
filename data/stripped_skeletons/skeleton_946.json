@@ -1,0 +1,22 @@
+{
+    "id": "946",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A can fill 1000 gallons per hour, Tower B can fill 800 gallons per hour, and Tower C can fill 1200 gallons per hour. The town's water reservoir can hold 15000 gallons of water. On a given day, Tower A starts filling the reservoir at 8:00 AM and fills it for 2 hours. Then, Tower B takes over and fills the reservoir for 1.5 hours. After that, Tower C fills the reservoir until it is full. However, due to a leak, the reservoir loses 5% of its total capacity every hour. How many hours will it take to fill the reservoir?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A can fill 1000 gallons per hour, Tower B can fill 800 gallons per hour, and Tower C can fill 1200 gallons per hour. The town's water reservoir can hold 15000 gallons of water. On a given day, Tower A starts filling the reservoir at 8:00 AM and fills it for 2 hours. ତାହେଲେ (then), Tower B takes over and fills the reservoir for 1.5 hours. After that, Tower C fills the reservoir until it is full. However, due to a leak, the reservoir loses 5% of its ମୋଟ (total) capacity every hour. How many hours will it take to fill the reservoir?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water filled by Tower A in 2 hours, which is 1000 gallons/hour * 2 hours = 2000 gallons.",
+        "Step 2: Calculate the amount of water filled by Tower B in 1.5 hours, which is 800 gallons/hour * 1.5 hours = 1200 gallons.",
+        "Step 3: Determine the remaining capacity of the reservoir after Tower A and Tower B have filled it, which is 15000 gallons - (2000 gallons + 1200 gallons) = 11000 gallons - 5% * (2 hours + 1.5 hours) * 15000 gallons due to leak.",
+        "Step 4: Calculate the rate at which the reservoir is losing water due to the leak, which is 5% of 15000 gallons per hour = 0.05 * 15000 gallons/hour = 750 gallons/hour.",
+        "Step 5: Calculate the total time Tower A and Tower B were filling the reservoir and the amount of water lost during this time, which is (2 hours + 1.5 hours) * 750 gallons/hour = 3.5 hours * 750 gallons/hour = 2625 gallons. Adjust the remaining capacity by this loss: 11000 gallons - 2625 gallons = 8375 gallons.",
+        "Step 6: Calculate the time it will take Tower C to fill the remaining capacity of the reservoir, taking into account the leak. The net fill rate of Tower C is 1200 gallons/hour - 750 gallons/hour = 450 gallons/hour. The time to fill the remaining capacity is 8375 gallons / 450 gallons/hour = 18.61 hours."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water filled by Tower A in 2 hours, which is 1000 gallons/hour * 2 hours = 2000 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water filled by Tower B in 1.5 hours, which is 800 gallons/hour * 1.5 hours = 1200 gallons.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the remaining capacity of the reservoir after Tower A and Tower B have filled it, which is 15000 gallons - (2000 gallons + 1200 gallons) = 11000 gallons - 5% * (2 hours + 1.5 hours) * 15000 gallons due to leak.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the rate at which the reservoir is losing water due to the leak, which is 5% of 15000 gallons per hour = 0.05 * 15000 gallons/hour = 750 gallons/hour.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) time Tower A and Tower B were filling the reservoir and the amount of water lost during this time, which is (2 hours + 1.5 hours) * 750 gallons/hour = 3.5 hours * 750 gallons/hour = 2625 gallons. Adjust the remaining capacity by this loss: 11000 gallons - 2625 gallons = 8375 gallons.",
+        "ପଦକ୍ଷେପ (step) 6: Calculate the time it will take Tower C to fill the remaining capacity of the reservoir, taking into account the leak. The net fill rate of Tower C is 1200 gallons/hour - 750 gallons/hour = 450 gallons/hour. The time to fill the remaining capacity is 8375 gallons / 450 gallons/hour = 18.61 hours."
+    ],
+    "final_answer": "Approximately 8 hours for Tower A and Tower B to fill their parts, and then approximately 4.11 hours for Tower C to fill its part, for a total of 22.61 hours, considering the reservoir was not full when Tower C started due to the leak and previous fillings."
+}

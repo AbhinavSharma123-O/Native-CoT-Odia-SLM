@@ -1,0 +1,20 @@
+{
+    "id": "753",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water and is currently 3/4 full. Tank B can hold 1500 liters of water and is currently 1/2 full. Tank C can hold 3000 liters of water and is currently empty. A pipe from Tank A can fill Tank C at a rate of 50 liters per minute, but this pipe also has a leak that loses 10 liters per minute. Meanwhile, Tank B is being filled from a separate source at a rate of 20 liters per minute. If it takes 4 hours to fill Tank C completely from Tank A, and during this time Tank B is also being filled, how many liters of water will Tank B have at the end of the 4 hours, given that it started with 750 liters?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water and is currently 3/4 full. Tank B can hold 1500 liters of water and is currently 1/2 full. Tank C can hold 3000 liters of water and is currently empty. A pipe from Tank A can fill Tank C at a rate of 50 liters per minute, but this pipe also has a leak that loses 10 liters per minute. Meanwhile, Tank B is being filled from a separate source at a rate of 20 liters per minute. ଯଦି (if) it takes 4 hours to fill Tank C completely from Tank A, and during this time Tank B is also being filled, how many liters of water will Tank B have at the end of the 4 hours, given that it started with 750 liters?",
+    "original_steps": [
+        "Step 1: Calculate the initial amount of water in Tank A.",
+        "Step 2: Determine the net rate at which Tank C is being filled from Tank A, accounting for the leak.",
+        "Step 3: Calculate the total amount of water transferred from Tank A to Tank C during the 4 hours.",
+        "Step 4: Determine how much water is left in Tank A after filling Tank C, to ensure it has enough to fill Tank C.",
+        "Step 5: Calculate the amount of water added to Tank B during the 4 hours it takes to fill Tank C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial amount of water in Tank A.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the net rate at which Tank C is being filled from Tank A, accounting for the leak.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) amount of water transferred from Tank A to Tank C during the 4 hours.",
+        "ପଦକ୍ଷେପ (step) 4: Determine how much water is left in Tank A after filling Tank C, to ensure it has enough to fill Tank C.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the amount of water added to Tank B during the 4 hours it takes to fill Tank C."
+    ],
+    "final_answer": "1150"
+}

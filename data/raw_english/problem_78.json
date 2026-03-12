@@ -1,0 +1,12 @@
+{
+    "id": "78",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system can fill Tank A at a rate of 100 liters per minute, Tank B at a rate of 150 liters per minute, and Tank C at a rate of 200 liters per minute. However, due to some leakages, Tank A loses water at a rate of 10 liters per minute, Tank B loses water at a rate of 20 liters per minute, and Tank C loses water at a rate of 30 liters per minute. If all three tanks are currently empty and the town's water supply system starts filling them at the same time, how many minutes will it take to fill all three tanks, considering the leakages? Additionally, what is the total amount of water lost due to leakages during this time?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net filling rate for each tank by subtracting the leakage rate from the filling rate. For Tank A, the net filling rate is 100 - 10 = 90 liters per minute. For Tank B, the net filling rate is 150 - 20 = 130 liters per minute. For Tank C, the net filling rate is 200 - 30 = 170 liters per minute.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net filling rate. For Tank A, the time to fill is 2000 / 90 = 22.22 minutes. For Tank B, the time to fill is 3000 / 130 = 23.08 minutes. For Tank C, the time to fill is 4000 / 170 = 23.53 minutes.",
+        "Step 3: Find the maximum time it takes to fill any of the tanks, which will be the time when all tanks are filled, considering the leakages. The maximum time is 23.53 minutes for Tank C.",
+        "Step 4: Calculate the total amount of water lost due to leakages during the time it takes to fill all tanks. For Tank A, the water lost is 10 * 23.53 = 235.3 liters. For Tank B, the water lost is 20 * 23.53 = 470.6 liters. For Tank C, the water lost is 30 * 23.53 = 705.9 liters.",
+        "Step 5: Sum up the water lost from all three tanks to find the total amount of water lost. Total water lost = 235.3 + 470.6 + 705.9 = 1411.8 liters."
+    ],
+    "final_answer": "It will take approximately 23.53 minutes to fill all three tanks, and the total amount of water lost due to leakages during this time is 1411.8 liters."
+}

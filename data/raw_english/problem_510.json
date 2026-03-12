@@ -1,0 +1,12 @@
+{
+    "id": "510",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a given day, the total water demand is 6500 gallons. However, due to a malfunction, Tower A can only be filled to 3/4 of its capacity, and Tower B can only be filled to 2/3 of its capacity. Tower C, though, can be filled to its full capacity. How much water will be in each tower after the town's water demand is met, assuming that the water is used from the towers in the reverse order that they are filled (i.e., from Tower C, then Tower B, then Tower A)?",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of water Tower A can hold when filled to 3/4 of its capacity: 2000 * (3/4) = 1500 gallons.",
+        "Step 2: Calculate the amount of water Tower B can hold when filled to 2/3 of its capacity: 3000 * (2/3) = 2000 gallons.",
+        "Step 3: Determine the total amount of water available in Towers A and B after they are filled to their respective capacities: 1500 (Tower A) + 2000 (Tower B) = 3500 gallons.",
+        "Step 4: Since the total demand is 6500 gallons and Tower C can be filled to its full capacity of 4000 gallons, calculate how much water needs to be taken from Towers A and B after Tower C is emptied: 6500 (total demand) - 4000 (Tower C) = 2500 gallons needed from Towers A and B.",
+        "Step 5: Calculate how much water will be left in each tower after the demand is met, starting with Tower C (which will be empty), then determining how much of the 2500 gallons needed will be taken from Tower B and Tower A, based on their capacities and the order of use."
+    ],
+    "final_answer": "Tower A: 500 gallons, Tower B: 1000 gallons, Tower C: 0 gallons"
+}

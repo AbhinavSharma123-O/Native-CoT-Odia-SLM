@@ -1,0 +1,38 @@
+{
+    "id": "442",
+    "problem": "In a small town, there are three types of houses: blue, red, and green. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address, nationality, and favorite drink of each house. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the red house. Clue 3: The person who owns the blue house drinks coffee. Clue 4: The person who drinks soda lives in the house next to the British person. Clue 5: The green house is to the immediate left of the person who drinks tea. Clue 6: The American lives in the red house. Clue 7: The person who drinks water lives in the house next to the person who owns the green house.",
+    "reasoning_steps": [
+        "Step 1: Determine the address of the Canadian based on Clue 1, which states the Canadian lives in the first house.",
+        "Step 2: Analyze Clue 2 to find the position of the person who drinks milk and the owner of the red house, knowing the Canadian's position from Step 1.",
+        "Step 3: Use Clue 3 to identify the favorite drink of the person in the blue house and correlate it with possible positions based on previous steps.",
+        "Step 4: Apply Clue 4 to locate the person who drinks soda in relation to the British person, taking into account the information gathered so far.",
+        "Step 5: Utilize Clue 5 to place the green house in relation to the person who drinks tea, considering all previous deductions."
+    ],
+    "final_answer": {
+        "House 1": {
+            "Color": "Blue",
+            "Nationality": "Canadian",
+            "Drink": "Coffee"
+        },
+        "House 2": {
+            "Color": "Red",
+            "Nationality": "American",
+            "Drink": "Soda"
+        },
+        "House 3": {
+            "Color": "Green",
+            "Nationality": "British",
+            "Drink": "Tea"
+        },
+        "House 4": {
+            "Color": "Yellow",
+            "Nationality": "Indian",
+            "Drink": "Milk"
+        },
+        "House 5": {
+            "Color": "Purple",
+            "Nationality": "Japanese",
+            "Drink": "Water"
+        }
+    }
+}

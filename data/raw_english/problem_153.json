@@ -1,0 +1,12 @@
+{
+    "id": "153",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a maximum of 250 loaves of bread per day, with a minimum of 100 loaves. The town has a total of 15 shops, consisting of 5 bakeries, 4 cafes, and 6 restaurants. The total number of loaves sold by all bakeries in one day is 1200. If each cafe buys 20 loaves of bread from the bakeries to resell, and each restaurant buys 30 loaves, what is the average number of loaves sold per bakery in the town, given that all the bread bought by cafes and restaurants is resold and the total number of loaves resold by them is 300?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of loaves bought by cafes, which is the number of cafes multiplied by the number of loaves each cafe buys (4 cafes * 20 loaves = 80 loaves).",
+        "Step 2: Calculate the total number of loaves bought by restaurants, which is the number of restaurants multiplied by the number of loaves each restaurant buys (6 restaurants * 30 loaves = 180 loaves).",
+        "Step 3: Determine the total number of loaves resold by cafes and restaurants, which is given as 300, but can also be calculated as the sum of loaves bought by cafes and restaurants (80 loaves + 180 loaves = 260 loaves), however, the problem states this total as 300, indicating an error in the initial calculation or an external factor not accounted for.",
+        "Step 4: Calculate the actual total number of loaves sold by bakeries to both cafes and restaurants, considering the given total resold (300 loaves) might include an error or additional sales not initially accounted for. To find the loaves sold by bakeries to these establishments, we should directly use the given total of loaves sold by bakeries (1200) and subtract the amount resold by cafes and restaurants as per the problem's intention, which seems to be misstated.",
+        "Step 5: Correct the understanding of the problem by recognizing the mistake in calculating the total loaves resold by cafes and restaurants. Given the total number of loaves sold by bakeries (1200) and the fact that cafes and restaurants resell a portion of these, calculate the average number of loaves sold per bakery by dividing the total number of loaves sold by the number of bakeries (1200 loaves / 5 bakeries), without directly using the potentially incorrect total resold by cafes and restaurants (300 loaves) for this calculation."
+    ],
+    "final_answer": "240"
+}

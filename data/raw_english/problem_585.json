@@ -1,0 +1,12 @@
+{
+    "id": "585",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system is such that Tank A is filled at a rate of 100 liters per minute, Tank B is filled at a rate of 150 liters per minute, and Tank C is filled at a rate of 200 liters per minute. However, due to leaks, Tank A loses water at a rate of 10 liters per minute, Tank B loses water at a rate of 20 liters per minute, and Tank C loses water at a rate of 30 liters per minute. If all tanks are initially empty and the filling process starts at the same time for all tanks, how many minutes will it take to fill all three tanks completely, considering the filling and leaking rates?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net filling rate for each tank by subtracting the leak rate from the filling rate. For Tank A, the net rate is 100 - 10 = 90 liters per minute. For Tank B, the net rate is 150 - 20 = 130 liters per minute. For Tank C, the net rate is 200 - 30 = 170 liters per minute.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net filling rate. For Tank A, time = 2000 / 90. For Tank B, time = 3000 / 130. For Tank C, time = 4000 / 170.",
+        "Step 3: Calculate the time it takes to fill each tank. For Tank A, time = 2000 / 90 = 22.22 minutes. For Tank B, time = 3000 / 130 = 23.08 minutes. For Tank C, time = 4000 / 170 = 23.53 minutes.",
+        "Step 4: Identify the tank that takes the longest to fill, as this will determine when all tanks are completely filled. Comparing the times, Tank C takes the longest at 23.53 minutes.",
+        "Step 5: Since the question asks for the time it takes to fill all three tanks completely and they are filled simultaneously, the time it takes to fill the tank that requires the longest time is the answer."
+    ],
+    "final_answer": "23.53"
+}

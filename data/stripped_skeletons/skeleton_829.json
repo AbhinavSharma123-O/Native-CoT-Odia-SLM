@@ -1,0 +1,20 @@
+{
+    "id": "829",
+    "original_problem": "In a large warehouse, there are five machines labeled A, B, C, D, and E. Each machine produces a different product: batteries, candles, diapers, engines, and fans. The machines operate at different speeds, producing 100, 120, 150, 200, and 250 units per hour, respectively, but not necessarily in that order. The following clues are known: Machine A produces 30 more units per hour than the machine that makes candles. The machine that produces diapers works at a speed of 150 units per hour. The machine producing engines is twice as fast as the one producing batteries. Machine E produces fans at the highest speed, which is 250 units per hour. Machine C makes candles, and it is slower than the machine producing batteries. If Machine B produces diapers, what is the total production rate of all machines combined?",
+    "deconstructed_problem": "In a large warehouse, there are five machines labeled A, B, C, D, and E. Each machine produces a different product: batteries, candles, diapers, engines, and fans. The machines operate at different speeds, producing 100, 120, 150, 200, and 250 units per hour, respectively, but not necessarily in that order. The following clues are known: Machine A produces 30 more units per hour than the machine that makes candles. The machine that produces diapers works at a speed of 150 units per hour. The machine producing engines is twice as fast as the one producing batteries. Machine E produces fans at the highest speed, which is 250 units per hour. Machine C makes candles, and it is slower than the machine producing batteries. ଯଦି (if) Machine B produces diapers, what is the ମୋଟ (total) production rate of all machines combined?",
+    "original_steps": [
+        "Step 1: Identify the production rate of Machine B, which is given as 150 units per hour for diapers.",
+        "Step 2: Determine the production rate of Machine E, which is given as 250 units per hour for fans.",
+        "Step 3: Establish the production rate of Machine C, which makes candles and is slower than the machine producing batteries, but we know it is not 150 units per hour because that is diapers, and not 250 units per hour because that is fans.",
+        "Step 4: Use the clue that Machine A produces 30 more units per hour than the machine that makes candles to find the production rate of Machine A, considering the possible rates left after determining the rates for Machines B, C, and E.",
+        "Step 5: Calculate the production rate of the machine producing engines, which is twice as fast as the one producing batteries, and deduce the production rate of the machine producing batteries based on the remaining options and the clues given."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Identify the production rate of Machine B, which is given as 150 units per hour for diapers.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the production rate of Machine E, which is given as 250 units per hour for fans.",
+        "ପଦକ୍ଷେପ (step) 3: Establish the production rate of Machine C, which makes candles and is slower than the machine producing batteries, but we know it is not 150 units per hour କାରଣ (because) that is diapers, and not 250 units per hour କାରଣ (because) that is fans.",
+        "ପଦକ୍ଷେପ (step) 4: Use the clue that Machine A produces 30 more units per hour than the machine that makes candles to find the production rate of Machine A, considering the possible rates left after determining the rates for Machines B, C, and E.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the production rate of the machine producing engines, which is twice as fast as the one producing batteries, and deduce the production rate of the machine producing batteries based on the remaining options and the clues given."
+    ],
+    "final_answer": "920"
+}

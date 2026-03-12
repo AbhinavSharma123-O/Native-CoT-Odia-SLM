@@ -1,0 +1,12 @@
+{
+    "id": "33",
+    "problem": "In the town of Mathematica, there are three types of houses: blue, red, and green. Each house has a unique address and is inhabited by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address of the green house and the nationality of its inhabitant. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the blue house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the house next to the British person. Clue 6: The green house is to the immediate left of the person who drinks water.",
+    "reasoning_steps": [
+        "Step 1: Determine the possible addresses of the Canadian based on Clue 1.",
+        "Step 2: Use Clue 2 to establish the relationship between the person who drinks milk and the blue house.",
+        "Step 3: Apply Clue 3 to find the possible addresses of the red house.",
+        "Step 4: Combine Clues 4 and 5 to determine the addresses of the American and British persons.",
+        "Step 5: Use Clue 6 to determine the address of the green house and its inhabitant's nationality based on the information gathered from previous steps."
+    ],
+    "final_answer": "The green house is at address 3 and is inhabited by the Indian person."
+}

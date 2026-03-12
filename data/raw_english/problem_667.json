@@ -1,0 +1,12 @@
+{
+    "id": "667",
+    "problem": "In a small town, there are three factories: A, B, and C, each producing a different product. Factory A produces 200 units of product X per day, while factory B produces 150 units of product Y per day. Factory C produces 300 units of product Z per day. The town has three warehouses: 1, 2, and 3, with capacities of 1000, 800, and 1200 units respectively. Each factory can only supply its products to two specific warehouses. Factory A can supply to warehouses 1 and 2, factory B can supply to warehouses 2 and 3, and factory C can supply to warehouses 1 and 3. If warehouse 1 is currently empty, warehouse 2 has 400 units of product Y, and warehouse 3 has 600 units of product Z, what is the maximum number of units that can be stored in the warehouses after one day of production, given that each warehouse can only hold one type of product at a time?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total daily production of each factory.",
+        "Step 2: Determine the available capacity in each warehouse after considering the initial stock.",
+        "Step 3: Decide the optimal distribution of products from each factory to the warehouses based on capacity constraints and the condition that each warehouse can only hold one type of product.",
+        "Step 4: Calculate the total units that can be stored in the warehouses after one day, taking into account the production and the initial stock.",
+        "Step 5: Verify that the solution respects the condition that each factory can only supply its products to two specific warehouses."
+    ],
+    "final_answer": "2400"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "9",
+    "original_problem": "In a small town, there are three types of buses: A, B, and C. Bus A travels from Town Hall to the Airport, covering 20 miles in 30 minutes. Bus B goes from the Airport to the Seaport, covering 15 miles in 20 minutes. Bus C travels from the Seaport to Town Hall, covering 25 miles in 40 minutes. If a passenger takes Bus A from Town Hall to the Airport, then takes Bus B to the Seaport, and finally takes Bus C back to Town Hall, what is the average speed of the entire trip in miles per hour, given that each bus ride has a 5-minute delay before departure?",
+    "deconstructed_problem": "In a small town, there are three types of buses: A, B, and C. Bus A travels from Town Hall to the Airport, covering 20 miles in 30 minutes. Bus B goes from the Airport to the Seaport, covering 15 miles in 20 minutes. Bus C travels from the Seaport to Town Hall, covering 25 miles in 40 minutes. ଯଦି (if) a passenger takes Bus A from Town Hall to the Airport, ତାହେଲେ (then) takes Bus B to the Seaport, and finally takes Bus C back to Town Hall, what is the average speed of the entire trip in miles per hour, given that each bus ride has a 5-minute delay before departure?",
+    "original_steps": [
+        "Step 1: Calculate the total distance covered by adding the distances traveled by each bus.",
+        "Step 2: Determine the time taken for each bus ride, including the 5-minute delay before each departure.",
+        "Step 3: Add up the time for all three rides to find the total time for the entire trip.",
+        "Step 4: Calculate the average speed by dividing the total distance by the total time, ensuring to convert minutes into hours for speed in miles per hour.",
+        "Step 5: Account for the units of measurement, converting the total time from minutes to hours to calculate the average speed correctly."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) distance covered by adding the distances traveled by each bus.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the time taken for each bus ride, including the 5-minute delay before each departure.",
+        "ପଦକ୍ଷେପ (step) 3: ଯୋଗ (add) up the time for all three rides to find the ମୋଟ (total) time for the entire trip.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the average speed by dividing the ମୋଟ (total) distance by the ମୋଟ (total) time, ensuring to convert minutes into hours for speed in miles per hour.",
+        "ପଦକ୍ଷେପ (step) 5: Account for the units of measurement, converting the ମୋଟ (total) time from minutes to hours to calculate the average speed correctly."
+    ],
+    "final_answer": "24.42"
+}

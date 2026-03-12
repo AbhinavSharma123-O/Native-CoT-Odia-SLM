@@ -1,0 +1,16 @@
+{
+    "id": "684",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 200 units of flour per day, each cafe uses 150 units of flour per day, and each restaurant uses 300 units of flour per day. The town has a total of 25 shops. The total flour used by all bakeries and cafes is 4800 units per day, and the total flour used by all restaurants is 4200 units per day. If the number of cafes is 5 more than the number of bakeries, how many bakeries, cafes, and restaurants are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R). We know that B + C + R = 25.",
+        "Step 2: Express the total flour used by bakeries and cafes: 200B + 150C = 4800. Also, the total flour used by restaurants is 300R = 4200.",
+        "Step 3: From the information about restaurants, calculate R: R = 4200 / 300 = 14.",
+        "Step 4: Knowing that C = B + 5, substitute C in the equation from Step 2: 200B + 150(B + 5) = 4800. Simplify to solve for B.",
+        "Step 5: With B found, calculate C using C = B + 5, and confirm that B + C + R = 25."
+    ],
+    "final_answer": {
+        "Bakeries": 10,
+        "Cafes": 15,
+        "Restaurants": 14
+    }
+}

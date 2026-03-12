@@ -1,0 +1,12 @@
+{
+    "id": "384",
+    "problem": "In a small town, there are 5 water towers, each with a different capacity: 1000, 2000, 3000, 4000, and 5000 gallons. The town has 3 water pumps that can fill the towers at rates of 100, 200, and 300 gallons per hour, respectively. Due to maintenance, Pump 1 can only be used for 4 hours a day, Pump 2 for 6 hours, and Pump 3 for 8 hours. If the towers are currently empty and need to be filled, and each pump can only fill one tower at a time, determine the minimum number of days required to fill all 5 towers, assuming the pumps operate at their maximum capacity and are used optimally.",
+    "reasoning_steps": [
+        "Step 1: Calculate the total capacity of all water towers, which is 1000 + 2000 + 3000 + 4000 + 5000 = 15000 gallons.",
+        "Step 2: Determine the maximum amount of water each pump can provide in a day. For Pump 1, it's 100 gallons/hour * 4 hours = 400 gallons/day. For Pump 2, it's 200 gallons/hour * 6 hours = 1200 gallons/day. For Pump 3, it's 300 gallons/hour * 8 hours = 2400 gallons/day.",
+        "Step 3: Calculate the combined daily capacity of all pumps, which is 400 + 1200 + 2400 = 4000 gallons/day.",
+        "Step 4: Divide the total capacity of the water towers by the combined daily capacity of the pumps to find the minimum number of days required to fill all towers. This gives 15000 gallons / 4000 gallons/day = 3.75 days.",
+        "Step 5: Since the towers cannot be filled in fractions of a day and each pump must fill a tower completely before moving to the next, we must round up to the nearest whole number of days to ensure all towers are filled, resulting in a minimum of 4 days."
+    ],
+    "final_answer": "4"
+}

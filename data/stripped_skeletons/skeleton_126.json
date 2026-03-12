@@ -1,0 +1,20 @@
+{
+    "id": "126",
+    "original_problem": "In the city of Azura, there are three types of public transportation: buses, trains, and ferries. The buses operate on a fixed schedule, with each bus traveling from the city center to the outer districts and back, covering a total distance of 40 kilometers. The frequency of the buses is such that a bus leaves the city center every 15 minutes. Meanwhile, the trains connect Azura with neighboring cities, with each train covering an average distance of 120 kilometers to the nearest city and returning. A train departs every 60 minutes. The ferries, on the other hand, transport people across the river that splits Azura, with each ferry trip covering 5 kilometers and a ferry departing every 10 minutes. If a commuter must travel from the city center to the outer districts by bus, then take a train to the nearest neighboring city, and finally return to Azura and cross the river by ferry, how many kilometers will the commuter have traveled in total, assuming the commuter takes the first available bus, then the first available train after reaching the outer districts, and finally the first available ferry after returning to Azura?",
+    "deconstructed_problem": "In the city of Azura, there are three types of public transportation: buses, trains, and ferries. The buses operate on a fixed schedule, with each bus traveling from the city center to the outer districts and back, covering a ମୋଟ (total) distance of 40 kilometers. The frequency of the buses is such that a bus leaves the city center every 15 minutes. Meanwhile, the trains connect Azura with neighboring cities, with each train covering an average distance of 120 kilometers to the nearest city and returning. A train departs every 60 minutes. The ferries, on the other hand, transport people across the river that splits Azura, with each ferry trip covering 5 kilometers and a ferry departing every 10 minutes. ଯଦି (if) a commuter must travel from the city center to the outer districts by bus, ତାହେଲେ (then) take a train to the nearest neighboring city, and finally return to Azura and cross the river by ferry, how many kilometers will the commuter have traveled in ମୋଟ (total), assuming the commuter takes the first available bus, ତାହେଲେ (then) the first available train after reaching the outer districts, and finally the first available ferry after returning to Azura?",
+    "original_steps": [
+        "Step 1: Calculate the distance covered by the bus from the city center to the outer districts.",
+        "Step 2: Determine the distance covered by the train from the outer districts to the nearest neighboring city and back to Azura.",
+        "Step 3: Find out the distance covered by the ferry across the river.",
+        "Step 4: Add up all the distances covered in each leg of the journey to find the total distance traveled.",
+        "Step 5: Account for the return journey of the train from the neighboring city back to Azura in the total distance calculation."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the distance covered by the bus from the city center to the outer districts.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the distance covered by the train from the outer districts to the nearest neighboring city and back to Azura.",
+        "ପଦକ୍ଷେପ (step) 3: Find out the distance covered by the ferry across the river.",
+        "ପଦକ୍ଷେପ (step) 4: ଯୋଗ (add) up all the distances covered in each leg of the journey to find the ମୋଟ (total) distance traveled.",
+        "ପଦକ୍ଷେପ (step) 5: Account for the return journey of the train from the neighboring city back to Azura in the ମୋଟ (total) distance calculation."
+    ],
+    "final_answer": "40 + 240 + 5 = 285"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "466",
+    "original_problem": "In a certain city, there are three types of transportation: buses, trains, and ferries. The buses run every 10 minutes, the trains every 20 minutes, and the ferries every 30 minutes. If a person arrives at the bus station at 8:05 AM, misses the bus that leaves at 8:10 AM, and then proceeds to the train station which is 10 minutes away, only to find that the next train leaves 15 minutes after their arrival, what is the earliest time the person can arrive at their destination if the ferry ride, which is the final leg of their journey, takes 25 minutes and the last ferry of the day leaves at 5:30 PM?",
+    "deconstructed_problem": "In a certain city, there are three types of transportation: buses, trains, and ferries. The buses run every 10 minutes, the trains every 20 minutes, and the ferries every 30 minutes. ଯଦି (if) a person arrives at the bus station at 8:05 AM, misses the bus that leaves at 8:10 AM, and ତାହେଲେ (then) proceeds to the train station which is 10 minutes away, only to find that the next train leaves 15 minutes after their arrival, what is the earliest time the person can arrive at their destination ଯଦି (if) the ferry ride, which is the final leg of their journey, takes 25 minutes and the last ferry of the day leaves at 5:30 PM?",
+    "original_steps": [
+        "Step 1: Calculate the time the person arrives at the train station after missing the bus and determine the time the next train leaves.",
+        "Step 2: Determine how long the person waits for the train and calculate the departure time of the train from the station.",
+        "Step 3: Calculate the travel time to the ferry station after getting off the train, assuming it takes the same amount of time as getting to the train station from the bus station.",
+        "Step 4: Determine the arrival time at the ferry station and calculate how long the person has to wait for the ferry, considering the last ferry leaves at 5:30 PM.",
+        "Step 5: Calculate the total travel time including the ferry ride to find the earliest arrival time at the destination."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the time the person arrives at the train station after missing the bus and determine the time the next train leaves.",
+        "ପଦକ୍ଷେପ (step) 2: Determine how long the person waits for the train and calculate the departure time of the train from the station.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the travel time to the ferry station after getting off the train, assuming it takes the same amount of time as getting to the train station from the bus station.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the arrival time at the ferry station and calculate how long the person has to wait for the ferry, considering the last ferry leaves at 5:30 PM.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) travel time including the ferry ride to find the earliest arrival time at the destination."
+    ],
+    "final_answer": "5:30 PM"
+}

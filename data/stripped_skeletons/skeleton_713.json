@@ -1,0 +1,20 @@
+{
+    "id": "713",
+    "original_problem": "In a small town, there are 5 schools with different numbers of students. School A has 150 more students than School B. School C has 3 times as many students as School D. School E has 250 students more than the average of Schools A, B, and C. If School D has 200 students and the total number of students in all schools is 3500, how many students are in School B?",
+    "deconstructed_problem": "In a small town, there are 5 schools with different numbers of students. School A has 150 more students than School B. School C has 3 times as many students as School D. School E has 250 students more than the average of Schools A, B, and C. ଯଦି (if) School D has 200 students and the ମୋଟ (total) number of students in all schools is 3500, how many students are in School B?",
+    "original_steps": [
+        "Step 1: Determine the number of students in School C by using the information about School D.",
+        "Step 2: Express the number of students in School A in terms of the number of students in School B.",
+        "Step 3: Calculate the average number of students in Schools A, B, and C to find the number of students in School E.",
+        "Step 4: Use the total number of students to set up an equation involving the number of students in each school.",
+        "Step 5: Solve the equation from Step 4 to find the number of students in School B."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of students in School C by using the information about School D.",
+        "ପଦକ୍ଷେପ (step) 2: Express the number of students in School A in terms of the number of students in School B.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the average number of students in Schools A, B, and C to find the number of students in School E.",
+        "ପଦକ୍ଷେପ (step) 4: Use the ମୋଟ (total) number of students to set up an ସମୀକରଣ (equation) involving the number of students in each school.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 4 to find the number of students in School B."
+    ],
+    "final_answer": "500"
+}

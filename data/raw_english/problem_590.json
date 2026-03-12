@@ -1,0 +1,12 @@
+{
+    "id": "590",
+    "problem": "In a mystical forest, there are five temples, each containing a treasure chest with a different number of gold coins. The temples are dedicated to the elements: Earth, Fire, Water, Air, and Aether. The number of coins in each chest is related to the number of visitors each temple receives daily. The Earth temple receives 50 visitors more than the Fire temple, which in turn receives 20 visitors less than the Water temple. The Air temple receives 30 visitors fewer than the Water temple, and the Aether temple receives 40 visitors more than the Air temple. If the Water temple has 250 visitors, and each visitor donates one gold coin, how many gold coins are in the treasure chest of the Aether temple, given that the number of coins in each chest is equal to the number of visitors it receives?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of visitors to the Fire temple by subtracting 20 from the number of visitors to the Water temple.",
+        "Step 2: Determine the number of visitors to the Earth temple by adding 50 to the number of visitors to the Fire temple.",
+        "Step 3: Find the number of visitors to the Air temple by subtracting 30 from the number of visitors to the Water temple.",
+        "Step 4: Calculate the number of visitors to the Aether temple by adding 40 to the number of visitors to the Air temple.",
+        "Step 5: Since the number of coins in each chest equals the number of visitors, the number of coins in the Aether temple's chest is equal to the number of visitors it receives."
+    ],
+    "final_answer": "260"
+}

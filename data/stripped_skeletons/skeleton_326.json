@@ -1,0 +1,20 @@
+{
+    "id": "326",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C, with capacities of 200, 300, and 400 gallons, respectively. Tank A is filled at a rate of 5 gallons per minute, Tank B is filled at a rate of 10 gallons per minute, and Tank C is filled at a rate of 15 gallons per minute. However, due to leaks, Tank A loses 2 gallons per minute, Tank B loses 3 gallons per minute, and Tank C loses 1 gallon per minute. If all tanks are initially empty and are filled simultaneously, how many minutes will it take to fill all three tanks?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C, with capacities of 200, 300, and 400 gallons, respectively. Tank A is filled at a rate of 5 gallons per minute, Tank B is filled at a rate of 10 gallons per minute, and Tank C is filled at a rate of 15 gallons per minute. However, due to leaks, Tank A loses 2 gallons per minute, Tank B loses 3 gallons per minute, and Tank C loses 1 gallon per minute. ଯଦି (if) all tanks are initially empty and are filled simultaneously, how many minutes will it take to fill all three tanks?",
+    "original_steps": [
+        "Step 1: Calculate the net fill rate for each tank by subtracting the leak rate from the fill rate. For Tank A, the net fill rate is 5 - 2 = 3 gallons per minute. For Tank B, the net fill rate is 10 - 3 = 7 gallons per minute. For Tank C, the net fill rate is 15 - 1 = 14 gallons per minute.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the capacity of the tank by its net fill rate. For Tank A, the time to fill is 200 / 3 = 66.67 minutes. For Tank B, the time to fill is 300 / 7 = 42.86 minutes. For Tank C, the time to fill is 400 / 14 = 28.57 minutes.",
+        "Step 3: Identify the tank that takes the longest to fill, which dictates the minimum time required to fill all tanks. Tank A takes the longest to fill at 66.67 minutes.",
+        "Step 4: Since all tanks are being filled simultaneously, the time it takes to fill all three tanks is the time it takes to fill the tank that takes the longest, which is Tank A.",
+        "Step 5: Round up to the nearest whole number if necessary, as partial minutes are not feasible in this context. However, the question asks for the exact time to fill all tanks, so no rounding is required in this case."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net fill rate for each tank by subtracting the leak rate from the fill rate. For Tank A, the net fill rate is 5 - 2 = 3 gallons per minute. For Tank B, the net fill rate is 10 - 3 = 7 gallons per minute. For Tank C, the net fill rate is 15 - 1 = 14 gallons per minute.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the time it takes to fill each tank by dividing the capacity of the tank by its net fill rate. For Tank A, the time to fill is 200 / 3 = 66.67 minutes. For Tank B, the time to fill is 300 / 7 = 42.86 minutes. For Tank C, the time to fill is 400 / 14 = 28.57 minutes.",
+        "ପଦକ୍ଷେପ (step) 3: Identify the tank that takes the longest to fill, which dictates the minimum time required to fill all tanks. Tank A takes the longest to fill at 66.67 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: Since all tanks are being filled simultaneously, the time it takes to fill all three tanks is the time it takes to fill the tank that takes the longest, which is Tank A.",
+        "ପଦକ୍ଷେପ (step) 5: Round up to the nearest whole number ଯଦି (if) necessary, as partial minutes are not feasible in this context. However, the question asks for the exact time to fill all tanks, so no rounding is required in this case."
+    ],
+    "final_answer": "66.67"
+}

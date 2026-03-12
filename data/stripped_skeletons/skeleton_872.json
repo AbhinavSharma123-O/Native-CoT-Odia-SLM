@@ -1,0 +1,30 @@
+{
+    "id": "872",
+    "original_problem": "In a mystical forest, there are five temples, each containing a different number of magical orbs. The first temple contains 15 more orbs than the second temple. The third temple has 30 fewer orbs than the sum of the first two temples. The fourth temple contains 25% more orbs than the third temple, and the fifth temple contains 120 fewer orbs than the fourth temple. If the sum of the orbs in all five temples is 850, how many magical orbs are in the second temple?",
+    "deconstructed_problem": "In a mystical forest, there are five temples, each containing a different number of magical orbs. The first temple contains 15 more orbs than the second temple. The third temple has 30 fewer orbs than the ସମଷ୍ଟି (sum) of the first two temples. The fourth temple contains 25% more orbs than the third temple, and the fifth temple contains 120 fewer orbs than the fourth temple. ଯଦି (if) the ସମଷ୍ଟି (sum) of the orbs in all five temples is 850, how many magical orbs are in the second temple?",
+    "original_steps": [
+        "Step 1: Let's denote the number of orbs in the second temple as x. Then, the number of orbs in the first temple is x + 15.",
+        "Step 2: The sum of the orbs in the first two temples is (x + 15) + x = 2x + 15.",
+        "Step 3: The third temple has 30 fewer orbs than the sum of the first two temples, which means it has (2x + 15) - 30 = 2x - 15 orbs.",
+        "Step 4: The fourth temple contains 25% more orbs than the third temple. To find 25% of the orbs in the third temple, we calculate 0.25 * (2x - 15). So, the fourth temple has (2x - 15) + 0.25 * (2x - 15) = 1.25 * (2x - 15) orbs.",
+        "Step 5: Simplify the expression for the fourth temple to get 2.5x - 18.75.",
+        "Step 6: The fifth temple contains 120 fewer orbs than the fourth temple, so it has (2.5x - 18.75) - 120 = 2.5x - 138.75 orbs.",
+        "Step 7: Now, sum the orbs in all five temples: x + (x + 15) + (2x - 15) + (2.5x - 18.75) + (2.5x - 138.75) = 850.",
+        "Step 8: Combine like terms to get 9x - 147.5 = 850.",
+        "Step 9: Add 147.5 to both sides of the equation to get 9x = 997.5.",
+        "Step 10: Divide by 9 to find x, the number of orbs in the second temple."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Let's denote the number of orbs in the second temple as x. ତାହେଲେ (then), the number of orbs in the first temple is x + 15.",
+        "ପଦକ୍ଷେପ (step) 2: The ସମଷ୍ଟି (sum) of the orbs in the first two temples is (x + 15) + x = 2x + 15.",
+        "ପଦକ୍ଷେପ (step) 3: The third temple has 30 fewer orbs than the ସମଷ୍ଟି (sum) of the first two temples, which means it has (2x + 15) - 30 = 2x - 15 orbs.",
+        "ପଦକ୍ଷେପ (step) 4: The fourth temple contains 25% more orbs than the third temple. To find 25% of the orbs in the third temple, we calculate 0.25 * (2x - 15). So, the fourth temple has (2x - 15) + 0.25 * (2x - 15) = 1.25 * (2x - 15) orbs.",
+        "ପଦକ୍ଷେପ (step) 5: Simplify the expression for the fourth temple to get 2.5x - 18.75.",
+        "ପଦକ୍ଷେପ (step) 6: The fifth temple contains 120 fewer orbs than the fourth temple, so it has (2.5x - 18.75) - 120 = 2.5x - 138.75 orbs.",
+        "ପଦକ୍ଷେପ (step) 7: Now, ସମଷ୍ଟି (sum) the orbs in all five temples: x + (x + 15) + (2x - 15) + (2.5x - 18.75) + (2.5x - 138.75) = 850.",
+        "ପଦକ୍ଷେପ (step) 8: Combine like terms to get 9x - 147.5 = 850.",
+        "ପଦକ୍ଷେପ (step) 9: ଯୋଗ (add) 147.5 to both sides of the ସମୀକରଣ (equation) to get 9x = 997.5.",
+        "ପଦକ୍ଷେପ (step) 10: ହରଣ (divide) by 9 to find x, the number of orbs in the second temple."
+    ],
+    "final_answer": "111"
+}

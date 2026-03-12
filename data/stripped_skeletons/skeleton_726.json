@@ -1,0 +1,20 @@
+{
+    "id": "726",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Shop A sells two types of products: X and Y. The profit from X is $10 per unit and from Y is $15 per unit. Shop B sells products X and Z. The profit from X is $8 per unit and from Z is $12 per unit. Shop C sells products Y and Z. The profit from Y is $18 per unit and from Z is $9 per unit. Each shop can sell a maximum of 100 units per day. The town has a total of 240 units of products to sell each day, with 80 units of product X, 80 units of product Y, and 80 units of product Z. How many units of each product should each shop sell to maximize the total profit, given that shop A must sell at least 20 units of product X, shop B must sell at least 30 units of product Z, and shop C must sell at least 10 units of product Y?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Shop A sells two types of products: X and Y. The profit from X is $10 per unit and from Y is $15 per unit. Shop B sells products X and Z. The profit from X is $8 per unit and from Z is $12 per unit. Shop C sells products Y and Z. The profit from Y is $18 per unit and from Z is $9 per unit. Each shop can sell a maximum of 100 units per day. The town has a ମୋଟ (total) of 240 units of products to sell each day, with 80 units of product X, 80 units of product Y, and 80 units of product Z. How many units of each product should each shop sell to maximize the ମୋଟ (total) profit, given that shop A must sell at least 20 units of product X, shop B must sell at least 30 units of product Z, and shop C must sell at least 10 units of product Y?",
+    "original_steps": [
+        "Step 1: Determine the maximum profit for each product in each shop by comparing the profit per unit across shops for each product.",
+        "Step 2: Set up equations based on the constraints given, such as the total number of units of each product available and the minimum sales requirements for each shop.",
+        "Step 3: Use linear programming or a similar method to optimize the sales of each product in each shop, aiming to maximize total profit while adhering to the given constraints.",
+        "Step 4: Calculate the optimal distribution of products X, Y, and Z across shops A, B, and C, ensuring that no shop sells more than 100 units per day and that all constraints are met.",
+        "Step 5: Compute the total profit based on the optimal distribution of products across the shops."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the maximum profit for each product in each shop by comparing the profit per unit across shops for each product.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the constraints given, such as the ମୋଟ (total) number of units of each product available and the minimum sales requirements for each shop.",
+        "ପଦକ୍ଷେପ (step) 3: Use linear programming or a similar method to optimize the sales of each product in each shop, aiming to maximize ମୋଟ (total) profit while adhering to the given constraints.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the optimal distribution of products X, Y, and Z across shops A, B, and C, ensuring that no shop sells more than 100 units per day and that all constraints are met.",
+        "ପଦକ୍ଷେପ (step) 5: Compute the ମୋଟ (total) profit based on the optimal distribution of products across the shops."
+    ],
+    "final_answer": "Shop A sells 20 units of X and 80 units of Y, Shop B sells 60 units of X and 30 units of Z, and Shop C sells 0 units of X, 0 units of Y, and 50 units of Z, yielding a total profit of $2580."
+}

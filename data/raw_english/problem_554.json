@@ -1,0 +1,12 @@
+{
+    "id": "554",
+    "problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. Each grocery store has 5 times as many items as a bakery and 3 times as many items as a cafe. A bakery has 120 items. If there are 5 grocery stores, 3 bakeries, and 2 cafes in the village, and each shop has a unique set of items, what is the total number of items in the village? Additionally, if each item in a grocery store costs $5, each item in a bakery costs $3, and each item in a cafe costs $2, what is the total cost of all items in the village?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of items in a grocery store, given that a bakery has 120 items and a grocery store has 5 times as many items as a bakery.",
+        "Step 2: Determine the number of items in a cafe, knowing that a grocery store has 3 times as many items as a cafe.",
+        "Step 3: Calculate the total number of items in all grocery stores, bakeries, and cafes separately.",
+        "Step 4: Sum the total number of items from all types of shops to find the overall number of items in the village.",
+        "Step 5: Calculate the total cost of all items in the village by multiplying the number of items in each type of shop by their respective costs and summing these values."
+    ],
+    "final_answer": "The total number of items is: (5 * 5 * 120) + (3 * 120) + (2 * (5 * 120 / 3)) = 3000 + 360 + 400 = 3760, and the total cost is: (3000 * $5) + (360 * $3) + (400 * $2) = $15000 + $1080 + $800 = $16880"
+}

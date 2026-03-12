@@ -1,0 +1,12 @@
+{
+    "id": "870",
+    "problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows at a rate of 5 cubic meters per minute, River B flows at a rate of 3 cubic meters per minute, and River C flows at a rate of 2 cubic meters per minute. The town's water tank can hold 2400 cubic meters of water. On a given day, River A flows for 2 hours, River B flows for 3 hours, and River C flows for 4 hours. However, due to some blockage, River A's flow is reduced by 20% for the first hour, and then it goes back to normal for the second hour. River B's flow is increased by 15% for the last 2 hours, but remains normal for the first hour. River C's flow remains constant throughout. How much water is collected in the tank at the end of the day, given that the tank was initially empty?",
+    "reasoning_steps": [
+        "Step 1: Calculate the reduced flow rate of River A for the first hour, which is 5 cubic meters/minute * 0.8 = 4 cubic meters/minute.",
+        "Step 2: Calculate the total flow from River A for the 2 hours, which includes 1 hour of reduced flow and 1 hour of normal flow. For the first hour, River A contributes 4 cubic meters/minute * 60 minutes = 240 cubic meters. For the second hour, River A contributes 5 cubic meters/minute * 60 minutes = 300 cubic meters. Total from River A = 240 + 300 = 540 cubic meters.",
+        "Step 3: Calculate the increased flow rate of River B for the last 2 hours, which is 3 cubic meters/minute * 1.15 = 3.45 cubic meters/minute. For the first hour, River B contributes 3 cubic meters/minute * 60 minutes = 180 cubic meters. For the next 2 hours, River B contributes 3.45 cubic meters/minute * 60 minutes * 2 = 414 cubic meters. Total from River B = 180 + 414 = 594 cubic meters.",
+        "Step 4: Calculate the total flow from River C for 4 hours, which is 2 cubic meters/minute * 60 minutes * 4 = 480 cubic meters.",
+        "Step 5: Sum up the total flow from all three rivers to find the total amount of water collected in the tank. Total = 540 (from River A) + 594 (from River B) + 480 (from River C) = 1614 cubic meters."
+    ],
+    "final_answer": "1614"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "256",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town requires 2400 liters of water to fill all the towers. However, Tower A can only hold 800 liters, Tower B can hold 900 liters, and Tower C can hold 700 liters. If the filling process starts at the same time for all three towers and Tower A is filled first, then Tower B, and finally Tower C, how many minutes will it take to fill all three towers, given that when a tower is full, the excess water from that tower is redirected to fill the next tower in line? Additionally, due to some technical issues, Tower C can only start filling after Tower B has 300 liters of water.",
+    "reasoning_steps": [
+        "Step 1: Calculate the time it takes for Tower A to fill up completely, considering its capacity and fill rate.",
+        "Step 2: Determine the amount of time Tower B starts filling and the amount of water redirected from Tower A to Tower B after Tower A is full.",
+        "Step 3: Calculate the time it takes for Tower B to reach 300 liters so that Tower C can start filling, considering the fill rate of Tower B and the water redirected from Tower A.",
+        "Step 4: Calculate the time it takes for Tower B to fill up completely after Tower C has started filling, considering the fill rates and capacities of both Tower B and Tower C, as well as the water redirected from Tower A to Tower B and then from Tower B to Tower C.",
+        "Step 5: Calculate the total time it takes to fill all three towers, considering the sequential filling process and the technical constraint on Tower C."
+    ],
+    "final_answer": "It will take 1600 minutes to fill all three towers."
+}

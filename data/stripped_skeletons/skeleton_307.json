@@ -1,0 +1,46 @@
+{
+    "id": "307",
+    "original_problem": "In a small town, there are three types of houses: blue, green, and yellow. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the blue house drinks tea. Clue 4: The American lives in the red house. Clue 5: The person who drinks coffee lives in the house next to the British person. Clue 6: The person who owns the green house drinks soda. Clue 7: The person who drinks water lives in the house next to the person who drinks tea.",
+    "deconstructed_problem": "In a small town, there are three types of houses: blue, green, and yellow. Each house has a unique address and is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the address of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the blue house drinks tea. Clue 4: The American lives in the red house. Clue 5: The person who drinks coffee lives in the house next to the British person. Clue 6: The person who owns the green house drinks soda. Clue 7: The person who drinks water lives in the house next to the person who drinks tea.",
+    "original_steps": [
+        "Step 1: Determine the address of the Canadian's house based on Clue 1.",
+        "Step 2: Use Clue 2 to establish the relationship between the person who drinks milk and the yellow house.",
+        "Step 3: Apply Clue 3 to identify the color of the house of the person who drinks tea and use Clue 7 to find the person who drinks water.",
+        "Step 4: Utilize Clue 4 to determine the color of the American's house, then apply Clue 5 to find the person who drinks coffee and their neighbor's nationality.",
+        "Step 5: Apply Clue 6 to identify the color of the house of the person who drinks soda and compile all information to find each house's address, occupant's nationality, and their favorite drink."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the address of the Canadian's house based on Clue 1.",
+        "ପଦକ୍ଷେପ (step) 2: Use Clue 2 to establish the relationship between the person who drinks milk and the yellow house.",
+        "ପଦକ୍ଷେପ (step) 3: Apply Clue 3 to identify the color of the house of the person who drinks tea and use Clue 7 to find the person who drinks water.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize Clue 4 to determine the color of the American's house, ତାହେଲେ (then) apply Clue 5 to find the person who drinks coffee and their neighbor's nationality.",
+        "ପଦକ୍ଷେପ (step) 5: Apply Clue 6 to identify the color of the house of the person who drinks soda and compile all information to find each house's address, occupant's nationality, and their favorite drink."
+    ],
+    "final_answer": {
+        "House 1": {
+            "color": "yellow",
+            "nationality": "Canadian",
+            "drink": "milk"
+        },
+        "House 2": {
+            "color": "blue",
+            "nationality": "British",
+            "drink": "tea"
+        },
+        "House 3": {
+            "color": "green",
+            "nationality": "Indian",
+            "drink": "soda"
+        },
+        "House 4": {
+            "color": "red",
+            "nationality": "American",
+            "drink": "coffee"
+        },
+        "House 5": {
+            "color": "purple",
+            "nationality": "Japanese",
+            "drink": "water"
+        }
+    }
+}

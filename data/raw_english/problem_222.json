@@ -1,0 +1,12 @@
+{
+    "id": "222",
+    "problem": "In the city of Azura, there are three types of temples: A, B, and C. Temple A has 30% more monks than Temple B, and Temple C has 20% fewer monks than Temple A. If Temple B has 120 monks and the total number of monks in all three temples is 540, how many monks are in Temple C? Additionally, if each monk in Temple A consumes 2.5 kilograms of food per day, each monk in Temple B consumes 3 kilograms of food per day, and each monk in Temple C consumes 2 kilograms of food per day, what is the total daily food consumption of all monks in the three temples?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of monks in Temple A by finding 30% more than the number of monks in Temple B.",
+        "Step 2: Determine the number of monks in Temple C by finding 20% fewer monks than in Temple A.",
+        "Step 3: Calculate the total number of monks in Temples A and B, then subtract this sum from the total number of monks in all three temples to find the number of monks in Temple C, or use the information from Steps 1 and 2 to calculate it directly.",
+        "Step 4: Calculate the daily food consumption for each temple by multiplying the number of monks in each temple by their respective daily food consumption rates.",
+        "Step 5: Add the daily food consumption of all three temples to find the total daily food consumption."
+    ],
+    "final_answer": "240"
+}

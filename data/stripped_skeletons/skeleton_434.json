@@ -1,0 +1,20 @@
+{
+    "id": "434",
+    "original_problem": "In a mystical forest, there are five temples dedicated to different gods, each with a distinct color: blue, green, red, white, and yellow. Each temple has a unique architectural style: Gothic, Modern, Romanesque, Art Deco, and Victorian. The high priests of these temples wear robes of different colors: black, brown, gray, purple, and silver. The temples are arranged in a straight line, and the following conditions apply: the temple with the Gothic style is next to the one with the black robes, the green temple is to the immediate left of the temple with the Romanesque style, the priest wearing purple robes is in the temple next to the yellow temple, the temple with the Modern style is to the left of the temple with the silver robes, the red temple is to the right of the temple with the Art Deco style, the priest with the gray robes is in the Victorian temple, the brown robes are in the temple with the white color, and the blue temple is at one of the ends. Determine the order of the temples from left to right, including their colors, architectural styles, and the color of the high priests' robes.",
+    "deconstructed_problem": "In a mystical forest, there are five temples dedicated to different gods, each with a distinct color: blue, green, red, white, and yellow. Each temple has a unique architectural style: Gothic, Modern, Romanesque, Art Deco, and Victorian. The high priests of these temples wear robes of different colors: black, brown, gray, purple, and silver. The temples are arranged in a straight line, and the following conditions apply: the temple with the Gothic style is next to the one with the black robes, the green temple is to the immediate left of the temple with the Romanesque style, the priest wearing purple robes is in the temple next to the yellow temple, the temple with the Modern style is to the left of the temple with the silver robes, the red temple is to the right of the temple with the Art Deco style, the priest with the gray robes is in the Victorian temple, the brown robes are in the temple with the white color, and the blue temple is at one of the ends. Determine the order of the temples from left to right, including their colors, architectural styles, and the color of the high priests' robes.",
+    "original_steps": [
+        "Step 1: Determine the possible positions of the blue temple based on the given conditions.",
+        "Step 2: Use the condition that the green temple is to the immediate left of the Romanesque style to start building the sequence.",
+        "Step 3: Apply the condition that the Modern style is to the left of the silver robes and the red temple is to the right of the Art Deco style to further restrict the possibilities.",
+        "Step 4: Utilize the information about the priest with the gray robes being in the Victorian temple and the brown robes being in the white temple to narrow down the options.",
+        "Step 5: Combine all the conditions to deduce the exact order of the temples, including their colors, styles, and the priests' robes."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the possible positions of the blue temple based on the given conditions.",
+        "ପଦକ୍ଷେପ (step) 2: Use the condition that the green temple is to the immediate left of the Romanesque style to start building the sequence.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the condition that the Modern style is to the left of the silver robes and the red temple is to the right of the Art Deco style to further restrict the possibilities.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize the information about the priest with the gray robes being in the Victorian temple and the brown robes being in the white temple to narrow down the options.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all the conditions to deduce the exact order of the temples, including their colors, styles, and the priests' robes."
+    ],
+    "final_answer": "Blue-Gothic-Black, Green-Romanesque-Brown, White-Art Deco-Gray, Yellow-Victorian-Purple, Red-Modern-Silver"
+}

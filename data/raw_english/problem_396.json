@@ -1,0 +1,12 @@
+{
+    "id": "396",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of 250 loaves of bread per day, with 30% of the sales going to cafes and 20% to restaurants. The remaining sales are to individual customers. Cafes, in turn, use 40% of the bread they buy to make sandwiches and sell the rest to their customers. Restaurants buy bread to make breadsticks and sell them at a price that is 25% higher than the price they buy the bread for. If a bakery sells bread at $2 per loaf, a cafe sells a sandwich for $4, and a restaurant sells a breadstick for $3, what is the total daily revenue from bread sales for all the bakeries, cafes, and restaurants in the village, given there are 5 bakeries, 3 cafes, and 2 restaurants?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of loaves sold by all bakeries per day.",
+        "Step 2: Determine the number of loaves sold by bakeries to cafes and restaurants, and calculate the revenue from direct sales to individual customers.",
+        "Step 3: Calculate the number of loaves used by cafes to make sandwiches and the number sold to their customers, then find the revenue from sandwich sales.",
+        "Step 4: Calculate the revenue from breadsticks sold by restaurants, considering the markup.",
+        "Step 5: Sum the revenues from all sources (direct bakery sales, cafe sandwich sales, and restaurant breadstick sales) to find the total daily revenue."
+    ],
+    "final_answer": "To solve this problem, first calculate the total loaves sold by all bakeries: 5 bakeries * 250 loaves = 1250 loaves. Then, calculate sales to cafes (30% of 1250 = 375 loaves), to restaurants (20% of 1250 = 250 loaves), and direct sales (50% of 1250 = 625 loaves). The revenue from direct sales is 625 loaves * $2 = $1250. For cafes, 40% of 375 loaves are used for sandwiches (150 loaves), which translates to 150 sandwiches * $4 = $600 revenue. The rest of the bread (375 - 150 = 225 loaves) is sold at $2 per loaf, adding $450 to the cafes' revenue. For restaurants, they buy 250 loaves and sell breadsticks at $3 each, with a 25% markup, meaning they buy the bread at $2.40 per loaf (since $3 is 125% of the cost price). The revenue from breadsticks is thus 250 loaves * $3 = $750. Summing these revenues: $1250 (bakeries) + $600 (cafes from sandwiches) + $450 (cafes from bread resale) + $750 (restaurants) = $3050."
+}

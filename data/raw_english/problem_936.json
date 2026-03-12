@@ -1,0 +1,12 @@
+{
+    "id": "936",
+    "problem": "In a small town, there are three factories: A, B, and C, producing 30%, 40%, and 30% of the town's total electricity, respectively. The town's total electricity consumption is 10,000 kWh per day. Factory A operates at 80% capacity from Monday to Friday and at 50% capacity on weekends. Factory B operates at 90% capacity on all days, while Factory C operates at 70% capacity from Monday to Thursday and at 60% capacity on Friday, Saturday, and Sunday. If the town's electricity demand is 15% higher on weekends, what is the total electricity produced by Factory B on a Sunday?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total electricity produced by all factories on a normal day, considering their percentages of the total production.",
+        "Step 2: Determine the total electricity demand on a Sunday, accounting for the 15% increase.",
+        "Step 3: Calculate Factory A's production on a Sunday, considering it operates at 50% capacity.",
+        "Step 4: Calculate Factory C's production on a Sunday, considering it operates at 60% capacity.",
+        "Step 5: Using the information from steps 1 through 4, find Factory B's production on a Sunday, knowing it operates at 90% capacity and produces 40% of the town's total electricity."
+    ],
+    "final_answer": "3960"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "45",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 150 cups of coffee per day. Each restaurant has a 3:5 ratio of bakeries to cafes within a 2-block radius. If there are 12 restaurants in total, with each having 5 blocks of radius, and the total number of loaves of bread sold per day is 4500, what is the total number of cups of coffee sold per day in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 150 cups of coffee per day. Each restaurant has a 3:5 ratio of bakeries to cafes within a 2-block radius. ଯଦି (if) there are 12 restaurants in ମୋଟ (total), with each having 5 blocks of radius, and the ମୋଟ (total) number of loaves of bread sold per day is 4500, what is the ମୋଟ (total) number of cups of coffee sold per day in the town?",
+    "original_steps": [
+        "Step 1: Determine the total number of bakeries by dividing the total number of loaves sold per day by the number of loaves each bakery sells.",
+        "Step 2: Calculate the number of bakeries per block for each restaurant based on the total number of bakeries and the total area covered by all restaurants.",
+        "Step 3: Find the number of cafes per block for each restaurant using the 3:5 ratio of bakeries to cafes.",
+        "Step 4: Calculate the total number of cafes in the town by multiplying the number of cafes per block by the total area covered by all restaurants.",
+        "Step 5: Determine the total number of cups of coffee sold per day by multiplying the number of cafes by the number of cups of coffee each cafe sells."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of bakeries by dividing the ମୋଟ (total) number of loaves sold per day by the number of loaves each bakery sells.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of bakeries per block for each restaurant based on the ମୋଟ (total) number of bakeries and the ମୋଟ (total) area covered by all restaurants.",
+        "ପଦକ୍ଷେପ (step) 3: Find the number of cafes per block for each restaurant using the 3:5 ratio of bakeries to cafes.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of cafes in the town by multiplying the number of cafes per block by the ମୋଟ (total) area covered by all restaurants.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the ମୋଟ (total) number of cups of coffee sold per day by multiplying the number of cafes by the number of cups of coffee each cafe sells."
+    ],
+    "final_answer": "2700"
+}

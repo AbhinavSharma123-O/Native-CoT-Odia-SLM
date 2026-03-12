@@ -1,0 +1,24 @@
+{
+    "id": "541",
+    "original_problem": "In a small town, there are three utility companies: WaterWorks, PowerPlus, and GasGenie. Each company has a different number of employees, and the total number of employees is 240. The number of employees at WaterWorks is 20 more than the number of employees at PowerPlus, and the number of employees at GasGenie is 30 less than the number of employees at WaterWorks. If the number of employees at PowerPlus is a multiple of 5, what is the number of employees at each company?",
+    "deconstructed_problem": "In a small town, there are three utility companies: WaterWorks, PowerPlus, and GasGenie. Each company has a different number of employees, and the ମୋଟ (total) number of employees is 240. The number of employees at WaterWorks is 20 more than the number of employees at PowerPlus, and the number of employees at GasGenie is 30 less than the number of employees at WaterWorks. ଯଦି (if) the number of employees at PowerPlus is a multiple of 5, what is the number of employees at each company?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees at each company: let W be the number of employees at WaterWorks, P be the number of employees at PowerPlus, and G be the number of employees at GasGenie.",
+        "Step 2: Set up equations based on the given information: W = P + 20, G = W - 30, and W + P + G = 240.",
+        "Step 3: Substitute the first equation into the second equation to express G in terms of P: G = (P + 20) - 30 = P - 10.",
+        "Step 4: Substitute the expressions for W and G into the total equation: (P + 20) + P + (P - 10) = 240, which simplifies to 3P + 10 = 240.",
+        "Step 5: Solve for P: 3P = 230, so P = 230 / 3 = 76.67, which must be rounded to a multiple of 5 since P is a multiple of 5; thus, P could be 75 or 80, but only one will yield integer values for W and G when substituted back into the equations."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees at each company: let W be the number of employees at WaterWorks, P be the number of employees at PowerPlus, and G be the number of employees at GasGenie.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: W = P + 20, G = W - 30, and W + P + G = 240.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the first ସମୀକରଣ (equation) into the second ସମୀକରଣ (equation) to express G in terms of P: G = (P + 20) - 30 = P - 10.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for W and G into the ମୋଟ (total) ସମୀକରଣ (equation): (P + 20) + P + (P - 10) = 240, which simplifies to 3P + 10 = 240.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for P: 3P = 230, so P = 230 / 3 = 76.67, which must be rounded to a multiple of 5 since P is a multiple of 5; thus, P could be 75 or 80, but only one will yield integer values for W and G when substituted back into the equations."
+    ],
+    "final_answer": {
+        "WaterWorks": 120,
+        "PowerPlus": 100,
+        "GasGenie": 20
+    }
+}

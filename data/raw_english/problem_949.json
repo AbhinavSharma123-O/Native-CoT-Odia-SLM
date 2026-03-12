@@ -1,0 +1,12 @@
+{
+    "id": "949",
+    "problem": "In a small town, there are three types of shops: clothing, electronics, and furniture. Each shop has a unique owner, and each owner has a favorite color: blue, green, or red. Using the following clues, determine the color of each shop's sign: (1) The electronics shop is next to the shop with the green sign. (2) The owner of the furniture shop likes the color blue. (3) The clothing shop is next to the shop with the red sign. (4) The shop with the green sign is on the immediate left of the furniture shop. (5) There are five shops in total, and each type of shop appears exactly once. The shops are arranged in a row, with the clothing shop at one end. If the town has a rule that no two adjacent shops can have signs of the same color, what are the possible colors of the signs for the shops, in order from left to right?",
+    "reasoning_steps": [
+        "Step 1: Determine the possible positions of the furniture shop based on clue (2) and the restriction that no two adjacent shops can have signs of the same color.",
+        "Step 2: Use clue (4) to establish the relative position of the shop with the green sign to the furniture shop, and clue (1) to find the possible position of the electronics shop.",
+        "Step 3: Apply clue (3) to determine the possible position of the clothing shop and the shop with the red sign, considering the restriction on sign colors.",
+        "Step 4: Analyze the information from steps 1-3 to deduce the possible arrangements of shops that satisfy all conditions.",
+        "Step 5: Consider the total number of shops and the uniqueness of each shop type to finalize the possible arrangements and sign colors."
+    ],
+    "final_answer": "Blue, Green, Red, Blue, Green or Green, Blue, Red, Green, Blue"
+}

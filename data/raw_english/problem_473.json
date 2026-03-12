@@ -1,0 +1,12 @@
+{
+    "id": "473",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a maximum of 250 loaves of bread per day and makes a profit of $0.50 per loaf. Each cafe sells a maximum of 200 cups of coffee per day and makes a profit of $0.25 per cup. Each restaurant sells a maximum of 150 meals per day and makes a profit of $2.00 per meal. If the total profit from all shops in the village is $1000 per day, and there are 5 more bakeries than cafes, and the number of restaurants is half the number of bakeries, what is the total number of shops in the village?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of shop. Let's denote the number of bakeries as B, the number of cafes as C, and the number of restaurants as R.",
+        "Step 2: Establish the relationships between the variables based on the given information. We know there are 5 more bakeries than cafes, so B = C + 5. We also know the number of restaurants is half the number of bakeries, so R = B/2.",
+        "Step 3: Calculate the total profit from each type of shop. The profit from bakeries is 0.50 * 250 * B = 125B dollars. The profit from cafes is 0.25 * 200 * C = 50C dollars. The profit from restaurants is 2.00 * 150 * R = 300R dollars.",
+        "Step 4: Set up the equation based on the total profit. The total profit from all shops is given as $1000, so 125B + 50C + 300R = 1000. Substitute the relationships between B, C, and R from Step 2 into this equation to solve for one variable.",
+        "Step 5: Substitute B = C + 5 and R = B/2 into the profit equation. This gives 125(C + 5) + 50C + 300((C + 5)/2) = 1000. Simplify and solve for C."
+    ],
+    "final_answer": "10"
+}

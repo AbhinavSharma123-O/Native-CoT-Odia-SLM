@@ -1,0 +1,20 @@
+{
+    "id": "56",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a minimum of 250 loaves of bread per day and a maximum of 750 loaves. The town has a total of 15 shops, with 5 more bakeries than cafes and 2 fewer restaurants than cafes. If each cafe sells an average of 500 cups of coffee per day and each restaurant serves an average of 200 meals per day, what is the minimum total number of items (loaves of bread, cups of coffee, and meals) that could be sold in the town in one day?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a minimum of 250 loaves of bread per day and a maximum of 750 loaves. The town has a ମୋଟ (total) of 15 shops, with 5 more bakeries than cafes and 2 fewer restaurants than cafes. ଯଦି (if) each cafe sells an average of 500 cups of coffee per day and each restaurant serves an average of 200 meals per day, what is the minimum ମୋଟ (total) number of items (loaves of bread, cups of coffee, and meals) that could be sold in the town in one day?",
+    "original_steps": [
+        "Step 1: Determine the number of each type of shop by setting up equations based on the given relationships between the numbers of bakeries, cafes, and restaurants.",
+        "Step 2: Calculate the minimum number of loaves of bread sold by the bakeries, given that each sells at least 250 loaves per day.",
+        "Step 3: Calculate the total number of cups of coffee sold by the cafes, given that each sells an average of 500 cups per day.",
+        "Step 4: Calculate the total number of meals served by the restaurants, given that each serves an average of 200 meals per day.",
+        "Step 5: Sum the minimum totals from bakeries, cafes, and restaurants to find the overall minimum number of items that could be sold in the town in one day."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of each type of shop by setting up equations based on the given relationships between the numbers of bakeries, cafes, and restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the minimum number of loaves of bread sold by the bakeries, given that each sells at least 250 loaves per day.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of cups of coffee sold by the cafes, given that each sells an average of 500 cups per day.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of meals served by the restaurants, given that each serves an average of 200 meals per day.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the minimum totals from bakeries, cafes, and restaurants to find the overall minimum number of items that could be sold in the town in one day."
+    ],
+    "final_answer": "12500"
+}

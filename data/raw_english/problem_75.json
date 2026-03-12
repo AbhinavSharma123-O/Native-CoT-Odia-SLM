@@ -1,0 +1,12 @@
+{
+    "id": "75",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a combination of cakes and pastries. The total number of cakes sold by all bakeries is 250, and the total number of pastries sold is 420. It is known that the ratio of cakes to pastries sold by each bakery is constant across all bakeries. Additionally, each cafe sells a combination of sandwiches and salads, with the total number of sandwiches sold being 180 and the total number of salads sold being 300. The ratio of sandwiches to salads is also constant across all cafes. A restaurant, which also operates as a cafe and a bakery, sells 20 cakes, 30 pastries, 15 sandwiches, and 25 salads. Given that the total number of bakeries, cafes, and restaurants in the town is 15, determine the total number of restaurants that operate as both cafes and bakeries if there are 5 more cafes than bakeries.",
+    "reasoning_steps": [
+        "Step 1: Determine the ratio of cakes to pastries sold by the bakeries. Since the ratio is constant, we can use the total numbers to find this ratio.",
+        "Step 2: Calculate the ratio of sandwiches to salads sold by the cafes, similar to step 1 for the bakeries.",
+        "Step 3: Use the information from the restaurant that operates as both a cafe and a bakery to establish relationships between the ratios found in steps 1 and 2 and the total numbers of items sold.",
+        "Step 4: Set up equations based on the total number of shops and the given relationship that there are 5 more cafes than bakeries.",
+        "Step 5: Solve the system of equations established in step 4 to find the number of bakeries, cafes, and then deduce the number of restaurants that operate as both cafes and bakeries."
+    ],
+    "final_answer": "2"
+}

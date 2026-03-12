@@ -1,0 +1,12 @@
+{
+    "id": "967",
+    "problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the total widgets, respectively. Factory A produces 200 widgets more than Factory B on any given day. The total production of widgets in the town is 1500. If Factory C operates at 80% capacity, how many widgets does it actually produce, considering that the total production includes 10% defective widgets from all factories?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of widgets produced by each factory based on the given percentages.",
+        "Step 2: Use the information that Factory A produces 200 widgets more than Factory B to establish a relationship between the two factories' production amounts.",
+        "Step 3: Determine the actual production amounts for each factory, considering the total production is 1500 widgets and adjusting for the relationship between Factory A and B.",
+        "Step 4: Calculate the production of Factory C when operating at 80% capacity, taking into account the defective widgets.",
+        "Step 5: Apply the defective widget rate to the production of Factory C to find the final number of non-defective widgets it produces."
+    ],
+    "final_answer": "495"
+}

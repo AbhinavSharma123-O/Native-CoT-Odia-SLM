@@ -1,0 +1,46 @@
+{
+    "id": "842",
+    "original_problem": "In a small village, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the yellow house drinks soda. Clue 4: The American lives in the red house. Clue 5: The person who drinks coffee lives in the house next to the British person. Clue 6: The person who owns the green house drinks water. Clue 7: The person who drinks tea lives in the house next to the person who owns the green house.",
+    "deconstructed_problem": "In a small village, there are 5 houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the yellow house drinks soda. Clue 4: The American lives in the red house. Clue 5: The person who drinks coffee lives in the house next to the British person. Clue 6: The person who owns the green house drinks water. Clue 7: The person who drinks tea lives in the house next to the person who owns the green house.",
+    "original_steps": [
+        "Step 1: Determine the order of houses based on Clue 1 and Clue 4, knowing the Canadian and American's house colors but not their exact positions beyond the Canadian being first.",
+        "Step 2: Use Clue 2 and Clue 3 to establish the relationship between the person who drinks milk and the person who owns the yellow house, who drinks soda, and then apply Clue 6 to find the position of the green house and its occupant's drink.",
+        "Step 3: Apply Clue 5 to find the position of the person who drinks coffee in relation to the British person, and deduce possible nationalities and drinks for the remaining houses.",
+        "Step 4: Combine information from Clue 7 with previous deductions to narrow down the possibilities for the remaining houses' colors, occupants, and their favorite drinks.",
+        "Step 5: Use the process of elimination based on all gathered information to assign a color, nationality, and favorite drink to each of the 5 houses."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the order of houses based on Clue 1 and Clue 4, knowing the Canadian and American's house colors but not their exact positions beyond the Canadian being first.",
+        "ପଦକ୍ଷେପ (step) 2: Use Clue 2 and Clue 3 to establish the relationship between the person who drinks milk and the person who owns the yellow house, who drinks soda, and ତାହେଲେ (then) apply Clue 6 to find the position of the green house and its occupant's drink.",
+        "ପଦକ୍ଷେପ (step) 3: Apply Clue 5 to find the position of the person who drinks coffee in relation to the British person, and deduce possible nationalities and drinks for the remaining houses.",
+        "ପଦକ୍ଷେପ (step) 4: Combine information from Clue 7 with previous deductions to narrow down the possibilities for the remaining houses' colors, occupants, and their favorite drinks.",
+        "ପଦକ୍ଷେପ (step) 5: Use the process of elimination based on all gathered information to assign a color, nationality, and favorite drink to each of the 5 houses."
+    ],
+    "final_answer": {
+        "House 1": {
+            "color": "yellow",
+            "nationality": "Canadian",
+            "drink": "soda"
+        },
+        "House 2": {
+            "color": "blue",
+            "nationality": "British",
+            "drink": "milk"
+        },
+        "House 3": {
+            "color": "red",
+            "nationality": "American",
+            "drink": "coffee"
+        },
+        "House 4": {
+            "color": "green",
+            "nationality": "Indian",
+            "drink": "water"
+        },
+        "House 5": {
+            "color": "white",
+            "nationality": "Japanese",
+            "drink": "tea"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "628",
+    "problem": "In the kingdom of Azura, there are five villages: A, B, C, D, and E. Each village has a different number of inhabitants: 100, 200, 300, 400, and 500. Using the following clues, determine the number of inhabitants in each village and the total number of inhabitants in the kingdom: Village A has 100 more inhabitants than Village B. Village C has twice as many inhabitants as Village D. Village E has 200 more inhabitants than Village C. Village D has 100 fewer inhabitants than Village A. The sum of the inhabitants in Villages A and E is 800.",
+    "reasoning_steps": [
+        "Step 1: Determine the relationship between Villages A and B, knowing that A has 100 more inhabitants than B.",
+        "Step 2: Establish the relationship between Villages C and D, recognizing that C has twice as many inhabitants as D.",
+        "Step 3: Use the information about Village D having 100 fewer inhabitants than Village A to create an equation involving A and D.",
+        "Step 4: Apply the clue about Village E having 200 more inhabitants than Village C to further define the relationships among the villages.",
+        "Step 5: Utilize the final clue about the sum of inhabitants in Villages A and E being 800 to solve for the specific population of each village."
+    ],
+    "final_answer": "1000"
+}

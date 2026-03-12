@@ -1,0 +1,20 @@
+{
+    "id": "695",
+    "original_problem": "In a small town, there are 5 water towers, each with a different storage capacity: 1000, 2000, 3000, 4000, and 5000 gallons. The town's water usage follows a pattern: on Monday, the town uses 1/5 of the total capacity of the smallest 3 towers; on Tuesday, it uses 1/4 of the total capacity of the 2 largest towers; on Wednesday, the town fills up all towers completely. On Thursday, the town uses the sum of 1/3 of the capacity of the largest tower and 1/2 of the capacity of the second smallest tower. If this pattern repeats every week, how many gallons of water will the town use in total over 4 weeks?",
+    "deconstructed_problem": "In a small town, there are 5 water towers, each with a different storage capacity: 1000, 2000, 3000, 4000, and 5000 gallons. The town's water usage follows a pattern: on Monday, the town uses 1/5 of the ମୋଟ (total) capacity of the smallest 3 towers; on Tuesday, it uses 1/4 of the ମୋଟ (total) capacity of the 2 largest towers; on Wednesday, the town fills up all towers completely. On Thursday, the town uses the ସମଷ୍ଟି (sum) of 1/3 of the capacity of the largest tower and 1/2 of the capacity of the second smallest tower. ଯଦି (if) this pattern repeats every week, how many gallons of water will the town use in ମୋଟ (total) over 4 weeks?",
+    "original_steps": [
+        "Step 1: Calculate the total storage capacity of the smallest 3 towers.",
+        "Step 2: Calculate the total storage capacity of the 2 largest towers.",
+        "Step 3: Determine the water usage for each day of the week based on the given fractions of the tower capacities.",
+        "Step 4: Calculate the total water used in one week by summing the usage for each day.",
+        "Step 5: Multiply the total water used in one week by 4 to find the total water used over 4 weeks."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) storage capacity of the smallest 3 towers.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) storage capacity of the 2 largest towers.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the water usage for each day of the week based on the given fractions of the tower capacities.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) water used in one week by summing the usage for each day.",
+        "ପଦକ୍ଷେପ (step) 5: ଗୁଣନ (multiply) the ମୋଟ (total) water used in one week by 4 to find the ମୋଟ (total) water used over 4 weeks."
+    ],
+    "final_answer": "128000"
+}

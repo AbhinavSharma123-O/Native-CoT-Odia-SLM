@@ -1,0 +1,19 @@
+{
+    "id": "180",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees, with bakeries having 5 more employees than cafes, and restaurants having 10 more employees than bakeries. If the total number of employees in all shops is 250, and the number of bakeries is 5 more than the number of cafes, and the number of restaurants is 2 less than the number of bakeries, what is the number of employees in each type of shop?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the problem, letting B be the number of bakeries, C be the number of cafes, and R be the number of restaurants. Also, let b, c, and r be the number of employees in each bakery, cafe, and restaurant, respectively.",
+        "Step 2: Set up equations based on the given information. We have B = C + 5 and R = B - 2. We also know that b = c + 5 and r = b + 10.",
+        "Step 3: Express the total number of employees in terms of the variables. The total number of employees is given by B*b + C*c + R*r, which equals 250.",
+        "Step 4: Substitute the expressions for B, R, b, and r from the earlier steps into the total employees equation to get an equation solely in terms of C and c.",
+        "Step 5: Solve the resulting equation for C and c, then use these values to find B, R, b, and r."
+    ],
+    "final_answer": {
+        "B": 10,
+        "C": 5,
+        "R": 8,
+        "b": 20,
+        "c": 15,
+        "r": 30
+    }
+}

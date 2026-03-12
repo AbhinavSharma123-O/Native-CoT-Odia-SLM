@@ -1,0 +1,12 @@
+{
+    "id": "221",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a certain number of bread loaves per day, with a minimum of 50 and a maximum of 200. The total number of bread loaves sold by all bakeries in one day is 850. There are 5 bakeries in total, but one of them sells 50 more loaves per day than the average of all the other bakeries combined. If the sum of the bread loaves sold by the two smallest bakeries is 300, and the largest bakery sells 200 loaves per day, determine the number of loaves sold by the remaining two bakeries, given that their combined sales are 20% higher than the sales of the two smallest bakeries.",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of loaves sold by all bakeries minus the largest one to find the total for the remaining four bakeries.",
+        "Step 2: Determine the sales of the bakery that sells 50 more loaves than the average of all other bakeries combined, which requires finding the average sales of the other four bakeries first.",
+        "Step 3: Use the information about the sum of the bread loaves sold by the two smallest bakeries to establish an equation that relates the sales of these bakeries to the total sales of the four smaller bakeries.",
+        "Step 4: Solve for the sales of the two smallest bakeries using the given sum and the relationship between the sales of the smaller bakeries and the total sales of the four smaller bakeries.",
+        "Step 5: Calculate the combined sales of the remaining two bakeries, which are 20% higher than the sales of the two smallest bakeries, and compare this to the total sales of all bakeries minus the sales of the largest bakery and the bakery selling 50 more than the average."
+    ],
+    "final_answer": "250"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "376",
+    "original_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. A bird watching from above notices that on the fifth day, the snail is exactly halfway up the well. However, due to an unexpected rainstorm on the sixth day, the well fills with water, raising the water level 4 feet from the bottom. The snail, now swimming, moves at the same rate as before but does not slip back at night because it can float on the water's surface. How many days will it take for the snail to reach the top of the well from the moment the water level rises?",
+    "deconstructed_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. A bird watching from above notices that on the fifth day, the snail is exactly halfway up the well. However, due to an unexpected rainstorm on the sixth day, the well fills with water, raising the water level 4 feet from the bottom. The snail, now swimming, moves at the same rate as before but does not slip back at night କାରଣ (because) it can float on the water's surface. How many days will it take for the snail to reach the top of the well from the moment the water level rises?",
+    "original_steps": [
+        "Step 1: Determine the snail's position before the water rises. Given the snail climbs 3 feet and slips back 2 feet each day, calculate its net progress up the well over the first five days.",
+        "Step 2: Consider the halfway point the snail reaches on the fifth day and calculate the exact distance it has traveled up the well by that point.",
+        "Step 3: Account for the water level rise of 4 feet and how it affects the snail's starting position relative to the top of the well.",
+        "Step 4: Calculate the remaining distance the snail must travel to reach the top of the well after the water level rises.",
+        "Step 5: Determine how many days it will take the snail to cover this remaining distance, given it moves 3 feet up each day without slipping back."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the snail's position before the water rises. Given the snail climbs 3 feet and slips back 2 feet each day, calculate its net progress up the well over the first five days.",
+        "ପଦକ୍ଷେପ (step) 2: Consider the halfway point the snail reaches on the fifth day and calculate the exact distance it has traveled up the well by that point.",
+        "ପଦକ୍ଷେପ (step) 3: Account for the water level rise of 4 feet and how it affects the snail's starting position relative to the top of the well.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the remaining distance the snail must travel to reach the top of the well after the water level rises.",
+        "ପଦକ୍ଷେପ (step) 5: Determine how many days it will take the snail to cover this remaining distance, given it moves 3 feet up each day without slipping back."
+    ],
+    "final_answer": "9"
+}

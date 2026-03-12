@@ -1,0 +1,12 @@
+{
+    "id": "393",
+    "problem": "In a small town, there are three types of vehicles: cars, buses, and trucks. The total number of vehicles in the town is 240. The number of cars is 45 more than the number of buses, and the number of trucks is 25 fewer than the number of buses. Additionally, the number of wheels on all the cars is 25% more than the number of wheels on all the buses. If each car has 4 wheels, each bus has 6 wheels, and each truck has 8 wheels, what is the total number of wheels in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of cars, buses, and trucks. Let's denote the number of buses as B, the number of cars as C, and the number of trucks as T.",
+        "Step 2: Translate the given information into mathematical equations. We have: C = B + 45, T = B - 25, and the total number of vehicles equation: B + C + T = 240.",
+        "Step 3: Substitute the expressions for C and T from the first two equations into the total number of vehicles equation to solve for B.",
+        "Step 4: Once B is found, calculate the number of cars (C) and trucks (T) using the equations from Step 2.",
+        "Step 5: Calculate the total number of wheels for each type of vehicle by multiplying the number of each type of vehicle by the number of wheels on each and then sum these totals to find the overall number of wheels in the town."
+    ],
+    "final_answer": "1860"
+}

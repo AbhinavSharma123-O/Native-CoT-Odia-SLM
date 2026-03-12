@@ -1,0 +1,20 @@
+{
+    "id": "76",
+    "original_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it will not slip back. Meanwhile, a bird flying overhead drops a seed every 4 feet as it flies up the well. The bird starts flying from the bottom of the well and flies up to the top. How many seeds will the bird have dropped by the time the snail reaches the top of the well?",
+    "deconstructed_problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it will not slip back. Meanwhile, a bird flying overhead drops a seed every 4 feet as it flies up the well. The bird starts flying from the bottom of the well and flies up to the top. How many seeds will the bird have dropped by the time the snail reaches the top of the well?",
+    "original_steps": [
+        "Step 1: Determine the daily progress of the snail, which climbs 3 feet up and slips 2 feet back, making a net gain of 1 foot per day.",
+        "Step 2: Calculate the total number of days it takes for the snail to reach the top of the 20-foot well. Since the snail makes a net gain of 1 foot per day and it climbs 3 feet on the final day without slipping back, it needs 18 days to climb 18 feet (20 - 2 = 18 feet to account for the final climb without slipping).",
+        "Step 3: On the 18th day, the snail will climb the final 3 feet to reach the top, which means it actually takes 18 days of climbing and slipping, and on the 18th day, it climbs out without slipping back.",
+        "Step 4: Since the bird drops a seed every 4 feet, calculate how many seeds the bird drops as the snail climbs. The bird will have flown the entire 20 feet by the time the snail reaches the top.",
+        "Step 5: Calculate the number of seeds dropped by dividing the height of the well by the interval at which the bird drops seeds. Since the bird drops a seed every 4 feet, and the well is 20 feet tall, the bird will drop seeds at 4, 8, 12, 16, and 20 feet."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the daily progress of the snail, which climbs 3 feet up and slips 2 feet back, making a net gain of 1 foot per day.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) number of days it takes for the snail to reach the top of the 20-foot well. Since the snail makes a net gain of 1 foot per day and it climbs 3 feet on the final day without slipping back, it needs 18 days to climb 18 feet (20 - 2 = 18 feet to account for the final climb without slipping).",
+        "ପଦକ୍ଷେପ (step) 3: On the 18th day, the snail will climb the final 3 feet to reach the top, which means it actually takes 18 days of climbing and slipping, and on the 18th day, it climbs out without slipping back.",
+        "ପଦକ୍ଷେପ (step) 4: Since the bird drops a seed every 4 feet, calculate how many seeds the bird drops as the snail climbs. The bird will have flown the entire 20 feet by the time the snail reaches the top.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of seeds dropped by dividing the height of the well by the interval at which the bird drops seeds. Since the bird drops a seed every 4 feet, and the well is 20 feet tall, the bird will drop seeds at 4, 8, 12, 16, and 20 feet."
+    ],
+    "final_answer": "5"
+}

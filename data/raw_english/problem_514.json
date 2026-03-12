@@ -1,0 +1,13 @@
+{
+    "id": "514",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, tank B can hold 800 gallons, and tank C can hold 1500 gallons. On a given day, tank A is filled to 3/4 of its capacity, tank B is 1/2 full, and tank C is 2/3 full. If 300 gallons of water are pumped from tank A to tank B, and then 200 gallons are pumped from tank C to tank A, what percentage of the total capacity of all three tanks is filled after these transactions, given that no water is lost during the process?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. For tank A, this is 3/4 * 1200 = 900 gallons. For tank B, it's 1/2 * 800 = 400 gallons. For tank C, it's 2/3 * 1500 = 1000 gallons.",
+        "Step 2: Determine the amount of water in each tank after the first transfer. After pumping 300 gallons from tank A to tank B, tank A has 900 - 300 = 600 gallons, and tank B has 400 + 300 = 700 gallons. Tank C's water level remains unchanged at this step.",
+        "Step 3: Calculate the amount of water in each tank after the second transfer. After pumping 200 gallons from tank C to tank A, tank A now has 600 + 200 = 800 gallons, tank B remains unchanged at 700 gallons, and tank C has 1000 - 200 = 800 gallons.",
+        "Step 4: Calculate the total amount of water in all tanks after the transactions. This is 800 (tank A) + 700 (tank B) + 800 (tank C) = 2300 gallons.",
+        "Step 5: Calculate the total capacity of all three tanks. This is 1200 (tank A) + 800 (tank B) + 1500 (tank C) = 3500 gallons.",
+        "Step 6: Calculate the percentage of the total capacity that is filled. This is (2300 / 3500) * 100 = 65.71%, rounded to two decimal places."
+    ],
+    "final_answer": "65.71"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "108",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of 250 loaves of bread per day, with 30% going to cafes and 20% going to restaurants. The remaining 50% are sold directly to customers. If a cafe buys bread from 5 different bakeries and each cafe uses 80% of the bread it buys to make sandwiches and sells the rest to a restaurant, which then sells it as toast, and if the restaurant buys the remaining bread directly from 3 bakeries and sells 60% of all the bread it has as toast, what percentage of the total bread produced in the village is sold as toast?",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of bread each bakery sells to cafes, restaurants, and directly to customers. 30% of 250 loaves is 75 loaves to cafes, 20% is 50 loaves to restaurants, and 50% is 125 loaves to customers.",
+        "Step 2: Determine the total amount of bread a cafe buys from 5 bakeries. Since each bakery sells 75 loaves to cafes, 5 bakeries would sell 5 * 75 = 375 loaves to a cafe.",
+        "Step 3: Calculate how much bread a cafe sells to a restaurant after using 80% for sandwiches. 80% of 375 loaves is 300 loaves used for sandwiches, leaving 375 - 300 = 75 loaves sold to a restaurant.",
+        "Step 4: Find out how much bread a restaurant buys directly from 3 bakeries. Since each bakery sells 50 loaves to restaurants, 3 bakeries would sell 3 * 50 = 150 loaves to a restaurant.",
+        "Step 5: Calculate the total amount of bread a restaurant has to sell as toast, combining the bread bought from cafes and bakeries. A restaurant gets 75 loaves from a cafe and 150 loaves from 3 bakeries, totaling 75 + 150 = 225 loaves."
+    ],
+    "final_answer": "36%"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "220",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes. The number of employees in the restaurants is 10 more than the number of employees in the bakeries. If the ratio of the number of bakeries to the number of cafes to the number of restaurants is 3:4:5, and each bakery has 8 employees, then what is the total number of shops in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes. The number of employees in the restaurants is 10 more than the number of employees in the bakeries. ଯଦି (if) the ratio of the number of bakeries to the number of cafes to the number of restaurants is 3:4:5, and each bakery has 8 employees, ତାହେଲେ (then) what is the ମୋଟ (total) number of shops in the village?",
+    "original_steps": [
+        "Step 1: Determine the number of employees in each type of shop based on the given ratio and the number of employees in the bakeries.",
+        "Step 2: Set up equations to represent the total number of employees and the relationships between the numbers of employees in each type of shop.",
+        "Step 3: Solve the equations to find the number of employees in the cafes and restaurants.",
+        "Step 4: Use the ratio of the number of shops to find the actual number of each type of shop.",
+        "Step 5: Calculate the total number of shops by adding the number of bakeries, cafes, and restaurants."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of employees in each type of shop based on the given ratio and the number of employees in the bakeries.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations to represent the ମୋଟ (total) number of employees and the relationships between the numbers of employees in each type of shop.",
+        "ପଦକ୍ଷେପ (step) 3: Solve the equations to find the number of employees in the cafes and restaurants.",
+        "ପଦକ୍ଷେପ (step) 4: Use the ratio of the number of shops to find the actual number of each type of shop.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of shops by adding the number of bakeries, cafes, and restaurants."
+    ],
+    "final_answer": "36"
+}

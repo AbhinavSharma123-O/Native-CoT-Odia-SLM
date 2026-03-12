@@ -1,0 +1,20 @@
+{
+    "id": "591",
+    "original_problem": "In a small town, there are three types of people: those who always tell the truth (T), those who always lie (L), and those who sometimes tell the truth and sometimes lie (S). Three friends - Alex, Ben, and Chris - are from this town and are standing in a line. Alex is standing next to someone who always lies, Ben is standing next to someone who sometimes lies, and Chris is standing next to someone who always tells the truth. Using the following clues: Alex says 'Ben is standing next to someone who always tells the truth', Ben says 'Chris is standing next to someone who sometimes lies', and Chris says 'Alex is standing next to someone who always lies', determine the order of the friends from left to right and the type of each friend (T, L, or S).",
+    "deconstructed_problem": "In a small town, there are three types of people: those who always tell the truth (T), those who always lie (L), and those who sometimes tell the truth and sometimes lie (S). Three friends - Alex, Ben, and Chris - are from this town and are standing in a line. Alex is standing next to someone who always lies, Ben is standing next to someone who sometimes lies, and Chris is standing next to someone who always tells the truth. Using the following clues: Alex says 'Ben is standing next to someone who always tells the truth', Ben says 'Chris is standing next to someone who sometimes lies', and Chris says 'Alex is standing next to someone who always lies', determine the order of the friends from left to right and the type of each friend (T, L, or S).",
+    "original_steps": [
+        "Step 1: Analyze the given clues to understand the possible positions and types of each friend based on who they are standing next to.",
+        "Step 2: Use the clue from Alex to deduce possible positions for Ben and Chris, considering that Alex is next to someone who always lies.",
+        "Step 3: Apply Ben's clue to further narrow down the possibilities, keeping in mind that Ben is next to someone who sometimes lies.",
+        "Step 4: Integrate Chris's clue to finalize the positions and types, ensuring consistency with all given statements.",
+        "Step 5: Combine all deductions to determine the exact order from left to right and the type of each friend."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Analyze the given clues to understand the possible positions and types of each friend based on who they are standing next to.",
+        "ପଦକ୍ଷେପ (step) 2: Use the clue from Alex to deduce possible positions for Ben and Chris, considering that Alex is next to someone who always lies.",
+        "ପଦକ୍ଷେପ (step) 3: Apply Ben's clue to further narrow down the possibilities, keeping in mind that Ben is next to someone who sometimes lies.",
+        "ପଦକ୍ଷେପ (step) 4: Integrate Chris's clue to finalize the positions and types, ensuring consistency with all given statements.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all deductions to determine the exact order from left to right and the type of each friend."
+    ],
+    "final_answer": "Alex (L), Chris (T), Ben (S) from left to right."
+}

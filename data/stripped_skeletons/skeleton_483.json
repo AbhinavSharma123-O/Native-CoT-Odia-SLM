@@ -1,0 +1,20 @@
+{
+    "id": "483",
+    "original_problem": "In a small town, there are 5 bakeries that make a total of 250 loaves of bread per day. Each bakery has a different production rate, with bakery A making 30 more loaves than bakery B, bakery C making 25% more loaves than bakery A, bakery D making 10 fewer loaves than bakery C, and bakery E making 20% of the total loaves made by bakeries A, B, C, and D. If the total number of loaves made by bakeries A, B, C, and D is 200, how many loaves of bread does bakery E make per day?",
+    "deconstructed_problem": "In a small town, there are 5 bakeries that make a ମୋଟ (total) of 250 loaves of bread per day. Each bakery has a different production rate, with bakery A making 30 more loaves than bakery B, bakery C making 25% more loaves than bakery A, bakery D making 10 fewer loaves than bakery C, and bakery E making 20% of the ମୋଟ (total) loaves made by bakeries A, B, C, and D. ଯଦି (if) the ମୋଟ (total) number of loaves made by bakeries A, B, C, and D is 200, how many loaves of bread does bakery E make per day?",
+    "original_steps": [
+        "Step 1: Calculate the total number of loaves made by bakeries A, B, C, and D, which is given as 200.",
+        "Step 2: Let's denote the number of loaves made by bakery B as x. Then, bakery A makes x + 30 loaves, bakery C makes 1.25(x + 30), and bakery D makes 1.25(x + 30) - 10.",
+        "Step 3: The sum of the loaves made by bakeries A, B, C, and D is x + (x + 30) + 1.25(x + 30) + (1.25(x + 30) - 10) = 200.",
+        "Step 4: Simplify the equation from Step 3 to solve for x: 4.25x + 51.25 = 200, then 4.25x = 148.75, and finally x = 35.",
+        "Step 5: Calculate the number of loaves made by bakery E, which is 20% of the total loaves made by bakeries A, B, C, and D. Since A, B, C, and D make a total of 200 loaves, bakery E makes 0.2 * 200 = 40 loaves."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of loaves made by bakeries A, B, C, and D, which is given as 200.",
+        "ପଦକ୍ଷେପ (step) 2: Let's denote the number of loaves made by bakery B as x. ତାହେଲେ (then), bakery A makes x + 30 loaves, bakery C makes 1.25(x + 30), and bakery D makes 1.25(x + 30) - 10.",
+        "ପଦକ୍ଷେପ (step) 3: The ସମଷ୍ଟି (sum) of the loaves made by bakeries A, B, C, and D is x + (x + 30) + 1.25(x + 30) + (1.25(x + 30) - 10) = 200.",
+        "ପଦକ୍ଷେପ (step) 4: Simplify the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to solve for x: 4.25x + 51.25 = 200, ତାହେଲେ (then) 4.25x = 148.75, and finally x = 35.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of loaves made by bakery E, which is 20% of the ମୋଟ (total) loaves made by bakeries A, B, C, and D. Since A, B, C, and D make a ମୋଟ (total) of 200 loaves, bakery E makes 0.2 * 200 = 40 loaves."
+    ],
+    "final_answer": "40"
+}

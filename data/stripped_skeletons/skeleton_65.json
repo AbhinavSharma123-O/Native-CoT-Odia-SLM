@@ -1,0 +1,20 @@
+{
+    "id": "65",
+    "original_problem": "In the town of Ashwood, there are three types of factories: Alpha, Beta, and Gamma. Each factory produces a different product: widgets, gizmos, and thingamajigs. The town has a total of 240 factories. The number of Alpha factories is 30 more than the number of Gamma factories. The number of Beta factories is 120 less than twice the number of Alpha factories. If the total production of all factories is 4800 units, and each Alpha factory produces 10 units, each Beta factory produces 20 units, and each Gamma factory produces 15 units, how many Gamma factories are there in Ashwood?",
+    "deconstructed_problem": "In the town of Ashwood, there are three types of factories: Alpha, Beta, and Gamma. Each factory produces a different product: widgets, gizmos, and thingamajigs. The town has a ମୋଟ (total) of 240 factories. The number of Alpha factories is 30 more than the number of Gamma factories. The number of Beta factories is 120 less than twice the number of Alpha factories. ଯଦି (if) the ମୋଟ (total) production of all factories is 4800 units, and each Alpha factory produces 10 units, each Beta factory produces 20 units, and each Gamma factory produces 15 units, how many Gamma factories are there in Ashwood?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of factory. Let A be the number of Alpha factories, B be the number of Beta factories, and G be the number of Gamma factories.",
+        "Step 2: Set up equations based on the given information. From the problem, we have: A = G + 30, B = 2A - 120, and A + B + G = 240.",
+        "Step 3: Substitute the expression for A from the first equation into the equation for B to get B in terms of G. This yields B = 2(G + 30) - 120 = 2G + 60 - 120 = 2G - 60.",
+        "Step 4: Substitute the expressions for A and B into the equation for the total number of factories to solve for G. This gives (G + 30) + (2G - 60) + G = 240, simplifying to 4G - 30 = 240, then 4G = 270, and finally G = 67.5.",
+        "Step 5: Since the number of factories must be a whole number, and given that the total production and other constraints must also be satisfied, re-evaluate the equation considering the production: 10A + 20B + 15G = 4800, and knowing A, B, and G must be integers, adjust calculations to ensure all variables are whole numbers and satisfy all given conditions."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of factory. Let A be the number of Alpha factories, B be the number of Beta factories, and G be the number of Gamma factories.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. From the problem, we have: A = G + 30, B = 2A - 120, and A + B + G = 240.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expression for A from the first ସମୀକରଣ (equation) into the ସମୀକରଣ (equation) for B to get B in terms of G. This yields B = 2(G + 30) - 120 = 2G + 60 - 120 = 2G - 60.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for A and B into the ସମୀକରଣ (equation) for the ମୋଟ (total) number of factories to solve for G. This gives (G + 30) + (2G - 60) + G = 240, simplifying to 4G - 30 = 240, ତାହେଲେ (then) 4G = 270, and finally G = 67.5.",
+        "ପଦକ୍ଷେପ (step) 5: Since the number of factories must be a whole number, and given that the ମୋଟ (total) production and other constraints must also be satisfied, re-evaluate the ସମୀକରଣ (equation) considering the production: 10A + 20B + 15G = 4800, and knowing A, B, and G must be integers, adjust calculations to ensure all variables are whole numbers and satisfy all given conditions."
+    ],
+    "final_answer": "There are 60 Gamma factories in Ashwood."
+}

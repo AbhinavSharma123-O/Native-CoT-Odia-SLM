@@ -1,0 +1,20 @@
+{
+    "id": "644",
+    "original_problem": "In a small town, there are three types of shops: clothing, electronics, and home goods. Each type of shop has a different number of employees. Clothing shops have 5 more employees than electronics shops. Home goods shops have 3 times as many employees as electronics shops. If the total number of employees in all shops is 240 and there are 8 more clothing shops than home goods shops, how many electronics shops are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: clothing, electronics, and home goods. Each type of shop has a different number of employees. Clothing shops have 5 more employees than electronics shops. Home goods shops have 3 times as many employees as electronics shops. ଯଦି (if) the ମୋଟ (total) number of employees in all shops is 240 and there are 8 more clothing shops than home goods shops, how many electronics shops are there in the town?",
+    "original_steps": [
+        "Step 1: Define variables for the number of employees in each type of shop. Let's denote the number of employees in electronics shops as E, in clothing shops as C, and in home goods shops as H.",
+        "Step 2: Set up equations based on the given information. From the problem, we know: C = E + 5, H = 3E, and the total number of employees is 240.",
+        "Step 3: Express the total number of employees using the variables defined. If there are x electronics shops, y clothing shops, and z home goods shops, then the total number of employees is xE + yC + zH.",
+        "Step 4: Use the information about the number of shops to relate x, y, and z. We know y = z + 8.",
+        "Step 5: Substitute the expressions for C and H from Step 1 into the equation for the total number of employees and use the relationships between the number of shops to solve for x."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of employees in each type of shop. Let's denote the number of employees in electronics shops as E, in clothing shops as C, and in home goods shops as H.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. From the problem, we know: C = E + 5, H = 3E, and the ମୋଟ (total) number of employees is 240.",
+        "ପଦକ୍ଷେପ (step) 3: Express the ମୋଟ (total) number of employees using the variables defined. ଯଦି (if) there are x electronics shops, y clothing shops, and z home goods shops, ତାହେଲେ (then) the ମୋଟ (total) number of employees is xE + yC + zH.",
+        "ପଦକ୍ଷେପ (step) 4: Use the information about the number of shops to relate x, y, and z. We know y = z + 8.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the expressions for C and H from ପଦକ୍ଷେପ (step) 1 into the ସମୀକରଣ (equation) for the ମୋଟ (total) number of employees and use the relationships between the number of shops to solve for x."
+    ],
+    "final_answer": "There are 4 electronics shops in the town."
+}

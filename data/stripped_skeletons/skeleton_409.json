@@ -1,0 +1,20 @@
+{
+    "id": "409",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar per day. Each cafe uses 1 unit of flour and 2 units of sugar per day. Each restaurant uses 3 units of flour and 1 unit of sugar per day. The village has a total of 15 shops, and the total daily consumption of flour is 40 units and sugar is 30 units. If the number of cafes is 2 more than the number of bakeries, how many bakeries, cafes, and restaurants are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar per day. Each cafe uses 1 unit of flour and 2 units of sugar per day. Each restaurant uses 3 units of flour and 1 unit of sugar per day. The village has a ମୋଟ (total) of 15 shops, and the ମୋଟ (total) daily consumption of flour is 40 units and sugar is 30 units. ଯଦି (if) the number of cafes is 2 more than the number of bakeries, how many bakeries, cafes, and restaurants are there in the village?",
+    "original_steps": [
+        "Step 1: Define variables for the number of bakeries (B), cafes (C), and restaurants (R), knowing that B + C + R = 15.",
+        "Step 2: Establish equations based on the consumption of flour and sugar. For flour: 2B + C + 3R = 40. For sugar: B + 2C + R = 30.",
+        "Step 3: Use the given relationship that the number of cafes is 2 more than the number of bakeries, so C = B + 2.",
+        "Step 4: Substitute C from Step 3 into the equations from Step 2 to reduce the number of variables. This gives us two equations: 2B + (B + 2) + 3R = 40 and B + 2(B + 2) + R = 30.",
+        "Step 5: Simplify these equations to 3B + 3R = 38 and 3B + R = 26, then solve this system of equations to find the values of B and R."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of bakeries (B), cafes (C), and restaurants (R), knowing that B + C + R = 15.",
+        "ପଦକ୍ଷେପ (step) 2: Establish equations based on the consumption of flour and sugar. For flour: 2B + C + 3R = 40. For sugar: B + 2C + R = 30.",
+        "ପଦକ୍ଷେପ (step) 3: Use the given relationship that the number of cafes is 2 more than the number of bakeries, so C = B + 2.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute C from ପଦକ୍ଷେପ (step) 3 into the equations from ପଦକ୍ଷେପ (step) 2 to reduce the number of variables. This gives us two equations: 2B + (B + 2) + 3R = 40 and B + 2(B + 2) + R = 30.",
+        "ପଦକ୍ଷେପ (step) 5: Simplify these equations to 3B + 3R = 38 and 3B + R = 26, ତାହେଲେ (then) solve this system of equations to find the values of B and R."
+    ],
+    "final_answer": "B = 4, C = 6, R = 5"
+}

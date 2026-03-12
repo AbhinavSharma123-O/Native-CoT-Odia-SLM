@@ -1,0 +1,20 @@
+{
+    "id": "301",
+    "original_problem": "In a small village, there are three types of shops: clothing, electronics, and food. The village has a total of 25 shops, with 5 more clothing shops than electronics shops, and 3 more food shops than clothing shops. If the total number of employees in all shops is 200, with clothing shops having 5 employees each, electronics shops having 10 employees each, and food shops having 8 employees each, how many electronics shops are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: clothing, electronics, and food. The village has a ମୋଟ (total) of 25 shops, with 5 more clothing shops than electronics shops, and 3 more food shops than clothing shops. ଯଦି (if) the ମୋଟ (total) number of employees in all shops is 200, with clothing shops having 5 employees each, electronics shops having 10 employees each, and food shops having 8 employees each, how many electronics shops are there in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of shop: let C be the number of clothing shops, E be the number of electronics shops, and F be the number of food shops.",
+        "Step 2: Set up equations based on the given information: C = E + 5 and F = C + 3, and the total number of shops is C + E + F = 25.",
+        "Step 3: Substitute the expressions for C and F from the first two equations into the total shops equation: (E + 5) + E + ((E + 5) + 3) = 25.",
+        "Step 4: Solve the equation from Step 3 to find the value of E: 3E + 13 = 25, so 3E = 12, which means E = 4.",
+        "Step 5: Verify that the total number of employees is consistent with the calculated number of shops: calculate the total employees using the number of shops of each type found in previous steps."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of shop: let C be the number of clothing shops, E be the number of electronics shops, and F be the number of food shops.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: C = E + 5 and F = C + 3, and the ମୋଟ (total) number of shops is C + E + F = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for C and F from the first two equations into the ମୋଟ (total) shops ସମୀକରଣ (equation): (E + 5) + E + ((E + 5) + 3) = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 to find the value of E: 3E + 13 = 25, so 3E = 12, which means E = 4.",
+        "ପଦକ୍ଷେପ (step) 5: Verify that the ମୋଟ (total) number of employees is consistent with the calculated number of shops: calculate the ମୋଟ (total) employees using the number of shops of each type found in previous steps."
+    ],
+    "final_answer": "4"
+}

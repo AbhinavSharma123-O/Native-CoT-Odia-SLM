@@ -1,0 +1,16 @@
+{
+    "id": "752",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system has three valves: X, Y, and Z. Each valve can either be fully open or fully closed. When Valve X is open, it fills Tank A at a rate of 100 liters per minute and Tank B at a rate of 50 liters per minute. When Valve Y is open, it fills Tank B at a rate of 150 liters per minute and Tank C at a rate of 100 liters per minute. When Valve Z is open, it fills Tank A at a rate of 50 liters per minute and Tank C at a rate of 200 liters per minute. If all three valves are opened simultaneously for 10 minutes, and then Valve Y is closed for the next 5 minutes while Valves X and Z remain open, how many liters of water will be in each tank after 15 minutes, given that all tanks are initially empty?",
+    "reasoning_steps": [
+        "Step 1: Calculate the combined rate at which each tank is filled when all valves are open. For Tank A, the rate is 100 (from X) + 50 (from Z) = 150 liters per minute. For Tank B, the rate is 50 (from X) + 150 (from Y) = 200 liters per minute. For Tank C, the rate is 100 (from Y) + 200 (from Z) = 300 liters per minute.",
+        "Step 2: Calculate the amount of water in each tank after 10 minutes with all valves open. For Tank A, it's 150 * 10 = 1500 liters. For Tank B, it's 200 * 10 = 2000 liters. For Tank C, it's 300 * 10 = 3000 liters.",
+        "Step 3: Determine the rate at which each tank is filled after Valve Y is closed. For Tank A, the rate remains 150 liters per minute (100 from X + 50 from Z). For Tank B, the rate drops to 50 liters per minute (only from X, since Y is closed). For Tank C, the rate drops to 200 liters per minute (only from Z, since Y is closed).",
+        "Step 4: Calculate the additional amount of water in each tank after the next 5 minutes with Valve Y closed. For Tank A, it's 150 * 5 = 750 liters. For Tank B, it's 50 * 5 = 250 liters. For Tank C, it's 200 * 5 = 1000 liters.",
+        "Step 5: Calculate the total amount of water in each tank after 15 minutes by adding the amounts from Step 2 and Step 4. For Tank A, it's 1500 + 750 = 2250 liters. For Tank B, it's 2000 + 250 = 2250 liters. For Tank C, it's 3000 + 1000 = 4000 liters."
+    ],
+    "final_answer": {
+        "Tank A": 2250,
+        "Tank B": 2250,
+        "Tank C": 4000
+    }
+}

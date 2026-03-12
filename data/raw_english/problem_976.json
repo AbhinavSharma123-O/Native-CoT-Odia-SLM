@@ -1,0 +1,12 @@
+{
+    "id": "976",
+    "problem": "In a small town, there are 5 schools, each having a different number of students. School A has 150 more students than School B. School C has 250 students fewer than School A. School D has 300 more students than School E. The total number of students in all schools is 3050. If School E has 480 students, and the ratio of students in School B to School C is 4:5, then how many students are in School A?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of students in School D using the information about School E and the difference between School D and School E.",
+        "Step 2: Determine the total number of students in Schools D and E combined to subtract from the overall total and find the combined total of Schools A, B, and C.",
+        "Step 3: Use the ratio between School B and School C to set up an equation to find the number of students in each of these schools, knowing their combined total and the difference in the number of students between School A and School B.",
+        "Step 4: Apply the information about the difference in the number of students between School A and School B, and between School A and School C, to solve for the number of students in School A.",
+        "Step 5: Combine all the information gathered and solve the equations to find the exact number of students in School A."
+    ],
+    "final_answer": "820"
+}

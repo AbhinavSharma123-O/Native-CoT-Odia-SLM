@@ -1,0 +1,12 @@
+{
+    "id": "973",
+    "problem": "In a certain town, there are three water tanks, A, B, and C, with capacities of 2000, 3000, and 4000 liters respectively. Tank A is filled at a rate of 100 liters per minute, Tank B is filled at a rate of 150 liters per minute, and Tank C is filled at a rate of 200 liters per minute. However, due to leakage, Tank A loses 10 liters per minute, Tank B loses 20 liters per minute, and Tank C loses 30 liters per minute. If all tanks start empty and are filled simultaneously, how many minutes will it take to fill all three tanks completely, assuming that once a tank is full, it stops being filled but continues to leak until all tanks are full?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net filling rate for each tank by subtracting the leakage rate from the filling rate. For Tank A, the net rate is 100 - 10 = 90 liters per minute. For Tank B, the net rate is 150 - 20 = 130 liters per minute. For Tank C, the net rate is 200 - 30 = 170 liters per minute.",
+        "Step 2: Determine the time it takes to fill each tank by dividing the tank's capacity by its net filling rate. For Tank A, the time is 2000 / 90. For Tank B, the time is 3000 / 130. For Tank C, the time is 4000 / 170.",
+        "Step 3: Calculate the actual time to fill each tank. For Tank A, the time is approximately 22.22 minutes. For Tank B, the time is approximately 23.08 minutes. For Tank C, the time is approximately 23.53 minutes.",
+        "Step 4: Since all tanks are being filled simultaneously and the question asks for the time it takes to fill all tanks completely, we must consider the tank that takes the longest to fill, which dictates the time when all filling stops. However, because the tanks leak, we must account for the additional water lost from the tanks that fill first.",
+        "Step 5: The tank that takes the longest to fill is Tank C, at approximately 23.53 minutes. During this time, Tank A and Tank B would have been filled and started leaking. Calculate the additional time needed to fill the remaining tanks considering the leakage from the already filled tanks."
+    ],
+    "final_answer": "24.17"
+}

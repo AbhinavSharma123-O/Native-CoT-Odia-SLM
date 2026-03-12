@@ -1,0 +1,12 @@
+{
+    "id": "594",
+    "problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the villagers tells you that one of the light bulbs is always on, one is always off, and the other is switched on and off every hour. It is now 3:00 PM, and you will enter the room at 4:00 PM. Using the information given and the observation you will make at 4:00 PM, determine which switch controls the light bulb that is switched on and off every hour.",
+    "reasoning_steps": [
+        "Step 1: Understand the initial conditions and the constraints of the problem. There are three unlabelled switches corresponding to three light bulbs, with one always on, one always off, and one switching on and off every hour.",
+        "Step 2: Develop a strategy to identify the switch that controls the bulb switching on and off every hour. Turn two of the switches to the 'on' position for 5 minutes, then turn one of them off. This will help in identifying the bulbs based on their temperature and state when observed.",
+        "Step 3: At 4:00 PM, when you enter the room, observe the bulbs. The bulb that is on is controlled by the switch you left in the 'on' position. The bulb that is off but warm is controlled by the switch you turned off after 5 minutes. The remaining bulb, which is off and cold, is controlled by the switch that was never turned on.",
+        "Step 4: Analyze the observed states of the bulbs to deduce which switch controls the bulb that switches on and off every hour. Since you turned two switches on and then turned one off before entering the room, and considering the timing and the states of the bulbs, you can deduce the correct association.",
+        "Step 5: Confirm the solution by considering the information given about the bulbs' states and the timing of your observation. Since one bulb is always on, one is always off, and the third switches every hour, and it is now 4:00 PM, you can use the process of elimination and the observed states to conclude which switch controls the hourly switching bulb."
+    ],
+    "final_answer": "The switch that was turned off after being on for 5 minutes controls the light bulb that is switched on and off every hour."
+}

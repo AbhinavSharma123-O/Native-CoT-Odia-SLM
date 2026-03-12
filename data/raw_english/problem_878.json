@@ -1,0 +1,12 @@
+{
+    "id": "878",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 300 cups of coffee per day. Each restaurant serves 200 meals per day. The total number of loaves of bread, cups of coffee, and meals served in a day is 1200. If the number of bakeries is 2 more than the number of cafes, and the number of restaurants is 5 less than the number of bakeries, how many shops are there in total in the village?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and establish the given relationships: B = C + 2 and R = B - 5.",
+        "Step 2: Express the total number of loaves of bread, cups of coffee, and meals served using the variables: 250B + 300C + 200R = 1200.",
+        "Step 3: Substitute the expressions for B and R from Step 1 into the equation from Step 2 to get an equation in terms of C.",
+        "Step 4: Solve the resulting equation for C, then use the values of C to find B and R.",
+        "Step 5: Calculate the total number of shops by adding the number of bakeries, cafes, and restaurants: Total = B + C + R."
+    ],
+    "final_answer": "10"
+}

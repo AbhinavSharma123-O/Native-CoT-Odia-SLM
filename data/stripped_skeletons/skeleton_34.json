@@ -1,0 +1,20 @@
+{
+    "id": "34",
+    "original_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 100 cubic meters per hour, and River B flows into River C at a rate of 150 cubic meters per hour. River C has a dam that releases water at a rate of 50 cubic meters per hour. If River A has 1200 cubic meters of water, River B has 900 cubic meters of water, and River C has 1800 cubic meters of water initially, how many hours will it take for River C to have 3000 cubic meters of water?",
+    "deconstructed_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 100 cubic meters per hour, and River B flows into River C at a rate of 150 cubic meters per hour. River C has a dam that releases water at a rate of 50 cubic meters per hour. ଯଦି (if) River A has 1200 cubic meters of water, River B has 900 cubic meters of water, and River C has 1800 cubic meters of water initially, how many hours will it take for River C to have 3000 cubic meters of water?",
+    "original_steps": [
+        "Step 1: Calculate the net rate at which water is flowing into River C by adding the rate of water flowing from River B into River C and subtracting the rate at which water is released from the dam.",
+        "Step 2: Determine the initial total volume of water in all three rivers and calculate how much more water is needed in River C to reach the target of 3000 cubic meters.",
+        "Step 3: Calculate the rate at which River A contributes to the increase in water level of River C, taking into account the rate at which River A flows into River B and then River B flows into River C.",
+        "Step 4: Combine the rates from River A and River B to find the total rate at which water is accumulating in River C, considering the release of water from the dam.",
+        "Step 5: Divide the total amount of water needed in River C by the net rate of water accumulation to find out how many hours it will take to reach 3000 cubic meters."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net rate at which water is flowing into River C by adding the rate of water flowing from River B into River C and subtracting the rate at which water is released from the dam.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the initial ମୋଟ (total) volume of water in all three rivers and calculate how much more water is needed in River C to reach the target of 3000 cubic meters.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the rate at which River A contributes to the increase in water level of River C, taking into account the rate at which River A flows into River B and ତାହେଲେ (then) River B flows into River C.",
+        "ପଦକ୍ଷେପ (step) 4: Combine the rates from River A and River B to find the ମୋଟ (total) rate at which water is accumulating in River C, considering the release of water from the dam.",
+        "ପଦକ୍ଷେପ (step) 5: ହରଣ (divide) the ମୋଟ (total) amount of water needed in River C by the net rate of water accumulation to find out how many hours it will take to reach 3000 cubic meters."
+    ],
+    "final_answer": "12"
+}

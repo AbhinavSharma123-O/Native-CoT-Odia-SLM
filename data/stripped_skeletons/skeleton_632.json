@@ -1,0 +1,20 @@
+{
+    "id": "632",
+    "original_problem": "In a small town, there are three types of shops: grocery stores, bakeries, and cafes. The total number of shops is 25. Each grocery store has 5 employees, each bakery has 3 employees, and each cafe has 2 employees. The total number of employees is 100. Additionally, the number of bakeries is 5 more than the number of cafes, and the number of grocery stores is 2 less than the number of bakeries. How many shops of each type are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: grocery stores, bakeries, and cafes. The ମୋଟ (total) number of shops is 25. Each grocery store has 5 employees, each bakery has 3 employees, and each cafe has 2 employees. The ମୋଟ (total) number of employees is 100. Additionally, the number of bakeries is 5 more than the number of cafes, and the number of grocery stores is 2 less than the number of bakeries. How many shops of each type are there in the town?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of grocery stores (G), bakeries (B), and cafes (C). We know that G + B + C = 25.",
+        "Step 2: Set up equations based on the given information about employees: 5G + 3B + 2C = 100.",
+        "Step 3: Use the information about the relationship between the number of bakeries and cafes to create another equation: B = C + 5.",
+        "Step 4: Use the information about the relationship between the number of grocery stores and bakeries to create another equation: G = B - 2.",
+        "Step 5: Substitute the equations from steps 3 and 4 into the equation from step 1 to solve for C, then use the values of C to find B and G."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of grocery stores (G), bakeries (B), and cafes (C). We know that G + B + C = 25.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information about employees: 5G + 3B + 2C = 100.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information about the relationship between the number of bakeries and cafes to create another ସମୀକରଣ (equation): B = C + 5.",
+        "ପଦକ୍ଷେପ (step) 4: Use the information about the relationship between the number of grocery stores and bakeries to create another ସମୀକରଣ (equation): G = B - 2.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the equations from steps 3 and 4 into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 1 to solve for C, ତାହେଲେ (then) use the values of C to find B and G."
+    ],
+    "final_answer": "G = 6, B = 11, C = 8"
+}

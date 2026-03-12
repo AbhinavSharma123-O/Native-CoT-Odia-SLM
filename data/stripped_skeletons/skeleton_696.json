@@ -1,0 +1,20 @@
+{
+    "id": "696",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. The town's water usage is as follows: the town uses 1/4 of Tower A's capacity on Monday, 1/3 of Tower B's capacity on Tuesday, and 1/2 of Tower C's capacity on Wednesday. After Wednesday, the town's water supply is replenished. If it takes 5 hours to fill Tower A, 7 hours to fill Tower B, and 10 hours to fill Tower C, and the town's water supply system operates 24 hours a day, what is the total number of hours the town's water supply system needs to operate to replenish the water used by the town from Monday to Wednesday, assuming that the replenishment starts immediately after Wednesday and that the town does not use any water during the replenishment period?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, ତାହେଲେ (then) Tower B, and finally Tower C. The town's water usage is as follows: the town uses 1/4 of Tower A's capacity on Monday, 1/3 of Tower B's capacity on Tuesday, and 1/2 of Tower C's capacity on Wednesday. After Wednesday, the town's water supply is replenished. ଯଦି (if) it takes 5 hours to fill Tower A, 7 hours to fill Tower B, and 10 hours to fill Tower C, and the town's water supply system operates 24 hours a day, what is the ମୋଟ (total) number of hours the town's water supply system needs to operate to replenish the water used by the town from Monday to Wednesday, assuming that the replenishment starts immediately after Wednesday and that the town does not use any water during the replenishment period?",
+    "original_steps": [
+        "Step 1: Calculate the amount of water used by the town on Monday from Tower A, which is 1/4 of Tower A's capacity.",
+        "Step 2: Calculate the amount of water used by the town on Tuesday from Tower B, which is 1/3 of Tower B's capacity.",
+        "Step 3: Calculate the amount of water used by the town on Wednesday from Tower C, which is 1/2 of Tower C's capacity.",
+        "Step 4: Calculate the total amount of water used by the town from Monday to Wednesday by summing up the amounts used from each tower.",
+        "Step 5: Determine the time needed to replenish the water in each tower based on their capacities and the time it takes to fill each one, then calculate the total time needed to replenish all the water used."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water used by the town on Monday from Tower A, which is 1/4 of Tower A's capacity.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water used by the town on Tuesday from Tower B, which is 1/3 of Tower B's capacity.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the amount of water used by the town on Wednesday from Tower C, which is 1/2 of Tower C's capacity.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) amount of water used by the town from Monday to Wednesday by summing up the amounts used from each tower.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the time needed to replenish the water in each tower based on their capacities and the time it takes to fill each one, ତାହେଲେ (then) calculate the ମୋଟ (total) time needed to replenish all the water used."
+    ],
+    "final_answer": "17.5"
+}

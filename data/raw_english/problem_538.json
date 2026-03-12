@@ -1,0 +1,12 @@
+{
+    "id": "538",
+    "problem": "In a large warehouse, there are five machines - A, B, C, D, and E - each producing a different product. The production rate of each machine is as follows: Machine A produces 200 units per hour, Machine B produces 300 units per hour, Machine C produces 150 units per hour, Machine D produces 250 units per hour, and Machine E produces 400 units per hour. Each machine can operate for a maximum of 8 hours per day. However, due to maintenance requirements, Machine A cannot operate on Mondays, Machine B cannot operate on Tuesdays, Machine C cannot operate on Wednesdays, Machine D cannot operate on Thursdays, and Machine E cannot operate on Fridays. Given that all machines must produce the same total number of units for the week and that the warehouse operates 5 days a week, what is the maximum total production (in units) that each machine can achieve in a week, considering the production rates and the operational constraints?",
+    "reasoning_steps": [
+        "Step 1: Determine the total available operating hours for each machine in a week, considering the days they cannot operate.",
+        "Step 2: Calculate the total production potential for each machine over the week, based on its production rate and available operating hours.",
+        "Step 3: Identify the machine with the lowest total production potential, as this will be the limiting factor for the total production of all machines.",
+        "Step 4: Since all machines must produce the same total number of units, calculate the maximum equal production achievable by all machines within their operational constraints.",
+        "Step 5: Consider the production rate and available hours of the limiting machine to find the maximum number of units it can produce, which will then be the target production for all other machines."
+    ],
+    "final_answer": "1200"
+}

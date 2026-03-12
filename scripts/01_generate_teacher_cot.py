@@ -1,36 +1,42 @@
 import os
 import json
 import time
-from google import genai
-from google.genai import types
+from openai import OpenAI
 from dotenv import load_dotenv
 
-# Load the secret variables from the hidden .env file
 load_dotenv()
 
 # --- CONFIGURATION ---
-API_KEY = os.getenv("AIzaSyA3-h4ZXfyG1PZ3zIkIkafQ6sFLH-UimKQ")
+# Groq uses the OpenAI python library, we just point it to Groq's servers!
+API_KEY = os.getenv("GROQ_API_KEY")
 if not API_KEY:
     raise ValueError("API Key not found! Please check your .env file.")
 
-# Initialize the NEW official client
-client = genai.Client(api_key=API_KEY)
+client = OpenAI(
+    api_key=API_KEY,
+    base_url="https://api.groq.com/openai/v1",
+)
 
-# Using 2.5-flash: It is fast, free-tier friendly, and great at logic
-MODEL_ID = 'gemini-2.5-flash'
+# Llama 3.3 70B is free, fast, and excellent at mathematical reasoning
+MODEL_ID = "llama-3.3-70b-versatile"
 
-# BULLETPROOF PATHING
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 OUTPUT_DIR = os.path.join(ROOT_DIR, "data", "raw_english")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def generate_reasoning_problem(index):
-    prompt = """
-    Generate a complex multi-step math or logic word problem.
-    The problem must require at least 4-5 steps of reasoning.
+def generate_reasoning_problem(index, max_retries=3):
+    file_path = os.path.join(OUTPUT_DIR, f"problem_{index}.json")
     
-    Use this exact JSON format:
+    if os.path.exists(file_path):
+        print(f"⏭️ Skipping {index}: Already exists.")
+        return
+
+    prompt = """
+    Generate a highly complex, multi-step math or logic word problem.
+    The problem MUST require at least 4-5 distinct steps of reasoning to solve.
+    
+    You must output ONLY valid JSON using this exact format:
     {
         "id": "index_number",
         "problem": "The text of the problem",
@@ -43,31 +49,42 @@ def generate_reasoning_problem(index):
     }
     """
     
-    try:
-        # The new v2 SDK syntax for generating content
-        response = client.models.generate_content(
-            model=MODEL_ID,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json", # Forces strict JSON output
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model=MODEL_ID,
+                messages=[
+                    {"role": "system", "content": "You are an expert logic puzzle designer. You output strict JSON only."},
+                    {"role": "user", "content": prompt}
+                ],
+                response_format={"type": "json_object"},
+                temperature=0.7
             )
-        )
-        
-        raw_text = response.text
-        # Safety cleanup just in case
-        raw_text = raw_text.replace("```json", "").replace("```", "").strip()
-        data = json.loads(raw_text)
-        
-        file_path = os.path.join(OUTPUT_DIR, f"problem_{index}.json")
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=4, ensure_ascii=False)
             
-        print(f"Successfully generated problem {index}")
-        
-    except Exception as e:
-        print(f"Error on problem {index}: {e}")
+            raw_text = response.choices[0].message.content
+            data = json.loads(raw_text)
+            data["id"] = str(index)
+            
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=4, ensure_ascii=False)
+                
+            print(f"✅ [Success] Generated problem {index}")
+            return 
+            
+        except Exception as e:
+            error_msg = str(e)
+            print(f"⚠️ [Attempt {attempt + 1}/{max_retries}] Error on problem {index}: {error_msg}")
+            
+            if attempt < max_retries - 1:
+                print("⏳ Waiting 15 seconds before retrying...")
+                time.sleep(15)
+            else:
+                print(f"❌ [Failed] Could not generate problem {index}.")
 
 if __name__ == "__main__":
-    for i in range(1, 1001):
+    print("🚀 Starting Groq Mass Generation Pipeline...")
+    for i in range(490, 500):
         generate_reasoning_problem(i)
-        time.sleep(3)
+        # 5 seconds delay keeps us well within Groq's generous free tier
+        time.sleep(5) 
+    print("🎉 Generation Complete!")

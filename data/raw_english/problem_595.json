@@ -1,0 +1,12 @@
+{
+    "id": "595",
+    "problem": "In a small town, there are 5 schools: A, B, C, D, and E. Each school has a different number of students, and the total number of students in all schools is 1500. School A has 100 more students than School B, and School C has 50 more students than School D. School E has 200 students, and the total number of students in Schools A, B, and C is 900. If School D has 1/4 the number of students of School A, and the difference in the number of students between School B and School C is 150, determine the number of students in School A.",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of students in each school, A, B, C, D, and E.",
+        "Step 2: Translate the given information into mathematical equations based on the variables defined in Step 1.",
+        "Step 3: Use the equation for the total number of students (A + B + C + D + E = 1500) and the given number of students in School E to reduce the equation to A + B + C + D = 1300.",
+        "Step 4: Apply the relationships between the schools (A = B + 100, C = D + 50, D = A/4, B - C = -150) to further simplify the equations and solve for the individual variables.",
+        "Step 5: Solve the system of equations to find the value of A, which represents the number of students in School A."
+    ],
+    "final_answer": "400"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "246",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town's water needs are met by filling a large storage tank that holds 3000 liters of water. However, due to a leak, the storage tank loses water at a rate of 0.25 liters per minute. If Tower A fills the tank for 2 hours, then Tower B fills it for 1.5 hours, and finally Tower C fills it for 30 minutes, how much water will be in the storage tank after this sequence, assuming it starts empty and the leak rate remains constant throughout the entire process?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water Tower A adds to the tank in 2 hours, taking into account the leak.",
+        "Step 2: Determine the amount of water left in the tank after Tower A's contribution, considering the leak.",
+        "Step 3: Calculate the total amount of water Tower B adds to the tank in 1.5 hours, also accounting for the continuous leak.",
+        "Step 4: Assess the amount of water in the tank after Tower B's contribution, again considering the leak's effect.",
+        "Step 5: Finally, calculate the amount of water Tower C adds in 30 minutes, with the leak's impact, to find the final amount of water in the tank."
+    ],
+    "final_answer": "1050"
+}

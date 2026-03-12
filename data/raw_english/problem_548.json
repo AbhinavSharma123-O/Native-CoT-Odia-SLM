@@ -1,0 +1,12 @@
+{
+    "id": "548",
+    "problem": "In a small town, there are three water towers - A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B at 0.75 liters per minute, and Tower C at 0.25 liters per minute. If Tower A has a capacity of 3000 liters, Tower B has a capacity of 4500 liters, and Tower C has a capacity of 1500 liters, and all towers start filling simultaneously at 9:00 AM, what time will it be when all three towers are filled, given that Tower A starts with 1000 liters of water, Tower B starts with 1500 liters, and Tower C starts with 500 liters?",
+    "reasoning_steps": [
+        "Step 1: Calculate the remaining capacity of each tower by subtracting the initial amount of water from the total capacity.",
+        "Step 2: Determine the time it takes to fill each tower by dividing the remaining capacity by the fill rate of each tower.",
+        "Step 3: Find the maximum time from Step 2, which will be the time when all towers are filled since they start filling simultaneously.",
+        "Step 4: Add the initial time of 9:00 AM to the maximum time found in Step 3 to get the final time.",
+        "Step 5: Convert the total minutes into hours and minutes for a readable time format."
+    ],
+    "final_answer": "12:30 PM"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "373",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $240 worth of items per day, with each item being either a cake or a pastry. The cakes are sold for $15 each and the pastries for $8 each. There are 5 more pastries sold than cakes in each bakery. In the village, there are also cafes, where each cafe sells a combination of coffee and snacks. The total sales from each cafe are $300 per day, with coffee being sold at $2 per cup and snacks at $5 each. The number of cups of coffee sold is 10 more than the number of snacks. The village also has restaurants, where each restaurant sells meals for $20 each and drinks for $3 each. The total sales from each restaurant are $420 per day, with the number of drinks sold being 5 less than the number of meals. If there are a total of 10 shops in the village and the total sales from all shops combined is $3600 per day, how many of each type of shop are there in the village?",
+    "reasoning_steps": [
+        "Step 1: Calculate the daily sales of each bakery by setting up equations based on the given information: Let x be the number of cakes sold, then x + 5 is the number of pastries sold. The equation for total sales from a bakery is 15x + 8(x+5) = 240.",
+        "Step 2: Solve the equation from Step 1 to find the number of cakes and pastries sold in each bakery, which will help in understanding the sales distribution but is not directly necessary for calculating the number of each type of shop.",
+        "Step 3: Set up equations for the cafes and restaurants based on their sales and items sold. For cafes: 2y + 5z = 300, where y is the number of snacks and z = y + 10 is the number of cups of coffee. For restaurants: 20a + 3b = 420, where a is the number of meals and b = a - 5 is the number of drinks.",
+        "Step 4: Solve the equations for cafes and restaurants to find the number of each item sold, similar to Step 2, this step is about understanding the sales model of each type of shop.",
+        "Step 5: Use the total sales from all shops ($3600) and the sales from each type of shop ($240 for bakeries, $300 for cafes, $420 for restaurants) to set up an equation that represents the total number of shops. Let B be the number of bakeries, C be the number of cafes, and R be the number of restaurants: 240B + 300C + 420R = 3600, knowing that B + C + R = 10."
+    ],
+    "final_answer": "2 bakeries, 3 cafes, and 5 restaurants"
+}

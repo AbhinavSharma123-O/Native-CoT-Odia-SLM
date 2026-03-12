@@ -1,0 +1,20 @@
+{
+    "id": "669",
+    "original_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 200 cubic meters per hour, and River B flows into River C at a rate of 300 cubic meters per hour. River C has a initial volume of 10000 cubic meters. On the first day, River A flows for 4 hours, and on the second day, River B flows for 5 hours. However, due to a storm on the second day, 20% of River C's volume is lost. What is the total volume of water in River C after the two days, given that River A does not flow on the second day, and River B does not flow on the first day?",
+    "deconstructed_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 200 cubic meters per hour, and River B flows into River C at a rate of 300 cubic meters per hour. River C has a initial volume of 10000 cubic meters. On the first day, River A flows for 4 hours, and on the second day, River B flows for 5 hours. However, due to a storm on the second day, 20% of River C's volume is lost. What is the ମୋଟ (total) volume of water in River C after the two days, given that River A does not flow on the second day, and River B does not flow on the first day?",
+    "original_steps": [
+        "Step 1: Calculate the volume of water added to River B by River A on the first day, which is the flow rate of River A multiplied by the number of hours it flows.",
+        "Step 2: Calculate the total volume of water in River B after the first day, considering it only receives water from River A on that day.",
+        "Step 3: Determine the volume of water River B adds to River C on the second day, based on its flow rate and the hours it flows.",
+        "Step 4: Calculate the initial volume of River C before any water is added or lost, and then calculate the volume after River B adds water on the second day.",
+        "Step 5: Account for the 20% loss of volume in River C due to the storm on the second day to find the final volume of River C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the volume of water added to River B by River A on the first day, which is the flow rate of River A multiplied by the number of hours it flows.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) volume of water in River B after the first day, considering it only receives water from River A on that day.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the volume of water River B adds to River C on the second day, based on its flow rate and the hours it flows.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the initial volume of River C before any water is added or lost, and ତାହେଲେ (then) calculate the volume after River B adds water on the second day.",
+        "ପଦକ୍ଷେପ (step) 5: Account for the 20% loss of volume in River C due to the storm on the second day to find the final volume of River C."
+    ],
+    "final_answer": "12860"
+}

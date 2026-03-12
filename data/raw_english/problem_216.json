@@ -1,0 +1,12 @@
+{
+    "id": "216",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A fills at a rate of 100 gallons per minute, Tower B fills at a rate of 150 gallons per minute, and Tower C fills at a rate of 200 gallons per minute. However, due to leaks, Tower A loses 10 gallons per minute, Tower B loses 15 gallons per minute, and Tower C loses 20 gallons per minute. If all towers start empty and are filled simultaneously, how many minutes will it take to fill all three towers to their maximum capacity, considering both the filling rates and the leak rates?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net filling rate for each tower by subtracting the leak rate from the fill rate. For Tower A, the net fill rate is 100 - 10 = 90 gallons per minute. For Tower B, it is 150 - 15 = 135 gallons per minute. For Tower C, it is 200 - 20 = 180 gallons per minute.",
+        "Step 2: Determine the time it takes to fill each tower by dividing the tower's capacity by its net fill rate. For Tower A, the time is 2000 / 90. For Tower B, the time is 3000 / 135. For Tower C, the time is 4000 / 180.",
+        "Step 3: Calculate the time it takes to fill each tower. For Tower A, 2000 / 90 = 22.22 minutes. For Tower B, 3000 / 135 = 22.22 minutes. For Tower C, 4000 / 180 = 22.22 minutes.",
+        "Step 4: Since all towers are being filled simultaneously, the time it takes to fill all three towers is the maximum time it takes to fill any one tower. However, given the calculations, all towers take the same amount of time to fill, which simplifies the problem.",
+        "Step 5: Conclude that since all towers are filled at the same rate relative to their capacities and start empty, they will all be full at the same time, which is the time calculated for any one of the towers."
+    ],
+    "final_answer": "22.22"
+}

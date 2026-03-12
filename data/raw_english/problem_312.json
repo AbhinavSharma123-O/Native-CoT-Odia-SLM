@@ -1,0 +1,12 @@
+{
+    "id": "312",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. If Tower A is filled to 1/4 of its capacity, Tower B is filled to 1/3 of its capacity, and Tower C is empty, and it takes 2 hours to fill Tower A, how many minutes will it take to fill Tower C if the three towers have the same total capacity and the rate of filling for Tower C is increased by 25% after the first 30 minutes of filling, and Tower A and Tower B are no longer being filled after they are full?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total capacity of Tower A by using the filling rate and the time it takes to fill it to 1/4 of its capacity.",
+        "Step 2: Determine the total capacity of all three towers, given that they have the same total capacity.",
+        "Step 3: Calculate the amount of water in Tower B when Tower A is filled to 1/4 of its capacity, knowing Tower B's filling rate and the time it takes to fill Tower A.",
+        "Step 4: Find out how much water is needed to fill Tower C, considering the amounts already in Towers A and B.",
+        "Step 5: Calculate the time it takes to fill Tower C, taking into account the increased rate of filling after the first 30 minutes."
+    ],
+    "final_answer": "240 minutes"
+}

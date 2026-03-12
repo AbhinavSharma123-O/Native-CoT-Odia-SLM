@@ -1,0 +1,20 @@
+{
+    "id": "952",
+    "original_problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a total of 25 businesses. The number of restaurants is 5 more than the number of hotels, and the number of shops is 3 less than the number of restaurants. If the total number of employees in the town is 250, and each restaurant has 10 employees, each shop has 5 employees, and each hotel has 8 employees, how many hotels are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a ମୋଟ (total) of 25 businesses. The number of restaurants is 5 more than the number of hotels, and the number of shops is 3 less than the number of restaurants. ଯଦି (if) the ମୋଟ (total) number of employees in the town is 250, and each restaurant has 10 employees, each shop has 5 employees, and each hotel has 8 employees, how many hotels are there in the town?",
+    "original_steps": [
+        "Step 1: Let's denote the number of hotels as H, the number of restaurants as R, and the number of shops as S. We know that R = H + 5 and S = R - 3.",
+        "Step 2: Since the total number of businesses is 25, we can write the equation H + R + S = 25. Substituting R and S from step 1 gives us H + (H + 5) + ((H + 5) - 3) = 25.",
+        "Step 3: Simplify the equation from step 2 to find H. This results in H + H + 5 + H + 5 - 3 = 25, which simplifies to 3H + 7 = 25.",
+        "Step 4: Solve for H. Subtract 7 from both sides to get 3H = 18, then divide by 3 to find H.",
+        "Step 5: Calculate the total number of employees using the numbers of each type of business and their respective employees to verify the logic and ensure it aligns with the given total of 250 employees."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Let's denote the number of hotels as H, the number of restaurants as R, and the number of shops as S. We know that R = H + 5 and S = R - 3.",
+        "ପଦକ୍ଷେପ (step) 2: Since the ମୋଟ (total) number of businesses is 25, we can write the ସମୀକରଣ (equation) H + R + S = 25. Substituting R and S from ପଦକ୍ଷେପ (step) 1 gives us H + (H + 5) + ((H + 5) - 3) = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Simplify the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 2 to find H. This results in H + H + 5 + H + 5 - 3 = 25, which simplifies to 3H + 7 = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Solve for H. ବିୟୋଗ (subtract) 7 from both sides to get 3H = 18, ତାହେଲେ (then) ହରଣ (divide) by 3 to find H.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of employees using the numbers of each type of business and their respective employees to verify the logic and ensure it aligns with the given ମୋଟ (total) of 250 employees."
+    ],
+    "final_answer": "5"
+}

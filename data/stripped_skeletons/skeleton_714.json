@@ -1,0 +1,20 @@
+{
+    "id": "714",
+    "original_problem": "In a small village, there are three types of shops: bakeries, grocery stores, and restaurants. The village has a total of 25 shops. The number of bakeries is 5 more than the number of restaurants, and the number of grocery stores is 3 less than the number of bakeries. If the total number of employees in the village is 200, and each bakery has 8 employees, each grocery store has 5 employees, and each restaurant has 12 employees, how many restaurants are there in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, grocery stores, and restaurants. The village has a ମୋଟ (total) of 25 shops. The number of bakeries is 5 more than the number of restaurants, and the number of grocery stores is 3 less than the number of bakeries. ଯଦି (if) the ମୋଟ (total) number of employees in the village is 200, and each bakery has 8 employees, each grocery store has 5 employees, and each restaurant has 12 employees, how many restaurants are there in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), grocery stores (G), and restaurants (R), and establish the relationships between them based on the given information.",
+        "Step 2: Express the total number of shops using the variables, which gives us B + G + R = 25.",
+        "Step 3: Use the information about the relationships between the types of shops to express B and G in terms of R: since B = R + 5 and G = B - 3, we can substitute B in the equation for G to get G in terms of R.",
+        "Step 4: Substitute the expressions for B and G from Step 3 into the equation from Step 2 to solve for R, knowing that B = R + 5 and G = (R + 5) - 3 = R + 2.",
+        "Step 5: With the expressions for B, G, and R, use the information about the total number of employees to form another equation: 8B + 5G + 12R = 200, and substitute B and G with their expressions in terms of R to find the value of R."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries (B), grocery stores (G), and restaurants (R), and establish the relationships between them based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Express the ମୋଟ (total) number of shops using the variables, which gives us B + G + R = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information about the relationships between the types of shops to express B and G in terms of R: since B = R + 5 and G = B - 3, we can substitute B in the ସମୀକରଣ (equation) for G to get G in terms of R.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for B and G from ପଦକ୍ଷେପ (step) 3 into the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 2 to solve for R, knowing that B = R + 5 and G = (R + 5) - 3 = R + 2.",
+        "ପଦକ୍ଷେପ (step) 5: With the expressions for B, G, and R, use the information about the ମୋଟ (total) number of employees to form another ସମୀକରଣ (equation): 8B + 5G + 12R = 200, and substitute B and G with their expressions in terms of R to find the value of R."
+    ],
+    "final_answer": "4"
+}

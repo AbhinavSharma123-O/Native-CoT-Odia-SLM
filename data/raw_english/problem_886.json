@@ -1,0 +1,12 @@
+{
+    "id": "886",
+    "problem": "In a small village, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The total number of employees in all shops is 90. Type A shops have 5 more employees than Type B shops. Type C shops have 10 fewer employees than Type A shops. If there are 5 Type A shops, 3 Type B shops, and 2 Type C shops, what is the total number of employees in Type B shops?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in Type A shops as A, Type B shops as B, and Type C shops as C.",
+        "Step 2: Establish the relationships between the types of shops based on the given information. We know that A = B + 5 and C = A - 10.",
+        "Step 3: Express C in terms of B to have a common reference point. Since A = B + 5, then C = (B + 5) - 10 = B - 5.",
+        "Step 4: Calculate the total number of employees using the given number of shops for each type. The total number of employees is given by 5A + 3B + 2C = 90.",
+        "Step 5: Substitute the expressions for A and C from Steps 2 and 3 into the equation from Step 4 to solve for B. This gives 5(B + 5) + 3B + 2(B - 5) = 90."
+    ],
+    "final_answer": "15"
+}

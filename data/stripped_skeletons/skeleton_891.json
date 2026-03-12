@@ -1,0 +1,20 @@
+{
+    "id": "891",
+    "original_problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a total of 25 shops, with 5 more grocery stores than bakeries and 3 more cafes than grocery stores. Each grocery store sells 200 loaves of bread per day, while each bakery sells 150 loaves of bread per day. The total number of loaves of bread sold per day is 5,500. Additionally, the village has a 10% tax on all bread sales, and the total tax collected per day is $550. What is the total number of cafes in the village?",
+    "deconstructed_problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a ମୋଟ (total) of 25 shops, with 5 more grocery stores than bakeries and 3 more cafes than grocery stores. Each grocery store sells 200 loaves of bread per day, while each bakery sells 150 loaves of bread per day. The ମୋଟ (total) number of loaves of bread sold per day is 5,500. Additionally, the village has a 10% tax on all bread sales, and the ମୋଟ (total) tax collected per day is $550. What is the ମୋଟ (total) number of cafes in the village?",
+    "original_steps": [
+        "Step 1: Define the variables for the problem, where g represents the number of grocery stores, b represents the number of bakeries, and c represents the number of cafes.",
+        "Step 2: Set up the system of equations based on the given information: g + b + c = 25, g = b + 5, and c = g + 3.",
+        "Step 3: Substitute the expressions for g and c into the first equation to solve for b: (b + 5) + b + (b + 5 + 3) = 25.",
+        "Step 4: Simplify the equation and solve for b: 3b + 13 = 25, 3b = 12, b = 4. Then, use the values of b to find g and c: g = 9, c = 12.",
+        "Step 5: Verify the solution by checking the total number of loaves of bread sold per day: (9 * 200) + (4 * 150) = 1800 + 600 = 2400 loaves, which does not match the given total. Re-evaluate the problem to find the correct total number of loaves of bread sold per day and the tax collected per day to verify the correctness of the initial equations."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the problem, where g represents the number of grocery stores, b represents the number of bakeries, and c represents the number of cafes.",
+        "ପଦକ୍ଷେପ (step) 2: Set up the system of equations based on the given information: g + b + c = 25, g = b + 5, and c = g + 3.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for g and c into the first ସମୀକରଣ (equation) to solve for b: (b + 5) + b + (b + 5 + 3) = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Simplify the ସମୀକରଣ (equation) and solve for b: 3b + 13 = 25, 3b = 12, b = 4. ତାହେଲେ (then), use the values of b to find g and c: g = 9, c = 12.",
+        "ପଦକ୍ଷେପ (step) 5: Verify the solution by checking the ମୋଟ (total) number of loaves of bread sold per day: (9 * 200) + (4 * 150) = 1800 + 600 = 2400 loaves, which does not match the given ମୋଟ (total). Re-evaluate the problem to find the correct ମୋଟ (total) number of loaves of bread sold per day and the tax collected per day to verify the correctness of the initial equations."
+    ],
+    "final_answer": "12"
+}

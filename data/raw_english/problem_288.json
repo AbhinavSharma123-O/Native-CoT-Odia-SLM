@@ -1,0 +1,12 @@
+{
+    "id": "288",
+    "problem": "In a small village, there are three types of shops: grocery stores, bakeries, and butcher shops. Each type of shop has a different number of employees. The village has a total of 75 employees. The number of employees in each bakery is 5 more than the number of employees in each grocery store. The number of employees in each butcher shop is 2 less than the number of employees in each bakery. If there are 5 grocery stores, 3 bakeries, and 2 butcher shops, what is the number of employees in each type of shop?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let G be the number of employees in each grocery store, B be the number of employees in each bakery, and T be the number of employees in each butcher shop.",
+        "Step 2: Express B and T in terms of G. Since the number of employees in each bakery is 5 more than the number of employees in each grocery store, B = G + 5. Since the number of employees in each butcher shop is 2 less than the number of employees in each bakery, T = B - 2 = (G + 5) - 2 = G + 3.",
+        "Step 3: Calculate the total number of employees in the village using the given information. There are 5 grocery stores, 3 bakeries, and 2 butcher shops. So, the total number of employees is 5G + 3B + 2T.",
+        "Step 4: Substitute the expressions for B and T from step 2 into the equation from step 3 and set it equal to the total number of employees (75). This gives 5G + 3(G + 5) + 2(G + 3) = 75.",
+        "Step 5: Simplify and solve the equation for G. Expanding the equation gives 5G + 3G + 15 + 2G + 6 = 75. Combining like terms yields 10G + 21 = 75. Subtracting 21 from both sides gives 10G = 54. Dividing both sides by 10 gives G = 5.4."
+    ],
+    "final_answer": "Grocery: 5.4, Bakery: 10.4, Butcher: 8.4"
+}

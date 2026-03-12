@@ -1,0 +1,12 @@
+{
+    "id": "157",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of bread loaves per day, with an average of 250 loaves. However, on rainy days, the number of loaves sold increases by 15%. On sunny days, the number decreases by 10%. There are 5 bakeries in the village. The village has 20 rainy days and 30 sunny days in a month. If each loaf of bread costs $2, and each bakery has a monthly fixed cost of $1000, what is the total profit of all the bakeries in a month, given that there are also 10 days in the month when the sales are average (neither rainy nor sunny)?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of loaves sold on a rainy day by each bakery, considering the 15% increase.",
+        "Step 2: Calculate the number of loaves sold on a sunny day by each bakery, considering the 10% decrease.",
+        "Step 3: Determine the total number of loaves sold in a month by all bakeries, accounting for rainy, sunny, and average days.",
+        "Step 4: Calculate the total revenue from selling the loaves by multiplying the total number of loaves sold by the price per loaf.",
+        "Step 5: Calculate the total monthly cost for all bakeries and subtract it from the total revenue to find the total profit."
+    ],
+    "final_answer": "Total profit = (Total revenue) - (Total cost) = ($2 * Total loaves) - ($1000 * 5) = ($2 * (20 * 1.15 * 250 * 5 + 30 * 0.9 * 250 * 5 + 10 * 250 * 5)) - $5000 = ($2 * (2875 * 5 + 2250 * 5 + 250 * 5 * 10)) - $5000 = ($2 * (14375 + 11250 + 12500)) - $5000 = ($2 * 38125) - $5000 = $76250 - $5000 = $71250"
+}

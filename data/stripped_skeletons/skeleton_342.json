@@ -1,0 +1,20 @@
+{
+    "id": "342",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system operates such that Tower A fills Tower B at a rate of 100 gallons per hour, Tower B fills Tower C at a rate of 150 gallons per hour, and Tower C fills the town's reservoir at a rate of 200 gallons per hour. If Tower A is currently full, Tower B is 1/3 full, and Tower C is 1/4 full, how many hours will it take to fill the reservoir, which can hold 12000 gallons, assuming that the filling process starts now and the reservoir is initially empty?",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system operates such that Tower A fills Tower B at a rate of 100 gallons per hour, Tower B fills Tower C at a rate of 150 gallons per hour, and Tower C fills the town's reservoir at a rate of 200 gallons per hour. ଯଦି (if) Tower A is currently full, Tower B is 1/3 full, and Tower C is 1/4 full, how many hours will it take to fill the reservoir, which can hold 12000 gallons, assuming that the filling process starts now and the reservoir is initially empty?",
+    "original_steps": [
+        "Step 1: Determine the initial amount of water in each tower and the reservoir.",
+        "Step 2: Calculate the net rate at which the reservoir is being filled, taking into account the filling rates between the towers and from Tower C to the reservoir.",
+        "Step 3: Establish the sequence of events for filling the towers and the reservoir, considering the capacities and filling rates.",
+        "Step 4: Calculate the time required to fill Tower B from Tower A and the time required to fill Tower C from Tower B.",
+        "Step 5: Use the sequence of events and the calculated times to determine when the reservoir will be filled, considering the continuous filling process from Tower C."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the initial amount of water in each tower and the reservoir.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the net rate at which the reservoir is being filled, taking into account the filling rates between the towers and from Tower C to the reservoir.",
+        "ପଦକ୍ଷେପ (step) 3: Establish the sequence of events for filling the towers and the reservoir, considering the capacities and filling rates.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the time required to fill Tower B from Tower A and the time required to fill Tower C from Tower B.",
+        "ପଦକ୍ଷେପ (step) 5: Use the sequence of events and the calculated times to determine when the reservoir will be filled, considering the continuous filling process from Tower C."
+    ],
+    "final_answer": "24"
+}

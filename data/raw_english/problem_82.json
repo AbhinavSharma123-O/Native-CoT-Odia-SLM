@@ -1,0 +1,12 @@
+{
+    "id": "82",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a certain number of bread loaves per day, with an average sale of 250 loaves. There are 5 bakeries in total. Each cafe buys bread loaves from the bakeries at a rate of 50 loaves per cafe per day and sells them at a 20% markup. There are 8 cafes. The town's restaurants buy bread loaves from the cafes at a 15% markup from the cafe's selling price and use an average of 75 loaves per restaurant per day. If there are 12 restaurants and each bakery operates at a 10% profit margin, what is the total daily profit from all bakeries in the town, given that the cost to produce one loaf of bread is $0.80?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of bread loaves sold by all bakeries per day.",
+        "Step 2: Determine the total number of bread loaves bought by all cafes per day and calculate the total cost for the cafes to buy these loaves from the bakeries.",
+        "Step 3: Calculate the selling price per loaf for the cafes after applying a 20% markup and then determine the total revenue from selling these loaves to the restaurants.",
+        "Step 4: Calculate the cost for the restaurants to buy the loaves from the cafes, considering the 15% markup from the cafe's selling price.",
+        "Step 5: Calculate the total revenue for the bakeries from selling to the cafes and then calculate the total cost of producing the loaves sold, to finally determine the total daily profit from all bakeries."
+    ],
+    "final_answer": "Total daily profit from all bakeries = (Total loaves sold * Selling price per loaf) - (Total loaves sold * Cost per loaf) = (5 bakeries * 250 loaves * $1.00) - (5 bakeries * 250 loaves * $0.80) = $1250 - $1000 = $250, where selling price per loaf is assumed as $1.00 for simplification and actual calculations may vary based on exact selling prices and costs."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "250",
+    "original_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system has three valves that control the flow of water into the towers. Each valve allows water to flow at a rate of 100 gallons per minute. On a given day, all three valves are opened at the same time, and they are left open for 10 minutes to fill the towers. After 10 minutes, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 1/4 full. The next day, only two of the valves are opened, and they are left open for 15 minutes to continue filling the towers. If, after the second day, Tower A is completely full, Tower B is 3/4 full, and Tower C is 1/2 full, determine the total amount of water added to the towers on the second day.",
+    "deconstructed_problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system has three valves that control the flow of water into the towers. Each valve allows water to flow at a rate of 100 gallons per minute. On a given day, all three valves are opened at the same time, and they are left open for 10 minutes to fill the towers. After 10 minutes, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 1/4 full. The next day, only two of the valves are opened, and they are left open for 15 minutes to continue filling the towers. ଯଦି (if), after the second day, Tower A is completely full, Tower B is 3/4 full, and Tower C is 1/2 full, determine the ମୋଟ (total) amount of water added to the towers on the second day.",
+    "original_steps": [
+        "Step 1: Calculate the total amount of water added to each tower on the first day by determining how much of each tower's capacity was filled.",
+        "Step 2: Determine the total amount of water added to all towers on the first day by summing the amounts added to each tower.",
+        "Step 3: Calculate the amount of water that still needed to be added to each tower after the first day to fill them completely.",
+        "Step 4: Determine the rate at which water was added to the towers on the second day, given that only two valves were open.",
+        "Step 5: Calculate the total amount of water added to the towers on the second day based on the rate of flow and the time the valves were open, taking into account the final fill levels of the towers."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) amount of water added to each tower on the first day by determining how much of each tower's capacity was filled.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) amount of water added to all towers on the first day by summing the amounts added to each tower.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the amount of water that still needed to be added to each tower after the first day to fill them completely.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the rate at which water was added to the towers on the second day, given that only two valves were open.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) amount of water added to the towers on the second day based on the rate of flow and the time the valves were open, taking into account the final fill levels of the towers."
+    ],
+    "final_answer": "3500"
+}

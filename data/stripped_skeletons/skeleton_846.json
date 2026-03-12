@@ -1,0 +1,20 @@
+{
+    "id": "846",
+    "original_problem": "In a mystical forest, there are three types of trees: Oak, Maple, and Pine. The forest has a total of 240 trees. The number of Maple trees is 30 more than the number of Oak trees. The number of Pine trees is 50 less than the number of Maple trees. If 1/5 of the Oak trees and 1/4 of the Maple trees are infected with a disease, and 2/3 of the Pine trees are healthy, what is the total number of healthy trees in the forest?",
+    "deconstructed_problem": "In a mystical forest, there are three types of trees: Oak, Maple, and Pine. The forest has a ମୋଟ (total) of 240 trees. The number of Maple trees is 30 more than the number of Oak trees. The number of Pine trees is 50 less than the number of Maple trees. ଯଦି (if) 1/5 of the Oak trees and 1/4 of the Maple trees are infected with a disease, and 2/3 of the Pine trees are healthy, what is the ମୋଟ (total) number of healthy trees in the forest?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of each type of tree: Let O be the number of Oak trees, M be the number of Maple trees, and P be the number of Pine trees.",
+        "Step 2: Set up equations based on the given information: M = O + 30 and P = M - 50, and O + M + P = 240.",
+        "Step 3: Solve the system of equations to find the number of each type of tree: Substitute M and P in terms of O into the total equation to find O, then calculate M and P.",
+        "Step 4: Calculate the number of infected Oak and Maple trees: 1/5 * O for Oak and 1/4 * M for Maple.",
+        "Step 5: Calculate the number of healthy Pine trees: 2/3 * P, and then calculate the total number of healthy trees by adding the healthy trees of each type."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of each type of tree: Let O be the number of Oak trees, M be the number of Maple trees, and P be the number of Pine trees.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: M = O + 30 and P = M - 50, and O + M + P = 240.",
+        "ପଦକ୍ଷେପ (step) 3: Solve the system of equations to find the number of each type of tree: Substitute M and P in terms of O into the ମୋଟ (total) ସମୀକରଣ (equation) to find O, ତାହେଲେ (then) calculate M and P.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the number of infected Oak and Maple trees: 1/5 * O for Oak and 1/4 * M for Maple.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of healthy Pine trees: 2/3 * P, and ତାହେଲେ (then) calculate the ମୋଟ (total) number of healthy trees by adding the healthy trees of each type."
+    ],
+    "final_answer": "163"
+}

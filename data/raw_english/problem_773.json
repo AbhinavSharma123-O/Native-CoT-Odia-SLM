@@ -1,0 +1,12 @@
+{
+    "id": "773",
+    "problem": "In a large warehouse, there are three types of boxes: small, medium, and large. The small boxes weigh 5 kg each and can hold 10 items. The medium boxes weigh 10 kg each and can hold 20 items. The large boxes weigh 15 kg each and can hold 30 items. If a shipment of 300 items arrives and the total weight of all boxes used must not exceed 300 kg, what is the minimum number of boxes needed to pack all the items, given that each box must be completely filled before another of the same size is used, and small boxes cannot be used if there are items that can fill a medium or large box?",
+    "reasoning_steps": [
+        "Step 1: Determine the maximum number of items that can be packed in large boxes without exceeding the weight limit.",
+        "Step 2: Calculate how many items are left after filling as many large boxes as possible and determine if medium boxes are needed.",
+        "Step 3: If medium boxes are needed, calculate how many medium boxes can be filled with the remaining items and how many items are left after filling these medium boxes.",
+        "Step 4: Determine if any small boxes are needed for the remaining items and calculate how many small boxes are required.",
+        "Step 5: Add up the number of large, medium, and small boxes used to find the total minimum number of boxes needed."
+    ],
+    "final_answer": "10"
+}

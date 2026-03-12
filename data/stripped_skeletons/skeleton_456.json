@@ -1,0 +1,24 @@
+{
+    "id": "456",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, with the first bakery selling 250 cakes, the second selling 300 cakes, and the third selling 200 cakes. Each cafe buys cakes from the bakeries at a rate of $2 per cake and sells them at $3 per cake. The town has a total of 15 cafes, with 5 cafes buying from the first bakery, 4 cafes buying from the second bakery, and 6 cafes buying from the third bakery. Each restaurant, on the other hand, buys cakes from the cafes at $2.50 per cake and sells them at $4 per cake. If there are 8 restaurants in the town, and each restaurant buys an equal number of cakes from the cafes, how much profit is made in total by all the cafes and restaurants in one day, given that the cost of producing a cake is $1.50 for the bakeries?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of cakes per day, with the first bakery selling 250 cakes, the second selling 300 cakes, and the third selling 200 cakes. Each cafe buys cakes from the bakeries at a rate of $2 per cake and sells them at $3 per cake. The town has a ମୋଟ (total) of 15 cafes, with 5 cafes buying from the first bakery, 4 cafes buying from the second bakery, and 6 cafes buying from the third bakery. Each restaurant, on the other hand, buys cakes from the cafes at $2.50 per cake and sells them at $4 per cake. ଯଦି (if) there are 8 restaurants in the town, and each restaurant buys an ସମାନ (equal) number of cakes from the cafes, how much profit is made in ମୋଟ (total) by all the cafes and restaurants in one day, given that the cost of producing a cake is $1.50 for the bakeries?",
+    "original_steps": [
+        "Step 1: Calculate the total number of cakes sold by each bakery per day and determine the total revenue for each bakery.",
+        "Step 2: Determine the total cost of producing cakes for each bakery and calculate their individual profits.",
+        "Step 3: Calculate the total number of cakes bought by each cafe from the bakeries, and then determine the total revenue and cost for each cafe.",
+        "Step 4: Find the total profit made by all the cafes by subtracting their total costs from their total revenues.",
+        "Step 5: Calculate the total number of cakes bought by all the restaurants from the cafes, and then find the total revenue and cost for all the restaurants combined.",
+        "Step 6: Determine the total profit made by all the restaurants by subtracting their total costs from their total revenues.",
+        "Step 7: Add the total profits made by the cafes and the restaurants to find the overall profit made in the town."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of cakes sold by each bakery per day and determine the ମୋଟ (total) revenue for each bakery.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) cost of producing cakes for each bakery and calculate their individual profits.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of cakes bought by each cafe from the bakeries, and ତାହେଲେ (then) determine the ମୋଟ (total) revenue and cost for each cafe.",
+        "ପଦକ୍ଷେପ (step) 4: Find the ମୋଟ (total) profit made by all the cafes by subtracting their ମୋଟ (total) costs from their ମୋଟ (total) revenues.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of cakes bought by all the restaurants from the cafes, and ତାହେଲେ (then) find the ମୋଟ (total) revenue and cost for all the restaurants combined.",
+        "ପଦକ୍ଷେପ (step) 6: Determine the ମୋଟ (total) profit made by all the restaurants by subtracting their ମୋଟ (total) costs from their ମୋଟ (total) revenues.",
+        "ପଦକ୍ଷେପ (step) 7: ଯୋଗ (add) the ମୋଟ (total) profits made by the cafes and the restaurants to find the overall profit made in the town."
+    ],
+    "final_answer": "1750"
+}

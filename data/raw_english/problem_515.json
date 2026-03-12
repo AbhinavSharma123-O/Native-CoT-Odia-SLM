@@ -1,0 +1,13 @@
+{
+    "id": "515",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The total number of employees in all shops is 240. Type A shops have 15 more employees than Type B shops. Type C shops have 20 fewer employees than Type A shops. If there are 5 Type A shops, 7 Type B shops, and 4 Type C shops, what is the average number of employees per shop?",
+    "reasoning_steps": [
+        "Step 1: Define variables for the number of employees in each type of shop: let's denote the number of employees in Type A shops as A, in Type B shops as B, and in Type C shops as C.",
+        "Step 2: Establish relationships between the variables based on the problem statement: A = B + 15 and C = A - 20.",
+        "Step 3: Express C in terms of B using the relationships from Step 2: since A = B + 15, then C = (B + 15) - 20 = B - 5.",
+        "Step 4: Calculate the total number of employees in terms of B: the total number of employees is given by 5A + 7B + 4C. Substituting A and C from the previous steps gives 5(B + 15) + 7B + 4(B - 5).",
+        "Step 5: Solve for B using the total number of employees: 5(B + 15) + 7B + 4(B - 5) = 240. Simplifying this equation yields 5B + 75 + 7B + 4B - 20 = 240, which simplifies further to 16B + 55 = 240. Solving for B gives 16B = 185, hence B = 185 / 16.",
+        "Step 6: Calculate the actual values of A and C using B, and then find the total number of employees in each type of shop to verify the calculation and find the average number of employees per shop."
+    ],
+    "final_answer": "To find the final answer, we first calculate B: B = 185 / 16 = 11.5625. Then A = B + 15 = 11.5625 + 15 = 26.5625, and C = B - 5 = 11.5625 - 5 = 6.5625. The total number of employees in Type A shops is 5A = 5 * 26.5625 = 132.8125, in Type B shops is 7B = 7 * 11.5625 = 80.9375, and in Type C shops is 4C = 4 * 6.5625 = 26.25. The total number of shops is 5 + 7 + 4 = 16. The total number of employees is 132.8125 + 80.9375 + 26.25 = 240. Therefore, the average number of employees per shop is 240 / 16 = 15."
+}

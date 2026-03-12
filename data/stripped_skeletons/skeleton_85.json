@@ -1,0 +1,20 @@
+{
+    "id": "85",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 120 pastries per day. The town has 5 bakeries and 3 cafes. Meanwhile, the restaurants in the town are divided into two categories: those that serve breakfast and those that serve lunch. The restaurants that serve breakfast have an average of 80 customers per day, while those that serve lunch have an average of 120 customers per day. If there are a total of 8 restaurants in the town, with 2 of them serving breakfast and the rest serving lunch, and each customer at any restaurant buys exactly one item from either a bakery or a cafe before dining, how many items (loaves of bread plus pastries) are bought by customers of the restaurants in total per day?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells 250 loaves of bread per day, and each cafe sells 120 pastries per day. The town has 5 bakeries and 3 cafes. Meanwhile, the restaurants in the town are divided into two categories: those that serve breakfast and those that serve lunch. The restaurants that serve breakfast have an average of 80 customers per day, while those that serve lunch have an average of 120 customers per day. ଯଦି (if) there are a ମୋଟ (total) of 8 restaurants in the town, with 2 of them serving breakfast and the rest serving lunch, and each customer at any restaurant buys exactly one item from either a bakery or a cafe before dining, how many items (loaves of bread plus pastries) are bought by customers of the restaurants in ମୋଟ (total) per day?",
+    "original_steps": [
+        "Step 1: Calculate the total number of loaves of bread sold by all bakeries per day.",
+        "Step 2: Calculate the total number of pastries sold by all cafes per day.",
+        "Step 3: Determine the total number of restaurants that serve lunch and calculate their total customers per day.",
+        "Step 4: Calculate the total number of customers for all restaurants (both breakfast and lunch) per day.",
+        "Step 5: Determine the total number of items (loaves of bread plus pastries) bought by customers of the restaurants per day, assuming each customer buys one item."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of loaves of bread sold by all bakeries per day.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) number of pastries sold by all cafes per day.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the ମୋଟ (total) number of restaurants that serve lunch and calculate their ମୋଟ (total) customers per day.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of customers for all restaurants (both breakfast and lunch) per day.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the ମୋଟ (total) number of items (loaves of bread plus pastries) bought by customers of the restaurants per day, assuming each customer buys one item."
+    ],
+    "final_answer": "1280"
+}

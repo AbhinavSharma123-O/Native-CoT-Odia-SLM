@@ -1,0 +1,16 @@
+{
+    "id": "58",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The town has a total of 240 employees. Shop A has 30 more employees than shop B. Shop C has 20 fewer employees than shop B. If the ratio of employees in shop A to shop C is 4:3, determine the number of employees in each type of shop.",
+    "reasoning_steps": [
+        "Step 1: Define variables to represent the number of employees in each shop: Let's denote the number of employees in shop A, B, and C as A, B, and C respectively.",
+        "Step 2: Translate given information into mathematical equations: A = B + 30, C = B - 20, A/C = 4/3, and A + B + C = 240.",
+        "Step 3: Use the ratio A/C = 4/3 to express A in terms of C: A = (4/3)C.",
+        "Step 4: Substitute the expressions for A and C from steps 2 and 3 into the total equation A + B + C = 240: (4/3)C + B + C = 240, knowing C = B - 20 and A = B + 30.",
+        "Step 5: Solve the system of equations to find the values of A, B, and C, starting with substituting C in terms of B into the ratio equation to find B, then calculate A and C based on B's value."
+    ],
+    "final_answer": {
+        "A": 80,
+        "B": 50,
+        "C": 30
+    }
+}

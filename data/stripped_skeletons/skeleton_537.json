@@ -1,0 +1,20 @@
+{
+    "id": "537",
+    "original_problem": "In a small town, there are three types of shops: grocery stores, bakeries, and cafes. Each grocery store sells 300 loaves of bread per day, but buys 100 of them from the local bakeries. Each bakery sells 500 loaves of bread per day, but 200 of them are sold to grocery stores and 50 to cafes. Each cafe buys 50 loaves of bread from bakeries and sells 200 pastries per day, with each pastry requiring 0.2 loaves of bread to make. If there are 5 grocery stores, 3 bakeries, and 2 cafes in the town, how many loaves of bread are produced by the bakeries to meet the total demand?",
+    "deconstructed_problem": "In a small town, there are three types of shops: grocery stores, bakeries, and cafes. Each grocery store sells 300 loaves of bread per day, but buys 100 of them from the local bakeries. Each bakery sells 500 loaves of bread per day, but 200 of them are sold to grocery stores and 50 to cafes. Each cafe buys 50 loaves of bread from bakeries and sells 200 pastries per day, with each pastry requiring 0.2 loaves of bread to make. ଯଦି (if) there are 5 grocery stores, 3 bakeries, and 2 cafes in the town, how many loaves of bread are produced by the bakeries to meet the ମୋଟ (total) demand?",
+    "original_steps": [
+        "Step 1: Calculate the total number of loaves of bread sold by the grocery stores, which is the number of grocery stores times the number of loaves each sells per day.",
+        "Step 2: Determine the total number of loaves of bread bought by the grocery stores from the bakeries, which affects how many the bakeries need to produce.",
+        "Step 3: Calculate the total number of loaves of bread sold by the bakeries to both the grocery stores and the cafes, and account for any additional sales.",
+        "Step 4: Calculate the total demand for bread from the cafes, including both the loaves they buy directly and the bread needed for the pastries they sell.",
+        "Step 5: Calculate the total number of loaves of bread that the bakeries need to produce to meet the demands from all sources, including sales to grocery stores, cafes, and any additional sales."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) number of loaves of bread sold by the grocery stores, which is the number of grocery stores times the number of loaves each sells per day.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) number of loaves of bread bought by the grocery stores from the bakeries, which affects how many the bakeries need to produce.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of loaves of bread sold by the bakeries to both the grocery stores and the cafes, and account for any additional sales.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) demand for bread from the cafes, including both the loaves they buy directly and the bread needed for the pastries they sell.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of loaves of bread that the bakeries need to produce to meet the demands from all sources, including sales to grocery stores, cafes, and any additional sales."
+    ],
+    "final_answer": "1750"
+}

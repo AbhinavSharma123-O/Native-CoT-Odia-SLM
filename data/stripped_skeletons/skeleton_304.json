@@ -1,0 +1,20 @@
+{
+    "id": "304",
+    "original_problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will only turn on if the switch is flipped an odd number of times. The other two bulbs will turn on regardless of how many times their switches are flipped. Once you have determined the correct sequence, what is the minimum number of switch flips required to ensure all three bulbs are on, given that you start with all switches in the off position and you must enter the room only once to verify your solution?",
+    "deconstructed_problem": "In a small town, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will only turn on ଯଦି (if) the switch is flipped an odd number of times. The other two bulbs will turn on regardless of how many times their switches are flipped. Once you have determined the correct sequence, what is the minimum number of switch flips required to ensure all three bulbs are on, given that you start with all switches in the off position and you must enter the room only once to verify your solution?",
+    "original_steps": [
+        "Step 1: Determine the minimum number of flips needed to differentiate between the bulbs, considering the special bulb that only turns on after an odd number of flips.",
+        "Step 2: Develop a strategy to identify the special bulb, using the fact that it requires an odd number of flips to turn on.",
+        "Step 3: Consider the implications of the first two flips on the bulbs, ensuring that at least one bulb can be identified based on its state after these flips.",
+        "Step 4: Plan the sequence of flips to maximize the information gained when entering the room, taking into account the need to identify all three bulbs with the least number of flips.",
+        "Step 5: Calculate the minimum total number of flips required to ensure all bulbs are on, based on the strategy developed in the previous steps."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the minimum number of flips needed to differentiate between the bulbs, considering the special bulb that only turns on after an odd number of flips.",
+        "ପଦକ୍ଷେପ (step) 2: Develop a strategy to identify the special bulb, using the fact that it requires an odd number of flips to turn on.",
+        "ପଦକ୍ଷେପ (step) 3: Consider the implications of the first two flips on the bulbs, ensuring that at least one bulb can be identified based on its state after these flips.",
+        "ପଦକ୍ଷେପ (step) 4: Plan the sequence of flips to maximize the information gained when entering the room, taking into account the need to identify all three bulbs with the least number of flips.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the minimum ମୋଟ (total) number of flips required to ensure all bulbs are on, based on the strategy developed in the previous steps."
+    ],
+    "final_answer": "6"
+}

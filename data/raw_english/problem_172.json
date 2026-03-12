@@ -1,0 +1,12 @@
+{
+    "id": "172",
+    "problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The village has a total of 75 employees. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. If the number of employees in the cafes is 5 times the number of bakeries, and the village has 5 bakeries, find the total number of shops in the village.",
+    "reasoning_steps": [
+        "Step 1: Determine the number of employees in the bakeries. Since the village has 5 bakeries, and we do not know the number of employees per bakery, let's denote the number of employees per bakery as x.",
+        "Step 2: Calculate the number of employees in the cafes. Given that the number of employees in the cafes is 5 times the number of bakeries, and the village has 5 bakeries, the number of employees in the cafes is 5 * 5 = 25.",
+        "Step 3: Calculate the number of employees per bakery. The number of employees in the bakeries is 5 more than the number of employees in the cafes, but this is the total for all bakeries, so we need to set up an equation. Let's use the information that the total number of employees in the village is 75, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries.",
+        "Step 4: Set up equations based on the given information. We have: (number of employees per bakery * number of bakeries) + (number of employees in the cafes) + (number of employees in the restaurants) = total number of employees. We also know that (number of employees in the bakeries) = (number of employees in the cafes) + 5, and (number of employees in the restaurants) = (number of employees in the bakeries) + 10.",
+        "Step 5: Solve the equations. Given that the number of employees in the cafes is 25, we can calculate the number of employees in the bakeries and then in the restaurants, and finally determine the number of employees per bakery, which will allow us to find the total number of shops."
+    ],
+    "final_answer": "15"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "181",
+    "problem": "In a large warehouse, there are five types of boxes labeled A, B, C, D, and E. Each box type has a different weight: A = 10 kg, B = 15 kg, C = 20 kg, D = 25 kg, and E = 30 kg. The warehouse manager has the boxes stacked in such a way that each stack contains exactly three boxes, with each box type appearing exactly once across all stacks. If there are a total of 15 stacks, and the average weight of the boxes in each stack is 20 kg, what is the total weight of all the boxes in the warehouse if the boxes are rearranged so that the heaviest box in each stack is always box E, and then the total number of stacks is reduced to 10 by merging stacks?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total weight of boxes in each stack given the average weight of 20 kg and three boxes per stack.",
+        "Step 2: Determine the number of each type of box needed to achieve the average weight per stack across 15 stacks, considering that each box type appears exactly once across all stacks.",
+        "Step 3: Calculate the total weight of all boxes across the 15 stacks based on the determined distribution of box types.",
+        "Step 4: Rearrange the boxes so that box E (30 kg) is always the heaviest in each stack and calculate the new distribution of box types across the stacks.",
+        "Step 5: Reduce the number of stacks from 15 to 10 by merging stacks and calculate the final total weight of all boxes in the warehouse."
+    ],
+    "final_answer": "3000"
+}

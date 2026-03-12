@@ -1,0 +1,20 @@
+{
+    "id": "989",
+    "original_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each bus type has a different capacity and travels at a different speed. The Red bus can carry 50 passengers and travels at 30 miles per hour. The Blue bus can carry 75 passengers and travels at 40 miles per hour. The Green bus can carry 100 passengers and travels at 50 miles per hour. On a given day, 300 passengers need to be transported from the town to a nearby city, which is 60 miles away. However, due to traffic restrictions, only two buses of different types can be used for this trip. Determine the combination of buses that can transport all 300 passengers in the shortest amount of time, given that the time it takes to load and unload passengers is negligible, and the buses travel at constant speeds.",
+    "deconstructed_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each bus type has a different capacity and travels at a different speed. The Red bus can carry 50 passengers and travels at 30 miles per hour. The Blue bus can carry 75 passengers and travels at 40 miles per hour. The Green bus can carry 100 passengers and travels at 50 miles per hour. On a given day, 300 passengers need to be transported from the town to a nearby city, which is 60 miles away. However, due to traffic restrictions, only two buses of different types can be used for this trip. Determine the combination of buses that can transport all 300 passengers in the shortest amount of time, given that the time it takes to load and unload passengers is negligible, and the buses travel at constant speeds.",
+    "original_steps": [
+        "Step 1: Calculate the time it takes for each bus type to travel the 60 miles to the nearby city.",
+        "Step 2: Determine all possible combinations of two different bus types and their respective capacities to find which combinations can accommodate at least 300 passengers.",
+        "Step 3: For each viable combination from Step 2, calculate the total time required to transport all 300 passengers, taking into account the speed of each bus and the need to potentially make multiple trips if the buses cannot carry all passengers in a single trip.",
+        "Step 4: Compare the total times calculated in Step 3 to identify the combination of buses that results in the shortest total transportation time.",
+        "Step 5: Validate the chosen combination by ensuring it adheres to all given constraints, including the use of only two buses of different types and the transportation of exactly 300 passengers."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the time it takes for each bus type to travel the 60 miles to the nearby city.",
+        "ପଦକ୍ଷେପ (step) 2: Determine all possible combinations of two different bus types and their respective capacities to find which combinations can accommodate at least 300 passengers.",
+        "ପଦକ୍ଷେପ (step) 3: For each viable combination from ପଦକ୍ଷେପ (step) 2, calculate the ମୋଟ (total) time required to transport all 300 passengers, taking into account the speed of each bus and the need to potentially make multiple trips ଯଦି (if) the buses cannot carry all passengers in a single trip.",
+        "ପଦକ୍ଷେପ (step) 4: Compare the ମୋଟ (total) times calculated in ପଦକ୍ଷେପ (step) 3 to identify the combination of buses that results in the shortest ମୋଟ (total) transportation time.",
+        "ପଦକ୍ଷେପ (step) 5: Validate the chosen combination by ensuring it adheres to all given constraints, including the use of only two buses of different types and the transportation of exactly 300 passengers."
+    ],
+    "final_answer": "The combination of the Green bus and the Blue bus, with the Green bus making one trip and the Blue bus making two trips, results in the shortest time to transport all 300 passengers."
+}

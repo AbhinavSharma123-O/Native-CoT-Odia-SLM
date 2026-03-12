@@ -1,0 +1,12 @@
+{
+    "id": "284",
+    "problem": "In the town of Mathville, there are three types of houses: blue, red, and green. Each house has a unique address, and the sum of the digits of the address of each blue house is 5, the sum of the digits of the address of each red house is 7, and the sum of the digits of the address of each green house is 9. The houses are arranged in a sequence such that the difference between the addresses of two consecutive houses is always 3. Given that the first house is blue and its address is 23, what is the color of the 10th house in the sequence, and what is the sum of the digits of its address?",
+    "reasoning_steps": [
+        "Step 1: Determine the pattern of the house addresses based on the given difference of 3 between consecutive houses.",
+        "Step 2: Calculate the addresses of the first few houses to identify the sequence and the color pattern based on the sum of the digits of each address.",
+        "Step 3: Establish the sequence of colors (blue, red, green) based on the sums of the digits (5, 7, 9) and the pattern of addresses.",
+        "Step 4: Identify the address of the 10th house by following the pattern established in the previous steps.",
+        "Step 5: Determine the color of the 10th house based on the sum of the digits of its address and the established pattern of colors."
+    ],
+    "final_answer": "The 10th house is green, and the sum of the digits of its address is 9."
+}

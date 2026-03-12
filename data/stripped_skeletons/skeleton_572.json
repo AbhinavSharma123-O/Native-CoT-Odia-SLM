@@ -1,0 +1,20 @@
+{
+    "id": "572",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 gallons, Tank B can hold 3000 gallons, and Tank C can hold 4000 gallons. The town's water supply system is set up such that Tank A is filled from the town's water source at a rate of 100 gallons per hour, Tank B is filled from Tank A at a rate of 50 gallons per hour, and Tank C is filled from Tank B at a rate of 75 gallons per hour. If all tanks are initially empty and Tank A starts filling at 8:00 AM, at what time will Tank C be 3/4 full, given that the town's water supply is turned off at 5:00 PM and the filling rates remain constant until then?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 gallons, Tank B can hold 3000 gallons, and Tank C can hold 4000 gallons. The town's water supply system is set up such that Tank A is filled from the town's water source at a rate of 100 gallons per hour, Tank B is filled from Tank A at a rate of 50 gallons per hour, and Tank C is filled from Tank B at a rate of 75 gallons per hour. ଯଦି (if) all tanks are initially empty and Tank A starts filling at 8:00 AM, at what time will Tank C be 3/4 full, given that the town's water supply is turned off at 5:00 PM and the filling rates remain constant until ତାହେଲେ (then)?",
+    "original_steps": [
+        "Step 1: Determine the total amount of water that can be filled into Tank A from 8:00 AM to 5:00 PM, which is 9 hours.",
+        "Step 2: Calculate the amount of water that Tank A can fill in 9 hours at a rate of 100 gallons per hour.",
+        "Step 3: Since Tank B is filled from Tank A at a rate of 50 gallons per hour, determine how much water Tank B can fill in the time it takes Tank A to fill, considering the rate at which Tank A is being filled and the rate at which Tank B is being filled from Tank A.",
+        "Step 4: Calculate how much water Tank C can fill from Tank B, given the filling rate of Tank C and the amount of time Tank B has water to fill Tank C.",
+        "Step 5: Determine the time it takes for Tank C to be 3/4 full based on its filling rate and capacity, considering the constraints of the water supply being turned off at 5:00 PM."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) amount of water that can be filled into Tank A from 8:00 AM to 5:00 PM, which is 9 hours.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water that Tank A can fill in 9 hours at a rate of 100 gallons per hour.",
+        "ପଦକ୍ଷେପ (step) 3: Since Tank B is filled from Tank A at a rate of 50 gallons per hour, determine how much water Tank B can fill in the time it takes Tank A to fill, considering the rate at which Tank A is being filled and the rate at which Tank B is being filled from Tank A.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate how much water Tank C can fill from Tank B, given the filling rate of Tank C and the amount of time Tank B has water to fill Tank C.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the time it takes for Tank C to be 3/4 full based on its filling rate and capacity, considering the constraints of the water supply being turned off at 5:00 PM."
+    ],
+    "final_answer": "3:30 PM"
+}

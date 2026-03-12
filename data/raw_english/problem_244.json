@@ -1,0 +1,12 @@
+{
+    "id": "244",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Shop A sells 20% more items than shop B, while shop C sells 15% fewer items than shop A. If shop B sells 250 items per day and the total number of items sold by all shops is 840, how many items does shop C sell per day? Additionally, if each item sold by shop A costs $5, by shop B costs $4, and by shop C costs $6, what is the total daily revenue from all shops?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of items sold by shop A by determining 20% more than what shop B sells.",
+        "Step 2: Find the number of items shop C sells by calculating 15% fewer items than shop A.",
+        "Step 3: Verify the total number of items sold by all shops equals 840 to ensure the calculations are correct.",
+        "Step 4: Calculate the daily revenue from each shop by multiplying the number of items sold by the cost per item for each shop.",
+        "Step 5: Sum the revenues from all shops to find the total daily revenue."
+    ],
+    "final_answer": "Shop C sells 204 items per day, and the total daily revenue from all shops is $4,160."
+}

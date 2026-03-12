@@ -1,0 +1,12 @@
+{
+    "id": "972",
+    "problem": "In a small town, there are three types of shops: clothing stores, bakeries, and restaurants. The town has a total of 25 shops, with 5 more bakeries than clothing stores and 3 more restaurants than bakeries. If the total number of employees in all the shops is 250, with each clothing store having 5 employees, each bakery having 10 employees, and each restaurant having 15 employees, how many clothing stores are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of clothing stores, bakeries, and restaurants. Let's denote the number of clothing stores as C, the number of bakeries as B, and the number of restaurants as R.",
+        "Step 2: Set up the system of equations based on the given information. We have the following equations: C + B + R = 25 (total number of shops), B = C + 5 (5 more bakeries than clothing stores), and R = B + 3 (3 more restaurants than bakeries).",
+        "Step 3: Substitute the second and third equations into the first equation to solve for C. By substituting B and R, we get C + (C + 5) + ((C + 5) + 3) = 25.",
+        "Step 4: Simplify the equation from step 3 and solve for C. This gives us C + C + 5 + C + 5 + 3 = 25, which simplifies to 3C + 13 = 25. Subtracting 13 from both sides gives us 3C = 12, and dividing by 3 gives us C = 4.",
+        "Step 5: Verify that the solution for C satisfies all the conditions given in the problem, including the total number of employees."
+    ],
+    "final_answer": "4"
+}

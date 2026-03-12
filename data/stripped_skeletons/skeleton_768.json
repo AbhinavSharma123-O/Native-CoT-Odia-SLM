@@ -1,0 +1,20 @@
+{
+    "id": "768",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B at 0.75 liters per minute, and Tower C at 1 liter per minute. On a given day, Tower A starts with 100 liters, Tower B with 150 liters, and Tower C with 200 liters. Due to a leak, Tower A loses 10 liters every 30 minutes, Tower B loses 15 liters every 45 minutes, and Tower C loses 20 liters every 60 minutes. If all towers start filling and leaking at the same time and it takes 6 hours for Tower C to be completely filled (considering both filling and leaking rates), how many liters will Tower B have after 6 hours, given that the town's water supply can fill the towers for a maximum of 8 hours a day?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B at 0.75 liters per minute, and Tower C at 1 liter per minute. On a given day, Tower A starts with 100 liters, Tower B with 150 liters, and Tower C with 200 liters. Due to a leak, Tower A loses 10 liters every 30 minutes, Tower B loses 15 liters every 45 minutes, and Tower C loses 20 liters every 60 minutes. ଯଦି (if) all towers start filling and leaking at the same time and it takes 6 hours for Tower C to be completely filled (considering both filling and leaking rates), how many liters will Tower B have after 6 hours, given that the town's water supply can fill the towers for a maximum of 8 hours a day?",
+    "original_steps": [
+        "Step 1: Calculate the net filling rate for each tower per minute, considering both the filling and leaking rates.",
+        "Step 2: Determine how often each tower leaks in a 6-hour period to calculate total liters lost.",
+        "Step 3: Calculate the total amount of water added to Tower C in 6 hours, which will be completely filled.",
+        "Step 4: Calculate the total amount of water added to Tower B in 6 hours, accounting for its filling and leaking rates.",
+        "Step 5: Apply the net filling rate of Tower B over the 6-hour period to find the final amount of water in Tower B."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net filling rate for each tower per minute, considering both the filling and leaking rates.",
+        "ପଦକ୍ଷେପ (step) 2: Determine how often each tower leaks in a 6-hour period to calculate ମୋଟ (total) liters lost.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) amount of water added to Tower C in 6 hours, which will be completely filled.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) amount of water added to Tower B in 6 hours, accounting for its filling and leaking rates.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the net filling rate of Tower B over the 6-hour period to find the final amount of water in Tower B."
+    ],
+    "final_answer": "165"
+}

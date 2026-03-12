@@ -1,0 +1,20 @@
+{
+    "id": "789",
+    "original_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows at a rate of 5 cubic meters per minute, River B flows at a rate of 3 cubic meters per minute, and River C flows at a rate of 2 cubic meters per minute. If River A and River B converge to form River D, and then River D converges with River C, what is the total flow rate of the resulting river if River A's flow is reduced by 20% due to a nearby dam, and then River C's flow is increased by 15% due to heavy rainfall?",
+    "deconstructed_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows at a rate of 5 cubic meters per minute, River B flows at a rate of 3 cubic meters per minute, and River C flows at a rate of 2 cubic meters per minute. ଯଦି (if) River A and River B converge to form River D, and ତାହେଲେ (then) River D converges with River C, what is the ମୋଟ (total) flow rate of the resulting river ଯଦି (if) River A's flow is reduced by 20% due to a nearby dam, and ତାହେଲେ (then) River C's flow is increased by 15% due to heavy rainfall?",
+    "original_steps": [
+        "Step 1: Calculate the initial total flow rate of River A and River B before they converge to form River D, considering River A's reduced flow rate due to the dam.",
+        "Step 2: Determine the flow rate of River D after River A and River B converge, taking into account River A's 20% reduced flow rate.",
+        "Step 3: Calculate the new flow rate of River C after its flow is increased by 15% due to heavy rainfall.",
+        "Step 4: Find the total flow rate of the resulting river after River D converges with the modified River C.",
+        "Step 5: Apply the necessary calculations to find the final total flow rate, considering all modifications to the rivers' flow rates."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial ମୋଟ (total) flow rate of River A and River B before they converge to form River D, considering River A's reduced flow rate due to the dam.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the flow rate of River D after River A and River B converge, taking into account River A's 20% reduced flow rate.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the new flow rate of River C after its flow is increased by 15% due to heavy rainfall.",
+        "ପଦକ୍ଷେପ (step) 4: Find the ମୋଟ (total) flow rate of the resulting river after River D converges with the modified River C.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the necessary calculations to find the final ମୋଟ (total) flow rate, considering all modifications to the rivers' flow rates."
+    ],
+    "final_answer": "14.1"
+}

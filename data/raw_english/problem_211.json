@@ -1,0 +1,12 @@
+{
+    "id": "211",
+    "problem": "In a small town, there are three factories: A, B, and C, which produce 30%, 25%, and 45% of the town's total widgets, respectively. Factory A produces 200 more widgets per day than Factory B. Factory C produces 300 more widgets per day than the combined production of Factories A and B. If the total production of widgets in the town is 2500 per day, how many widgets does Factory C produce per day?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total percentage of widgets produced by all factories to ensure it adds up to 100%: 30% (A) + 25% (B) + 45% (C) = 100%.",
+        "Step 2: Express the production of each factory in terms of the total production (2500 widgets per day): Let x be the number of widgets produced by Factory B per day. Then, Factory A produces x + 200 widgets per day, and Factory C produces x + (x + 200) + 300 widgets per day.",
+        "Step 3: Set up equations based on the given percentages and solve for x: 0.25 * 2500 = x (for Factory B), 0.30 * 2500 = x + 200 (for Factory A), and 0.45 * 2500 = x + (x + 200) + 300 (for Factory C).",
+        "Step 4: Solve the equation for Factory B first: x = 0.25 * 2500 = 625. Then use this value to verify the production of Factory A and solve for the production of Factory C using its equation.",
+        "Step 5: Verify that the production levels satisfy the conditions given (e.g., Factory A produces 200 more widgets than Factory B, and Factory C produces 300 more widgets than the combined production of Factories A and B) and calculate the final production of Factory C."
+    ],
+    "final_answer": "1125"
+}

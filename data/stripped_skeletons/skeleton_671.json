@@ -1,0 +1,36 @@
+{
+    "id": "671",
+    "original_problem": "In a small town, there are three types of houses: blue, green, and red. Each house has a different number of bedrooms: 2, 3, 4, or 5. Each house is occupied by a person of a different age: 25, 30, 35, or 40. Each person has a different favorite color: yellow, purple, orange, or pink. Using the following clues, determine the color of each house, the number of bedrooms it has, and the age of its occupant: (1) The person who lives in the green house is 5 years older than the person who lives in the blue house. (2) The person who lives in the house with 4 bedrooms is 35 years old. (3) The person who likes yellow lives in a house with 3 bedrooms. (4) The person who lives in the red house is 25 years old. (5) The person who likes orange lives in a house with 2 bedrooms. Can you determine the color of each house, the number of bedrooms, and the age of its occupant?",
+    "deconstructed_problem": "In a small town, there are three types of houses: blue, green, and red. Each house has a different number of bedrooms: 2, 3, 4, or 5. Each house is occupied by a person of a different age: 25, 30, 35, or 40. Each person has a different favorite color: yellow, purple, orange, or pink. Using the following clues, determine the color of each house, the number of bedrooms it has, and the age of its occupant: (1) The person who lives in the green house is 5 years older than the person who lives in the blue house. (2) The person who lives in the house with 4 bedrooms is 35 years old. (3) The person who likes yellow lives in a house with 3 bedrooms. (4) The person who lives in the red house is 25 years old. (5) The person who likes orange lives in a house with 2 bedrooms. Can you determine the color of each house, the number of bedrooms, and the age of its occupant?",
+    "original_steps": [
+        "Step 1: Start by using clue (4) to determine that the person who lives in the red house is 25 years old.",
+        "Step 2: Apply clue (2) to find that the 35-year-old lives in the house with 4 bedrooms.",
+        "Step 3: Utilize clue (1) to establish that the person in the green house must be either 30 or 40 years old because they are 5 years older than the person in the blue house.",
+        "Step 4: Apply clue (3) to determine the person who likes yellow lives in the house with 3 bedrooms, which cannot be the red house since its occupant is 25 and likes a different color.",
+        "Step 5: Use clue (5) to figure out the person who likes orange lives in the house with 2 bedrooms, which helps to further narrow down the possibilities for the blue and green houses."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Start by using clue (4) to determine that the person who lives in the red house is 25 years old.",
+        "ପଦକ୍ଷେପ (step) 2: Apply clue (2) to find that the 35-year-old lives in the house with 4 bedrooms.",
+        "ପଦକ୍ଷେପ (step) 3: Utilize clue (1) to establish that the person in the green house must be either 30 or 40 years old କାରଣ (because) they are 5 years older than the person in the blue house.",
+        "ପଦକ୍ଷେପ (step) 4: Apply clue (3) to determine the person who likes yellow lives in the house with 3 bedrooms, which cannot be the red house since its occupant is 25 and likes a different color.",
+        "ପଦକ୍ଷେପ (step) 5: Use clue (5) to figure out the person who likes orange lives in the house with 2 bedrooms, which helps to further narrow down the possibilities for the blue and green houses."
+    ],
+    "final_answer": {
+        "Blue House": {
+            "Bedrooms": 3,
+            "Age": 30,
+            "Favorite Color": "Yellow"
+        },
+        "Green House": {
+            "Bedrooms": 5,
+            "Age": 35,
+            "Favorite Color": "Purple"
+        },
+        "Red House": {
+            "Bedrooms": 2,
+            "Age": 25,
+            "Favorite Color": "Orange"
+        }
+    }
+}

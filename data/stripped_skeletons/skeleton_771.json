@@ -1,0 +1,20 @@
+{
+    "id": "771",
+    "original_problem": "In a small town, there are three types of buses: red, blue, and green. The red bus travels from Town A to Town B at an average speed of 40 miles per hour and takes 2 hours to complete the trip. The blue bus travels from Town B to Town C at an average speed of 60 miles per hour and takes 1.5 hours to complete the trip. The green bus travels from Town A to Town C, but it first goes from Town A to Town B on the red bus, then from Town B to Town C on the blue bus. However, due to traffic on the first leg of its journey, the green bus leaves Town A 30 minutes after the red bus and arrives at Town B 15 minutes after the red bus. If the green bus then immediately boards the blue bus and travels to Town C, what is the total travel time for the green bus from Town A to Town C?",
+    "deconstructed_problem": "In a small town, there are three types of buses: red, blue, and green. The red bus travels from Town A to Town B at an average speed of 40 miles per hour and takes 2 hours to complete the trip. The blue bus travels from Town B to Town C at an average speed of 60 miles per hour and takes 1.5 hours to complete the trip. The green bus travels from Town A to Town C, but it first goes from Town A to Town B on the red bus, ତାହେଲେ (then) from Town B to Town C on the blue bus. However, due to traffic on the first leg of its journey, the green bus leaves Town A 30 minutes after the red bus and arrives at Town B 15 minutes after the red bus. ଯଦି (if) the green bus ତାହେଲେ (then) immediately boards the blue bus and travels to Town C, what is the ମୋଟ (total) travel time for the green bus from Town A to Town C?",
+    "original_steps": [
+        "Step 1: Calculate the distance between Town A and Town B by using the formula distance = speed * time for the red bus.",
+        "Step 2: Determine the time the green bus spends traveling from Town A to Town B by adding the delay and the additional time it takes to arrive after the red bus.",
+        "Step 3: Calculate the distance between Town B and Town C using the speed and time of the blue bus.",
+        "Step 4: Find the time the green bus waits for the blue bus at Town B by calculating how long after the blue bus's scheduled departure the green bus arrives at Town B.",
+        "Step 5: Calculate the total travel time for the green bus by adding the time spent on the red bus route, the waiting time for the blue bus, and the travel time on the blue bus."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the distance between Town A and Town B by using the formula distance = speed * time for the red bus.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the time the green bus spends traveling from Town A to Town B by adding the delay and the additional time it takes to arrive after the red bus.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the distance between Town B and Town C using the speed and time of the blue bus.",
+        "ପଦକ୍ଷେପ (step) 4: Find the time the green bus waits for the blue bus at Town B by calculating how long after the blue bus's scheduled departure the green bus arrives at Town B.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) travel time for the green bus by adding the time spent on the red bus route, the waiting time for the blue bus, and the travel time on the blue bus."
+    ],
+    "final_answer": "4.25 hours"
+}

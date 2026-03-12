@@ -1,0 +1,12 @@
+{
+    "id": "836",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A can fill 1200 gallons per hour, Tower B can fill 800 gallons per hour, and Tower C can fill 600 gallons per hour. The town's water requirement for a day is 18000 gallons. However, Tower A can only operate for 4 hours a day due to maintenance, Tower B operates at half capacity for the first 2 hours and then at full capacity for the remaining time, and Tower C operates for 6 hours but with a 30-minute break after the first 3 hours. If Tower A starts operating at 8 AM, Tower B starts at 9 AM, and Tower C starts at 10 AM, how many gallons of water will the town have by 4 PM, assuming all towers stop operating at 4 PM?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total gallons Tower A can fill from 8 AM to 12 PM.",
+        "Step 2: Determine the gallons filled by Tower B from 9 AM to 11 AM at half capacity and from 11 AM to 4 PM at full capacity.",
+        "Step 3: Calculate the gallons filled by Tower C from 10 AM to 1 PM, accounting for the 30-minute break, and then from 1:30 PM to 4 PM.",
+        "Step 4: Add up the total gallons filled by each tower during their operational hours to find the total gallons filled by 4 PM.",
+        "Step 5: Compare the total gallons filled with the town's daily water requirement to understand the town's water supply status by 4 PM."
+    ],
+    "final_answer": "13800"
+}

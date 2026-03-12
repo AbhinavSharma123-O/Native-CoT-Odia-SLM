@@ -1,0 +1,13 @@
+{
+    "id": "160",
+    "problem": "In a small town, there are three types of stores: grocery stores, clothing stores, and bookstores. The town has a total of 25 stores. The number of grocery stores is 5 more than the number of bookstores. The number of clothing stores is 3 less than the number of grocery stores. If 1/5 of the grocery stores, 1/4 of the clothing stores, and 1/3 of the bookstores have sales, and a total of 6 stores have sales, what is the number of bookstores in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of store. Let G represent the number of grocery stores, C represent the number of clothing stores, and B represent the number of bookstores.",
+        "Step 2: Translate the given information into equations based on the variables defined. The total number of stores is 25: G + C + B = 25. The number of grocery stores is 5 more than the number of bookstores: G = B + 5. The number of clothing stores is 3 less than the number of grocery stores: C = G - 3.",
+        "Step 3: Express C and G in terms of B to reduce the equations to a single variable. Since G = B + 5, then C = (B + 5) - 3 = B + 2.",
+        "Step 4: Substitute the expressions for G and C from Step 3 into the total stores equation to solve for B. (B + 5) + (B + 2) + B = 25, which simplifies to 3B + 7 = 25.",
+        "Step 5: Solve the equation from Step 4 for B. 3B = 25 - 7, so 3B = 18, and thus B = 18 / 3 = 6.",
+        "Step 6: Verify the solution by checking if the number of stores with sales matches the given total. 1/5 of the grocery stores is (1/5)*(B + 5), 1/4 of the clothing stores is (1/4)*(B + 2), and 1/3 of the bookstores is (1/3)*B. Plug in B = 6 and calculate each, then sum them to ensure it equals 6 stores with sales."
+    ],
+    "final_answer": "6"
+}

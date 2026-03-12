@@ -1,0 +1,12 @@
+{
+    "id": "374",
+    "problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with 30% being residential, 40% commercial, and the rest industrial. If the average residential building has 5 apartments, the average commercial building has 10 offices, and the average industrial building has 20 workers, what is the total number of people (residents, office workers, and industrial workers) in the town if each residential apartment has an average of 2.5 people, each commercial office has an average of 3 people, and each industrial worker requires 0.5 units of industrial space with 4 workers per unit?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of each type of building by using the percentages given (30% residential, 40% commercial, and the remaining 30% industrial) out of the total 240 buildings.",
+        "Step 2: Determine the total number of apartments, offices, and industrial workers by multiplying the number of each type of building by the average number of apartments, offices, or workers per building.",
+        "Step 3: Calculate the total number of residents by multiplying the total number of apartments by the average number of people per apartment.",
+        "Step 4: Calculate the total number of office workers by multiplying the total number of offices by the average number of people per office.",
+        "Step 5: Calculate the total number of industrial workers based on the industrial space requirements and the number of industrial buildings."
+    ],
+    "final_answer": "To find the total number of people, first calculate: residential buildings = 240 * 0.3 = 72, commercial buildings = 240 * 0.4 = 96, industrial buildings = 240 * 0.3 = 72. Then, total apartments = 72 * 5 = 360, total offices = 96 * 10 = 960, total industrial workers = 72 * 20 = 1440. Next, total residents = 360 * 2.5 = 900, total office workers = 960 * 3 = 2880. Finally, total people = 900 residents + 2880 office workers + 1440 industrial workers = 5220."
+}

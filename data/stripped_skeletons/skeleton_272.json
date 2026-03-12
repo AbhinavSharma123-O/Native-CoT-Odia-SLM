@@ -1,0 +1,41 @@
+{
+    "id": "272",
+    "original_problem": "In a small town, there are 5 friends - Alex, Ben, Charlie, David, and Emily. They each have a different favorite color - blue, green, red, white, and yellow - and a different favorite number - 1, 2, 3, 4, and 5. Using the following clues, determine the favorite color and number of each friend: Alex's favorite number is higher than Charlie's, but lower than David's. Ben's favorite color is green. Charlie's favorite number is 2. David's favorite color is not white or yellow. Emily's favorite number is 5. The person who likes the color red likes the number 1. The person who likes the color white likes the number 4.",
+    "deconstructed_problem": "In a small town, there are 5 friends - Alex, Ben, Charlie, David, and Emily. They each have a different favorite color - blue, green, red, white, and yellow - and a different favorite number - 1, 2, 3, 4, and 5. Using the following clues, determine the favorite color and number of each friend: Alex's favorite number is higher than Charlie's, but lower than David's. Ben's favorite color is green. Charlie's favorite number is 2. David's favorite color is not white or yellow. Emily's favorite number is 5. The person who likes the color red likes the number 1. The person who likes the color white likes the number 4.",
+    "original_steps": [
+        "Step 1: Determine Charlie's favorite color and number based on the given information.",
+        "Step 2: Use the information about Alex's favorite number being higher than Charlie's and lower than David's to establish a range for Alex's and David's favorite numbers.",
+        "Step 3: Apply the clue about Ben's favorite color being green to start building a table of favorite colors and numbers for each friend.",
+        "Step 4: Utilize the clue about the person who likes the color red liking the number 1 to further narrow down the possibilities for each friend's favorite color and number.",
+        "Step 5: Combine all the clues, including the one about Emily's favorite number being 5 and the person who likes white liking the number 4, to solve for each friend's favorite color and number."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine Charlie's favorite color and number based on the given information.",
+        "ପଦକ୍ଷେପ (step) 2: Use the information about Alex's favorite number being higher than Charlie's and lower than David's to establish a range for Alex's and David's favorite numbers.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the clue about Ben's favorite color being green to start building a table of favorite colors and numbers for each friend.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize the clue about the person who likes the color red liking the number 1 to further narrow down the possibilities for each friend's favorite color and number.",
+        "ପଦକ୍ଷେପ (step) 5: Combine all the clues, including the one about Emily's favorite number being 5 and the person who likes white liking the number 4, to solve for each friend's favorite color and number."
+    ],
+    "final_answer": {
+        "Alex": {
+            "color": "blue",
+            "number": 3
+        },
+        "Ben": {
+            "color": "green",
+            "number": 2
+        },
+        "Charlie": {
+            "color": "red",
+            "number": 1
+        },
+        "David": {
+            "color": "yellow",
+            "number": 4
+        },
+        "Emily": {
+            "color": "white",
+            "number": 5
+        }
+    }
+}

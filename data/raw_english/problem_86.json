@@ -1,0 +1,16 @@
+{
+    "id": "86",
+    "problem": "In a small village, there are three types of shops: bakeries, candy stores, and flower shops. Each shop has a different number of employees. The total number of employees in all the shops is 90. The number of employees in the bakeries is 5 more than the number of employees in the candy stores. The number of employees in the flower shops is 10 less than the number of employees in the bakeries. If the ratio of the number of employees in the bakeries to the number of employees in the candy stores is 3:2, find the number of employees in each type of shop.",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in the bakeries, C be the number of employees in the candy stores, and F be the number of employees in the flower shops.",
+        "Step 2: Set up the system of equations based on the given information. We have: B + C + F = 90, B = C + 5, F = B - 10, and B/C = 3/2.",
+        "Step 3: Solve the ratio equation B/C = 3/2 for B, which gives B = (3/2)C. Substitute this expression for B into the equation B = C + 5 to find C.",
+        "Step 4: Substitute the expression for B from Step 3 into the equation F = B - 10 to express F in terms of C. Then substitute the expressions for B and F into the total equation B + C + F = 90 to solve for C.",
+        "Step 5: Once C is found, use the equations B = C + 5 and F = B - 10 to find the values of B and F."
+    ],
+    "final_answer": {
+        "Bakeries": 30,
+        "Candy Stores": 25,
+        "Flower Shops": 20
+    }
+}

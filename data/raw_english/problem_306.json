@@ -1,0 +1,12 @@
+{
+    "id": "306",
+    "problem": "In a small town, there are three water tanks, A, B, and C, with capacities of 200, 300, and 400 gallons, respectively. The tanks are initially empty. Water flows into tank A at a rate of 5 gallons per minute, into tank B at a rate of 10 gallons per minute, and into tank C at a rate of 15 gallons per minute. However, due to leaks, water also flows out of the tanks: from tank A to tank B at a rate of 2 gallons per minute, from tank B to tank C at a rate of 3 gallons per minute, and from tank C back to tank A at a rate of 1 gallon per minute. If all the tanks are filled simultaneously and the total time taken to fill all the tanks is 40 minutes, how many gallons of water are in tank B when tank A is half full?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net rate at which water flows into each tank, taking into account both the inflow and outflow rates.",
+        "Step 2: Determine the time it takes to fill each tank individually based on their capacities and net inflow rates.",
+        "Step 3: Establish the relationship between the filling times of the tanks and the total time taken to fill all the tanks, considering that they are filled simultaneously.",
+        "Step 4: Use the given total time of 40 minutes to find the actual time it takes to fill tank A, and then calculate the amount of water in tank A at that time.",
+        "Step 5: With tank A being half full, calculate the amount of time that has passed and apply it to determine how much water is in tank B at that moment, considering both the inflow and outflow rates."
+    ],
+    "final_answer": "150"
+}

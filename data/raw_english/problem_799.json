@@ -1,0 +1,12 @@
+{
+    "id": "799",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each shop has a specific number of employees. The total number of employees in all the shops is 240. The town has 15 bakeries, each with 8 employees. There are 8 cafes, with an unknown number of employees, but it is known that each cafe has 4 more employees than each bakery. The remaining shops are restaurants, and it is given that the total number of employees in the restaurants is 3 times the total number of employees in the cafes. If each restaurant has 12 employees, how many cafes are needed so that the total number of employees in the town is exactly 240?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of employees in the bakeries by multiplying the number of bakeries by the number of employees in each bakery: 15 * 8 = 120 employees.",
+        "Step 2: Set up an equation representing the total number of employees in the town. Let x be the number of employees in each cafe. The total number of employees is the sum of employees in bakeries (120), employees in cafes (8x), and employees in restaurants (which is 3 times the total number of employees in the cafes, so 3 * 8x = 24x). This gives us the equation: 120 + 8x + 24x = 240.",
+        "Step 3: Simplify the equation to find the value of x. Combining like terms gives us 120 + 32x = 240. Subtract 120 from both sides to get 32x = 120. Then, divide both sides by 32 to solve for x: x = 120 / 32 = 3.75.",
+        "Step 4: Since x represents the number of employees in each cafe and must be a whole number, there seems to be a mistake in the interpretation of x in step 3. Correct the interpretation: x should represent the number of cafes, not the number of employees in each cafe, because we already know each cafe has 8 + 4 = 12 employees. The equation should be set based on the total number of employees, considering the number of cafes (x) correctly.",
+        "Step 5: Correctly set up the equation based on the given information. The total number of employees in cafes is x * 12 (since each cafe has 12 employees), and the total number of employees in restaurants is 3 times this amount, so 3 * x * 12. The equation representing the total number of employees is: 120 (bakeries) + 12x (cafes) + 36x (restaurants) = 240. Simplify and solve for x to find the correct number of cafes."
+    ],
+    "final_answer": "5"
+}

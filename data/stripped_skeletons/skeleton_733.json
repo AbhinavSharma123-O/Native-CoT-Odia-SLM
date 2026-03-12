@@ -1,0 +1,20 @@
+{
+    "id": "733",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Shop A sells two types of products, X and Y. Product X is priced at $10 more than product Y. Shop B sells product Z, which is priced at $5 more than the average price of products X and Y. Shop C sells product W, which is priced at $2 less than the average price of products X, Y, and Z. If the total price of one unit of each product from each shop is $120, and the price of product Y is $15, determine the price of product W.",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Shop A sells two types of products, X and Y. Product X is priced at $10 more than product Y. Shop B sells product Z, which is priced at $5 more than the average price of products X and Y. Shop C sells product W, which is priced at $2 less than the average price of products X, Y, and Z. ଯଦି (if) the ମୋଟ (total) price of one unit of each product from each shop is $120, and the price of product Y is $15, determine the price of product W.",
+    "original_steps": [
+        "Step 1: Determine the price of product X by using the information that it is priced at $10 more than product Y.",
+        "Step 2: Calculate the average price of products X and Y to find the price of product Z from shop B.",
+        "Step 3: Use the prices of products X, Y, and Z to find the average price of these three products.",
+        "Step 4: Determine the price of product W from shop C by subtracting $2 from the average price calculated in step 3.",
+        "Step 5: Verify the total price of one unit of each product from each shop to ensure it equals $120, adjusting calculations as necessary."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the price of product X by using the information that it is priced at $10 more than product Y.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the average price of products X and Y to find the price of product Z from shop B.",
+        "ପଦକ୍ଷେପ (step) 3: Use the prices of products X, Y, and Z to find the average price of these three products.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the price of product W from shop C by subtracting $2 from the average price calculated in ପଦକ୍ଷେପ (step) 3.",
+        "ପଦକ୍ଷେପ (step) 5: Verify the ମୋଟ (total) price of one unit of each product from each shop to ensure it ସମାନ (equals) $120, adjusting calculations as necessary."
+    ],
+    "final_answer": "25"
+}

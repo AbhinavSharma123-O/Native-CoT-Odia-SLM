@@ -1,0 +1,20 @@
+{
+    "id": "450",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The capacity of Tower A is 3000 liters, Tower B is 4000 liters, and Tower C is 5000 liters. If all towers start filling at the same time and Tower A is already 10% full, Tower B is 20% full, and Tower C is 15% full, how many minutes will it take to fill all towers completely, assuming that the filling process stops once all towers are full?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The capacity of Tower A is 3000 liters, Tower B is 4000 liters, and Tower C is 5000 liters. ଯଦି (if) all towers start filling at the same time and Tower A is already 10% full, Tower B is 20% full, and Tower C is 15% full, how many minutes will it take to fill all towers completely, assuming that the filling process stops once all towers are full?",
+    "original_steps": [
+        "Step 1: Calculate the remaining capacity for each tower by determining how much water is already in each tower and subtracting that from the total capacity.",
+        "Step 2: Determine the rate at which the remaining capacity of each tower is being filled per minute.",
+        "Step 3: Since the filling stops once all towers are full, we need to find the maximum time it takes for any one of the towers to fill completely, considering their initial water levels and fill rates.",
+        "Step 4: Calculate the time it would take for each tower to fill completely, starting from their initial fill levels, using the formula time = remaining capacity / fill rate.",
+        "Step 5: Identify the tower that takes the longest to fill and use that time as the final answer, since the filling process stops once all towers are full."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the remaining capacity for each tower by determining how much water is already in each tower and subtracting that from the ମୋଟ (total) capacity.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the rate at which the remaining capacity of each tower is being filled per minute.",
+        "ପଦକ୍ଷେପ (step) 3: Since the filling stops once all towers are full, we need to find the maximum time it takes for any one of the towers to fill completely, considering their initial water levels and fill rates.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the time it would take for each tower to fill completely, starting from their initial fill levels, using the formula time = remaining capacity / fill rate.",
+        "ପଦକ୍ଷେପ (step) 5: Identify the tower that takes the longest to fill and use that time as the final answer, since the filling process stops once all towers are full."
+    ],
+    "final_answer": "It will take 4200 minutes to fill Tower B completely, which is the last one to fill, given its initial fill level and fill rate."
+}

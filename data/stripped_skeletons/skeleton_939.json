@@ -1,0 +1,20 @@
+{
+    "id": "939",
+    "original_problem": "In a small town, there are three water towers, A, B, and C, with capacities of 1000, 2000, and 3000 gallons respectively. Tower A is filled at a rate of 50 gallons per minute, Tower B at 75 gallons per minute, and Tower C at 100 gallons per minute. However, due to leaks, Tower A loses 10 gallons per minute, Tower B loses 15 gallons per minute, and Tower C loses 20 gallons per minute. If all towers start empty and are filled simultaneously, but Tower B is shut off after 120 minutes, how many gallons of water are in Tower C after 180 minutes, given that the rate of filling for Tower C increases by 25 gallons per minute after Tower B is shut off?",
+    "deconstructed_problem": "In a small town, there are three water towers, A, B, and C, with capacities of 1000, 2000, and 3000 gallons respectively. Tower A is filled at a rate of 50 gallons per minute, Tower B at 75 gallons per minute, and Tower C at 100 gallons per minute. However, due to leaks, Tower A loses 10 gallons per minute, Tower B loses 15 gallons per minute, and Tower C loses 20 gallons per minute. ଯଦି (if) all towers start empty and are filled simultaneously, but Tower B is shut off after 120 minutes, how many gallons of water are in Tower C after 180 minutes, given that the rate of filling for Tower C increases by 25 gallons per minute after Tower B is shut off?",
+    "original_steps": [
+        "Step 1: Calculate the net filling rate for each tower before Tower B is shut off, taking into account both the filling rate and the leak rate.",
+        "Step 2: Determine the amount of water in each tower after 120 minutes, when Tower B is shut off, using the net filling rates calculated in Step 1.",
+        "Step 3: Calculate the new net filling rate for Tower C after Tower B is shut off, considering the increase in the filling rate.",
+        "Step 4: Calculate the amount of water added to Tower C from the 120th minute to the 180th minute using the new net filling rate.",
+        "Step 5: Add the amount of water in Tower C at the 120th minute (from Step 2) to the amount of water added from the 120th to the 180th minute (from Step 4) to find the total amount of water in Tower C after 180 minutes."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net filling rate for each tower before Tower B is shut off, taking into account both the filling rate and the leak rate.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the amount of water in each tower after 120 minutes, when Tower B is shut off, using the net filling rates calculated in ପଦକ୍ଷେପ (step) 1.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the new net filling rate for Tower C after Tower B is shut off, considering the increase in the filling rate.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water added to Tower C from the 120th minute to the 180th minute using the new net filling rate.",
+        "ପଦକ୍ଷେପ (step) 5: ଯୋଗ (add) the amount of water in Tower C at the 120th minute (from ପଦକ୍ଷେପ (step) 2) to the amount of water added from the 120th to the 180th minute (from ପଦକ୍ଷେପ (step) 4) to find the ମୋଟ (total) amount of water in Tower C after 180 minutes."
+    ],
+    "final_answer": "2400"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "833",
+    "problem": "There are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the lights on and off as many times as you want, but you can only enter the room one time to observe the bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, one of the bulbs is special and will change its state (from on to off or off to on) every 5 minutes. You have 10 minutes to solve the problem.",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to potentially heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "Step 3: Identify the bulb that is on. This corresponds to switch 2. If a bulb is off but warm, it corresponds to switch 1. If a bulb is off and cold, it could be the special bulb or the one controlled by switch 3.",
+        "Step 4: Turn switch 2 to the 'off' position and turn switch 3 to the 'on' position. Wait 5 minutes and then turn switch 3 to the 'off' position. If the special bulb was off, it should now be on. If it was on, it should now be off.",
+        "Step 5: Re-enter the room (but since you can only enter once, use the process of elimination based on the initial observation and the changes made). If the initially warm bulb is now on, it is the special bulb controlled by switch 1. If the initially cold bulb is now on, it is the special bulb controlled by switch 3. Otherwise, the remaining bulb is the special one controlled by switch 3 if it changed state, or switch 1 if the initially warm one did not change state."
+    ],
+    "final_answer": "The arrangement of switches can be determined through the process of elimination and observation of the bulbs' states and temperatures over time, considering the special bulb's state change."
+}

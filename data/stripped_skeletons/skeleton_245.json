@@ -1,0 +1,20 @@
+{
+    "id": "245",
+    "original_problem": "In a small town, there are three water tanks - A, B, and C. Tank A can hold 1000 liters, tank B can hold 800 liters, and tank C can hold 1200 liters. The town's water supply system is designed such that tank A is filled first, then tank B, and finally tank C. However, due to a malfunction, the system starts filling the tanks in a different order: it fills tank C at a rate of 10 liters per minute, then tank B at a rate of 8 liters per minute, and finally tank A at a rate of 12 liters per minute. If the system operates for 30 minutes before being shut down, and then the correct order of filling is resumed (A, then B, then C), how many more minutes will it take to fill all three tanks? Assume that the amount of water in each tank at the time the system is shut down is retained and used towards the final filling.",
+    "deconstructed_problem": "In a small town, there are three water tanks - A, B, and C. Tank A can hold 1000 liters, tank B can hold 800 liters, and tank C can hold 1200 liters. The town's water supply system is designed such that tank A is filled first, ତାହେଲେ (then) tank B, and finally tank C. However, due to a malfunction, the system starts filling the tanks in a different order: it fills tank C at a rate of 10 liters per minute, ତାହେଲେ (then) tank B at a rate of 8 liters per minute, and finally tank A at a rate of 12 liters per minute. ଯଦି (if) the system operates for 30 minutes before being shut down, and ତାହେଲେ (then) the correct order of filling is resumed (A, ତାହେଲେ (then) B, ତାହେଲେ (then) C), how many more minutes will it take to fill all three tanks? Assume that the amount of water in each tank at the time the system is shut down is retained and used towards the final filling.",
+    "original_steps": [
+        "Step 1: Calculate the amount of water in each tank after the system operates for 30 minutes in the incorrect order.",
+        "Step 2: Determine the amount of water still needed in each tank to reach their respective capacities after the first 30 minutes.",
+        "Step 3: Calculate the time it takes to fill tank A, the first tank in the correct order, considering its current water level.",
+        "Step 4: With tank A full, calculate the additional time needed to fill tank B, considering its current water level and the rate at which it is filled.",
+        "Step 5: Finally, with tanks A and B full, calculate the time required to fill tank C, taking into account its current water level and fill rate."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the amount of water in each tank after the system operates for 30 minutes in the incorrect order.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the amount of water still needed in each tank to reach their respective capacities after the first 30 minutes.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the time it takes to fill tank A, the first tank in the correct order, considering its current water level.",
+        "ପଦକ୍ଷେପ (step) 4: With tank A full, calculate the additional time needed to fill tank B, considering its current water level and the rate at which it is filled.",
+        "ପଦକ୍ଷେପ (step) 5: Finally, with tanks A and B full, calculate the time required to fill tank C, taking into account its current water level and fill rate."
+    ],
+    "final_answer": "60"
+}

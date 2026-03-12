@@ -1,0 +1,20 @@
+{
+    "id": "879",
+    "original_problem": "In a small town, there are 5 villages, each having a different number of temples, ranging from 1 to 5. The following clues are given: Village A has 2 more temples than Village B. Village C has 3 more temples than Village D. Village E has the most temples. Village D has 1 more temple than Village B. Village A has 1 less temple than Village E. Using the given clues, determine the number of temples in each village and find the total number of temples in all villages.",
+    "deconstructed_problem": "In a small town, there are 5 villages, each having a different number of temples, ranging from 1 to 5. The following clues are given: Village A has 2 more temples than Village B. Village C has 3 more temples than Village D. Village E has the most temples. Village D has 1 more temple than Village B. Village A has 1 less temple than Village E. Using the given clues, determine the number of temples in each village and find the ମୋଟ (total) number of temples in all villages.",
+    "original_steps": [
+        "Step 1: Determine the relationship between Village A and Village B, and Village D, using the given clues that Village A has 2 more temples than Village B and Village D has 1 more temple than Village B.",
+        "Step 2: Establish the relationship between Village C and Village D, knowing that Village C has 3 more temples than Village D.",
+        "Step 3: Use the information that Village A has 1 less temple than Village E, and Village E has the most temples, to establish the maximum number of temples any village can have.",
+        "Step 4: Combine the clues to solve for the number of temples in each village, starting with the relationships between Villages A, B, and D, then incorporating the information about Villages C and E.",
+        "Step 5: Calculate the total number of temples in all villages once the number of temples in each village is determined."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the relationship between Village A and Village B, and Village D, using the given clues that Village A has 2 more temples than Village B and Village D has 1 more temple than Village B.",
+        "ପଦକ୍ଷେପ (step) 2: Establish the relationship between Village C and Village D, knowing that Village C has 3 more temples than Village D.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information that Village A has 1 less temple than Village E, and Village E has the most temples, to establish the maximum number of temples any village can have.",
+        "ପଦକ୍ଷେପ (step) 4: Combine the clues to solve for the number of temples in each village, starting with the relationships between Villages A, B, and D, ତାହେଲେ (then) incorporating the information about Villages C and E.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of temples in all villages once the number of temples in each village is determined."
+    ],
+    "final_answer": "15"
+}

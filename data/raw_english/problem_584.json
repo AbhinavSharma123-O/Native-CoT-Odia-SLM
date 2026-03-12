@@ -1,0 +1,12 @@
+{
+    "id": "584",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. On a given day, Tower A starts with 100 liters of water, Tower B starts with 50 liters, and Tower C starts with 200 liters. If the town uses 150 liters of water from the towers every hour, and Tower A is filled for 2 hours, Tower B is filled for 3 hours, and Tower C is filled for 1.5 hours, what is the total amount of water in liters that will be in the towers after 4 hours, assuming no other sources of water are used and the usage rate remains constant?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total amount of water added to each tower over the given time period. For Tower A, this is 0.5 liters/minute * 120 minutes = 60 liters. For Tower B, this is 0.75 liters/minute * 180 minutes = 135 liters. For Tower C, this is 1 liter/minute * 90 minutes = 90 liters.",
+        "Step 2: Determine the initial total amount of water in all towers combined. This is 100 liters (Tower A) + 50 liters (Tower B) + 200 liters (Tower C) = 350 liters.",
+        "Step 3: Calculate the total water usage over 4 hours. The town uses 150 liters/hour, so over 4 hours, this amounts to 150 liters/hour * 4 hours = 600 liters.",
+        "Step 4: Calculate the net change in the water level of the towers due to filling and usage. Tower A ends up with 100 + 60 = 160 liters, Tower B with 50 + 135 = 185 liters, and Tower C with 200 + 90 = 290 liters, before accounting for usage.",
+        "Step 5: Calculate the total amount of water in the towers after accounting for the town's usage. The initial total plus the water added is 350 liters (initial) + 60 liters (A) + 135 liters (B) + 90 liters (C) = 635 liters. Then subtract the total water used: 635 liters - 600 liters = 35 liters."
+    ],
+    "final_answer": "35"
+}

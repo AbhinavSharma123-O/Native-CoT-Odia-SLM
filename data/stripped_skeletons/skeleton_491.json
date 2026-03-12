@@ -1,0 +1,20 @@
+{
+    "id": "491",
+    "original_problem": "In a small town, there are 3 types of houses: blue, red, and green. Each house has a different number of bedrooms: 2, 3, or 4. The town has a total of 120 rooms. The blue house has 2 more bedrooms than the green house. The red house has 3 fewer bedrooms than the sum of the bedrooms in the blue and green houses. If the total number of bedrooms in the blue and red houses is 7, and each house has at least 1 bedroom, determine the total number of green houses in the town.",
+    "deconstructed_problem": "In a small town, there are 3 types of houses: blue, red, and green. Each house has a different number of bedrooms: 2, 3, or 4. The town has a ମୋଟ (total) of 120 rooms. The blue house has 2 more bedrooms than the green house. The red house has 3 fewer bedrooms than the ସମଷ୍ଟି (sum) of the bedrooms in the blue and green houses. ଯଦି (if) the ମୋଟ (total) number of bedrooms in the blue and red houses is 7, and each house has at least 1 bedroom, determine the ମୋଟ (total) number of green houses in the town.",
+    "original_steps": [
+        "Step 1: Let's define the variables for the number of bedrooms in each house: B for blue, R for red, and G for green. We know that B = G + 2.",
+        "Step 2: We are given that R = (B + G) - 3. We can substitute the value of B from step 1 into this equation to get R = (G + 2 + G) - 3, which simplifies to R = 2G - 1.",
+        "Step 3: The total number of bedrooms in the blue and red houses is given as 7, so we can write the equation B + R = 7. Substituting the values of B and R from steps 1 and 2, we get (G + 2) + (2G - 1) = 7, which simplifies to 3G + 1 = 7.",
+        "Step 4: Solving the equation from step 3 for G, we get 3G = 6, which means G = 2. Now we can find the number of bedrooms in the blue house: B = G + 2 = 2 + 2 = 4. And for the red house: R = 2G - 1 = 2*2 - 1 = 3.",
+        "Step 5: The total number of rooms in the town is 120, and each house has 2, 3, or 4 bedrooms. Let's denote the number of green houses as x. Since each green house has 2 bedrooms, the total number of rooms in the green houses is 2x. We know that the blue house has 4 bedrooms and the red house has 3 bedrooms. Therefore, the total number of rooms in the blue and red houses is 4 + 3 = 7. The total number of rooms in all houses must equal 120, so 2x + 7 = 120."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Let's define the variables for the number of bedrooms in each house: B for blue, R for red, and G for green. We know that B = G + 2.",
+        "ପଦକ୍ଷେପ (step) 2: We are given that R = (B + G) - 3. We can substitute the value of B from ପଦକ୍ଷେପ (step) 1 into this ସମୀକରଣ (equation) to get R = (G + 2 + G) - 3, which simplifies to R = 2G - 1.",
+        "ପଦକ୍ଷେପ (step) 3: The ମୋଟ (total) number of bedrooms in the blue and red houses is given as 7, so we can write the ସମୀକରଣ (equation) B + R = 7. Substituting the values of B and R from steps 1 and 2, we get (G + 2) + (2G - 1) = 7, which simplifies to 3G + 1 = 7.",
+        "ପଦକ୍ଷେପ (step) 4: Solving the ସମୀକରଣ (equation) from ପଦକ୍ଷେପ (step) 3 for G, we get 3G = 6, which means G = 2. Now we can find the number of bedrooms in the blue house: B = G + 2 = 2 + 2 = 4. And for the red house: R = 2G - 1 = 2*2 - 1 = 3.",
+        "ପଦକ୍ଷେପ (step) 5: The ମୋଟ (total) number of rooms in the town is 120, and each house has 2, 3, or 4 bedrooms. Let's denote the number of green houses as x. Since each green house has 2 bedrooms, the ମୋଟ (total) number of rooms in the green houses is 2x. We know that the blue house has 4 bedrooms and the red house has 3 bedrooms. ତେଣୁ (therefore), the ମୋଟ (total) number of rooms in the blue and red houses is 4 + 3 = 7. The ମୋଟ (total) number of rooms in all houses must ସମାନ (equal) 120, so 2x + 7 = 120."
+    ],
+    "final_answer": "56"
+}

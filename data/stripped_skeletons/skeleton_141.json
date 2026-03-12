@@ -1,0 +1,20 @@
+{
+    "id": "141",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a combination of cakes and pastries. The total number of cakes sold by all bakeries is 250, and the total number of pastries sold is 420. Each cake is sold for $2.50, and each pastry is sold for $1.75. If the total revenue from cakes is $100 more than the total revenue from pastries, and there are 5 bakeries in total, what is the average number of pastries sold per bakery, given that each bakery sells at least 30 pastries?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a combination of cakes and pastries. The ମୋଟ (total) number of cakes sold by all bakeries is 250, and the ମୋଟ (total) number of pastries sold is 420. Each cake is sold for $2.50, and each pastry is sold for $1.75. ଯଦି (if) the ମୋଟ (total) revenue from cakes is $100 more than the ମୋଟ (total) revenue from pastries, and there are 5 bakeries in ମୋଟ (total), what is the average number of pastries sold per bakery, given that each bakery sells at least 30 pastries?",
+    "original_steps": [
+        "Step 1: Calculate the total revenue from cakes and pastries by multiplying the total number of items by their respective prices.",
+        "Step 2: Use the information that the total revenue from cakes is $100 more than the total revenue from pastries to set up an equation to find the total revenue from each item.",
+        "Step 3: Set up equations based on the given total numbers of cakes and pastries and the revenue difference to find the actual numbers of cakes and pastries sold.",
+        "Step 4: Since we know the total number of pastries sold and the number of bakeries, calculate the total number of pastries sold per bakery by dividing the total pastries by the number of bakeries.",
+        "Step 5: Given that each bakery sells at least 30 pastries, ensure the calculated average is reasonable and adjust the calculation if necessary to reflect the minimum sales per bakery."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) revenue from cakes and pastries by multiplying the ମୋଟ (total) number of items by their respective prices.",
+        "ପଦକ୍ଷେପ (step) 2: Use the information that the ମୋଟ (total) revenue from cakes is $100 more than the ମୋଟ (total) revenue from pastries to set up an ସମୀକରଣ (equation) to find the ମୋଟ (total) revenue from each item.",
+        "ପଦକ୍ଷେପ (step) 3: Set up equations based on the given ମୋଟ (total) numbers of cakes and pastries and the revenue ପାର୍ଥକ୍ୟ (difference) to find the actual numbers of cakes and pastries sold.",
+        "ପଦକ୍ଷେପ (step) 4: Since we know the ମୋଟ (total) number of pastries sold and the number of bakeries, calculate the ମୋଟ (total) number of pastries sold per bakery by dividing the ମୋଟ (total) pastries by the number of bakeries.",
+        "ପଦକ୍ଷେପ (step) 5: Given that each bakery sells at least 30 pastries, ensure the calculated average is reasonable and adjust the calculation ଯଦି (if) necessary to reflect the minimum sales per bakery."
+    ],
+    "final_answer": "84"
+}

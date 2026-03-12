@@ -1,0 +1,12 @@
+{
+    "id": "635",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The tanks are currently filled to the following levels: Tank A has 300 gallons, Tank B has 600 gallons, and Tank C has 900 gallons. Due to a water shortage, the town needs to transfer water from one tank to another to achieve the following conditions: Tank A must have 1000 gallons, Tank B must have 400 gallons, and Tank C must have 1100 gallons. However, there are constraints on how water can be transferred: water can only be transferred from Tank A to Tank B, from Tank B to Tank C, or from Tank C to Tank A. Additionally, each transfer operation can only move 200 gallons of water at a time. What is the minimum number of transfer operations required to achieve the desired water levels in the three tanks?",
+    "reasoning_steps": [
+        "Step 1: Determine the net change in water level needed for each tank to reach the desired levels.",
+        "Step 2: Calculate the total amount of water that needs to be transferred out of each tank and into another.",
+        "Step 3: Identify the possible transfer paths that can achieve the desired changes in water levels, considering the constraints on transfer operations.",
+        "Step 4: Develop a sequence of transfer operations that achieves the desired water levels with the minimum number of operations, taking into account the 200-gallon limit per operation.",
+        "Step 5: Verify that the proposed sequence of operations does not violate any of the given constraints and achieves the desired final water levels in all tanks."
+    ],
+    "final_answer": "7"
+}

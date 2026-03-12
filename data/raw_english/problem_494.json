@@ -1,0 +1,12 @@
+{
+    "id": "494",
+    "problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity and travels at a different speed. The Red bus has a capacity of 50 passengers and travels at an average speed of 30 miles per hour. The Blue bus has a capacity of 75 passengers and travels at an average speed of 40 miles per hour. The Green bus has a capacity of 100 passengers and travels at an average speed of 20 miles per hour. On a given day, 300 passengers need to travel from the town to a nearby city, which is 60 miles away. However, due to road conditions, the buses must travel in a convoy, with the fastest bus in the lead, followed by the next fastest, and then the slowest. The total travel time for all passengers must be minimized. How many passengers should be assigned to each bus to minimize the total travel time?",
+    "reasoning_steps": [
+        "Step 1: Determine the travel time for each type of bus to travel 60 miles.",
+        "Step 2: Calculate the total travel time for each possible combination of passenger assignments to the buses.",
+        "Step 3: Consider the convoy constraint and determine the order of the buses.",
+        "Step 4: Use the convoy order to calculate the total travel time for each possible combination of passenger assignments.",
+        "Step 5: Compare the total travel times for each combination and determine the optimal assignment of passengers to buses."
+    ],
+    "final_answer": "25 passengers on the Red bus, 75 passengers on the Blue bus, and 200 passengers on the Green bus."
+}

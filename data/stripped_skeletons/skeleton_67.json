@@ -1,0 +1,20 @@
+{
+    "id": "67",
+    "original_problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with the number of commercial buildings being 20 more than the number of industrial buildings, and the number of residential buildings being twice the number of commercial buildings. If the total area of all commercial buildings is 120,000 square meters and each commercial building has an area of 800 square meters, what is the total number of residential buildings in the town?",
+    "deconstructed_problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a ମୋଟ (total) of 240 buildings, with the number of commercial buildings being 20 more than the number of industrial buildings, and the number of residential buildings being twice the number of commercial buildings. ଯଦି (if) the ମୋଟ (total) area of all commercial buildings is 120,000 square meters and each commercial building has an area of 800 square meters, what is the ମୋଟ (total) number of residential buildings in the town?",
+    "original_steps": [
+        "Step 1: Determine the number of commercial buildings by dividing the total area of commercial buildings by the area of each commercial building.",
+        "Step 2: Calculate the number of industrial buildings by subtracting 20 from the number of commercial buildings.",
+        "Step 3: Find the number of residential buildings by multiplying the number of commercial buildings by 2.",
+        "Step 4: Verify that the sum of the residential, commercial, and industrial buildings equals the total number of buildings in the town.",
+        "Step 5: Use the information gathered to calculate the final answer."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of commercial buildings by dividing the ମୋଟ (total) area of commercial buildings by the area of each commercial building.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of industrial buildings by subtracting 20 from the number of commercial buildings.",
+        "ପଦକ୍ଷେପ (step) 3: Find the number of residential buildings by multiplying the number of commercial buildings by 2.",
+        "ପଦକ୍ଷେପ (step) 4: Verify that the ସମଷ୍ଟି (sum) of the residential, commercial, and industrial buildings ସମାନ (equals) the ମୋଟ (total) number of buildings in the town.",
+        "ପଦକ୍ଷେପ (step) 5: Use the information gathered to calculate the final answer."
+    ],
+    "final_answer": "160"
+}

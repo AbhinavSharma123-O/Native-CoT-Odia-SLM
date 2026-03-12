@@ -1,0 +1,20 @@
+{
+    "id": "303",
+    "original_problem": "In a small village, there are three types of shops: bakeries, butcheries, and candle shops. Each shop has a unique number of items to sell. The total number of items in all the shops is 210. There are 15 bakeries with 4 more items than the number of butcheries, and 20 candle shops with 5 fewer items than the number of bakeries. If the number of items in each butchery is 5 times the number of candle shops, then how many items are in each butchery?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, butcheries, and candle shops. Each shop has a unique number of items to sell. The ମୋଟ (total) number of items in all the shops is 210. There are 15 bakeries with 4 more items than the number of butcheries, and 20 candle shops with 5 fewer items than the number of bakeries. ଯଦି (if) the number of items in each butchery is 5 times the number of candle shops, ତାହେଲେ (then) how many items are in each butchery?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of items in each type of shop. Let B be the number of bakeries, C be the number of candle shops, and Bu be the number of butcheries.",
+        "Step 2: Set up equations based on the given information. We know that B = 15, C = 20, and the total number of items is 210. We also know that the number of items in bakeries is 4 more than the number of butcheries (B = Bu + 4), and the number of items in candle shops is 5 fewer than the number of bakeries (C = B - 5).",
+        "Step 3: Express the number of items in each butchery in terms of the number of candle shops. We are told that the number of items in each butchery is 5 times the number of candle shops. So, the number of items in each butchery can be represented as 5C.",
+        "Step 4: Use the information from step 2 and step 3 to set up an equation for the total number of items. The total number of items is the sum of the items in all the shops: 15(Bu + 4) + 20(5C) + Bu(5C) = 210.",
+        "Step 5: Substitute the known values into the equation and solve for the number of items in each butchery. Since B = 15 and C = 20, B = Bu + 4 becomes 15 = Bu + 4. Solving for Bu gives Bu = 11. Now we can find the number of items in each butchery, which is 5C = 5 * 20 = 100."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of items in each type of shop. Let B be the number of bakeries, C be the number of candle shops, and Bu be the number of butcheries.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. We know that B = 15, C = 20, and the ମୋଟ (total) number of items is 210. We also know that the number of items in bakeries is 4 more than the number of butcheries (B = Bu + 4), and the number of items in candle shops is 5 fewer than the number of bakeries (C = B - 5).",
+        "ପଦକ୍ଷେପ (step) 3: Express the number of items in each butchery in terms of the number of candle shops. We are told that the number of items in each butchery is 5 times the number of candle shops. So, the number of items in each butchery can be represented as 5C.",
+        "ପଦକ୍ଷେପ (step) 4: Use the information from ପଦକ୍ଷେପ (step) 2 and ପଦକ୍ଷେପ (step) 3 to set up an ସମୀକରଣ (equation) for the ମୋଟ (total) number of items. The ମୋଟ (total) number of items is the ସମଷ୍ଟି (sum) of the items in all the shops: 15(Bu + 4) + 20(5C) + Bu(5C) = 210.",
+        "ପଦକ୍ଷେପ (step) 5: Substitute the known values into the ସମୀକରଣ (equation) and solve for the number of items in each butchery. Since B = 15 and C = 20, B = Bu + 4 becomes 15 = Bu + 4. Solving for Bu gives Bu = 11. Now we can find the number of items in each butchery, which is 5C = 5 * 20 = 100."
+    ],
+    "final_answer": "100"
+}

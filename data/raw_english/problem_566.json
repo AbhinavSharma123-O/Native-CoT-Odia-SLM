@@ -1,0 +1,12 @@
+{
+    "id": "566",
+    "problem": "In a small town, there are three types of shops: clothing stores, bakeries, and cafes. The town has a total of 25 shops, with 5 more bakeries than cafes and 3 more clothing stores than bakeries. If the total number of employees in all the shops is 200, with each bakery having 5 employees, each cafe having 8 employees, and each clothing store having 10 employees, how many cafes are there in the town?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of shop. Let's denote the number of cafes as C, the number of bakeries as B, and the number of clothing stores as S.",
+        "Step 2: Set up equations based on the given information. We know that B = C + 5 and S = B + 3. Also, the total number of shops is 25, so C + B + S = 25.",
+        "Step 3: Substitute the expressions for B and S from Step 2 into the total shops equation to get an equation in terms of C. This yields C + (C + 5) + ((C + 5) + 3) = 25.",
+        "Step 4: Simplify the equation from Step 3 and solve for C. This simplifies to C + C + 5 + C + 5 + 3 = 25, which further simplifies to 3C + 13 = 25. Solving for C gives 3C = 12, and thus C = 4.",
+        "Step 5: With the number of cafes determined, calculate the total number of employees in cafes, which is 8*C, and then use the given total number of employees and the number of employees per type of shop to verify the solution or solve for any other unknowns if necessary."
+    ],
+    "final_answer": "4"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "408",
+    "problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a total of $450 worth of bread and pastries per day. Each cafe sells a total of $300 worth of coffee and snacks per day. Each restaurant sells a total of $750 worth of meals per day. The town has a total of 15 shops. The total daily revenue from all shops is $10,500. However, 5 of the shops are owned by a single owner, and these shops have a combined daily revenue of $3,750. If the remaining shops have a total daily revenue of $6,750, how many bakeries are there in the town, given that there are 2 more cafes than restaurants?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and set up the equation based on the total number of shops: B + C + R = 15",
+        "Step 2: Set up equations based on the total daily revenues for all shops and for the shops owned by the single owner: 450B + 300C + 750R = 10,500 and 450B' + 300C' + 750R' = 3,750, where B', C', and R' represent the number of each type of shop owned by the single owner",
+        "Step 3: Use the information about the remaining shops to set up another equation: 450(B - B') + 300(C - C') + 750(R - R') = 6,750",
+        "Step 4: Utilize the relationship between the number of cafes and restaurants (C = R + 2) to reduce the number of variables in the equations",
+        "Step 5: Solve the system of equations to find the value of B, considering the constraints that B, C, and R must be non-negative integers"
+    ],
+    "final_answer": "4"
+}

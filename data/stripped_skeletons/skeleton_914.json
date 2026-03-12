@@ -1,0 +1,20 @@
+{
+    "id": "914",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a certain number of bread loaves per day, with the total number of loaves sold by all bakeries being 250. The number of loaves sold by each bakery is a distinct integer, and the sum of the squares of these integers is 2850. Additionally, the average number of loaves sold per bakery is 25, and there are a total of 10 bakeries in the town. However, two of the bakeries are owned by the same person and always sell the same number of loaves. If the total number of cafes in the town is equal to the number of restaurants, and the total number of shops (bakeries, cafes, and restaurants) is 25, determine the number of loaves sold by the bakery that sells the most loaves.",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a certain number of bread loaves per day, with the ମୋଟ (total) number of loaves sold by all bakeries being 250. The number of loaves sold by each bakery is a distinct integer, and the ସମଷ୍ଟି (sum) of the squares of these integers is 2850. Additionally, the average number of loaves sold per bakery is 25, and there are a ମୋଟ (total) of 10 bakeries in the town. However, two of the bakeries are owned by the same person and always sell the same number of loaves. ଯଦି (if) the ମୋଟ (total) number of cafes in the town is ସମାନ (equal) to the number of restaurants, and the ମୋଟ (total) number of shops (bakeries, cafes, and restaurants) is 25, determine the number of loaves sold by the bakery that sells the most loaves.",
+    "original_steps": [
+        "Step 1: Determine the total number of bakeries and the implications of the average loaves sold per bakery.",
+        "Step 2: Use the information about the sum of the squares of the integers representing the number of loaves sold by each bakery to find possible combinations of these integers.",
+        "Step 3: Account for the two bakeries owned by the same person and the constraint that they sell the same number of loaves.",
+        "Step 4: Calculate the number of cafes and restaurants based on the total number of shops and the relationship between cafes and restaurants.",
+        "Step 5: Analyze the possible combinations of loaves sold by each bakery to find the maximum number of loaves sold by any single bakery."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of bakeries and the implications of the average loaves sold per bakery.",
+        "ପଦକ୍ଷେପ (step) 2: Use the information about the ସମଷ୍ଟି (sum) of the squares of the integers representing the number of loaves sold by each bakery to find possible combinations of these integers.",
+        "ପଦକ୍ଷେପ (step) 3: Account for the two bakeries owned by the same person and the constraint that they sell the same number of loaves.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the number of cafes and restaurants based on the ମୋଟ (total) number of shops and the relationship between cafes and restaurants.",
+        "ପଦକ୍ଷେପ (step) 5: Analyze the possible combinations of loaves sold by each bakery to find the maximum number of loaves sold by any single bakery."
+    ],
+    "final_answer": "30"
+}

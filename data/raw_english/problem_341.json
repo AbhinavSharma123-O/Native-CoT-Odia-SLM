@@ -1,0 +1,12 @@
+{
+    "id": "341",
+    "problem": "In the town of Mathoria, there are three types of people: logicians, mathematicians, and engineers. Logicians can only tell the truth, mathematicians can only lie, and engineers can either tell the truth or lie. There are 15 logicians, 20 mathematicians, and 25 engineers in the town. One day, a survey is conducted where each person is asked how many of their friends are logicians. The average number of logicians reported by logicians is 3, by mathematicians is 2, and by engineers is 4. If it is known that each person has exactly 5 friends and the town is a complete graph (everyone is friends with everyone else), what is the total number of people in Mathoria who reported having more than 3 logicians as friends?",
+    "reasoning_steps": [
+        "Step 1: Determine the total number of people in Mathoria, which is the sum of logicians, mathematicians, and engineers.",
+        "Step 2: Since each person has exactly 5 friends in a complete graph, calculate the total number of friendships reported by each group, taking into account the average number of logicians reported by each.",
+        "Step 3: Recognize that mathematicians, who can only lie, must report a number of logicians that is not actually possible for them to have, given the constraints of the problem.",
+        "Step 4: Calculate the actual number of logicians each mathematician has as friends, considering the lie they tell about having 2 logicians as friends.",
+        "Step 5: Determine the number of engineers and logicians who would report having more than 3 logicians as friends, based on the averages given and the nature of their possible truth-telling or lying."
+    ],
+    "final_answer": "30"
+}

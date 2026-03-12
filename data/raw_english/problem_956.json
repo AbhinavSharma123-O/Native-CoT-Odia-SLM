@@ -1,0 +1,12 @@
+{
+    "id": "956",
+    "problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town's water needs are met by filling the towers in a sequence that is repeated every 10 hours. On the first day, Tower A is filled for 2 hours, then Tower B for 3 hours, and then Tower C for the remaining time until the sequence repeats. If Tower A can hold 3600 liters, Tower B can hold 4500 liters, and Tower C can hold 6000 liters, and all towers are initially empty, determine how many complete sequences can be filled before any tower is completely filled, assuming each sequence starts with Tower A and the filling rates remain constant.",
+    "reasoning_steps": [
+        "Step 1: Calculate the total volume of water added to each tower in one complete sequence.",
+        "Step 2: Determine the time spent filling each tower in one sequence, considering Tower A fills for 2 hours, Tower B for 3 hours, and Tower C for the rest of the 10-hour cycle.",
+        "Step 3: Calculate the volume of water added to each tower during their respective filling times in one sequence.",
+        "Step 4: Find out how many sequences it takes to fill each tower completely by dividing the capacity of each tower by the volume added per sequence.",
+        "Step 5: Identify the tower that will be filled first and calculate the number of complete sequences that can be filled before this tower is completely filled."
+    ],
+    "final_answer": "5"
+}

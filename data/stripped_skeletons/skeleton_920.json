@@ -1,0 +1,20 @@
+{
+    "id": "920",
+    "original_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each bus type has a different capacity and operates on a different schedule. The Red bus has a capacity of 50 passengers and operates every 10 minutes. The Blue bus has a capacity of 75 passengers and operates every 15 minutes. The Green bus has a capacity of 30 passengers and operates every 20 minutes. If 480 passengers need to be transported from the town to a nearby city in 1 hour, and the buses operate continuously without any breaks, how many buses of each type are needed to transport all the passengers within the given time frame?",
+    "deconstructed_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each bus type has a different capacity and operates on a different schedule. The Red bus has a capacity of 50 passengers and operates every 10 minutes. The Blue bus has a capacity of 75 passengers and operates every 15 minutes. The Green bus has a capacity of 30 passengers and operates every 20 minutes. ଯଦି (if) 480 passengers need to be transported from the town to a nearby city in 1 hour, and the buses operate continuously without any breaks, how many buses of each type are needed to transport all the passengers within the given time frame?",
+    "original_steps": [
+        "Step 1: Determine the total number of minutes in 1 hour to calculate how many times each bus can operate within that time frame.",
+        "Step 2: Calculate the number of times each bus type can operate in 1 hour based on their schedules (Red: 6 times, Blue: 4 times, Green: 3 times).",
+        "Step 3: Calculate the total capacity of each bus type if they were to operate the maximum number of times in 1 hour (Red: 50*6 = 300, Blue: 75*4 = 300, Green: 30*3 = 90).",
+        "Step 4: Determine the most efficient combination of buses to reach or exceed the total of 480 passengers by considering the capacity and frequency of each bus type.",
+        "Step 5: Calculate the number of buses of each type needed based on the most efficient combination, ensuring that the total capacity is at least 480 passengers and considering that partial buses are not possible."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the ମୋଟ (total) number of minutes in 1 hour to calculate how many times each bus can operate within that time frame.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of times each bus type can operate in 1 hour based on their schedules (Red: 6 times, Blue: 4 times, Green: 3 times).",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) capacity of each bus type ଯଦି (if) they were to operate the maximum number of times in 1 hour (Red: 50*6 = 300, Blue: 75*4 = 300, Green: 30*3 = 90).",
+        "ପଦକ୍ଷେପ (step) 4: Determine the most efficient combination of buses to reach or exceed the ମୋଟ (total) of 480 passengers by considering the capacity and frequency of each bus type.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of buses of each type needed based on the most efficient combination, ensuring that the ମୋଟ (total) capacity is at least 480 passengers and considering that partial buses are not possible."
+    ],
+    "final_answer": "2 Red buses and 2 Blue buses"
+}

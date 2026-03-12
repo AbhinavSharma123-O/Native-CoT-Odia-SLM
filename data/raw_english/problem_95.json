@@ -1,0 +1,12 @@
+{
+    "id": "95",
+    "problem": "In a small town, there are three factories: A, B, and C, producing 30%, 25%, and 45% of the town's total output of widgets, respectively. Factory A produces 150 more widgets per day than Factory B. If Factory C's daily production is 300 widgets more than the combined production of Factory A and Factory B, and the town produces a total of 3000 widgets per day, determine the daily production of each factory.",
+    "reasoning_steps": [
+        "Step 1: Calculate the total percentage of production for all factories to ensure it equals 100%.",
+        "Step 2: Set up equations based on the given information about the production of each factory relative to the others and the town's total production.",
+        "Step 3: Solve the system of equations to find the daily production of each factory, starting with the relationship between Factory A and Factory B, then incorporating Factory C's production.",
+        "Step 4: Use the percentages given for each factory's production to validate the solution and ensure it aligns with the initial problem statement.",
+        "Step 5: Calculate the final daily production numbers for each factory based on the solved equations and the total town production."
+    ],
+    "final_answer": "Factory A produces 1050 widgets, Factory B produces 900 widgets, and Factory C produces 1050 widgets per day."
+}

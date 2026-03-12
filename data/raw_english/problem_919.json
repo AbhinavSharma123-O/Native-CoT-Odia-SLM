@@ -1,0 +1,12 @@
+{
+    "id": "919",
+    "problem": "In a small town, there are three types of businesses: restaurants, shops, and hotels. The town has a total of 25 businesses. Each restaurant serves 50 people per day, each shop serves 20 people per day, and each hotel serves 100 people per day. If the total number of people served per day is 2500, and the number of shops is 5 more than the number of hotels, and the number of restaurants is 3 less than the number of shops, find the total number of people served by the hotels.",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of restaurants (R), shops (S), and hotels (H), and set up equations based on the given information.",
+        "Step 2: Set up the equation for the total number of businesses: R + S + H = 25.",
+        "Step 3: Set up the equation for the total number of people served per day: 50R + 20S + 100H = 2500.",
+        "Step 4: Use the information that the number of shops is 5 more than the number of hotels (S = H + 5) and the number of restaurants is 3 less than the number of shops (R = S - 3) to reduce the number of variables.",
+        "Step 5: Substitute R and S in terms of H into the equation for the total number of businesses and the total number of people served per day to solve for H."
+    ],
+    "final_answer": "800"
+}

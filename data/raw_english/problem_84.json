@@ -1,0 +1,12 @@
+{
+    "id": "84",
+    "problem": "In a small town, there are three factories: A, B, and C, producing 30%, 25%, and 45% of the total widgets respectively. Factory A produces widgets in three colors: red, blue, and green, with a ratio of 2:3:5. Factory B produces widgets in two colors: yellow and purple, with a ratio of 4:1. Factory C produces widgets in four colors: pink, black, white, and gray, with a ratio of 1:2:3:4. If the total number of widgets produced is 3000 and 15% of the widgets from Factory A are defective, what is the total number of non-defective green widgets from Factory A?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total number of widgets produced by each factory by using the given percentages of total production.",
+        "Step 2: Determine the number of widgets of each color produced by Factory A using the given ratio and the total number of widgets produced by Factory A.",
+        "Step 3: Calculate the total number of defective widgets from Factory A by using the given percentage of defective widgets.",
+        "Step 4: Find the number of non-defective green widgets from Factory A by subtracting the number of defective green widgets from the total number of green widgets produced by Factory A.",
+        "Step 5: Ensure all calculations are correctly based on the total production and ratios provided for Factory A."
+    ],
+    "final_answer": "63"
+}

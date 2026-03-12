@@ -1,0 +1,20 @@
+{
+    "id": "68",
+    "original_problem": "In a small town, there are three buses - Red, Blue, and Green - that operate on different schedules. The Red bus runs every 10 minutes, the Blue bus every 15 minutes, and the Green bus every 20 minutes. If all three buses leave the station at the same time at 8:00 AM, what is the next time they will all leave the station together again? Additionally, if it takes 5 minutes to walk from the Red bus stop to the Blue bus stop, 3 minutes to walk from the Blue bus stop to the Green bus stop, and 7 minutes to walk from the Green bus stop back to the Red bus stop, how many minutes will it take in total to visit all three bus stops and return to the starting point, assuming you take the buses at the exact times they leave the station and walk between the stops?",
+    "deconstructed_problem": "In a small town, there are three buses - Red, Blue, and Green - that operate on different schedules. The Red bus runs every 10 minutes, the Blue bus every 15 minutes, and the Green bus every 20 minutes. ଯଦି (if) all three buses leave the station at the same time at 8:00 AM, what is the next time they will all leave the station together again? Additionally, ଯଦି (if) it takes 5 minutes to walk from the Red bus stop to the Blue bus stop, 3 minutes to walk from the Blue bus stop to the Green bus stop, and 7 minutes to walk from the Green bus stop back to the Red bus stop, how many minutes will it take in ମୋଟ (total) to visit all three bus stops and return to the starting point, assuming you take the buses at the exact times they leave the station and walk between the stops?",
+    "original_steps": [
+        "Step 1: Determine the least common multiple (LCM) of the time intervals for the Red, Blue, and Green buses to find when they will all leave the station together again.",
+        "Step 2: Calculate the LCM of 10, 15, and 20 minutes to find the time interval for all three buses to coincide.",
+        "Step 3: Find the next time after 8:00 AM when all three buses will leave the station together by adding the LCM to the initial time.",
+        "Step 4: Calculate the total time it takes to visit all three bus stops and return to the starting point by adding the walking times between the stops.",
+        "Step 5: Add the time spent waiting for the buses to the total walking time to get the final answer."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the least common multiple (LCM) of the time intervals for the Red, Blue, and Green buses to find when they will all leave the station together again.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the LCM of 10, 15, and 20 minutes to find the time interval for all three buses to coincide.",
+        "ପଦକ୍ଷେପ (step) 3: Find the next time after 8:00 AM when all three buses will leave the station together by adding the LCM to the initial time.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) time it takes to visit all three bus stops and return to the starting point by adding the walking times between the stops.",
+        "ପଦକ୍ଷେପ (step) 5: ଯୋଗ (add) the time spent waiting for the buses to the ମୋଟ (total) walking time to get the final answer."
+    ],
+    "final_answer": "It will take 60 minutes for the buses to leave together again, and a total of 15 minutes to visit all three bus stops and return to the starting point."
+}

@@ -1,0 +1,12 @@
+{
+    "id": "15",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 liters, Tower B can hold 3000 liters, and Tower C can hold 4000 liters. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a particular day, due to a leak, 10% of the water from Tower A and 5% of the water from Tower B flowed into Tower C before the towers were filled. If Tower A was filled to 80% of its capacity, Tower B to 90%, and the total amount of water added to Tower C from both leaks and the filling process is 2800 liters, what percentage of its capacity is Tower C filled to?",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of water in Tower A after it's filled to 80% of its capacity, considering the 10% leak.",
+        "Step 2: Calculate the amount of water in Tower B after it's filled to 90% of its capacity, considering the 5% leak.",
+        "Step 3: Determine the total amount of water leaked from Tower A and Tower B into Tower C.",
+        "Step 4: Calculate the amount of water added to Tower C from the filling process, after accounting for the leaks.",
+        "Step 5: Calculate the percentage of Tower C's capacity that is filled based on the total amount of water it contains."
+    ],
+    "final_answer": "70%"
+}

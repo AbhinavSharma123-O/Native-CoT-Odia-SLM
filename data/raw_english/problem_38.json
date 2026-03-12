@@ -1,0 +1,13 @@
+{
+    "id": "38",
+    "problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a total of 25 shops. The number of bakeries is 5 more than the number of cafes, and the number of grocery stores is 3 less than the number of bakeries. If the total number of employees in all the shops is 150, and each grocery store has 5 employees, each bakery has 7 employees, and each cafe has 3 employees, how many cafes are there in the village?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of each type of shop: let G be the number of grocery stores, B be the number of bakeries, and C be the number of cafes.",
+        "Step 2: Translate the given relationships between the types of shops into equations: B = C + 5 and G = B - 3.",
+        "Step 3: Use the fact that the total number of shops is 25 to create an equation: G + B + C = 25. Substitute the expressions for G and B from step 2 into this equation to get (B - 3) + B + C = 25, then substitute B = C + 5 into this equation to get (C + 5 - 3) + (C + 5) + C = 25.",
+        "Step 4: Simplify the equation from step 3: (C + 2) + (C + 5) + C = 25, which simplifies to 3C + 7 = 25. Solve for C: 3C = 25 - 7, so 3C = 18, and thus C = 18 / 3 = 6.",
+        "Step 5: Use the information about the total number of employees and the number of employees per shop type to create another equation: 5G + 7B + 3C = 150. Since we found C = 6 in step 4, we can find B using B = C + 5, which gives B = 6 + 5 = 11. Then find G using G = B - 3, which gives G = 11 - 3 = 8.",
+        "Step 6: Verify the solution by checking if the total number of shops and the total number of employees match the given information: G + B + C = 8 + 11 + 6 = 25 shops, and 5*8 + 7*11 + 3*6 = 40 + 77 + 18 = 135 employees. The employee total does not match, indicating an error in the simplification process of step 3 or the substitution process. Correct the error by properly solving the equation 3C + 7 = 25 for C and ensuring all subsequent steps accurately reflect the relationships between the variables."
+    ],
+    "final_answer": "There are 6 cafes in the village, but this answer may be incorrect due to a calculation error in the reasoning steps."
+}

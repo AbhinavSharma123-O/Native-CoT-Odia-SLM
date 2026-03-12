@@ -1,0 +1,12 @@
+{
+    "id": "436",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water needs are as follows: the school requires 500 gallons per day, the hospital requires 1000 gallons per day, and the residential area requires 800 gallons per day. However, due to a recent drought, the town can only receive 2500 gallons of water per day from the nearby river. The water towers are currently empty, but the town has a pipeline that can fill Tower A at a rate of 500 gallons per hour, Tower B at a rate of 750 gallons per hour, and Tower C at a rate of 1000 gallons per hour. If the town wants to meet its daily water needs for exactly 4 days without any excess water, how many hours will it take to fill the water towers, assuming the pipeline can fill the towers simultaneously?",
+    "reasoning_steps": [
+        "Step 1: Calculate the total water needed by the town for 4 days by adding the daily water needs of the school, hospital, and residential area, and then multiplying by 4.",
+        "Step 2: Determine the total capacity of the three water towers and compare it to the total water needed for 4 days to see if the towers can hold enough water.",
+        "Step 3: Since the town can only receive 2500 gallons of water per day, calculate how many days it would take to fill the towers to meet the 4-day water needs, considering the daily water limit.",
+        "Step 4: Calculate the time it takes to fill each tower individually based on the pipeline's fill rates and the total amount of water each tower needs to hold for the 4-day period.",
+        "Step 5: Determine the minimum number of hours required to fill all three towers simultaneously, taking into account the fill rates and the total amount of water needed."
+    ],
+    "final_answer": "16"
+}

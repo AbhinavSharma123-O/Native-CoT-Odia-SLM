@@ -1,0 +1,15 @@
+{
+    "id": "87",
+    "problem": "In a small town, there are three types of buses: Red, Blue, and Green. The Red bus travels from Town A to Town B, covering a distance of 240 miles in 4 hours. The Blue bus travels from Town B to Town C, covering a distance of 180 miles in 3 hours. The Green bus travels from Town A to Town C, covering a distance of 420 miles in 7 hours. However, due to road conditions, the Green bus has to take a detour that adds 30 miles to its journey. If a passenger takes the Red bus from Town A to Town B, then the Blue bus from Town B to Town C, and finally returns to Town A on the Green bus, but only after the detour, what is the total distance traveled by the passenger? Additionally, if the passenger pays $0.50 per mile for the Red and Blue buses, but $0.75 per mile for the Green bus, what is the total cost of the trip?",
+    "reasoning_steps": [
+        "Step 1: Calculate the distance traveled by the Red bus from Town A to Town B.",
+        "Step 2: Calculate the distance traveled by the Blue bus from Town B to Town C.",
+        "Step 3: Calculate the total distance traveled by the Green bus from Town A to Town C, including the detour.",
+        "Step 4: Calculate the total distance traveled by the passenger by adding the distances traveled on each bus.",
+        "Step 5: Calculate the cost of the trip by multiplying the distance traveled on each bus by the respective cost per mile and adding the costs together."
+    ],
+    "final_answer": {
+        "total_distance": 870,
+        "total_cost": 542.5
+    }
+}

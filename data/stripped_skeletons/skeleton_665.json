@@ -1,0 +1,20 @@
+{
+    "id": "665",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A directly to Tank C. Each pipe can transfer water at a different rate: Pipe 1 transfers at 200 gallons per hour, Pipe 2 at 150 gallons per hour, and Pipe 3 at 300 gallons per hour. If Tank A is initially full and Tanks B and C are empty, how many hours will it take to fill Tank C to its maximum capacity of 1500 gallons, given that all pipes operate simultaneously and water is transferred from Tank A to Tank C both directly through Pipe 3 and indirectly through Pipes 1 and 2?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1200 gallons of water, Tank B can hold 800 gallons, and Tank C can hold 1500 gallons. The town's water supply system has three pipes: Pipe 1 connects Tank A to Tank B, Pipe 2 connects Tank B to Tank C, and Pipe 3 connects Tank A directly to Tank C. Each pipe can transfer water at a different rate: Pipe 1 transfers at 200 gallons per hour, Pipe 2 at 150 gallons per hour, and Pipe 3 at 300 gallons per hour. ଯଦି (if) Tank A is initially full and Tanks B and C are empty, how many hours will it take to fill Tank C to its maximum capacity of 1500 gallons, given that all pipes operate simultaneously and water is transferred from Tank A to Tank C both directly through Pipe 3 and indirectly through Pipes 1 and 2?",
+    "original_steps": [
+        "Step 1: Determine the combined rate at which water is transferred from Tank A to Tank C, considering both the direct transfer through Pipe 3 and the indirect transfer through Pipes 1 and 2.",
+        "Step 2: Calculate the rate at which Tank B is filled by Pipe 1 and then emptied by Pipe 2, to understand the net flow from Tank A to Tank C through the indirect path.",
+        "Step 3: Establish the differential equation that models the filling of Tank C over time, taking into account the direct and indirect water transfers.",
+        "Step 4: Solve the differential equation to find the time it takes for Tank C to fill up to its capacity of 1500 gallons, considering the initial conditions of the system.",
+        "Step 5: Validate the solution by checking that the total amount of water transferred does not exceed the capacity of Tank A and that the solution satisfies the initial and boundary conditions of the problem."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the combined rate at which water is transferred from Tank A to Tank C, considering both the direct transfer through Pipe 3 and the indirect transfer through Pipes 1 and 2.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the rate at which Tank B is filled by Pipe 1 and ତାହେଲେ (then) emptied by Pipe 2, to understand the net flow from Tank A to Tank C through the indirect path.",
+        "ପଦକ୍ଷେପ (step) 3: Establish the differential ସମୀକରଣ (equation) that models the filling of Tank C over time, taking into account the direct and indirect water transfers.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the differential ସମୀକରଣ (equation) to find the time it takes for Tank C to fill up to its capacity of 1500 gallons, considering the initial conditions of the system.",
+        "ପଦକ୍ଷେପ (step) 5: Validate the solution by checking that the ମୋଟ (total) amount of water transferred does not exceed the capacity of Tank A and that the solution satisfies the initial and boundary conditions of the problem."
+    ],
+    "final_answer": "5 hours"
+}

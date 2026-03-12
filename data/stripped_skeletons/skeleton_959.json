@@ -1,0 +1,20 @@
+{
+    "id": "959",
+    "original_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 200 cubic meters per minute, while River B flows into River C at a rate of 300 cubic meters per minute. River C has a dam that releases water at a rate of 500 cubic meters per minute. If the initial volume of River A is 12000 cubic meters, River B is 15000 cubic meters, and River C is 20000 cubic meters, how many minutes will it take for River C to be completely empty, given that the flow rates are constant and all the water from River A and River B flows into River C before being released by the dam?",
+    "deconstructed_problem": "In a small town, there are three rivers: River A, River B, and River C. River A flows into River B at a rate of 200 cubic meters per minute, while River B flows into River C at a rate of 300 cubic meters per minute. River C has a dam that releases water at a rate of 500 cubic meters per minute. ଯଦି (if) the initial volume of River A is 12000 cubic meters, River B is 15000 cubic meters, and River C is 20000 cubic meters, how many minutes will it take for River C to be completely empty, given that the flow rates are constant and all the water from River A and River B flows into River C before being released by the dam?",
+    "original_steps": [
+        "Step 1: Calculate the net flow rate into River C by adding the flow rates of River A and River B, and then subtracting the release rate of the dam.",
+        "Step 2: Determine the total volume of water that needs to be emptied from River C by adding the volumes of River A, River B, and River C, and taking into account the continuous flow from River A and River B.",
+        "Step 3: Calculate the combined flow rate of River A and River B into River C, and then find the net flow rate into River C by subtracting the release rate of the dam.",
+        "Step 4: Use the net flow rate and the total volume to be emptied to calculate the time it will take for River C to be completely empty.",
+        "Step 5: Account for the fact that as River A and River B empty, their flow rates into River C will decrease, affecting the overall flow rate into River C, and adjust the calculation accordingly."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net flow rate into River C by adding the flow rates of River A and River B, and ତାହେଲେ (then) subtracting the release rate of the dam.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) volume of water that needs to be emptied from River C by adding the volumes of River A, River B, and River C, and taking into account the continuous flow from River A and River B.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the combined flow rate of River A and River B into River C, and ତାହେଲେ (then) find the net flow rate into River C by subtracting the release rate of the dam.",
+        "ପଦକ୍ଷେପ (step) 4: Use the net flow rate and the ମୋଟ (total) volume to be emptied to calculate the time it will take for River C to be completely empty.",
+        "ପଦକ୍ଷେପ (step) 5: Account for the fact that as River A and River B empty, their flow rates into River C will decrease, affecting the overall flow rate into River C, and adjust the calculation accordingly."
+    ],
+    "final_answer": "It will take 60 minutes for River C to be completely empty."
+}

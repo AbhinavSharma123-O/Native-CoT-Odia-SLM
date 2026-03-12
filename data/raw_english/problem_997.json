@@ -1,0 +1,12 @@
+{
+    "id": "997",
+    "problem": "In a small village, there are three types of people: those who always tell the truth (truth-tellers), those who always lie (liars), and those who sometimes tell the truth and sometimes lie (alternators). One day, three villagers - Alex, Ben, and Chris - are standing in a row. Alex says, 'Ben is a liar.' Ben says, 'Chris is an alternator.' Chris says, 'Alex is a truth-teller.' If it is known that exactly one of the villagers is an alternator and exactly one statement is false, determine the types of all three villagers and the false statement.",
+    "reasoning_steps": [
+        "Step 1: Determine the possible scenarios for the types of villagers based on the given statements.",
+        "Step 2: Analyze the statement of Alex and its implications on the types of Ben and Chris.",
+        "Step 3: Examine the statement of Ben and its implications on the type of Chris, considering the possibility of Ben being a liar or a truth-teller.",
+        "Step 4: Evaluate the statement of Chris and its implications on the type of Alex, taking into account the constraints on the number of alternators and false statements.",
+        "Step 5: Combine the information from the previous steps to identify the types of all three villagers and the false statement, ensuring consistency with the given conditions."
+    ],
+    "final_answer": "Alex is a truth-teller, Ben is a liar, and Chris is an alternator; the false statement is Ben's claim that Chris is an alternator."
+}

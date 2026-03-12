@@ -1,0 +1,12 @@
+{
+    "id": "765",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. The town's water supply system has three valves: X, Y, and Z, which can fill the tanks at different rates. Valve X can fill Tank A at a rate of 100 liters per minute and Tank B at a rate of 200 liters per minute. Valve Y can fill Tank B at a rate of 150 liters per minute and Tank C at a rate of 250 liters per minute. Valve Z can fill Tank A at a rate of 120 liters per minute and Tank C at a rate of 180 liters per minute. If all three valves are opened simultaneously, how many minutes will it take to fill all three tanks, given that Tank A is initially 1/4 full, Tank B is initially 1/3 full, and Tank C is initially 1/2 full?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. For Tank A, it is 1/4 * 2000 = 500 liters. For Tank B, it is 1/3 * 3000 = 1000 liters. For Tank C, it is 1/2 * 4000 = 2000 liters.",
+        "Step 2: Determine the total capacity that needs to be filled for each tank. For Tank A, it is 2000 - 500 = 1500 liters. For Tank B, it is 3000 - 1000 = 2000 liters. For Tank C, it is 4000 - 2000 = 2000 liters.",
+        "Step 3: Calculate the combined rate at which each tank is filled by all applicable valves. For Tank A, the combined rate is 100 (from Valve X) + 120 (from Valve Z) = 220 liters per minute. For Tank B, the combined rate is 200 (from Valve X) + 150 (from Valve Y) = 350 liters per minute. For Tank C, the combined rate is 250 (from Valve Y) + 180 (from Valve Z) = 430 liters per minute.",
+        "Step 4: Calculate the time it takes to fill each tank. For Tank A, it is 1500 / 220. For Tank B, it is 2000 / 350. For Tank C, it is 2000 / 430.",
+        "Step 5: Identify the tank that takes the longest to fill, as this will determine the total time needed to fill all three tanks."
+    ],
+    "final_answer": "To find the final answer, we calculate the time for each tank: Tank A takes 1500 / 220 = 6.82 minutes, Tank B takes 2000 / 350 = 5.71 minutes, and Tank C takes 2000 / 430 = 4.65 minutes. The longest time is for Tank A, so it will take approximately 6.82 minutes to fill all three tanks."
+}

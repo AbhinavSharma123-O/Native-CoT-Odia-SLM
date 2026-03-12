@@ -1,0 +1,20 @@
+{
+    "id": "258",
+    "original_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, the village has a rule that the total number of switch flips must be a prime number. If it takes you exactly 5 switch flips to solve the problem, what is the minimum number of flips required to turn on all the light bulbs if they were initially off, given that each switch can only be flipped once after you've entered the room?",
+    "deconstructed_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb? Additionally, the village has a rule that the ମୋଟ (total) number of switch flips must be a prime number. ଯଦି (if) it takes you exactly 5 switch flips to solve the problem, what is the minimum number of flips required to turn on all the light bulbs ଯଦି (if) they were initially off, given that each switch can only be flipped once after you've entered the room?",
+    "original_steps": [
+        "Step 1: Understand the initial problem of identifying the switches with only one room entry, considering the constraint of a prime number of switch flips.",
+        "Step 2: Determine a strategy to identify the switches with the least number of flips, recognizing that 5 flips is a prime number and satisfies the village rule.",
+        "Step 3: Develop a plan to minimize the number of flips needed to turn on all the bulbs after identifying them, given the additional constraint that each switch can only be flipped once after entering the room.",
+        "Step 4: Apply the strategy to the scenario where all bulbs are initially off and calculate the minimum flips required to turn them all on, ensuring compliance with the prime number rule.",
+        "Step 5: Validate the solution against the conditions of the problem, ensuring it meets both the prime flip requirement and the single flip per switch post-identification constraint."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Understand the initial problem of identifying the switches with only one room entry, considering the constraint of a prime number of switch flips.",
+        "ପଦକ୍ଷେପ (step) 2: Determine a strategy to identify the switches with the least number of flips, recognizing that 5 flips is a prime number and satisfies the village rule.",
+        "ପଦକ୍ଷେପ (step) 3: Develop a plan to minimize the number of flips needed to turn on all the bulbs after identifying them, given the additional constraint that each switch can only be flipped once after entering the room.",
+        "ପଦକ୍ଷେପ (step) 4: Apply the strategy to the scenario where all bulbs are initially off and calculate the minimum flips required to turn them all on, ensuring compliance with the prime number rule.",
+        "ପଦକ୍ଷେପ (step) 5: Validate the solution against the conditions of the problem, ensuring it meets both the prime flip requirement and the single flip per switch post-identification constraint."
+    ],
+    "final_answer": "3"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "355",
+    "problem": "In a small village, there are three types of shops: bakeries, candy stores, and flower shops. Each shop has a specific number of employees. The total number of employees in all shops is 90. The number of employees in the bakeries is 5 more than the number of employees in the candy stores. The number of employees in the flower shops is 10 less than the number of employees in the candy stores. If the ratio of the number of bakeries to the number of candy stores is 3:5 and the ratio of the number of flower shops to the number of bakeries is 2:3, what is the number of employees in each type of shop?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote B as the number of employees in the bakeries, C as the number of employees in the candy stores, and F as the number of employees in the flower shops.",
+        "Step 2: Express the given relationships between the types of shops in terms of the defined variables. We have B = C + 5 and F = C - 10.",
+        "Step 3: Use the given ratios to express the number of shops in terms of a common variable. Let the number of bakeries be 3x and the number of candy stores be 5x. Then, the number of flower shops is 2x, based on the ratio of flower shops to bakeries.",
+        "Step 4: Calculate the total number of employees using the information from steps 2 and 3. The total number of employees is given as 90, so 3x(B) + 5x(C) + 2x(F) = 90. Substituting B, C, and F from steps 1 and 2 gives us an equation in terms of x and C.",
+        "Step 5: Solve the system of equations formed from the given information to find the values of B, C, and F. Given that B = C + 5 and F = C - 10, and knowing the ratios of shops, we can find the specific values for B, C, and F by solving for x and then substituting back into our equations for B, C, and F."
+    ],
+    "final_answer": {
+        "bakeries": 25,
+        "candy_stores": 20,
+        "flower_shops": 10
+    }
+}

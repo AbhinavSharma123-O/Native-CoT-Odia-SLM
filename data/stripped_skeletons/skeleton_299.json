@@ -1,0 +1,20 @@
+{
+    "id": "299",
+    "original_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, after determining the correct switch for each bulb, you discover that the bulbs are of different wattages: 60W, 100W, and 150W. You also learn that the total power consumption of the bulbs when all are on is 310W. Using the process of elimination and the given total power consumption, determine the wattage of each bulb in order from lowest to highest, assuming the switches are labelled A, B, and C after you've identified them, and A corresponds to the lowest wattage bulb, B to the middle, and C to the highest.",
+    "deconstructed_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, after determining the correct switch for each bulb, you discover that the bulbs are of different wattages: 60W, 100W, and 150W. You also learn that the ମୋଟ (total) power consumption of the bulbs when all are on is 310W. Using the process of elimination and the given ମୋଟ (total) power consumption, determine the wattage of each bulb in order from lowest to highest, assuming the switches are labelled A, B, and C after you've identified them, and A corresponds to the lowest wattage bulb, B to the middle, and C to the highest.",
+    "original_steps": [
+        "Step 1: Turn switch A to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch A to the 'off' position and turn switch B to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "Step 3: Identify the bulb that is on as corresponding to switch B. The bulb that is off but warm corresponds to switch A. The remaining bulb corresponds to switch C.",
+        "Step 4: Given the total power consumption of 310W when all bulbs are on, and knowing the possible wattages are 60W, 100W, and 150W, determine the combination of bulb wattages that adds up to 310W.",
+        "Step 5: Use the process of elimination to find the combination that works. The possible combinations are (60W, 100W, 150W), which indeed adds up to 310W. Since A corresponds to the lowest wattage, B to the middle, and C to the highest, assign the wattages accordingly."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch A to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch A to the 'off' position and turn switch B to the 'on' position. Immediately enter the room to observe the bulbs.",
+        "ପଦକ୍ଷେପ (step) 3: Identify the bulb that is on as corresponding to switch B. The bulb that is off but warm corresponds to switch A. The remaining bulb corresponds to switch C.",
+        "ପଦକ୍ଷେପ (step) 4: Given the ମୋଟ (total) power consumption of 310W when all bulbs are on, and knowing the possible wattages are 60W, 100W, and 150W, determine the combination of bulb wattages that adds up to 310W.",
+        "ପଦକ୍ଷେପ (step) 5: Use the process of elimination to find the combination that works. The possible combinations are (60W, 100W, 150W), which indeed adds up to 310W. Since A corresponds to the lowest wattage, B to the middle, and C to the highest, assign the wattages accordingly."
+    ],
+    "final_answer": "60W, 100W, 150W"
+}

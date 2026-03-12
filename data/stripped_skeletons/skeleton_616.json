@@ -1,0 +1,20 @@
+{
+    "id": "616",
+    "original_problem": "In a small town, there are three water tanks, A, B, and C, with capacities of 3000, 4000, and 5000 gallons respectively. On a given day, tank A is 3/5 full, tank B is 2/3 full, and tank C is 1/4 full. Due to a water shortage, the town decides to transfer water from one tank to another to achieve equal amounts in each tank. If 1/3 of the water from tank B is transferred to tank A, and then 1/5 of the water from the resulting amount in tank A is transferred to tank C, what is the final amount of water in gallons in tank C after these transfers, assuming no water is lost during the transfer process?",
+    "deconstructed_problem": "In a small town, there are three water tanks, A, B, and C, with capacities of 3000, 4000, and 5000 gallons respectively. On a given day, tank A is 3/5 full, tank B is 2/3 full, and tank C is 1/4 full. Due to a water shortage, the town decides to transfer water from one tank to another to achieve ସମାନ (equal) amounts in each tank. ଯଦି (if) 1/3 of the water from tank B is transferred to tank A, and ତାହେଲେ (then) 1/5 of the water from the resulting amount in tank A is transferred to tank C, what is the final amount of water in gallons in tank C after these transfers, assuming no water is lost during the transfer process?",
+    "original_steps": [
+        "Step 1: Calculate the initial amount of water in each tank. For tank A: 3000 * (3/5) = 1800 gallons, for tank B: 4000 * (2/3) = 2666.67 gallons, and for tank C: 5000 * (1/4) = 1250 gallons.",
+        "Step 2: Calculate the amount of water transferred from tank B to tank A. 1/3 of the water from tank B is (1/3) * 2666.67 = 888.89 gallons.",
+        "Step 3: Calculate the new amount of water in tank A after receiving water from tank B. 1800 + 888.89 = 2688.89 gallons.",
+        "Step 4: Calculate the amount of water transferred from tank A to tank C. 1/5 of the water from the resulting amount in tank A is (1/5) * 2688.89 = 537.78 gallons.",
+        "Step 5: Calculate the final amount of water in tank C after the transfer. Initial water in tank C plus the water transferred from tank A: 1250 + 537.78 = 1787.78 gallons."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial amount of water in each tank. For tank A: 3000 * (3/5) = 1800 gallons, for tank B: 4000 * (2/3) = 2666.67 gallons, and for tank C: 5000 * (1/4) = 1250 gallons.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the amount of water transferred from tank B to tank A. 1/3 of the water from tank B is (1/3) * 2666.67 = 888.89 gallons.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the new amount of water in tank A after receiving water from tank B. 1800 + 888.89 = 2688.89 gallons.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water transferred from tank A to tank C. 1/5 of the water from the resulting amount in tank A is (1/5) * 2688.89 = 537.78 gallons.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the final amount of water in tank C after the transfer. Initial water in tank C plus the water transferred from tank A: 1250 + 537.78 = 1787.78 gallons."
+    ],
+    "final_answer": "1787.78"
+}

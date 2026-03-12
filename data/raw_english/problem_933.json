@@ -1,0 +1,12 @@
+{
+    "id": "933",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird starts at the top of the well and flies down to the bottom at a rate of 5 feet per day. However, the bird only flies every other day. If the bird starts flying on the same day the snail starts climbing, how many days will it take for the snail to reach the top of the well, and will the bird ever catch the snail?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net progress of the snail per day, taking into account its climb and slip.",
+        "Step 2: Determine the number of days it will take for the snail to reach the top of the well by dividing the height of the well by the snail's net progress per day and considering the day it reaches the top without slipping back.",
+        "Step 3: Calculate the number of days the bird flies by the time the snail reaches the top, considering the bird flies every other day.",
+        "Step 4: Determine the distance the bird travels by the time the snail reaches the top by multiplying the number of days the bird flies by its rate of descent.",
+        "Step 5: Compare the distance the bird travels with the height of the well to determine if the bird catches the snail."
+    ],
+    "final_answer": "18 days for the snail to reach the top, and no, the bird will not catch the snail."
+}

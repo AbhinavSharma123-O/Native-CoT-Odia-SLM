@@ -1,0 +1,20 @@
+{
+    "id": "81",
+    "original_problem": "In the town of Mathoria, there are three types of coins: gold, silver, and bronze, each with a different value. The gold coin is worth 5 times the value of the bronze coin. The silver coin is worth 2 times the value of the bronze coin. A merchant has 15 gold coins, 20 silver coins, and 30 bronze coins. If the total value of all the coins is $550, what is the value of a single bronze coin?",
+    "deconstructed_problem": "In the town of Mathoria, there are three types of coins: gold, silver, and bronze, each with a different value. The gold coin is worth 5 times the value of the bronze coin. The silver coin is worth 2 times the value of the bronze coin. A merchant has 15 gold coins, 20 silver coins, and 30 bronze coins. ଯଦି (if) the ମୋଟ (total) value of all the coins is $550, what is the value of a single bronze coin?",
+    "original_steps": [
+        "Step 1: Define the variables for the value of each coin type, with B representing the value of a bronze coin, S for silver, and G for gold.",
+        "Step 2: Establish the relationships between the coin values based on the given information: G = 5B and S = 2B.",
+        "Step 3: Calculate the total value of each type of coin by multiplying the number of coins by their respective values, expressed in terms of B: 15G = 15*5B = 75B, 20S = 20*2B = 40B, 30B.",
+        "Step 4: Sum the total value of all coins in terms of B and set it equal to $550: 75B + 40B + 30B = 145B = $550.",
+        "Step 5: Solve for B by dividing both sides of the equation by 145 to find the value of a single bronze coin."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the value of each coin type, with B representing the value of a bronze coin, S for silver, and G for gold.",
+        "ପଦକ୍ଷେପ (step) 2: Establish the relationships between the coin values based on the given information: G = 5B and S = 2B.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) value of each type of coin by multiplying the number of coins by their respective values, expressed in terms of B: 15G = 15*5B = 75B, 20S = 20*2B = 40B, 30B.",
+        "ପଦକ୍ଷେପ (step) 4: ସମଷ୍ଟି (sum) the ମୋଟ (total) value of all coins in terms of B and set it ସମାନ (equal) to $550: 75B + 40B + 30B = 145B = $550.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for B by dividing both sides of the ସମୀକରଣ (equation) by 145 to find the value of a single bronze coin."
+    ],
+    "final_answer": "3.79"
+}

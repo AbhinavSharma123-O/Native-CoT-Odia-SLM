@@ -1,0 +1,20 @@
+{
+    "id": "327",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar to produce 3 units of bread. Each cafe uses 1 unit of bread and 2 units of sugar to produce 4 units of pastry. Each restaurant uses 2 units of bread and 3 units of flour to produce 5 units of cake. If the total amount of flour used by all the shops is 240 units and the total amount of sugar used is 180 units, and if each bakery produces the same amount of bread, each cafe produces the same amount of pastry, and each restaurant produces the same amount of cake, find the number of bakeries in the village.",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery uses 2 units of flour and 1 unit of sugar to produce 3 units of bread. Each cafe uses 1 unit of bread and 2 units of sugar to produce 4 units of pastry. Each restaurant uses 2 units of bread and 3 units of flour to produce 5 units of cake. ଯଦି (if) the ମୋଟ (total) amount of flour used by all the shops is 240 units and the ମୋଟ (total) amount of sugar used is 180 units, and ଯଦି (if) each bakery produces the same amount of bread, each cafe produces the same amount of pastry, and each restaurant produces the same amount of cake, find the number of bakeries in the village.",
+    "original_steps": [
+        "Step 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and establish the given equations based on flour and sugar usage: 2B + 3R = 240 (for flour) and B + 2C = 180 (for sugar).",
+        "Step 2: Express the bread production and usage in terms of B, C, and R: 3B = 2R + C (since each bakery produces 3 units of bread, and this bread is used by restaurants and cafes).",
+        "Step 3: Solve the system of equations established in Steps 1 and 2 to find the values of B, C, and R. This involves substitution or elimination methods to reduce the equations to a solvable form.",
+        "Step 4: Since each bakery, cafe, and restaurant produces the same amount of product, and knowing the total amounts of flour and sugar used, we must ensure that our solution for B, C, and R is consistent with these constraints and that B, C, and R are whole numbers.",
+        "Step 5: Calculate the final number of bakeries (B) based on the solution to the system of equations, ensuring B is a positive integer."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of bakeries (B), cafes (C), and restaurants (R), and establish the given equations based on flour and sugar usage: 2B + 3R = 240 (for flour) and B + 2C = 180 (for sugar).",
+        "ପଦକ୍ଷେପ (step) 2: Express the bread production and usage in terms of B, C, and R: 3B = 2R + C (since each bakery produces 3 units of bread, and this bread is used by restaurants and cafes).",
+        "ପଦକ୍ଷେପ (step) 3: Solve the system of equations established in Steps 1 and 2 to find the values of B, C, and R. This involves substitution or elimination methods to reduce the equations to a solvable form.",
+        "ପଦକ୍ଷେପ (step) 4: Since each bakery, cafe, and restaurant produces the same amount of product, and knowing the ମୋଟ (total) amounts of flour and sugar used, we must ensure that our solution for B, C, and R is consistent with these constraints and that B, C, and R are whole numbers.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the final number of bakeries (B) based on the solution to the system of equations, ensuring B is a positive integer."
+    ],
+    "final_answer": "30"
+}

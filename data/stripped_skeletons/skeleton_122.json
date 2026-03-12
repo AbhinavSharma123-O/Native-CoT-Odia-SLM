@@ -1,0 +1,20 @@
+{
+    "id": "122",
+    "original_problem": "In a small town, there are three water towers named A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. Tower A has a capacity of 3000 liters, Tower B has a capacity of 4000 liters, and Tower C has a capacity of 5000 liters. If all towers start filling at the same time and Tower A is already 1/4 full, Tower B is 1/2 full, and Tower C is 3/4 full, how many minutes will it take to fill all three towers? Additionally, if the town's water treatment plant can only supply 1.5 liters per minute to the towers and the excess water from each tower is used to fill the other towers, how will this affect the time it takes to fill all the towers?",
+    "deconstructed_problem": "In a small town, there are three water towers named A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. Tower A has a capacity of 3000 liters, Tower B has a capacity of 4000 liters, and Tower C has a capacity of 5000 liters. ଯଦି (if) all towers start filling at the same time and Tower A is already 1/4 full, Tower B is 1/2 full, and Tower C is 3/4 full, how many minutes will it take to fill all three towers? Additionally, ଯଦି (if) the town's water treatment plant can only supply 1.5 liters per minute to the towers and the excess water from each tower is used to fill the other towers, how will this affect the time it takes to fill all the towers?",
+    "original_steps": [
+        "Step 1: Calculate the remaining capacity for each tower by subtracting the amount of water already in each tower from its total capacity.",
+        "Step 2: Determine the rate at which each tower is being filled, taking into account the town's water treatment plant supply limit and the excess water being used to fill the other towers.",
+        "Step 3: Set up equations to model the rate at which each tower is being filled, considering the initial amount of water in each tower and the supply rate from the treatment plant.",
+        "Step 4: Solve the system of equations to find the time it takes to fill all three towers, considering the constraints of the water treatment plant supply and the excess water being redistributed.",
+        "Step 5: Analyze the results to ensure that the solution is physically plausible and accounts for all factors, such as the initial water levels, filling rates, and supply limitations."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the remaining capacity for each tower by subtracting the amount of water already in each tower from its ମୋଟ (total) capacity.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the rate at which each tower is being filled, taking into account the town's water treatment plant supply limit and the excess water being used to fill the other towers.",
+        "ପଦକ୍ଷେପ (step) 3: Set up equations to model the rate at which each tower is being filled, considering the initial amount of water in each tower and the supply rate from the treatment plant.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the system of equations to find the time it takes to fill all three towers, considering the constraints of the water treatment plant supply and the excess water being redistributed.",
+        "ପଦକ୍ଷେପ (step) 5: Analyze the results to ensure that the solution is physically plausible and accounts for all factors, such as the initial water levels, filling rates, and supply limitations."
+    ],
+    "final_answer": "It will take approximately 480 minutes to fill Tower A, 320 minutes to fill Tower B, and 200 minutes to fill Tower C, but considering the redistribution of excess water and the supply limit, it will take around 480 minutes to fill all towers."
+}

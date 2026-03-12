@@ -1,0 +1,12 @@
+{
+    "id": "440",
+    "problem": "In a small village, there are three types of shops: A, B, and C. Each shop has a different number of employees. The total number of employees in all shops is 90. Shop A has 10 more employees than shop B. Shop C has 5 fewer employees than shop A. The ratio of employees in shop A to shop B to shop C is 3:2:3. If shop B has 15 employees, how many employees does shop C have?",
+    "reasoning_steps": [
+        "Step 1: Determine the number of employees in shop A by using the information that shop A has 10 more employees than shop B and shop B has 15 employees.",
+        "Step 2: Calculate the total number of employees in shops A and B combined, then subtract this from the total number of employees to find the number of employees in shop C, but first we need the actual number for shop A.",
+        "Step 3: Apply the ratio of employees in shop A to shop B to shop C, which is 3:2:3, to verify the relationship between the shops and to derive an equation to solve for the number of employees in shop C.",
+        "Step 4: Use the information that shop C has 5 fewer employees than shop A to create another equation to solve for the number of employees in shop C.",
+        "Step 5: Solve the system of equations derived from steps 3 and 4 to find the number of employees in shop C."
+    ],
+    "final_answer": "25"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "57",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of bread loaves per day, which is 15 more than the number of cakes sold by each cafe. The number of cakes sold by each cafe is 5 less than the number of pastries sold by each restaurant. If each restaurant sells 25 pastries per day and there are 5 bakeries, 3 cafes, and 2 restaurants in the town, how many loaves of bread are sold in total by all the bakeries in a day, given that the total number of bread loaves, cakes, and pastries sold by all shops is 1500?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of bread loaves per day, which is 15 more than the number of cakes sold by each cafe. The number of cakes sold by each cafe is 5 less than the number of pastries sold by each restaurant. ଯଦି (if) each restaurant sells 25 pastries per day and there are 5 bakeries, 3 cafes, and 2 restaurants in the town, how many loaves of bread are sold in ମୋଟ (total) by all the bakeries in a day, given that the ମୋଟ (total) number of bread loaves, cakes, and pastries sold by all shops is 1500?",
+    "original_steps": [
+        "Step 1: Determine the number of pastries sold by each restaurant, which is given as 25.",
+        "Step 2: Calculate the number of cakes sold by each cafe, which is 5 less than the number of pastries sold by each restaurant, thus cakes_per_cafe = 25 - 5 = 20.",
+        "Step 3: Find the number of bread loaves sold by each bakery, which is 15 more than the number of cakes sold by each cafe, hence loaves_per_bakery = 20 + 15 = 35.",
+        "Step 4: Calculate the total number of pastries sold by all restaurants, which is 25 * 2 = 50, and the total number of cakes sold by all cafes, which is 20 * 3 = 60.",
+        "Step 5: Calculate the total number of bread loaves sold by all bakeries, which is 35 * 5 = 175, and then verify if the total number of items sold by all shops equals 1500, adjusting calculations if necessary."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of pastries sold by each restaurant, which is given as 25.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of cakes sold by each cafe, which is 5 less than the number of pastries sold by each restaurant, thus cakes_per_cafe = 25 - 5 = 20.",
+        "ପଦକ୍ଷେପ (step) 3: Find the number of bread loaves sold by each bakery, which is 15 more than the number of cakes sold by each cafe, hence loaves_per_bakery = 20 + 15 = 35.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of pastries sold by all restaurants, which is 25 * 2 = 50, and the ମୋଟ (total) number of cakes sold by all cafes, which is 20 * 3 = 60.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of bread loaves sold by all bakeries, which is 35 * 5 = 175, and ତାହେଲେ (then) verify ଯଦି (if) the ମୋଟ (total) number of items sold by all shops ସମାନ (equals) 1500, adjusting calculations ଯଦି (if) necessary."
+    ],
+    "final_answer": "175"
+}

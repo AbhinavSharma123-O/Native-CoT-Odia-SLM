@@ -1,0 +1,22 @@
+{
+    "id": "285",
+    "original_problem": "In the city of Azure, there are three types of vehicles: cars, buses, and motorcycles. The city has a total of 250 vehicles. Cars account for 40% of the vehicles, buses account for 30%, and motorcycles account for the remaining 30%. If each car has 4 wheels, each bus has 6 wheels, and each motorcycle has 2 wheels, what is the total number of wheels in the city? Additionally, if the city decides to replace 20% of the motorcycles with buses, how many more wheels will the city have after the replacement?",
+    "deconstructed_problem": "In the city of Azure, there are three types of vehicles: cars, buses, and motorcycles. The city has a ମୋଟ (total) of 250 vehicles. Cars account for 40% of the vehicles, buses account for 30%, and motorcycles account for the remaining 30%. ଯଦି (if) each car has 4 wheels, each bus has 6 wheels, and each motorcycle has 2 wheels, what is the ମୋଟ (total) number of wheels in the city? Additionally, ଯଦି (if) the city decides to replace 20% of the motorcycles with buses, how many more wheels will the city have after the replacement?",
+    "original_steps": [
+        "Step 1: Calculate the number of cars, buses, and motorcycles in the city. Cars = 40% of 250 = 0.4 * 250 = 100, Buses = 30% of 250 = 0.3 * 250 = 75, Motorcycles = 30% of 250 = 0.3 * 250 = 75.",
+        "Step 2: Calculate the total number of wheels for each type of vehicle. Car wheels = 100 cars * 4 wheels = 400, Bus wheels = 75 buses * 6 wheels = 450, Motorcycle wheels = 75 motorcycles * 2 wheels = 150.",
+        "Step 3: Calculate the initial total number of wheels in the city. Total wheels = Car wheels + Bus wheels + Motorcycle wheels = 400 + 450 + 150 = 1000.",
+        "Step 4: Determine the number of motorcycles to be replaced and the number of buses to be added. Motorcycles replaced = 20% of 75 = 0.2 * 75 = 15, Buses added = 15.",
+        "Step 5: Calculate the change in the number of wheels due to the replacement. Wheels removed = 15 motorcycles * 2 wheels = 30, Wheels added = 15 buses * 6 wheels = 90.",
+        "Step 6: Calculate the final total number of wheels in the city after the replacement. Change in wheels = Wheels added - Wheels removed = 90 - 30 = 60, Final total wheels = Initial total wheels + Change in wheels = 1000 + 60 = 1060."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of cars, buses, and motorcycles in the city. Cars = 40% of 250 = 0.4 * 250 = 100, Buses = 30% of 250 = 0.3 * 250 = 75, Motorcycles = 30% of 250 = 0.3 * 250 = 75.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) number of wheels for each type of vehicle. Car wheels = 100 cars * 4 wheels = 400, Bus wheels = 75 buses * 6 wheels = 450, Motorcycle wheels = 75 motorcycles * 2 wheels = 150.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the initial ମୋଟ (total) number of wheels in the city. ମୋଟ (total) wheels = Car wheels + Bus wheels + Motorcycle wheels = 400 + 450 + 150 = 1000.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the number of motorcycles to be replaced and the number of buses to be added. Motorcycles replaced = 20% of 75 = 0.2 * 75 = 15, Buses added = 15.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the change in the number of wheels due to the replacement. Wheels removed = 15 motorcycles * 2 wheels = 30, Wheels added = 15 buses * 6 wheels = 90.",
+        "ପଦକ୍ଷେପ (step) 6: Calculate the final ମୋଟ (total) number of wheels in the city after the replacement. Change in wheels = Wheels added - Wheels removed = 90 - 30 = 60, Final ମୋଟ (total) wheels = Initial ମୋଟ (total) wheels + Change in wheels = 1000 + 60 = 1060."
+    ],
+    "final_answer": "1060"
+}

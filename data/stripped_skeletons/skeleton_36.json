@@ -1,0 +1,20 @@
+{
+    "id": "36",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A can hold 1200 gallons of water, Tower B can hold 800 gallons, and Tower C can hold 1500 gallons. The town uses water at a rate of 200 gallons per day. On a given day, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full. If it rains for 2 days and each tower can collect rainwater at a rate of 10% of its capacity per day, how many gallons of water will the town have in total after the rain, assuming no water is used during the 2 rainy days?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A can hold 1200 gallons of water, Tower B can hold 800 gallons, and Tower C can hold 1500 gallons. The town uses water at a rate of 200 gallons per day. On a given day, Tower A is 3/4 full, Tower B is 1/2 full, and Tower C is 2/3 full. ଯଦି (if) it rains for 2 days and each tower can collect rainwater at a rate of 10% of its capacity per day, how many gallons of water will the town have in ମୋଟ (total) after the rain, assuming no water is used during the 2 rainy days?",
+    "original_steps": [
+        "Step 1: Calculate the initial amount of water in each tower by multiplying their capacities by their respective fill rates.",
+        "Step 2: Determine the total initial water available by summing the amounts from each tower.",
+        "Step 3: Calculate the amount of rainwater each tower can collect over 2 days, based on 10% of their capacity per day.",
+        "Step 4: Add the collected rainwater to the initial amount of water in each tower to find the total amount of water after the rain.",
+        "Step 5: Sum the totals from all towers to find the overall amount of water the town will have after the rain."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial amount of water in each tower by multiplying their capacities by their respective fill rates.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the ମୋଟ (total) initial water available by summing the amounts from each tower.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the amount of rainwater each tower can collect over 2 days, based on 10% of their capacity per day.",
+        "ପଦକ୍ଷେପ (step) 4: ଯୋଗ (add) the collected rainwater to the initial amount of water in each tower to find the ମୋଟ (total) amount of water after the rain.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the totals from all towers to find the overall amount of water the town will have after the rain."
+    ],
+    "final_answer": "3410"
+}

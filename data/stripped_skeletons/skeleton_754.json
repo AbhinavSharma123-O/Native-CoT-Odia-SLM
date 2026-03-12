@@ -1,0 +1,20 @@
+{
+    "id": "754",
+    "original_problem": "In a small town, there are three types of shops: bookstores, coffee shops, and restaurants. Each shop has a unique number of employees. The total number of employees in all shops is 90. The number of employees in bookstores is 5 more than the number of employees in coffee shops. The number of employees in restaurants is 10 more than the number of employees in bookstores. If there are 5 bookstores and the total number of employees in coffee shops is 15, how many restaurants are there in the town?",
+    "deconstructed_problem": "In a small town, there are three types of shops: bookstores, coffee shops, and restaurants. Each shop has a unique number of employees. The ମୋଟ (total) number of employees in all shops is 90. The number of employees in bookstores is 5 more than the number of employees in coffee shops. The number of employees in restaurants is 10 more than the number of employees in bookstores. ଯଦି (if) there are 5 bookstores and the ମୋଟ (total) number of employees in coffee shops is 15, how many restaurants are there in the town?",
+    "original_steps": [
+        "Step 1: Determine the number of employees in each bookstore by using the information that the total number of employees in coffee shops is 15 and there are 5 bookstores. Since the number of employees in bookstores is 5 more than in coffee shops, we can calculate the number of employees in each bookstore.",
+        "Step 2: Calculate the total number of employees in bookstores by multiplying the number of employees in one bookstore by the total number of bookstores.",
+        "Step 3: Find the number of employees in restaurants, knowing that it is 10 more than the number of employees in bookstores.",
+        "Step 4: Calculate the total number of employees in restaurants by subtracting the total number of employees in bookstores and coffee shops from the total number of employees in the town.",
+        "Step 5: Determine the number of restaurants by dividing the total number of employees in restaurants by the number of employees in one restaurant."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of employees in each bookstore by using the information that the ମୋଟ (total) number of employees in coffee shops is 15 and there are 5 bookstores. Since the number of employees in bookstores is 5 more than in coffee shops, we can calculate the number of employees in each bookstore.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) number of employees in bookstores by multiplying the number of employees in one bookstore by the ମୋଟ (total) number of bookstores.",
+        "ପଦକ୍ଷେପ (step) 3: Find the number of employees in restaurants, knowing that it is 10 more than the number of employees in bookstores.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) number of employees in restaurants by subtracting the ମୋଟ (total) number of employees in bookstores and coffee shops from the ମୋଟ (total) number of employees in the town.",
+        "ପଦକ୍ଷେପ (step) 5: Determine the number of restaurants by dividing the ମୋଟ (total) number of employees in restaurants by the number of employees in one restaurant."
+    ],
+    "final_answer": "5"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "603",
+    "original_problem": "In a mystical forest, there are five houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the green house. Clue 6: The person who owns the green house lives in the house next to the person who drinks water.",
+    "deconstructed_problem": "In a mystical forest, there are five houses, each painted a different color: blue, green, red, white, and yellow. Each house is occupied by a person of a different nationality: American, British, Canadian, Indian, and Japanese. Each person has a different favorite drink: coffee, tea, milk, soda, and water. Using the following clues, determine the color of each house, the nationality of its occupant, and their favorite drink. Clue 1: The Canadian lives in the first house. Clue 2: The person who drinks milk lives next to the person who owns the yellow house. Clue 3: The person who owns the red house does not live next to the person who drinks coffee. Clue 4: The American lives in the house next to the person who drinks soda. Clue 5: The person who drinks tea lives in the green house. Clue 6: The person who owns the green house lives in the house next to the person who drinks water.",
+    "original_steps": [
+        "Step 1: Determine the color of the house of the Canadian based on Clue 1 and the given colors.",
+        "Step 2: Use Clue 2 to establish the relationship between the person who drinks milk and the owner of the yellow house.",
+        "Step 3: Apply Clue 3 to find the possible positions of the red house in relation to the person who drinks coffee.",
+        "Step 4: Utilize Clue 4 to position the American and the person who drinks soda.",
+        "Step 5: Employ Clue 5 to identify the color of the house of the person who drinks tea and use Clue 6 to relate it to the person who drinks water."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the color of the house of the Canadian based on Clue 1 and the given colors.",
+        "ପଦକ୍ଷେପ (step) 2: Use Clue 2 to establish the relationship between the person who drinks milk and the owner of the yellow house.",
+        "ପଦକ୍ଷେପ (step) 3: Apply Clue 3 to find the possible positions of the red house in relation to the person who drinks coffee.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize Clue 4 to position the American and the person who drinks soda.",
+        "ପଦକ୍ଷେପ (step) 5: Employ Clue 5 to identify the color of the house of the person who drinks tea and use Clue 6 to relate it to the person who drinks water."
+    ],
+    "final_answer": {
+        "house1": {
+            "color": "yellow",
+            "nationality": "Canadian",
+            "drink": "milk"
+        },
+        "house2": {
+            "color": "blue",
+            "nationality": "American",
+            "drink": "coffee"
+        },
+        "house3": {
+            "color": "red",
+            "nationality": "British",
+            "drink": "soda"
+        },
+        "house4": {
+            "color": "green",
+            "nationality": "Indian",
+            "drink": "tea"
+        },
+        "house5": {
+            "color": "white",
+            "nationality": "Japanese",
+            "drink": "water"
+        }
+    }
+}

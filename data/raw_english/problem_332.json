@@ -1,0 +1,12 @@
+{
+    "id": "332",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird is flying overhead, observing the snail's progress. The bird notes that on the first day the snail climbs, it is 5 feet away from the well. Each subsequent day, the bird flies 2 feet closer to the well. How many days will it take for the bird to be directly above the snail when the snail reaches the top of the well?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net progress the snail makes each day, which is 3 feet up during the day and then 2 feet back at night, resulting in a net gain of 1 foot per day.",
+        "Step 2: Determine the total distance the snail needs to climb to reach the top of the well, which is 20 feet, and subtract the final climb that doesn't result in slipping back, meaning the snail effectively needs to cover 17 feet of net progress (since on the last day it climbs 3 feet and doesn't slip back).",
+        "Step 3: Given the snail's net progress of 1 foot per day, calculate how many days it takes for the snail to make 17 feet of net progress, which is 17 days since 17 feet / 1 foot per day = 17 days.",
+        "Step 4: Consider the bird's movement towards the well. The bird starts 5 feet away and moves 2 feet closer each day. Calculate how many days it takes for the bird to be directly above the snail (0 feet away), which is 5 feet / 2 feet per day = 2.5 days. However, since the bird can't be a fraction of a day above the snail and we're interested in when the snail reaches the top, we should focus on when the snail finishes its climb.",
+        "Step 5: Because the bird's position is not directly relevant to the number of days the snail takes to climb out of the well but rather when the bird would be above the snail at the top, we need to find out on which day the snail reaches the top. Given the snail needs 18 days to climb 20 feet (since on the 18th day, it climbs the final 3 feet and reaches the top), and considering the bird's approach, calculate if the bird would be above the snail on this day, taking into account the bird's daily approach."
+    ],
+    "final_answer": "18"
+}

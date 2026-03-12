@@ -1,0 +1,12 @@
+{
+    "id": "881",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that the rate at which water is filled into the towers is directly proportional to the square root of the difference between the tower's capacity and the amount of water it currently holds. On a particular day, Tower A starts with 1000 gallons, Tower B starts with 2000 gallons, and Tower C starts with 3000 gallons. If the rate of filling water into Tower A is 50 gallons per minute, determine the time it takes to fill all three towers completely, assuming the rate of filling for Tower B is 1.5 times that of Tower A and for Tower C is 2 times that of Tower A, and the rates are adjusted based on the difference in their capacities and current water levels.",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial difference in capacity and current water level for each tower to understand the rate at which they are being filled.",
+        "Step 2: Determine the initial filling rates for each tower, considering the proportionality to the square root of the difference between capacity and current water level.",
+        "Step 3: Establish a relationship between the filling rates of the towers based on the given ratios (1.5 times for Tower B and 2 times for Tower C compared to Tower A).",
+        "Step 4: Use the initial conditions and the established relationships to set up differential equations that model the filling process over time for each tower.",
+        "Step 5: Solve the differential equations to find the time it takes for each tower to fill completely, taking into account the changing rates as the water levels increase."
+    ],
+    "final_answer": "120 minutes"
+}

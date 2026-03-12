@@ -1,0 +1,20 @@
+{
+    "id": "151",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of loaves of bread per day (B), each cafe sells a fixed number of cups of coffee per day (C), and each restaurant sells a fixed number of meals per day (M). The village has a total of 15 shops, with 5 bakeries, 4 cafes, and 6 restaurants. The total number of loaves of bread sold per day is 250, the total number of cups of coffee sold per day is 480, and the total number of meals sold per day is 720. If each bakery sells 5 more loaves of bread per day than each cafe sells cups of coffee, and each restaurant sells 3 times as many meals per day as each bakery sells loaves of bread, determine the number of loaves of bread sold by each bakery per day.",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each bakery sells a fixed number of loaves of bread per day (B), each cafe sells a fixed number of cups of coffee per day (C), and each restaurant sells a fixed number of meals per day (M). The village has a ମୋଟ (total) of 15 shops, with 5 bakeries, 4 cafes, and 6 restaurants. The ମୋଟ (total) number of loaves of bread sold per day is 250, the ମୋଟ (total) number of cups of coffee sold per day is 480, and the ମୋଟ (total) number of meals sold per day is 720. ଯଦି (if) each bakery sells 5 more loaves of bread per day than each cafe sells cups of coffee, and each restaurant sells 3 times as many meals per day as each bakery sells loaves of bread, determine the number of loaves of bread sold by each bakery per day.",
+    "original_steps": [
+        "Step 1: Define the variables for the number of loaves of bread sold by each bakery (B), the number of cups of coffee sold by each cafe (C), and the number of meals sold by each restaurant (M).",
+        "Step 2: Set up equations based on the given information. The total number of shops is 15, so 5B + 4C + 6M = 250 + 480 + 720. Also, B = C + 5 and M = 3B.",
+        "Step 3: Substitute the expressions for B and M from Step 2 into the equation for the total number of items sold to get an equation in terms of C.",
+        "Step 4: Use the information that there are 5 bakeries, 4 cafes, and 6 restaurants, and the total sales of each item to create equations: 5B = 250, 4C = 480, and 6M = 720.",
+        "Step 5: Solve the system of equations to find the value of B, which represents the number of loaves of bread sold by each bakery per day."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of loaves of bread sold by each bakery (B), the number of cups of coffee sold by each cafe (C), and the number of meals sold by each restaurant (M).",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information. The ମୋଟ (total) number of shops is 15, so 5B + 4C + 6M = 250 + 480 + 720. Also, B = C + 5 and M = 3B.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for B and M from ପଦକ୍ଷେପ (step) 2 into the ସମୀକରଣ (equation) for the ମୋଟ (total) number of items sold to get an ସମୀକରଣ (equation) in terms of C.",
+        "ପଦକ୍ଷେପ (step) 4: Use the information that there are 5 bakeries, 4 cafes, and 6 restaurants, and the ମୋଟ (total) sales of each item to create equations: 5B = 250, 4C = 480, and 6M = 720.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the system of equations to find the value of B, which represents the number of loaves of bread sold by each bakery per day."
+    ],
+    "final_answer": "50"
+}

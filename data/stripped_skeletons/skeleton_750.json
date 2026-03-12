@@ -1,0 +1,20 @@
+{
+    "id": "750",
+    "original_problem": "In a small town, there are three factories: A, B, and C, producing goods X, Y, and Z, respectively. Factory A produces 200 units of X per day, while Factory B produces 300 units of Y per day. Factory C produces Z at a rate of 250 units per day. The town has three warehouses: I, II, and III, with capacities of 1000, 1200, and 1500 units, respectively. Goods X, Y, and Z are stored in warehouses I, II, and III, respectively. However, due to storage constraints, 10% of X is stored in warehouse II, and 20% of Y is stored in warehouse III. Additionally, the town has a rule that the total number of units stored in warehouse I and II must be at least 30% more than the total number of units produced by Factory C. If the town decides to increase production of X, Y, and Z by 15%, 20%, and 10%, respectively, how many units of X will be stored in warehouse II after the production increase, given that all other conditions remain the same?",
+    "deconstructed_problem": "In a small town, there are three factories: A, B, and C, producing goods X, Y, and Z, respectively. Factory A produces 200 units of X per day, while Factory B produces 300 units of Y per day. Factory C produces Z at a rate of 250 units per day. The town has three warehouses: I, II, and III, with capacities of 1000, 1200, and 1500 units, respectively. Goods X, Y, and Z are stored in warehouses I, II, and III, respectively. However, due to storage constraints, 10% of X is stored in warehouse II, and 20% of Y is stored in warehouse III. Additionally, the town has a rule that the ମୋଟ (total) number of units stored in warehouse I and II must be at least 30% more than the ମୋଟ (total) number of units produced by Factory C. ଯଦି (if) the town decides to increase production of X, Y, and Z by 15%, 20%, and 10%, respectively, how many units of X will be stored in warehouse II after the production increase, given that all other conditions remain the same?",
+    "original_steps": [
+        "Step 1: Calculate the initial total production of X, Y, and Z before the increase.",
+        "Step 2: Determine the initial amount of X, Y, and Z stored in each warehouse, considering the storage constraints.",
+        "Step 3: Calculate the new production rates of X, Y, and Z after the increase.",
+        "Step 4: Calculate the new total amount of X, Y, and Z produced and stored in the warehouses, considering the increased production rates and storage constraints.",
+        "Step 5: Apply the town's rule regarding the total number of units stored in warehouses I and II to ensure it meets the 30% more than Factory C's production requirement."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial ମୋଟ (total) production of X, Y, and Z before the increase.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the initial amount of X, Y, and Z stored in each warehouse, considering the storage constraints.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the new production rates of X, Y, and Z after the increase.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the new ମୋଟ (total) amount of X, Y, and Z produced and stored in the warehouses, considering the increased production rates and storage constraints.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the town's rule regarding the ମୋଟ (total) number of units stored in warehouses I and II to ensure it meets the 30% more than Factory C's production requirement."
+    ],
+    "final_answer": "69"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "640",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. The system has a leak that loses 5% of the total water it holds every day. If on a certain day, 1200 gallons of water are added to Tower A, and then the water from Tower A is used to fill Tower B, and subsequently, the water from Tower B is used to fill Tower C, and after all this, Tower C is 3/4 full, find out how much water was in the system before any water was added or transferred, considering the leak's effect is applied at the end of each day.",
+    "reasoning_steps": [
+        "Step 1: Calculate the amount of water that was transferred from Tower A to Tower B and then from Tower B to Tower C, considering Tower A's initial addition of 1200 gallons.",
+        "Step 2: Determine the amount of water in Tower C after the transfers, knowing it ends up 3/4 full, which means it has 3000 gallons (since 4000 * 3/4 = 3000).",
+        "Step 3: Backtrack to find out how much water was in Tower B before filling Tower C, considering Tower B's capacity and the amount needed to fill Tower C to 3000 gallons.",
+        "Step 4: Calculate the initial water in Tower A before any transfers, taking into account the 1200 gallons added and the amount transferred to Tower B.",
+        "Step 5: Apply the leak's 5% loss to the total system's water at the beginning of the day to find the initial amount of water before any additions or transfers, considering the leak affects the total water in the system."
+    ],
+    "final_answer": "3400"
+}

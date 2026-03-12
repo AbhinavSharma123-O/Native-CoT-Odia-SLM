@@ -1,0 +1,20 @@
+{
+    "id": "403",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town's water needs require that the total amount of water in the towers is at least 3000 liters at all times. If Tower A is currently 1/4 full with 200 liters, Tower B is 1/2 full with 300 liters, and Tower C is empty, and it takes 2 minutes to switch the filling process from one tower to another, how many minutes will it take to fill all three towers to their maximum capacity of 800 liters each, given that the filling process starts with Tower A, then switches to Tower B, and finally to Tower C, and that the water level in each tower must be checked every 10 minutes to ensure it does not overflow?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town's water needs require that the ମୋଟ (total) amount of water in the towers is at least 3000 liters at all times. ଯଦି (if) Tower A is currently 1/4 full with 200 liters, Tower B is 1/2 full with 300 liters, and Tower C is empty, and it takes 2 minutes to switch the filling process from one tower to another, how many minutes will it take to fill all three towers to their maximum capacity of 800 liters each, given that the filling process starts with Tower A, ତାହେଲେ (then) switches to Tower B, and finally to Tower C, and that the water level in each tower must be checked every 10 minutes to ensure it does not overflow?",
+    "original_steps": [
+        "Step 1: Calculate the current total amount of water in all towers and determine how much more water is needed to reach 3000 liters.",
+        "Step 2: Determine the maximum capacity of each tower and how much water needs to be added to each to fill them completely.",
+        "Step 3: Calculate the time needed to fill Tower A from its current state to its maximum capacity, taking into account the 2-minute delay to switch to Tower B.",
+        "Step 4: After filling Tower A, calculate the time needed to fill Tower B from its current state to its maximum capacity, considering the same switching delay to Tower C.",
+        "Step 5: Finally, calculate the time needed to fill Tower C, considering it starts empty and needs to be filled to its maximum capacity."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the current ମୋଟ (total) amount of water in all towers and determine how much more water is needed to reach 3000 liters.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the maximum capacity of each tower and how much water needs to be added to each to fill them completely.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the time needed to fill Tower A from its current state to its maximum capacity, taking into account the 2-minute delay to switch to Tower B.",
+        "ପଦକ୍ଷେପ (step) 4: After filling Tower A, calculate the time needed to fill Tower B from its current state to its maximum capacity, considering the same switching delay to Tower C.",
+        "ପଦକ୍ଷେପ (step) 5: Finally, calculate the time needed to fill Tower C, considering it starts empty and needs to be filled to its maximum capacity."
+    ],
+    "final_answer": "It will take approximately 346 minutes to fill all three towers to their maximum capacity, considering the filling rates, switching delays, and the need to check water levels every 10 minutes."
+}

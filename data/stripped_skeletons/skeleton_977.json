@@ -1,0 +1,20 @@
+{
+    "id": "977",
+    "original_problem": "In a small village, there are three types of shops: A, B, and C. Each shop has a different number of employees: A has 15, B has 20, and C has 25. The village council decides to redistribute the employees among the shops based on the following rules: Shop A gets 2/5 of the total number of employees from shops B and C, shop B gets 1/3 of the total number of employees from shops A and C, and shop C gets the remaining employees. After the redistribution, shop A has 5 more employees than shop B, and shop B has 10 fewer employees than shop C. What is the total number of employees in the village after the redistribution?",
+    "deconstructed_problem": "In a small village, there are three types of shops: A, B, and C. Each shop has a different number of employees: A has 15, B has 20, and C has 25. The village council decides to redistribute the employees among the shops based on the following rules: Shop A gets 2/5 of the ମୋଟ (total) number of employees from shops B and C, shop B gets 1/3 of the ମୋଟ (total) number of employees from shops A and C, and shop C gets the remaining employees. After the redistribution, shop A has 5 more employees than shop B, and shop B has 10 fewer employees than shop C. What is the ମୋଟ (total) number of employees in the village after the redistribution?",
+    "original_steps": [
+        "Step 1: Calculate the initial total number of employees in all shops by adding the employees in shops A, B, and C.",
+        "Step 2: Determine the number of employees that shop A gets from shops B and C using the rule that it gets 2/5 of their total employees.",
+        "Step 3: Calculate the number of employees that shop B gets from shops A and C using the rule that it gets 1/3 of their total employees.",
+        "Step 4: Apply the given conditions that after redistribution, shop A has 5 more employees than shop B, and shop B has 10 fewer employees than shop C to set up equations.",
+        "Step 5: Solve the equations to find the final number of employees in each shop and then calculate the total number of employees."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the initial ମୋଟ (total) number of employees in all shops by adding the employees in shops A, B, and C.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the number of employees that shop A gets from shops B and C using the rule that it gets 2/5 of their ମୋଟ (total) employees.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the number of employees that shop B gets from shops A and C using the rule that it gets 1/3 of their ମୋଟ (total) employees.",
+        "ପଦକ୍ଷେପ (step) 4: Apply the given conditions that after redistribution, shop A has 5 more employees than shop B, and shop B has 10 fewer employees than shop C to set up equations.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the equations to find the final number of employees in each shop and ତାହେଲେ (then) calculate the ମୋଟ (total) number of employees."
+    ],
+    "final_answer": "60"
+}

@@ -1,0 +1,16 @@
+{
+    "id": "385",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each shop type has a different number of employees. Shop A has 5 more employees than shop B, and shop C has 10 fewer employees than shop A. If the total number of employees in all three shops is 120, and shop B has 5 times as many employees as the number of letters in its name, determine the number of employees in each shop type.",
+    "reasoning_steps": [
+        "Step 1: Determine the number of employees in shop B based on the number of letters in its name.",
+        "Step 2: Calculate the number of employees in shop A, knowing it has 5 more employees than shop B.",
+        "Step 3: Find the number of employees in shop C, given it has 10 fewer employees than shop A.",
+        "Step 4: Formulate equations based on the given information to represent the total number of employees across all shops.",
+        "Step 5: Solve the equations to find the number of employees in each shop type."
+    ],
+    "final_answer": {
+        "Shop A": 45,
+        "Shop B": 40,
+        "Shop C": 35
+    }
+}

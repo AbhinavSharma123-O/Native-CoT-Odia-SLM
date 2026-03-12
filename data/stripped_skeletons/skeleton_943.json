@@ -1,0 +1,20 @@
+{
+    "id": "943",
+    "original_problem": "In a small town, there are three types of shops: A, B, and C. Shop A has 15% more items than shop B, and shop C has 20% fewer items than shop A. If shop B has 1200 items and the total number of items in all shops is 4800, how many items does shop C have? Additionally, if shop A sells 10% of its items, shop B sells 15% of its items, and shop C sells 20% of its items, what percentage of the total number of items is sold?",
+    "deconstructed_problem": "In a small town, there are three types of shops: A, B, and C. Shop A has 15% more items than shop B, and shop C has 20% fewer items than shop A. ଯଦି (if) shop B has 1200 items and the ମୋଟ (total) number of items in all shops is 4800, how many items does shop C have? Additionally, ଯଦି (if) shop A sells 10% of its items, shop B sells 15% of its items, and shop C sells 20% of its items, what percentage of the ମୋଟ (total) number of items is sold?",
+    "original_steps": [
+        "Step 1: Calculate the number of items in shop A, knowing it has 15% more items than shop B, which has 1200 items.",
+        "Step 2: Determine the number of items in shop C, which has 20% fewer items than shop A.",
+        "Step 3: Calculate the total number of items in all shops to verify it equals 4800, using the items in shops A, B, and C.",
+        "Step 4: Calculate the number of items sold by each shop after applying the respective sale percentages.",
+        "Step 5: Calculate the total number of items sold and determine what percentage this is of the total number of items initially in all shops."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of items in shop A, knowing it has 15% more items than shop B, which has 1200 items.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the number of items in shop C, which has 20% fewer items than shop A.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the ମୋଟ (total) number of items in all shops to verify it ସମାନ (equals) 4800, using the items in shops A, B, and C.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the number of items sold by each shop after applying the respective sale percentages.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the ମୋଟ (total) number of items sold and determine what percentage this is of the ମୋଟ (total) number of items initially in all shops."
+    ],
+    "final_answer": "25%"
+}

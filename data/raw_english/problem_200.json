@@ -1,0 +1,12 @@
+{
+    "id": "200",
+    "problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with 30% being residential, 40% commercial, and the rest industrial. If the average residential building has 8 apartments, the average commercial building has 12 offices, and the average industrial building has 20 workers, what is the total number of people (residents, office workers, and industrial workers) in the town, given that each residential apartment has an average of 2.5 residents, each commercial office has an average of 5 workers, and each industrial worker has 1.2 family members living with them?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of residential, commercial, and industrial buildings by applying the given percentages to the total number of buildings.",
+        "Step 2: Determine the number of apartments, offices, and industrial workers by multiplying the number of each type of building by the respective averages (apartments per residential building, offices per commercial building, workers per industrial building).",
+        "Step 3: Calculate the total number of residents by multiplying the number of apartments by the average number of residents per apartment.",
+        "Step 4: Calculate the total number of commercial workers by multiplying the number of offices by the average number of workers per office.",
+        "Step 5: Calculate the total number of people related to industrial workers, including the workers themselves and their family members, by multiplying the number of industrial workers by the average number of family members per worker and then adding the number of workers."
+    ],
+    "final_answer": "2514"
+}

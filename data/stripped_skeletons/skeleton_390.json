@@ -1,0 +1,20 @@
+{
+    "id": "390",
+    "original_problem": "In a mystical forest, there are five temples, each containing a chest with a specific amount of gold coins. The temples are named after the elements: Earth, Water, Fire, Air, and Ether. The amount of gold in each chest is directly proportional to the number of pillars supporting the temple. The Earth temple has 8 pillars and 30% more gold than the Water temple. The Fire temple has 12 pillars, which is 50% more than the Air temple. The Ether temple has 20 pillars, which is 25% more than the Fire temple. If the Water temple has 15% fewer pillars than the Air temple, and the total amount of gold in all temples is 10,000 coins, determine the number of pillars in the Air temple.",
+    "deconstructed_problem": "In a mystical forest, there are five temples, each containing a chest with a specific amount of gold coins. The temples are named after the elements: Earth, Water, Fire, Air, and Ether. The amount of gold in each chest is directly proportional to the number of pillars supporting the temple. The Earth temple has 8 pillars and 30% more gold than the Water temple. The Fire temple has 12 pillars, which is 50% more than the Air temple. The Ether temple has 20 pillars, which is 25% more than the Fire temple. ଯଦି (if) the Water temple has 15% fewer pillars than the Air temple, and the ମୋଟ (total) amount of gold in all temples is 10,000 coins, determine the number of pillars in the Air temple.",
+    "original_steps": [
+        "Step 1: Determine the relationship between the number of pillars in the Water and Air temples, knowing the Water temple has 15% fewer pillars than the Air temple.",
+        "Step 2: Establish the number of pillars in the Fire temple, which is 50% more than the Air temple, and calculate the number of pillars in the Ether temple, which is 25% more than the Fire temple.",
+        "Step 3: Use the information about the Earth temple having 8 pillars and 30% more gold than the Water temple to establish a proportional relationship between the temples' pillars and gold.",
+        "Step 4: Express the amount of gold in each temple in terms of the number of pillars and set up an equation based on the total amount of gold being 10,000 coins.",
+        "Step 5: Solve the equation for the number of pillars in the Air temple, using the relationships established in the previous steps."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the relationship between the number of pillars in the Water and Air temples, knowing the Water temple has 15% fewer pillars than the Air temple.",
+        "ପଦକ୍ଷେପ (step) 2: Establish the number of pillars in the Fire temple, which is 50% more than the Air temple, and calculate the number of pillars in the Ether temple, which is 25% more than the Fire temple.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information about the Earth temple having 8 pillars and 30% more gold than the Water temple to establish a proportional relationship between the temples' pillars and gold.",
+        "ପଦକ୍ଷେପ (step) 4: Express the amount of gold in each temple in terms of the number of pillars and set up an ସମୀକରଣ (equation) based on the ମୋଟ (total) amount of gold being 10,000 coins.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) for the number of pillars in the Air temple, using the relationships established in the previous steps."
+    ],
+    "final_answer": "10"
+}

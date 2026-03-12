@@ -1,0 +1,16 @@
+{
+    "id": "358",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. Type A shops have 5 more employees than type B shops. Type C shops have 3 times as many employees as type B shops. If the total number of employees in all shops is 420, and there are 5 type A shops, 3 type B shops, and 2 type C shops, how many employees are in each type of shop?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in type B shops as x. Then, the number of employees in type A shops is x + 5, and the number of employees in type C shops is 3x.",
+        "Step 2: Calculate the total number of employees in all type A shops. Since there are 5 type A shops, the total number of employees in type A shops is 5 * (x + 5).",
+        "Step 3: Calculate the total number of employees in all type B shops. Since there are 3 type B shops, the total number of employees in type B shops is 3 * x.",
+        "Step 4: Calculate the total number of employees in all type C shops. Since there are 2 type C shops, the total number of employees in type C shops is 2 * 3x = 6x.",
+        "Step 5: Set up the equation to represent the total number of employees in all shops. The equation is 5 * (x + 5) + 3 * x + 6x = 420."
+    ],
+    "final_answer": {
+        "Type A": "x + 5 = 20",
+        "Type B": "x = 15",
+        "Type C": "3x = 45"
+    }
+}

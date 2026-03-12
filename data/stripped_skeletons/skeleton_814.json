@@ -1,0 +1,20 @@
+{
+    "id": "814",
+    "original_problem": "In a small town, there are 5 factories that produce goods for export. Each factory produces a different product: textiles, electronics, machinery, food, and chemicals. The production of these goods requires 3 resources: water, labor, and raw materials. The town has a limited supply of these resources: 2400 units of water, 4800 hours of labor, and 1800 tons of raw materials per week. The production of 1 unit of textiles requires 2 units of water, 4 hours of labor, and 1 ton of raw materials. The production of 1 unit of electronics requires 3 units of water, 6 hours of labor, and 2 tons of raw materials. The production of 1 unit of machinery requires 4 units of water, 8 hours of labor, and 3 tons of raw materials. The production of 1 unit of food requires 1 unit of water, 2 hours of labor, and 1 ton of raw materials. The production of 1 unit of chemicals requires 5 units of water, 10 hours of labor, and 4 tons of raw materials. If the town wants to produce the maximum number of units of goods, and it must produce at least 100 units of textiles and at least 50 units of electronics, how many units of machinery, food, and chemicals can be produced?",
+    "deconstructed_problem": "In a small town, there are 5 factories that produce goods for export. Each factory produces a different product: textiles, electronics, machinery, food, and chemicals. The production of these goods requires 3 resources: water, labor, and raw materials. The town has a limited supply of these resources: 2400 units of water, 4800 hours of labor, and 1800 tons of raw materials per week. The production of 1 unit of textiles requires 2 units of water, 4 hours of labor, and 1 ton of raw materials. The production of 1 unit of electronics requires 3 units of water, 6 hours of labor, and 2 tons of raw materials. The production of 1 unit of machinery requires 4 units of water, 8 hours of labor, and 3 tons of raw materials. The production of 1 unit of food requires 1 unit of water, 2 hours of labor, and 1 ton of raw materials. The production of 1 unit of chemicals requires 5 units of water, 10 hours of labor, and 4 tons of raw materials. ଯଦି (if) the town wants to produce the maximum number of units of goods, and it must produce at least 100 units of textiles and at least 50 units of electronics, how many units of machinery, food, and chemicals can be produced?",
+    "original_steps": [
+        "Step 1: Determine the maximum possible production of textiles and electronics given the constraints.",
+        "Step 2: Calculate the remaining resources after producing the minimum required units of textiles and electronics.",
+        "Step 3: Formulate equations to represent the production of machinery, food, and chemicals based on the remaining resources.",
+        "Step 4: Solve the system of equations to find the maximum possible production of machinery, food, and chemicals.",
+        "Step 5: Consider the integer constraint, as the production of goods must be a whole number."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the maximum possible production of textiles and electronics given the constraints.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the remaining resources after producing the minimum required units of textiles and electronics.",
+        "ପଦକ୍ଷେପ (step) 3: Formulate equations to represent the production of machinery, food, and chemicals based on the remaining resources.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the system of equations to find the maximum possible production of machinery, food, and chemicals.",
+        "ପଦକ୍ଷେପ (step) 5: Consider the integer constraint, as the production of goods must be a whole number."
+    ],
+    "final_answer": "The town can produce 0 units of machinery, 300 units of food, and 0 units of chemicals."
+}

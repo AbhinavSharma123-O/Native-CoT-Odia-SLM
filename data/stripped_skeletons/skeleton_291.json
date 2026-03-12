@@ -1,0 +1,20 @@
+{
+    "id": "291",
+    "original_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the villagers tells you that one of the bulbs is always on, one is always off, and the other is controlled by a switch that is initially off. The villagers also tell you that the always-on bulb is in a position that is the sum of the positions of the other two bulbs minus 2, with positions being numbered 1 through 3 from left to right. Given this, which switch controls the always-on bulb?",
+    "deconstructed_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb? Additionally, one of the villagers tells you that one of the bulbs is always on, one is always off, and the other is controlled by a switch that is initially off. The villagers also tell you that the always-on bulb is in a position that is the ସମଷ୍ଟି (sum) of the positions of the other two bulbs minus 2, with positions being numbered 1 through 3 from left to right. Given this, which switch controls the always-on bulb?",
+    "original_steps": [
+        "Step 1: Understand the constraints of the problem, including the fact that you can only enter the room once to observe the bulbs.",
+        "Step 2: Realize that you need to use a process of elimination and logic to solve the problem, given the information about the always-on, always-off, and controlled bulbs.",
+        "Step 3: Determine the possible positions of the always-on bulb based on the given equation, considering the positions of the other two bulbs.",
+        "Step 4: Use the process of turning switches on and off before entering the room to gather as much information as possible about the state of the bulbs and their corresponding switches.",
+        "Step 5: Analyze the possible combinations of switch states and bulb positions to deduce which switch controls the always-on bulb."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Understand the constraints of the problem, including the fact that you can only enter the room once to observe the bulbs.",
+        "ପଦକ୍ଷେପ (step) 2: Realize that you need to use a process of elimination and logic to solve the problem, given the information about the always-on, always-off, and controlled bulbs.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the possible positions of the always-on bulb based on the given ସମୀକରଣ (equation), considering the positions of the other two bulbs.",
+        "ପଦକ୍ଷେପ (step) 4: Use the process of turning switches on and off before entering the room to gather as much information as possible about the state of the bulbs and their corresponding switches.",
+        "ପଦକ୍ଷେପ (step) 5: Analyze the possible combinations of switch states and bulb positions to deduce which switch controls the always-on bulb."
+    ],
+    "final_answer": "The switch that was initially turned on for 5 minutes, then turned off, controls the always-on bulb, which can be determined through logical deduction based on the given constraints and the process of elimination."
+}

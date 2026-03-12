@@ -1,0 +1,12 @@
+{
+    "id": "305",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system can fill the towers at a rate of 200 gallons per hour for Tower A, 300 gallons per hour for Tower B, and 400 gallons per hour for Tower C. However, due to some leakages, Tower A loses 50 gallons per hour, Tower B loses 75 gallons per hour, and Tower C loses 100 gallons per hour. If all towers are currently empty and the town needs 6000 gallons of water to meet its daily demand, how many hours will it take to fill the towers to meet this demand, considering that the water supply system can only fill one tower at a time and must fill them in the sequence of A, B, and then C?",
+    "reasoning_steps": [
+        "Step 1: Calculate the net fill rate for each tower by subtracting the leakage rate from the fill rate. For Tower A, the net fill rate is 200 - 50 = 150 gallons per hour. For Tower B, it is 300 - 75 = 225 gallons per hour. For Tower C, it is 400 - 100 = 300 gallons per hour.",
+        "Step 2: Determine the time it takes to fill each tower individually with their net fill rates. Tower A takes 2000 / 150 = 13.33 hours to fill. Tower B takes 3000 / 225 = 13.33 hours to fill. Tower C takes 4000 / 300 = 13.33 hours to fill.",
+        "Step 3: Since the towers must be filled in sequence and the total demand is 6000 gallons, calculate how much of this demand each tower can fulfill. Tower A can provide up to 2000 gallons, Tower B up to 3000 gallons, and Tower C the remainder, which is 6000 - 2000 - 3000 = 1000 gallons.",
+        "Step 4: Calculate the time it takes to fill the portion of each tower needed to meet the 6000-gallon demand. For Tower A, it's 2000 / 150 = 13.33 hours. For Tower B, it's 3000 / 225 = 13.33 hours. For Tower C, since only 1000 gallons are needed, it's 1000 / 300 = 3.33 hours.",
+        "Step 5: Add up the time it takes to fill each necessary portion of the towers in sequence to find the total time required. The total time is 13.33 hours for Tower A + 13.33 hours for Tower B + 3.33 hours for Tower C."
+    ],
+    "final_answer": "30"
+}

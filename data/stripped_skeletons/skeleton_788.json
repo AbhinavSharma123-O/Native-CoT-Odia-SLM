@@ -1,0 +1,20 @@
+{
+    "id": "788",
+    "original_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb?",
+    "deconstructed_problem": "In a small village, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch controls which light bulb?",
+    "original_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room and observe the light bulbs. Note the bulb that is on and the bulb that is off but warm.",
+        "Step 4: Identify the switch for the bulb that is on, which is switch 2.",
+        "Step 5: Identify the switch for the bulb that is off but warm, which is switch 1."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Turn switch 1 to the 'on' position for 5 minutes.",
+        "ପଦକ୍ଷେପ (step) 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "ପଦକ୍ଷେପ (step) 3: Immediately enter the room and observe the light bulbs. Note the bulb that is on and the bulb that is off but warm.",
+        "ପଦକ୍ଷେପ (step) 4: Identify the switch for the bulb that is on, which is switch 2.",
+        "ପଦକ୍ଷେପ (step) 5: Identify the switch for the bulb that is off but warm, which is switch 1."
+    ],
+    "final_answer": "Switch 3 controls the remaining light bulb."
+}

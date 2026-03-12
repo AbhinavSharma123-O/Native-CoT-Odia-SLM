@@ -1,0 +1,20 @@
+{
+    "id": "280",
+    "original_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town's water needs are as follows: 30% of the total water is used by the local hospital, 25% is used by the town's residents, and the remaining 45% is used for agriculture. If Tower A is filled for 120 minutes, Tower B for 90 minutes, and Tower C for 60 minutes, and then the water is distributed according to the town's needs, how many liters of water will the hospital receive?",
+    "deconstructed_problem": "In a small town, there are three water towers: A, B, and C. Tower A is filled at a rate of 0.5 liters per minute, Tower B is filled at a rate of 0.75 liters per minute, and Tower C is filled at a rate of 1 liter per minute. The town's water needs are as follows: 30% of the ମୋଟ (total) water is used by the local hospital, 25% is used by the town's residents, and the remaining 45% is used for agriculture. ଯଦି (if) Tower A is filled for 120 minutes, Tower B for 90 minutes, and Tower C for 60 minutes, and ତାହେଲେ (then) the water is distributed according to the town's needs, how many liters of water will the hospital receive?",
+    "original_steps": [
+        "Step 1: Calculate the total amount of water filled in each tower. For Tower A: 0.5 liters/minute * 120 minutes = 60 liters, for Tower B: 0.75 liters/minute * 90 minutes = 67.5 liters, and for Tower C: 1 liter/minute * 60 minutes = 60 liters.",
+        "Step 2: Calculate the total amount of water collected from all towers. Total water = 60 liters (Tower A) + 67.5 liters (Tower B) + 60 liters (Tower C) = 187.5 liters.",
+        "Step 3: Determine the percentage of water that the hospital will receive. The hospital receives 30% of the total water.",
+        "Step 4: Calculate the amount of water that the hospital will receive. Hospital's share = 30% of 187.5 liters = 0.30 * 187.5 = 56.25 liters.",
+        "Step 5: Confirm that the calculation is final and accurate based on the given information."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) amount of water filled in each tower. For Tower A: 0.5 liters/minute * 120 minutes = 60 liters, for Tower B: 0.75 liters/minute * 90 minutes = 67.5 liters, and for Tower C: 1 liter/minute * 60 minutes = 60 liters.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the ମୋଟ (total) amount of water collected from all towers. ମୋଟ (total) water = 60 liters (Tower A) + 67.5 liters (Tower B) + 60 liters (Tower C) = 187.5 liters.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the percentage of water that the hospital will receive. The hospital receives 30% of the ମୋଟ (total) water.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the amount of water that the hospital will receive. Hospital's share = 30% of 187.5 liters = 0.30 * 187.5 = 56.25 liters.",
+        "ପଦକ୍ଷେପ (step) 5: Confirm that the calculation is final and accurate based on the given information."
+    ],
+    "final_answer": "56.25"
+}

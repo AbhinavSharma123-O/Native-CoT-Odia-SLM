@@ -1,0 +1,26 @@
+{
+    "id": "106",
+    "original_problem": "In a small village, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The total number of employees in all shops is 120. The ratio of employees in type A shops to type B shops is 2:3, and the ratio of employees in type B shops to type C shops is 4:5. Additionally, the number of employees in type A shops is 10 less than the number of employees in type C shops. What is the number of employees in each type of shop?",
+    "deconstructed_problem": "In a small village, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 120. The ratio of employees in type A shops to type B shops is 2:3, and the ratio of employees in type B shops to type C shops is 4:5. Additionally, the number of employees in type A shops is 10 less than the number of employees in type C shops. What is the number of employees in each type of shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in type A shops as A, type B shops as B, and type C shops as C.",
+        "Step 2: Express the given ratios in terms of the variables. From the given ratios, we have A/B = 2/3 and B/C = 4/5. This can be rewritten as A = (2/3)B and B = (4/5)C.",
+        "Step 3: Use the information that the number of employees in type A shops is 10 less than the number of employees in type C shops to create an equation. This gives us A = C - 10.",
+        "Step 4: Substitute the expressions for A and B from Steps 2 and 3 into the equation for the total number of employees. We know that A + B + C = 120. Substituting A = (2/3)B and B = (4/5)C, and also using A = C - 10, we can solve for C.",
+        "Step 5: Solve the resulting equation for C. After substitution, we have (C - 10) + (4/5)C + C = 120. Simplifying gives us (C - 10) + (4/5)C + C = 120. This simplifies further to (10/5)C - 10 = 120, then to 2C - 10 = 120, and finally to 2C = 130, which means C = 65.",
+        "Step 6: Calculate the number of employees in type A and type B shops using the values of C and the ratios. With C = 65, we find B = (4/5)*65 = 52, and then A = (2/3)*52 = 34.6, which must be a whole number, indicating a calculation error in the step; correctly, using A = C - 10, we get A = 65 - 10 = 55, which does not align with the expected ratio, indicating a mistake in the calculation of A using the ratio. Correctly, we should find A using A = (2/3)B after finding B correctly, and B should be found after correctly calculating C and using the correct ratio to find B, and then A."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in type A shops as A, type B shops as B, and type C shops as C.",
+        "ପଦକ୍ଷେପ (step) 2: Express the given ratios in terms of the variables. From the given ratios, we have A/B = 2/3 and B/C = 4/5. This can be rewritten as A = (2/3)B and B = (4/5)C.",
+        "ପଦକ୍ଷେପ (step) 3: Use the information that the number of employees in type A shops is 10 less than the number of employees in type C shops to create an ସମୀକରଣ (equation). This gives us A = C - 10.",
+        "ପଦକ୍ଷେପ (step) 4: Substitute the expressions for A and B from Steps 2 and 3 into the ସମୀକରଣ (equation) for the ମୋଟ (total) number of employees. We know that A + B + C = 120. Substituting A = (2/3)B and B = (4/5)C, and also using A = C - 10, we can solve for C.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the resulting ସମୀକରଣ (equation) for C. After substitution, we have (C - 10) + (4/5)C + C = 120. Simplifying gives us (C - 10) + (4/5)C + C = 120. This simplifies further to (10/5)C - 10 = 120, ତାହେଲେ (then) to 2C - 10 = 120, and finally to 2C = 130, which means C = 65.",
+        "ପଦକ୍ଷେପ (step) 6: Calculate the number of employees in type A and type B shops using the values of C and the ratios. With C = 65, we find B = (4/5)*65 = 52, and ତାହେଲେ (then) A = (2/3)*52 = 34.6, which must be a whole number, indicating a calculation error in the ପଦକ୍ଷେପ (step); correctly, using A = C - 10, we get A = 65 - 10 = 55, which does not align with the expected ratio, indicating a mistake in the calculation of A using the ratio. Correctly, we should find A using A = (2/3)B after finding B correctly, and B should be found after correctly calculating C and using the correct ratio to find B, and ତାହେଲେ (then) A."
+    ],
+    "final_answer": {
+        "A": 30,
+        "B": 45,
+        "C": 45
+    }
+}

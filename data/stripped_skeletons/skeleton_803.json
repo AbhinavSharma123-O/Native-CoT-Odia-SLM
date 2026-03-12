@@ -1,0 +1,24 @@
+{
+    "id": "803",
+    "original_problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a total of 25 shops. The number of bakeries is 5 more than the number of grocery stores. The number of cafes is 3 less than the number of bakeries. If 1/5 of the grocery stores and 1/3 of the bakeries are open 24 hours, and each 24-hour grocery store has 8 employees, while each 24-hour bakery has 12 employees, what is the total number of employees working in the 24-hour shops?",
+    "deconstructed_problem": "In a small village, there are three types of shops: grocery stores, bakeries, and cafes. The village has a ମୋଟ (total) of 25 shops. The number of bakeries is 5 more than the number of grocery stores. The number of cafes is 3 less than the number of bakeries. ଯଦି (if) 1/5 of the grocery stores and 1/3 of the bakeries are open 24 hours, and each 24-hour grocery store has 8 employees, while each 24-hour bakery has 12 employees, what is the ମୋଟ (total) number of employees working in the 24-hour shops?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of grocery stores, bakeries, and cafes. Let's denote the number of grocery stores as G, the number of bakeries as B, and the number of cafes as C.",
+        "Step 2: Formulate equations based on the problem's conditions. We know that B = G + 5, C = B - 3, and G + B + C = 25.",
+        "Step 3: Substitute B and C in the total equation to get everything in terms of G. This means substituting B = G + 5 and C = (G + 5) - 3 into the equation G + B + C = 25, resulting in G + (G + 5) + ((G + 5) - 3) = 25.",
+        "Step 4: Solve the equation for G. Simplifying the equation gives us G + G + 5 + G + 5 - 3 = 25, which further simplifies to 3G + 7 = 25. Subtracting 7 from both sides gives 3G = 18, and dividing by 3 gives G = 6.",
+        "Step 5: Calculate the number of bakeries and cafes. With G = 6, we find B = 6 + 5 = 11, and then C = 11 - 3 = 8.",
+        "Step 6: Determine the number of 24-hour grocery stores and bakeries. 1/5 of the grocery stores are open 24 hours, so (1/5)*6 = 1.2, but since we can't have a fraction of a store, this implies 1 store (as we cannot have a fraction of a store open). 1/3 of the bakeries are open 24 hours, so (1/3)*11 = 3.67, implying 3 bakeries (again, no fractions of stores).",
+        "Step 7: Calculate the total number of employees in the 24-hour shops. Each 24-hour grocery store has 8 employees, and since there's effectively 1 such store, that's 8 employees. Each 24-hour bakery has 12 employees, and with 3 such bakeries, that's 3*12 = 36 employees. The total is then 8 + 36 = 44 employees."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of grocery stores, bakeries, and cafes. Let's denote the number of grocery stores as G, the number of bakeries as B, and the number of cafes as C.",
+        "ପଦକ୍ଷେପ (step) 2: Formulate equations based on the problem's conditions. We know that B = G + 5, C = B - 3, and G + B + C = 25.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute B and C in the ମୋଟ (total) ସମୀକରଣ (equation) to get everything in terms of G. This means substituting B = G + 5 and C = (G + 5) - 3 into the ସମୀକରଣ (equation) G + B + C = 25, resulting in G + (G + 5) + ((G + 5) - 3) = 25.",
+        "ପଦକ୍ଷେପ (step) 4: Solve the ସମୀକରଣ (equation) for G. Simplifying the ସମୀକରଣ (equation) gives us G + G + 5 + G + 5 - 3 = 25, which further simplifies to 3G + 7 = 25. Subtracting 7 from both sides gives 3G = 18, and dividing by 3 gives G = 6.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of bakeries and cafes. With G = 6, we find B = 6 + 5 = 11, and ତାହେଲେ (then) C = 11 - 3 = 8.",
+        "ପଦକ୍ଷେପ (step) 6: Determine the number of 24-hour grocery stores and bakeries. 1/5 of the grocery stores are open 24 hours, so (1/5)*6 = 1.2, but since we can't have a fraction of a store, this implies 1 store (as we cannot have a fraction of a store open). 1/3 of the bakeries are open 24 hours, so (1/3)*11 = 3.67, implying 3 bakeries (again, no fractions of stores).",
+        "ପଦକ୍ଷେପ (step) 7: Calculate the ମୋଟ (total) number of employees in the 24-hour shops. Each 24-hour grocery store has 8 employees, and since there's effectively 1 such store, that's 8 employees. Each 24-hour bakery has 12 employees, and with 3 such bakeries, that's 3*12 = 36 employees. The ମୋଟ (total) is ତାହେଲେ (then) 8 + 36 = 44 employees."
+    ],
+    "final_answer": "44"
+}

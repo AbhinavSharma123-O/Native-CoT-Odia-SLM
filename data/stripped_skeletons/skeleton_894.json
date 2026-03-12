@@ -1,0 +1,20 @@
+{
+    "id": "894",
+    "original_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each shop has a different number of employees. The total number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. If the village has 7 bakeries, 5 cafes, and 3 restaurants, what is the average number of employees per shop?",
+    "deconstructed_problem": "In a small village, there are three types of shops: bakeries, cafes, and restaurants. Each shop has a different number of employees. The ମୋଟ (total) number of employees in all the shops is 105. The number of employees in the bakeries is 5 more than the number of employees in the cafes, and the number of employees in the restaurants is 10 more than the number of employees in the bakeries. ଯଦି (if) the village has 7 bakeries, 5 cafes, and 3 restaurants, what is the average number of employees per shop?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in each bakery, C be the number of employees in each cafe, and R be the number of employees in each restaurant.",
+        "Step 2: Set up equations based on the information given. The total number of employees is 105, so 7B + 5C + 3R = 105. Also, B = C + 5 and R = B + 10.",
+        "Step 3: Substitute the expressions for B and R into the total equation to get everything in terms of C. This means 7(C + 5) + 5C + 3(C + 15) = 105.",
+        "Step 4: Simplify and solve the equation for C. Expanding gives 7C + 35 + 5C + 3C + 45 = 105. Combining like terms yields 15C + 80 = 105.",
+        "Step 5: Solve for C, then find B and R, and finally calculate the total number of employees and the average per shop. Solving for C gives 15C = 25, so C = 25 / 15 = 5/3. Then B = C + 5 and R = B + 10. Calculate the total number of employees in each type of shop and find the average."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in each bakery, C be the number of employees in each cafe, and R be the number of employees in each restaurant.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the information given. The ମୋଟ (total) number of employees is 105, so 7B + 5C + 3R = 105. Also, B = C + 5 and R = B + 10.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the expressions for B and R into the ମୋଟ (total) ସମୀକରଣ (equation) to get everything in terms of C. This means 7(C + 5) + 5C + 3(C + 15) = 105.",
+        "ପଦକ୍ଷେପ (step) 4: Simplify and solve the ସମୀକରଣ (equation) for C. Expanding gives 7C + 35 + 5C + 3C + 45 = 105. Combining like terms yields 15C + 80 = 105.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for C, ତାହେଲେ (then) find B and R, and finally calculate the ମୋଟ (total) number of employees and the average per shop. Solving for C gives 15C = 25, so C = 25 / 15 = 5/3. ତାହେଲେ (then) B = C + 5 and R = B + 10. Calculate the ମୋଟ (total) number of employees in each type of shop and find the average."
+    ],
+    "final_answer": "The average number of employees per shop is calculated by first finding the total number of employees in each type of shop, then dividing the total number of employees by the total number of shops."
+}

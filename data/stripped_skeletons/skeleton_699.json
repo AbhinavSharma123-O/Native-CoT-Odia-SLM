@@ -1,0 +1,20 @@
+{
+    "id": "699",
+    "original_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity and travels at a different speed. The Red bus has a capacity of 50 passengers and travels at an average speed of 30 km/h. The Blue bus has a capacity of 75 passengers and travels at an average speed of 40 km/h. The Green bus has a capacity of 30 passengers and travels at an average speed of 20 km/h. On a given day, 240 passengers need to be transported from one end of the town to the other, a distance of 60 km. However, due to road conditions, the Blue bus can only travel half the distance before it needs to return to the starting point for maintenance, and then it can travel the full distance afterwards. The Red and Green buses do not have this restriction. How many buses of each type are needed to transport all 240 passengers in the least amount of time, considering the restrictions and capacities of each bus type?",
+    "deconstructed_problem": "In a small town, there are three types of buses: Red, Blue, and Green. Each type of bus has a different capacity and travels at a different speed. The Red bus has a capacity of 50 passengers and travels at an average speed of 30 km/h. The Blue bus has a capacity of 75 passengers and travels at an average speed of 40 km/h. The Green bus has a capacity of 30 passengers and travels at an average speed of 20 km/h. On a given day, 240 passengers need to be transported from one end of the town to the other, a distance of 60 km. However, due to road conditions, the Blue bus can only travel half the distance before it needs to return to the starting point for maintenance, and ତାହେଲେ (then) it can travel the full distance afterwards. The Red and Green buses do not have this restriction. How many buses of each type are needed to transport all 240 passengers in the least amount of time, considering the restrictions and capacities of each bus type?",
+    "original_steps": [
+        "Step 1: Calculate the time it takes for each bus type to travel the full distance without any restrictions.",
+        "Step 2: Determine the effective capacity of the Blue bus considering its need to return to the starting point after traveling half the distance.",
+        "Step 3: Calculate the number of trips each bus type needs to make to transport all 240 passengers, taking into account the Blue bus's restriction.",
+        "Step 4: Calculate the total time required for each bus type to complete the necessary number of trips.",
+        "Step 5: Combine the results from the previous steps to find the optimal combination of buses that minimizes the total time required to transport all passengers."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the time it takes for each bus type to travel the full distance without any restrictions.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the effective capacity of the Blue bus considering its need to return to the starting point after traveling half the distance.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate the number of trips each bus type needs to make to transport all 240 passengers, taking into account the Blue bus's restriction.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the ମୋଟ (total) time required for each bus type to complete the necessary number of trips.",
+        "ପଦକ୍ଷେପ (step) 5: Combine the results from the previous steps to find the optimal combination of buses that minimizes the ମୋଟ (total) time required to transport all passengers."
+    ],
+    "final_answer": "4 Red buses, 1 Blue bus, and 2 Green buses"
+}

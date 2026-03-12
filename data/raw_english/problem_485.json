@@ -1,0 +1,12 @@
+{
+    "id": "485",
+    "problem": "In the town of Logville, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room to observe the bulbs. The bulb that is on is controlled by switch 2.",
+        "Step 4: The bulb that is off, but warm, is controlled by switch 1.",
+        "Step 5: The remaining bulb, which is off and cold, must be controlled by switch 3."
+    ],
+    "final_answer": "Switch 1 is the bulb that was turned on for 5 minutes, switch 2 is the bulb that is currently on, and switch 3 is the remaining bulb."
+}

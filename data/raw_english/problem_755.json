@@ -1,0 +1,12 @@
+{
+    "id": "755",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 gallons, Tower B can hold 3000 gallons, and Tower C can hold 4000 gallons. The town's water supply system is such that Tower A fills Tower B at a rate of 100 gallons per minute, Tower B fills Tower C at a rate of 150 gallons per minute, and Tower C can empty into the town's reservoir at a rate of 200 gallons per minute. However, due to a malfunction, Tower A can only fill at 3/4 of its normal rate for the first 10 minutes, then it returns to its normal rate. Tower B starts with 1000 gallons of water and Tower C starts with 2000 gallons. How many minutes will it take for all three towers to be completely empty, assuming they start discharging water at the same time and there's no external water source replenishing them?",
+    "reasoning_steps": [
+        "Step 1: Determine the initial conditions and rates of change for all towers, accounting for the malfunction in Tower A.",
+        "Step 2: Calculate the amount of water transferred from Tower A to Tower B during the first 10 minutes, considering Tower A's reduced filling rate.",
+        "Step 3: Calculate the amount of water in Tower B after the first 10 minutes, including the transfer from Tower A and the transfer to Tower C.",
+        "Step 4: Determine the time it takes for Tower B to fill completely after the first 10 minutes, given its capacity and the ongoing transfer rates.",
+        "Step 5: Calculate the total time it takes for Tower C to empty, considering the continuous inflow from Tower B and its outflow into the reservoir."
+    ],
+    "final_answer": "90 minutes"
+}

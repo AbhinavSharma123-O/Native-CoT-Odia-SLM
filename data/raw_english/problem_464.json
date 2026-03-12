@@ -1,0 +1,12 @@
+{
+    "id": "464",
+    "problem": "In the city of Azura, there are three switches, but they are not labelled. Each switch corresponds to one of three light bulbs in a room. Each light bulb is either on or off. You can turn the switches on and off as many times as you want, but you can only enter the room one time to observe the light bulbs. How can you figure out which switch corresponds to which light bulb?",
+    "reasoning_steps": [
+        "Step 1: Turn switch 1 to the 'on' position for 5 minutes to heat up the corresponding bulb.",
+        "Step 2: Turn switch 1 to the 'off' position and turn switch 2 to the 'on' position.",
+        "Step 3: Immediately enter the room and observe the light bulbs. The bulb that is on corresponds to switch 2.",
+        "Step 4: The bulb that is off, but warm, corresponds to switch 1.",
+        "Step 5: The remaining bulb, which is off and cold, must correspond to switch 3."
+    ],
+    "final_answer": "The switches can be identified in a single entry to the room."
+}

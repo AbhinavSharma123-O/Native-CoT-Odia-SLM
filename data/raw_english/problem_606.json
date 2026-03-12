@@ -1,0 +1,12 @@
+{
+    "id": "606",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird starts at the top of the well and flies down 4 feet each day to feed the snail. However, if the bird reaches the snail, it stops flying down. If the bird and the snail meet, they become friends, and the bird starts flying back up 2 feet each day until it reaches the top. How many days will it take for the bird and the snail to become friends and for the bird to return to the top of the well?",
+    "reasoning_steps": [
+        "Step 1: Determine the daily net progress of the snail up the well, which is 3 feet up during the day and 2 feet back down at night, resulting in a net gain of 1 foot per day.",
+        "Step 2: Calculate the number of days it takes for the snail to reach the top of the well. Since the well is 20 feet deep and the snail climbs 3 feet each day but slips back 2 feet at night, the snail effectively climbs 1 foot per day. However, on the final day of climbing, the snail will reach or exceed the top and not slip back, so the calculation should consider this exception.",
+        "Step 3: Determine the day the bird and the snail will meet. The bird descends 4 feet each day, so we need to find the point where the bird's descent intersects with the snail's ascent, keeping in mind the snail's net gain of 1 foot per day.",
+        "Step 4: After the bird and the snail meet, calculate how many days it takes for the bird to fly back up to the top of the well at a rate of 2 feet per day.",
+        "Step 5: Add the days from step 2 (to reach the meeting point) and step 4 (to return to the top) to find the total number of days for the bird to return to the top after meeting the snail."
+    ],
+    "final_answer": "It will take the bird and the snail 16 days to meet and for the bird to return to the top."
+}

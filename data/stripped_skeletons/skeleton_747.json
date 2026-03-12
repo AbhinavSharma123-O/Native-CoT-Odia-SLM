@@ -1,0 +1,20 @@
+{
+    "id": "747",
+    "original_problem": "In the city of Azura, there are three types of temples: A, B, and C. Temple A has 20% more priests than Temple B, and Temple C has 30% fewer priests than Temple A. If Temple B has 120 priests and the total number of priests in all three temples is 540, how many priests are in Temple C? Additionally, if the ratio of cooks to priests in Temple A is 1:5, Temple B is 1:4, and Temple C is 1:3, and the total number of cooks in all temples is 60, how many cooks are in Temple A?",
+    "deconstructed_problem": "In the city of Azura, there are three types of temples: A, B, and C. Temple A has 20% more priests than Temple B, and Temple C has 30% fewer priests than Temple A. ଯଦି (if) Temple B has 120 priests and the ମୋଟ (total) number of priests in all three temples is 540, how many priests are in Temple C? Additionally, ଯଦି (if) the ratio of cooks to priests in Temple A is 1:5, Temple B is 1:4, and Temple C is 1:3, and the ମୋଟ (total) number of cooks in all temples is 60, how many cooks are in Temple A?",
+    "original_steps": [
+        "Step 1: Determine the number of priests in Temple A by calculating 20% more than Temple B, which has 120 priests.",
+        "Step 2: Calculate the number of priests in Temple C, knowing it has 30% fewer priests than Temple A.",
+        "Step 3: Use the total number of priests (540) and the number of priests in Temple B to set up an equation to solve for the number of priests in Temple A and Temple C together.",
+        "Step 4: Solve for the number of priests in Temple C using the information from steps 1-3.",
+        "Step 5: Calculate the number of cooks in Temple A using the ratio of cooks to priests (1:5) once the number of priests in Temple A is known."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the number of priests in Temple A by calculating 20% more than Temple B, which has 120 priests.",
+        "ପଦକ୍ଷେପ (step) 2: Calculate the number of priests in Temple C, knowing it has 30% fewer priests than Temple A.",
+        "ପଦକ୍ଷେପ (step) 3: Use the ମୋଟ (total) number of priests (540) and the number of priests in Temple B to set up an ସମୀକରଣ (equation) to solve for the number of priests in Temple A and Temple C together.",
+        "ପଦକ୍ଷେପ (step) 4: Solve for the number of priests in Temple C using the information from steps 1-3.",
+        "ପଦକ୍ଷେପ (step) 5: Calculate the number of cooks in Temple A using the ratio of cooks to priests (1:5) once the number of priests in Temple A is known."
+    ],
+    "final_answer": "Temple C has 102 priests and Temple A has 12 cooks."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "37",
+    "original_problem": "In a large warehouse, there are three types of boxes: red, blue, and green. The red boxes weigh 10 kilograms each and contain 5 units of product A and 3 units of product B. The blue boxes weigh 15 kilograms each and contain 4 units of product A and 6 units of product B. The green boxes weigh 8 kilograms each and contain 2 units of product A and 4 units of product B. If a shipment of boxes has a total weight of 240 kilograms and contains a total of 120 units of product A and 108 units of product B, how many boxes of each color are in the shipment?",
+    "deconstructed_problem": "In a large warehouse, there are three types of boxes: red, blue, and green. The red boxes weigh 10 kilograms each and contain 5 units of product A and 3 units of product B. The blue boxes weigh 15 kilograms each and contain 4 units of product A and 6 units of product B. The green boxes weigh 8 kilograms each and contain 2 units of product A and 4 units of product B. ଯଦି (if) a shipment of boxes has a ମୋଟ (total) weight of 240 kilograms and contains a ମୋଟ (total) of 120 units of product A and 108 units of product B, how many boxes of each color are in the shipment?",
+    "original_steps": [
+        "Step 1: Define the variables for the number of red, blue, and green boxes as r, b, and g respectively.",
+        "Step 2: Set up equations based on the total weight and the total units of product A and B: 10r + 15b + 8g = 240 for the weight, 5r + 4b + 2g = 120 for product A, and 3r + 6b + 4g = 108 for product B.",
+        "Step 3: Solve the system of linear equations. Start by isolating one variable in one of the equations and substituting it into the other equations to reduce the number of variables.",
+        "Step 4: Use the method of substitution or elimination to solve for the remaining variables, ensuring that all equations are satisfied simultaneously.",
+        "Step 5: Once the values of r, b, and g are found, verify that they are whole numbers since partial boxes are not possible, and that they satisfy all the given conditions."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of red, blue, and green boxes as r, b, and g respectively.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the ମୋଟ (total) weight and the ମୋଟ (total) units of product A and B: 10r + 15b + 8g = 240 for the weight, 5r + 4b + 2g = 120 for product A, and 3r + 6b + 4g = 108 for product B.",
+        "ପଦକ୍ଷେପ (step) 3: Solve the system of linear equations. Start by isolating one ଚଳ (variable) in one of the equations and substituting it into the other equations to reduce the number of variables.",
+        "ପଦକ୍ଷେପ (step) 4: Use the method of substitution or elimination to solve for the remaining variables, ensuring that all equations are satisfied simultaneously.",
+        "ପଦକ୍ଷେପ (step) 5: Once the values of r, b, and g are found, verify that they are whole numbers since partial boxes are not possible, and that they satisfy all the given conditions."
+    ],
+    "final_answer": "r = 6, b = 8, g = 4"
+}

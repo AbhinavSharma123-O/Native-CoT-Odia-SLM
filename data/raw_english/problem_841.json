@@ -1,0 +1,12 @@
+{
+    "id": "841",
+    "problem": "In a small town, there are 5 buses, each with a different capacity: 20, 30, 40, 50, and 60 passengers. The buses operate on 3 different routes: Route A, Route B, and Route C. Route A is 20 km long and requires 2 buses, Route B is 30 km long and requires 3 buses, and Route C is 40 km long and requires 1 bus. Each bus can make a maximum of 5 trips per day, and the town has a total of 600 passengers to transport. The 20-passenger bus can only operate on Route A, the 60-passenger bus can only operate on Route C, and the remaining buses can operate on any route. How many trips must the 40-passenger bus make on Route B to maximize the number of passengers transported, given that all buses must be used at least once and all passengers must be transported?",
+    "reasoning_steps": [
+        "Step 1: Determine the maximum number of passengers that can be transported on each route by calculating the capacity of the buses assigned to each route.",
+        "Step 2: Calculate the total number of passengers that can be transported by the buses operating on Route A, considering the 20-passenger bus is fixed on this route.",
+        "Step 3: Calculate the total number of passengers that can be transported by the buses operating on Route C, considering the 60-passenger bus is fixed on this route.",
+        "Step 4: Determine the remaining number of passengers to be transported on Route B and calculate the required capacity to transport these passengers.",
+        "Step 5: Calculate the number of trips the 40-passenger bus must make on Route B to maximize the number of passengers transported, considering the available capacity on Route B and the constraint that all buses must be used at least once."
+    ],
+    "final_answer": "4"
+}

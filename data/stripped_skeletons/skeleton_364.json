@@ -1,0 +1,26 @@
+{
+    "id": "364",
+    "original_problem": "In a small town, there are 5 families - Smith, Johnson, Williams, Davis, and Miller. Each family has a different favorite sport - basketball, football, baseball, hockey, and soccer. Using the following clues, determine the favorite sport of each family: The Smiths live next to the family that likes hockey. The family that likes football has a daughter who is friends with the Williams' son. The Millers do not live next to the family that likes soccer, but they do live next to the family that likes baseball. The Johnsons like a sport that is played with a ball, but it is not baseball or soccer. The Davis family likes a sport that is played on ice. The Williams family lives at one of the ends of the street. If the Smiths do not like soccer, and the family that likes basketball lives next to the family that likes football, determine the favorite sport of each family and the order in which they live on the street.",
+    "deconstructed_problem": "In a small town, there are 5 families - Smith, Johnson, Williams, Davis, and Miller. Each family has a different favorite sport - basketball, football, baseball, hockey, and soccer. Using the following clues, determine the favorite sport of each family: The Smiths live next to the family that likes hockey. The family that likes football has a daughter who is friends with the Williams' son. The Millers do not live next to the family that likes soccer, but they do live next to the family that likes baseball. The Johnsons like a sport that is played with a ball, but it is not baseball or soccer. The Davis family likes a sport that is played on ice. The Williams family lives at one of the ends of the street. ଯଦି (if) the Smiths do not like soccer, and the family that likes basketball lives next to the family that likes football, determine the favorite sport of each family and the order in which they live on the street.",
+    "original_steps": [
+        "Step 1: Determine the Davis family's favorite sport based on the clue that they like a sport played on ice.",
+        "Step 2: Use the clue about the Smiths living next to the family that likes hockey to establish a relationship between the Smiths and the Davis family.",
+        "Step 3: Apply the clue about the Millers living next to the family that likes baseball to further establish relationships between families.",
+        "Step 4: Utilize the clue about the Johnsons liking a ball sport that is not baseball or soccer to narrow down their possible favorite sport.",
+        "Step 5: Apply the remaining clues about the Williams family, the family that likes basketball, and the family that likes football to determine the order of the families and their favorite sports."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Determine the Davis family's favorite sport based on the clue that they like a sport played on ice.",
+        "ପଦକ୍ଷେପ (step) 2: Use the clue about the Smiths living next to the family that likes hockey to establish a relationship between the Smiths and the Davis family.",
+        "ପଦକ୍ଷେପ (step) 3: Apply the clue about the Millers living next to the family that likes baseball to further establish relationships between families.",
+        "ପଦକ୍ଷେପ (step) 4: Utilize the clue about the Johnsons liking a ball sport that is not baseball or soccer to narrow down their possible favorite sport.",
+        "ପଦକ୍ଷେପ (step) 5: Apply the remaining clues about the Williams family, the family that likes basketball, and the family that likes football to determine the order of the families and their favorite sports."
+    ],
+    "final_answer": {
+        "Smith": "basketball",
+        "Johnson": "football",
+        "Williams": "soccer",
+        "Davis": "hockey",
+        "Miller": "baseball"
+    }
+}

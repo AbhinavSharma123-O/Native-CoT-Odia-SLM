@@ -1,0 +1,12 @@
+{
+    "id": "896",
+    "problem": "In a small town, there are three water towers, each with a different capacity: Tower A can hold 2000 liters, Tower B can hold 3000 liters, and Tower C can hold 4000 liters. The town's water supply system is such that Tower A is filled first, then Tower B, and finally Tower C. On a particular day, due to a malfunction, Tower A is filled to 80% of its capacity, Tower B to 70%, and Tower C to 90%. Later, 1000 liters are transferred from Tower C to Tower B, and then 500 liters are transferred from Tower B to Tower A. What percentage of Tower A's capacity is filled after these transfers, given that no water is lost during the transfers?",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tower after the malfunction: Tower A = 2000 * 0.8 = 1600 liters, Tower B = 3000 * 0.7 = 2100 liters, Tower C = 4000 * 0.9 = 3600 liters.",
+        "Step 2: Calculate the amount of water in each tower after 1000 liters are transferred from Tower C to Tower B: Tower C = 3600 - 1000 = 2600 liters, Tower B = 2100 + 1000 = 3100 liters.",
+        "Step 3: Calculate the amount of water in each tower after 500 liters are transferred from Tower B to Tower A: Tower B = 3100 - 500 = 2600 liters, Tower A = 1600 + 500 = 2100 liters.",
+        "Step 4: Determine the percentage of Tower A's capacity that is filled after the transfers by dividing the final amount of water in Tower A by its capacity and multiplying by 100: (2100 / 2000) * 100.",
+        "Step 5: Calculate the final percentage to find the answer."
+    ],
+    "final_answer": "105"
+}

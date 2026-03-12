@@ -1,0 +1,20 @@
+{
+    "id": "898",
+    "original_problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a total of 240 buildings, with 30% being residential, 45% commercial, and the rest industrial. If the average residential building has 8 apartments, the average commercial building has 12 offices, and the average industrial building has 20 workers, what is the total number of people (residents, office workers, and industrial workers) in the town, assuming each apartment is occupied by 3 people, each office is occupied by 2 people, and each industrial worker corresponds to one person?",
+    "deconstructed_problem": "In a small town, there are three types of buildings: residential, commercial, and industrial. The town has a ମୋଟ (total) of 240 buildings, with 30% being residential, 45% commercial, and the rest industrial. ଯଦି (if) the average residential building has 8 apartments, the average commercial building has 12 offices, and the average industrial building has 20 workers, what is the ମୋଟ (total) number of people (residents, office workers, and industrial workers) in the town, assuming each apartment is occupied by 3 people, each office is occupied by 2 people, and each industrial worker corresponds to one person?",
+    "original_steps": [
+        "Step 1: Calculate the number of each type of building by using the percentages given and the total number of buildings.",
+        "Step 2: Determine the number of residential buildings, then calculate the total number of apartments and residents.",
+        "Step 3: Determine the number of commercial buildings, then calculate the total number of offices and office workers.",
+        "Step 4: Determine the number of industrial buildings and the total number of industrial workers.",
+        "Step 5: Sum the total number of residents, office workers, and industrial workers to find the total population of the town."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the number of each type of building by using the percentages given and the ମୋଟ (total) number of buildings.",
+        "ପଦକ୍ଷେପ (step) 2: Determine the number of residential buildings, ତାହେଲେ (then) calculate the ମୋଟ (total) number of apartments and residents.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the number of commercial buildings, ତାହେଲେ (then) calculate the ମୋଟ (total) number of offices and office workers.",
+        "ପଦକ୍ଷେପ (step) 4: Determine the number of industrial buildings and the ମୋଟ (total) number of industrial workers.",
+        "ପଦକ୍ଷେପ (step) 5: ସମଷ୍ଟି (sum) the ମୋଟ (total) number of residents, office workers, and industrial workers to find the ମୋଟ (total) population of the town."
+    ],
+    "final_answer": "1632"
+}

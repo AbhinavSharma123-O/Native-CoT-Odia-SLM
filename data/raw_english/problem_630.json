@@ -1,0 +1,12 @@
+{
+    "id": "630",
+    "problem": "In a small village, there are three types of shops: bakery, grocery, and clothing. Each shop has a unique number of employees. The total number of employees in all shops is 60. The bakery has 5 more employees than the grocery, and the clothing shop has 10 fewer employees than the bakery and grocery combined. If the grocery shop has 15 employees, how many employees does the clothing shop have?",
+    "reasoning_steps": [
+        "Step 1: Calculate the number of employees in the bakery by adding 5 to the number of employees in the grocery.",
+        "Step 2: Determine the combined number of employees in the bakery and grocery by adding the number of employees in each.",
+        "Step 3: Calculate the number of employees in the clothing shop by subtracting 10 from the combined total of the bakery and grocery.",
+        "Step 4: Verify the total number of employees across all shops equals 60 by adding the employees from the bakery, grocery, and clothing shop.",
+        "Step 5: If the total does not equal 60, re-evaluate the calculations for accuracy."
+    ],
+    "final_answer": "20"
+}

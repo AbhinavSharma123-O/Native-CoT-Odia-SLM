@@ -1,0 +1,16 @@
+{
+    "id": "999",
+    "problem": "In the town of Ashwood, there are three types of coins: gold, silver, and copper. Each gold coin weighs 3 ounces, each silver coin weighs 2 ounces, and each copper coin weighs 1 ounce. A chest contains 30 coins, and the total weight of all coins in the chest is 60 ounces. If the number of copper coins is 5 more than the number of gold coins, and the number of silver coins is 2 less than the number of gold coins, how many coins of each type are in the chest?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the problem, where G represents the number of gold coins, S represents the number of silver coins, and C represents the number of copper coins.",
+        "Step 2: Translate the given conditions into equations based on the defined variables: C = G + 5 and S = G - 2.",
+        "Step 3: Use the information about the total number of coins (G + S + C = 30) and substitute the expressions for S and C from Step 2 to find the value of G.",
+        "Step 4: With the value of G determined, calculate the values of S and C using the equations from Step 2.",
+        "Step 5: Verify that the total weight of the coins (3G + 2S + C) equals 60 ounces, using the values of G, S, and C found in the previous steps."
+    ],
+    "final_answer": {
+        "gold": 8,
+        "silver": 6,
+        "copper": 16
+    }
+}

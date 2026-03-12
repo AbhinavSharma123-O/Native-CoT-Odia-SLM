@@ -1,0 +1,20 @@
+{
+    "id": "111",
+    "original_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters of water, Tank B can hold 500 liters, and Tank C can hold 2000 liters. The town's water supply system is designed such that Tank A is filled from the town's main water pipe at a rate of 50 liters per minute. Tank B is filled from Tank A at a rate of 20 liters per minute, and Tank C is filled from Tank B at a rate of 30 liters per minute. If all tanks are initially empty and the town's main water pipe is turned on for 2 hours, how much water will be in Tank C after 2 hours, given that for every 10 minutes the system operates, 5 liters of water are lost due to leakage from Tank A?",
+    "deconstructed_problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 1000 liters of water, Tank B can hold 500 liters, and Tank C can hold 2000 liters. The town's water supply system is designed such that Tank A is filled from the town's main water pipe at a rate of 50 liters per minute. Tank B is filled from Tank A at a rate of 20 liters per minute, and Tank C is filled from Tank B at a rate of 30 liters per minute. ଯଦି (if) all tanks are initially empty and the town's main water pipe is turned on for 2 hours, how much water will be in Tank C after 2 hours, given that for every 10 minutes the system operates, 5 liters of water are lost due to leakage from Tank A?",
+    "original_steps": [
+        "Step 1: Calculate the total amount of water that can be filled into Tank A from the main water pipe in 2 hours (120 minutes).",
+        "Step 2: Determine how much water is transferred from Tank A to Tank B in 120 minutes, considering the rate and the time Tank A has water to supply.",
+        "Step 3: Calculate how much water is lost from Tank A due to leakage over the 120 minutes.",
+        "Step 4: Calculate the net amount of water in Tank A after 120 minutes, accounting for both the water added and the water lost and transferred.",
+        "Step 5: Determine how much water is transferred from Tank B to Tank C in the time it takes for Tank B to be filled from Tank A, considering the rates and the time water is available in Tank B."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the ମୋଟ (total) amount of water that can be filled into Tank A from the main water pipe in 2 hours (120 minutes).",
+        "ପଦକ୍ଷେପ (step) 2: Determine how much water is transferred from Tank A to Tank B in 120 minutes, considering the rate and the time Tank A has water to supply.",
+        "ପଦକ୍ଷେପ (step) 3: Calculate how much water is lost from Tank A due to leakage over the 120 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: Calculate the net amount of water in Tank A after 120 minutes, accounting for both the water added and the water lost and transferred.",
+        "ପଦକ୍ଷେପ (step) 5: Determine how much water is transferred from Tank B to Tank C in the time it takes for Tank B to be filled from Tank A, considering the rates and the time water is available in Tank B."
+    ],
+    "final_answer": "960"
+}

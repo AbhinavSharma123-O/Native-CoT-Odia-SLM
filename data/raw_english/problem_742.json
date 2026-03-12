@@ -1,0 +1,12 @@
+{
+    "id": "742",
+    "problem": "In a small town, there are three water tanks: A, B, and C. Tank A can hold 2000 liters of water, Tank B can hold 3000 liters, and Tank C can hold 4000 liters. Initially, Tank A is filled to 80% of its capacity, Tank B is filled to 50% of its capacity, and Tank C is filled to 25% of its capacity. Due to a leak, Tank A loses water at a rate of 50 liters per minute, Tank B loses water at a rate of 75 liters per minute, and Tank C loses water at a rate of 100 liters per minute. However, there is also a pump that can transfer water from one tank to another at a rate of 200 liters per minute. If the goal is to have an equal amount of water in all three tanks after 30 minutes and the pump can only be used once to transfer water from Tank C to either Tank A or Tank B, determine the amount of water that should be transferred and the final amount of water in each tank after 30 minutes, assuming that the water level in the tanks decreases linearly over time and that the pump's transfer is instantaneous.",
+    "reasoning_steps": [
+        "Step 1: Calculate the initial amount of water in each tank based on the given percentages of their capacities.",
+        "Step 2: Determine the total amount of water lost by each tank after 30 minutes due to the leaks.",
+        "Step 3: Formulate equations to represent the amount of water in each tank after the pump's transfer, considering the water transferred and the time remaining until the 30-minute mark.",
+        "Step 4: Set up an equation to find the amount of water that needs to be transferred from Tank C to either Tank A or Tank B so that all tanks have an equal amount of water after 30 minutes, taking into account the continuous leak and the pump's transfer.",
+        "Step 5: Solve the equation from Step 4 to find the amount of water to be transferred and then calculate the final amount of water in each tank after 30 minutes."
+    ],
+    "final_answer": "1200 liters in each tank"
+}

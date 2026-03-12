@@ -1,0 +1,12 @@
+{
+    "id": "292",
+    "problem": "In a small town, there are 5 buses (A, B, C, D, E) that operate on different schedules. Each bus has a different capacity (20, 30, 40, 50, 60) and travels a different distance (10, 20, 30, 40, 50) miles per day. The buses also have different fuel efficiencies (5, 10, 15, 20, 25) miles per gallon. On a given day, bus A travels 20 miles, bus B travels 30 miles, bus C travels 10 miles, bus D travels 40 miles, and bus E travels 50 miles. The total fuel consumption for all buses is 100 gallons. If the capacity of bus A is 30, the capacity of bus C is 40, and the fuel efficiency of bus E is 10 miles per gallon, determine the total number of passengers that can be carried by all buses if each bus is filled to 80% of its capacity.",
+    "reasoning_steps": [
+        "Step 1: Determine the fuel efficiency of each bus by using the given information about the total fuel consumption and the distances traveled by each bus.",
+        "Step 2: Calculate the fuel consumption of each bus using the formula: fuel consumption = distance traveled / fuel efficiency.",
+        "Step 3: Find the capacity of each bus by using the given information about the capacities of buses A and C, and the fact that each bus has a different capacity.",
+        "Step 4: Determine the number of passengers that can be carried by each bus if it is filled to 80% of its capacity, using the formula: number of passengers = 0.8 * capacity.",
+        "Step 5: Calculate the total number of passengers that can be carried by all buses by summing up the number of passengers that can be carried by each individual bus."
+    ],
+    "final_answer": "240"
+}

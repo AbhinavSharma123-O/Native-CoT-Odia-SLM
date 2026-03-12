@@ -1,0 +1,20 @@
+{
+    "id": "717",
+    "original_problem": "In a small town, there are three water tanks - A, B, and C. Tank A can hold 1000 liters of water, tank B can hold 800 liters, and tank C can hold 1200 liters. The town's water supply system is such that tank A is filled at a rate of 10 liters per minute, tank B is filled at a rate of 8 liters per minute, and tank C is filled at a rate of 12 liters per minute. However, due to leakage, tank A loses water at a rate of 2 liters per minute, tank B loses water at a rate of 1 liter per minute, and tank C loses water at a rate of 3 liters per minute. If all the tanks are currently empty and the town's water supply system starts filling them at the same time, how many minutes will it take to fill all the tanks?",
+    "deconstructed_problem": "In a small town, there are three water tanks - A, B, and C. Tank A can hold 1000 liters of water, tank B can hold 800 liters, and tank C can hold 1200 liters. The town's water supply system is such that tank A is filled at a rate of 10 liters per minute, tank B is filled at a rate of 8 liters per minute, and tank C is filled at a rate of 12 liters per minute. However, due to leakage, tank A loses water at a rate of 2 liters per minute, tank B loses water at a rate of 1 liter per minute, and tank C loses water at a rate of 3 liters per minute. ଯଦି (if) all the tanks are currently empty and the town's water supply system starts filling them at the same time, how many minutes will it take to fill all the tanks?",
+    "original_steps": [
+        "Step 1: Calculate the net rate at which each tank is being filled by subtracting the leakage rate from the filling rate for each tank.",
+        "Step 2: For tank A, the net filling rate is 10 - 2 = 8 liters per minute. For tank B, it's 8 - 1 = 7 liters per minute. For tank C, it's 12 - 3 = 9 liters per minute.",
+        "Step 3: Determine the time it takes to fill each tank by dividing the tank's capacity by its net filling rate. For tank A, it's 1000 / 8 = 125 minutes. For tank B, it's 800 / 7 = 114.29 minutes. For tank C, it's 1200 / 9 = 133.33 minutes.",
+        "Step 4: Since all tanks are being filled simultaneously, the time it takes to fill all the tanks is determined by the tank that takes the longest to fill, which in this case is tank C.",
+        "Step 5: Therefore, the time it takes to fill all the tanks is the time it takes to fill tank C, as it is the last one to be filled."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Calculate the net rate at which each tank is being filled by subtracting the leakage rate from the filling rate for each tank.",
+        "ପଦକ୍ଷେପ (step) 2: For tank A, the net filling rate is 10 - 2 = 8 liters per minute. For tank B, it's 8 - 1 = 7 liters per minute. For tank C, it's 12 - 3 = 9 liters per minute.",
+        "ପଦକ୍ଷେପ (step) 3: Determine the time it takes to fill each tank by dividing the tank's capacity by its net filling rate. For tank A, it's 1000 / 8 = 125 minutes. For tank B, it's 800 / 7 = 114.29 minutes. For tank C, it's 1200 / 9 = 133.33 minutes.",
+        "ପଦକ୍ଷେପ (step) 4: Since all tanks are being filled simultaneously, the time it takes to fill all the tanks is determined by the tank that takes the longest to fill, which in this case is tank C.",
+        "ପଦକ୍ଷେପ (step) 5: ତେଣୁ (therefore), the time it takes to fill all the tanks is the time it takes to fill tank C, as it is the last one to be filled."
+    ],
+    "final_answer": "133.33"
+}

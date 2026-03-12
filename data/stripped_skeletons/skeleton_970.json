@@ -1,0 +1,20 @@
+{
+    "id": "970",
+    "original_problem": "In the town of Mathoria, there are three types of coins: gold, silver, and copper. Each gold coin weighs 5 grams, each silver coin weighs 3 grams, and each copper coin weighs 1 gram. A merchant has 24 coins in total, with a total weight of 72 grams. If the number of gold coins is 4 more than the number of copper coins, and the number of silver coins is 2 less than the number of gold coins, how many coins of each type does the merchant have?",
+    "deconstructed_problem": "In the town of Mathoria, there are three types of coins: gold, silver, and copper. Each gold coin weighs 5 grams, each silver coin weighs 3 grams, and each copper coin weighs 1 gram. A merchant has 24 coins in ମୋଟ (total), with a ମୋଟ (total) weight of 72 grams. ଯଦି (if) the number of gold coins is 4 more than the number of copper coins, and the number of silver coins is 2 less than the number of gold coins, how many coins of each type does the merchant have?",
+    "original_steps": [
+        "Step 1: Define variables for the number of each type of coin: let G be the number of gold coins, S be the number of silver coins, and C be the number of copper coins.",
+        "Step 2: Set up equations based on the given information: G + S + C = 24 (total number of coins), 5G + 3S + C = 72 (total weight of coins), G = C + 4 (relationship between gold and copper coins), and S = G - 2 (relationship between silver and gold coins).",
+        "Step 3: Use substitution to simplify the equations: substitute S = G - 2 into the first equation to get G + (G - 2) + C = 24, which simplifies to 2G + C = 26.",
+        "Step 4: Use the relationship G = C + 4 to substitute for G in the equation 2G + C = 26, resulting in 2(C + 4) + C = 26, which simplifies to 3C + 8 = 26.",
+        "Step 5: Solve for C: 3C = 26 - 8, 3C = 18, C = 6. Then, use the relationships G = C + 4 and S = G - 2 to find G and S: G = 6 + 4 = 10, S = 10 - 2 = 8."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define variables for the number of each type of coin: let G be the number of gold coins, S be the number of silver coins, and C be the number of copper coins.",
+        "ପଦକ୍ଷେପ (step) 2: Set up equations based on the given information: G + S + C = 24 (ମୋଟ (total) number of coins), 5G + 3S + C = 72 (ମୋଟ (total) weight of coins), G = C + 4 (relationship between gold and copper coins), and S = G - 2 (relationship between silver and gold coins).",
+        "ପଦକ୍ଷେପ (step) 3: Use substitution to simplify the equations: substitute S = G - 2 into the first ସମୀକରଣ (equation) to get G + (G - 2) + C = 24, which simplifies to 2G + C = 26.",
+        "ପଦକ୍ଷେପ (step) 4: Use the relationship G = C + 4 to substitute for G in the ସମୀକରଣ (equation) 2G + C = 26, resulting in 2(C + 4) + C = 26, which simplifies to 3C + 8 = 26.",
+        "ପଦକ୍ଷେପ (step) 5: Solve for C: 3C = 26 - 8, 3C = 18, C = 6. ତାହେଲେ (then), use the relationships G = C + 4 and S = G - 2 to find G and S: G = 6 + 4 = 10, S = 10 - 2 = 8."
+    ],
+    "final_answer": "The merchant has 10 gold coins, 8 silver coins, and 6 copper coins."
+}

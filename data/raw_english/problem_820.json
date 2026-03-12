@@ -1,0 +1,12 @@
+{
+    "id": "820",
+    "problem": "In a small town, there are three types of shops: A, B, and C. Each type of shop has a different number of employees. The total number of employees in all shops is 240. Type A shops have 20 more employees than Type B shops. Type C shops have 3 times the number of employees as Type B shops. If the total number of employees in Type A and Type C shops is 180, how many employees are in Type B shops?",
+    "reasoning_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let's denote the number of employees in Type A, Type B, and Type C shops as A, B, and C, respectively.",
+        "Step 2: Translate the given information into equations. We have: A + B + C = 240 (total employees), A = B + 20 (Type A has 20 more employees than Type B), C = 3B (Type C has 3 times the employees of Type B), and A + C = 180 (total employees in Type A and Type C shops).",
+        "Step 3: Use the equation A = B + 20 and C = 3B to substitute into the equation A + C = 180, yielding (B + 20) + 3B = 180.",
+        "Step 4: Solve the equation from Step 3 for B. This gives us 4B + 20 = 180, which simplifies to 4B = 160, and thus B = 160 / 4 = 40.",
+        "Step 5: Verify that the solution for B is consistent with all given conditions. With B = 40, we find A = 40 + 20 = 60 and C = 3 * 40 = 120. Then, A + B + C = 60 + 40 + 120 = 220, which does not match the total given, indicating a miscalculation in the verification process. Revisit the equations and correct the mistake: if A + C = 180, and we know A = B + 20 and C = 3B, then correctly solving (B + 20) + 3B = 180 leads to 4B + 20 = 180, then 4B = 160, and B = 40. This step was about checking consistency, but let's correctly apply the equations without inconsistency: Given A + B + C = 240 and A + C = 180, we deduce B = 240 - 180 = 60. This means our initial interpretation in Step 4 was incorrect, and we need to re-evaluate our approach based on the equations provided, especially focusing on how A, B, and C relate through the given conditions without assuming incorrect relationships."
+    ],
+    "final_answer": "60"
+}

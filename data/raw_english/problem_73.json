@@ -1,0 +1,12 @@
+{
+    "id": "73",
+    "problem": "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. On the day the snail reaches the top of the well, it does not slip back. Meanwhile, a bird is flying overhead, and for every 2 feet the snail climbs during the day, the bird flies 5 feet. If the bird starts flying from the moment the snail begins climbing and it flies at a constant speed, how many feet will the bird have flown when the snail reaches the top of the well?",
+    "reasoning_steps": [
+        "Step 1: Determine the net progress the snail makes each day by climbing 3 feet and slipping back 2 feet at night.",
+        "Step 2: Calculate the number of days it takes for the snail to reach the top of the well by considering its net progress and the height of the well.",
+        "Step 3: On the final day, calculate how far the snail climbs to reach the top without slipping back, which will be different from its daily climb.",
+        "Step 4: Calculate the total distance the snail climbs during the day over the entire period it takes to reach the top.",
+        "Step 5: Use the ratio given between the snail's climb and the bird's flight to find out how far the bird flies when the snail reaches the top."
+    ],
+    "final_answer": "The bird will have flown 175 feet when the snail reaches the top of the well."
+}

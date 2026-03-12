@@ -1,0 +1,20 @@
+{
+    "id": "790",
+    "original_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The total number of employees in all shops is 240. The number of employees in bakeries is 1/3 of the total number of employees in cafes and restaurants combined. The number of employees in cafes is 2/5 of the number of employees in restaurants. If the number of employees in bakeries is 40, find the number of employees in restaurants.",
+    "deconstructed_problem": "In a small town, there are three types of shops: bakeries, cafes, and restaurants. Each type of shop has a different number of employees. The ମୋଟ (total) number of employees in all shops is 240. The number of employees in bakeries is 1/3 of the ମୋଟ (total) number of employees in cafes and restaurants combined. The number of employees in cafes is 2/5 of the number of employees in restaurants. ଯଦି (if) the number of employees in bakeries is 40, find the number of employees in restaurants.",
+    "original_steps": [
+        "Step 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants.",
+        "Step 2: Use the given information to set up equations based on the relationships between the types of shops. We have B = 40, B = 1/3(C + R), and C = 2/5R.",
+        "Step 3: Substitute the value of B into the equation B = 1/3(C + R) to get 40 = 1/3(C + R), which simplifies to 120 = C + R.",
+        "Step 4: Use the equation C = 2/5R to express C in terms of R. Substitute C = 2/5R into 120 = C + R to solve for R.",
+        "Step 5: Solve the equation 120 = 2/5R + R for R. Multiply every term by 5 to clear the fraction: 600 = 2R + 5R, which simplifies to 600 = 7R. Then, divide both sides by 7 to find R."
+    ],
+    "skeleton_steps": [
+        "ପଦକ୍ଷେପ (step) 1: Define the variables for the number of employees in each type of shop. Let B be the number of employees in bakeries, C be the number of employees in cafes, and R be the number of employees in restaurants.",
+        "ପଦକ୍ଷେପ (step) 2: Use the given information to set up equations based on the relationships between the types of shops. We have B = 40, B = 1/3(C + R), and C = 2/5R.",
+        "ପଦକ୍ଷେପ (step) 3: Substitute the value of B into the ସମୀକରଣ (equation) B = 1/3(C + R) to get 40 = 1/3(C + R), which simplifies to 120 = C + R.",
+        "ପଦକ୍ଷେପ (step) 4: Use the ସମୀକରଣ (equation) C = 2/5R to express C in terms of R. Substitute C = 2/5R into 120 = C + R to solve for R.",
+        "ପଦକ୍ଷେପ (step) 5: Solve the ସମୀକରଣ (equation) 120 = 2/5R + R for R. ଗୁଣନ (multiply) every term by 5 to clear the fraction: 600 = 2R + 5R, which simplifies to 600 = 7R. ତାହେଲେ (then), ହରଣ (divide) both sides by 7 to find R."
+    ],
+    "final_answer": "85.71428571"
+}
